@@ -1,5 +1,9 @@
+language.code=en-GB
+language=English
+
 achievements.achievementUnlocked={0-achievement} unlocked!
 
+//test
 catalogue.notEnoughMoney=Not enough money!
 catalogue.notSellable=This item cannot be sold!
 
@@ -113,15 +117,12 @@ fishing.waiting=...
 hintText.bed=Press (space) or (a) to leave bed
 hintText.chair=Press (space) or (a) to leave chair
 hintText.charge=Charge: {0:P1-chargeLevel}, Right Click or Left Trigger to Cancel
+hintText.checkPlantGrowth={0:P0-percentage} grown
 hintText.inventoryFull=Inventory Full
 hintText.inventorySpaceNeeded=Need at least {0-count} slots in inventory
 hintText.kind=Kind: {0-itemCode}
 hintText.lightTurnOn=The light will turn on after a few seconds
 hintText.oneSlotNeeded=Need at least 1 slot in inventory
-hintText.checkPlantGrowth={0:P0-percentage} grown
-
-language.code=en-GB
-language=English
 
 loading.skip=Skip
 
@@ -129,18 +130,21 @@ multiplayerMenu.back=Back
 multiplayerMenu.joinServer=Join Server
 multiplayerMenu.serverIP=Server IP:
 multiplayerMenu.serverList=Server List
+options=Options
+options.admin=Admin
+options.admin.debug=Debug
 
 options.admin.debug.cameraMode=Camera Mode ((ESC) to exit)
 options.admin.debug.flyMode=Fly Mode
 options.admin.debug.noClipMode=No Clip Mode
 options.admin.debug.showNames=ShowNameTags Mode
 options.admin.debug.wireframeMode=Wireframe Mode
-options.admin.debug=Debug
-options.admin=Admin
 options.admin.description=Adminy stuff
 options.audio=Audio
 options.audio.description=Set audio options here
 options.backButton=(X)
+options.gameplay=Gameplay
+options.gameplay.controller=Controller
 options.gameplay.controller.enableController=Enable Controller Input
 options.gameplay.controller.flipY=Flip Y Axis
 options.gameplay.controller.leftThumbCurve=Left Thumb Curve:
@@ -148,23 +152,23 @@ options.gameplay.controller.leftThumbDeadzone=Left Thumb Deadzone:
 options.gameplay.controller.rightThumbCurve=Right Thumb Curve:
 options.gameplay.controller.rightThumbDeadzone=Right Thumb Deadzone:
 options.gameplay.controller.rightThumbVelocity=Right Thumb Velocity:
-options.gameplay.controller=Controller
+options.gameplay.description=Set gameplay options here
 options.gameplay.keyboard=Keyboard
+options.gameplay.mouse=Mouse
 options.gameplay.mouse.flipWheelDirection=Flip Wheel Direction
 options.gameplay.mouse.flipY=Flip Y Axis
 options.gameplay.mouse.mouseVelocity=Mouse Velocity:
-options.gameplay.mouse=Mouse
+options.gameplay.other=Other
 options.gameplay.other.activeAchievement=Active Achievement Tracker
 options.gameplay.other.chatTimestamps=Chat Timestamps
 options.gameplay.other.leftHandedMode=Left Handed Mode
-options.gameplay.other=Other
-options.gameplay=Gameplay
-options.gameplay.description=Set gameplay options here
+options.general=General
+options.general.audio=Audio
 options.general.audio.ambience=Ambience:
 options.general.audio.master=Master:
 options.general.audio.music=Music:
 options.general.audio.sound=Sound:
-options.general.audio=Audio
+options.general.graphics=Graphics
 options.general.graphics.bloom=Bloom
 options.general.graphics.cameraDistance=Camera Distance:
 options.general.graphics.fieldOfView=Field Of View:
@@ -182,19 +186,16 @@ options.general.graphics.showGridCursor=Show Grid Cursor
 options.general.graphics.superLow=Super Low
 options.general.graphics.superSampling=Super Sampling
 options.general.graphics.ultra=Ultra
-options.general.graphics=Graphics
 options.general.graphics2=Graphics 2
 options.general.language=Language
-options.general=General
+options.misc=Misc
 options.misc.reset=Reset
 options.misc.resetCurrent=Reset Current Changes
 options.misc.resetToDefault=Reset to Default Settings
-options.misc=Misc
-options.network.preferences=Preferences
 options.network=Network
+options.network.preferences=Preferences
 options.video=Video
 options.video.description=Set video options here
-options=Options
 
 serverBrowser.back=Back
 serverBrowser.noServers=No servers or master server unreachable
