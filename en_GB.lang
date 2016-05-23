@@ -23,7 +23,6 @@ characterDesigner.shoes=Shoes:
 characterDesigner.skinColour=Skin Colour:
 characterDesigner.species=Species:
 characterDesigner.trousers=Trousers:
-
 commands.advanceTime.description=advanceTime amount(0.0-1.0)
 commands.advanceTime.enterFloat=Enter a float by which to advance time. 1.0 is a full day
 commands.advanceTime.mustBeNumber=failed: arg(1) must be a number. Floating points OK
@@ -42,6 +41,9 @@ commands.cameraSave.description=cameraSave cameraSaveFilePath
 commands.cameraSave.success=Saved player camera to file: {0-filename}
 commands.cameraStop.description=cameraStop
 commands.cameraStop.success=Stopped camera mode
+
+commands.currentTime.description=currentTime
+commands.currentTime.success=The day is {0-day} and phase is {1:G2-phase}.
 commands.describeItem.description=describeitem (optional)playerName
 commands.describeItem.success=Item description: {0-itemDesc}
 commands.flyMode.description=fly (optional)playerName (optional)startFlying(true/false)
