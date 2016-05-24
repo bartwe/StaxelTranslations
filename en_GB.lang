@@ -41,13 +41,15 @@ commands.cameraSave.description=cameraSave cameraSaveFilePath
 commands.cameraSave.success=Saved player camera to file: {0-filename}
 commands.cameraStop.description=cameraStop
 commands.cameraStop.success=Stopped camera mode
-
 commands.currentTime.description=currentTime
 commands.currentTime.success=The day is {0-day} and phase is {1:G2-phase}.
 commands.describeItem.description=describeitem (optional)playerName
 commands.describeItem.success=Item description: {0-itemDesc}
 commands.flyMode.description=fly (optional)playerName (optional)startFlying(true/false)
 commands.flyMode.success=Switched flying mode to: {0-flymode}
+commands.givePetals.description=givepetals playerName amount
+commands.givePetals.invalidNumber=Petal amount needs to be a positive number
+commands.givePetals.success=Gave {0-player} {1-amount} petals
 commands.help.altDescription=? (optional)commandName
 commands.help.commandNotFound=Command not found: '{0-command}'
 commands.help.description=help (optional)commandName
