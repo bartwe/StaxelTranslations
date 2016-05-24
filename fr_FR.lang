@@ -2,12 +2,12 @@ language.code=fr-FR
 language=Français
 
 achievements.achievementUnlocked={0-achievement} débloqué !
-catalogue.buy=
+catalogue.buy=Acheter à :
 catalogue.notEnoughMoney=Vous n'avez pas assez d'argent !
 catalogue.notSellable=Cet objet ne peut pas être vendu !
-catalogue.performSale=
-catalogue.sell=
-catalogue.total=
+catalogue.performSale=Vendre
+catalogue.sell=Vendre à :
+catalogue.total=Total
 
 characterDesigner.accept=OK (A)
 characterDesigner.back=Retour (B)
@@ -40,15 +40,15 @@ commands.cameraSave.description=cameraSave cameraSaveFilePath
 commands.cameraSave.success=Caméra du joueur enregistrée sous le fichier « {0-filename} »
 commands.cameraStop.description=cameraStop
 commands.cameraStop.success=Mode caméra désactivé
-commands.currentTime.description=
+commands.currentTime.description=currentTime
 commands.currentTime.success=
 commands.describeItem.description=describeitem (facultatif)playerName
 commands.describeItem.success=Description de l'objet : {0-itemDesc}
 commands.flyMode.description=fly (facultatif)playerName (facultatif)startFlying(true/false)
 commands.flyMode.success=La valeur du mode vol a été modifiée en : {0-flymode}
-commands.givePetals.description=
-commands.givePetals.invalidNumber=
-commands.givePetals.success=
+commands.givePetals.description=givepetals playerName amount
+commands.givePetals.invalidNumber=Le nombre de pétales doit être positif
+commands.givePetals.success=Gave {0-player} {1-amount} pétales
 commands.help.altDescription=? (facultatif)commandName
 commands.help.commandNotFound=Commande « {0-command} » non trouvée
 commands.help.description=help (facultatif)commandName
@@ -118,7 +118,7 @@ escapeMenu.mainMenu=Retour au menu principal
 escapeMenu.options=Paramètres
 
 fishing.gotAway=Il s'est enfuit !
-fishing.hooked=
+fishing.hooked=Quelque chose mord à l'hameçon !
 
 hintText.bed=Appuyez sur (space) ou sur (a) pour sortir du lit
 hintText.chair=Appuyez sur (space) ou sur (a) pour vous lever
@@ -307,7 +307,7 @@ staxel.category.white=Blanc
 staxel.category.window=Fenêtre
 staxel.category.yellow=Jaune
 staxel.category.yorkshire=Yorkshire
-staxel.item.crafting.BakingPowder.description=
-staxel.item.crafting.BakingPowder.name=
+staxel.item.crafting.BakingPowder.description=De la levure servant à cuisiner.
+staxel.item.crafting.BakingPowder.name=Levure chimique
 
 version.developmentBuild=Version de développement - Staxel
