@@ -42,6 +42,8 @@ commands.cameraSave.description=cameraSave cameraSaveFilePath
 commands.cameraSave.success=Saved player camera to file: {0-filename}
 commands.cameraStop.description=cameraStop
 commands.cameraStop.success=Stopped camera mode
+commands.creative.description=creative (optional)playerName (optional)startCreativeMode(true/false)
+commands.creative.success=Switched creative mode for {0-user} to {1-creative}
 commands.currentTime.description=currentTime
 commands.currentTime.success=The day is {0-day} and phase is {1:G2-phase}.
 commands.describeItem.description=describeitem (optional)playerName
@@ -146,6 +148,7 @@ options.admin=Admin
 options.admin.debug=Debug
 
 options.admin.debug.cameraMode=Camera Mode ((ESC) to exit)
+options.admin.debug.creativeMode=Creative Mode
 options.admin.debug.flyMode=Fly Mode
 options.admin.debug.noClipMode=No Clip Mode
 options.admin.debug.showNames=ShowNameTags Mode
