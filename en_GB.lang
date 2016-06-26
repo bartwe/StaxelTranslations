@@ -15,7 +15,6 @@ characterDesigner.accept=Accept
 characterDesigner.accessories=Accessories
 characterDesigner.cancel=Cancel
 
-characterDesigner.colour=
 characterDesigner.eyes=Eyes
 characterDesigner.hair=Hair
 characterDesigner.hat=Hat
@@ -117,6 +116,11 @@ commands.tileAt.description=tileAt (optional)location({0,0,0})
 commands.tileAt.failParse=Failed to parse position {0-position}
 commands.tileAt.notFound=Tile not found
 commands.tileAt.success=Tile code: {0-tilecode}
+
+commands.traceStart.description=
+commands.traceStart.success=
+commands.traceStop.description=
+commands.traceStop.success=
 commands.unknown=Unknown command :'{0-command}'
 commands.unknownError=Unknown error.
 commands.unrecognised=Unrecognised command :'{0-command}'
@@ -616,8 +620,8 @@ staxel.category.trough=Trough
 staxel.category.trunk=Trunk
 staxel.category.tulip=Tulip
 staxel.category.turnip=Turnip
-staxel.category.tv=tv
 staxel.category.TV=TV
+staxel.category.tv=tv
 staxel.category.vanity=Vanity
 staxel.category.vegetable=Vegetable
 staxel.category.vine=Vine
@@ -2004,5 +2008,3 @@ staxel.tree.PeachTree.description=
 staxel.tree.PeachTree.name=Peach Tree
 
 version.developmentBuild=Staxel Development Build
-
-characterDesigner.colour=
