@@ -125,12 +125,13 @@ commands.traceStop.success=
 commands.unknown=Unknown command :'{0-command}'
 commands.unknownError=Unknown error.
 commands.unrecognised=Unrecognised command :'{0-command}'
-cooking.action.cut=Cut {0-item}
-
 cooking.action.keyword.boil=Boil
 cooking.action.keyword.cut=Cut
 cooking.action.keyword.mix=Mix
-cooking.action.mix.twoItem=Mix {0-itemOne} and {1-itemTwo}
+cooking.action.task.oneItem={0-keyword} {1-item}
+cooking.action.task.twoItem={0-keyword} {1-itemOne} and {2-itemTwo}
+
+cooking.grouping.starters=Starters
 
 credits.13lueWolf.description=Helped out with the Staxel interface.
 credits.amos.description=He helped out a bunch with the programming of the game.
@@ -252,6 +253,7 @@ options.video=Video
 options.video.description=Set video options here
 
 recipeBook.ingredients=Ingredients
+recipeBook.noRecipes=No recipes
 recipeBook.process=Process
 
 serverBrowser.back=Back to main menu
@@ -851,7 +853,7 @@ staxel.category.writing=Writing
 staxel.category.yellow=Yellow
 staxel.category.yorkshire=Yorkshire
 staxel.crafting.recipes.tomatoSoup.description=
-staxel.crafting.recipes.tomatoSoup.name=
+staxel.crafting.recipes.tomatoSoup.name=Tomato Soup
 staxel.crop.Beet.description=
 staxel.crop.Beet.name=Beetroot
 staxel.crop.Carrot.description=A healthy looking carrot.
@@ -963,8 +965,7 @@ staxel.item.crafting.PlainFlour.name=
 staxel.item.crafting.Pot.description=
 staxel.item.crafting.Pot.name=
 staxel.item.crafting.PotTomatoSoup.description=
-
-staxel.item.crafting.PotTomatoSoup.name=
+staxel.item.crafting.PotTomatoSoup.name=Tomato Soup
 staxel.item.crafting.RaspberryPie.description=
 staxel.item.crafting.RaspberryPie.name=
 staxel.item.crafting.RawStone.description=
