@@ -128,13 +128,9 @@ commands.unrecognised=Unrecognised command :'{0-command}'
 cooking.action.keyword.boil=Boil
 cooking.action.keyword.cut=Cut
 cooking.action.keyword.mix=Mix
+cooking.action.task.listedItems={0-itemOne}, {1-itemTwo}
+cooking.action.task.multiItem={0-keyword} {1-listedItems} and {2-lastListedItem}
 cooking.action.task.oneItem={0-keyword} {1-item}
-cooking.action.task.twoItem={0-keyword} {1-itemOne} and {2-itemTwo}
-cooking.grouping.desserts=Desserts
-
-cooking.grouping.mainCourses=Main Courses
-
-cooking.grouping.starters=Starters
 
 credits.13lueWolf.description=Helped out with the Staxel interface.
 credits.amos.description=He helped out a bunch with the programming of the game.
@@ -256,6 +252,13 @@ options.network.preferences=Preferences
 options.video=Video
 options.video.description=Set video options here
 
+recipeBook.grouping.desserts=Desserts
+recipeBook.grouping.fencing=Fencing
+recipeBook.grouping.flooring=Flooring
+recipeBook.grouping.mainCourses=Main Courses
+recipeBook.grouping.roofing=Roofing
+recipeBook.grouping.starters=Starters
+recipeBook.grouping.walling=Walling
 recipeBook.ingredients=Ingredients
 recipeBook.noRecipes=No recipes
 recipeBook.process=Process
@@ -971,6 +974,9 @@ staxel.item.crafting.PlainFlour.description=
 staxel.item.crafting.PlainFlour.name=
 staxel.item.crafting.Pot.description=
 staxel.item.crafting.Pot.name=
+staxel.item.crafting.PotOnionSoup.description=
+
+staxel.item.crafting.PotOnionSoup.name=
 staxel.item.crafting.PotTomatoSoup.description=
 staxel.item.crafting.PotTomatoSoup.name=Tomato Soup
 staxel.item.crafting.RaspberryPie.description=
