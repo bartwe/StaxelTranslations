@@ -125,6 +125,16 @@ commands.traceStop.success=
 commands.unknown=Unknown command :'{0-command}'
 commands.unknownError=Unknown error.
 commands.unrecognised=Unrecognised command :'{0-command}'
+cooking.action.keyword.boil=Boil
+cooking.action.keyword.cut=Cut
+cooking.action.keyword.mix=Mix
+cooking.action.task.oneItem={0-keyword} {1-item}
+cooking.action.task.twoItem={0-keyword} {1-itemOne} and {2-itemTwo}
+cooking.grouping.desserts=Desserts
+
+cooking.grouping.mainCourses=Main Courses
+
+cooking.grouping.starters=Starters
 
 credits.13lueWolf.description=Helped out with the Staxel interface.
 credits.amos.description=He helped out a bunch with the programming of the game.
@@ -164,10 +174,13 @@ hintText.checkPlantGrowth={0:P0-percentage} grown
 hintText.inventoryFull=Inventory Full
 hintText.inventorySpaceNeeded=Need at least {0-count} slots in inventory
 hintText.kind=Kind: {0-itemCode}
+hintText.learnRecipe=Read this to learn the recipe for {0-recipe}
 hintText.lightTurnOn=The light will turn on after a few seconds
 hintText.needTilledTile=Try planting on tilled soil
 hintText.notEnoughSpaceToPlant=This plant needs more space to grow
 hintText.oneSlotNeeded=Need at least 1 slot in inventory
+hintText.recipeKnown=You already know this recipe
+hintText.recipeLearnt=You successfully learnt the recipe!
 
 loading.skip=Skip
 
@@ -244,6 +257,7 @@ options.video=Video
 options.video.description=Set video options here
 
 recipeBook.ingredients=Ingredients
+recipeBook.noRecipes=No recipes
 recipeBook.process=Process
 
 serverBrowser.back=Back to main menu
@@ -506,6 +520,8 @@ staxel.category.countertop=Countertop
 
 staxel.category.cow=
 staxel.category.crafting=Crafting
+
+staxel.category.craftingStation=
 staxel.category.crate=Crate
 staxel.category.cream=
 staxel.category.credenza=Credenza
@@ -840,6 +856,11 @@ staxel.category.workbench=Workbench
 staxel.category.writing=Writing
 staxel.category.yellow=Yellow
 staxel.category.yorkshire=Yorkshire
+staxel.crafting.recipes.onionSoup.description=
+
+staxel.crafting.recipes.onionSoup.name=
+staxel.crafting.recipes.tomatoSoup.description=
+staxel.crafting.recipes.tomatoSoup.name=Tomato Soup
 staxel.crop.Beet.description=
 staxel.crop.Beet.name=Beetroot
 staxel.crop.Carrot.description=A healthy looking carrot.
@@ -950,6 +971,8 @@ staxel.item.crafting.PlainFlour.description=
 staxel.item.crafting.PlainFlour.name=
 staxel.item.crafting.Pot.description=
 staxel.item.crafting.Pot.name=
+staxel.item.crafting.PotTomatoSoup.description=
+staxel.item.crafting.PotTomatoSoup.name=Tomato Soup
 staxel.item.crafting.RaspberryPie.description=
 staxel.item.crafting.RaspberryPie.name=
 staxel.item.crafting.RawStone.description=
@@ -1034,7 +1057,7 @@ staxel.item.crops.SweetPotato.description=
 staxel.item.crops.SweetPotato.name=
 staxel.item.crops.Tangerine.name=
 staxel.item.crops.Tomato.description=
-staxel.item.crops.Tomato.name=
+staxel.item.crops.Tomato.name=Tomato
 staxel.item.crops.Turnip.description=
 staxel.item.crops.Turnip.name=
 staxel.item.farmAnimals.CowFood.description=
@@ -1671,6 +1694,8 @@ staxel.tileObject.serverVillage.CeilingBeam.description=
 staxel.tileObject.serverVillage.CeilingBeam.name=Ceiling Beam
 staxel.tileObject.serverVillage.ChestOfDrawers.description=
 staxel.tileObject.serverVillage.ChestOfDrawers.name=Basic Chest of Drawers
+staxel.tileObject.serverVillage.ChoppingStation.description=
+staxel.tileObject.serverVillage.ChoppingStation.name=
 staxel.tileObject.serverVillage.CoffeeTable.description=
 staxel.tileObject.serverVillage.CoffeeTable.name=Basic Coffee Table
 staxel.tileObject.serverVillage.Corn.description=
