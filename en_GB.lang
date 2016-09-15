@@ -107,6 +107,8 @@ commands.resetPlayer.description=resetplayer
 commands.resetPlayer.success=Reset successful.
 commands.serverCreative.description=creativeMode (optional)on(true/false)
 commands.serverCreative.success=Switched server creative mode to {0-creative}
+commands.spawnCoins.description=spawncoins playerName petalAmount
+commands.spawnCoins.success=Spawned {0-amount} petals in coins for {1-player}
 commands.spawnItem.description=spawnitem playerName item(kind/specification{})
 commands.spawnItem.notFound=Item kind not found.
 commands.spawnItem.success=Spawn item successful.
@@ -441,9 +443,6 @@ staxel.achievement.MakeJam.name=Make jam
 staxel.achievement.OrderItem.description=Place an order for any item in the shipping catalogue
 
 staxel.achievement.OrderItem.name=Order an item
-staxel.achievement.PlaceFurniture.description=Spruce up your home by adding some decor!
-
-staxel.achievement.PlaceFurniture.name=Place furniture
 staxel.achievement.PlantCrop.description=Plant a seed in tilled soil
 staxel.achievement.PlantCrop.name=Plant a seed
 staxel.achievement.SellItem.description=Sell one of your freshly harvested crops via the shipping station
@@ -453,7 +452,6 @@ staxel.achievement.WaterCrop.description=Use the watering can to water a crop
 
 staxel.achievement.WaterCrop.name=Water a crop
 staxel.achievements.descriptions.OrderItem.text=Orders placed for {0-item}
-staxel.achievements.descriptions.PlaceItem.text={0-item} placed
 staxel.achievements.descriptions.PlantItem.text={0-item} planted
 staxel.achievements.descriptions.SellItem.text=Sales of {0-item}
 staxel.achievements.WaterCrop.text=crops watered
@@ -628,8 +626,6 @@ staxel.category.drum=Drum
 staxel.category.dry=Dry
 staxel.category.dungeon=Dungeon
 staxel.category.Edge=Edge
-
-staxel.category.edible=Edible
 staxel.category.egg=Egg
 staxel.category.eggplant=Eggplant
 staxel.category.emote=Emote
@@ -2700,7 +2696,6 @@ staxel.tree.AppleTree.name=Apple Tree
 staxel.tree.BananaTree.name=This tree grows yummy bananas.
 staxel.tree.CherryTree.description=This tree grows sweet sweet cherries
 staxel.tree.CherryTree.name=Cherry Tree
-staxel.tree.CocoaTree.description=
 staxel.tree.CocoaTree.name=
 staxel.tree.CoconutTree.description=This palm tree grows coconuts, mind your head!
 staxel.tree.CoconutTree.name=Coconut Tree
