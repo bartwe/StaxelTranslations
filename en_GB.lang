@@ -141,15 +141,16 @@ controllerHints.materialPick=Material Quick-Pick
 
 controllerHints.movement=Movement
 controllerHints.placeAndRotate=Place and Rotate
-cooking.action.keyword.bake=Bake
-cooking.action.keyword.boil=Boil
-cooking.action.keyword.combine=
-cooking.action.keyword.cut=Cut
-cooking.action.keyword.mix=Mix
-cooking.action.task.listedItems={0-itemOne}, {1-itemTwo}
-cooking.action.task.multiItem={0-keyword} {1-listedItems} and {2-lastListedItem}
-cooking.action.task.multiples={0-count}x {1-item}
-cooking.action.task.oneItem={0-keyword} {1-item}
+crafting.action.keyword.bake=Bake
+crafting.action.keyword.boil=Boil
+crafting.action.keyword.combine=
+crafting.action.keyword.cut=Cut
+crafting.action.keyword.fry=
+crafting.action.keyword.mix=Mix
+crafting.action.task.listedItems={0-itemOne}, {1-itemTwo}
+crafting.action.task.multiItem={0-keyword} {1-listedItems} and {2-lastListedItem}
+crafting.action.task.multiples={0-count}x {1-item}
+crafting.action.task.oneItem={0-keyword} {1-item}
 
 crafting.recipeComplete=You completed the recipe for {0-item}!
 
@@ -1957,6 +1958,7 @@ staxel.tileObject.animalFurniture.ChickenFeedAreaEmpty.description=A large area 
 staxel.tileObject.animalFurniture.ChickenFeedAreaEmpty.name=Chicken Feeding Area
 staxel.tileObject.animalFurniture.ChickenFeedAreaFull.description=A large area where chicken feed can be placed.
 staxel.tileObject.animalFurniture.ChickenFeedAreaFull.name=Chicken Feeding Area
+staxel.tileObject.animalFurniture.ChickenSign.description=
 staxel.tileObject.animalFurniture.ChickenSign.name=
 staxel.tileObject.animalFurniture.CowSign.name=
 staxel.tileObject.animalFurniture.PigSign.name=
@@ -1990,6 +1992,8 @@ staxel.tileObject.blueroof.BlueRoof_RightStraight.name=Blue Tiled Roof - Right E
 staxel.tileObject.bobbleheads.BartweBobbleHead.name=
 staxel.tileObject.bobbleheads.CallumBobbleHead.name=
 staxel.tileObject.bobbleheads.CatBobbleHead.name=
+
+staxel.tileObject.bobbleheads.ChickenBobbleHead.description=
 staxel.tileObject.bobbleheads.ChickenBobbleHead.name=
 staxel.tileObject.bobbleheads.CowBobbleHead.name=
 staxel.tileObject.bobbleheads.EgaddBobbleHead.name=
@@ -2809,6 +2813,7 @@ staxel.tree.LemonTree.name=Lemon Tree
 staxel.tree.LimeTree.description=A tree that produces bright green and zingy limes.
 staxel.tree.LimeTree.name=Lime Tree
 staxel.tree.MangoTree.name=Mango Tree
+staxel.tree.OrangeTree.description=
 staxel.tree.OrangeTree.name=Orange Tree
 staxel.tree.PeachTree.description=This tree grows succulent peaches.
 staxel.tree.PeachTree.name=Peach Tree
@@ -2817,6 +2822,3 @@ staxel.tree.TangerineTree.description=This tree grows tangerines, not oranges.
 staxel.tree.TangerineTree.name=Tangerine Tree
 
 version.developmentBuild=Staxel Development Build
-
-staxel.tileObject.bobbleheads.ChickenBobbleHead.description=
-staxel.tileObject.animalFurniture.ChickenSign.description=
