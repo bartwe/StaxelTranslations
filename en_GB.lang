@@ -91,6 +91,7 @@ commands.help.altDescription=? (optional)commandName
 commands.help.commandNotFound=Command not found: '{0-command}'
 commands.help.description=help (optional)commandName
 commands.help.success=Command list (() brackets denote possible values):
+commands.inspect.success=
 commands.invalidArgs=invalid args
 commands.model.description=model (optional)playerName (optional)modelFileName
 commands.model.notFound=Could not switch to character model '{0-model}' not found in assets.
@@ -849,6 +850,7 @@ staxel.category.main=Main
 staxel.category.maize=Maize
 staxel.category.mango=Mango
 staxel.category.market=Market
+staxel.category.marmalade=
 staxel.category.metal=Metal
 staxel.category.middle=Middle
 staxel.category.milk=Milk
@@ -942,6 +944,7 @@ staxel.category.sale=Sale
 staxel.category.salt=Salt
 staxel.category.sand=Sand
 staxel.category.sandwich=Sandwich
+staxel.category.sauce=
 staxel.category.sausages=Sausages
 staxel.category.saw=Saw
 staxel.category.scarecrow=Scarecrow
@@ -1228,6 +1231,8 @@ staxel.item.crafting.CakeCarrotBatter.name=
 staxel.item.crafting.CakeChocolate.description=One of the classics, you can't go wrong with a chocolate cake.
 staxel.item.crafting.CakeChocolate.name=Chocolate Cake
 staxel.item.crafting.CakeChocolateBatter.name=Chocolate Cake Batter
+
+staxel.item.crafting.CakeJam.name=
 staxel.item.crafting.CakePlain.description=
 staxel.item.crafting.CakePlain.name=
 staxel.item.crafting.CakePlainBatter.name=
@@ -1715,10 +1720,10 @@ staxel.notifications.feeder.CantFill=Can't fill the feeder with this
 staxel.notifications.feeder.Filled=Filled with {0} units!
 
 staxel.notifications.Hammer.WrongTool=
-staxel.notifications.newHomePosition=New home position set!
 
 staxel.notifications.Hoe.WrongTool=
 staxel.notifications.milker.NotLookingAtMilkableAnimal=Try a milkable animal
+staxel.notifications.newHomePosition=New home position set!
 
 staxel.notifications.Pickaxe.WrongTool=
 staxel.notifications.Scythe.WrongTool=
@@ -2569,6 +2574,7 @@ staxel.tileObject.serverVillage.exterior.SmallHedgeStraight.name=Low Hedge - Str
 staxel.tileObject.serverVillage.exterior.SmallHomelyBush.description=A good way to divide up land without being too obtrusive.
 staxel.tileObject.serverVillage.exterior.SmallHomelyBush.name=Small Shrub
 staxel.tileObject.serverVillage.exterior.SmallWoodenPoleFenceCorner.name=Low Wooden Fence
+staxel.tileObject.serverVillage.exterior.SmallWoodenPoleFenceMiddle.description=
 staxel.tileObject.serverVillage.exterior.SmallWoodenPoleFenceMiddle.name=Low Wooden Fence
 staxel.tileObject.serverVillage.exterior.SmallWoodenPoleFenceTSection.name=
 staxel.tileObject.serverVillage.exterior.SolidSlabFlooring.description=Flooring which is great for both indoors and outdoors.
@@ -3013,8 +3019,3 @@ staxel.tree.TangerineTree.description=This tree grows tangerines, not oranges.
 staxel.tree.TangerineTree.name=Tangerine Tree
 
 version.developmentBuild=Staxel Development Build
-
-staxel.item.crafting.CakeJam.name=
-staxel.tileObject.serverVillage.exterior.SmallWoodenPoleFenceMiddle.description=
-staxel.category.marmalade=
-staxel.category.sauce=
