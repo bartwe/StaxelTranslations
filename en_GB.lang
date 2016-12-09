@@ -3104,3 +3104,12 @@ version.developmentBuild=Staxel Development Build
 wardrobe.CantEquip=Can't equip this here!
 
 playerList.playerCount=Players Online:
+commands.ban.description=ban playerName (optional)reason
+commands.ban.failure=Unable to ban {0-player}: player is an admin or already banned.
+commands.ban.success={0-player} has been banned from the server.
+commands.unban.description=unban playerName
+commands.unban.failure=Unable to unban {0-player}: player was not banned.
+commands.unban.success={0-player} has been unbanned from the server.
+commands.kick.description=kick playerName
+commands.kick.failure=Unable to kick {0-player}: player is an admin or not online.
+commands.kick.success={0-player} has been ejected from the server.
