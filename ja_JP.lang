@@ -5,11 +5,14 @@ font=staxel/fonts/Mamelon.otf
 achievements.achievementUnlocked=
 catalogue.buy=
 catalogue.clear=
+
 catalogue.notEnoughMoney=
 catalogue.notSellable=
 catalogue.performSale=
 catalogue.sell=
 catalogue.total=
+
+//キャラクターデザイン
 characterDesigner.accept=確認
 characterDesigner.accessories=アクセサリ
 characterDesigner.cancel=戻る
@@ -46,6 +49,8 @@ characterDesigner.subcategory.tshirt=Tシャツ
 characterDesigner.subcategory.vest=ベスト
 characterDesigner.title=キャラクターデザイン
 characterDesigner.trousers=ズボン
+
+//コマンド
 commands.advanceTime.description=
 commands.advanceTime.enterFloat=
 commands.advanceTime.mustBeNumber=
@@ -158,11 +163,13 @@ commands.unmute.description=
 commands.unmute.failure=
 commands.unmute.success=
 commands.unrecognised=
+//操作のヒント
 controllerHints.hotkeys=アイテムのホットキー
 controllerHints.inventory=インベントリを開く
 controllerHints.materialPick=
 controllerHints.movement=キャラクターを動かす
 controllerHints.placeAndRotate=インベントリを回転
+//クラフト画面
 crafting.action.keyword.bake=焼く
 crafting.action.keyword.boil=温める
 crafting.action.keyword.combine=混ぜる
@@ -175,6 +182,7 @@ crafting.action.task.multiples=
 crafting.action.task.oneItem=
 crafting.notifications.failedCraft=
 crafting.recipeComplete=
+//スタッフ一覧の部分
 credits.13lueWolf.description=
 credits.amos.description=
 credits.back=
@@ -195,6 +203,7 @@ debug.MissingNotification=
 error.back=
 error.serverOffline=
 error.sorry=
+//Escのメニュー画面
 escapeMenu.back=ゲームに戻る
 escapeMenu.characterDesigner=キャラクターをリメイク
 escapeMenu.controlHints=コントロールヒント
@@ -202,6 +211,7 @@ escapeMenu.desktopExit=デスクトップに戻る
 escapeMenu.mainMenu=メインメニューに戻る
 escapeMenu.options=設定
 escapeMenu.returnHome=リスポーンする
+//釣り
 fishing.gotAway=
 fishing.hooked=
 fishing.success1=
@@ -231,10 +241,12 @@ hintText.recipeLearnt=
 loading.bundles=
 
 loading.skip=スキップ
+//マルチメニュー
 multiplayerMenu.back=メニューに戻る
 multiplayerMenu.joinServer=サーバにログインする
 multiplayerMenu.serverIP=
 multiplayerMenu.serverList=サーバーリスト
+//設定
 options=設定
 options.admin=開発者向け
 options.admin.debug=デバッグ
@@ -242,14 +254,15 @@ options.admin.debug.cameraMode=カメラモード(Escで戻る)
 options.admin.debug.creativeMode=クリエイティブモード
 options.admin.debug.flyMode=飛行モード
 options.admin.debug.noClipMode=ブロック透過モード
-options.admin.debug.showNames=
+options.admin.debug.showNames=ネームタグを表示する
 options.admin.debug.wireframeMode=ワイヤーフレームモード
 options.admin.description=開発者向けの設定です!
 options.audio=オーディオ
 options.audio.description=ここでオーディオに関する設定をしてください!
+//下の一行は改変しなくてよいと思われる
 options.backButton=
 options.gameplay=ゲームプレイ
-options.gameplay.controller=コントローラー
+options.gameplay.controller=操作
 options.gameplay.controller.enableController=
 options.gameplay.controller.flipY=
 options.gameplay.controller.leftThumbCurve=
@@ -298,13 +311,13 @@ options.general.graphics.showGridCursor=
 options.general.graphics.superLow=
 options.general.graphics.superSampling=
 options.general.graphics.ultra=
-options.general.graphics.WeatherParticles=
+options.general.graphics.WeatherParticles=雨を表示する
 options.general.language=言語
 options.misc=
 options.misc.reset=初期化
 options.misc.resetCurrent=
 options.misc.resetToDefault=デフォルトの設定に戻す
-options.network=ネットワーク
+options.network=
 options.network.preferences=
 options.video=ビデオ
 options.video.description=ここでビデオに関する設定をしてください!
@@ -328,7 +341,7 @@ serverBrowser.back=メニューに戻る
 serverBrowser.noServers=
 serverBrowser.online=
 serverBrowser.serverName=
-shippingCatalogue.cancelAll=キャンセルする
+shippingCatalogue.cancelAll=キャンセル
 shippingCatalogue.expedite=購入する
 shippingCatalogue.order=カートに入れる
 shippingCatalogue.refund=
@@ -378,6 +391,7 @@ staxel.accessories.characters.accessories.monkeyhats.OrangeMonkeyHat=オレン�
 staxel.accessories.characters.accessories.monkeyhats.PinkMonkeyHat=ピンクのサルの帽子
 staxel.accessories.characters.accessories.tiaras.GoldTiara=金のティアラ
 staxel.accessories.characters.accessories.tiaras.SilverTiara=銀のティアラ
+//開発者の方の服など
 staxel.accessories.devavatars.bartwe.BartweHair=
 staxel.accessories.devavatars.bartwe.BartweHoodie.description=
 staxel.accessories.devavatars.bartwe.BartweHoodie.name=
@@ -442,6 +456,7 @@ staxel.accessories.devavatars.teagadd.TeagaddShoes.description=
 staxel.accessories.devavatars.teagadd.TeagaddShoes.name=
 staxel.accessories.devavatars.teagadd.TeagaddTrousers.description=
 staxel.accessories.devavatars.teagadd.TeagaddTrousers.name=
+//各パーツの種類
 staxel.accessories.eyes.colourfulKawaii=
 staxel.accessories.eyes.dark=
 staxel.accessories.eyes.darkEyelashes=
