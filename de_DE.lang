@@ -4,9 +4,9 @@ language=Deutsch
 //[Reference] 'Achievement unlocked: {0-achievement}!'
 achievements.achievementUnlocked={0-achievement} freigeschaltet!
 //[Reference] 'Buy:'
-catalogue.buy=Kaufen
-//TODO Translate [Reference] 'Clear'
-catalogue.clear=
+catalogue.buy=Kaufen:
+//[Reference] 'Clear'
+catalogue.clear=Leeren
 //[Reference] 'Not enough money!'
 catalogue.notEnoughMoney=Nicht genug Geld!
 //[Reference] 'This item cannot be sold!'
@@ -19,77 +19,77 @@ catalogue.sell=Verkaufen:
 catalogue.total=Insgesamt
 
 //[Reference] 'Accept'
-characterDesigner.accept=Akzeptieren (A)
-//TODO Translate [Reference] 'Accessories'
-characterDesigner.accessories=
-//TODO Translate [Reference] 'Cancel'
-characterDesigner.cancel=
+characterDesigner.accept=Akzeptieren
+//[Reference] 'Accessories'
+characterDesigner.accessories=Accessoires
+//[Reference] 'Cancel'
+characterDesigner.cancel=Abbrechen
 //[Reference] 'Eyes'
-characterDesigner.eyes=Augen:
-//TODO Translate [Reference] 'Gender'
-characterDesigner.gender=
+characterDesigner.eyes=Augen
+//[Reference] 'Gender'
+characterDesigner.gender=Geschlecht
 //[Reference] 'Hair'
-characterDesigner.hair=Haare:
-//TODO Translate [Reference] 'Hat'
-characterDesigner.hat=
-//TODO Translate [Reference] 'Make yourself pretty and stuff'
-characterDesigner.info=
-//TODO Translate [Reference] 'Name'
-characterDesigner.name=
-//TODO Translate [Reference] 'Next'
-characterDesigner.next=
-//TODO Translate [Reference] 'None'
-characterDesigner.none=
+characterDesigner.hair=Haare
+//[Reference] 'Hat'
+characterDesigner.hat=Hut
+//[Reference] 'Make yourself pretty and stuff'
+characterDesigner.info=Mach dich selbst hübsch und so
+//[Reference] 'Name'
+characterDesigner.name=Name
+//[Reference] 'Next'
+characterDesigner.next=Weiter
+//[Reference] 'None'
+characterDesigner.none=Nichts
 //[Reference] 'Personality'
-characterDesigner.personality=Persönlichkeit:
-//TODO Translate [Reference] 'Presets'
-characterDesigner.presets=
-//TODO Translate [Reference] 'Random'
-characterDesigner.random=
+characterDesigner.personality=Persönlichkeit
+//[Reference] 'Presets'
+characterDesigner.presets=Vorgabewerte
+//[Reference] 'Random'
+characterDesigner.random=Zufällig
 //[Reference] 'Shirt'
-characterDesigner.shirt=Hemd:
+characterDesigner.shirt=Hemd
 //[Reference] 'Shoes'
-characterDesigner.shoes=Schuhe:
+characterDesigner.shoes=Schuhe
 //[Reference] 'Skin'
-characterDesigner.skinColour=Hautfarbe:
-//TODO Translate [Reference] 'Species'
-characterDesigner.species=
-//TODO Translate [Reference] 'Dress'
-characterDesigner.subcategory.dress=
-//TODO Translate [Reference] 'Glasses'
-characterDesigner.subcategory.glasses=
-//TODO Translate [Reference] 'Hat'
-characterDesigner.subcategory.hat=
-//TODO Translate [Reference] 'Hi-Tops'
-characterDesigner.subcategory.hitops=
-//TODO Translate [Reference] 'Hoodie'
-characterDesigner.subcategory.hoodie=
-//TODO Translate [Reference] 'Jeans'
-characterDesigner.subcategory.jeans=
-//TODO Translate [Reference] 'Long'
-characterDesigner.subcategory.long=
-//TODO Translate [Reference] 'Longsleeve'
-characterDesigner.subcategory.longsleeve=
-//TODO Translate [Reference] 'Medium'
-characterDesigner.subcategory.medium=
-//TODO Translate [Reference] 'Sandals'
-characterDesigner.subcategory.sandals=
-//TODO Translate [Reference] 'Short'
-characterDesigner.subcategory.short=
-//TODO Translate [Reference] 'Shorts'
-characterDesigner.subcategory.shorts=
-//TODO Translate [Reference] 'Straptop'
-characterDesigner.subcategory.straptop=
-//TODO Translate [Reference] 'Trainers'
-characterDesigner.subcategory.trainers=
-//TODO Translate [Reference] 'T-Shirt'
-characterDesigner.subcategory.tshirt=
-//TODO Translate [Reference] 'Vest'
-characterDesigner.subcategory.vest=
-//TODO Translate [Reference] 'Character Creation'
-characterDesigner.title=
+characterDesigner.skinColour=Hautfarbe
+//[Reference] 'Species'
+characterDesigner.species=Rasse
+//[Reference] 'Dress'
+characterDesigner.subcategory.dress=Kleid
+//[Reference] 'Glasses'
+characterDesigner.subcategory.glasses=Brille
+//[Reference] 'Hat'
+characterDesigner.subcategory.hat=Hut
+//[Reference] 'Hi-Tops'
+characterDesigner.subcategory.hitops=High Tops
+//[Reference] 'Hoodie'
+characterDesigner.subcategory.hoodie=Kapuzenpullover
+//[Reference] 'Jeans'
+characterDesigner.subcategory.jeans=Jeans
+//[Reference] 'Long'
+characterDesigner.subcategory.long=lang
+//[Reference] 'Longsleeve'
+characterDesigner.subcategory.longsleeve=Langärmlig
+//[Reference] 'Medium'
+characterDesigner.subcategory.medium=mittel
+//[Reference] 'Sandals'
+characterDesigner.subcategory.sandals=Sandalen
+//[Reference] 'Short'
+characterDesigner.subcategory.short=kurz
+//[Reference] 'Shorts'
+characterDesigner.subcategory.shorts=Shorts
+//[Reference] 'Straptop'
+characterDesigner.subcategory.straptop=Trägertop
+//[Reference] 'Trainers'
+characterDesigner.subcategory.trainers=Turnschuhe
+//[Reference] 'T-Shirt'
+characterDesigner.subcategory.tshirt=T-Shirt
+//[Reference] 'Vest'
+characterDesigner.subcategory.vest=Weste
+//[Reference] 'Character Creation'
+characterDesigner.title=Charakter-Erstellung
 //[Reference] 'Bottoms'
-characterDesigner.trousers=Hosen:
+characterDesigner.trousers=Hosen
 
 //Not sure if commands should be translated
 //TODO Translate [Reference] 'advanceTime amount(0.0-1.0)'
@@ -144,47 +144,47 @@ commands.currentTime.description=
 commands.currentTime.success=
 //TODO Translate [Reference] 'demoMode (optional)on(true/false)'
 commands.demoMode.description=
-//TODO Translate [Reference] 'Switched server demo mode to {0-demoMode}'
-commands.demoMode.success=
+//[Reference] 'Switched server demo mode to {0-demoMode}'
+commands.demoMode.success=Wechsle Server-Vorschaumodus zu {0-demoMode}
 //TODO Translate [Reference] 'describeitem (optional)playerName'
 commands.describeItem.description=
-//TODO Translate [Reference] 'Item description: {0-itemDesc}'
-commands.describeItem.success=
+//[Reference] 'Item description: {0-itemDesc}'
+commands.describeItem.success=Item-Beschreibung: {0-itemDesc}
 //TODO Translate [Reference] 'entityInfo entityID'
 commands.entityInfo.description=
-//TODO Translate [Reference] 'You need to include an EntityID!'
-commands.entityInfo.entityNumber=
-//TODO Translate [Reference] 'Invalid EntityID!'
-commands.entityInfo.mustBeNumber=
-//TODO Translate [Reference] 'There is no such entity on the server'
-commands.entityInfo.noSuchEntity=
-//TODO Translate [Reference] 'Entity data: {0-data}'
-commands.entityInfo.success=
+//[Reference] 'You need to include an EntityID!'
+commands.entityInfo.entityNumber=Du musst eine ObjektID mit angeben!
+//[Reference] 'Invalid EntityID!'
+commands.entityInfo.mustBeNumber=Ungültige ObjektID!
+//[Reference] 'There is no such entity on the server'
+commands.entityInfo.noSuchEntity=Ein solches Objekt befindet sich nicht auf dem Server
+//[Reference] 'Entity data: {0-data}'
+commands.entityInfo.success=Objekt-Daten: {0-data}
 //TODO Translate [Reference] 'fly (optional)playerName (optional)startFlying(true/false)'
 commands.flyMode.description=
-//TODO Translate [Reference] 'Switched flying mode to: {0-flymode}'
-commands.flyMode.success=
+//[Reference] 'Switched flying mode to: {0-flymode}'
+commands.flyMode.success=Wechsle Flug-Modus zu: {0-flymode}
 //TODO Translate [Reference] 'Give all recipes (optional)playerName'
 commands.giveallrecipes.description=
-//TODO Translate [Reference] 'Done!'
-commands.giveallrecipes.success=
+//[Reference] 'Done!'
+commands.giveallrecipes.success=Fertig!
 //TODO Translate [Reference] 'givepetals playerName amount'
 commands.givePetals.description=
 //TODO Translate [Reference] 'Petal amount needs to be a positive number'
-commands.givePetals.invalidNumber=
+commands.givePetals.invalidNumber=Blütenblätter-Anzahl muss eine positive Anzahl sein
 //TODO Translate [Reference] 'Gave {0-player} {1-amount} petals'
-commands.givePetals.success=
+commands.givePetals.success=Gebe {0-player} {1-amount} Blütenblätter
 //TODO Translate [Reference] '? (optional)commandName'
 commands.help.altDescription=
 //TODO Translate [Reference] 'Command not found: '{0-command}''
-commands.help.commandNotFound=
+commands.help.commandNotFound=Befehl nicht gefunden: '{0-command}'
 //TODO Translate [Reference] 'help (optional)commandName'
 commands.help.description=
 //TODO Translate [Reference] 'Command list (() brackets denote possible values):'
-commands.help.success=
+commands.help.success=Befehlsliste (() Klammern bezeichnen mögliche Werte):
 commands.inspect.success=
 //TODO Translate [Reference] 'invalid args'
-commands.invalidArgs=
+commands.invalidArgs=Ungültige Parameter
 //TODO Translate [Reference] 'kick playerName'
 commands.kick.description=
 //TODO Translate [Reference] 'Unable to kick {0-player}: player is an admin or not online.'
@@ -310,38 +310,39 @@ commands.unmute.failure=
 commands.unmute.success=
 //TODO Translate [Reference] 'Unrecognised command :'{0-command}''
 commands.unrecognised=
-//TODO Translate [Reference] 'Item Hotkeys'
-controllerHints.hotkeys=
-//TODO Translate [Reference] 'Inventory'
-controllerHints.inventory=
-//TODO Translate [Reference] 'Material Quick-Pick'
-controllerHints.materialPick=
-//TODO Translate [Reference] 'Movement'
-controllerHints.movement=
-//TODO Translate [Reference] 'Place and Rotate'
-controllerHints.placeAndRotate=
-//TODO Translate [Reference] 'Bake'
-crafting.action.keyword.bake=
-//TODO Translate [Reference] 'Boil'
-crafting.action.keyword.boil=
-crafting.action.keyword.combine=
-//TODO Translate [Reference] 'Cut'
-crafting.action.keyword.cut=
-crafting.action.keyword.fry=
-//TODO Translate [Reference] 'Mix'
-crafting.action.keyword.mix=
-//TODO Translate [Reference] '{0-itemOne}, {1-itemTwo}'
-crafting.action.task.listedItems=
-//TODO Translate [Reference] '{0-keyword} {1-listedItems} and {2-lastListedItem}'
-crafting.action.task.multiItem=
-//TODO Translate [Reference] '{0-count}x {1-item}'
-crafting.action.task.multiples=
-//TODO Translate [Reference] '{0-keyword} {1-item}'
-crafting.action.task.oneItem=
-//TODO Translate [Reference] 'That wasn't a recipe, Oops!'
-crafting.notifications.failedCraft=
-//TODO Translate [Reference] 'You completed the recipe for {0-item}!'
-crafting.recipeComplete=
+
+//[Reference] 'Item Hotkeys'
+controllerHints.hotkeys=Item Schnelltasten
+//[Reference] 'Inventory'
+controllerHints.inventory=Inventar
+//[Reference] 'Material Quick-Pick'
+controllerHints.materialPick=Material Schnellauswahl
+//[Reference] 'Movement'
+controllerHints.movement=Bewegung
+//[Reference] 'Place and Rotate'
+controllerHints.placeAndRotate=Plaziere und Rotiere
+//[Reference] 'Bake'
+crafting.action.keyword.bake=Backe
+//[Reference] 'Boil'
+crafting.action.keyword.boil=Koche
+crafting.action.keyword.combine=Kombiniere
+//[Reference] 'Cut'
+crafting.action.keyword.cut=Schneide
+crafting.action.keyword.fry=Brate
+//Translate [Reference] 'Mix'
+crafting.action.keyword.mix=Vermische
+//[Reference] '{0-itemOne}, {1-itemTwo}'
+crafting.action.task.listedItems={0-itemOne}, {1-itemTwo}
+//[Reference] '{0-keyword} {1-listedItems} and {2-lastListedItem}'
+crafting.action.task.multiItem={0-keyword} {1-listedItems} und {2-lastListedItem}
+//[Reference] '{0-count}x {1-item}'
+crafting.action.task.multiples={0-count}x {1-item}
+//[Reference] '{0-keyword} {1-item}'
+crafting.action.task.oneItem={0-keyword} {1-item}
+//[Reference] 'That wasn't a recipe, Oops!'
+crafting.notifications.failedCraft=Ups, das war kein Rezept!
+//[Reference] 'You completed the recipe for {0-item}!'
+crafting.recipeComplete=Du hast das Rezept für {0-item} vervollständigt!
 
 //[Reference] 'Helped out with the Staxel interface.'
 credits.13lueWolf.description=Er ist der Entwickler der Benutzeroberfläche, er hat diese Oberfläche und alle anderen programmiert.
@@ -359,12 +360,12 @@ credits.curtis.description=Er ist ein talentierter Musiker, welcher an dem tolle
 credits.demanRisu.description=Er ist Staxel's Schreiber. Er liebt Bäume, Büsche, Blumen, Insekten, den Ozean, Schreiben, Spiel Design, Kaktus-Menschen, Höhlen und Sonnenuntergänge.
 //[Reference] 'A faceless entity between realms; only exists when you’re not looking. In its spare time, programs.'
 credits.moocowtg.description=Ein gesichtsloses Wesen zwischen den Welten, es existiert nur wenn du nicht hinsiehst. In seiner Freizeit programmiert es.
-//TODO Translate [Reference] 'He is a programmer who writes music and fiction in his spare time. His cat writes approximately half of his code.'
-credits.moomba.description=
-//TODO Translate [Reference] 'Razz is a 3D artist working closely with Steampunkstein to bring you guys cute furniture sets and anything else she can come up with.'
-credits.razzleberryFox.description=
-//TODO Translate [Reference] 'Job title is Project Manager, in charge of making sure people actually make a game I suppose?'
-credits.sledra.description=
+//[Reference] 'He is a programmer who writes music and fiction in his spare time. His cat writes approximately half of his code.'
+credits.moomba.description=Er ist ein Programmierer, der in seiner Freizeit Musik und Romane schreibt. Seine Katze schreibt etwa die Hälfte seines Codes.
+//[Reference] 'Razz is a 3D artist working closely with Steampunkstein to bring you guys cute furniture sets and anything else she can come up with.'
+credits.razzleberryFox.description=Razz ist eine 3D-Künstlerin und arbeitet eng mit Steampunkstein zusammen, um euch süße Möbel-Sets und alles, was sie sonst noch so sprießen lässt, zu bringen.
+//[Reference] 'Job title is Project Manager, in charge of making sure people actually make a game I suppose?'
+credits.sledra.description=Arbeitsbezeichnung: Projektmanager, verantwortlich dafür sicherzustellen, dass die Leute ein Spiel machen das ich erwarte?
 //[Reference] 'He has contributed some lovely soundtracks for Staxel.'
 credits.solatrus.description=Er hat einige liebenswürdige Soundtracks zu Staxel beigetragen.
 //[Reference] 'He is the artist. He has worked hard to produce all the in game models, and make the game as visually appealing as possible.'
@@ -373,10 +374,10 @@ credits.steampunkstein.description=Er ist der Artist. Er hat hart daran gearbeit
 credits.teaGadd.description=Er ist ein angestellter Programmierer. Er hat die Webseite erstellt und moderiert das Forum.
 //[Reference] 'He is another programmer. Likes include: programming.'
 credits.terrorcell.description=Er ist ein weiterer Programmierer. Er mag: Programmieren.
-//TODO Translate [Reference] 'It's starting to get dark...'
-dayNight.hintNightTransition=
-//TODO Translate [Reference] 'MissingNotification: {0-notificationCode}'
-debug.MissingNotification=
+//[Reference] 'It's starting to get dark...'
+dayNight.hintNightTransition=Es beginnt dunkel zu werden...
+//[Reference] 'MissingNotification: {0-notificationCode}'
+debug.MissingNotification=Fehlende Nachricht: {0-notificationCode}
 
 //[Reference] 'Back'
 error.back=Zurück
@@ -397,60 +398,60 @@ escapeMenu.desktopExit=Beenden und zum Desktop
 escapeMenu.mainMenu=Zum Hauptmenü
 //[Reference] 'Options'
 escapeMenu.options=Optionen
-//TODO Translate [Reference] 'Return Home'
-escapeMenu.returnHome=
+//[Reference] 'Return Home'
+escapeMenu.returnHome=Nach Hause zurückkehren
 
 //[Reference] 'It got away!'
 fishing.gotAway=Es ist entkommen!
 //[Reference] 'Something is on the hook!'
 fishing.hooked=Du hast etwas am Haken!
-//TODO Translate [Reference] 'GOT IT!'
-fishing.success1=
-//TODO Translate [Reference] 'SUCCESS!'
-fishing.success2=
-//TODO Translate [Reference] 'YES!'
-fishing.success3=
+//[Reference] 'GOT IT!'
+fishing.success1=HAB ES!
+//[Reference] 'SUCCESS!'
+fishing.success2=ERFOLG!
+//[Reference] 'YES!'
+fishing.success3=JA!
 
 //[Reference] 'Press (space) or (a) to leave bed'
-hintText.bed=Drücke (space) oder (a) um das Bett zu verlassen
-//TODO Translate [Reference] 'Plants won't grow here'
-hintText.cantPlantHere=
+hintText.bed=Drücke (Leertaste) oder (a) um das Bett zu verlassen
+//[Reference] 'Plants won't grow here'
+hintText.cantPlantHere=Pflanzen werden hier nicht wachsen
 //[Reference] 'Press (space) or (a) to leave chair'
-hintText.chair=Drücke (space) oder (a) um vom Stuhl aufzustehen
+hintText.chair=Drücke (Leertaste) oder (a) um vom Stuhl aufzustehen
 //[Reference] 'Charge: {0:P1-chargeLevel}, Right Click or Left Trigger to Cancel'
 hintText.charge=Aufladen: {0:P1-chargeLevel}, Rechtsklick oder linker Trigger zum Abbrechen
 //[Reference] '{0:P0-growth}'
 hintText.checkPlantGrowth={0:P0-percentage} gewachsen
-//TODO Translate [Reference] 'It's ready for harvesting'
-hintText.checkPlantGrowth.fruited=
-//TODO Translate [Reference] 'It's growing healthily'
-hintText.checkPlantGrowth.growing=
-//TODO Translate [Reference] 'The seeds are growing'
-hintText.checkPlantGrowth.seed=
-//TODO Translate [Reference] 'It's not looking healthy'
-hintText.checkPlantGrowth.wilted=
-//TODO Translate [Reference] 'It's heading to the big garden in the sky'
-hintText.checkPlantGrowth.withered=
+[Reference] 'It's ready for harvesting'
+hintText.checkPlantGrowth.fruited=Es ist bereit zum Ernten
+//[Reference] 'It's growing healthily'
+hintText.checkPlantGrowth.growing=Es wächst prächtig
+//[Reference] 'The seeds are growing'
+hintText.checkPlantGrowth.seed=Die Samen wachsen
+//[Reference] 'It's not looking healthy'
+hintText.checkPlantGrowth.wilted=Sie sieht nicht gesund aus
+//[Reference] 'It's heading to the big garden in the sky'
+hintText.checkPlantGrowth.withered=Sie ist jetzt im großen Garten im Himmel
 //[Reference] 'Inventory Full'
 hintText.inventoryFull=Inventar ist voll
 //[Reference] 'Need at least {0-count} slots in inventory'
 hintText.inventorySpaceNeeded=Benötigt mindestens {0-count} freie Plätze im Inventar
-//TODO Translate [Reference] 'Kind: {0-itemCode}'
-hintText.kind=
+//[Reference] 'Kind: {0-itemCode}'
+hintText.kind=Art: {0-itemCode}
 //[Reference] 'The light will turn on after a few seconds'
 hintText.lightTurnOn=Das Licht geht nach ein paar Sekunden an
-//TODO Translate [Reference] 'Try planting on tilled soil'
-hintText.needTilledTile=
-//TODO Translate [Reference] 'This plant needs more space to grow'
-hintText.notEnoughSpaceToPlant=
+//[Reference] 'Try planting on tilled soil'
+hintText.needTilledTile=Versuche dies auf bearbeitetem Boden zu pflanzen
+//[Reference] 'This plant needs more space to grow'
+hintText.notEnoughSpaceToPlant=Diese Pflanze benötigt mehr Platz zum Wachsen
 //[Reference] 'Need at least 1 slot in inventory'
 hintText.oneSlotNeeded=Benötigt mindestens einen freien Inventarplatz
-//TODO Translate [Reference] 'You already know this recipe'
-hintText.recipeKnown=
-//TODO Translate [Reference] 'You successfully learnt the recipe for {0-recipe}!'
-hintText.recipeLearnt=
-//TODO Translate [Reference] 'Downloading bundle assets'
-loading.bundles=
+//[Reference] 'You already know this recipe'
+hintText.recipeKnown=Du kennst dieses Rezept bereits
+//[Reference] 'You successfully learnt the recipe for {0-recipe}!'
+hintText.recipeLearnt=Du hast erfolgreich das Rezept für {0-recipe} gelernt!
+//[Reference] 'Downloading bundle assets'
+loading.bundles=Downloade Paket mit Assets
 
 //[Reference] 'Skip'
 loading.skip=Überspringen
@@ -459,21 +460,21 @@ loading.skip=Überspringen
 multiplayerMenu.back=Zurück
 //[Reference] 'Join Server'
 multiplayerMenu.joinServer=Server beitreten
-//TODO Translate [Reference] 'Server IP:'
-multiplayerMenu.serverIP=
+//[Reference] 'Server IP:'
+multiplayerMenu.serverIP=Server IP:
 //[Reference] 'Server List'
 multiplayerMenu.serverList=Server Liste
 //[Reference] 'Options'
 options=Optionen
-//TODO Translate [Reference] 'Admin'
-options.admin=
-//TODO Translate [Reference] 'Debug'
-options.admin.debug=
+//[Reference] 'Admin'
+options.admin=Admin
+//[Reference] 'Debug'
+options.admin.debug=Debug
 
 //[Reference] 'Camera Mode (ESC to exit)'
-options.admin.debug.cameraMode=Kameramodus ((ESC) zum verlassen)
-//TODO Translate [Reference] 'Creative Mode'
-options.admin.debug.creativeMode=
+options.admin.debug.cameraMode=Kameramodus ((ESC) zum Verlassen)
+//[Reference] 'Creative Mode'
+options.admin.debug.creativeMode=Creativ-Modus
 //[Reference] 'Fly Mode'
 options.admin.debug.flyMode=Flugmodus
 //[Reference] 'No Clip Mode'
@@ -484,16 +485,16 @@ options.admin.debug.showNames=ZeigeNamensschilder Modus
 options.admin.debug.wireframeMode=Wireframe Modus
 //[Reference] 'Adminy stuff'
 options.admin.description=Admin Zeugs
-//TODO Translate [Reference] 'Audio'
-options.audio=
+//[Reference] 'Audio'
+options.audio=Audio
 //[Reference] 'Set audio options here'
-options.audio.description=Ändere die Audio Optionen
-//TODO Translate [Reference] '(X)'
-options.backButton=
-//TODO Translate [Reference] 'Gameplay'
-options.gameplay=
-//TODO Translate [Reference] 'Controller'
-options.gameplay.controller=
+options.audio.description=Ändere die Audio-Optionen
+//[Reference] '(X)'
+options.backButton=(X)
+//[Reference] 'Gameplay'
+options.gameplay=Spiel
+//[Reference] 'Controller'
+options.gameplay.controller=Controller
 //[Reference] 'Enable Controller Input'
 options.gameplay.controller.enableController=Controller aktivieren
 //[Reference] 'Flip Y Axis'
@@ -510,10 +511,10 @@ options.gameplay.controller.rightThumbDeadzone=
 options.gameplay.controller.rightThumbVelocity=
 //[Reference] 'Set gameplay options here'
 options.gameplay.description=Ändere die Gameplay Optionen
-//TODO Translate [Reference] 'Input'
-options.gameplay.input=
-//TODO Translate [Reference] 'Enable Repeating'
-options.gameplay.input.enableRepeat=
+//[Reference] 'Input'
+options.gameplay.input=Eingabe
+//[Reference] 'Enable Repeating'
+options.gameplay.input.enableRepeat=Aktiviere Wiederholung
 //[Reference] 'Keyboard'
 options.gameplay.keyboard=Tastatur
 //[Reference] 'Mouse'
@@ -526,36 +527,36 @@ options.gameplay.mouse.flipY=Y Achse umkehren
 options.gameplay.mouse.mouseVelocity=Maus Geschwindigkeit:
 //[Reference] 'Other'
 options.gameplay.other=Anderes
-//TODO Translate [Reference] 'Active Achievement Tracker'
-options.gameplay.other.activeAchievement=
+//[Reference] 'Active Achievement Tracker'
+options.gameplay.other.activeAchievement=Aktiver Errungenschaften Tracker
 //[Reference] 'Chat Timestamps'
 options.gameplay.other.chatTimestamps=Chat Zeitstempel
 //[Reference] 'Left Handed Mode'
 options.gameplay.other.leftHandedMode=Linkshänder Modus
-//TODO Translate [Reference] 'Show Clock'
-options.gameplay.other.showClock=
-//TODO Translate [Reference] 'Crafting Keyword Tags'
-options.gameplay.other.showCraftingKeywordTags=
+//[Reference] 'Show Clock'
+options.gameplay.other.showClock=Zeige Uhr
+//[Reference] 'Crafting Keyword Tags'
+options.gameplay.other.showCraftingKeywordTags=Crafting Schlüsselwort-Tags
 //[Reference] 'General'
 options.general=Allgemein
-//TODO Translate [Reference] 'Audio'
-options.general.audio=
+//[Reference] 'Audio'
+options.general.audio=Audio
 //[Reference] 'Ambience:'
 options.general.audio.ambience=Umgebung:
 //[Reference] 'Master:'
 options.general.audio.master=Hauptlautstärke:
 //[Reference] 'Music:'
 options.general.audio.music=Musik:
-//TODO Translate [Reference] 'Sound:'
-options.general.audio.sound=
+//[Reference] 'Sound:'
+options.general.audio.sound=Sound
 //[Reference] 'Graphics'
 options.general.graphics=Grafik
-//TODO Translate [Reference] 'Advanced'
-options.general.graphics.advanced=
-//TODO Translate [Reference] 'Auto detect graphics settings'
-options.general.graphics.autoDetect=
-//TODO Translate [Reference] 'Bloom'
-options.general.graphics.bloom=
+//[Reference] 'Advanced'
+options.general.graphics.advanced=Erweitert
+//[Reference] 'Auto detect graphics settings'
+options.general.graphics.autoDetect=Grafikeinstellungen automatisch ermitteln
+//[Reference] 'Bloom'
+options.general.graphics.bloom=Bloom
 //[Reference] 'Camera Distance:'
 options.general.graphics.cameraDistance=Kameraentfernung:
 //TODO Translate [Reference] 'Fat Quads'
@@ -570,16 +571,16 @@ options.general.graphics.halfResolution=Halbe Auflösung
 options.general.graphics.high=Hoch
 //[Reference] 'Increased View Range'
 options.general.graphics.increasedViewRange=Erhöhe die Sichtweite
-//TODO Translate [Reference] 'LOD'
-options.general.graphics.lod=
+//[Reference] 'LOD'
+options.general.graphics.lod=Detaillierungsgrad
 //[Reference] 'Low'
 options.general.graphics.low=Niedrig
 //[Reference] 'MedianFilter (Requires Bloom)'
 options.general.graphics.medianFilter=MedianFilter (Benötigt Bloom)
-//TODO Translate [Reference] 'Medium'
-options.general.graphics.medium=
-//TODO Translate [Reference] 'Multi Sampling'
-options.general.graphics.MultiSampling=
+//[Reference] 'Medium'
+options.general.graphics.medium=Normal
+//[Reference] 'Multi Sampling'
+options.general.graphics.MultiSampling=Multisampling
 //[Reference] 'Reduced View Range'
 options.general.graphics.reducedViewRange=Verringere die Sichtweite
 //[Reference] 'Shadows'
@@ -588,12 +589,12 @@ options.general.graphics.shadows=Schatten
 options.general.graphics.showGridCursor=Zeige Grid Cursor
 //[Reference] 'Super Low'
 options.general.graphics.superLow=Sehr niedrig
-//TODO Translate [Reference] 'Super Sampling'
-options.general.graphics.superSampling=
-//TODO Translate [Reference] 'Ultra'
-options.general.graphics.ultra=
-//TODO Translate [Reference] 'Weather Particles'
-options.general.graphics.WeatherParticles=
+//[Reference] 'Super Sampling'
+options.general.graphics.superSampling=Supersampling
+//[Reference] 'Ultra'
+options.general.graphics.ultra=Ultra
+//[Reference] 'Weather Particles'
+options.general.graphics.WeatherParticles=Wetterpartikel
 //[Reference] 'Language'
 options.general.language=Sprache
 //[Reference] 'Misc'
@@ -608,94 +609,94 @@ options.misc.resetToDefault=Standardeinstellungen wiederherstellen
 options.network=Netzwerk
 //[Reference] 'Preferences'
 options.network.preferences=Einstellungen
-//TODO Translate [Reference] 'Video'
-options.video=
+//[Reference] 'Video'
+options.video=Video
 //[Reference] 'Set video options here'
 options.video.description=Ändere die Video Optionen
-//TODO Translate [Reference] 'Ban'
-playerList.ban=
-//TODO Translate [Reference] 'Kick'
-playerList.kick=
-//TODO Translate [Reference] 'Mute'
-playerList.mute=
-//TODO Translate [Reference] 'Players Online:'
-playerList.playerCount=
-//TODO Translate [Reference] 'Teleport To'
-playerList.teleportTo=
-//TODO Translate [Reference] 'Desserts'
-recipeBook.grouping.desserts=
-//TODO Translate [Reference] 'Fencing'
-recipeBook.grouping.fencing=
-//TODO Translate [Reference] 'Flooring'
-recipeBook.grouping.flooring=
-//TODO Translate [Reference] 'Main Courses'
-recipeBook.grouping.mainCourses=
-//TODO Translate [Reference] 'Roofing'
-recipeBook.grouping.roofing=
-//TODO Translate [Reference] 'Starters'
-recipeBook.grouping.starters=
-//TODO Translate [Reference] 'Walling'
-recipeBook.grouping.walling=
-//TODO Translate [Reference] 'Ingredients'
-recipeBook.ingredients=
-//TODO Translate [Reference] 'No recipes'
-recipeBook.noRecipes=
-//TODO Translate [Reference] 'Process'
-recipeBook.process=
-//TODO Translate [Reference] 'You have been muted for {0-time} minutes.'
-server.notifyPlayerMuted=
-//TODO Translate [Reference] '{0-player} has joined the server'
-server.playerJoin=
-//TODO Translate [Reference] '{0-player} has left the server'
-server.playerLeave=
-//TODO Translate [Reference] 'You are currently muted and your messages will not be received by other players.'
-server.youAreMuted=
-//TODO Translate [Reference] 'You have been unmuted.'
-server.youAreUnmuted=
+//[Reference] 'Ban'
+playerList.ban=Bann
+//[Reference] 'Kick'
+playerList.kick=Kick
+//[Reference] 'Mute'
+playerList.mute=Stumm
+//[Reference] 'Players Online:'
+playerList.playerCount=Spieler online:
+//[Reference] 'Teleport To'
+playerList.teleportTo=Teleport zu
+//[Reference] 'Desserts'
+recipeBook.grouping.desserts=Nachspeisen
+//[Reference] 'Fencing'
+recipeBook.grouping.fencing=Umzäunungen
+//[Reference] 'Flooring'
+recipeBook.grouping.flooring=Fußbodenbeläge
+//[Reference] 'Main Courses'
+recipeBook.grouping.mainCourses=Hauptgerichte
+//[Reference] 'Roofing'
+recipeBook.grouping.roofing=Überdachungen
+//[Reference] 'Starters'
+recipeBook.grouping.starters=Startgegenstände
+//[Reference] 'Walling'
+recipeBook.grouping.walling=Wände
+//[Reference] 'Ingredients'
+recipeBook.ingredients=Zutaten
+//[Reference] 'No recipes'
+recipeBook.noRecipes=Keine Rezepte
+//[Reference] 'Process'
+recipeBook.process=Fortschritt
+//[Reference] 'You have been muted for {0-time} minutes.'
+server.notifyPlayerMuted=Du wurdest für {0-time} Minuten stummgeschalten.
+//[Reference] '{0-player} has joined the server'
+server.playerJoin={0-player} hat den Server betreten
+//[Reference] '{0-player} has left the server'
+server.playerLeave={0-player} hat den Server verlassen
+//[Reference] 'You are currently muted and your messages will not be received by other players.'
+server.youAreMuted=Du bist aktuell stummgestellt, weshalb andere Spieler deine Nachrichten nicht empfangen.
+//[Reference] 'You have been unmuted.'
+server.youAreUnmuted=Du bist nicht länger stummgestellt.
 
 //[Reference] 'Back to main menu'
 serverBrowser.back=Zurück
 //[Reference] 'No servers or master server unreachable'
 serverBrowser.noServers=Server sind nicht erreichbar
-//TODO Translate [Reference] 'Online:'
-serverBrowser.online=
-//TODO Translate [Reference] 'Server name:'
-serverBrowser.serverName=
-//TODO Translate [Reference] 'Cancel all'
-shippingCatalogue.cancelAll=
-//TODO Translate [Reference] 'Expedite'
-shippingCatalogue.expedite=
-//TODO Translate [Reference] 'Order now'
-shippingCatalogue.order=
-//TODO Translate [Reference] 'You have been refunded {0-amount} petals'
-shippingCatalogue.refund=
-//TODO Translate [Reference] 'Check and cancel pending orders here'
-shippingCatalogue.viewOrders.description=
-//TODO Translate [Reference] 'You have claimed this shipping station!'
-shippingDock.claimed=
-//TODO Translate [Reference] 'Cancel'
-singleplayer.cancel=
-//TODO Translate [Reference] 'Creative'
-singleplayer.creative=
-//TODO Translate [Reference] 'Creative Mode'
-singleplayer.creativeMode=
-//TODO Translate [Reference] 'Launch'
-singleplayer.launch=
-//TODO Translate [Reference] 'Storage with this name already exists'
-singleplayer.nameAlreadyExists=
-//TODO Translate [Reference] 'Name to short (min 3 characters)'
-singleplayer.nameTooShort=
-//TODO Translate [Reference] 'New World'
-singleplayer.newWorld=
-//TODO Translate [Reference] 'Name'
-singleplayer.serverName=
-//TODO Translate [Reference] 'Single Player'
-singleplayer.singleplayer=
-//TODO Translate [Reference] 'Village'
-singleplayer.village=
+//[Reference] 'Online:'
+serverBrowser.online=Online:
+//[Reference] 'Server name:'
+serverBrowser.serverName=Servername:
+//[Reference] 'Cancel all'
+shippingCatalogue.cancelAll=Alle abbrechen
+//[Reference] 'Expedite'
+shippingCatalogue.expedite=Beschleunigen
+//[Reference] 'Order now'
+shippingCatalogue.order=Jetzt bestellen
+//[Reference] 'You have been refunded {0-amount} petals'
+shippingCatalogue.refund=Du hast {0-amount} Blütenblätter zurückerhalten
+//[Reference] 'Check and cancel pending orders here'
+shippingCatalogue.viewOrders.description=Hier kannst du ausstehende Bestellungen einsehen und abbrechen
+//[Reference] 'You have claimed this shipping station!'
+shippingDock.claimed=Du hast diese Abgabestelle für dich beansprucht!
+//[Reference] 'Cancel'
+singleplayer.cancel=Abbrechen
+//[Reference] 'Creative'
+singleplayer.creative=Creative
+//[Reference] 'Creative Mode'
+singleplayer.creativeMode=Creativ-Modus
+//[Reference] 'Launch'
+singleplayer.launch=Start
+//[Reference] 'Storage with this name already exists'
+singleplayer.nameAlreadyExists=Ein Speicher mit diesem Namen existiert bereits
+//[Reference] 'Name to short (min 3 characters)'
+singleplayer.nameTooShort=Name zu kurz (min. 3 Zeichen)
+//[Reference] 'New World'
+singleplayer.newWorld=Neue Welt
+//[Reference] 'Name'
+singleplayer.serverName=Name
+//[Reference] 'Single Player'
+singleplayer.singleplayer=Einzelspieler
+//[Reference] 'Village'
+singleplayer.village=Dorf
 
-//TODO Translate [Reference] 'Credits'
-startMenu.credits=
+//[Reference] 'Credits'
+startMenu.credits=Credits
 //[Reference] 'Exit'
 startMenu.exit=Verlassen
 //[Reference] 'Multi Player'
@@ -706,342 +707,359 @@ startMenu.options=Einstellungen
 startMenu.serverList=Serverliste
 //[Reference] 'Single Player'
 startMenu.singlePlayer=Einzelspieler
-//TODO Translate [Reference] 'Black Frog Hat'
-staxel.accessories.characters.accessories.animalhats.BlackFrogHat=
-//TODO Translate [Reference] 'Frog Hat'
-staxel.accessories.characters.accessories.animalhats.FrogHat=
-//TODO Translate [Reference] 'Yellow Frog Hat'
-staxel.accessories.characters.accessories.animalhats.YellowFrogHat=
-staxel.accessories.characters.accessories.cathats.CatHatStars.description=
-//TODO Translate [Reference] 'Starry-Eyed Cat Hat'
-staxel.accessories.characters.accessories.cathats.CatHatStars.name=
-//TODO Translate [Reference] 'Pink Cat Hat'
-staxel.accessories.characters.accessories.cathats.DarkPinkCatHat=
-//TODO Translate [Reference] 'Purple Cat Hat'
-staxel.accessories.characters.accessories.cathats.DarkPurpleCatHat=
-//TODO Translate [Reference] 'Original'
-staxel.accessories.characters.accessories.generic.normalhair.OriginalHair=
-//TODO Translate [Reference] 'Ponytail & Bowtie'
-staxel.accessories.characters.accessories.generic.normalhair.PonytailHairBlueBowtie=
-//TODO Translate [Reference] 'Jen's Hair'
-staxel.accessories.characters.accessories.generic.normalhair.ponytails.JensHair=
-//TODO Translate [Reference] 'Short & Hairclips'
-staxel.accessories.characters.accessories.generic.normalhair.ShortHairYellowHaiclips=
+//[Reference] 'Black Frog Hat'
+
+staxel.accessories.characters.accessories.animalhats.BlackFrogHat=Schwarzer Froschhut
+//[Reference] 'Frog Hat'
+staxel.accessories.characters.accessories.animalhats.FrogHat=Froschhut
+//[Reference] 'Yellow Frog Hat'
+staxel.accessories.characters.accessories.animalhats.YellowFrogHat=Gelber Froschhut
+//[Reference] 'Cat Hat with Stars'
+staxel.accessories.characters.accessories.cathats.CatHatStars.description=Katzenhut mit Sternen
+//[Reference] 'Starry-Eyed Cat Hat'
+staxel.accessories.characters.accessories.cathats.CatHatStars.name=Naiver Katzenhut
+//[Reference] 'Pink Cat Hat'
+staxel.accessories.characters.accessories.cathats.DarkPinkCatHat=Pinker Katzenhut
+//[Reference] 'Purple Cat Hat'
+staxel.accessories.characters.accessories.cathats.DarkPurpleCatHat=Violetter Katzenhut
+//[Reference] 'Original'
+staxel.accessories.characters.accessories.generic.normalhair.OriginalHair=Original
+//[Reference] 'Ponytail & Bowtie'
+staxel.accessories.characters.accessories.generic.normalhair.PonytailHairBlueBowtie=Pferdeschwanz & Schleife
+//[Reference] 'Jen's Hair'
+staxel.accessories.characters.accessories.generic.normalhair.ponytails.JensHair=Jens Haare
+//[Reference] 'Short & Hairclips'
+staxel.accessories.characters.accessories.generic.normalhair.ShortHairYellowHaiclips=Kurz mit Haarklammern
+
 staxel.accessories.characters.accessories.glasses.AEmpty.description=
-//TODO Translate [Reference] 'Frame A'
-staxel.accessories.characters.accessories.glasses.AEmpty.name=
+//[Reference] 'Frame A'
+staxel.accessories.characters.accessories.glasses.AEmpty.name=Rahmen A
 staxel.accessories.characters.accessories.glasses.AGlass.description=
-//TODO Translate [Reference] 'Glasses A'
-staxel.accessories.characters.accessories.glasses.AGlass.name=
+//[Reference] 'Glasses A'
+staxel.accessories.characters.accessories.glasses.AGlass.name=Brillengläser A
 staxel.accessories.characters.accessories.glasses.ASun.description=
-//TODO Translate [Reference] 'Sunglasses A'
-staxel.accessories.characters.accessories.glasses.ASun.name=
+//[Reference] 'Sunglasses A'
+staxel.accessories.characters.accessories.glasses.ASun.name=Sonnenbrillengläser A
+
 staxel.accessories.characters.accessories.glasses.BEmpty.description=
-//TODO Translate [Reference] 'Frame B'
-staxel.accessories.characters.accessories.glasses.BEmpty.name=
+//[Reference] 'Frame B'
+staxel.accessories.characters.accessories.glasses.BEmpty.name=Rahmen B
 staxel.accessories.characters.accessories.glasses.BGlass.description=
-//TODO Translate [Reference] 'Glasses B'
-staxel.accessories.characters.accessories.glasses.BGlass.name=
+//[Reference] 'Glasses B'
+staxel.accessories.characters.accessories.glasses.BGlass.name=Brillengläser B
 staxel.accessories.characters.accessories.glasses.BSun.description=
-//TODO Translate [Reference] 'Sunglasses B'
-staxel.accessories.characters.accessories.glasses.BSun.name=
+//[Reference] 'Sunglasses B'
+staxel.accessories.characters.accessories.glasses.BSun.name=Sonnenbrillengläser B
+
 staxel.accessories.characters.accessories.glasses.CEmpty.description=
-//TODO Translate [Reference] 'Frame C'
-staxel.accessories.characters.accessories.glasses.CEmpty.name=
+//[Reference] 'Frame C'
+staxel.accessories.characters.accessories.glasses.CEmpty.name=Rahmen C
 staxel.accessories.characters.accessories.glasses.CGlass.description=
-//TODO Translate [Reference] 'Glasses C'
-staxel.accessories.characters.accessories.glasses.CGlass.name=
+//[Reference] 'Glasses C'
+staxel.accessories.characters.accessories.glasses.CGlass.name=Brillengläser C
 staxel.accessories.characters.accessories.glasses.CSun.description=
-//TODO Translate [Reference] 'Sunglasses C'
-staxel.accessories.characters.accessories.glasses.CSun.name=
-//TODO Translate [Reference] 'Pumpkin Hat'
-staxel.accessories.characters.accessories.halloween.pumpkinhat.PumpkinHat=
+//[Reference] 'Sunglasses C'
+staxel.accessories.characters.accessories.glasses.CSun.name=Sonnenbrillengläser C
+
+//[Reference] 'Pumpkin Hat'
+staxel.accessories.characters.accessories.halloween.pumpkinhat.PumpkinHat=Kürbishut
 staxel.accessories.characters.accessories.hats.Headphones.description=
-//TODO Translate [Reference] 'Headphones'
-staxel.accessories.characters.accessories.hats.Headphones.name=
-//TODO Translate [Reference] 'Blue Monkey Hat'
-staxel.accessories.characters.accessories.monkeyhats.BlueMonkeyHat=
-//TODO Translate [Reference] 'Orange Monkey Hat'
-staxel.accessories.characters.accessories.monkeyhats.OrangeMonkeyHat=
-//TODO Translate [Reference] 'Pink Monkey Hat'
-staxel.accessories.characters.accessories.monkeyhats.PinkMonkeyHat=
-//TODO Translate [Reference] 'Gold Tiara'
-staxel.accessories.characters.accessories.tiaras.GoldTiara=
-//TODO Translate [Reference] 'Silver Tiara'
-staxel.accessories.characters.accessories.tiaras.SilverTiara=
-//TODO Translate [Reference] 'Bartwe Hair'
-staxel.accessories.devavatars.bartwe.BartweHair=
+//[Reference] 'Headphones'
+staxel.accessories.characters.accessories.hats.Headphones.name=Kopfhörer
+//[Reference] 'Blue Monkey Hat'
+staxel.accessories.characters.accessories.monkeyhats.BlueMonkeyHat=Blauer Affenhut
+//[Reference] 'Orange Monkey Hat'
+staxel.accessories.characters.accessories.monkeyhats.OrangeMonkeyHat=Orangener Affenhut
+//[Reference] 'Pink Monkey Hat'
+staxel.accessories.characters.accessories.monkeyhats.PinkMonkeyHat=Pinker Affenhut
+//[Reference] 'Gold Tiara'
+staxel.accessories.characters.accessories.tiaras.GoldTiara=Goldenes Diadem
+//[Reference] 'Silver Tiara'
+staxel.accessories.characters.accessories.tiaras.SilverTiara=Silbernes Diadem
+
+//[Reference] 'Bartwe Hair'
+staxel.accessories.devavatars.bartwe.BartweHair=Bartwe-Haare
 staxel.accessories.devavatars.bartwe.BartweHoodie.description=
-//TODO Translate [Reference] 'Bartwe Hoodie'
-staxel.accessories.devavatars.bartwe.BartweHoodie.name=
+//[Reference] 'Bartwe Hoodie'
+staxel.accessories.devavatars.bartwe.BartweHoodie.name=Bartwe-Kapuzenpullover
 staxel.accessories.devavatars.bartwe.BartweShirt.description=
-//TODO Translate [Reference] 'Bartwe Shirt'
-staxel.accessories.devavatars.bartwe.BartweShirt.name=
+//[Reference] 'Bartwe Shirt'
+staxel.accessories.devavatars.bartwe.BartweShirt.name=Bartwe-Hemd
 staxel.accessories.devavatars.bartwe.BartweShoes.description=
-//TODO Translate [Reference] 'Bartwe Shoes'
-staxel.accessories.devavatars.bartwe.BartweShoes.name=
+//[Reference] 'Bartwe Shoes'
+staxel.accessories.devavatars.bartwe.BartweShoes.name=Bartwe-Schuhe
 staxel.accessories.devavatars.bartwe.BartweTrousers.description=
-//TODO Translate [Reference] 'Bartwe Trousers'
-staxel.accessories.devavatars.bartwe.BartweTrousers.name=
-//TODO Translate [Reference] 'Callum Hair'
-staxel.accessories.devavatars.callum.CallumHair=
+//[Reference] 'Bartwe Trousers'
+staxel.accessories.devavatars.bartwe.BartweTrousers.name=Bartwe-Hose
+
+//[Reference] 'Callum Hair'
+staxel.accessories.devavatars.callum.CallumHair=Callum-Haare
 staxel.accessories.devavatars.callum.CallumShirt.description=
-//TODO Translate [Reference] 'Callum Shirt'
-staxel.accessories.devavatars.callum.CallumShirt.name=
+//[Reference] 'Callum Shirt'
+staxel.accessories.devavatars.callum.CallumShirt.name=Callum-Hemd
 staxel.accessories.devavatars.callum.CallumShoes.description=
-//TODO Translate [Reference] 'Callum Shoes'
-staxel.accessories.devavatars.callum.CallumShoes.name=
+//[Reference] 'Callum Shoes'
+staxel.accessories.devavatars.callum.CallumShoes.name=Callum-Schuhe
 staxel.accessories.devavatars.callum.CallumTrousers.description=
-//TODO Translate [Reference] 'Callum Trousers'
-staxel.accessories.devavatars.callum.CallumTrousers.name=
-//TODO Translate [Reference] 'Damon Hair'
-staxel.accessories.devavatars.damon.DamonHair=
+//[Reference] 'Callum Trousers'
+staxel.accessories.devavatars.callum.CallumTrousers.name=Callum-Hose
+
+//[Reference] 'Damon Hair'
+staxel.accessories.devavatars.damon.DamonHair=Damon-Haare
 staxel.accessories.devavatars.damon.DamonShirt.description=
-//TODO Translate [Reference] 'Damon Shirt'
-staxel.accessories.devavatars.damon.DamonShirt.name=
+//[Reference] 'Damon Shirt'
+staxel.accessories.devavatars.damon.DamonShirt.name=Damon-Hemd
 staxel.accessories.devavatars.damon.DamonShoes.description=
-//TODO Translate [Reference] 'Damon Shoes'
-staxel.accessories.devavatars.damon.DamonShoes.name=
+//[Reference] 'Damon Shoes'
+staxel.accessories.devavatars.damon.DamonShoes.name=Damon-Schuhe
 staxel.accessories.devavatars.damon.DamonTrousers.description=
-//TODO Translate [Reference] 'Damon Trousers'
-staxel.accessories.devavatars.damon.DamonTrousers.name=
-//TODO Translate [Reference] 'Joe Hair'
-staxel.accessories.devavatars.joe.JoeHair=
+//[Reference] 'Damon Trousers'
+staxel.accessories.devavatars.damon.DamonTrousers.name=Damon-Hose
+
+//[Reference] 'Joe Hair'
+staxel.accessories.devavatars.joe.JoeHair=Joe-Haare
 staxel.accessories.devavatars.joe.JoeShirt.description=
-//TODO Translate [Reference] 'Joe Shirt'
-staxel.accessories.devavatars.joe.JoeShirt.name=
+//[Reference] 'Joe Shirt'
+staxel.accessories.devavatars.joe.JoeShirt.name=Joe-Hemd
 staxel.accessories.devavatars.joe.JoeShoes.description=
-//TODO Translate [Reference] 'Joe Shoes'
-staxel.accessories.devavatars.joe.JoeShoes.name=
+//[Reference] 'Joe Shoes'
+staxel.accessories.devavatars.joe.JoeShoes.name=Joe-Schuhe
 staxel.accessories.devavatars.joe.JoeTrousers.description=
-//TODO Translate [Reference] 'Joe Trousers'
-staxel.accessories.devavatars.joe.JoeTrousers.name=
-//TODO Translate [Reference] 'Moocow Hair'
-staxel.accessories.devavatars.moocow.MoocowHair=
+//[Reference] 'Joe Trousers'
+staxel.accessories.devavatars.joe.JoeTrousers.name=Joe-Hose
+
+//[Reference] 'Moocow Hair'
+staxel.accessories.devavatars.moocow.MoocowHair=Moocow-Haare
 staxel.accessories.devavatars.moocow.MoocowShirt.description=
-//TODO Translate [Reference] 'Moocow Shirt'
-staxel.accessories.devavatars.moocow.MoocowShirt.name=
+//[Reference] 'Moocow Shirt'
+staxel.accessories.devavatars.moocow.MoocowShirt.name=Moocow-Hemd
 staxel.accessories.devavatars.moocow.MoocowShoes.description=
-//TODO Translate [Reference] 'Moocow Shoes'
-staxel.accessories.devavatars.moocow.MoocowShoes.name=
+//[Reference] 'Moocow Shoes'
+staxel.accessories.devavatars.moocow.MoocowShoes.name=Moocow-Schuhe
 staxel.accessories.devavatars.moocow.MoocowTrousers.description=
-//TODO Translate [Reference] 'Moocow Trousers'
-staxel.accessories.devavatars.moocow.MoocowTrousers.name=
-//TODO Translate [Reference] 'Razz Hair'
-staxel.accessories.devavatars.razz.RazzHair=
+//[Reference] 'Moocow Trousers'
+staxel.accessories.devavatars.moocow.MoocowTrousers.name=Moocow-Hose
+
+//[Reference] 'Razz Hair'
+staxel.accessories.devavatars.razz.RazzHair=Razz-Haare
 staxel.accessories.devavatars.razz.RazzShirt.description=
-//TODO Translate [Reference] 'Razz Shirt'
-staxel.accessories.devavatars.razz.RazzShirt.name=
+//[Reference] 'Razz Shirt'
+staxel.accessories.devavatars.razz.RazzShirt.name=Razz-Hemd
 staxel.accessories.devavatars.razz.RazzShoes.description=
-//TODO Translate [Reference] 'Razz Shoes'
-staxel.accessories.devavatars.razz.RazzShoes.name=
+//[Reference] 'Razz Shoes'
+staxel.accessories.devavatars.razz.RazzShoes.name=Razz-Schuhe
 staxel.accessories.devavatars.razz.RazzTrousers.description=
-//TODO Translate [Reference] 'Razz Trousers'
-staxel.accessories.devavatars.razz.RazzTrousers.name=
-//TODO Translate [Reference] 'Sledra Hair'
-staxel.accessories.devavatars.sledra.SledraHair=
+//[Reference] 'Razz Trousers'
+staxel.accessories.devavatars.razz.RazzTrousers.name=Razz-Hose
+
+//[Reference] 'Sledra Hair'
+staxel.accessories.devavatars.sledra.SledraHair=Sledra-Haare
 staxel.accessories.devavatars.sledra.SledraShirt.description=
-//TODO Translate [Reference] 'Sledra Shirt'
-staxel.accessories.devavatars.sledra.SledraShirt.name=
+//[Reference] 'Sledra Shirt'
+staxel.accessories.devavatars.sledra.SledraShirt.name=Sledra-Hemd
 staxel.accessories.devavatars.sledra.SledraShoes.description=
-//TODO Translate [Reference] 'Sledra Shoes'
-staxel.accessories.devavatars.sledra.SledraShoes.name=
+//[Reference] 'Sledra Shoes'
+staxel.accessories.devavatars.sledra.SledraShoes.name=Sledra-Schuhe
 staxel.accessories.devavatars.sledra.SledraTrousers.description=
-//TODO Translate [Reference] 'Sledra Trousers'
-staxel.accessories.devavatars.sledra.SledraTrousers.name=
-//TODO Translate [Reference] 'Stein Hair'
-staxel.accessories.devavatars.stein.SteinHair=
+//[Reference] 'Sledra Trousers'
+staxel.accessories.devavatars.sledra.SledraTrousers.name=Sledra-Hose
+
+//[Reference] 'Stein Hair'
+staxel.accessories.devavatars.stein.SteinHair=Stein-Haare
 staxel.accessories.devavatars.stein.SteinShirt.description=
-//TODO Translate [Reference] 'Stein Shirt'
-staxel.accessories.devavatars.stein.SteinShirt.name=
+//[Reference] 'Stein Shirt'
+staxel.accessories.devavatars.stein.SteinShirt.name=Stein-Hemd
 staxel.accessories.devavatars.stein.SteinShoes.description=
-//TODO Translate [Reference] 'Stein Shoes'
-staxel.accessories.devavatars.stein.SteinShoes.name=
+//[Reference] 'Stein Shoes'
+staxel.accessories.devavatars.stein.SteinShoes.name=Stein-Schuhe
 staxel.accessories.devavatars.stein.SteinTrousers.description=
-//TODO Translate [Reference] 'Stein Trousers'
-staxel.accessories.devavatars.stein.SteinTrousers.name=
+//[Reference] 'Stein Trousers'
+staxel.accessories.devavatars.stein.SteinTrousers.name=Stein-Hose
+
 staxel.accessories.devavatars.teagadd.TeagaddShirt.description=
-//TODO Translate [Reference] 'Teagadd Shirt'
-staxel.accessories.devavatars.teagadd.TeagaddShirt.name=
+//[Reference] 'Teagadd Shirt'
+staxel.accessories.devavatars.teagadd.TeagaddShirt.name=Teagadd-Hemd
 staxel.accessories.devavatars.teagadd.TeagaddShoes.description=
-//TODO Translate [Reference] 'Teagadd Shoes'
-staxel.accessories.devavatars.teagadd.TeagaddShoes.name=
+//[Reference] 'Teagadd Shoes'
+staxel.accessories.devavatars.teagadd.TeagaddShoes.name=Teagadd-Schuhe
 staxel.accessories.devavatars.teagadd.TeagaddTrousers.description=
-//TODO Translate [Reference] 'Teagadd Trousers'
-staxel.accessories.devavatars.teagadd.TeagaddTrousers.name=
-//TODO Translate [Reference] 'Colourful Kawaii'
-staxel.accessories.eyes.colourfulKawaii=
-//TODO Translate [Reference] 'Dark'
-staxel.accessories.eyes.dark=
-//TODO Translate [Reference] 'Dark with Eyelashes'
-staxel.accessories.eyes.darkEyelashes=
-//TODO Translate [Reference] 'Dark Kawaii'
-staxel.accessories.eyes.darkKawaii=
-//TODO Translate [Reference] 'Gradient'
-staxel.accessories.eyes.gradient=
-//TODO Translate [Reference] 'Gradient with Eyelashes'
-staxel.accessories.eyes.gradientEyelashes=
-//TODO Translate [Reference] 'Grumpy'
-staxel.accessories.eyes.grumpy=
-//TODO Translate [Reference] 'Kawaii'
-staxel.accessories.eyes.kawaii=
-//TODO Translate [Reference] 'Kawaii with Eyelashes'
-staxel.accessories.eyes.kawaiiEyelashes=
-//TODO Translate [Reference] 'Standard'
-staxel.accessories.eyes.normal=
-//TODO Translate [Reference] 'Standard with Eyelashes'
-staxel.accessories.eyes.normalEyelashes=
-//TODO Translate [Reference] 'Serious'
-staxel.accessories.eyes.serious=
-//TODO Translate [Reference] 'Serious with Eyelashes'
-staxel.accessories.eyes.seriousEyelashes=
-//TODO Translate [Reference] 'Serious-Wide'
-staxel.accessories.eyes.seriousWide=
-//TODO Translate [Reference] 'Serious-Wide with Eyelashes'
-staxel.accessories.eyes.seriousWideEyelashes=
-//TODO Translate [Reference] 'Sideways'
-staxel.accessories.eyes.sideways=
-//TODO Translate [Reference] 'Sideways with Eyelashes'
-staxel.accessories.eyes.sidewaysEyelashes=
-//TODO Translate [Reference] 'Small'
-staxel.accessories.eyes.small=
-//TODO Translate [Reference] 'Small with Eyelashes'
-staxel.accessories.eyes.smallEyelashes=
-//TODO Translate [Reference] 'Squint'
-staxel.accessories.eyes.squint=
-//TODO Translate [Reference] 'Thick with Eyelashes'
-staxel.accessories.eyes.thickEyelashes=
-//TODO Translate [Reference] 'Wise'
-staxel.accessories.eyes.wise=
-//TODO Translate [Reference] 'Temp Hair'
-staxel.accessories.generic.cooking.TempBlueHair=
+//[Reference] 'Teagadd Trousers'
+staxel.accessories.devavatars.teagadd.TeagaddTrousers.name=Teagadd-Hose
+
+//[Reference] 'Colourful Kawaii'
+staxel.accessories.eyes.colourfulKawaii=Farbenfrohes Kawaii
+//[Reference] 'Dark'
+staxel.accessories.eyes.dark=Dunkel
+//[Reference] 'Dark with Eyelashes'
+staxel.accessories.eyes.darkEyelashes=Dunkel mit Wimpern
+//[Reference] 'Dark Kawaii'
+staxel.accessories.eyes.darkKawaii=Dunkel Süß
+//[Reference] 'Gradient'
+staxel.accessories.eyes.gradient=Neigung
+//[Reference] 'Gradient with Eyelashes'
+staxel.accessories.eyes.gradientEyelashes=Neigung mit Wimpern
+//[Reference] 'Grumpy'
+staxel.accessories.eyes.grumpy=Mürrisch
+//[Reference] 'Kawaii'
+staxel.accessories.eyes.kawaii=Süß
+//[Reference] 'Kawaii with Eyelashes'
+staxel.accessories.eyes.kawaiiEyelashes=Kawaii mit Wimpern
+//[Reference] 'Standard'
+staxel.accessories.eyes.normal=Standard
+//[Reference] 'Standard with Eyelashes'
+staxel.accessories.eyes.normalEyelashes=Standard mit Wimpern
+//[Reference] 'Serious'
+staxel.accessories.eyes.serious=Ernst
+//[Reference] 'Serious with Eyelashes'
+staxel.accessories.eyes.seriousEyelashes=Ernst mit Wimpern
+//[Reference] 'Serious-Wide'
+staxel.accessories.eyes.seriousWide=Ernst-Breit
+//[Reference] 'Serious-Wide with Eyelashes'
+staxel.accessories.eyes.seriousWideEyelashes=Ernst-Breit mit Wimpern
+//[Reference] 'Sideways'
+staxel.accessories.eyes.sideways=Seitwärts
+//[Reference] 'Sideways with Eyelashes'
+staxel.accessories.eyes.sidewaysEyelashes=Seitwärts mit Wimpern
+//[Reference] 'Small'
+staxel.accessories.eyes.small=Klein
+//[Reference] 'Small with Eyelashes'
+staxel.accessories.eyes.smallEyelashes=Klein mit Wimpern
+//[Reference] 'Squint'
+staxel.accessories.eyes.squint=Schielend
+//[Reference] 'Thick with Eyelashes'
+staxel.accessories.eyes.thickEyelashes=Schielend mit Wimpern
+//[Reference] 'Wise'
+staxel.accessories.eyes.wise=Weise
+//[Reference] 'Temp Hair'
+staxel.accessories.generic.cooking.TempBlueHair=Temp-Haare
 staxel.accessories.generic.cooking.TempBlueShirt.description=
-//TODO Translate [Reference] 'Temp Shirt'
-staxel.accessories.generic.cooking.TempBlueShirt.name=
+//[Reference] 'Temp Shirt'
+staxel.accessories.generic.cooking.TempBlueShirt.name=Temp-Hemd
 staxel.accessories.generic.cooking.TempBlueShoes.description=
-//TODO Translate [Reference] 'Temp Shoes'
-staxel.accessories.generic.cooking.TempBlueShoes.name=
+//[Reference] 'Temp Shoes'
+staxel.accessories.generic.cooking.TempBlueShoes.name=Temp-Schuhe
 staxel.accessories.generic.cooking.TempBlueTrousers.description=
-//TODO Translate [Reference] 'Temp Trousers'
-staxel.accessories.generic.cooking.TempBlueTrousers.name=
-//TODO Translate [Reference] 'Curly with Hairbands'
-staxel.accessories.hairstyles.female.long.curlyhairbands.CurlyYellowHairbands=
-//TODO Translate [Reference] 'Twintails'
-staxel.accessories.hairstyles.female.long.floppypigtails.FloppyPigtails=
-//TODO Translate [Reference] 'Neko'
-staxel.accessories.hairstyles.female.medium.catGirl=
-//TODO Translate [Reference] 'Normal Short'
-staxel.accessories.hairstyles.male.short.Male_NormalShort=
-//TODO Translate [Reference] 'Short Emo'
-staxel.accessories.hairstyles.male.short.ShortEmoFringe=
-//TODO Translate [Reference] 'Classic Mecha'
-staxel.accessories.helmets.mecha.Mecha_Classic=
-//TODO Translate [Reference] 'EG4D'
-staxel.accessories.helmets.mecha.Mecha_EG4D=
-//TODO Translate [Reference] 'L0V3'
-staxel.accessories.helmets.mecha.Mecha_L0V3=
-//TODO Translate [Reference] 'P'
-staxel.accessories.helmets.mecha.Mecha_P=
-//TODO Translate [Reference] 'Mecha Red'
-staxel.accessories.helmets.mecha.Mecha_Red=
-//TODO Translate [Reference] 'Mecha Yellow'
-staxel.accessories.helmets.mecha.Mecha_XYellow=
+//[Reference] 'Temp Trousers'
+staxel.accessories.generic.cooking.TempBlueTrousers.name=Temp-Hose
+//[Reference] 'Curly with Hairbands'
+staxel.accessories.hairstyles.female.long.curlyhairbands.CurlyYellowHairbands=Gelockt mit Haarbändern
+//[Reference] 'Twintails'
+staxel.accessories.hairstyles.female.long.floppypigtails.FloppyPigtails=Doppelzöpfe
+//[Reference] 'Neko'
+staxel.accessories.hairstyles.female.medium.catGirl=Katze
+//[Reference] 'Normal Short'
+staxel.accessories.hairstyles.male.short.Male_NormalShort=Normal kurz
+//[Reference] 'Short Emo'
+staxel.accessories.hairstyles.male.short.ShortEmoFringe=Kurz Emo
+//[Reference] 'Classic Mecha'
+staxel.accessories.helmets.mecha.Mecha_Classic=Klassischer Mecha
+//[Reference] 'EG4D'
+staxel.accessories.helmets.mecha.Mecha_EG4D=EG4D
+//[Reference] 'L0V3'
+staxel.accessories.helmets.mecha.Mecha_L0V3=L0V3
+//[Reference] 'P'
+staxel.accessories.helmets.mecha.Mecha_P=P
+//[Reference] 'Mecha Red'
+staxel.accessories.helmets.mecha.Mecha_Red=Roter Mecha
+//[Reference] 'Mecha Yellow'
+staxel.accessories.helmets.mecha.Mecha_XYellow=Gelber Mecha
 staxel.accessories.princessdresses.ruffly.RufflyDress.description=
-//TODO Translate [Reference] 'Ruffly Dress'
-staxel.accessories.princessdresses.ruffly.RufflyDress.name=
+//[Reference] 'Ruffly Dress'
+staxel.accessories.princessdresses.ruffly.RufflyDress.name=Rüschen-Kleid
 staxel.accessories.shirts.catshirts.CatShirt.description=
-staxel.accessories.shirts.catshirts.CatShirt.name=
+staxel.accessories.shirts.catshirts.CatShirt.name=Katzen-Shirt
 staxel.accessories.shirts.catshirts.Female_CatShirt.description=
-//TODO Translate [Reference] 'Cat Shirt'
-staxel.accessories.shirts.catshirts.Female_CatShirt.name=
+//[Reference] 'Cat Shirt'
+staxel.accessories.shirts.catshirts.Female_CatShirt.name=Katzen-Hemd
 staxel.accessories.shirts.catshirts.Male_CatShirt.description=
-//TODO Translate [Reference] 'Cat Shirt'
-staxel.accessories.shirts.catshirts.Male_CatShirt.name=
+//[Reference] 'Cat Shirt'
+staxel.accessories.shirts.catshirts.Male_CatShirt.name=Katzen-Hemd
 staxel.accessories.shirts.hoodies.femaleWhiteHoodie.description=
-//TODO Translate [Reference] 'Hoodie'
-staxel.accessories.shirts.hoodies.femaleWhiteHoodie.name=
+//[Reference] 'Hoodie'
+staxel.accessories.shirts.hoodies.femaleWhiteHoodie.name=Kapuzenpullover
 staxel.accessories.shirts.hoodies.maleWhiteHoodie.description=
-//TODO Translate [Reference] 'Hoodie'
-staxel.accessories.shirts.hoodies.maleWhiteHoodie.name=
+//[Reference] 'Hoodie'
+staxel.accessories.shirts.hoodies.maleWhiteHoodie.name=Kapuzenpullover
 staxel.accessories.shirts.hoodies.WhiteHoodie.name=
 staxel.accessories.shirts.splatshirts.FemaleSplatShirt.description=
-//TODO Translate [Reference] 'Splat Shirt'
-staxel.accessories.shirts.splatshirts.FemaleSplatShirt.name=
+//[Reference] 'Splat Shirt'
+staxel.accessories.shirts.splatshirts.FemaleSplatShirt.name=Platsch-Hemd
 staxel.accessories.shirts.splatshirts.MaleSplatShirt.description=
-//TODO Translate [Reference] 'Splat Shirt'
-staxel.accessories.shirts.splatshirts.MaleSplatShirt.name=
+//[Reference] 'Splat Shirt'
+staxel.accessories.shirts.splatshirts.MaleSplatShirt.name=Mega-Platsch-Hemd
 staxel.accessories.shirts.splatshirts.SplatShirt.name=
 staxel.accessories.shoes.blackneon.BlackNeonTrainers.description=
-//TODO Translate [Reference] 'Neon Trainers'
-staxel.accessories.shoes.blackneon.BlackNeonTrainers.name=
+//[Reference] 'Neon Trainers'
+staxel.accessories.shoes.blackneon.BlackNeonTrainers.name=Neon Turnschuhe
 staxel.accessories.shoes.colouredtrainers.ColouredTrainers.description=
-//TODO Translate [Reference] 'Coloured Trainers'
-staxel.accessories.shoes.colouredtrainers.ColouredTrainers.name=
+//[Reference] 'Coloured Trainers'
+staxel.accessories.shoes.colouredtrainers.ColouredTrainers.name=Farbige Turnschuhe
 staxel.accessories.shoes.hitops.baseHitops.description=
-//TODO Translate [Reference] 'Hitops'
-staxel.accessories.shoes.hitops.baseHitops.name=
+//[Reference] 'Hitops'
+staxel.accessories.shoes.hitops.baseHitops.name=Hi-Tops
 staxel.accessories.shortjeans.shortjeans_black.description=
-//TODO Translate [Reference] 'Black Short Jeans'
-staxel.accessories.shortjeans.shortjeans_black.name=
+//[Reference] 'Black Short Jeans'
+staxel.accessories.shortjeans.shortjeans_black.name=Schwarze kurze Jeans
 staxel.accessories.shortjeans.shortjeans_darkblue.description=
-//TODO Translate [Reference] 'Dark Short Jeans'
-staxel.accessories.shortjeans.shortjeans_darkblue.name=
+//[Reference] 'Dark Short Jeans'
+staxel.accessories.shortjeans.shortjeans_darkblue.name=Dunkle kurze Jeans
 staxel.accessories.shortjeans.shortjeans_fadedblue.description=
-//TODO Translate [Reference] 'Faded Short Jeans'
-staxel.accessories.shortjeans.shortjeans_fadedblue.name=
+//[Reference] 'Faded Short Jeans'
+staxel.accessories.shortjeans.shortjeans_fadedblue.name=Ausgeblichene kurze Jeans
 staxel.accessories.shorts.baseShorts.description=
-//TODO Translate [Reference] 'Shorts'
-staxel.accessories.shorts.baseShorts.name=
+//[Reference] 'Shorts'
+staxel.accessories.shorts.baseShorts.name=Shorts
 staxel.accessories.straptops.straptop.description=
-//TODO Translate [Reference] 'Straptop'
-staxel.accessories.straptops.straptop.name=
-//TODO Translate [Reference] 'None'
-staxel.accessory.none=
-//TODO Translate [Reference] 'Unleash your inner angler and reel in a nice catch'
-staxel.achievement.CatchFish.description=
-//TODO Translate [Reference] 'Catch a fish'
-staxel.achievement.CatchFish.name=
-//TODO Translate [Reference] 'Take a tool from the shelf'
-staxel.achievement.EquipTool.description=
-//TODO Translate [Reference] 'Equip a tool'
-staxel.achievement.EquipTool.name=
-//TODO Translate [Reference] 'It's harvest time! Bring in the bounty!'
-staxel.achievement.HarvestCrop.description=
-//TODO Translate [Reference] 'Harvest a crop'
-staxel.achievement.HarvestCrop.name=
-//TODO Translate [Reference] 'Follow a recipe to make some delicious jam'
-staxel.achievement.MakeJam.description=
-//TODO Translate [Reference] 'Make jam'
-staxel.achievement.MakeJam.name=
+//[Reference] 'Straptop'
+staxel.accessories.straptops.straptop.name=Trägertop
+//[Reference] 'None'
+staxel.accessory.none=Nichts
+
+//[Reference] 'Unleash your inner angler and reel in a nice catch'
+staxel.achievement.CatchFish.description=Entfessle deinen inneren Angler und mach einen guten Fang
+//[Reference] 'Catch a fish'
+staxel.achievement.CatchFish.name=Fang einen Fisch
+//[Reference] 'Take a tool from the shelf'
+staxel.achievement.EquipTool.description=Nimm ein Werkzeug aus dem Regal
+//[Reference] 'Equip a tool'
+staxel.achievement.EquipTool.name=Rüste ein Werkzeug aus
+//[Reference] 'It's harvest time! Bring in the bounty!'
+staxel.achievement.HarvestCrop.description=Es ist Erntezeit! Hol dir die Prämie!
+//[Reference] 'Harvest a crop'
+staxel.achievement.HarvestCrop.name=Ernte eine Pflanze
+//[Reference] 'Follow a recipe to make some delicious jam'
+staxel.achievement.MakeJam.description=Nutze ein Rezept um leckere Marmelade zu machen
+//[Reference] 'Make jam'
+staxel.achievement.MakeJam.name=Mach Marmelade
 //TODO Translate [Reference] 'Place an order for any item in the shipping catalogue'
 staxel.achievement.OrderItem.description=
 //TODO Translate [Reference] 'Order an item'
 staxel.achievement.OrderItem.name=
 staxel.achievement.PlaceFurniture.description=
-//TODO Translate [Reference] 'Place furniture'
-staxel.achievement.PlaceFurniture.name=
-//TODO Translate [Reference] 'Plant a seed in tilled soil'
-staxel.achievement.PlantCrop.description=
-//TODO Translate [Reference] 'Plant a seed'
-staxel.achievement.PlantCrop.name=
-//TODO Translate [Reference] 'Sell one of your freshly harvested crops via the shipping station'
-staxel.achievement.SellItem.description=
-//TODO Translate [Reference] 'Sell a crop'
-staxel.achievement.SellItem.name=
-//TODO Translate [Reference] 'Use the watering can to water a crop'
-staxel.achievement.WaterCrop.description=
-//TODO Translate [Reference] 'Water a crop'
-staxel.achievement.WaterCrop.name=
-//TODO Translate [Reference] 'Orders placed for {0-item}'
-staxel.achievements.descriptions.OrderItem.text=
-//TODO Translate [Reference] '{0-item} placed'
-staxel.achievements.descriptions.PlaceItem.text=
-//TODO Translate [Reference] '{0-item} planted'
-staxel.achievements.descriptions.PlantItem.text=
-//TODO Translate [Reference] 'Sales of {0-item}'
-staxel.achievements.descriptions.SellItem.text=
-//TODO Translate [Reference] 'crops watered'
-staxel.achievements.WaterCrop.text=
+//[Reference] 'Place furniture'
+staxel.achievement.PlaceFurniture.name=Plaziere Möbel
+//[Reference] 'Plant a seed in tilled soil'
+staxel.achievement.PlantCrop.description=Pflanze einen Samen auf Ackerboden
+//[Reference] 'Plant a seed'
+staxel.achievement.PlantCrop.name=Pflanze einen Samen
+//[Reference] 'Sell one of your freshly harvested crops via the shipping station'
+staxel.achievement.SellItem.description=Verkaufe eine deiner frisch geernteten Pflanzen über die Versandstation
+//[Reference] 'Sell a crop'
+staxel.achievement.SellItem.name=Verkaufe eine Pflanze
+//[Reference] 'Use the watering can to water a crop'
+staxel.achievement.WaterCrop.description=Nutze die Gießkanne um deine Pflanzen zu wässern
+//[Reference] 'Water a crop'
+staxel.achievement.WaterCrop.name=Gieße eine Pflanze
+//[Reference] 'Orders placed for {0-item}'
+staxel.achievements.descriptions.OrderItem.text=Angebote eingestellt für {0-item}
+//[Reference] '{0-item} placed'
+staxel.achievements.descriptions.PlaceItem.text={0-item} plaziert
+//[Reference] '{0-item} planted'
+staxel.achievements.descriptions.PlantItem.text={0-item} eingepflanzt
+//[Reference] 'Sales of {0-item}'
+staxel.achievements.descriptions.SellItem.text=Verkäufe von 
+//[Reference] 'crops watered'
+staxel.achievements.WaterCrop.text=Pflanzen gewässert
 //TODO Translate [Reference] 'Ouch! The bees need to be calmed down'
 staxel.apiary.calmWorkers=
 //TODO Translate [Reference] 'This apiary has enough bees'
@@ -5921,5 +5939,5 @@ staxel.tree.TangerineTree.name=
 
 //TODO Translate [Reference] 'Staxel Development Build'
 version.developmentBuild=
-//TODO Translate [Reference] 'Can't equip this here!'
-wardrobe.CantEquip=
+//[Reference] 'Can't equip this here!'
+wardrobe.CantEquip=Dies kann hier nicht ausgerüstet werden!
