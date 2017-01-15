@@ -34,8 +34,8 @@ characterDesigner.hair=Haare
 characterDesigner.hat=Hut
 //[Reference] 'Make yourself pretty and stuff'
 characterDesigner.info=Mach dich selbst hübsch und so
-//[Reference] 'Name'
-characterDesigner.name=Name
+//TODO Translate [Reference] 'Name'
+characterDesigner.name=
 //[Reference] 'Next'
 characterDesigner.next=Weiter
 //[Reference] 'None'
@@ -64,8 +64,8 @@ characterDesigner.subcategory.hat=Hut
 characterDesigner.subcategory.hitops=High Tops
 //[Reference] 'Hoodie'
 characterDesigner.subcategory.hoodie=Kapuzenpullover
-//[Reference] 'Jeans'
-characterDesigner.subcategory.jeans=Jeans
+//TODO Translate [Reference] 'Jeans'
+characterDesigner.subcategory.jeans=
 //[Reference] 'Long'
 characterDesigner.subcategory.long=lang
 //[Reference] 'Longsleeve'
@@ -76,14 +76,14 @@ characterDesigner.subcategory.medium=mittel
 characterDesigner.subcategory.sandals=Sandalen
 //[Reference] 'Short'
 characterDesigner.subcategory.short=kurz
-//[Reference] 'Shorts'
-characterDesigner.subcategory.shorts=Shorts
+//TODO Translate [Reference] 'Shorts'
+characterDesigner.subcategory.shorts=
 //[Reference] 'Straptop'
 characterDesigner.subcategory.straptop=Trägertop
 //[Reference] 'Trainers'
 characterDesigner.subcategory.trainers=Turnschuhe
-//[Reference] 'T-Shirt'
-characterDesigner.subcategory.tshirt=T-Shirt
+//TODO Translate [Reference] 'T-Shirt'
+characterDesigner.subcategory.tshirt=
 //[Reference] 'Vest'
 characterDesigner.subcategory.vest=Weste
 //[Reference] 'Character Creation'
@@ -170,20 +170,20 @@ commands.giveallrecipes.description=
 commands.giveallrecipes.success=Fertig!
 //TODO Translate [Reference] 'givepetals playerName amount'
 commands.givePetals.description=
-//TODO Translate [Reference] 'Petal amount needs to be a positive number'
+//[Reference] 'Petal amount needs to be a positive number'
 commands.givePetals.invalidNumber=Blütenblätter-Anzahl muss eine positive Anzahl sein
-//TODO Translate [Reference] 'Gave {0-player} {1-amount} petals'
+//[Reference] 'Gave {0-player} {1-amount} petals'
 commands.givePetals.success=Gebe {0-player} {1-amount} Blütenblätter
 //TODO Translate [Reference] '? (optional)commandName'
 commands.help.altDescription=
-//TODO Translate [Reference] 'Command not found: '{0-command}''
+//[Reference] 'Command not found: '{0-command}''
 commands.help.commandNotFound=Befehl nicht gefunden: '{0-command}'
 //TODO Translate [Reference] 'help (optional)commandName'
 commands.help.description=
-//TODO Translate [Reference] 'Command list (() brackets denote possible values):'
+//[Reference] 'Command list (() brackets denote possible values):'
 commands.help.success=Befehlsliste (() Klammern bezeichnen mögliche Werte):
 commands.inspect.success=
-//TODO Translate [Reference] 'invalid args'
+//[Reference] 'invalid args'
 commands.invalidArgs=Ungültige Parameter
 //TODO Translate [Reference] 'kick playerName'
 commands.kick.description=
@@ -329,16 +329,16 @@ crafting.action.keyword.combine=Kombiniere
 //[Reference] 'Cut'
 crafting.action.keyword.cut=Schneide
 crafting.action.keyword.fry=Brate
-//Translate [Reference] 'Mix'
+//[Reference] 'Mix'
 crafting.action.keyword.mix=Vermische
-//[Reference] '{0-itemOne}, {1-itemTwo}'
-crafting.action.task.listedItems={0-itemOne}, {1-itemTwo}
+//TODO Translate [Reference] '{0-itemOne}, {1-itemTwo}'
+crafting.action.task.listedItems=
 //[Reference] '{0-keyword} {1-listedItems} and {2-lastListedItem}'
 crafting.action.task.multiItem={0-keyword} {1-listedItems} und {2-lastListedItem}
-//[Reference] '{0-count}x {1-item}'
-crafting.action.task.multiples={0-count}x {1-item}
-//[Reference] '{0-keyword} {1-item}'
-crafting.action.task.oneItem={0-keyword} {1-item}
+//TODO Translate [Reference] '{0-count}x {1-item}'
+crafting.action.task.multiples=
+//TODO Translate [Reference] '{0-keyword} {1-item}'
+crafting.action.task.oneItem=
 //[Reference] 'That wasn't a recipe, Oops!'
 crafting.notifications.failedCraft=Ups, das war kein Rezept!
 //[Reference] 'You completed the recipe for {0-item}!'
@@ -422,7 +422,7 @@ hintText.chair=Drücke (Leertaste) oder (a) um vom Stuhl aufzustehen
 hintText.charge=Aufladen: {0:P1-chargeLevel}, Rechtsklick oder linker Trigger zum Abbrechen
 //[Reference] '{0:P0-growth}'
 hintText.checkPlantGrowth={0:P0-percentage} gewachsen
-[Reference] 'It's ready for harvesting'
+//[Reference] 'It's ready for harvesting'
 hintText.checkPlantGrowth.fruited=Es ist bereit zum Ernten
 //[Reference] 'It's growing healthily'
 hintText.checkPlantGrowth.growing=Es wächst prächtig
@@ -460,16 +460,16 @@ loading.skip=Überspringen
 multiplayerMenu.back=Zurück
 //[Reference] 'Join Server'
 multiplayerMenu.joinServer=Server beitreten
-//[Reference] 'Server IP:'
-multiplayerMenu.serverIP=Server IP:
+//TODO Translate [Reference] 'Server IP:'
+multiplayerMenu.serverIP=
 //[Reference] 'Server List'
 multiplayerMenu.serverList=Server Liste
 //[Reference] 'Options'
 options=Optionen
-//[Reference] 'Admin'
-options.admin=Admin
-//[Reference] 'Debug'
-options.admin.debug=Debug
+//TODO Translate [Reference] 'Admin'
+options.admin=
+//TODO Translate [Reference] 'Debug'
+options.admin.debug=
 
 //[Reference] 'Camera Mode (ESC to exit)'
 options.admin.debug.cameraMode=Kameramodus ((ESC) zum Verlassen)
@@ -485,16 +485,16 @@ options.admin.debug.showNames=ZeigeNamensschilder Modus
 options.admin.debug.wireframeMode=Wireframe Modus
 //[Reference] 'Adminy stuff'
 options.admin.description=Admin Zeugs
-//[Reference] 'Audio'
-options.audio=Audio
+//TODO Translate [Reference] 'Audio'
+options.audio=
 //[Reference] 'Set audio options here'
 options.audio.description=Ändere die Audio-Optionen
-//[Reference] '(X)'
-options.backButton=(X)
+//TODO Translate [Reference] '(X)'
+options.backButton=
 //[Reference] 'Gameplay'
 options.gameplay=Spiel
-//[Reference] 'Controller'
-options.gameplay.controller=Controller
+//TODO Translate [Reference] 'Controller'
+options.gameplay.controller=
 //[Reference] 'Enable Controller Input'
 options.gameplay.controller.enableController=Controller aktivieren
 //[Reference] 'Flip Y Axis'
@@ -539,8 +539,8 @@ options.gameplay.other.showClock=Zeige Uhr
 options.gameplay.other.showCraftingKeywordTags=Crafting Schlüsselwort-Tags
 //[Reference] 'General'
 options.general=Allgemein
-//[Reference] 'Audio'
-options.general.audio=Audio
+//TODO Translate [Reference] 'Audio'
+options.general.audio=
 //[Reference] 'Ambience:'
 options.general.audio.ambience=Umgebung:
 //[Reference] 'Master:'
@@ -555,8 +555,8 @@ options.general.graphics=Grafik
 options.general.graphics.advanced=Erweitert
 //[Reference] 'Auto detect graphics settings'
 options.general.graphics.autoDetect=Grafikeinstellungen automatisch ermitteln
-//[Reference] 'Bloom'
-options.general.graphics.bloom=Bloom
+//TODO Translate [Reference] 'Bloom'
+options.general.graphics.bloom=
 //[Reference] 'Camera Distance:'
 options.general.graphics.cameraDistance=Kameraentfernung:
 //TODO Translate [Reference] 'Fat Quads'
@@ -591,8 +591,8 @@ options.general.graphics.showGridCursor=Zeige Grid Cursor
 options.general.graphics.superLow=Sehr niedrig
 //[Reference] 'Super Sampling'
 options.general.graphics.superSampling=Supersampling
-//[Reference] 'Ultra'
-options.general.graphics.ultra=Ultra
+//TODO Translate [Reference] 'Ultra'
+options.general.graphics.ultra=
 //[Reference] 'Weather Particles'
 options.general.graphics.WeatherParticles=Wetterpartikel
 //[Reference] 'Language'
@@ -609,14 +609,14 @@ options.misc.resetToDefault=Standardeinstellungen wiederherstellen
 options.network=Netzwerk
 //[Reference] 'Preferences'
 options.network.preferences=Einstellungen
-//[Reference] 'Video'
-options.video=Video
+//TODO Translate [Reference] 'Video'
+options.video=
 //[Reference] 'Set video options here'
 options.video.description=Ändere die Video Optionen
 //[Reference] 'Ban'
 playerList.ban=Bann
-//[Reference] 'Kick'
-playerList.kick=Kick
+//TODO Translate [Reference] 'Kick'
+playerList.kick=
 //[Reference] 'Mute'
 playerList.mute=Stumm
 //[Reference] 'Players Online:'
@@ -658,8 +658,8 @@ server.youAreUnmuted=Du bist nicht länger stummgestellt.
 serverBrowser.back=Zurück
 //[Reference] 'No servers or master server unreachable'
 serverBrowser.noServers=Server sind nicht erreichbar
-//[Reference] 'Online:'
-serverBrowser.online=Online:
+//TODO Translate [Reference] 'Online:'
+serverBrowser.online=
 //[Reference] 'Server name:'
 serverBrowser.serverName=Servername:
 //[Reference] 'Cancel all'
@@ -676,8 +676,8 @@ shippingCatalogue.viewOrders.description=Hier kannst du ausstehende Bestellungen
 shippingDock.claimed=Du hast diese Abgabestelle für dich beansprucht!
 //[Reference] 'Cancel'
 singleplayer.cancel=Abbrechen
-//[Reference] 'Creative'
-singleplayer.creative=Creative
+//TODO Translate [Reference] 'Creative'
+singleplayer.creative=
 //[Reference] 'Creative Mode'
 singleplayer.creativeMode=Creativ-Modus
 //[Reference] 'Launch'
@@ -688,15 +688,15 @@ singleplayer.nameAlreadyExists=Ein Speicher mit diesem Namen existiert bereits
 singleplayer.nameTooShort=Name zu kurz (min. 3 Zeichen)
 //[Reference] 'New World'
 singleplayer.newWorld=Neue Welt
-//[Reference] 'Name'
-singleplayer.serverName=Name
+//TODO Translate [Reference] 'Name'
+singleplayer.serverName=
 //[Reference] 'Single Player'
 singleplayer.singleplayer=Einzelspieler
 //[Reference] 'Village'
 singleplayer.village=Dorf
 
-//[Reference] 'Credits'
-startMenu.credits=Credits
+//TODO Translate [Reference] 'Credits'
+startMenu.credits=
 //[Reference] 'Exit'
 startMenu.exit=Verlassen
 //[Reference] 'Multi Player'
@@ -707,14 +707,13 @@ startMenu.options=Einstellungen
 startMenu.serverList=Serverliste
 //[Reference] 'Single Player'
 startMenu.singlePlayer=Einzelspieler
-//[Reference] 'Black Frog Hat'
 
+//[Reference] 'Black Frog Hat'
 staxel.accessories.characters.accessories.animalhats.BlackFrogHat=Schwarzer Froschhut
 //[Reference] 'Frog Hat'
 staxel.accessories.characters.accessories.animalhats.FrogHat=Froschhut
 //[Reference] 'Yellow Frog Hat'
 staxel.accessories.characters.accessories.animalhats.YellowFrogHat=Gelber Froschhut
-//[Reference] 'Cat Hat with Stars'
 staxel.accessories.characters.accessories.cathats.CatHatStars.description=Katzenhut mit Sternen
 //[Reference] 'Starry-Eyed Cat Hat'
 staxel.accessories.characters.accessories.cathats.CatHatStars.name=Naiver Katzenhut
@@ -722,8 +721,8 @@ staxel.accessories.characters.accessories.cathats.CatHatStars.name=Naiver Katzen
 staxel.accessories.characters.accessories.cathats.DarkPinkCatHat=Pinker Katzenhut
 //[Reference] 'Purple Cat Hat'
 staxel.accessories.characters.accessories.cathats.DarkPurpleCatHat=Violetter Katzenhut
-//[Reference] 'Original'
-staxel.accessories.characters.accessories.generic.normalhair.OriginalHair=Original
+//TODO Translate [Reference] 'Original'
+staxel.accessories.characters.accessories.generic.normalhair.OriginalHair=
 //[Reference] 'Ponytail & Bowtie'
 staxel.accessories.characters.accessories.generic.normalhair.PonytailHairBlueBowtie=Pferdeschwanz & Schleife
 //[Reference] 'Jen's Hair'
@@ -904,8 +903,8 @@ staxel.accessories.eyes.grumpy=Mürrisch
 staxel.accessories.eyes.kawaii=Süß
 //[Reference] 'Kawaii with Eyelashes'
 staxel.accessories.eyes.kawaiiEyelashes=Kawaii mit Wimpern
-//[Reference] 'Standard'
-staxel.accessories.eyes.normal=Standard
+//TODO Translate [Reference] 'Standard'
+staxel.accessories.eyes.normal=
 //[Reference] 'Standard with Eyelashes'
 staxel.accessories.eyes.normalEyelashes=Standard mit Wimpern
 //[Reference] 'Serious'
@@ -953,12 +952,12 @@ staxel.accessories.hairstyles.male.short.Male_NormalShort=Normal kurz
 staxel.accessories.hairstyles.male.short.ShortEmoFringe=Kurz Emo
 //[Reference] 'Classic Mecha'
 staxel.accessories.helmets.mecha.Mecha_Classic=Klassischer Mecha
-//[Reference] 'EG4D'
-staxel.accessories.helmets.mecha.Mecha_EG4D=EG4D
-//[Reference] 'L0V3'
-staxel.accessories.helmets.mecha.Mecha_L0V3=L0V3
-//[Reference] 'P'
-staxel.accessories.helmets.mecha.Mecha_P=P
+//TODO Translate [Reference] 'EG4D'
+staxel.accessories.helmets.mecha.Mecha_EG4D=
+//TODO Translate [Reference] 'L0V3'
+staxel.accessories.helmets.mecha.Mecha_L0V3=
+//TODO Translate [Reference] 'P'
+staxel.accessories.helmets.mecha.Mecha_P=
 //[Reference] 'Mecha Red'
 staxel.accessories.helmets.mecha.Mecha_Red=Roter Mecha
 //[Reference] 'Mecha Yellow'
@@ -1007,8 +1006,8 @@ staxel.accessories.shortjeans.shortjeans_fadedblue.description=
 //[Reference] 'Faded Short Jeans'
 staxel.accessories.shortjeans.shortjeans_fadedblue.name=Ausgeblichene kurze Jeans
 staxel.accessories.shorts.baseShorts.description=
-//[Reference] 'Shorts'
-staxel.accessories.shorts.baseShorts.name=Shorts
+//TODO Translate [Reference] 'Shorts'
+staxel.accessories.shorts.baseShorts.name=
 staxel.accessories.straptops.straptop.description=
 //[Reference] 'Straptop'
 staxel.accessories.straptops.straptop.name=Trägertop
@@ -1057,7 +1056,7 @@ staxel.achievements.descriptions.PlaceItem.text={0-item} plaziert
 //[Reference] '{0-item} planted'
 staxel.achievements.descriptions.PlantItem.text={0-item} eingepflanzt
 //[Reference] 'Sales of {0-item}'
-staxel.achievements.descriptions.SellItem.text=Verkäufe von 
+staxel.achievements.descriptions.SellItem.text=Verkäufe von {0-item}
 //[Reference] 'crops watered'
 staxel.achievements.WaterCrop.text=Pflanzen gewässert
 //TODO Translate [Reference] 'Ouch! The bees need to be calmed down'
