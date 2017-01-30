@@ -242,6 +242,16 @@ commands.reload.success=
 commands.resetPlayer.description=
 //TODO Translate [Reference] 'Reset successful.'
 commands.resetPlayer.success=
+//TODO Translate [Reference] 'saveDesign fileName'
+commands.saveDesign.description=
+//TODO Translate [Reference] 'A filename is required to save a design'
+commands.saveDesign.needFileName=
+//TODO Translate [Reference] 'Character design file saved at {0-path}'
+commands.saveDesign.success=
+//TODO Translate [Reference] 'saveOutfit fileName'
+commands.saveOutfit.description=
+//TODO Translate [Reference] 'Character outfit file saved at {0-path}'
+commands.saveOutfit.success=
 //TODO Translate [Reference] 'creativeMode (optional)on(true/false)'
 commands.serverCreative.description=
 //TODO Translate [Reference] 'Switched server creative mode to {0-creative} (persistent)'
@@ -3395,6 +3405,8 @@ staxel.personality.Sheep=
 staxel.personality.standard=
 //TODO Translate [Reference] 'Cat'
 staxel.pets.Cat.name=
+//TODO Translate [Reference] '{0-pet} has brought you a gift!'
+staxel.pets.GiftReceived=
 staxel.plant.crop.SugarCane.description=
 staxel.plant.crop.SugarCane.name=
 //TODO Translate [Reference] 'Fresh, soft and juicy! Mmm.'
@@ -4495,6 +4507,7 @@ staxel.tileObject.logo.StaxelLogo.name=
 staxel.tileObject.logo.StaxelLogoText.description=
 //TODO Translate [Reference] 'Staxel Logo Text'
 staxel.tileObject.logo.StaxelLogoText.name=
+staxel.tileObject.merchantTotem.FurnitureVendor.description=
 //TODO Translate [Reference] 'Furniture Vendor'
 staxel.tileObject.merchantTotem.FurnitureVendor.name=
 //TODO Translate [Reference] 'To be removed'
@@ -4505,9 +4518,15 @@ staxel.tileObject.modded.minecart_coal-tipped.name=
 staxel.tileObject.modded.minecart_empty.description=
 //TODO Translate [Reference] 'Minecart'
 staxel.tileObject.modded.minecart_empty.name=
+staxel.tileObject.pets.CatHouse.description=
+staxel.tileObject.pets.CatHouse.name=
+staxel.tileObject.pets.DogHouse.description=
+staxel.tileObject.pets.DogHouse.name=
 staxel.tileObject.pets.FoodBowlEmpty.description=
 //TODO Translate [Reference] 'Food Bowl'
 staxel.tileObject.pets.FoodBowlEmpty.name=
+staxel.tileObject.pets.FoodBowlFull.description=
+staxel.tileObject.pets.FoodBowlFull.name=
 staxel.tileObject.pets.PetHouse.description=
 //TODO Translate [Reference] 'Pet House'
 staxel.tileObject.pets.PetHouse.name=
@@ -5878,6 +5897,7 @@ staxel.tileObject.themedfurniture.victorian.VictorianTable.name=
 staxel.tileObject.themedfurniture.victorian.VictorianTableLarge.name=
 staxel.tileObject.themedfurniture.victorian.VictorianVanity.name=
 staxel.tileObject.themedfurniture.victorian.VictorianWardrobe.name=
+staxel.tileObject.villagers.TutorialNpcSpawner.description=
 //TODO Translate [Reference] 'Tutorial NPC Spawner'
 staxel.tileObject.villagers.TutorialNpcSpawner.name=
 //TODO Translate [Reference] 'From the 'Wicker Furniture Set' - A single bed with a wicker base and a soft mattress.'

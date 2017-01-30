@@ -126,6 +126,11 @@ commands.reload.description=reload
 commands.reload.success=Reload requested.
 commands.resetPlayer.description=resetplayer
 commands.resetPlayer.success=Reset successful.
+commands.saveDesign.description=saveDesign fileName
+commands.saveDesign.needFileName=A filename is required to save a design
+commands.saveDesign.success=Character design file saved at {0-path}
+commands.saveOutfit.description=saveOutfit fileName
+commands.saveOutfit.success=Character outfit file saved at {0-path}
 commands.serverCreative.description=creativeMode (optional)on(true/false)
 commands.serverCreative.success=Switched server creative mode to {0-creative} (persistent)
 commands.spawnCoins.description=spawncoins playerName petalAmount
@@ -1821,6 +1826,8 @@ staxel.personality.Sheep=
 staxel.personality.standard=Standard
 staxel.pets.Cat.name=Cat
 
+staxel.pets.GiftReceived={0-pet} has brought you a gift!
+
 staxel.plant.crop.SugarCane.description=
 staxel.plant.crop.SugarCane.name=
 staxel.plant.crop.Tomato.description=Fresh, soft and juicy! Mmm.
@@ -2410,13 +2417,21 @@ staxel.tileObject.logo.StaxelLogo.description=In-game Staxel Logo
 staxel.tileObject.logo.StaxelLogo.name=Staxel Logo
 staxel.tileObject.logo.StaxelLogoText.description=In-game Staxel Logo Text
 staxel.tileObject.logo.StaxelLogoText.name=Staxel Logo Text
+
+staxel.tileObject.merchantTotem.FurnitureVendor.description=
 staxel.tileObject.merchantTotem.FurnitureVendor.name=Furniture Vendor
 staxel.tileObject.modded.minecart_coal-tipped.description=To be removed
 staxel.tileObject.modded.minecart_coal-tipped.name=Minecart
 staxel.tileObject.modded.minecart_empty.description=To be removed
 staxel.tileObject.modded.minecart_empty.name=Minecart
+staxel.tileObject.pets.CatHouse.description=
+staxel.tileObject.pets.CatHouse.name=
+staxel.tileObject.pets.DogHouse.description=
+staxel.tileObject.pets.DogHouse.name=
 staxel.tileObject.pets.FoodBowlEmpty.description=
 staxel.tileObject.pets.FoodBowlEmpty.name=Food Bowl
+staxel.tileObject.pets.FoodBowlFull.description=
+staxel.tileObject.pets.FoodBowlFull.name=
 staxel.tileObject.pets.PetHouse.description=
 staxel.tileObject.pets.PetHouse.name=Pet House
 staxel.tileObject.presents.TradeCrate.description=
@@ -3135,6 +3150,7 @@ staxel.tileObject.themedfurniture.victorian.VictorianTable.name=
 staxel.tileObject.themedfurniture.victorian.VictorianTableLarge.name=
 staxel.tileObject.themedfurniture.victorian.VictorianVanity.name=
 staxel.tileObject.themedfurniture.victorian.VictorianWardrobe.name=
+staxel.tileObject.villagers.TutorialNpcSpawner.description=
 staxel.tileObject.villagers.TutorialNpcSpawner.name=Tutorial NPC Spawner
 staxel.tileObject.wicker.WickerBed.description=From the 'Wicker Furniture Set' - A single bed with a wicker base and a soft mattress.
 staxel.tileObject.wicker.WickerBed.name=Wicker Bed
@@ -3177,14 +3193,3 @@ staxel.tree.TangerineTree.name=Tangerine Tree
 
 version.developmentBuild=Staxel Development Build
 wardrobe.CantEquip=Can't equip this here!
-
-staxel.tileObject.merchantTotem.FurnitureVendor.description=
-staxel.tileObject.villagers.TutorialNpcSpawner.description=
-
-staxel.pets.GiftReceived={0-pet} has brought you a gift!
-staxel.tileObject.pets.CatHouse.name=
-staxel.tileObject.pets.CatHouse.description=
-staxel.tileObject.pets.DogHouse.name=
-staxel.tileObject.pets.DogHouse.description=
-staxel.tileObject.pets.FoodBowlFull.name=
-staxel.tileObject.pets.FoodBowlFull.description=
