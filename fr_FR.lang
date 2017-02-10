@@ -5,8 +5,8 @@ language=Français
 achievements.achievementUnlocked={0-achievement} débloqué !
 //[Reference] 'Buy:'
 catalogue.buy=Acheter à :
-//TODO Translate [Reference] 'Clear'
-catalogue.clear=
+//[Reference] 'Clear'
+catalogue.clear=Annuler
 //[Reference] 'Not enough money!'
 catalogue.notEnoughMoney=Vous n'avez pas assez d'argent !
 //[Reference] 'This item cannot be sold!'
@@ -15,8 +15,8 @@ catalogue.notSellable=Cet objet ne peut pas être vendu !
 catalogue.performSale=Vendre
 //[Reference] 'Sell:'
 catalogue.sell=Vendre à :
-//TODO Translate [Reference] 'Total'
-catalogue.total=
+//Translate [Reference] 'Total'
+catalogue.total=Total
 
 //[Reference] 'Accept'
 characterDesigner.accept=OK (A)
@@ -25,138 +25,138 @@ characterDesigner.accessories=Accessoires
 //[Reference] 'Cancel'
 characterDesigner.cancel=Annuler
 //[Reference] 'Eyes'
-characterDesigner.eyes=Yeux :
+characterDesigner.eyes=Yeux
 //[Reference] 'Gender'
-characterDesigner.gender=Sexe :
+characterDesigner.gender=Sexe
 //[Reference] 'Hair'
-characterDesigner.hair=Cheveux :
+characterDesigner.hair=Cheveux
 //[Reference] 'Hat'
-characterDesigner.hat=Chapeau :
-//[Reference] 'Make yourself pretty and stuff'
-characterDesigner.info=Infos :
+characterDesigner.hat=Chapeau
+//[Reference] 'Make yourself pretty and stuff' TODO The translation seems wrong, but it might be because of context
+characterDesigner.info=Infos
 //[Reference] 'Name'
-characterDesigner.name=Nom :
-//TODO Translate [Reference] 'Next'
-characterDesigner.next=
+characterDesigner.name=Nom
+//Translate [Reference] 'Next'
+characterDesigner.next=Suivant
 //[Reference] 'None'
-characterDesigner.none=Aucun :
+characterDesigner.none=Aucun
 //[Reference] 'Personality'
-characterDesigner.personality=Personalité :
-//TODO Translate [Reference] 'Presets'
-characterDesigner.presets=
+characterDesigner.personality=Personnalité
+//Translate [Reference] 'Presets'
+characterDesigner.presets=Préréglages
 //[Reference] 'Random'
-characterDesigner.random=Aleatoire
+characterDesigner.random=Aléatoire
 //[Reference] 'Shirt'
-characterDesigner.shirt=T-shirt :
+characterDesigner.shirt=T-shirt
 //[Reference] 'Shoes'
-characterDesigner.shoes=Chaussures :
+characterDesigner.shoes=Chaussures
 //[Reference] 'Skin'
-characterDesigner.skinColour=Couleur de peau :
-//TODO Translate [Reference] 'Species'
-characterDesigner.species=
+characterDesigner.skinColour=Couleur de peau
+//[Reference] 'Species' TODO My translation refers to species as "animal species". Is the context correct?
+characterDesigner.species=Espèce
 //[Reference] 'Dress'
-characterDesigner.subcategory.dress=Robe :
+characterDesigner.subcategory.dress=Robe
 //[Reference] 'Glasses'
-characterDesigner.subcategory.glasses=Lunettes :
+characterDesigner.subcategory.glasses=Lunettes
 //[Reference] 'Hat'
-characterDesigner.subcategory.hat=Chapeaux :
+characterDesigner.subcategory.hat=Chapeaux
 //[Reference] 'Hi-Tops'
-characterDesigner.subcategory.hitops=Baskettes :
+characterDesigner.subcategory.hitops=Baskettes
 //[Reference] 'Hoodie'
-characterDesigner.subcategory.hoodie=Sweat à capuche :
+characterDesigner.subcategory.hoodie=Sweat à capuche
 //[Reference] 'Jeans'
-characterDesigner.subcategory.jeans=Jeans :
-//TODO Translate [Reference] 'Long'
-characterDesigner.subcategory.long=
+characterDesigner.subcategory.jeans=Jeans
+//Translate [Reference] 'Long'
+characterDesigner.subcategory.long=Long
 //[Reference] 'Longsleeve'
-characterDesigner.subcategory.longsleeve=Manches longues :
-//TODO Translate [Reference] 'Medium'
-characterDesigner.subcategory.medium=
+characterDesigner.subcategory.longsleeve=Manches longues
+//[Reference] 'Medium'
+characterDesigner.subcategory.medium=Moyen
 //[Reference] 'Sandals'
-characterDesigner.subcategory.sandals=Sandales :
-//TODO Translate [Reference] 'Short'
-characterDesigner.subcategory.short=
-//TODO Translate [Reference] 'Shorts'
-characterDesigner.subcategory.shorts=
-//TODO Translate [Reference] 'Straptop'
-characterDesigner.subcategory.straptop=
-//TODO Translate [Reference] 'Trainers'
-characterDesigner.subcategory.trainers=
+characterDesigner.subcategory.sandals=Sandales
+//[Reference] 'Short'
+characterDesigner.subcategory.short=Court
+//[Reference] 'Shorts'
+characterDesigner.subcategory.shorts=Short
+//[Reference] 'Straptop'
+characterDesigner.subcategory.straptop=Débardeur
+//[Reference] 'Trainers'
+characterDesigner.subcategory.trainers=Baskets
 //[Reference] 'T-Shirt'
-characterDesigner.subcategory.tshirt=T-Shirt :
+characterDesigner.subcategory.tshirt=T-Shirt
 //[Reference] 'Vest'
-characterDesigner.subcategory.vest=Veste :
-//[Reference] 'Character Creation'
-characterDesigner.title=Titre :
+characterDesigner.subcategory.vest=Veste
+//[Reference] 'Character Creation' TODO The translation below refers to "title" and not "Character Creation".
+characterDesigner.title=Titre
 //[Reference] 'Bottoms'
-characterDesigner.trousers=Pantalons :
+characterDesigner.trousers=Pantalons
 
-//TODO Translate [Reference] 'advanceTime amount(0.0-1.0)'
-commands.advanceTime.description=
+//[Reference] 'advanceTime amount(0.0-1.0)'
+commands.advanceTime.description=advanceTime montant(0.0-1.0)
 //[Reference] 'Enter a float by which to advance time. 1.0 is a full day'
 commands.advanceTime.enterFloat=Saisissez un nombre décimal. « 1.0 » est égal une journée complète
 //[Reference] 'failed: arg(1) must be a number. Floating points OK'
 commands.advanceTime.mustBeNumber=Erreur : arg(1) doit être un nombre. Décimaux OK
 //[Reference] 'Advancing time by {0-time}...'
 commands.advanceTime.success=Avancement du temps : {0-time}...
-//TODO Translate [Reference] 'ban playerName (optional)reason'
-commands.ban.description=
-//TODO Translate [Reference] 'Unable to ban {0-player}: player is an admin or already banned.'
-commands.ban.failure=
-//TODO Translate [Reference] '{0-player} has been banned from the server.'
-commands.ban.success=
-//TODO Translate [Reference] 'bla'
-commands.bla.description=
+//[Reference] 'ban playerName (optional)reason'
+commands.ban.description=ban nomDuJoueurs (facultatif)raison
+//[Reference] 'Unable to ban {0-player}: player is an admin or already banned.'
+commands.ban.failure=Impossible de bannir le joueur {0-player} : il est déjà banni ou est un administrateur.
+//[Reference] '{0-player} has been banned from the server.'
+commands.ban.success={0-player} a été banni du serveur.
+//[Reference] 'bla'
+commands.bla.description=bla
 //[Reference] 'Moved to a new location in debug region: {0-region}'
 commands.bla.success=Déplacé vers un nouvel emplacement dans la région de debug : {0-region}
-//TODO Translate [Reference] 'cameraCapture'
-commands.cameraCapture.description=
+//[Reference] 'cameraCapture'
+commands.cameraCapture.description=cameraCapture
 //[Reference] 'Captured player camera'
 commands.cameraCapture.success=Caméra du joueur capturé
-//TODO Translate [Reference] 'cameraCapture savedCameraFilePath'
-commands.cameraLoad.description=
+//[Reference] 'cameraCapture savedCameraFilePath'
+commands.cameraLoad.description=cameraCapture cheminVersLeFichierCamera
 //[Reference] 'Loaded player camera from file: {0-filename}'
 commands.cameraLoad.success=Caméra du joueur chargé à partir du fichier « {0-filename} »
 //[Reference] 'cameraPlay (optional)duration(0.0-1.0) (optional)loop(true/false) (optional)savedCameraFilePath'
 commands.cameraPlay.description=cameraPlay (facultatif)duration(0.0-1.0) (facultatif)loop(true/false) (facultatif)savedCameraFilePath
 //[Reference] 'Playing back player camera'
 commands.cameraPlay.success=Lecture de la caméra du joueur
-//TODO Translate [Reference] 'cameraReset'
-commands.cameraReset.description=
+//[Reference] 'cameraReset'
+commands.cameraReset.description=cameraReset
 //[Reference] 'Reset player camera'
 commands.cameraReset.success=Caméra du joueur reinitialisée
-//TODO Translate [Reference] 'cameraSave cameraSaveFilePath'
-commands.cameraSave.description=
+//[Reference] 'cameraSave cameraSaveFilePath'
+commands.cameraSave.description=cameraSave cheminVersLeFichierCamera
 //[Reference] 'Saved player camera to file: {0-filename}'
 commands.cameraSave.success=Caméra du joueur enregistrée sous le fichier « {0-filename} »
-//TODO Translate [Reference] 'cameraStop'
-commands.cameraStop.description=
+//[Reference] 'cameraStop'
+commands.cameraStop.description=cameraStop
 //[Reference] 'Stopped camera mode'
 commands.cameraStop.success=Mode caméra désactivé
-//TODO Translate [Reference] 'creative (optional)playerName (optional)startCreativeMode(true/false)'
-commands.creative.description=
-//TODO Translate [Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
-commands.creative.success=
-//TODO Translate [Reference] 'currentTime'
-commands.currentTime.description=
+//[Reference] 'creative (optional)playerName (optional)startCreativeMode(true/false)'
+commands.creative.description=creative (facultatif)nomDuJoueur (facultatif)startCreativeMode(true/false)
+//[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
+commands.creative.success=Le mode créatif du joueur {0-user} a été temporairement changé à {1-creative}
+//[Reference] 'currentTime'
+commands.currentTime.description=currentTime
 //[Reference] 'The day is {0-day} and phase is {1:G2-phase}.'
 commands.currentTime.success=Jour actuel : {0-day} - Phase actuelle : {1:G2-phase}.
-//TODO Translate [Reference] 'demoMode (optional)on(true/false)'
-commands.demoMode.description=
-//TODO Translate [Reference] 'Switched server demo mode to {0-demoMode}'
-commands.demoMode.success=
+//[Reference] 'demoMode (optional)on(true/false)'
+commands.demoMode.description=demoMode (facultatif)on(true/false)
+//[Reference] 'Switched server demo mode to {0-demoMode}'
+commands.demoMode.success=Le mode démo du serveur est passé à {0-demoMode}
 //[Reference] 'describeitem (optional)playerName'
-commands.describeItem.description=describeitem (facultatif)playerName
+commands.describeItem.description=describeitem (facultatif)nomDuJoueur
 //[Reference] 'Item description: {0-itemDesc}'
 commands.describeItem.success=Description de l'objet : {0-itemDesc}
-//TODO Translate [Reference] 'entityInfo entityID'
-commands.entityInfo.description=
-//TODO Translate [Reference] 'You need to include an EntityID!'
-commands.entityInfo.entityNumber=
-//TODO Translate [Reference] 'Invalid EntityID!'
-commands.entityInfo.mustBeNumber=
-//TODO Translate [Reference] 'There is no such entity on the server'
-commands.entityInfo.noSuchEntity=
+//[Reference] 'entityInfo entityID'
+commands.entityInfo.description=entityInfo IdEntite
+//[Reference] 'You need to include an EntityID!'
+commands.entityInfo.entityNumber=Vous devez renseigner un id pour l'entité !
+//[Reference] 'Invalid EntityID!'
+commands.entityInfo.mustBeNumber=L'id de l'entité est invalide !
+//[Reference] 'There is no such entity on the server'
+commands.entityInfo.noSuchEntity=Cette entité n'existe pas sur le serveur
 //TODO Translate [Reference] 'Entity data: {0-data}'
 commands.entityInfo.success=
 //[Reference] 'fly (optional)playerName (optional)startFlying(true/false)'
