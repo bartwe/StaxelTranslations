@@ -86,8 +86,8 @@ characterDesigner.subcategory.trainers=Baskets
 characterDesigner.subcategory.tshirt=T-Shirt
 //[Reference] 'Vest'
 characterDesigner.subcategory.vest=Veste
-//[Reference] 'Character Creation' TODO The translation below refers to "title" and not "Character Creation".
-characterDesigner.title=Titre
+//[Reference] 'Character Creation'
+characterDesigner.title=Création du personnage
 //[Reference] 'Bottoms'
 characterDesigner.trousers=Pantalons
 
@@ -100,7 +100,7 @@ commands.advanceTime.mustBeNumber=Erreur : arg(1) doit être un nombre. Décimau
 //[Reference] 'Advancing time by {0-time}...'
 commands.advanceTime.success=Avancement du temps : {0-time}...
 //[Reference] 'ban playerName (optional)reason'
-commands.ban.description=ban nomDuJoueurs (facultatif)raison
+commands.ban.description=ban nomDuJoueur (facultatif)raison
 //[Reference] 'Unable to ban {0-player}: player is an admin or already banned.'
 commands.ban.failure=Impossible de bannir le joueur {0-player} : il est déjà banni ou est un administrateur.
 //[Reference] '{0-player} has been banned from the server.'
@@ -157,18 +157,18 @@ commands.entityInfo.entityNumber=Vous devez renseigner un id pour l'entité !
 commands.entityInfo.mustBeNumber=L'id de l'entité est invalide !
 //[Reference] 'There is no such entity on the server'
 commands.entityInfo.noSuchEntity=Cette entité n'existe pas sur le serveur
-//TODO Translate [Reference] 'Entity data: {0-data}'
-commands.entityInfo.success=
+//[Reference] 'Entity data: {0-data}'
+commands.entityInfo.success=Données de l'entité : {0-data}
 //[Reference] 'fly (optional)playerName (optional)startFlying(true/false)'
 commands.flyMode.description=fly (facultatif)playerName (facultatif)startFlying(true/false)
 //[Reference] 'Switched flying mode to: {0-flymode}'
 commands.flyMode.success=La valeur du mode vol a été modifiée en : {0-flymode}
-//TODO Translate [Reference] 'Give all recipes (optional)playerName'
-commands.giveallrecipes.description=
-//TODO Translate [Reference] 'Done!'
-commands.giveallrecipes.success=
-//TODO Translate [Reference] 'givepetals playerName amount'
-commands.givePetals.description=
+//[Reference] 'Give all recipes (optional)playerName'
+commands.giveallrecipes.description=giveallrecipes (facultatif)nomDuJoueur
+//[Reference] 'Done!'
+commands.giveallrecipes.success=Recettes données !
+//[Reference] 'givepetals playerName amount'
+commands.givePetals.description=givepetals nomDuJoueur montant
 //[Reference] 'Petal amount needs to be a positive number'
 commands.givePetals.invalidNumber=Le nombre de pétales doit être positif
 //[Reference] 'Gave {0-player} {1-amount} petals'
@@ -180,30 +180,31 @@ commands.help.commandNotFound=Commande « {0-command} » non trouvée
 //[Reference] 'help (optional)commandName'
 commands.help.description=help (facultatif)commandName
 //[Reference] 'Command list (() brackets denote possible values):'
-commands.help.success=Liste des commandes : (()les parenthèses indiquent les valeurs possibles):
+commands.help.success=Liste des commandes (()les parenthèses indiquent les valeurs possibles) :
+//TODO No reference?
 commands.inspect.success=
 //[Reference] 'invalid args'
 commands.invalidArgs=Arguments invalides
-//TODO Translate [Reference] 'kick playerName'
-commands.kick.description=
-//TODO Translate [Reference] 'Unable to kick {0-player}: player is an admin or not online.'
-commands.kick.failure=
-//TODO Translate [Reference] '{0-player} has been ejected from the server.'
-commands.kick.success=
+//[Reference] 'kick playerName'
+commands.kick.description=kick nomDuJoueur
+//[Reference] 'Unable to kick {0-player}: player is an admin or not online.'
+commands.kick.failure=Impossible d'éjecter le joueur {0-player} : Il n'est pas connecté ou est un administrateur.
+//[Reference] '{0-player} has been ejected from the server.'
+commands.kick.success=Le joueur {0-player} a été ejecté du serveur.
 //[Reference] 'model (optional)playerName (optional)modelFileName'
-commands.model.description=model (facultatif)playerName (facultatif)modelFileName
+commands.model.description=model (facultatif)nomDuJoueur (facultatif)nomFichierModèle
 //[Reference] 'Could not switch to character model '{0-model}' not found in assets.'
 commands.model.notFound=Impossible de basculer vers le modèle de joueur « {0-model} ». Celui-ci est introuvable dans les assets.
 //[Reference] 'Switched character model to: {0-model}'
 commands.model.success=Modèle de joueur modifié en : {0-model}
-//TODO Translate [Reference] 'mute playerName (optional[default 60])lengthInMinutes'
-commands.mute.description=
-//TODO Translate [Reference] 'Unable to mute {0-player}: player is an admin.'
-commands.mute.failure=
-//TODO Translate [Reference] 'Invalid time (should be in whole minutes)'
-commands.mute.invalidTime=
-//TODO Translate [Reference] '{0-player} has been silenced.'
-commands.mute.success=
+//[Reference] 'mute playerName (optional[default 60])lengthInMinutes'
+commands.mute.description=mute nomDuJoueur (facultatif[défaut 60])tempsEnMinutes
+//[Reference] 'Unable to mute {0-player}: player is an admin.'
+commands.mute.failure=Impossible de rendre le joueur {0-player} muet : ce joueur est admin.
+//[Reference] 'Invalid time (should be in whole minutes)'
+commands.mute.invalidTime=Temps invalide (le temps doit être en minutes, sans virgules)
+//[Reference] '{0-player} has been silenced.'
+commands.mute.success=Le joueur {0-player} est désormais muet.
 //[Reference] 'noclip (optional)playerName (optional)startNoclip(true/false)'
 commands.noClip.description=noclip (facultatif)playerName (facultatif)startNoclip(true/false)
 //[Reference] 'Switched noclip mode to: {0-noclip}'
@@ -214,80 +215,83 @@ commands.noRights={0-user} ne possède pas les droits suffisants pour utiliser c
 commands.noSuchPlayer=Joueur « {0-player} » introuvable
 //[Reference] 'Not a player entity.'
 commands.notAPlayer=Ce n'est pas une entité de joueur.
-//TODO Translate [Reference] 'plantgrowth'
-commands.plantGrowth.description=
-//TODO Translate [Reference] 'Not a plant.'
-commands.plantGrowth.noPlant=
-//TODO Translate [Reference] 'Plant {0-plant} at stage {1-stage}'
-commands.plantGrowth.success=
+//[Reference] 'plantgrowth'
+commands.plantGrowth.description=plantgrowth
+//[Reference] 'Not a plant.'
+commands.plantGrowth.noPlant=Ce n'est pas une plante.
+//[Reference] 'Plant {0-plant} at stage {1-stage}'
+commands.plantGrowth.success=Plante {0-plant} à l'étape {1-stage}
 //[Reference] 'Player Entity not found'
 commands.playerEntityNotFound=Entité de joueur introuvable
-//TODO Translate [Reference] 'players'
-commands.players.description=
+//[Reference] 'players'
+commands.players.description=players
 //[Reference] 'Players: {0-playerlist}'
 commands.players.success=Joueurs: {0-playerlist}
 //[Reference] 'position (optional)playerName'
-commands.position.description=position (facultatif)playerName
+commands.position.description=position (facultatif)nomDuJoueur
 //[Reference] 'Failed to find player'
 commands.position.failed=Impossible de localiser le joueur
 //[Reference] 'Position: {0-position}, Heading: {1-heading}'
 commands.position.success=Position : {0-position} - Titre : {1-heading}
+//TODO No reference?
 commands.rain.success=
-//TODO Translate [Reference] 'reload'
-commands.reload.description=
+//[Reference] 'reload'
+commands.reload.description=reload
 //[Reference] 'Reload requested.'
 commands.reload.success=Rafraîchissement demandé.
-//TODO Translate [Reference] 'resetplayer'
-commands.resetPlayer.description=
+//[Reference] 'resetplayer'
+commands.resetPlayer.description=resetplayer
 //[Reference] 'Reset successful.'
 commands.resetPlayer.success=Réinitialisation réussie.
-//TODO Translate [Reference] 'saveDesign fileName'
-commands.saveDesign.description=
-//TODO Translate [Reference] 'A filename is required to save a design'
-commands.saveDesign.needFileName=
-//TODO Translate [Reference] 'Character design file saved at {0-path}'
-commands.saveDesign.success=
-//TODO Translate [Reference] 'saveOutfit fileName'
-commands.saveOutfit.description=
-//TODO Translate [Reference] 'Character outfit file saved at {0-path}'
-commands.saveOutfit.success=
-//TODO Translate [Reference] 'creativeMode (optional)on(true/false)'
-commands.serverCreative.description=
-//TODO Translate [Reference] 'Switched server creative mode to {0-creative} (persistent)'
-commands.serverCreative.success=
-//TODO Translate [Reference] 'spawncoins playerName petalAmount'
-commands.spawnCoins.description=
-//TODO Translate [Reference] 'Spawned {0-amount} petals in coins for {1-player}'
-commands.spawnCoins.success=
-//TODO Translate [Reference] 'spawnitem playerName item(kind/specification{})'
-commands.spawnItem.description=
+//[Reference] 'saveDesign fileName'
+commands.saveDesign.description=saveDesign nomFichier
+//[Reference] 'A filename is required to save a design'
+commands.saveDesign.needFileName=Un nom de fichier est requis pour sauvegarder un design.
+//[Reference] 'Character design file saved at {0-path}'
+commands.saveDesign.success=Le design a été sauvegardé à {0-path}
+//[Reference] 'saveOutfit fileName'
+commands.saveOutfit.description=saveOutfit nomFichier
+//[Reference] 'Character outfit file saved at {0-path}'
+commands.saveOutfit.success=Tenue du personnage sauvegardée à {0-path}
+//[Reference] 'creativeMode (optional)on(true/false)'
+commands.serverCreative.description=creativeMode (optionel)on(true/false)
+//[Reference] 'Switched server creative mode to {0-creative} (persistent)' TODO Persistent notes that the mode change isn't temporary, right? Dunno if it's relevant to say so in translation
+commands.serverCreative.success=Le mode créatif du serveur est désormais {0-creative}
+//[Reference] 'spawncoins playerName petalAmount'
+commands.spawnCoins.description=spawncoins nomDuJoueur montantEnPétales
+//[Reference] 'Spawned {0-amount} petals in coins for {1-player}'
+commands.spawnCoins.success={0-amount} pétales en pièces ont été générées pour le joueur {1-player}
+//[Reference] 'spawnitem playerName item(kind/specification{})'
+commands.spawnItem.description=spawnitem nomDuJoueur objet(type/spécifications{})
 //[Reference] 'Item not found.'
 commands.spawnItem.notFound=Objet introuvable.
 //[Reference] 'Spawn item successful.'
-commands.spawnItem.success=L'objet est bien apparu.
-//TODO Translate [Reference] 'spawnmaterial playerName materialCode'
-commands.spawnMaterial.description=
+commands.spawnItem.success=Génération de l'objet réussite.
+//[Reference] 'spawnmaterial playerName materialCode'
+commands.spawnMaterial.description=spawnmaterial nomDuJoueur codeMateriau
 //[Reference] 'Material kind not found.'
-commands.spawnMaterial.notFound=Matériel introuvable.
+commands.spawnMaterial.notFound=Matériau introuvable.
 //[Reference] 'Spawn material successful'
-commands.spawnMaterial.success=Le matériel est bien apparu.
-//TODO Translate [Reference] 'spawntile playerName tileCode'
-commands.spawnTile.description=
+commands.spawnMaterial.success=Génération du matériau réussite.
+//[Reference] 'spawntile playerName tileCode'
+commands.spawnTile.description=spawntile nomDuJoueur codeTile
 //[Reference] 'Tile kind not found.'
 commands.spawnTile.notFound=Tile introuvable.
 //[Reference] 'Spawn tile successful.'
 commands.spawnTile.success=La tile est bien apparue.
+//TODO No reference?
 commands.sun.success=
 //[Reference] 'teleport (optional)playerName location({0,0,0})'
-commands.teleport.description=teleport (facultatif)playerName location({0,0,0})
-//TODO Translate [Reference] '{0-position} is too far to teleport'
-commands.teleport.distance=
+commands.teleport.description=teleport (facultatif)nomDuJoueur location({0,0,0})
+//[Reference] '{0-position} is too far to teleport'
+commands.teleport.distance=La position {0-position} est trop éloignée pour un téléport
 //[Reference] 'Failed to parse position {0-position}'
 commands.teleport.fail=Données de position invalides {0-position}
 //[Reference] 'Teleport successful.'
 commands.teleport.success=Téléportation réussie.
-//TODO Translate [Reference] 'tp movingPlayerName destinationPlayerName'
-commands.teleportPlayer.description=
+//[Reference] 'tp movingPlayerName destinationPlayerName'
+commands.teleportPlayer.description=tp nomDuJoueurADeplacer nomDuJoueurDestination
+//TODO No reference?
 commands.textToSpeech.success=
 //[Reference] 'tileAt (optional)location({0,0,0})'
 commands.tileAt.description=tileAt (facultatif)location({0,0,0})
@@ -297,6 +301,7 @@ commands.tileAt.failParse=Données de position invalides {0-position}
 commands.tileAt.notFound=Tile introuvable
 //[Reference] 'Tile code: {0-tilecode} at {1-position}'
 commands.tileAt.success=Code de la tile : {0-tilecode} {1-position}
+//TODO Quite a few with no references.
 commands.traceStart.description=
 commands.traceStart.success=
 commands.traceStop.description=
