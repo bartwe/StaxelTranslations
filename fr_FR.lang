@@ -5,8 +5,8 @@ language=Français
 achievements.achievementUnlocked={0-achievement} débloqué !
 //[Reference] 'Buy:'
 catalogue.buy=Acheter à :
-//TODO Translate [Reference] 'Clear'
-catalogue.clear=
+//[Reference] 'Clear'
+catalogue.clear=Annuler
 //[Reference] 'Not enough money!'
 catalogue.notEnoughMoney=Vous n'avez pas assez d'argent !
 //[Reference] 'This item cannot be sold!'
@@ -15,8 +15,8 @@ catalogue.notSellable=Cet objet ne peut pas être vendu !
 catalogue.performSale=Vendre
 //[Reference] 'Sell:'
 catalogue.sell=Vendre à :
-//TODO Translate [Reference] 'Total'
-catalogue.total=
+//Translate [Reference] 'Total'
+catalogue.total=Total
 
 //[Reference] 'Accept'
 characterDesigner.accept=OK (A)
@@ -25,150 +25,150 @@ characterDesigner.accessories=Accessoires
 //[Reference] 'Cancel'
 characterDesigner.cancel=Annuler
 //[Reference] 'Eyes'
-characterDesigner.eyes=Yeux :
+characterDesigner.eyes=Yeux
 //[Reference] 'Gender'
-characterDesigner.gender=Sexe :
+characterDesigner.gender=Sexe
 //[Reference] 'Hair'
-characterDesigner.hair=Cheveux :
+characterDesigner.hair=Cheveux
 //[Reference] 'Hat'
-characterDesigner.hat=Chapeau :
-//[Reference] 'Make yourself pretty and stuff'
-characterDesigner.info=Infos :
+characterDesigner.hat=Chapeau
+//[Reference] 'Make yourself pretty and stuff' TODO The translation seems wrong, but it might be because of context
+characterDesigner.info=Infos
 //[Reference] 'Name'
-characterDesigner.name=Nom :
-//TODO Translate [Reference] 'Next'
-characterDesigner.next=
+characterDesigner.name=Nom
+//Translate [Reference] 'Next'
+characterDesigner.next=Suivant
 //[Reference] 'None'
-characterDesigner.none=Aucun :
+characterDesigner.none=Aucun
 //[Reference] 'Personality'
-characterDesigner.personality=Personalité :
-//TODO Translate [Reference] 'Presets'
-characterDesigner.presets=
+characterDesigner.personality=Personnalité
+//Translate [Reference] 'Presets'
+characterDesigner.presets=Préréglages
 //[Reference] 'Random'
-characterDesigner.random=Aleatoire
+characterDesigner.random=Aléatoire
 //[Reference] 'Shirt'
-characterDesigner.shirt=T-shirt :
+characterDesigner.shirt=T-shirt
 //[Reference] 'Shoes'
-characterDesigner.shoes=Chaussures :
+characterDesigner.shoes=Chaussures
 //[Reference] 'Skin'
-characterDesigner.skinColour=Couleur de peau :
-//TODO Translate [Reference] 'Species'
-characterDesigner.species=
+characterDesigner.skinColour=Couleur de peau
+//[Reference] 'Species' TODO My translation refers to species as "animal species". Is the context correct?
+characterDesigner.species=Espèce
 //[Reference] 'Dress'
-characterDesigner.subcategory.dress=Robe :
+characterDesigner.subcategory.dress=Robe
 //[Reference] 'Glasses'
-characterDesigner.subcategory.glasses=Lunettes :
+characterDesigner.subcategory.glasses=Lunettes
 //[Reference] 'Hat'
-characterDesigner.subcategory.hat=Chapeaux :
+characterDesigner.subcategory.hat=Chapeaux
 //[Reference] 'Hi-Tops'
-characterDesigner.subcategory.hitops=Baskettes :
+characterDesigner.subcategory.hitops=Baskettes
 //[Reference] 'Hoodie'
-characterDesigner.subcategory.hoodie=Sweat à capuche :
+characterDesigner.subcategory.hoodie=Sweat à capuche
 //[Reference] 'Jeans'
-characterDesigner.subcategory.jeans=Jeans :
-//TODO Translate [Reference] 'Long'
-characterDesigner.subcategory.long=
+characterDesigner.subcategory.jeans=Jeans
+//Translate [Reference] 'Long'
+characterDesigner.subcategory.long=Long
 //[Reference] 'Longsleeve'
-characterDesigner.subcategory.longsleeve=Manches longues :
-//TODO Translate [Reference] 'Medium'
-characterDesigner.subcategory.medium=
+characterDesigner.subcategory.longsleeve=Manches longues
+//[Reference] 'Medium'
+characterDesigner.subcategory.medium=Moyen
 //[Reference] 'Sandals'
-characterDesigner.subcategory.sandals=Sandales :
-//TODO Translate [Reference] 'Short'
-characterDesigner.subcategory.short=
-//TODO Translate [Reference] 'Shorts'
-characterDesigner.subcategory.shorts=
-//TODO Translate [Reference] 'Straptop'
-characterDesigner.subcategory.straptop=
-//TODO Translate [Reference] 'Trainers'
-characterDesigner.subcategory.trainers=
+characterDesigner.subcategory.sandals=Sandales
+//[Reference] 'Short'
+characterDesigner.subcategory.short=Court
+//[Reference] 'Shorts'
+characterDesigner.subcategory.shorts=Short
+//[Reference] 'Straptop'
+characterDesigner.subcategory.straptop=Débardeur
+//[Reference] 'Trainers'
+characterDesigner.subcategory.trainers=Baskets
 //[Reference] 'T-Shirt'
-characterDesigner.subcategory.tshirt=T-Shirt :
+characterDesigner.subcategory.tshirt=T-Shirt
 //[Reference] 'Vest'
-characterDesigner.subcategory.vest=Veste :
+characterDesigner.subcategory.vest=Veste
 //[Reference] 'Character Creation'
-characterDesigner.title=Titre :
+characterDesigner.title=Création du personnage
 //[Reference] 'Bottoms'
-characterDesigner.trousers=Pantalons :
+characterDesigner.trousers=Pantalons
 
-//TODO Translate [Reference] 'advanceTime amount(0.0-1.0)'
-commands.advanceTime.description=
+//[Reference] 'advanceTime amount(0.0-1.0)'
+commands.advanceTime.description=advanceTime montant(0.0-1.0)
 //[Reference] 'Enter a float by which to advance time. 1.0 is a full day'
 commands.advanceTime.enterFloat=Saisissez un nombre décimal. « 1.0 » est égal une journée complète
 //[Reference] 'failed: arg(1) must be a number. Floating points OK'
 commands.advanceTime.mustBeNumber=Erreur : arg(1) doit être un nombre. Décimaux OK
 //[Reference] 'Advancing time by {0-time}...'
 commands.advanceTime.success=Avancement du temps : {0-time}...
-//TODO Translate [Reference] 'ban playerName (optional)reason'
-commands.ban.description=
-//TODO Translate [Reference] 'Unable to ban {0-player}: player is an admin or already banned.'
-commands.ban.failure=
-//TODO Translate [Reference] '{0-player} has been banned from the server.'
-commands.ban.success=
-//TODO Translate [Reference] 'bla'
-commands.bla.description=
+//[Reference] 'ban playerName (optional)reason'
+commands.ban.description=ban nomDuJoueur (facultatif)raison
+//[Reference] 'Unable to ban {0-player}: player is an admin or already banned.'
+commands.ban.failure=Impossible de bannir le joueur {0-player} : il est déjà banni ou est un administrateur.
+//[Reference] '{0-player} has been banned from the server.'
+commands.ban.success={0-player} a été banni du serveur.
+//[Reference] 'bla'
+commands.bla.description=bla
 //[Reference] 'Moved to a new location in debug region: {0-region}'
 commands.bla.success=Déplacé vers un nouvel emplacement dans la région de debug : {0-region}
-//TODO Translate [Reference] 'cameraCapture'
-commands.cameraCapture.description=
+//[Reference] 'cameraCapture'
+commands.cameraCapture.description=cameraCapture
 //[Reference] 'Captured player camera'
 commands.cameraCapture.success=Caméra du joueur capturé
-//TODO Translate [Reference] 'cameraCapture savedCameraFilePath'
-commands.cameraLoad.description=
+//[Reference] 'cameraCapture savedCameraFilePath'
+commands.cameraLoad.description=cameraCapture cheminVersLeFichierCamera
 //[Reference] 'Loaded player camera from file: {0-filename}'
 commands.cameraLoad.success=Caméra du joueur chargé à partir du fichier « {0-filename} »
 //[Reference] 'cameraPlay (optional)duration(0.0-1.0) (optional)loop(true/false) (optional)savedCameraFilePath'
 commands.cameraPlay.description=cameraPlay (facultatif)duration(0.0-1.0) (facultatif)loop(true/false) (facultatif)savedCameraFilePath
 //[Reference] 'Playing back player camera'
 commands.cameraPlay.success=Lecture de la caméra du joueur
-//TODO Translate [Reference] 'cameraReset'
-commands.cameraReset.description=
+//[Reference] 'cameraReset'
+commands.cameraReset.description=cameraReset
 //[Reference] 'Reset player camera'
 commands.cameraReset.success=Caméra du joueur reinitialisée
-//TODO Translate [Reference] 'cameraSave cameraSaveFilePath'
-commands.cameraSave.description=
+//[Reference] 'cameraSave cameraSaveFilePath'
+commands.cameraSave.description=cameraSave cheminVersLeFichierCamera
 //[Reference] 'Saved player camera to file: {0-filename}'
 commands.cameraSave.success=Caméra du joueur enregistrée sous le fichier « {0-filename} »
-//TODO Translate [Reference] 'cameraStop'
-commands.cameraStop.description=
+//[Reference] 'cameraStop'
+commands.cameraStop.description=cameraStop
 //[Reference] 'Stopped camera mode'
 commands.cameraStop.success=Mode caméra désactivé
-//TODO Translate [Reference] 'creative (optional)playerName (optional)startCreativeMode(true/false)'
-commands.creative.description=
-//TODO Translate [Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
-commands.creative.success=
-//TODO Translate [Reference] 'currentTime'
-commands.currentTime.description=
+//[Reference] 'creative (optional)playerName (optional)startCreativeMode(true/false)'
+commands.creative.description=creative (facultatif)nomDuJoueur (facultatif)startCreativeMode(true/false)
+//[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
+commands.creative.success=Le mode créatif du joueur {0-user} a été temporairement changé à {1-creative}
+//[Reference] 'currentTime'
+commands.currentTime.description=currentTime
 //[Reference] 'The day is {0-day} and phase is {1:G2-phase}.'
 commands.currentTime.success=Jour actuel : {0-day} - Phase actuelle : {1:G2-phase}.
-//TODO Translate [Reference] 'demoMode (optional)on(true/false)'
-commands.demoMode.description=
-//TODO Translate [Reference] 'Switched server demo mode to {0-demoMode}'
-commands.demoMode.success=
+//[Reference] 'demoMode (optional)on(true/false)'
+commands.demoMode.description=demoMode (facultatif)on(true/false)
+//[Reference] 'Switched server demo mode to {0-demoMode}'
+commands.demoMode.success=Le mode démo du serveur est passé à {0-demoMode}
 //[Reference] 'describeitem (optional)playerName'
-commands.describeItem.description=describeitem (facultatif)playerName
+commands.describeItem.description=describeitem (facultatif)nomDuJoueur
 //[Reference] 'Item description: {0-itemDesc}'
 commands.describeItem.success=Description de l'objet : {0-itemDesc}
-//TODO Translate [Reference] 'entityInfo entityID'
-commands.entityInfo.description=
-//TODO Translate [Reference] 'You need to include an EntityID!'
-commands.entityInfo.entityNumber=
-//TODO Translate [Reference] 'Invalid EntityID!'
-commands.entityInfo.mustBeNumber=
-//TODO Translate [Reference] 'There is no such entity on the server'
-commands.entityInfo.noSuchEntity=
-//TODO Translate [Reference] 'Entity data: {0-data}'
-commands.entityInfo.success=
+//[Reference] 'entityInfo entityID'
+commands.entityInfo.description=entityInfo IdEntite
+//[Reference] 'You need to include an EntityID!'
+commands.entityInfo.entityNumber=Vous devez renseigner un id pour l'entité !
+//[Reference] 'Invalid EntityID!'
+commands.entityInfo.mustBeNumber=L'id de l'entité est invalide !
+//[Reference] 'There is no such entity on the server'
+commands.entityInfo.noSuchEntity=Cette entité n'existe pas sur le serveur
+//[Reference] 'Entity data: {0-data}'
+commands.entityInfo.success=Données de l'entité : {0-data}
 //[Reference] 'fly (optional)playerName (optional)startFlying(true/false)'
 commands.flyMode.description=fly (facultatif)playerName (facultatif)startFlying(true/false)
 //[Reference] 'Switched flying mode to: {0-flymode}'
 commands.flyMode.success=La valeur du mode vol a été modifiée en : {0-flymode}
-//TODO Translate [Reference] 'Give all recipes (optional)playerName'
-commands.giveallrecipes.description=
-//TODO Translate [Reference] 'Done!'
-commands.giveallrecipes.success=
-//TODO Translate [Reference] 'givepetals playerName amount'
-commands.givePetals.description=
+//[Reference] 'Give all recipes (optional)playerName'
+commands.giveallrecipes.description=giveallrecipes (facultatif)nomDuJoueur
+//[Reference] 'Done!'
+commands.giveallrecipes.success=Recettes données !
+//[Reference] 'givepetals playerName amount'
+commands.givePetals.description=givepetals nomDuJoueur montant
 //[Reference] 'Petal amount needs to be a positive number'
 commands.givePetals.invalidNumber=Le nombre de pétales doit être positif
 //[Reference] 'Gave {0-player} {1-amount} petals'
@@ -180,30 +180,31 @@ commands.help.commandNotFound=Commande « {0-command} » non trouvée
 //[Reference] 'help (optional)commandName'
 commands.help.description=help (facultatif)commandName
 //[Reference] 'Command list (() brackets denote possible values):'
-commands.help.success=Liste des commandes : (()les parenthèses indiquent les valeurs possibles):
+commands.help.success=Liste des commandes (()les parenthèses indiquent les valeurs possibles) :
+//TODO No reference?
 commands.inspect.success=
 //[Reference] 'invalid args'
 commands.invalidArgs=Arguments invalides
-//TODO Translate [Reference] 'kick playerName'
-commands.kick.description=
-//TODO Translate [Reference] 'Unable to kick {0-player}: player is an admin or not online.'
-commands.kick.failure=
-//TODO Translate [Reference] '{0-player} has been ejected from the server.'
-commands.kick.success=
+//[Reference] 'kick playerName'
+commands.kick.description=kick nomDuJoueur
+//[Reference] 'Unable to kick {0-player}: player is an admin or not online.'
+commands.kick.failure=Impossible d'éjecter le joueur {0-player} : Il n'est pas connecté ou est un administrateur.
+//[Reference] '{0-player} has been ejected from the server.'
+commands.kick.success=Le joueur {0-player} a été ejecté du serveur.
 //[Reference] 'model (optional)playerName (optional)modelFileName'
-commands.model.description=model (facultatif)playerName (facultatif)modelFileName
+commands.model.description=model (facultatif)nomDuJoueur (facultatif)nomFichierModèle
 //[Reference] 'Could not switch to character model '{0-model}' not found in assets.'
 commands.model.notFound=Impossible de basculer vers le modèle de joueur « {0-model} ». Celui-ci est introuvable dans les assets.
 //[Reference] 'Switched character model to: {0-model}'
 commands.model.success=Modèle de joueur modifié en : {0-model}
-//TODO Translate [Reference] 'mute playerName (optional[default 60])lengthInMinutes'
-commands.mute.description=
-//TODO Translate [Reference] 'Unable to mute {0-player}: player is an admin.'
-commands.mute.failure=
-//TODO Translate [Reference] 'Invalid time (should be in whole minutes)'
-commands.mute.invalidTime=
-//TODO Translate [Reference] '{0-player} has been silenced.'
-commands.mute.success=
+//[Reference] 'mute playerName (optional[default 60])lengthInMinutes'
+commands.mute.description=mute nomDuJoueur (facultatif[défaut 60])tempsEnMinutes
+//[Reference] 'Unable to mute {0-player}: player is an admin.'
+commands.mute.failure=Impossible de rendre le joueur {0-player} muet : ce joueur est admin.
+//[Reference] 'Invalid time (should be in whole minutes)'
+commands.mute.invalidTime=Temps invalide (le temps doit être en minutes, sans virgules)
+//[Reference] '{0-player} has been silenced.'
+commands.mute.success=Le joueur {0-player} est désormais muet.
 //[Reference] 'noclip (optional)playerName (optional)startNoclip(true/false)'
 commands.noClip.description=noclip (facultatif)playerName (facultatif)startNoclip(true/false)
 //[Reference] 'Switched noclip mode to: {0-noclip}'
@@ -214,80 +215,83 @@ commands.noRights={0-user} ne possède pas les droits suffisants pour utiliser c
 commands.noSuchPlayer=Joueur « {0-player} » introuvable
 //[Reference] 'Not a player entity.'
 commands.notAPlayer=Ce n'est pas une entité de joueur.
-//TODO Translate [Reference] 'plantgrowth'
-commands.plantGrowth.description=
-//TODO Translate [Reference] 'Not a plant.'
-commands.plantGrowth.noPlant=
-//TODO Translate [Reference] 'Plant {0-plant} at stage {1-stage}'
-commands.plantGrowth.success=
+//[Reference] 'plantgrowth'
+commands.plantGrowth.description=plantgrowth
+//[Reference] 'Not a plant.'
+commands.plantGrowth.noPlant=Ce n'est pas une plante.
+//[Reference] 'Plant {0-plant} at stage {1-stage}'
+commands.plantGrowth.success=Plante {0-plant} à l'étape {1-stage}
 //[Reference] 'Player Entity not found'
 commands.playerEntityNotFound=Entité de joueur introuvable
-//TODO Translate [Reference] 'players'
-commands.players.description=
+//[Reference] 'players'
+commands.players.description=players
 //[Reference] 'Players: {0-playerlist}'
 commands.players.success=Joueurs: {0-playerlist}
 //[Reference] 'position (optional)playerName'
-commands.position.description=position (facultatif)playerName
+commands.position.description=position (facultatif)nomDuJoueur
 //[Reference] 'Failed to find player'
 commands.position.failed=Impossible de localiser le joueur
 //[Reference] 'Position: {0-position}, Heading: {1-heading}'
 commands.position.success=Position : {0-position} - Titre : {1-heading}
+//TODO No reference?
 commands.rain.success=
-//TODO Translate [Reference] 'reload'
-commands.reload.description=
+//[Reference] 'reload'
+commands.reload.description=reload
 //[Reference] 'Reload requested.'
 commands.reload.success=Rafraîchissement demandé.
-//TODO Translate [Reference] 'resetplayer'
-commands.resetPlayer.description=
+//[Reference] 'resetplayer'
+commands.resetPlayer.description=resetplayer
 //[Reference] 'Reset successful.'
 commands.resetPlayer.success=Réinitialisation réussie.
-//TODO Translate [Reference] 'saveDesign fileName'
-commands.saveDesign.description=
-//TODO Translate [Reference] 'A filename is required to save a design'
-commands.saveDesign.needFileName=
-//TODO Translate [Reference] 'Character design file saved at {0-path}'
-commands.saveDesign.success=
-//TODO Translate [Reference] 'saveOutfit fileName'
-commands.saveOutfit.description=
-//TODO Translate [Reference] 'Character outfit file saved at {0-path}'
-commands.saveOutfit.success=
-//TODO Translate [Reference] 'creativeMode (optional)on(true/false)'
-commands.serverCreative.description=
-//TODO Translate [Reference] 'Switched server creative mode to {0-creative} (persistent)'
-commands.serverCreative.success=
-//TODO Translate [Reference] 'spawncoins playerName petalAmount'
-commands.spawnCoins.description=
-//TODO Translate [Reference] 'Spawned {0-amount} petals in coins for {1-player}'
-commands.spawnCoins.success=
-//TODO Translate [Reference] 'spawnitem playerName item(kind/specification{})'
-commands.spawnItem.description=
+//[Reference] 'saveDesign fileName'
+commands.saveDesign.description=saveDesign nomFichier
+//[Reference] 'A filename is required to save a design'
+commands.saveDesign.needFileName=Un nom de fichier est requis pour sauvegarder un design.
+//[Reference] 'Character design file saved at {0-path}'
+commands.saveDesign.success=Le design a été sauvegardé à {0-path}
+//[Reference] 'saveOutfit fileName'
+commands.saveOutfit.description=saveOutfit nomFichier
+//[Reference] 'Character outfit file saved at {0-path}'
+commands.saveOutfit.success=Tenue du personnage sauvegardée à {0-path}
+//[Reference] 'creativeMode (optional)on(true/false)'
+commands.serverCreative.description=creativeMode (optionel)on(true/false)
+//[Reference] 'Switched server creative mode to {0-creative} (persistent)' TODO Persistent notes that the mode change isn't temporary, right? Dunno if it's relevant to say so in translation
+commands.serverCreative.success=Le mode créatif du serveur est désormais {0-creative}
+//[Reference] 'spawncoins playerName petalAmount'
+commands.spawnCoins.description=spawncoins nomDuJoueur montantEnPétales
+//[Reference] 'Spawned {0-amount} petals in coins for {1-player}'
+commands.spawnCoins.success={0-amount} pétales en pièces ont été générées pour le joueur {1-player}
+//[Reference] 'spawnitem playerName item(kind/specification{})'
+commands.spawnItem.description=spawnitem nomDuJoueur objet(type/spécifications{})
 //[Reference] 'Item not found.'
 commands.spawnItem.notFound=Objet introuvable.
 //[Reference] 'Spawn item successful.'
-commands.spawnItem.success=L'objet est bien apparu.
-//TODO Translate [Reference] 'spawnmaterial playerName materialCode'
-commands.spawnMaterial.description=
+commands.spawnItem.success=Génération de l'objet réussite.
+//[Reference] 'spawnmaterial playerName materialCode'
+commands.spawnMaterial.description=spawnmaterial nomDuJoueur codeMateriau
 //[Reference] 'Material kind not found.'
-commands.spawnMaterial.notFound=Matériel introuvable.
+commands.spawnMaterial.notFound=Matériau introuvable.
 //[Reference] 'Spawn material successful'
-commands.spawnMaterial.success=Le matériel est bien apparu.
-//TODO Translate [Reference] 'spawntile playerName tileCode'
-commands.spawnTile.description=
+commands.spawnMaterial.success=Génération du matériau réussite.
+//[Reference] 'spawntile playerName tileCode'
+commands.spawnTile.description=spawntile nomDuJoueur codeTile
 //[Reference] 'Tile kind not found.'
 commands.spawnTile.notFound=Tile introuvable.
 //[Reference] 'Spawn tile successful.'
 commands.spawnTile.success=La tile est bien apparue.
+//TODO No reference?
 commands.sun.success=
 //[Reference] 'teleport (optional)playerName location({0,0,0})'
-commands.teleport.description=teleport (facultatif)playerName location({0,0,0})
-//TODO Translate [Reference] '{0-position} is too far to teleport'
-commands.teleport.distance=
+commands.teleport.description=teleport (facultatif)nomDuJoueur location({0,0,0})
+//[Reference] '{0-position} is too far to teleport'
+commands.teleport.distance=La position {0-position} est trop éloignée pour un téléport
 //[Reference] 'Failed to parse position {0-position}'
 commands.teleport.fail=Données de position invalides {0-position}
 //[Reference] 'Teleport successful.'
 commands.teleport.success=Téléportation réussie.
-//TODO Translate [Reference] 'tp movingPlayerName destinationPlayerName'
-commands.teleportPlayer.description=
+//[Reference] 'tp movingPlayerName destinationPlayerName'
+commands.teleportPlayer.description=tp nomDuJoueurADeplacer nomDuJoueurDestination
+//TODO No reference?
 commands.textToSpeech.success=
 //[Reference] 'tileAt (optional)location({0,0,0})'
 commands.tileAt.description=tileAt (facultatif)location({0,0,0})
@@ -297,74 +301,77 @@ commands.tileAt.failParse=Données de position invalides {0-position}
 commands.tileAt.notFound=Tile introuvable
 //[Reference] 'Tile code: {0-tilecode} at {1-position}'
 commands.tileAt.success=Code de la tile : {0-tilecode} {1-position}
+//TODO Quite a few with no references.
 commands.traceStart.description=
 commands.traceStart.success=
 commands.traceStop.description=
 commands.traceStop.success=
-//TODO Translate [Reference] 'unban playerName'
-commands.unban.description=
-//TODO Translate [Reference] 'Unable to unban {0-player}: player was not banned.'
-commands.unban.failure=
-//TODO Translate [Reference] '{0-player} has been unbanned from the server.'
-commands.unban.success=
+//[Reference] 'unban playerName'
+commands.unban.description=unban nomDuJoueur
+//[Reference] 'Unable to unban {0-player}: player was not banned.'
+commands.unban.failure=Impossible de lever le bannissement du joueur {0-player} : Il n'est pas banni.
+//[Reference] '{0-player} has been unbanned from the server.'
+commands.unban.success=Le bannissement du joueur {0-player} a été levé.
 //[Reference] 'Unknown command :'{0-command}''
 commands.unknown=Commande inconnue : « {0-command} »
 //[Reference] 'Unknown error.'
 commands.unknownError=Erreur inconnue.
-//TODO Translate [Reference] 'unmute playerName'
-commands.unmute.description=
-//TODO Translate [Reference] 'Unable to unmute {0-player}: player is not muted.'
-commands.unmute.failure=
-//TODO Translate [Reference] '{0-player} has regained the ability to speak.'
-commands.unmute.success=
+//[Reference] 'unmute playerName'
+commands.unmute.description=unmute nomDuJoueur
+//[Reference] 'Unable to unmute {0-player}: player is not muted.'
+commands.unmute.failure=Impossible de rendre la voix au joueur {0-player} : le joueur n'est pas muet.
+//[Reference] '{0-player} has regained the ability to speak.'
+commands.unmute.success=Le joueur {0-player} peut à nouveau parler.
 //[Reference] 'Unrecognised command :'{0-command}''
 commands.unrecognised=Commande non reconnue : «{0-command} »
-//TODO Translate [Reference] 'Item Hotkeys'
-controllerHints.hotkeys=
-//TODO Translate [Reference] 'Inventory'
-controllerHints.inventory=
+//[Reference] 'Item Hotkeys'
+controllerHints.hotkeys=Raccourcis d'objet
+//[Reference] 'Inventory'
+controllerHints.inventory=Inventaire
 //TODO Translate [Reference] 'Material Quick-Pick'
 controllerHints.materialPick=
-//TODO Translate [Reference] 'Movement'
-controllerHints.movement=
-//TODO Translate [Reference] 'Place and Rotate'
-controllerHints.placeAndRotate=
-//TODO Translate [Reference] 'Bake'
-crafting.action.keyword.bake=
-//TODO Translate [Reference] 'Boil'
-crafting.action.keyword.boil=
-crafting.action.keyword.combine=
-//TODO Translate [Reference] 'Cut'
-crafting.action.keyword.cut=
-crafting.action.keyword.fry=
-//TODO Translate [Reference] 'Mix'
-crafting.action.keyword.mix=
-//TODO Translate [Reference] '{0-itemOne}, {1-itemTwo}'
-crafting.action.task.listedItems=
-//TODO Translate [Reference] '{0-keyword} {1-listedItems} and {2-lastListedItem}'
-crafting.action.task.multiItem=
-//TODO Translate [Reference] '{0-count}x {1-item}'
-crafting.action.task.multiples=
-//TODO Translate [Reference] '{0-keyword} {1-item}'
-crafting.action.task.oneItem=
-//TODO Translate [Reference] 'That wasn't a recipe, Oops!'
-crafting.notifications.failedCraft=
-//TODO Translate [Reference] 'You completed the recipe for {0-item}!'
-crafting.recipeComplete=
+//[Reference] 'Movement'
+controllerHints.movement=Mouvement
+//[Reference] 'Place and Rotate'
+controllerHints.placeAndRotate=Placer et tourner
+//[Reference] 'Bake'
+crafting.action.keyword.bake=Cuire au four
+//[Reference] 'Boil'
+crafting.action.keyword.boil=Bouillir
+//TODO I guess it's 'Combine'
+crafting.action.keyword.combine=Combiner
+//[Reference] 'Cut'
+crafting.action.keyword.cut=Couper
+//TODO I guess it's 'Fry'
+crafting.action.keyword.fry=Frire
+//[Reference] 'Mix'
+crafting.action.keyword.mix=Mélanger
+//[Reference] '{0-itemOne}, {1-itemTwo}'
+crafting.action.task.listedItems={0-itemOne}, {1-itemTwo}
+//[Reference] '{0-keyword} {1-listedItems} and {2-lastListedItem}'
+crafting.action.task.multiItem={0-keyword} {1-listedItems} et {2-lastListedItem}
+//[Reference] '{0-count}x {1-item}'
+crafting.action.task.multiples={0-count}x {1-item}
+//[Reference] '{0-keyword} {1-item}'
+crafting.action.task.oneItem={0-keyword} {1-item}
+//[Reference] 'That wasn't a recipe, Oops!'
+crafting.notifications.failedCraft=Ce n'était pas une recette valide, oups !
+//[Reference] 'You completed the recipe for {0-item}!'
+crafting.recipeComplete=Vous avez réalisé la recette pour {0-item} !
 
 //[Reference] 'Helped out with the Staxel interface.'
-credits.13lueWolf.description=Il est le développeur d'interface de Staxel. Il a programmé toutes les fenêtres du jeu, telle que celle-ci.
+credits.13lueWolf.description=Il est le développeur d'interface de Staxel. Il a programmé toutes les fenêtres du jeu, y compris celle-ci.
 //[Reference] 'He helped out a bunch with the programming of the game.'
 credits.amos.description=Il a énormément participé à la programmation du jeu.
 //[Reference] 'Back to main menu'
-credits.back=Retour
+credits.back=Retour au menu
 //[Reference] 'He is the lead developer, responsible for the coding and general awesomeness behind the game. He streams often so feel free to join him on twitch and ask some questions! Yep, he used to work on Starbound.'
 credits.bartwe.description=Il est le principal développeur, responsable du code et a fait en sorte que le jeu soit formidable. Il stream assez souvent, vous pouvez jeter un oeil à ses streams et lui poser des questions ! Et oui, il a aussi travaillé sur Starbound.
 //[Reference] 'She was always on hand to help out with additional coding and bug fixes.'
 credits.beth.description=Elle est toujours là pour donner un coup de main avec des ajouts de code ou des corrections de bugs.
 //[Reference] 'He is a talented musician who has been creating lush soundtracks to help immerse you into the Staxel universe.'
 credits.curtis.description=C'est un musicien talentueux qui a composé de superbes bandes-sonores pour vous plonger dans l'univers de Staxel.
-//[Reference] 'Helped out with writing all sorts.'
+//[Reference] 'Helped out with writing all sorts.' TODO The translation includes tons of fluff not present in the reference.
 credits.demanRisu.description=Il est l'écrivain de Staxel. Il aime les arbres, les buissons, les fleurs, les insectes, l'océan, l'écriture, le game design, les gens cactus, les caves et les couchers de soleil.
 //[Reference] 'A faceless entity between realms; only exists when you’re not looking. In its spare time, programs.'
 credits.moocowtg.description=Une entité sans visage entre royaumes ; il n'existe uniquement quand vous ne le regardez pas. Il programme à ses heures perdues.
@@ -375,15 +382,15 @@ credits.razzleberryFox.description=Razz est une artiste 3D travaillant avec Stea
 //[Reference] 'Job title is Project Manager, in charge of making sure people actually make a game I suppose?'
 credits.sledra.description=Il s'occupe de la gestion du projet et veille à ce que l'équipe travaille correctement sur Staxel.
 //[Reference] 'He has contributed some lovely soundtracks for Staxel.'
-credits.solatrus.description=Il a composé quelques bandes-sonores pour Staxel.
+credits.solatrus.description=Il a composé de magnifiques bandes-sonores pour Staxel.
 //[Reference] 'He is the artist. He has worked hard to produce all the in game models, and make the game as visually appealing as possible.'
-credits.steampunkstein.description=C'est un artiste. Il travaille dur pour produire les modèles du jeu, et rendre le jeu aussi attrayant visuellement que possible.
+credits.steampunkstein.description=C'est l'artiste. Il travaille dur pour produire les modèles du jeu, et rendre le jeu aussi attrayant visuellement que possible.
 //[Reference] 'He is Staxel’s PR and community manager, additionally acts as Staxel’s Chief Lacky and helps out with the game design.'
-credits.teaGadd.description=C'est un programmeur interne. Il a créé et met à jour le site et les forums.
+credits.teaGadd.description=C'est le community manager et le chargé des relations publiques de Staxel, aidant par-ci par-là avec le game design.
 //[Reference] 'He is another programmer. Likes include: programming.'
 credits.terrorcell.description=C'est un autre programmeur. Il aime programmer. C'est tout.
 //TODO Translate [Reference] 'It's starting to get dark...'
-dayNight.hintNightTransition=
+dayNight.hintNightTransition=Il commence à faire nuit...
 //TODO Translate [Reference] 'MissingNotification: {0-notificationCode}'
 debug.MissingNotification=
 
@@ -406,19 +413,19 @@ escapeMenu.desktopExit=Retour au bureau
 escapeMenu.mainMenu=Retour au menu principal
 //[Reference] 'Options'
 escapeMenu.options=Paramètres
-//TODO Translate [Reference] 'Return Home'
-escapeMenu.returnHome=
+//TODO Translated as "return to the home", home as like your character home
+escapeMenu.returnHome=Retour à la maison
 
 //[Reference] 'It got away!'
 fishing.gotAway=Il s'est enfuit !
 //[Reference] 'Something is on the hook!'
 fishing.hooked=Quelque chose mord à l'hameçon !
-//TODO Translate [Reference] 'GOT IT!'
-fishing.success1=
-//TODO Translate [Reference] 'SUCCESS!'
-fishing.success2=
-//TODO Translate [Reference] 'YES!'
-fishing.success3=
+//[Reference] 'GOT IT!'
+fishing.success1=Attrapé !
+//[Reference] 'SUCCESS!'
+fishing.success2=Réussi !
+//[Reference] 'YES!'
+fishing.success3=OUI !
 
 //[Reference] 'Press (space) or (a) to leave bed'
 hintText.bed=Appuyez sur (space) ou sur (a) pour sortir du lit
@@ -430,16 +437,16 @@ hintText.chair=Appuyez sur (space) ou sur (a) pour vous lever
 hintText.charge=Charge : {0:P1-chargeLevel} - Effectuez un clic droit ou appuyez sur la gâchette gauche pour annuler
 //[Reference] '{0:P0-growth}'
 hintText.checkPlantGrowth=Pourcentage de pousse : {0:P0-percentage}
-//TODO Translate [Reference] 'It's ready for harvesting'
-hintText.checkPlantGrowth.fruited=
-//TODO Translate [Reference] 'It's growing healthily'
-hintText.checkPlantGrowth.growing=
-//TODO Translate [Reference] 'The seeds are growing'
-hintText.checkPlantGrowth.seed=
-//TODO Translate [Reference] 'It's not looking healthy'
-hintText.checkPlantGrowth.wilted=
-//TODO Translate [Reference] 'It's heading to the big garden in the sky'
-hintText.checkPlantGrowth.withered=
+//[Reference] 'It's ready for harvesting'
+hintText.checkPlantGrowth.fruited=Le plant est prêt à être récolté
+//[Reference] 'It's growing healthily'
+hintText.checkPlantGrowth.growing=Le plant pousse, en bonne santé
+//[Reference] 'The seeds are growing'
+hintText.checkPlantGrowth.seed=Les graines poussent
+//[Reference] 'It's not looking healthy'
+hintText.checkPlantGrowth.wilted=Le plant est flétri
+//[Reference] 'It's heading to the big garden in the sky'
+hintText.checkPlantGrowth.withered=Le plant est fané, et s'en va vers le Paradis des plantes...
 //[Reference] 'Inventory Full'
 hintText.inventoryFull=Inventaire plein
 //[Reference] 'Need at least {0-count} slots in inventory'
@@ -454,12 +461,12 @@ hintText.needTilledTile=
 hintText.notEnoughSpaceToPlant=
 //[Reference] 'Need at least 1 slot in inventory'
 hintText.oneSlotNeeded=1 emplacement d'inventaire requis
-//TODO Translate [Reference] 'You already know this recipe'
-hintText.recipeKnown=
-//TODO Translate [Reference] 'You successfully learnt the recipe for {0-recipe}!'
-hintText.recipeLearnt=
-//TODO Translate [Reference] 'Downloading bundle assets'
-loading.bundles=
+//[Reference] 'You already know this recipe'
+hintText.recipeKnown=Vous connaissez déjà cette recette
+//[Reference] 'You successfully learnt the recipe for {0-recipe}!'
+hintText.recipeLearnt=Vous avez appris une nouvelle recette, pour {0-recipe} !
+//[Reference] 'Downloading bundle assets'
+loading.bundles=Téléchargement du regroupement d'assets
 
 //[Reference] 'Skip'
 loading.skip=Passer
@@ -474,21 +481,21 @@ multiplayerMenu.serverIP=IP Serveur :
 multiplayerMenu.serverList=Liste des serveurs
 //[Reference] 'Options'
 options=Paramètres
-//TODO Translate [Reference] 'Admin'
-options.admin=
-//TODO Translate [Reference] 'Debug'
-options.admin.debug=
+//[Reference] 'Admin'
+options.admin=Admin
+//[Reference] 'Debug'
+options.admin.debug=Débug
 
 //[Reference] 'Camera Mode (ESC to exit)'
 options.admin.debug.cameraMode=Mode caméra ((ESC) pour quitter)
-//TODO Translate [Reference] 'Creative Mode'
-options.admin.debug.creativeMode=
+//[Reference] 'Creative Mode'
+options.admin.debug.creativeMode=Mode Créatif
 //[Reference] 'Fly Mode'
-options.admin.debug.flyMode=Mode vol
+options.admin.debug.flyMode=Mode Vol
 //[Reference] 'No Clip Mode'
 options.admin.debug.noClipMode=Mode No Clip
 //[Reference] 'Show name tags'
-options.admin.debug.showNames=Mode ShowNameTags
+options.admin.debug.showNames=Afficher les noms
 //[Reference] 'Wireframe Mode'
 options.admin.debug.wireframeMode=Mode Wireframe
 //[Reference] 'Adminy stuff'
@@ -496,8 +503,8 @@ options.admin.description=Administration
 //[Reference] 'Audio'
 options.audio=Son
 //[Reference] 'Set audio options here'
-options.audio.description=Modifiez les paramètres sonores
-//TODO Translate [Reference] '(X)'
+options.audio.description=Modifier les paramètres sonores
+//TODO Translate [Reference] '(X)' Not sure what you mean here
 options.backButton=
 //[Reference] 'Gameplay'
 options.gameplay=Jeu
@@ -541,16 +548,14 @@ options.gameplay.other.activeAchievement=Activer les succès
 options.gameplay.other.chatTimestamps=Afficher l'horodatage dans le chat
 //[Reference] 'Left Handed Mode'
 options.gameplay.other.leftHandedMode=Mode gaucher
-//TODO Translate [Reference] 'Scale UI with resolution'
-options.gameplay.other.ScaleUIWithResolution=
-//TODO Translate [Reference] 'Show Clock'
-options.gameplay.other.showClock=
+//[Reference] 'Show Clock'
+options.gameplay.other.showClock=Afficher l'horloge
 //TODO Translate [Reference] 'Crafting Keyword Tags'
 options.gameplay.other.showCraftingKeywordTags=
 //[Reference] 'General'
 options.general=Général
-//TODO Translate [Reference] 'Audio'
-options.general.audio=
+//[Reference] 'Audio'
+options.general.audio=Audio
 //[Reference] 'Ambience:'
 options.general.audio.ambience=Ambiance sonore :
 //[Reference] 'Master:'
@@ -561,10 +566,10 @@ options.general.audio.music=Musiques :
 options.general.audio.sound=Son :
 //[Reference] 'Graphics'
 options.general.graphics=Graphismes
-//TODO Translate [Reference] 'Advanced'
-options.general.graphics.advanced=
-//TODO Translate [Reference] 'Auto detect graphics settings'
-options.general.graphics.autoDetect=
+//[Reference] 'Advanced'
+options.general.graphics.advanced=Avancé
+//[Reference] 'Auto detect graphics settings'
+options.general.graphics.autoDetect=Détection automatique des paramètres graphiques
 //[Reference] 'Bloom'
 options.general.graphics.bloom=Éclat
 //[Reference] 'Camera Distance:'
@@ -587,10 +592,10 @@ options.general.graphics.lod=Niveau de détail
 options.general.graphics.low=Basse
 //[Reference] 'MedianFilter (Requires Bloom)'
 options.general.graphics.medianFilter=Filtre médian (le paramètre « Éclat » doit être activé)
-//TODO Translate [Reference] 'Medium'
-options.general.graphics.medium=
-//TODO Translate [Reference] 'Multi Sampling'
-options.general.graphics.MultiSampling=
+//[Reference] 'Medium'
+options.general.graphics.medium=Medium
+//[Reference] 'Multi Sampling'
+options.general.graphics.MultiSampling=Multiéchantillonnage
 //[Reference] 'Reduced View Range'
 options.general.graphics.reducedViewRange=Distance de vision réduite
 //[Reference] 'Shadows'
@@ -601,10 +606,10 @@ options.general.graphics.showGridCursor=Afficher la grille du curseur
 options.general.graphics.superLow=Très basse
 //[Reference] 'Super Sampling'
 options.general.graphics.superSampling=Suréchantillonnage
-//TODO Translate [Reference] 'Ultra'
-options.general.graphics.ultra=
-//TODO Translate [Reference] 'Weather Particles'
-options.general.graphics.WeatherParticles=
+//[Reference] 'Ultra'
+options.general.graphics.ultra=Ultra
+//[Reference] 'Weather Particles'
+options.general.graphics.WeatherParticles=Particules météo
 //[Reference] 'Language'
 options.general.language=Langue
 //[Reference] 'Misc'
@@ -623,95 +628,87 @@ options.network.preferences=Préférences
 options.video=Vidéo
 //[Reference] 'Set video options here'
 options.video.description=Modifiez les paramètres vidéo
-//TODO Translate [Reference] 'Ban'
-playerList.ban=
-//TODO Translate [Reference] 'Kick'
-playerList.kick=
-//TODO Translate [Reference] 'Mute'
-playerList.mute=
-//TODO Translate [Reference] 'Players Online:'
-playerList.playerCount=
-//TODO Translate [Reference] 'Teleport To'
-playerList.teleportTo=
-//TODO Translate [Reference] 'Desserts'
-recipeBook.grouping.desserts=
-//TODO Translate [Reference] 'Fencing'
-recipeBook.grouping.fencing=
-//TODO Translate [Reference] 'Flooring'
-recipeBook.grouping.flooring=
-//TODO Translate [Reference] 'Main Courses'
-recipeBook.grouping.mainCourses=
-//TODO Translate [Reference] 'Roofing'
-recipeBook.grouping.roofing=
-//TODO Translate [Reference] 'Starters'
-recipeBook.grouping.starters=
-//TODO Translate [Reference] 'Walling'
-recipeBook.grouping.walling=
-//TODO Translate [Reference] 'Ingredients'
-recipeBook.ingredients=
-//TODO Translate [Reference] 'No recipes'
-recipeBook.noRecipes=
+//[Reference] 'Ban'
+playerList.ban=Bannir
+//[Reference] 'Kick'
+playerList.kick=Ejecter
+//[Reference] 'Mute'
+playerList.mute=Rendre muet
+//[Reference] 'Players Online:'
+playerList.playerCount=Joueurs en ligne
+//[Reference] 'Teleport To'
+playerList.teleportTo=S'y téléporter
+//[Reference] 'Desserts'
+recipeBook.grouping.desserts=Desserts
+//[Reference] 'Fencing'
+recipeBook.grouping.fencing=Clôture
+//[Reference] 'Flooring'
+recipeBook.grouping.flooring=Sol
+//[Reference] 'Main Courses'
+recipeBook.grouping.mainCourses=Plats principaux
+//[Reference] 'Roofing'
+recipeBook.grouping.roofing=Toit
+//[Reference] 'Starters'
+recipeBook.grouping.starters=Entrées
+//[Reference] 'Walling'
+recipeBook.grouping.walling=Murs
+//[Reference] 'Ingredients'
+recipeBook.ingredients=Ingrédients
+//[Reference] 'No recipes'
+recipeBook.noRecipes=Pas de recette
 //TODO Translate [Reference] 'Process'
 recipeBook.process=
-//TODO Translate [Reference] 'You have been muted for {0-time} minutes.'
-server.notifyPlayerMuted=
-//TODO Translate [Reference] '{0-player} has joined the server'
-server.playerJoin=
-//TODO Translate [Reference] '{0-player} has left the server'
-server.playerLeave=
-//TODO Translate [Reference] 'You are currently muted and your messages will not be received by other players.'
-server.youAreMuted=
-//TODO Translate [Reference] 'You have been unmuted.'
-server.youAreUnmuted=
+//[Reference] 'You have been muted for {0-time} minutes.'
+server.notifyPlayerMuted=Vous avez été rendu muet pour {0-time} minutes.
+//[Reference] '{0-player} has joined the server'
+server.playerJoin={0-player} a rejoint le serveur.
+//[Reference] '{0-player} has left the server'
+server.playerLeave={0-player} s'est déconnecté du serveur.
+//[Reference] 'You are currently muted and your messages will not be received by other players.'
+server.youAreMuted=Vous êtes muet, et vos messages ne seront pas reçus par les autres joueurs.
+//[Reference] 'You have been unmuted.'
+server.youAreUnmuted=Vous n'êtes plus muet.
 
 //[Reference] 'Back to main menu'
 serverBrowser.back=Retour
 //[Reference] 'No servers or master server unreachable'
 serverBrowser.noServers=Aucun serveur, ni le serveur principal, n'est joignable
-//TODO Translate [Reference] 'Online:'
-serverBrowser.online=
-//TODO Translate [Reference] 'Server name:'
-serverBrowser.serverName=
-//TODO Translate [Reference] 'Cancel all'
-shippingCatalogue.cancelAll=
+//[Reference] 'Online:'
+serverBrowser.online=En ligne :
+//[Reference] 'Server name:'
+serverBrowser.serverName=Nom du serveur :
+//[Reference] 'Cancel all'
+shippingCatalogue.cancelAll=Annuler
 //TODO Translate [Reference] 'Expedite'
 shippingCatalogue.expedite=
 //TODO Translate [Reference] 'Order now'
 shippingCatalogue.order=
-//TODO Translate [Reference] 'You have been refunded {0-amount} petals'
-shippingCatalogue.refund=
+//[Reference] 'You have been refunded {0-amount} petals'
+shippingCatalogue.refund={0-amount} pétales vous ont été remboursées
 //TODO Translate [Reference] 'Check and cancel pending orders here'
 shippingCatalogue.viewOrders.description=
 //TODO Translate [Reference] 'You have claimed this shipping station!'
 shippingDock.Claimed=
-//TODO Translate [Reference] 'Base on'
-singleplayer.baseOff=
-//TODO Translate [Reference] 'Cancel'
-singleplayer.cancel=
-//TODO Translate [Reference] 'Are you certain you want to delete this world?'
-singleplayer.confirmDelete=
-//TODO Translate [Reference] 'Copying world...'
-singleplayer.copyingWorld=
-//TODO Translate [Reference] 'Creative'
-singleplayer.creative=
-//TODO Translate [Reference] 'Creative Mode'
-singleplayer.creativeMode=
-//TODO Translate [Reference] 'Delete'
-singleplayer.delete=
+//[Reference] 'Cancel'
+singleplayer.cancel=Annuler
+//[Reference] 'Creative'
+singleplayer.creative=Créatif
+//[Reference] 'Creative Mode'
+singleplayer.creativeMode=Mode Créatif
 //TODO Translate [Reference] 'Launch'
 singleplayer.launch=
-//TODO Translate [Reference] 'Storage with this name already exists'
-singleplayer.nameAlreadyExists=
-//TODO Translate [Reference] 'Name to short (min 3 characters)'
-singleplayer.nameTooShort=
-//TODO Translate [Reference] 'New World'
-singleplayer.newWorld=
-//TODO Translate [Reference] 'Name'
-singleplayer.serverName=
-//TODO Translate [Reference] 'Single Player'
-singleplayer.singleplayer=
-//TODO Translate [Reference] 'Village'
-singleplayer.village=
+//[Reference] 'Storage with this name already exists'
+singleplayer.nameAlreadyExists=Un stockage avec ce nom existe déjà
+//[Reference] 'Name to short (min 3 characters)'
+singleplayer.nameTooShort=Le nom est trop court (min 3 caractères)
+//[Reference] 'New World'
+singleplayer.newWorld=Nouveau Monde
+//[Reference] 'Name'
+singleplayer.serverName=Nom
+//[Reference] 'Single Player'
+singleplayer.singleplayer=Mode Solo
+//[Reference] 'Village'
+singleplayer.village=Village
 
 //[Reference] 'Credits'
 startMenu.credits=Crédits
@@ -932,7 +929,6 @@ staxel.accessories.eyes.squint=
 staxel.accessories.eyes.thickEyelashes=
 //TODO Translate [Reference] 'Wise'
 staxel.accessories.eyes.wise=
-staxel.accessories.fullBodyOutfits.Merchant.name=
 //TODO Translate [Reference] 'Temp Hair'
 staxel.accessories.generic.cooking.TempBlueHair=
 staxel.accessories.generic.cooking.TempBlueShirt.description=
@@ -2372,7 +2368,6 @@ staxel.crop.Watermelon.name=
 staxel.crop.WhiteRose.description=
 //TODO Translate [Reference] 'White rose Seed'
 staxel.crop.WhiteRose.name=
-staxel.docks.merchantStalls.MerchantShopLarge.name=
 //TODO Translate [Reference] 'Use this to trigger the wave emote.'
 staxel.emote.Wave.description=
 //TODO Translate [Reference] 'Wave Emote'
@@ -2488,7 +2483,6 @@ staxel.item.crafting.CandyYellow.name=
 staxel.item.crafting.Carrot.description=
 //TODO Translate [Reference] 'Carrot'
 staxel.item.crafting.Carrot.name=
-staxel.item.crafting.Cheese.description=
 staxel.item.crafting.Cheese.name=
 //TODO Translate [Reference] 'Useful in many recipes, everybody likes chocolate!'
 staxel.item.crafting.Chocolate.description=
@@ -3279,9 +3273,6 @@ staxel.item.tool.Hammer.name=
 staxel.item.tool.Hoe.description=
 //TODO Translate [Reference] 'Hoe'
 staxel.item.tool.Hoe.name=
-staxel.item.tool.MagicWater.description=
-//TODO Translate [Reference] 'Magic Water'
-staxel.item.tool.MagicWater.name=
 //TODO Translate [Reference] 'A tool used to milk a cow.'
 staxel.item.tool.Milker.description=
 //TODO Translate [Reference] 'Milker'
