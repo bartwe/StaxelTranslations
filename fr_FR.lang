@@ -15,8 +15,8 @@ catalogue.notSellable=Cet objet ne peut pas être vendu !
 catalogue.performSale=Vendre
 //[Reference] 'Sell:'
 catalogue.sell=Vendre à :
-//Translate [Reference] 'Total'
-catalogue.total=Total
+//TODO Translate [Reference] 'Total'
+catalogue.total=
 
 //[Reference] 'Accept'
 characterDesigner.accept=OK (A)
@@ -24,6 +24,8 @@ characterDesigner.accept=OK (A)
 characterDesigner.accessories=Accessoires
 //[Reference] 'Cancel'
 characterDesigner.cancel=Annuler
+//TODO Translate [Reference] 'Close'
+characterDesigner.close=
 //[Reference] 'Eyes'
 characterDesigner.eyes=Yeux
 //[Reference] 'Gender'
@@ -36,13 +38,13 @@ characterDesigner.hat=Chapeau
 characterDesigner.info=Fais toi beau ou belle !
 //[Reference] 'Name'
 characterDesigner.name=Nom
-//Translate [Reference] 'Next'
+//[Reference] 'Next'
 characterDesigner.next=Suivant
 //[Reference] 'None'
 characterDesigner.none=Aucun
 //[Reference] 'Personality'
 characterDesigner.personality=Personnalité
-//Translate [Reference] 'Presets'
+//[Reference] 'Presets'
 characterDesigner.presets=Préréglages
 //[Reference] 'Random'
 characterDesigner.random=Aléatoire
@@ -64,10 +66,10 @@ characterDesigner.subcategory.hat=Chapeaux
 characterDesigner.subcategory.hitops=Baskettes
 //[Reference] 'Hoodie'
 characterDesigner.subcategory.hoodie=Sweat à capuche
-//[Reference] 'Jeans'
-characterDesigner.subcategory.jeans=Jeans
-//Translate [Reference] 'Long'
-characterDesigner.subcategory.long=Long
+//TODO Translate [Reference] 'Jeans'
+characterDesigner.subcategory.jeans=
+//TODO Translate [Reference] 'Long'
+characterDesigner.subcategory.long=
 //[Reference] 'Longsleeve'
 characterDesigner.subcategory.longsleeve=Manches longues
 //[Reference] 'Medium'
@@ -82,8 +84,8 @@ characterDesigner.subcategory.shorts=Short
 characterDesigner.subcategory.straptop=Débardeur
 //[Reference] 'Trainers'
 characterDesigner.subcategory.trainers=Baskets
-//[Reference] 'T-Shirt'
-characterDesigner.subcategory.tshirt=T-Shirt
+//TODO Translate [Reference] 'T-Shirt'
+characterDesigner.subcategory.tshirt=
 //[Reference] 'Vest'
 characterDesigner.subcategory.vest=Veste
 //[Reference] 'Character Creation'
@@ -105,12 +107,12 @@ commands.ban.description=ban nomDuJoueur (facultatif)raison
 commands.ban.failure=Impossible de bannir le joueur {0-player} : il est déjà banni ou est un administrateur.
 //[Reference] '{0-player} has been banned from the server.'
 commands.ban.success={0-player} a été banni du serveur.
-//[Reference] 'bla'
-commands.bla.description=bla
+//TODO Translate [Reference] 'bla'
+commands.bla.description=
 //[Reference] 'Moved to a new location in debug region: {0-region}'
 commands.bla.success=Déplacé vers un nouvel emplacement dans la région de debug : {0-region}
-//[Reference] 'cameraCapture'
-commands.cameraCapture.description=cameraCapture
+//TODO Translate [Reference] 'cameraCapture'
+commands.cameraCapture.description=
 //[Reference] 'Captured player camera'
 commands.cameraCapture.success=Caméra du joueur capturé
 //[Reference] 'cameraCapture savedCameraFilePath'
@@ -121,24 +123,24 @@ commands.cameraLoad.success=Caméra du joueur chargé à partir du fichier « {0
 commands.cameraPlay.description=cameraPlay (facultatif)duration(0.0-1.0) (facultatif)loop(true/false) (facultatif)savedCameraFilePath
 //[Reference] 'Playing back player camera'
 commands.cameraPlay.success=Lecture de la caméra du joueur
-//[Reference] 'cameraReset'
-commands.cameraReset.description=cameraReset
+//TODO Translate [Reference] 'cameraReset'
+commands.cameraReset.description=
 //[Reference] 'Reset player camera'
 commands.cameraReset.success=Caméra du joueur reinitialisée
 //[Reference] 'cameraSave cameraSaveFilePath'
 commands.cameraSave.description=cameraSave cheminVersLeFichierCamera
 //[Reference] 'Saved player camera to file: {0-filename}'
 commands.cameraSave.success=Caméra du joueur enregistrée sous le fichier « {0-filename} »
-//[Reference] 'cameraStop'
-commands.cameraStop.description=cameraStop
+//TODO Translate [Reference] 'cameraStop'
+commands.cameraStop.description=
 //[Reference] 'Stopped camera mode'
 commands.cameraStop.success=Mode caméra désactivé
 //[Reference] 'creative (optional)playerName (optional)startCreativeMode(true/false)'
 commands.creative.description=creative (facultatif)nomDuJoueur (facultatif)startCreativeMode(true/false)
 //[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
 commands.creative.success=Le mode créatif du joueur {0-user} a été temporairement changé à {1-creative}
-//[Reference] 'currentTime'
-commands.currentTime.description=currentTime
+//TODO Translate [Reference] 'currentTime'
+commands.currentTime.description=
 //[Reference] 'The day is {0-day} and phase is {1:G2-phase}.'
 commands.currentTime.success=Jour actuel : {0-day} - Phase actuelle : {1:G2-phase}.
 //[Reference] 'demoMode (optional)on(true/false)'
@@ -215,16 +217,16 @@ commands.noRights={0-user} ne possède pas les droits suffisants pour utiliser c
 commands.noSuchPlayer=Joueur « {0-player} » introuvable
 //[Reference] 'Not a player entity.'
 commands.notAPlayer=Ce n'est pas une entité de joueur.
-//[Reference] 'plantgrowth'
-commands.plantGrowth.description=plantgrowth
+//TODO Translate [Reference] 'plantgrowth'
+commands.plantGrowth.description=
 //[Reference] 'Not a plant.'
 commands.plantGrowth.noPlant=Ce n'est pas une plante.
 //[Reference] 'Plant {0-plant} at stage {1-stage}'
 commands.plantGrowth.success=Plante {0-plant} à l'étape {1-stage}
 //[Reference] 'Player Entity not found'
 commands.playerEntityNotFound=Entité de joueur introuvable
-//[Reference] 'players'
-commands.players.description=players
+//TODO Translate [Reference] 'players'
+commands.players.description=
 //[Reference] 'Players: {0-playerlist}'
 commands.players.success=Joueurs: {0-playerlist}
 //[Reference] 'position (optional)playerName'
@@ -235,12 +237,12 @@ commands.position.failed=Impossible de localiser le joueur
 commands.position.success=Position : {0-position} - Titre : {1-heading}
 //TODO No reference?
 commands.rain.success=
-//[Reference] 'reload'
-commands.reload.description=reload
+//TODO Translate [Reference] 'reload'
+commands.reload.description=
 //[Reference] 'Reload requested.'
 commands.reload.success=Rafraîchissement demandé.
-//[Reference] 'resetplayer'
-commands.resetPlayer.description=resetplayer
+//TODO Translate [Reference] 'resetplayer'
+commands.resetPlayer.description=
 //[Reference] 'Reset successful.'
 commands.resetPlayer.success=Réinitialisation réussie.
 //[Reference] 'saveDesign fileName'
@@ -255,7 +257,7 @@ commands.saveOutfit.description=saveOutfit nomFichier
 commands.saveOutfit.success=Tenue du personnage sauvegardée à {0-path}
 //[Reference] 'creativeMode (optional)on(true/false)'
 commands.serverCreative.description=creativeMode (optionel)on(true/false)
-//[Reference] 'Switched server creative mode to {0-creative} (persistent)' TODO Persistent notes that the mode change isn't temporary, right? Dunno if it's relevant to say so in translation
+//[Reference] 'Switched server creative mode to {0-creative} (persistent)'
 commands.serverCreative.success=Le mode créatif du serveur est désormais {0-creative}
 //[Reference] 'spawncoins playerName petalAmount'
 commands.spawnCoins.description=spawncoins nomDuJoueur montantEnPétales
@@ -346,14 +348,14 @@ crafting.action.keyword.cut=Couper
 crafting.action.keyword.fry=Frire
 //[Reference] 'Mix'
 crafting.action.keyword.mix=Mélanger
-//[Reference] '{0-itemOne}, {1-itemTwo}'
-crafting.action.task.listedItems={0-itemOne}, {1-itemTwo}
+//TODO Translate [Reference] '{0-itemOne}, {1-itemTwo}'
+crafting.action.task.listedItems=
 //[Reference] '{0-keyword} {1-listedItems} and {2-lastListedItem}'
 crafting.action.task.multiItem={0-keyword} {1-listedItems} et {2-lastListedItem}
-//[Reference] '{0-count}x {1-item}'
-crafting.action.task.multiples={0-count}x {1-item}
-//[Reference] '{0-keyword} {1-item}'
-crafting.action.task.oneItem={0-keyword} {1-item}
+//TODO Translate [Reference] '{0-count}x {1-item}'
+crafting.action.task.multiples=
+//TODO Translate [Reference] '{0-keyword} {1-item}'
+crafting.action.task.oneItem=
 //[Reference] 'That wasn't a recipe, Oops!'
 crafting.notifications.failedCraft=Ce n'était pas une recette valide, oups !
 //[Reference] 'You completed the recipe for {0-item}!'
@@ -371,7 +373,7 @@ credits.bartwe.description=Il est le principal développeur, responsable du code
 credits.beth.description=Elle est toujours là pour donner un coup de main avec des ajouts de code ou des corrections de bugs.
 //[Reference] 'He is a talented musician who has been creating lush soundtracks to help immerse you into the Staxel universe.'
 credits.curtis.description=C'est un musicien talentueux qui a composé de superbes bandes-sonores pour vous plonger dans l'univers de Staxel.
-//[Reference] 'Helped out with writing all sorts.' TODO The translation includes tons of fluff not present in the reference.
+//[Reference] 'Helped out with writing all sorts.'
 credits.demanRisu.description=Il est l'écrivain de Staxel. Il aime les arbres, les buissons, les fleurs, les insectes, l'océan, l'écriture, le game design, les gens cactus, les caves et les couchers de soleil.
 //[Reference] 'A faceless entity between realms; only exists when you’re not looking. In its spare time, programs.'
 credits.moocowtg.description=Une entité sans visage entre royaumes ; il n'existe uniquement quand vous ne le regardez pas. Il programme à ses heures perdues.
@@ -391,8 +393,8 @@ credits.teaGadd.description=C'est le community manager et le chargé des relatio
 credits.terrorcell.description=C'est un autre programmeur. Il aime programmer. C'est tout.
 //[Reference] 'It's starting to get dark...'
 dayNight.hintNightTransition=Il commence à faire nuit...
-//[Reference] 'MissingNotification: {0-notificationCode}'
-debug.MissingNotification=MissingNotification: {0-notificationCode}
+//TODO Translate [Reference] 'MissingNotification: {0-notificationCode}'
+debug.MissingNotification=
 
 //[Reference] 'Back'
 error.back=Retour
@@ -456,7 +458,7 @@ hintText.kind=Type : {0-itemCode}
 //[Reference] 'The light will turn on after a few seconds'
 hintText.lightTurnOn=La lumière va s'allumer dans quelques secondes
 //[Reference] 'Try planting on tilled soil'
-hintText.needTilledTile=Essayez de planter sur un terrain labouré	
+hintText.needTilledTile=Essayez de planter sur un terrain labouré
 //[Reference] 'This plant needs more space to grow'
 hintText.notEnoughSpaceToPlant=Cette plante a besoin de plus d'espace pour grandir
 //[Reference] 'Need at least 1 slot in inventory'
@@ -481,8 +483,8 @@ multiplayerMenu.serverIP=IP Serveur :
 multiplayerMenu.serverList=Liste des serveurs
 //[Reference] 'Options'
 options=Paramètres
-//[Reference] 'Admin'
-options.admin=Admin
+//TODO Translate [Reference] 'Admin'
+options.admin=
 //[Reference] 'Debug'
 options.admin.debug=Débug
 
@@ -504,7 +506,7 @@ options.admin.description=Administration
 options.audio=Son
 //[Reference] 'Set audio options here'
 options.audio.description=Modifier les paramètres sonores
-//TODO Translate [Reference] '(X)' Not sure what you mean here
+//TODO Translate [Reference] '(X)'
 options.backButton=
 //[Reference] 'Gameplay'
 options.gameplay=Jeu
@@ -548,14 +550,16 @@ options.gameplay.other.activeAchievement=Activer les succès
 options.gameplay.other.chatTimestamps=Afficher l'horodatage dans le chat
 //[Reference] 'Left Handed Mode'
 options.gameplay.other.leftHandedMode=Mode gaucher
+//TODO Translate [Reference] 'Scale UI with resolution'
+options.gameplay.other.ScaleUIWithResolution=
 //[Reference] 'Show Clock'
 options.gameplay.other.showClock=Afficher l'horloge
 //TODO Translate [Reference] 'Crafting Keyword Tags'
 options.gameplay.other.showCraftingKeywordTags=
 //[Reference] 'General'
 options.general=Général
-//[Reference] 'Audio'
-options.general.audio=Audio
+//TODO Translate [Reference] 'Audio'
+options.general.audio=
 //[Reference] 'Ambience:'
 options.general.audio.ambience=Ambiance sonore :
 //[Reference] 'Master:'
@@ -592,8 +596,8 @@ options.general.graphics.lod=Niveau de détail
 options.general.graphics.low=Basse
 //[Reference] 'MedianFilter (Requires Bloom)'
 options.general.graphics.medianFilter=Filtre médian (le paramètre « Éclat » doit être activé)
-//[Reference] 'Medium'
-options.general.graphics.medium=Medium
+//TODO Translate [Reference] 'Medium'
+options.general.graphics.medium=
 //[Reference] 'Multi Sampling'
 options.general.graphics.MultiSampling=Multiéchantillonnage
 //[Reference] 'Reduced View Range'
@@ -606,8 +610,8 @@ options.general.graphics.showGridCursor=Afficher la grille du curseur
 options.general.graphics.superLow=Très basse
 //[Reference] 'Super Sampling'
 options.general.graphics.superSampling=Suréchantillonnage
-//[Reference] 'Ultra'
-options.general.graphics.ultra=Ultra
+//TODO Translate [Reference] 'Ultra'
+options.general.graphics.ultra=
 //[Reference] 'Weather Particles'
 options.general.graphics.WeatherParticles=Particules météo
 //[Reference] 'Language'
@@ -638,8 +642,8 @@ playerList.mute=Rendre muet
 playerList.playerCount=Joueurs en ligne
 //[Reference] 'Teleport To'
 playerList.teleportTo=S'y téléporter
-//[Reference] 'Desserts'
-recipeBook.grouping.desserts=Desserts
+//TODO Translate [Reference] 'Desserts'
+recipeBook.grouping.desserts=
 //[Reference] 'Fencing'
 recipeBook.grouping.fencing=Clôture
 //[Reference] 'Flooring'
@@ -689,12 +693,20 @@ shippingCatalogue.refund={0-amount} pétales vous ont été remboursées
 shippingCatalogue.viewOrders.description=Consultez et annulez les commandes en attente ici
 //[Reference] 'You have claimed this shipping station!'
 shippingDock.Claimed=Vous vous êtes associé à cette station d'envoi !
+//TODO Translate [Reference] 'Base on'
+singleplayer.baseOff=
 //[Reference] 'Cancel'
 singleplayer.cancel=Annuler
+//TODO Translate [Reference] 'Are you certain you want to delete this world?'
+singleplayer.confirmDelete=
+//TODO Translate [Reference] 'Copying world...'
+singleplayer.copyingWorld=
 //[Reference] 'Creative'
 singleplayer.creative=Créatif
 //[Reference] 'Creative Mode'
 singleplayer.creativeMode=Mode Créatif
+//TODO Translate [Reference] 'Delete'
+singleplayer.delete=
 //TODO Translate [Reference] 'Launch'
 singleplayer.launch=
 //[Reference] 'Storage with this name already exists'
@@ -707,8 +719,8 @@ singleplayer.newWorld=Nouveau Monde
 singleplayer.serverName=Nom
 //[Reference] 'Single Player'
 singleplayer.singleplayer=Mode Solo
-//[Reference] 'Village'
-singleplayer.village=Village
+//TODO Translate [Reference] 'Village'
+singleplayer.village=
 
 //[Reference] 'Credits'
 startMenu.credits=Crédits
@@ -923,7 +935,7 @@ staxel.accessories.devavatars.teagadd.TeagaddShoes.name=Chaussures de Teagadd
 staxel.accessories.devavatars.teagadd.TeagaddTrousers.description=
 //[Reference] 'Teagadd Trousers'
 staxel.accessories.devavatars.teagadd.TeagaddTrousers.name=Pantalon de Teagadd
-//TODO Translate [Reference] 'Colourful Kawaii'
+//[Reference] 'Colourful Kawaii'
 staxel.accessories.eyes.colourfulKawaii=Mignon et coloré
 //TODO Translate [Reference] 'Dark'
 staxel.accessories.eyes.dark=
@@ -941,8 +953,8 @@ staxel.accessories.eyes.grumpy=Agacés
 staxel.accessories.eyes.kawaii=Mignons
 //[Reference] 'Kawaii with Eyelashes'
 staxel.accessories.eyes.kawaiiEyelashes=Mignons avec cils
-//[Reference] 'Standard'
-staxel.accessories.eyes.normal=Standard
+//TODO Translate [Reference] 'Standard'
+staxel.accessories.eyes.normal=
 //[Reference] 'Standard with Eyelashes'
 staxel.accessories.eyes.normalEyelashes=Standard avec cils
 //[Reference] 'Serious'
@@ -967,6 +979,7 @@ staxel.accessories.eyes.squint=
 staxel.accessories.eyes.thickEyelashes=
 //[Reference] 'Wise'
 staxel.accessories.eyes.wise=Sages
+staxel.accessories.fullBodyOutfits.Merchant.name=
 //TODO Translate [Reference] 'Temp Hair'
 staxel.accessories.generic.cooking.TempBlueHair=
 staxel.accessories.generic.cooking.TempBlueShirt.description=
@@ -1009,7 +1022,7 @@ staxel.accessories.shirts.catshirts.Female_CatShirt.description=
 //[Reference] 'Cat Shirt'
 staxel.accessories.shirts.catshirts.Female_CatShirt.name=T-shirt Chat
 staxel.accessories.shirts.catshirts.Male_CatShirt.description=
-//TODO Translate [Reference] 'Cat Shirt'
+//[Reference] 'Cat Shirt'
 staxel.accessories.shirts.catshirts.Male_CatShirt.name=T-shirt Chat
 staxel.accessories.shirts.hoodies.femaleWhiteHoodie.description=
 //TODO Translate [Reference] 'Hoodie'
@@ -1073,13 +1086,13 @@ staxel.achievement.OrderItem.description=Passer une commande pour un objet dans 
 staxel.achievement.OrderItem.name=Commander un objet
 //TODO No reference
 staxel.achievement.PlaceFurniture.description=
-//TODO Translate [Reference] 'Place furniture'
+//[Reference] 'Place furniture'
 staxel.achievement.PlaceFurniture.name=Poser un meuble
-//TODO Translate [Reference] 'Plant a seed in tilled soil'
+//[Reference] 'Plant a seed in tilled soil'
 staxel.achievement.PlantCrop.description=Planter une graine dans une terre labourée
-//TODO Translate [Reference] 'Plant a seed'
+//[Reference] 'Plant a seed'
 staxel.achievement.PlantCrop.name=Planter une graine
-//TODO Translate [Reference] 'Sell one of your freshly harvested crops via the shipping station'
+//[Reference] 'Sell one of your freshly harvested crops via the shipping station'
 staxel.achievement.SellItem.description=Vendre une récolte grace à la station d'envoi
 //[Reference] 'Sell a crop'
 staxel.achievement.SellItem.name=Vendre une récolte
@@ -1087,7 +1100,7 @@ staxel.achievement.SellItem.name=Vendre une récolte
 staxel.achievement.WaterCrop.description=Utiliser l'arrosoir pour arroser un plant
 //[Reference] 'Water a crop'
 staxel.achievement.WaterCrop.name=Arroser un plant
-//[Reference] 'Orders placed for {0-item}'
+//TODO Translate [Reference] 'Orders placed for {0-item}'
 staxel.achievements.descriptions.OrderItem.text=
 //[Reference] '{0-item} placed'
 staxel.achievements.descriptions.PlaceItem.text=Objet {0-item} placé(e)
@@ -1097,9 +1110,9 @@ staxel.achievements.descriptions.PlantItem.text={0-item} planté(e)
 staxel.achievements.descriptions.SellItem.text={0-item} vendu(e)
 //[Reference] 'crops watered'
 staxel.achievements.WaterCrop.text=Plant arrosé
-//TODO Translate [Reference] 'Ouch! The bees need to be calmed down'
+//[Reference] 'Ouch! The bees need to be calmed down'
 staxel.apiary.calmWorkers=Ouille ! Les abeilles doivent être calmées
-//TODO Translate [Reference] 'This apiary has enough bees'
+//[Reference] 'This apiary has enough bees'
 staxel.apiary.fullWorkers=Ce rucher a assez d'abeilles
 //[Reference] 'This apiary already has a queen'
 staxel.apiary.hasQueen=Ce rucher a déjà une reine
@@ -1107,7 +1120,7 @@ staxel.apiary.hasQueen=Ce rucher a déjà une reine
 staxel.apiary.needsCollector=Le miel doit être mis dans un pot
 //[Reference] 'This apiary needs a queen bee'
 staxel.apiary.needsQueen=Ce rucher a besoin d'une reine
-//TODO Translate [Reference] 'This apiary needs bees'
+//[Reference] 'This apiary needs bees'
 staxel.apiary.needsWorkers=Cette ruche a besoin d'abeilles
 //[Reference] 'Honey is available and the bees are calm'
 staxel.apiary.state.collection=Du miel est disponible, et les abeilles sont calmes
@@ -1127,15 +1140,15 @@ staxel.bush.BlackberryBush.name=Graine de buisson à mûre
 staxel.bush.BlueberryBush.description=Un buisson à délicieuses myrtilles
 //[Reference] 'Blueberry Bush Seed'
 staxel.bush.BlueberryBush.name=Graine de buisson à myrtille
-//[Reference] 'A bush that grows delicious goldenberries.'
+//TODO Translate [Reference] 'A bush that grows delicious goldenberries.'
 staxel.bush.GoldenberryBush.description=
-//[Reference] 'Goldenberry Bush Seed'
+//TODO Translate [Reference] 'Goldenberry Bush Seed'
 staxel.bush.GoldenberryBush.name=
 //[Reference] 'A bush that grows delicious raspberries.'
 staxel.bush.RaspberryBush.description=Un buisson à délicieuses framboises
 //[Reference] 'Raspberry Bush Seed'
 staxel.bush.RaspberryBush.name=Graine de buisson à framboise
-/[Reference] 'Accessory'
+//[Reference] 'Accessory'
 staxel.category.Accessory=Accessoire
 //[Reference] 'Advertisement'
 staxel.category.advertisement=Publicité
@@ -1144,9 +1157,9 @@ staxel.category.advertisement=Publicité
 staxel.category.all=Tout
 //TODO Translate [Reference] 'Allium'
 staxel.category.Allium=
-//[Reference] 'Animal'
-staxel.category.animal=Animal
-//TODO Translate [Reference] 'Anything' Doesn't this kind of mean "All"?
+//TODO Translate [Reference] 'Animal'
+staxel.category.animal=
+//TODO Translate [Reference] 'Anything'
 staxel.category.any=
 //[Reference] 'Apiary'
 staxel.category.apiary=Rucher
@@ -1234,7 +1247,7 @@ staxel.category.blueberry=Myrtille
 staxel.category.board=Tableau
 //[Reference] 'Bobblehead'
 staxel.category.bobblehead=Figurine Bobblehead
-//TODO Translate [Reference] 'Boilable' Not really translatable
+//TODO Translate [Reference] 'Boilable'
 staxel.category.boilable=
 //[Reference] 'Boiling'
 staxel.category.boiling=En ébullition
@@ -1282,8 +1295,8 @@ staxel.category.cake=Gateau
 staxel.category.camp=Campement
 //[Reference] 'Campfire'
 staxel.category.campfire=Feu de camp
-//[Reference] 'Camping'
-staxel.category.camping=Camping
+//TODO Translate [Reference] 'Camping'
+staxel.category.camping=
 //[Reference] 'Can'
 staxel.category.can=Boîte de conserve
 //[Reference] 'Candle'
@@ -1300,6 +1313,8 @@ staxel.category.carpet=Tapis
 staxel.category.carrot=Carrote
 //[Reference] 'Carrots'
 staxel.category.carrots=Carrotes
+//TODO Translate [Reference] 'Cash'
+staxel.category.cash=
 //[Reference] 'Cask'
 staxel.category.cask=Tonneau
 //TODO Translate [Reference] 'Catching'
@@ -1322,6 +1337,8 @@ staxel.category.chest=Coffre
 staxel.category.chicken=Poulet
 //[Reference] 'Chimney'
 staxel.category.chimeny=Cheminée
+//TODO Translate [Reference] 'Chimney'
+staxel.category.chimney=
 //TODO Translate [Reference] 'Chip'
 staxel.category.chip=
 //TODO Translate [Reference] 'Chips'
@@ -1340,6 +1357,7 @@ staxel.category.christmas=Noël
 staxel.category.circle=Cercle
 //[Reference] 'Clay'
 staxel.category.clay=Argile
+staxel.category.clock=
 //[Reference] 'Closet'
 staxel.category.closet=Placard
 //[Reference] 'Clothing'
@@ -1354,14 +1372,15 @@ staxel.category.Cocoa=Cacao
 staxel.category.coconut=Noix de coco
 //[Reference] 'Coffee'
 staxel.category.coffee=Cafe
+staxel.category.computer=
 //[Reference] 'Consumable'
 staxel.category.consumable=Consommable
 //[Reference] 'Container'
 staxel.category.container=Récipient
 //[Reference] 'Contemporary'
 staxel.category.contemporary=Contemporain
-//[Reference] 'Cookies'
-staxel.category.cookies=Cookies
+//TODO Translate [Reference] 'Cookies'
+staxel.category.cookies=
 //[Reference] 'Cooking'
 staxel.category.cooking=Cuisiner
 staxel.category.cooler=Glacière
@@ -1415,9 +1434,9 @@ staxel.category.decoration=Décoration
 staxel.category.Delphinium=
 //[Reference] 'Desk'
 staxel.category.desk=Bureau
-//[Reference] 'Dessert'
-staxel.category.dessert=Dessert
-//TODO Translate [Reference] 'Diced'
+//TODO Translate [Reference] 'Dessert'
+staxel.category.dessert=
+//[Reference] 'Diced'
 staxel.category.diced=Coupé en dés
 //[Reference] 'Dining'
 staxel.category.dining=Restauration
@@ -1479,6 +1498,8 @@ staxel.category.feeding=Nourir
 staxel.category.fence=Cloture
 //[Reference] 'Festival'
 staxel.category.festival=Festivale
+staxel.category.file=
+staxel.category.filing=
 //[Reference] 'Fire'
 staxel.category.fire=Feu
 //[Reference] 'Fish'
@@ -1551,6 +1572,7 @@ staxel.category.grass=herbe
 staxel.category.grave=Tombe
 //[Reference] 'Gravestone'
 staxel.category.gravestone=Pierre tombale
+staxel.category.gray=
 //[Reference] 'Green'
 staxel.category.green=Vert
 //[Reference] 'Grey'
@@ -1610,6 +1632,7 @@ staxel.category.item=Objet
 staxel.category.ivy=
 //TODO Translate [Reference] 'Jack'
 staxel.category.jack=
+staxel.category.jade=
 //[Reference] 'Jam'
 staxel.category.jam=Confiture
 //[Reference] 'Jar'
@@ -1727,6 +1750,7 @@ staxel.category.nightstand=Table de nuit
 staxel.category.oat=
 //TODO Translate [Reference] 'Oats'
 staxel.category.oats=
+staxel.category.office=
 //[Reference] 'Onion'
 staxel.category.onion=onion
 //TODO Translate [Reference] 'Orange'
@@ -1844,6 +1868,8 @@ staxel.category.recipe=
 staxel.category.red=Rouge
 //[Reference] 'Refrigerator'
 staxel.category.refrigerator=refrigirateur
+//TODO Translate [Reference] 'Register'
+staxel.category.register=
 //TODO Translate [Reference] 'Resource'
 staxel.category.resource=
 //[Reference] 'Right'
@@ -1874,6 +1900,8 @@ staxel.category.salt=sel
 staxel.category.sand=sable
 //[Reference] 'Sandwich'
 staxel.category.sandwich=sandwich
+//TODO Translate [Reference] 'Sap'
+staxel.category.sap=
 staxel.category.sauce=
 //[Reference] 'Sausages'
 staxel.category.sausages=saucisse
@@ -2019,6 +2047,8 @@ staxel.category.table=
 staxel.category.tangerine=
 //TODO Translate [Reference] 'Tap'
 staxel.category.tap=
+//TODO Translate [Reference] 'Tavern'
+staxel.category.tavern=
 //[Reference] 'Television'
 staxel.category.television=télévision
 //[Reference] 'Test'
@@ -2405,6 +2435,7 @@ staxel.crop.Watermelon.name=
 staxel.crop.WhiteRose.description=
 //TODO Translate [Reference] 'White rose Seed'
 staxel.crop.WhiteRose.name=
+staxel.docks.merchantStalls.MerchantShopLarge.name=
 //TODO Translate [Reference] 'Use this to trigger the wave emote.'
 staxel.emote.Wave.description=
 //TODO Translate [Reference] 'Wave Emote'
@@ -2520,6 +2551,7 @@ staxel.item.crafting.CandyYellow.name=
 staxel.item.crafting.Carrot.description=
 //TODO Translate [Reference] 'Carrot'
 staxel.item.crafting.Carrot.name=
+staxel.item.crafting.Cheese.description=
 staxel.item.crafting.Cheese.name=
 //TODO Translate [Reference] 'Useful in many recipes, everybody likes chocolate!'
 staxel.item.crafting.Chocolate.description=
@@ -2735,6 +2767,10 @@ staxel.item.crafting.MuffinsStrawberry.name=
 staxel.item.crafting.MuffinTin.description=
 //TODO Translate [Reference] 'Muffin Tin'
 staxel.item.crafting.MuffinTin.name=
+//TODO Translate [Reference] 'Nothing satisfies the throat quite like this silky beverage.'
+staxel.item.crafting.MugOSap.description=
+//TODO Translate [Reference] 'Mug O' Sap'
+staxel.item.crafting.MugOSap.name=
 //TODO Translate [Reference] 'Freshly picked, this mushroom looks safe to eat!'
 staxel.item.crafting.Mushroom.description=
 //TODO Translate [Reference] 'Mushroom'
@@ -3310,6 +3346,9 @@ staxel.item.tool.Hammer.name=
 staxel.item.tool.Hoe.description=
 //TODO Translate [Reference] 'Hoe'
 staxel.item.tool.Hoe.name=
+staxel.item.tool.MagicWater.description=
+//TODO Translate [Reference] 'Magic Water'
+staxel.item.tool.MagicWater.name=
 //TODO Translate [Reference] 'A tool used to milk a cow.'
 staxel.item.tool.Milker.description=
 //TODO Translate [Reference] 'Milker'
@@ -3419,6 +3458,8 @@ staxel.notifications.shears.NotLookingAtShearableAnimal=
 staxel.notifications.Shovel.WrongTool=
 //TODO Translate [Reference] 'Not for watering on rainy days.'
 staxel.notifications.weatherAlreadyWatered=
+//TODO Translate [Reference] 'Not for watering on snowy days.'
+staxel.notifications.weatherSnowyAlreadyWatered=
 staxel.personality.Chicken=
 staxel.personality.Cow=
 //TODO Translate [Reference] 'Feminine'
@@ -3806,6 +3847,8 @@ staxel.plant.musical.PianoF.name=
 staxel.plant.musical.PianoG.description=
 //TODO Translate [Reference] 'Musical Piano Plant Note G'
 staxel.plant.musical.PianoG.name=
+//TODO Translate [Reference] 'Open your delivery before selling Items!'
+staxel.shipping.dock.openDeliveryBeforeSell=
 //TODO Translate [Reference] 'Unclaimed'
 staxel.shipping.dock.unclaimed=
 staxel.shipping.ItemsAlreadyOnDock=
@@ -4542,6 +4585,12 @@ staxel.tileObject.modded.minecart_coal-tipped.name=
 staxel.tileObject.modded.minecart_empty.description=
 //TODO Translate [Reference] 'Minecart'
 staxel.tileObject.modded.minecart_empty.name=
+staxel.tileObject.office.Computer.name=
+staxel.tileObject.office.DeskClock.name=
+staxel.tileObject.office.OfficeChair.name=
+staxel.tileObject.office.OfficeCounter.name=
+staxel.tileObject.office.OfficeDesk.name=
+staxel.tileObject.office.OfficeFilingCabinet.name=
 staxel.tileObject.pets.CatHouse.description=
 staxel.tileObject.pets.CatHouse.name=
 staxel.tileObject.pets.DogHouse.description=
@@ -4565,6 +4614,36 @@ staxel.tileObject.retrotest.dungeon_railing.name=
 staxel.tileObject.retrotest.dungeon_railing_corner.description=
 //TODO Translate [Reference] 'Cornered Dungeon Railing'
 staxel.tileObject.retrotest.dungeon_railing_corner.name=
+staxel.tileObject.roof.JadeRoof_FlatEdge.name=
+staxel.tileObject.roof.JadeRoof_FlatEdge2.name=
+staxel.tileObject.roof.JadeRoof_FlatEdgeShort.name=
+staxel.tileObject.roof.JadeRoof_FlatStraight.name=
+staxel.tileObject.roof.JadeRoof_InnerCorner.name=
+staxel.tileObject.roof.JadeRoof_LeftEdge.name=
+staxel.tileObject.roof.JadeRoof_LeftEdgeCut.name=
+staxel.tileObject.roof.JadeRoof_LeftEdgeCutLong.name=
+staxel.tileObject.roof.JadeRoof_LeftEdgeCutLongFinal.name=
+staxel.tileObject.roof.JadeRoof_OuterCorner.name=
+staxel.tileObject.roof.JadeRoof_RightEdge.name=
+staxel.tileObject.roof.JadeRoof_RightEdgeCut.name=
+staxel.tileObject.roof.JadeRoof_RightEdgeCutLong.name=
+staxel.tileObject.roof.JadeRoof_RightEdgeCutLongFinal.name=
+staxel.tileObject.roof.JadeRoof_RightStraight.name=
+staxel.tileObject.roof.OrangeRoof_FlatEdge.name=
+staxel.tileObject.roof.OrangeRoof_FlatEdge2.name=
+staxel.tileObject.roof.OrangeRoof_FlatEdgeShort.name=
+staxel.tileObject.roof.OrangeRoof_FlatStraight.name=
+staxel.tileObject.roof.OrangeRoof_InnerCorner.name=
+staxel.tileObject.roof.OrangeRoof_LeftEdge.name=
+staxel.tileObject.roof.OrangeRoof_LeftEdgeCut.name=
+staxel.tileObject.roof.OrangeRoof_LeftEdgeCutLong.name=
+staxel.tileObject.roof.OrangeRoof_LeftEdgeCutLongFinal.name=
+staxel.tileObject.roof.OrangeRoof_OuterCorner.name=
+staxel.tileObject.roof.OrangeRoof_RightEdge.name=
+staxel.tileObject.roof.OrangeRoof_RightEdgeCut.name=
+staxel.tileObject.roof.OrangeRoof_RightEdgeCutLong.name=
+staxel.tileObject.roof.OrangeRoof_RightEdgeCutLongFinal.name=
+staxel.tileObject.roof.OrangeRoof_RightStraight.name=
 //TODO Translate [Reference] 'A roof made from deep red shingles.'
 staxel.tileObject.roof.RedRoof_FlatEdge.description=
 //TODO Translate [Reference] 'Edged Flat Red Tiled Roof'
@@ -5491,6 +5570,8 @@ staxel.tileObject.serverVillage.WorkBench.name=
 staxel.tileObject.serverVillage.YellowJuice.description=
 //TODO Translate [Reference] 'Lemon Juice'
 staxel.tileObject.serverVillage.YellowJuice.name=
+staxel.tileObject.shop.CashRegister.name=
+staxel.tileObject.shop.ShopCounter.name=
 //TODO Translate [Reference] 'A strange red flower found growing on swampy grounds.'
 staxel.tileObject.swampRuins.Flower.red.1.description=
 //TODO Translate [Reference] 'Red Swamp Flower'
@@ -5583,6 +5664,8 @@ staxel.tileObject.swampRuins.Rock.4.name=
 staxel.tileObject.swampRuins.Rock.5.description=
 //TODO Translate [Reference] 'Swamp Rock'
 staxel.tileObject.swampRuins.Rock.5.name=
+staxel.tileObject.tavern.TavernStool.name=
+staxel.tileObject.tavern.TavernTable.name=
 staxel.tileObject.themedfurniture.bathroom.ClawfootBathtub.description=
 staxel.tileObject.themedfurniture.bathroom.ClawfootBathtub.name=
 staxel.tileObject.themedfurniture.bathroom.Sink.description=
@@ -5921,6 +6004,7 @@ staxel.tileObject.themedfurniture.victorian.VictorianTable.name=
 staxel.tileObject.themedfurniture.victorian.VictorianTableLarge.name=
 staxel.tileObject.themedfurniture.victorian.VictorianVanity.name=
 staxel.tileObject.themedfurniture.victorian.VictorianWardrobe.name=
+staxel.tileObject.villagers.EmiliaSpawner.name=
 staxel.tileObject.villagers.TutorialNpcSpawner.description=
 //TODO Translate [Reference] 'Tutorial NPC Spawner'
 staxel.tileObject.villagers.TutorialNpcSpawner.name=
