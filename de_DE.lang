@@ -24,6 +24,8 @@ characterDesigner.accept=Akzeptieren
 characterDesigner.accessories=Accessoires
 //[Reference] 'Cancel'
 characterDesigner.cancel=Abbrechen
+//TODO Translate [Reference] 'Close'
+characterDesigner.close=
 //[Reference] 'Eyes'
 characterDesigner.eyes=Augen
 //[Reference] 'Gender'
@@ -1285,6 +1287,8 @@ staxel.category.carpet=
 staxel.category.carrot=
 //TODO Translate [Reference] 'Carrots'
 staxel.category.carrots=
+//TODO Translate [Reference] 'Cash'
+staxel.category.cash=
 //[Reference] 'Cask'
 staxel.category.cask=Fass
 //TODO Translate [Reference] 'Catching'
@@ -1327,6 +1331,7 @@ staxel.category.christmas=
 staxel.category.circle=
 //TODO Translate [Reference] 'Clay'
 staxel.category.clay=
+staxel.category.clock=
 //[Reference] 'Closet'
 staxel.category.closet=Closet  // not translated yet
 //TODO Translate [Reference] 'Clothing'
@@ -1341,6 +1346,7 @@ staxel.category.Cocoa=
 staxel.category.coconut=
 //TODO Translate [Reference] 'Coffee'
 staxel.category.coffee=
+staxel.category.computer=
 //TODO Translate [Reference] 'Consumable'
 staxel.category.consumable=
 //TODO Translate [Reference] 'Container'
@@ -1466,6 +1472,8 @@ staxel.category.feeding=
 staxel.category.fence=
 //TODO Translate [Reference] 'Festival'
 staxel.category.festival=
+staxel.category.file=
+staxel.category.filing=
 //TODO Translate [Reference] 'Fire'
 staxel.category.fire=
 //TODO Translate [Reference] 'Fish'
@@ -1538,6 +1546,7 @@ staxel.category.grass=
 staxel.category.grave=
 //TODO Translate [Reference] 'Gravestone'
 staxel.category.gravestone=
+staxel.category.gray=
 //[Reference] 'Green'
 staxel.category.green=Grün
 //TODO Translate [Reference] 'Grey'
@@ -1597,6 +1606,7 @@ staxel.category.item=
 staxel.category.ivy=
 //TODO Translate [Reference] 'Jack'
 staxel.category.jack=
+staxel.category.jade=
 //TODO Translate [Reference] 'Jam'
 staxel.category.jam=
 //TODO Translate [Reference] 'Jar'
@@ -1714,6 +1724,7 @@ staxel.category.nightstand=Nachttisch
 staxel.category.oat=
 //TODO Translate [Reference] 'Oats'
 staxel.category.oats=
+staxel.category.office=
 //TODO Translate [Reference] 'Onion'
 staxel.category.onion=
 //TODO Translate [Reference] 'Orange'
@@ -1831,6 +1842,8 @@ staxel.category.recipe=
 staxel.category.red=Rot
 //TODO Translate [Reference] 'Refrigerator'
 staxel.category.refrigerator=
+//TODO Translate [Reference] 'Register'
+staxel.category.register=
 //TODO Translate [Reference] 'Resource'
 staxel.category.resource=
 //TODO Translate [Reference] 'Right'
@@ -1861,6 +1874,8 @@ staxel.category.salt=
 staxel.category.sand=
 //TODO Translate [Reference] 'Sandwich'
 staxel.category.sandwich=
+//TODO Translate [Reference] 'Sap'
+staxel.category.sap=
 staxel.category.sauce=
 //TODO Translate [Reference] 'Sausages'
 staxel.category.sausages=
@@ -2006,6 +2021,8 @@ staxel.category.table=Tisch
 staxel.category.tangerine=
 //TODO Translate [Reference] 'Tap'
 staxel.category.tap=
+//TODO Translate [Reference] 'Tavern'
+staxel.category.tavern=
 //TODO Translate [Reference] 'Television'
 staxel.category.television=
 //TODO Translate [Reference] 'Test'
@@ -2724,6 +2741,10 @@ staxel.item.crafting.MuffinsStrawberry.name=
 staxel.item.crafting.MuffinTin.description=
 //TODO Translate [Reference] 'Muffin Tin'
 staxel.item.crafting.MuffinTin.name=
+//TODO Translate [Reference] 'Nothing satisfies the throat quite like this silky beverage.'
+staxel.item.crafting.MugOSap.description=
+//TODO Translate [Reference] 'Mug O' Sap'
+staxel.item.crafting.MugOSap.name=
 //TODO Translate [Reference] 'Freshly picked, this mushroom looks safe to eat!'
 staxel.item.crafting.Mushroom.description=
 //TODO Translate [Reference] 'Mushroom'
@@ -3411,6 +3432,8 @@ staxel.notifications.shears.NotLookingAtShearableAnimal=
 staxel.notifications.Shovel.WrongTool=
 //TODO Translate [Reference] 'Not for watering on rainy days.'
 staxel.notifications.weatherAlreadyWatered=
+//TODO Translate [Reference] 'Not for watering on snowy days.'
+staxel.notifications.weatherSnowyAlreadyWatered=
 staxel.personality.Chicken=
 staxel.personality.Cow=
 //TODO Translate [Reference] 'Feminine'
@@ -3798,6 +3821,8 @@ staxel.plant.musical.PianoF.name=
 staxel.plant.musical.PianoG.description=
 //TODO Translate [Reference] 'Musical Piano Plant Note G'
 staxel.plant.musical.PianoG.name=
+//TODO Translate [Reference] 'Open your delivery before selling Items!'
+staxel.shipping.dock.openDeliveryBeforeSell=
 //TODO Translate [Reference] 'Unclaimed'
 staxel.shipping.dock.unclaimed=
 staxel.shipping.ItemsAlreadyOnDock=
@@ -4534,6 +4559,12 @@ staxel.tileObject.modded.minecart_coal-tipped.name=
 staxel.tileObject.modded.minecart_empty.description=
 //TODO Translate [Reference] 'Minecart'
 staxel.tileObject.modded.minecart_empty.name=
+staxel.tileObject.office.Computer.name=
+staxel.tileObject.office.DeskClock.name=
+staxel.tileObject.office.OfficeChair.name=
+staxel.tileObject.office.OfficeCounter.name=
+staxel.tileObject.office.OfficeDesk.name=
+staxel.tileObject.office.OfficeFilingCabinet.name=
 staxel.tileObject.pets.CatHouse.description=
 staxel.tileObject.pets.CatHouse.name=
 staxel.tileObject.pets.DogHouse.description=
@@ -4557,6 +4588,36 @@ staxel.tileObject.retrotest.dungeon_railing.name=
 staxel.tileObject.retrotest.dungeon_railing_corner.description=
 //TODO Translate [Reference] 'Cornered Dungeon Railing'
 staxel.tileObject.retrotest.dungeon_railing_corner.name=
+staxel.tileObject.roof.JadeRoof_FlatEdge.name=
+staxel.tileObject.roof.JadeRoof_FlatEdge2.name=
+staxel.tileObject.roof.JadeRoof_FlatEdgeShort.name=
+staxel.tileObject.roof.JadeRoof_FlatStraight.name=
+staxel.tileObject.roof.JadeRoof_InnerCorner.name=
+staxel.tileObject.roof.JadeRoof_LeftEdge.name=
+staxel.tileObject.roof.JadeRoof_LeftEdgeCut.name=
+staxel.tileObject.roof.JadeRoof_LeftEdgeCutLong.name=
+staxel.tileObject.roof.JadeRoof_LeftEdgeCutLongFinal.name=
+staxel.tileObject.roof.JadeRoof_OuterCorner.name=
+staxel.tileObject.roof.JadeRoof_RightEdge.name=
+staxel.tileObject.roof.JadeRoof_RightEdgeCut.name=
+staxel.tileObject.roof.JadeRoof_RightEdgeCutLong.name=
+staxel.tileObject.roof.JadeRoof_RightEdgeCutLongFinal.name=
+staxel.tileObject.roof.JadeRoof_RightStraight.name=
+staxel.tileObject.roof.OrangeRoof_FlatEdge.name=
+staxel.tileObject.roof.OrangeRoof_FlatEdge2.name=
+staxel.tileObject.roof.OrangeRoof_FlatEdgeShort.name=
+staxel.tileObject.roof.OrangeRoof_FlatStraight.name=
+staxel.tileObject.roof.OrangeRoof_InnerCorner.name=
+staxel.tileObject.roof.OrangeRoof_LeftEdge.name=
+staxel.tileObject.roof.OrangeRoof_LeftEdgeCut.name=
+staxel.tileObject.roof.OrangeRoof_LeftEdgeCutLong.name=
+staxel.tileObject.roof.OrangeRoof_LeftEdgeCutLongFinal.name=
+staxel.tileObject.roof.OrangeRoof_OuterCorner.name=
+staxel.tileObject.roof.OrangeRoof_RightEdge.name=
+staxel.tileObject.roof.OrangeRoof_RightEdgeCut.name=
+staxel.tileObject.roof.OrangeRoof_RightEdgeCutLong.name=
+staxel.tileObject.roof.OrangeRoof_RightEdgeCutLongFinal.name=
+staxel.tileObject.roof.OrangeRoof_RightStraight.name=
 //TODO Translate [Reference] 'A roof made from deep red shingles.'
 staxel.tileObject.roof.RedRoof_FlatEdge.description=
 //TODO Translate [Reference] 'Edged Flat Red Tiled Roof'
@@ -5483,6 +5544,8 @@ staxel.tileObject.serverVillage.WorkBench.name=
 staxel.tileObject.serverVillage.YellowJuice.description=
 //TODO Translate [Reference] 'Lemon Juice'
 staxel.tileObject.serverVillage.YellowJuice.name=
+staxel.tileObject.shop.CashRegister.name=
+staxel.tileObject.shop.ShopCounter.name=
 //TODO Translate [Reference] 'A strange red flower found growing on swampy grounds.'
 staxel.tileObject.swampRuins.Flower.red.1.description=
 //TODO Translate [Reference] 'Red Swamp Flower'
@@ -5575,6 +5638,8 @@ staxel.tileObject.swampRuins.Rock.4.name=
 staxel.tileObject.swampRuins.Rock.5.description=
 //TODO Translate [Reference] 'Swamp Rock'
 staxel.tileObject.swampRuins.Rock.5.name=
+staxel.tileObject.tavern.TavernStool.name=
+staxel.tileObject.tavern.TavernTable.name=
 staxel.tileObject.themedfurniture.bathroom.ClawfootBathtub.description=
 staxel.tileObject.themedfurniture.bathroom.ClawfootBathtub.name=
 staxel.tileObject.themedfurniture.bathroom.Sink.description=
@@ -5913,6 +5978,7 @@ staxel.tileObject.themedfurniture.victorian.VictorianTable.name=
 staxel.tileObject.themedfurniture.victorian.VictorianTableLarge.name=
 staxel.tileObject.themedfurniture.victorian.VictorianVanity.name=
 staxel.tileObject.themedfurniture.victorian.VictorianWardrobe.name=
+staxel.tileObject.villagers.EmiliaSpawner.name=
 staxel.tileObject.villagers.TutorialNpcSpawner.description=
 //TODO Translate [Reference] 'Tutorial NPC Spawner'
 staxel.tileObject.villagers.TutorialNpcSpawner.name=
