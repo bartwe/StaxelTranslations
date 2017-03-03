@@ -27,8 +27,6 @@ characterDesigner.accept=確認
 characterDesigner.accessories=アクセサリ
 //[Reference] 'Cancel'
 characterDesigner.cancel=戻る
-//TODO Translate [Reference] 'Close'
-characterDesigner.close=閉じる
 //[Reference] 'Eyes'
 characterDesigner.eyes=目
 //[Reference] 'Gender'
@@ -59,6 +57,8 @@ characterDesigner.shoes=靴
 characterDesigner.skinColour=肌色
 //[Reference] 'Species'
 characterDesigner.species=キャラクター
+//TODO Translate [Reference] 'Start'
+characterDesigner.start=
 //[Reference] 'Dress'
 characterDesigner.subcategory.dress=ドレス
 //[Reference] 'Glasses'
@@ -476,7 +476,7 @@ loading.skip=スキップ
 multiplayerMenu.back=メニューに戻る
 //[Reference] 'Join Server'
 multiplayerMenu.joinServer=サーバにログイン
-//TODO Translate [Reference] 'Server IP:'
+//[Reference] 'Server IP:'
 multiplayerMenu.serverIP=IPアドレス
 //[Reference] 'Server List'
 multiplayerMenu.serverList=サーバーリスト
@@ -558,9 +558,9 @@ options.gameplay.other.showClock=
 options.gameplay.other.showCraftingKeywordTags=
 //TODO Translate [Reference] 'General'
 options.general=
-//TODO Translate [Reference] 'Audio'
+//[Reference] 'Audio'
 options.general.audio=音量
-//TODO Translate [Reference] 'Ambience:'
+//[Reference] 'Ambience:'
 options.general.audio.ambience=鳥のさえずり
 //[Reference] 'Master:'
 options.general.audio.master=主音量
@@ -590,7 +590,7 @@ options.general.graphics.halfResolution=
 options.general.graphics.high=
 //TODO Translate [Reference] 'Increased View Range'
 options.general.graphics.increasedViewRange=
-//TODO Translate [Reference] 'LOD'
+//[Reference] 'LOD'
 options.general.graphics.lod=描画範囲の拡大
 //TODO Translate [Reference] 'Low'
 options.general.graphics.low=
@@ -604,7 +604,7 @@ options.general.graphics.MultiSampling=
 options.general.graphics.reducedViewRange=
 //[Reference] 'Shadows'
 options.general.graphics.shadows=影を有効化する
-//TODO Translate [Reference] 'Show Grid Cursor'
+//[Reference] 'Show Grid Cursor'
 options.general.graphics.showGridCursor=グリッドカーソルを表示する
 //TODO Translate [Reference] 'Super Low'
 options.general.graphics.superLow=
@@ -694,29 +694,29 @@ shippingCatalogue.viewOrders.description=
 shippingDock.Claimed=
 //TODO Translate [Reference] 'Base on'
 singleplayer.baseOff=
-//TODO Translate [Reference] 'Cancel'
+//[Reference] 'Cancel'
 singleplayer.cancel=戻る
-//TODO Translate [Reference] 'Are you certain you want to delete this world?'
+//[Reference] 'Are you certain you want to delete this world?'
 singleplayer.confirmDelete=本当にこのワールドを削除しても良いですか？
 //TODO Translate [Reference] 'Copying world...'
 singleplayer.copyingWorld=
-//TODO Translate [Reference] 'Creative'
+//[Reference] 'Creative'
 singleplayer.creative=クリエイティブモード
-//TODO Translate [Reference] 'Creative Mode'
+//[Reference] 'Creative Mode'
 singleplayer.creativeMode=クリエイティブモード
-//TODO Translate [Reference] 'Delete'
+//[Reference] 'Delete'
 singleplayer.delete=削除する
-//TODO Translate [Reference] 'Launch'
+//[Reference] 'Launch'
 singleplayer.launch=作成する
 //TODO Translate [Reference] 'Storage with this name already exists'
 singleplayer.nameAlreadyExists=
 //TODO Translate [Reference] 'Name to short (min 3 characters)'
 singleplayer.nameTooShort=
-//TODO Translate [Reference] 'New World'
+//[Reference] 'New World'
 singleplayer.newWorld=ワールドを作る
-//TODO Translate [Reference] 'Name'
+//[Reference] 'Name'
 singleplayer.serverName=名前
-//TODO Translate [Reference] 'Single Player'
+//[Reference] 'Single Player'
 singleplayer.singleplayer=シングルプレイ
 //TODO Translate [Reference] 'Village'
 singleplayer.village=
@@ -793,6 +793,7 @@ staxel.accessories.characters.accessories.glasses.CGlass.name=
 staxel.accessories.characters.accessories.glasses.CSun.description=
 //TODO Translate [Reference] 'Sunglasses C'
 staxel.accessories.characters.accessories.glasses.CSun.name=
+staxel.accessories.characters.accessories.glasses.FarmFanGlasses.name=
 //[Reference] 'Pumpkin Hat'
 staxel.accessories.characters.accessories.halloween.pumpkinhat.PumpkinHat=かぼちゃの帽子
 staxel.accessories.characters.accessories.hats.Headphones.description=
@@ -808,6 +809,7 @@ staxel.accessories.characters.accessories.monkeyhats.PinkMonkeyHat=ピンクの�
 staxel.accessories.characters.accessories.tiaras.GoldTiara=金のティアラ
 //[Reference] 'Silver Tiara'
 staxel.accessories.characters.accessories.tiaras.SilverTiara=銀のティアラ
+staxel.accessories.coats.LabCoat.name=
 //開発者の方の服など
 //TODO Translate [Reference] 'Bartwe Hair'
 staxel.accessories.devavatars.bartwe.BartweHair=
@@ -1301,6 +1303,7 @@ staxel.category.catching=
 staxel.category.ceiling=
 //TODO Translate [Reference] 'Chair'
 staxel.category.chair=
+staxel.category.checker=
 //TODO Translate [Reference] 'Checkers'
 staxel.category.checkers=
 //TODO Translate [Reference] 'Cheese'
@@ -1428,6 +1431,7 @@ staxel.category.dog=
 staxel.category.dogs=
 //TODO Translate [Reference] 'Door'
 staxel.category.door=
+staxel.category.Dot=
 //TODO Translate [Reference] 'Double'
 staxel.category.double=
 //TODO Translate [Reference] 'Dragon Fruit'
@@ -1756,6 +1760,7 @@ staxel.category.party=
 staxel.category.pastel=
 //TODO Translate [Reference] 'Path'
 staxel.category.path=
+staxel.category.pathing=
 //TODO Translate [Reference] 'Peach'
 staxel.category.peach=
 //TODO Translate [Reference] 'Pear'
@@ -2413,6 +2418,10 @@ staxel.crop.Watermelon.name=
 staxel.crop.WhiteRose.description=
 //TODO Translate [Reference] 'White rose Seed'
 staxel.crop.WhiteRose.name=
+staxel.docks.merchantStalls.MerchantDock2.name=
+staxel.docks.merchantStalls.MerchantDock3.name=
+staxel.docks.merchantStalls.MerchantDockSingle3.name=
+staxel.docks.merchantStalls.MerchantDockSingle4.name=
 staxel.docks.merchantStalls.MerchantShopLarge.description=
 staxel.docks.merchantStalls.MerchantShopLarge.name=
 //TODO Translate [Reference] 'Use this to trigger the wave emote.'
@@ -2550,6 +2559,7 @@ staxel.item.crafting.ChoppedBlackberries.name=
 staxel.item.crafting.ChoppedBlueberries.description=
 //TODO Translate [Reference] 'Chopped Blueberries'
 staxel.item.crafting.ChoppedBlueberries.name=
+staxel.item.crafting.ChoppedCabbage.name=
 //TODO Translate [Reference] 'Chopped up carrot.'
 staxel.item.crafting.ChoppedCarrot.description=
 //TODO Translate [Reference] 'Chopped Carrot'
@@ -2614,6 +2624,7 @@ staxel.item.crafting.ChoppedPear.name=
 staxel.item.crafting.ChoppedPotato.description=
 //TODO Translate [Reference] 'Chopped Potato'
 staxel.item.crafting.ChoppedPotato.name=
+staxel.item.crafting.ChoppedPumpkin.name=
 //TODO Translate [Reference] 'Chopped up raspberries.'
 staxel.item.crafting.ChoppedRaspberries.description=
 //TODO Translate [Reference] 'Chopped Raspberries'
@@ -3444,6 +3455,8 @@ staxel.notifications.Scythe.WrongTool=
 staxel.notifications.shears.NotLookingAtShearableAnimal=
 //TODO Translate [Reference] 'This isn't the right tool'
 staxel.notifications.Shovel.WrongTool=
+//TODO Translate [Reference] 'It's too early to sleep!'
+staxel.notifications.tooEarlyForSleep=
 //TODO Translate [Reference] 'Not for watering on rainy days.'
 staxel.notifications.weatherAlreadyWatered=
 //TODO Translate [Reference] 'Not for watering on snowy days.'
@@ -3948,6 +3961,52 @@ staxel.tile.grass.GrassLayer.1.name=
 staxel.tile.grass.GrassLayer.2.description=
 //TODO Translate [Reference] 'Long Green Grass Block'
 staxel.tile.grass.GrassLayer.2.name=
+staxel.tile.happyBlocks.brick.BlueBrick.name=
+staxel.tile.happyBlocks.brick.BrownBrick.name=
+staxel.tile.happyBlocks.brick.CreamBrick.name=
+staxel.tile.happyBlocks.brick.GreenBrick.name=
+staxel.tile.happyBlocks.brick.GreyBrick.name=
+staxel.tile.happyBlocks.brick.OrangeBrick.name=
+staxel.tile.happyBlocks.brick.PinkBrick.name=
+staxel.tile.happyBlocks.brick.PurpleBrick.name=
+staxel.tile.happyBlocks.brick.RedBrick.name=
+staxel.tile.happyBlocks.brick.YellowBrick.name=
+staxel.tile.happyBlocks.carpet.BlueCheckerCarpet.name=
+staxel.tile.happyBlocks.carpet.BlueDotCarpet.name=
+staxel.tile.happyBlocks.carpet.GreenCheckerCarpet.name=
+staxel.tile.happyBlocks.carpet.GreenDotCarpet.name=
+staxel.tile.happyBlocks.carpet.PinkCheckerCarpet.name=
+staxel.tile.happyBlocks.carpet.PinkDotCarpet.name=
+staxel.tile.happyBlocks.carpet.YellowCheckerCarpet.name=
+staxel.tile.happyBlocks.carpet.YellowDotCarpet.name=
+staxel.tile.happyBlocks.pathing.PlazaBlock.2.name=
+staxel.tile.happyBlocks.pathing.PlazaBlock.name=
+staxel.tile.happyBlocks.PlazaBlock.2.name=
+staxel.tile.happyBlocks.PlazaBlock.name=
+staxel.tile.happyBlocks.stone.BlueStone.name=
+staxel.tile.happyBlocks.stone.BrownStone.name=
+staxel.tile.happyBlocks.stone.CreamStone.name=
+staxel.tile.happyBlocks.stone.greenStone.name=
+staxel.tile.happyBlocks.stone.OrangeStone.name=
+staxel.tile.happyBlocks.stone.PinkStone.name=
+staxel.tile.happyBlocks.stone.PurpleStone.name=
+staxel.tile.happyBlocks.stone.RedStone.name=
+staxel.tile.happyBlocks.stone.WhiteStone.name=
+staxel.tile.happyBlocks.stone.YellowStone.name=
+staxel.tile.happyBlocks.wood.BlueWood.name=
+staxel.tile.happyBlocks.wood.BrownWood.name=
+staxel.tile.happyBlocks.wood.CreamWood.name=
+staxel.tile.happyBlocks.wood.DarkTexturedWood.name=
+staxel.tile.happyBlocks.wood.GreenWood.name=
+staxel.tile.happyBlocks.wood.GreyWood.name=
+staxel.tile.happyBlocks.wood.LightTexturedWood.name=
+staxel.tile.happyBlocks.wood.MediumTexturedWood.name=
+staxel.tile.happyBlocks.wood.OrangeWood.name=
+staxel.tile.happyBlocks.wood.PinkWood.name=
+staxel.tile.happyBlocks.wood.PurpleWood.name=
+staxel.tile.happyBlocks.wood.RedWood.name=
+staxel.tile.happyBlocks.wood.TexturedWood.name=
+staxel.tile.happyBlocks.wood.YellowWood.name=
 //TODO Translate [Reference] 'Healthy, bright green leaves.'
 staxel.tile.leaves.Leaf.1.description=
 //TODO Translate [Reference] 'Green Leaf Block'
@@ -4562,9 +4621,12 @@ staxel.tileObject.logo.StaxelLogo.name=
 staxel.tileObject.logo.StaxelLogoText.description=
 //TODO Translate [Reference] 'Staxel Logo Text'
 staxel.tileObject.logo.StaxelLogoText.name=
+staxel.tileObject.merchantTotem.FunStuffVendor.name=
 staxel.tileObject.merchantTotem.FurnitureVendor.description=
 //TODO Translate [Reference] 'Furniture Vendor'
 staxel.tileObject.merchantTotem.FurnitureVendor.name=
+staxel.tileObject.merchantTotem.SeedVendor.name=
+staxel.tileObject.merchantTotem.ToolVendor.name=
 //TODO Translate [Reference] 'To be removed'
 staxel.tileObject.modded.minecart_coal-tipped.description=
 //TODO Translate [Reference] 'Minecart'
@@ -4617,6 +4679,36 @@ staxel.tileObject.roof.JadeRoof_RightEdgeCut.name=
 staxel.tileObject.roof.JadeRoof_RightEdgeCutLong.name=
 staxel.tileObject.roof.JadeRoof_RightEdgeCutLongFinal.name=
 staxel.tileObject.roof.JadeRoof_RightStraight.name=
+staxel.tileObject.roof.LightBlueRoof_FlatEdge.name=
+staxel.tileObject.roof.LightBlueRoof_FlatEdge2.name=
+staxel.tileObject.roof.LightBlueRoof_FlatEdgeShort.name=
+staxel.tileObject.roof.LightBlueRoof_FlatStraight.name=
+staxel.tileObject.roof.LightBlueRoof_InnerCorner.name=
+staxel.tileObject.roof.LightBlueRoof_LeftEdge.name=
+staxel.tileObject.roof.LightBlueRoof_LeftEdgeCut.name=
+staxel.tileObject.roof.LightBlueRoof_LeftEdgeCutLong.name=
+staxel.tileObject.roof.LightBlueRoof_LeftEdgeCutLongFinal.name=
+staxel.tileObject.roof.LightBlueRoof_OuterCorner.name=
+staxel.tileObject.roof.LightBlueRoof_RightEdge.name=
+staxel.tileObject.roof.LightBlueRoof_RightEdgeCut.name=
+staxel.tileObject.roof.LightBlueRoof_RightEdgeCutLong.name=
+staxel.tileObject.roof.LightBlueRoof_RightEdgeCutLongFinal.name=
+staxel.tileObject.roof.LightBlueRoof_RightStraight.name=
+staxel.tileObject.roof.LightGreenRoof_FlatEdge.name=
+staxel.tileObject.roof.LightGreenRoof_FlatEdge2.name=
+staxel.tileObject.roof.LightGreenRoof_FlatEdgeShort.name=
+staxel.tileObject.roof.LightGreenRoof_FlatStraight.name=
+staxel.tileObject.roof.LightGreenRoof_InnerCorner.name=
+staxel.tileObject.roof.LightGreenRoof_LeftEdge.name=
+staxel.tileObject.roof.LightGreenRoof_LeftEdgeCut.name=
+staxel.tileObject.roof.LightGreenRoof_LeftEdgeCutLong.name=
+staxel.tileObject.roof.LightGreenRoof_LeftEdgeCutLongFinal.name=
+staxel.tileObject.roof.LightGreenRoof_OuterCorner.name=
+staxel.tileObject.roof.LightGreenRoof_RightEdge.name=
+staxel.tileObject.roof.LightGreenRoof_RightEdgeCut.name=
+staxel.tileObject.roof.LightGreenRoof_RightEdgeCutLong.name=
+staxel.tileObject.roof.LightGreenRoof_RightEdgeCutLongFinal.name=
+staxel.tileObject.roof.LightGreenRoof_RightStraight.name=
 staxel.tileObject.roof.OrangeRoof_FlatEdge.name=
 staxel.tileObject.roof.OrangeRoof_FlatEdge2.name=
 staxel.tileObject.roof.OrangeRoof_FlatEdgeShort.description=
@@ -4634,6 +4726,21 @@ staxel.tileObject.roof.OrangeRoof_RightEdgeCut.name=
 staxel.tileObject.roof.OrangeRoof_RightEdgeCutLong.name=
 staxel.tileObject.roof.OrangeRoof_RightEdgeCutLongFinal.name=
 staxel.tileObject.roof.OrangeRoof_RightStraight.name=
+staxel.tileObject.roof.PinkRoof_FlatEdge.name=
+staxel.tileObject.roof.PinkRoof_FlatEdge2.name=
+staxel.tileObject.roof.PinkRoof_FlatEdgeShort.name=
+staxel.tileObject.roof.PinkRoof_FlatStraight.name=
+staxel.tileObject.roof.PinkRoof_InnerCorner.name=
+staxel.tileObject.roof.PinkRoof_LeftEdge.name=
+staxel.tileObject.roof.PinkRoof_LeftEdgeCut.name=
+staxel.tileObject.roof.PinkRoof_LeftEdgeCutLong.name=
+staxel.tileObject.roof.PinkRoof_LeftEdgeCutLongFinal.name=
+staxel.tileObject.roof.PinkRoof_OuterCorner.name=
+staxel.tileObject.roof.PinkRoof_RightEdge.name=
+staxel.tileObject.roof.PinkRoof_RightEdgeCut.name=
+staxel.tileObject.roof.PinkRoof_RightEdgeCutLong.name=
+staxel.tileObject.roof.PinkRoof_RightEdgeCutLongFinal.name=
+staxel.tileObject.roof.PinkRoof_RightStraight.name=
 //TODO Translate [Reference] 'A roof made from deep red shingles.'
 staxel.tileObject.roof.RedRoof_FlatEdge.description=
 //TODO Translate [Reference] 'Edged Flat Red Tiled Roof'
@@ -5564,6 +5671,7 @@ staxel.tileObject.shop.CashRegister.description=
 staxel.tileObject.shop.CashRegister.name=
 staxel.tileObject.shop.ShopCounter.description=
 staxel.tileObject.shop.ShopCounter.name=
+staxel.tileObject.shop.ShopShelf.name=
 //TODO Translate [Reference] 'A strange red flower found growing on swampy grounds.'
 staxel.tileObject.swampRuins.Flower.red.1.description=
 //TODO Translate [Reference] 'Red Swamp Flower'
@@ -6077,6 +6185,26 @@ staxel.tree.PearTree.name=
 staxel.tree.TangerineTree.description=
 //TODO Translate [Reference] 'Tangerine Tree'
 staxel.tree.TangerineTree.name=
+//TODO Translate [Reference] 'Cecile'
+staxel.villager.Cecile.name=
+//TODO Translate [Reference] 'Emilia'
+staxel.villager.Emilia.name=
+//TODO Translate [Reference] 'Eris'
+staxel.villager.Eris.name=
+//TODO Translate [Reference] 'Farm Fan'
+staxel.villager.FarmFan.name=
+//TODO Translate [Reference] 'Jamie'
+staxel.villager.Jamie.name=
+//TODO Translate [Reference] 'Leif'
+staxel.villager.Leif.name=
+//TODO Translate [Reference] 'Maximilian'
+staxel.villager.Maximilian.name=
+//TODO Translate [Reference] 'Oscar'
+staxel.villager.Oscar.name=
+//TODO Translate [Reference] 'Rosemary'
+staxel.villager.Rosemary.name=
+//TODO Translate [Reference] 'Rowan'
+staxel.villager.Rowan.name=
 //TODO Translate [Reference] 'Staxel Development Build'
 version.developmentBuild=
 //TODO Translate [Reference] 'Can't equip this here!'
