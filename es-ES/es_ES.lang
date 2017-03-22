@@ -456,6 +456,8 @@ hintText.inventorySpaceNeeded=Necesitas mínimo {0-count} espacios en el inventa
 hintText.kind=Tipo: {0-itemCode}
 //[Reference] 'The light will turn on after a few seconds'
 hintText.lightTurnOn=La luz se encenderá en unos segundos
+//TODO Translate [Reference] 'That's not a bug!'
+hintText.needBug=
 //TODO Translate [Reference] 'Try placing on {0-tile}'
 hintText.needTile=
 //[Reference] 'Try planting on tilled soil'
@@ -815,6 +817,7 @@ staxel.accessories.characters.accessories.monkeyhats.PinkMonkeyHat=Sombrero mono
 staxel.accessories.characters.accessories.tiaras.GoldTiara=Tiara dorada
 //[Reference] 'Silver Tiara'
 staxel.accessories.characters.accessories.tiaras.SilverTiara=Tiara plateada
+staxel.accessories.coats.LabCoat.description=
 staxel.accessories.coats.LabCoat.name=
 //[Reference] 'Bartwe Hair'
 staxel.accessories.devavatars.bartwe.BartweHair=Peinado Bartwe
@@ -1305,6 +1308,7 @@ staxel.category.cash=
 staxel.category.cask=Barril
 //[Reference] 'Catching'
 staxel.category.catching=Capturando
+staxel.category.cbrownenza=
 //[Reference] 'Ceiling'
 staxel.category.ceiling=Techo
 //[Reference] 'Chair'
@@ -1540,6 +1544,7 @@ staxel.category.gatherable=Recopilable
 staxel.category.gift=Regalo
 //[Reference] 'Gingerbread'
 staxel.category.gingerbread=Galleta de gengibre
+staxel.category.glass=
 //[Reference] 'Glow'
 staxel.category.glow=Brillar
 //[Reference] 'Glowing'
@@ -1614,6 +1619,7 @@ staxel.category.icing=Congelando
 staxel.category.indoor=Interior
 //[Reference] 'Inn'
 staxel.category.inn=Posada
+staxel.category.inspect=
 //[Reference] 'Item'
 staxel.category.item=Objeto
 //[Reference] 'Ivy'
@@ -1651,6 +1657,7 @@ staxel.category.leaves=
 staxel.category.lemon=Limón
 //[Reference] 'Lettuce'
 staxel.category.lettuce=Lechuga
+staxel.category.license=
 //[Reference] 'Light'
 staxel.category.light=Luz
 //[Reference] 'Lighthouse'
@@ -1683,6 +1690,7 @@ staxel.category.low=Bajo
 staxel.category.magenta=
 //[Reference] 'Magic'
 staxel.category.magic=Magia
+staxel.category.magnifying=
 //[Reference] 'Mail'
 staxel.category.mail=Correo
 //[Reference] 'Mailbox'
@@ -1706,6 +1714,7 @@ staxel.category.middle=Medio
 staxel.category.milk=Leche
 //[Reference] 'Milker'
 staxel.category.milker=Lechero
+staxel.category.Minimalist=
 //[Reference] 'Mirror'
 staxel.category.mirror=Espejo
 //[Reference] 'Misc'
@@ -1783,6 +1792,7 @@ staxel.category.picket=Piquete
 staxel.category.picnic=
 //[Reference] 'Pie'
 staxel.category.pie=Tarta
+staxel.category.pig=
 //[Reference] 'Pile'
 staxel.category.pile=Pila
 //[Reference] 'Pillar'
@@ -2427,6 +2437,7 @@ staxel.crop.WhiteRose.name=Semilla de rosa blanca
 staxel.docks.merchantStalls.MerchantDock2.name=
 staxel.docks.merchantStalls.MerchantDock3.name=
 staxel.docks.merchantStalls.MerchantDockSingle3.name=
+staxel.docks.merchantStalls.MerchantDockSingle4.description=
 staxel.docks.merchantStalls.MerchantDockSingle4.name=
 staxel.docks.merchantStalls.MerchantShopLarge.description=
 staxel.docks.merchantStalls.MerchantShopLarge.name=
@@ -3240,6 +3251,8 @@ staxel.item.farmAnimals.CowSplat.name=
 staxel.item.farmAnimals.TroughFood.description=
 //TODO Translate [Reference] 'Trough Food'
 staxel.item.farmAnimals.TroughFood.name=
+staxel.item.FarmLicense.description=
+staxel.item.FarmLicense.name=
 //TODO Translate [Reference] 'A plain, but pretty, clay jar.'
 staxel.item.fluff.ClayJar1.description=
 //TODO Translate [Reference] 'Clay Jar'
@@ -3322,6 +3335,9 @@ staxel.item.pets.PetFood.name=
 staxel.item.presents.TradePresent.description=
 //[Reference] 'Present'
 staxel.item.presents.TradePresent.name=Regalo
+staxel.item.seed.DarkFairyGrassSeedPacket.description=
+staxel.item.seed.DarkFairyGrassSeedPacket.name=
+staxel.item.seed.FairyGrassSeedPacket.name=
 //TODO Translate [Reference] 'Seeds for growing grass.'
 staxel.item.seed.GrassSeedPacket.description=
 //TODO Translate [Reference] 'Grass Seed Packet'
@@ -3473,9 +3489,9 @@ staxel.notifications.shears.NotLookingAtShearableAnimal=
 staxel.notifications.Shovel.WrongTool=
 //TODO Translate [Reference] 'It's too early to sleep!'
 staxel.notifications.tooEarlyForSleep=
-//TODO Translate [Reference] 'Not for watering on rainy days.'
+//TODO Translate [Reference] 'You don't need to water crops on rainy days!'
 staxel.notifications.weatherAlreadyWatered=
-//TODO Translate [Reference] 'Not for watering on snowy days.'
+//TODO Translate [Reference] 'You don't need to water crops on snowy days!'
 staxel.notifications.weatherSnowyAlreadyWatered=
 staxel.personality.Chicken=Pollo
 staxel.personality.Cow=Vaca
@@ -3992,6 +4008,7 @@ staxel.tile.happyBlocks.carpet.BlueDotCarpet.name=
 staxel.tile.happyBlocks.carpet.GreenCheckerCarpet.name=
 staxel.tile.happyBlocks.carpet.GreenDotCarpet.name=
 staxel.tile.happyBlocks.carpet.PinkCheckerCarpet.name=
+staxel.tile.happyBlocks.carpet.PinkDotCarpet.description=
 staxel.tile.happyBlocks.carpet.PinkDotCarpet.name=
 staxel.tile.happyBlocks.carpet.YellowCheckerCarpet.name=
 staxel.tile.happyBlocks.carpet.YellowDotCarpet.name=
@@ -4107,6 +4124,9 @@ staxel.tile.lighthouse.Stone.small.name=
 staxel.tile.newVillage.CobbleStonePath.description=
 //TODO Translate [Reference] 'Cobblestone Path'
 staxel.tile.newVillage.CobbleStonePath.name=
+staxel.tile.newVillage.CobbleStonePath2.name=
+staxel.tile.newVillage.CobbleStonePath3.name=
+staxel.tile.newVillage.CobbleStonePath4.name=
 //TODO Translate [Reference] 'A white brick block. Very standard style.'
 staxel.tile.newVillage.Homebrick.description=
 //TODO Translate [Reference] 'White Brick Block'
@@ -5690,6 +5710,7 @@ staxel.tileObject.shop.CashRegister.name=
 staxel.tileObject.shop.ShopCounter.description=
 staxel.tileObject.shop.ShopCounter.name=
 staxel.tileObject.shop.ShopShelf.name=
+staxel.tileObject.shop.ShopShelfPlayer.name=
 //[Reference] 'A strange red flower found growing on swampy grounds.'
 staxel.tileObject.swampRuins.Flower.red.1.description=Una extraña flor roja que se haya creciendo en suelos pantanosos.
 //[Reference] 'Red Swamp Flower'
@@ -5999,6 +6020,21 @@ staxel.tileObject.themedfurniture.groovy.GroovyTable.name=Mesa Groovy
 staxel.tileObject.themedfurniture.groovy.GroovyWardrobe.description=Del 'Set de muebles Groovy' - Un armario con dos puertas, sin cajones y sin límites.
 //[Reference] 'Groovy Wardrobe'
 staxel.tileObject.themedfurniture.groovy.GroovyWardrobe.name=Armario Groovy
+staxel.tileObject.themedfurniture.minimalist.MinimalistArmChair.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistChair.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistCoffeeTable.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistCredenza.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistDesk.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistDoubleBed.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistDresser.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistLamp.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistLoveseat.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistSideTable.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistSingleBed.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistSofa.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistTable.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistTableLarge.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistWardrobe.name=
 //[Reference] 'From the 'Pastel Furniture Set' - A comfortable armchair, with a floral design on the upholstery.'
 staxel.tileObject.themedfurniture.pastel.PastelArmChair.description=Del 'Set de muebles pastel' - Un sillón cómodo, con un diseño floral tapizado.
 //[Reference] 'Pastel Armchair'
@@ -6238,3 +6274,5 @@ staxel.villager.staxel.villager.Rowan.name.name=
 version.developmentBuild=Versión en desarrollo de Staxel.
 //[Reference] 'Can't equip this here!'
 wardrobe.CantEquip=¡No se puede equipar esto aquí!
+//TODO Translate [Reference] 'Use a wardrobe to wear this'
+wardrobe.UseAWardrobe=
