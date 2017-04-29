@@ -24,6 +24,8 @@ characterDesigner.accept=OK (A)
 characterDesigner.accessories=Accessoires
 //[Reference] 'Cancel'
 characterDesigner.cancel=Annuler
+//TODO Translate [Reference] 'Close'
+characterDesigner.close=
 //[Reference] 'Eyes'
 characterDesigner.eyes=Yeux
 //[Reference] 'Gender'
@@ -93,7 +95,7 @@ characterDesigner.title=Création du personnage
 //[Reference] 'Bottoms'
 characterDesigner.trousers=Pantalons
 
-//[Reference] 'advanceTime amount(0.0-1.0)'
+//[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)'
 commands.advanceTime.description=advanceTime montant(0.0-1.0)
 //[Reference] 'Enter a float by which to advance time. 1.0 is a full day'
 commands.advanceTime.enterFloat=Saisissez un nombre décimal. « 1.0 » est égal une journée complète
@@ -101,57 +103,63 @@ commands.advanceTime.enterFloat=Saisissez un nombre décimal. « 1.0 » est éga
 commands.advanceTime.mustBeNumber=Erreur : arg(1) doit être un nombre. Décimaux OK
 //[Reference] 'Advancing time by {0-time}...'
 commands.advanceTime.success=Avancement du temps : {0-time}...
-//[Reference] 'ban playerName (optional)reason'
+//[Reference] '^c:F2E200;ban ^c:FFFFFF;playerName (optional)reason'
 commands.ban.description=ban nomDuJoueur (facultatif)raison
 //[Reference] 'Unable to ban {0-player}: player is an admin or already banned.'
 commands.ban.failure=Impossible de bannir le joueur {0-player} : il est déjà banni ou est un administrateur.
 //[Reference] '{0-player} has been banned from the server.'
 commands.ban.success={0-player} a été banni du serveur.
-//TODO Translate [Reference] 'bla'
+//TODO Translate [Reference] '^c:F2E200;bla'
 commands.bla.description=
 //[Reference] 'Moved to a new location in debug region: {0-region}'
 commands.bla.success=Déplacé vers un nouvel emplacement dans la région de debug : {0-region}
-//TODO Translate [Reference] 'cameraCapture'
+//TODO Translate [Reference] '^c:F2E200;cameraCapture'
 commands.cameraCapture.description=
 //[Reference] 'Captured player camera'
 commands.cameraCapture.success=Caméra du joueur capturé
-//[Reference] 'cameraCapture savedCameraFilePath'
+//[Reference] '^c:F2E200;cameraCapture ^c:FFFFFF;savedCameraFilePath'
 commands.cameraLoad.description=cameraCapture cheminVersLeFichierCamera
 //[Reference] 'Loaded player camera from file: {0-filename}'
 commands.cameraLoad.success=Caméra du joueur chargé à partir du fichier « {0-filename} »
-//[Reference] 'cameraPlay (optional)duration(0.0-1.0) (optional)loop(true/false) (optional)savedCameraFilePath'
+//[Reference] '^c:F2E200;cameraPlay ^c:FFFFFF;(optional)duration(0.0-1.0) (optional)loop(true/false) (optional)savedCameraFilePath'
 commands.cameraPlay.description=cameraPlay (facultatif)duration(0.0-1.0) (facultatif)loop(true/false) (facultatif)savedCameraFilePath
 //[Reference] 'Playing back player camera'
 commands.cameraPlay.success=Lecture de la caméra du joueur
-//TODO Translate [Reference] 'cameraReset'
+//TODO Translate [Reference] '^c:F2E200;cameraReset'
 commands.cameraReset.description=
 //[Reference] 'Reset player camera'
 commands.cameraReset.success=Caméra du joueur reinitialisée
-//[Reference] 'cameraSave cameraSaveFilePath'
+//[Reference] '^c:F2E200;cameraSave ^c:FFFFFF;cameraSaveFilePath'
 commands.cameraSave.description=cameraSave cheminVersLeFichierCamera
 //[Reference] 'Saved player camera to file: {0-filename}'
 commands.cameraSave.success=Caméra du joueur enregistrée sous le fichier « {0-filename} »
-//TODO Translate [Reference] 'cameraStop'
+//TODO Translate [Reference] '^c:F2E200;cameraStop'
 commands.cameraStop.description=
 //[Reference] 'Stopped camera mode'
 commands.cameraStop.success=Mode caméra désactivé
-//[Reference] 'creative (optional)playerName (optional)startCreativeMode(true/false)'
+//[Reference] '^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)'
 commands.creative.description=creative (facultatif)nomDuJoueur (facultatif)startCreativeMode(true/false)
 //[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
 commands.creative.success=Le mode créatif du joueur {0-user} a été temporairement changé à {1-creative}
-//TODO Translate [Reference] 'currentTime'
+//TODO Translate [Reference] '^c:F2E200;currentTime'
 commands.currentTime.description=
 //[Reference] 'The day is {0-day} and phase is {1:G2-phase}.'
 commands.currentTime.success=Jour actuel : {0-day} - Phase actuelle : {1:G2-phase}.
-//[Reference] 'demoMode (optional)on(true/false)'
+//[Reference] '^c:F2E200;demoMode ^c:FFFFFF;(optional)on(true/false)'
 commands.demoMode.description=demoMode (facultatif)on(true/false)
 //[Reference] 'Switched server demo mode to {0-demoMode}'
 commands.demoMode.success=Le mode démo du serveur est passé à {0-demoMode}
-//[Reference] 'describeitem (optional)playerName'
+//[Reference] '^c:F2E200;describeitem ^c:FFFFFF;(optional)playerName'
 commands.describeItem.description=describeitem (facultatif)nomDuJoueur
 //[Reference] 'Item description: {0-itemDesc}'
 commands.describeItem.success=Description de l'objet : {0-itemDesc}
-//[Reference] 'entityInfo entityID'
+//TODO Translate [Reference] '^c:F2E200;doemote ^c:FFFFFF;emoteName (optional)useLookatEntity(true/false)'
+commands.doemote.description=
+//TODO Translate [Reference] '^c:F2E200;emote ^c:FFFFFF;emoteName'
+commands.emote.description=
+//TODO Translate [Reference] 'No such emote {0-emote}'
+commands.emote.noSuchEmote=
+//[Reference] '^c:F2E200;entityInfo ^c:FFFFFF;entityID'
 commands.entityInfo.description=entityInfo IdEntite
 //[Reference] 'You need to include an EntityID!'
 commands.entityInfo.entityNumber=Vous devez renseigner un id pour l'entité !
@@ -161,25 +169,27 @@ commands.entityInfo.mustBeNumber=L'id de l'entité est invalide !
 commands.entityInfo.noSuchEntity=Cette entité n'existe pas sur le serveur
 //[Reference] 'Entity data: {0-data}'
 commands.entityInfo.success=Données de l'entité : {0-data}
-//[Reference] 'fly (optional)playerName (optional)startFlying(true/false)'
+//TODO Translate [Reference] 'Entity not found'
+commands.entityNotFound=
+//[Reference] '^c:F2E200;fly ^c:FFFFFF;(optional)playerName (optional)startFlying(true/false)'
 commands.flyMode.description=fly (facultatif)playerName (facultatif)startFlying(true/false)
 //[Reference] 'Switched flying mode to: {0-flymode}'
 commands.flyMode.success=La valeur du mode vol a été modifiée en : {0-flymode}
-//[Reference] 'Give all recipes (optional)playerName'
+//[Reference] '^c:F2E200;Give all recipes ^c:FFFFFF;(optional)playerName'
 commands.giveallrecipes.description=giveallrecipes (facultatif)nomDuJoueur
 //[Reference] 'Done!'
 commands.giveallrecipes.success=Recettes données !
-//[Reference] 'givepetals playerName amount'
+//[Reference] '^c:F2E200;givepetals ^c:FFFFFF;playerName amount'
 commands.givePetals.description=givepetals nomDuJoueur montant
 //[Reference] 'Petal amount needs to be a positive number'
 commands.givePetals.invalidNumber=Le nombre de pétales doit être positif
 //[Reference] 'Gave {0-player} {1-amount} petals'
 commands.givePetals.success=Gave {0-player} {1-amount} pétales
-//[Reference] '? (optional)commandName'
+//[Reference] '^c:F2E200;? ^c:FFFFFF;(optional)commandName'
 commands.help.altDescription=? (facultatif)commandName
 //[Reference] 'Command not found: '{0-command}''
 commands.help.commandNotFound=Commande « {0-command} » non trouvée
-//[Reference] 'help (optional)commandName'
+//[Reference] '^c:F2E200;help ^c:FFFFFF;(optional)commandName'
 commands.help.description=help (facultatif)commandName
 //[Reference] 'Command list (() brackets denote possible values):'
 commands.help.success=Liste des commandes (()les parenthèses indiquent les valeurs possibles) :
@@ -187,19 +197,19 @@ commands.help.success=Liste des commandes (()les parenthèses indiquent les vale
 commands.inspect.success=
 //[Reference] 'invalid args'
 commands.invalidArgs=Arguments invalides
-//[Reference] 'kick playerName'
+//[Reference] '^c:F2E200;kick ^c:FFFFFF;playerName'
 commands.kick.description=kick nomDuJoueur
 //[Reference] 'Unable to kick {0-player}: player is an admin or not online.'
 commands.kick.failure=Impossible d'éjecter le joueur {0-player} : Il n'est pas connecté ou est un administrateur.
 //[Reference] '{0-player} has been ejected from the server.'
 commands.kick.success=Le joueur {0-player} a été ejecté du serveur.
-//[Reference] 'model (optional)playerName (optional)modelFileName'
+//[Reference] '^c:F2E200;model ^c:FFFFFF;(optional)playerName (optional)modelFileName'
 commands.model.description=model (facultatif)nomDuJoueur (facultatif)nomFichierModèle
 //[Reference] 'Could not switch to character model '{0-model}' not found in assets.'
 commands.model.notFound=Impossible de basculer vers le modèle de joueur « {0-model} ». Celui-ci est introuvable dans les assets.
 //[Reference] 'Switched character model to: {0-model}'
 commands.model.success=Modèle de joueur modifié en : {0-model}
-//[Reference] 'mute playerName (optional[default 60])lengthInMinutes'
+//[Reference] '^c:F2E200;mute ^c:FFFFFF;playerName (optional[default 60])lengthInMinutes'
 commands.mute.description=mute nomDuJoueur (facultatif[défaut 60])tempsEnMinutes
 //[Reference] 'Unable to mute {0-player}: player is an admin.'
 commands.mute.failure=Impossible de rendre le joueur {0-player} muet : ce joueur est admin.
@@ -207,7 +217,7 @@ commands.mute.failure=Impossible de rendre le joueur {0-player} muet : ce joueur
 commands.mute.invalidTime=Temps invalide (le temps doit être en minutes, sans virgules)
 //[Reference] '{0-player} has been silenced.'
 commands.mute.success=Le joueur {0-player} est désormais muet.
-//[Reference] 'noclip (optional)playerName (optional)startNoclip(true/false)'
+//[Reference] '^c:F2E200;noclip ^c:FFFFFF;(optional)playerName (optional)startNoclip(true/false)'
 commands.noClip.description=noclip (facultatif)playerName (facultatif)startNoclip(true/false)
 //[Reference] 'Switched noclip mode to: {0-noclip}'
 commands.noClip.success=La valeur du mode noclip a été modifiée en : {0-noclip}
@@ -217,7 +227,13 @@ commands.noRights={0-user} ne possède pas les droits suffisants pour utiliser c
 commands.noSuchPlayer=Joueur « {0-player} » introuvable
 //[Reference] 'Not a player entity.'
 commands.notAPlayer=Ce n'est pas une entité de joueur.
-//TODO Translate [Reference] 'plantgrowth'
+//TODO Translate [Reference] '^c:F2E200;op ^c:FFFFFF;playerName'
+commands.op.description=
+//TODO Translate [Reference] 'Unable to promote {0-player}.'
+commands.op.failure=
+//TODO Translate [Reference] '{0-player} has been promoted.'
+commands.op.success=
+//TODO Translate [Reference] '^c:F2E200;plantgrowth'
 commands.plantGrowth.description=
 //[Reference] 'Not a plant.'
 commands.plantGrowth.noPlant=Ce n'est pas une plante.
@@ -225,11 +241,11 @@ commands.plantGrowth.noPlant=Ce n'est pas une plante.
 commands.plantGrowth.success=Plante {0-plant} à l'étape {1-stage}
 //[Reference] 'Player Entity not found'
 commands.playerEntityNotFound=Entité de joueur introuvable
-//TODO Translate [Reference] 'players'
+//TODO Translate [Reference] '^c:F2E200;players'
 commands.players.description=
 //[Reference] 'Players: {0-playerlist}'
 commands.players.success=Joueurs: {0-playerlist}
-//[Reference] 'position (optional)playerName'
+//[Reference] '^c:F2E200;position ^c:FFFFFF;(optional)playerName'
 commands.position.description=position (facultatif)nomDuJoueur
 //[Reference] 'Failed to find player'
 commands.position.failed=Impossible de localiser le joueur
@@ -237,45 +253,45 @@ commands.position.failed=Impossible de localiser le joueur
 commands.position.success=Position : {0-position} - Titre : {1-heading}
 //TODO No reference?
 commands.rain.success=
-//TODO Translate [Reference] 'reload'
+//TODO Translate [Reference] '^c:F2E200;reload'
 commands.reload.description=
 //[Reference] 'Reload requested.'
 commands.reload.success=Rafraîchissement demandé.
-//TODO Translate [Reference] 'resetplayer'
+//TODO Translate [Reference] '^c:F2E200;resetplayer'
 commands.resetPlayer.description=
 //[Reference] 'Reset successful.'
 commands.resetPlayer.success=Réinitialisation réussie.
-//[Reference] 'saveDesign fileName'
+//[Reference] '^c:F2E200;saveDesign ^c:FFFFFF;fileName'
 commands.saveDesign.description=saveDesign nomFichier
 //[Reference] 'A filename is required to save a design'
 commands.saveDesign.needFileName=Un nom de fichier est requis pour sauvegarder un design.
 //[Reference] 'Character design file saved at {0-path}'
 commands.saveDesign.success=Le design a été sauvegardé à {0-path}
-//[Reference] 'saveOutfit fileName'
+//[Reference] '^c:F2E200;saveOutfit ^c:FFFFFF;fileName'
 commands.saveOutfit.description=saveOutfit nomFichier
 //[Reference] 'Character outfit file saved at {0-path}'
 commands.saveOutfit.success=Tenue du personnage sauvegardée à {0-path}
-//[Reference] 'creativeMode (optional)on(true/false)'
+//[Reference] '^c:F2E200;creativeMode ^c:FFFFFF;(optional)on(true/false)'
 commands.serverCreative.description=creativeMode (optionel)on(true/false)
 //[Reference] 'Switched server creative mode to {0-creative} (persistent)'
 commands.serverCreative.success=Le mode créatif du serveur est désormais {0-creative}
-//[Reference] 'spawncoins playerName petalAmount'
+//[Reference] '^c:F2E200;spawncoins ^c:FFFFFF;playerName petalAmount'
 commands.spawnCoins.description=spawncoins nomDuJoueur montantEnPétales
 //[Reference] 'Spawned {0-amount} petals in coins for {1-player}'
 commands.spawnCoins.success={0-amount} pétales en pièces ont été générées pour le joueur {1-player}
-//[Reference] 'spawnitem playerName item(kind/specification{})'
+//[Reference] '^c:F2E200;spawnitem ^c:FFFFFF;playerName item(kind/specification{})'
 commands.spawnItem.description=spawnitem nomDuJoueur objet(type/spécifications{})
 //[Reference] 'Item not found.'
 commands.spawnItem.notFound=Objet introuvable.
 //[Reference] 'Spawn item successful.'
 commands.spawnItem.success=Génération de l'objet réussite.
-//[Reference] 'spawnmaterial playerName materialCode'
+//[Reference] '^c:F2E200;spawnmaterial ^c:FFFFFF;playerName materialCode'
 commands.spawnMaterial.description=spawnmaterial nomDuJoueur codeMateriau
 //[Reference] 'Material kind not found.'
 commands.spawnMaterial.notFound=Matériau introuvable.
 //[Reference] 'Spawn material successful'
 commands.spawnMaterial.success=Génération du matériau réussite.
-//[Reference] 'spawntile playerName tileCode'
+//[Reference] '^c:F2E200;spawntile ^c:FFFFFF;playerName tileCode'
 commands.spawnTile.description=spawntile nomDuJoueur codeTile
 //[Reference] 'Tile kind not found.'
 commands.spawnTile.notFound=Tile introuvable.
@@ -283,7 +299,7 @@ commands.spawnTile.notFound=Tile introuvable.
 commands.spawnTile.success=La tile est bien apparue.
 //TODO No reference?
 commands.sun.success=
-//[Reference] 'teleport (optional)playerName location({0,0,0})'
+//[Reference] '^c:F2E200;teleport ^c:FFFFFF;(optional)playerName location({0,0,0})'
 commands.teleport.description=teleport (facultatif)nomDuJoueur location({0,0,0})
 //[Reference] '{0-position} is too far to teleport'
 commands.teleport.distance=La position {0-position} est trop éloignée pour un téléport
@@ -291,11 +307,11 @@ commands.teleport.distance=La position {0-position} est trop éloignée pour un 
 commands.teleport.fail=Données de position invalides {0-position}
 //[Reference] 'Teleport successful.'
 commands.teleport.success=Téléportation réussie.
-//[Reference] 'tp movingPlayerName destinationPlayerName'
+//[Reference] '^c:F2E200;tp ^c:FFFFFF;movingPlayerName destinationPlayerName'
 commands.teleportPlayer.description=tp nomDuJoueurADeplacer nomDuJoueurDestination
 //TODO No reference?
 commands.textToSpeech.success=
-//[Reference] 'tileAt (optional)location({0,0,0})'
+//[Reference] '^c:F2E200;tileAt ^c:FFFFFF;(optional)location({0,0,0})'
 commands.tileAt.description=tileAt (facultatif)location({0,0,0})
 //[Reference] 'Failed to parse position {0-position}'
 commands.tileAt.failParse=Données de position invalides {0-position}
@@ -308,7 +324,7 @@ commands.traceStart.description=
 commands.traceStart.success=
 commands.traceStop.description=
 commands.traceStop.success=
-//[Reference] 'unban playerName'
+//[Reference] '^c:F2E200;unban ^c:FFFFFF;playerName'
 commands.unban.description=unban nomDuJoueur
 //[Reference] 'Unable to unban {0-player}: player was not banned.'
 commands.unban.failure=Impossible de lever le bannissement du joueur {0-player} : Il n'est pas banni.
@@ -318,7 +334,7 @@ commands.unban.success=Le bannissement du joueur {0-player} a été levé.
 commands.unknown=Commande inconnue : « {0-command} »
 //[Reference] 'Unknown error.'
 commands.unknownError=Erreur inconnue.
-//[Reference] 'unmute playerName'
+//[Reference] '^c:F2E200;unmute ^c:FFFFFF;playerName'
 commands.unmute.description=unmute nomDuJoueur
 //[Reference] 'Unable to unmute {0-player}: player is not muted.'
 commands.unmute.failure=Impossible de rendre la voix au joueur {0-player} : le joueur n'est pas muet.
@@ -562,6 +578,8 @@ options.gameplay.other.ScaleUIWithResolution=
 options.gameplay.other.showClock=Afficher l'horloge
 //TODO Translate [Reference] 'Crafting Keyword Tags'
 options.gameplay.other.showCraftingKeywordTags=
+//TODO Translate [Reference] 'Prevent NPC Staring'
+options.gameplay.other.StopNPCStaring=
 //[Reference] 'General'
 options.general=Général
 //TODO Translate [Reference] 'Audio'
@@ -1339,10 +1357,13 @@ staxel.category.carpet=Tapis
 staxel.category.carrot=Carrote
 //[Reference] 'Carrots'
 staxel.category.carrots=Carrotes
+staxel.category.cart=
 //TODO Translate [Reference] 'Cash'
 staxel.category.cash=
 //[Reference] 'Cask'
 staxel.category.cask=Tonneau
+//TODO Translate [Reference] 'Cat'
+staxel.category.cat=
 //TODO Translate [Reference] 'Catching'
 staxel.category.catching=
 staxel.category.cbrownenza=
@@ -1571,6 +1592,7 @@ staxel.category.fungai=
 staxel.category.furniture=Meubles
 //TODO Translate [Reference] 'Futon'
 staxel.category.futon=
+staxel.category.game=
 //[Reference] 'Garbage'
 staxel.category.garbage=Ordures
 //[Reference] 'Gate'
@@ -1692,6 +1714,7 @@ staxel.category.lavender=
 staxel.category.leaves=Feuilles
 //[Reference] 'Lemon'
 staxel.category.lemon=Citron
+staxel.category.letter=
 //[Reference] 'Lettuce'
 staxel.category.lettuce=Laitue
 staxel.category.license=
@@ -1804,6 +1827,7 @@ staxel.category.pan=poel
 //[Reference] 'Pantry'
 staxel.category.pantry=Etagère
 staxel.category.parasol=
+staxel.category.parcel=
 //TODO Translate [Reference] 'Parent'
 staxel.category.parent=
 //[Reference] 'Party'
@@ -2173,6 +2197,7 @@ staxel.category.well=puit
 staxel.category.wheat=blé
 //TODO Translate [Reference] 'Whisk'
 staxel.category.whisk=
+staxel.category.whistle=
 //[Reference] 'White'
 staxel.category.white=Blanc
 //TODO Translate [Reference] 'Wicker'
@@ -2471,8 +2496,11 @@ staxel.crop.Watermelon.name=
 staxel.crop.WhiteRose.description=
 //TODO Translate [Reference] 'White rose Seed'
 staxel.crop.WhiteRose.name=
+staxel.docks.merchantStalls.MerchantDock2.description=
 staxel.docks.merchantStalls.MerchantDock2.name=
+staxel.docks.merchantStalls.MerchantDock3.description=
 staxel.docks.merchantStalls.MerchantDock3.name=
+staxel.docks.merchantStalls.MerchantDockSingle3.description=
 staxel.docks.merchantStalls.MerchantDockSingle3.name=
 staxel.docks.merchantStalls.MerchantDockSingle4.description=
 staxel.docks.merchantStalls.MerchantDockSingle4.name=
@@ -3288,8 +3316,14 @@ staxel.item.farmAnimals.CowSplat.name=
 staxel.item.farmAnimals.TroughFood.description=
 //TODO Translate [Reference] 'Trough Food'
 staxel.item.farmAnimals.TroughFood.name=
+//TODO Translate [Reference] 'The license to your farm. You should treasure it.'
 staxel.item.FarmLicense.description=
+//TODO Translate [Reference] 'Farm License'
 staxel.item.FarmLicense.name=
+//TODO Translate [Reference] 'A letter that registers you and your farm. Better hand it to the Mayor quick!'
+staxel.item.FarmRegistrationLetter.description=
+//TODO Translate [Reference] 'Farm Registration Letter'
+staxel.item.FarmRegistrationLetter.name=
 //TODO Translate [Reference] 'A plain, but pretty, clay jar.'
 staxel.item.fluff.ClayJar1.description=
 //TODO Translate [Reference] 'Clay Jar'
@@ -3366,14 +3400,49 @@ staxel.item.gatherable.WhiteMushrooms.name=
 staxel.item.generic.HockeyBall.description=
 //TODO Translate [Reference] 'Hockey Ball'
 staxel.item.generic.HockeyBall.name=
+staxel.item.generic.Whistle.description=
+staxel.item.generic.Whistle.name=
 staxel.item.pets.PetFood.description=
 //TODO Translate [Reference] 'Pet Food'
 staxel.item.pets.PetFood.name=
 staxel.item.presents.TradePresent.description=
 //TODO Translate [Reference] 'Present'
 staxel.item.presents.TradePresent.name=
+staxel.item.quest.BlueLetter.description=
+//TODO Translate [Reference] 'Blue Letter'
+staxel.item.quest.BlueLetter.name=
+staxel.item.quest.BlueSocks.description=
+//TODO Translate [Reference] 'Blue Socks'
+staxel.item.quest.BlueSocks.name=
+staxel.item.quest.BlueVoxelboy.description=
+//TODO Translate [Reference] 'Blue Voxelboy'
+staxel.item.quest.BlueVoxelboy.name=
+staxel.item.quest.BunnyPhoneBlue.description=
+//TODO Translate [Reference] 'Blue Bunny Phone'
+staxel.item.quest.BunnyPhoneBlue.name=
+//TODO Translate [Reference] 'Pink Bunny Phone'
+staxel.item.quest.BunnyPhonePink.name=
+//TODO Translate [Reference] 'Yellow Bunny Phone'
+staxel.item.quest.BunnyPhoneYellow.name=
+staxel.item.quest.Parcel.description=
+staxel.item.quest.Parcel.name=
+staxel.item.quest.PinkLetter.description=
+//TODO Translate [Reference] 'Pink Letter'
+staxel.item.quest.PinkLetter.name=
+staxel.item.quest.PinkSocks.description=
+//TODO Translate [Reference] 'Pink Socks'
+staxel.item.quest.PinkSocks.name=
+staxel.item.quest.YellowLetter.description=
+//TODO Translate [Reference] 'Yellow Letter'
+staxel.item.quest.YellowLetter.name=
+staxel.item.quest.YellowSocks.description=
+//TODO Translate [Reference] 'Yellow Socks'
+staxel.item.quest.YellowSocks.name=
+//TODO Translate [Reference] 'Yellow Voxelboy'
+staxel.item.quest.YellowVoxelboy.name=
 staxel.item.seed.DarkFairyGrassSeedPacket.description=
 staxel.item.seed.DarkFairyGrassSeedPacket.name=
+staxel.item.seed.FairyGrassSeedPacket.description=
 staxel.item.seed.FairyGrassSeedPacket.name=
 //TODO Translate [Reference] 'Seeds for growing grass.'
 staxel.item.seed.GrassSeedPacket.description=
@@ -3463,6 +3532,19 @@ staxel.merchant.received=
 //TODO Translate [Reference] 'Rob'
 staxel.merchant.Rob.name=
 staxel.merchant.SellBoxDefault=
+staxel.merchants.carts.BuildingMerchant.description=
+staxel.merchants.carts.BuildingMerchant.name=
+staxel.merchants.carts.ClothingMerchant.description=
+staxel.merchants.carts.ClothingMerchant.name=
+staxel.merchants.carts.FlowerMerchant.description=
+staxel.merchants.carts.FlowerMerchant.name=
+staxel.merchants.carts.FlowerMerchantCart.description=
+staxel.merchants.carts.FlowerMerchantCart.name=
+staxel.merchants.carts.FlowerMerchantStall.name=
+staxel.merchants.carts.FurnitureMerchant.name=
+staxel.merchants.carts.PetMerchant.description=
+staxel.merchants.carts.PetMerchant.name=
+staxel.merchants.SellBox.name=
 //TODO Translate [Reference] 'Tip: Scythe grass or flowers to get mixed seeds'
 staxel.nightTransition.Line1=
 //TODO Translate [Reference] 'Tip: Hold shift to make some inventory actions faster'
@@ -3477,6 +3559,8 @@ staxel.nightTransition.Line5=
 staxel.nightTransition.Line6=
 //TODO Translate [Reference] 'Tip: Use the mousewheel or bumpers to rotate items before you place them'
 staxel.nightTransition.Line7=
+//TODO Translate [Reference] 'Tip: Crops that are ready to pick have a green outline'
+staxel.nightTransition.Line8=
 //TODO Translate [Reference] 'This isn't the right tool'
 staxel.notifications.Axe.WrongTool=
 //TODO Translate [Reference] '{0} is in bad health'
@@ -3530,6 +3614,8 @@ staxel.notifications.tooEarlyForSleep=
 staxel.notifications.weatherAlreadyWatered=
 //TODO Translate [Reference] 'You don't need to water crops on snowy days!'
 staxel.notifications.weatherSnowyAlreadyWatered=
+//TODO Translate [Reference] 'You need a {0}{1}{2}{3}{4}{5}{6} to break this!'
+staxel.notifications.WrongToolUniversal=
 staxel.personality.Chicken=
 staxel.personality.Cow=
 //TODO Translate [Reference] 'Feminine'
@@ -3540,6 +3626,8 @@ staxel.personality.Sheep=
 staxel.personality.standard=
 //TODO Translate [Reference] 'Cat'
 staxel.pets.Cat.name=
+//TODO Translate [Reference] 'Dog'
+staxel.pets.Dog.name=
 //TODO Translate [Reference] '{0-pet} has brought you a gift!'
 staxel.pets.GiftReceived=
 staxel.plant.crop.SugarCane.description=
@@ -3628,6 +3716,8 @@ staxel.plant.flower.Daisies.pink.name=
 staxel.plant.flower.Daisies.white.description=
 //TODO Translate [Reference] 'White Daisy'
 staxel.plant.flower.Daisies.white.name=
+staxel.plant.flower.Dandelion.big.name=
+staxel.plant.flower.Dandelion.small.name=
 //TODO Translate [Reference] 'A towering bunch of stunning flowers.'
 staxel.plant.flower.Delphinium.lightPink.1.description=
 //TODO Translate [Reference] 'Light Pink Delphinium'
@@ -3664,6 +3754,8 @@ staxel.plant.flower.Iris.blue.name=
 staxel.plant.flower.Iris.purple.description=
 //TODO Translate [Reference] 'Purple Iris'
 staxel.plant.flower.Iris.purple.name=
+staxel.plant.flower.Lavender.big.name=
+staxel.plant.flower.Lavender.small.name=
 //TODO Translate [Reference] 'A fine, trumpet shaped flower.'
 staxel.plant.flower.Lily.blue.description=
 //TODO Translate [Reference] 'Blue Lily'
@@ -4014,6 +4106,8 @@ staxel.tile.fairyVillage.FairyGrassLayer.1.name=
 staxel.tile.fairyVillage.FairyGrassLayer.2.description=
 //TODO Translate [Reference] 'Long Pink Fairy Grass Block'
 staxel.tile.fairyVillage.FairyGrassLayer.2.name=
+staxel.tile.grass.ForestGrassLayer.1.name=
+staxel.tile.grass.ForestGrassLayer.2.name=
 //TODO Translate [Reference] 'Soft, green grass.'
 staxel.tile.grass.Grass.description=
 //TODO Translate [Reference] 'Grass Block'
@@ -4041,13 +4135,17 @@ staxel.tile.happyBlocks.brick.PurpleBrick.name=
 staxel.tile.happyBlocks.brick.RedBrick.name=
 staxel.tile.happyBlocks.brick.YellowBrick.name=
 staxel.tile.happyBlocks.carpet.BlueCheckerCarpet.name=
+staxel.tile.happyBlocks.carpet.BlueDotCarpet.description=
 staxel.tile.happyBlocks.carpet.BlueDotCarpet.name=
 staxel.tile.happyBlocks.carpet.GreenCheckerCarpet.name=
+staxel.tile.happyBlocks.carpet.GreenDotCarpet.description=
 staxel.tile.happyBlocks.carpet.GreenDotCarpet.name=
 staxel.tile.happyBlocks.carpet.PinkCheckerCarpet.name=
 staxel.tile.happyBlocks.carpet.PinkDotCarpet.description=
 staxel.tile.happyBlocks.carpet.PinkDotCarpet.name=
+staxel.tile.happyBlocks.carpet.YellowCheckerCarpet.description=
 staxel.tile.happyBlocks.carpet.YellowCheckerCarpet.name=
+staxel.tile.happyBlocks.carpet.YellowDotCarpet.description=
 staxel.tile.happyBlocks.carpet.YellowDotCarpet.name=
 staxel.tile.happyBlocks.pathing.PlazaBlock.2.name=
 staxel.tile.happyBlocks.pathing.PlazaBlock.name=
@@ -4384,6 +4482,27 @@ staxel.tileObject.animalFurniture.TroughFeed.name=
 staxel.tileObject.animalFurniture.TroughWater.description=
 //TODO Translate [Reference] 'Water Trough'
 staxel.tileObject.animalFurniture.TroughWater.name=
+staxel.tileObject.balloon.BlueBalloon.name=
+staxel.tileObject.balloon.GreenBalloon.name=
+staxel.tileObject.balloon.OrangeBalloon.name=
+staxel.tileObject.balloon.PinkBalloon.name=
+staxel.tileObject.balloon.PurpleBalloon.name=
+staxel.tileObject.balloon.RedBalloon.name=
+staxel.tileObject.balloon.YellowBalloon.name=
+staxel.tileObject.baloon.BlueBaloon.description=
+staxel.tileObject.baloon.BlueBaloon.name=
+staxel.tileObject.baloon.GreenBaloon.description=
+staxel.tileObject.baloon.GreenBaloon.name=
+staxel.tileObject.baloon.OrangeBaloon.description=
+staxel.tileObject.baloon.OrangeBaloon.name=
+staxel.tileObject.baloon.PinkBaloon.description=
+staxel.tileObject.baloon.PinkBaloon.name=
+staxel.tileObject.baloon.PurpleBaloon.description=
+staxel.tileObject.baloon.PurpleBaloon.name=
+staxel.tileObject.baloon.RedBaloon.description=
+staxel.tileObject.baloon.RedBaloon.name=
+staxel.tileObject.baloon.YellowBaloon.description=
+staxel.tileObject.baloon.YellowBaloon.name=
 staxel.tileObject.beachset.BeachBall.description=
 //TODO Translate [Reference] 'Beach Ball'
 staxel.tileObject.beachset.BeachBall.name=
@@ -4696,6 +4815,8 @@ staxel.tileObject.logo.StaxelLogo.name=
 staxel.tileObject.logo.StaxelLogoText.description=
 //TODO Translate [Reference] 'Staxel Logo Text'
 staxel.tileObject.logo.StaxelLogoText.name=
+staxel.tileObject.merchantTotem.BuildingMerchant.description=
+staxel.tileObject.merchantTotem.BuildingMerchant.name=
 staxel.tileObject.merchantTotem.FunStuffVendor.name=
 staxel.tileObject.merchantTotem.FurnitureVendor.description=
 //TODO Translate [Reference] 'Furniture Vendor'
@@ -4713,6 +4834,7 @@ staxel.tileObject.modded.minecart_empty.name=
 staxel.tileObject.office.Computer.name=
 staxel.tileObject.office.DeskClock.name=
 staxel.tileObject.office.OfficeChair.name=
+staxel.tileObject.office.OfficeCounter.description=
 staxel.tileObject.office.OfficeCounter.name=
 staxel.tileObject.office.OfficeDesk.name=
 staxel.tileObject.office.OfficeFilingCabinet.name=
@@ -4758,11 +4880,13 @@ staxel.tileObject.roof.LightBlueRoof_FlatEdge.name=
 staxel.tileObject.roof.LightBlueRoof_FlatEdge2.name=
 staxel.tileObject.roof.LightBlueRoof_FlatEdgeShort.name=
 staxel.tileObject.roof.LightBlueRoof_FlatStraight.name=
+staxel.tileObject.roof.LightBlueRoof_InnerCorner.description=
 staxel.tileObject.roof.LightBlueRoof_InnerCorner.name=
 staxel.tileObject.roof.LightBlueRoof_LeftEdge.name=
 staxel.tileObject.roof.LightBlueRoof_LeftEdgeCut.name=
 staxel.tileObject.roof.LightBlueRoof_LeftEdgeCutLong.name=
 staxel.tileObject.roof.LightBlueRoof_LeftEdgeCutLongFinal.name=
+staxel.tileObject.roof.LightBlueRoof_OuterCorner.description=
 staxel.tileObject.roof.LightBlueRoof_OuterCorner.name=
 staxel.tileObject.roof.LightBlueRoof_RightEdge.name=
 staxel.tileObject.roof.LightBlueRoof_RightEdgeCut.name=
@@ -4778,6 +4902,7 @@ staxel.tileObject.roof.LightGreenRoof_LeftEdge.name=
 staxel.tileObject.roof.LightGreenRoof_LeftEdgeCut.name=
 staxel.tileObject.roof.LightGreenRoof_LeftEdgeCutLong.name=
 staxel.tileObject.roof.LightGreenRoof_LeftEdgeCutLongFinal.name=
+staxel.tileObject.roof.LightGreenRoof_OuterCorner.description=
 staxel.tileObject.roof.LightGreenRoof_OuterCorner.name=
 staxel.tileObject.roof.LightGreenRoof_RightEdge.name=
 staxel.tileObject.roof.LightGreenRoof_RightEdgeCut.name=
@@ -4805,6 +4930,7 @@ staxel.tileObject.roof.PinkRoof_FlatEdge.name=
 staxel.tileObject.roof.PinkRoof_FlatEdge2.name=
 staxel.tileObject.roof.PinkRoof_FlatEdgeShort.name=
 staxel.tileObject.roof.PinkRoof_FlatStraight.name=
+staxel.tileObject.roof.PinkRoof_InnerCorner.description=
 staxel.tileObject.roof.PinkRoof_InnerCorner.name=
 staxel.tileObject.roof.PinkRoof_LeftEdge.name=
 staxel.tileObject.roof.PinkRoof_LeftEdgeCut.name=
@@ -5361,6 +5487,7 @@ staxel.tileObject.serverVillage.exterior.SmallWoodenPoleFenceCorner.name=
 staxel.tileObject.serverVillage.exterior.SmallWoodenPoleFenceMiddle.description=
 //TODO Translate [Reference] 'Low Wooden Fence'
 staxel.tileObject.serverVillage.exterior.SmallWoodenPoleFenceMiddle.name=
+staxel.tileObject.serverVillage.exterior.SmallWoodenPoleFenceTSection.description=
 staxel.tileObject.serverVillage.exterior.SmallWoodenPoleFenceTSection.name=
 //TODO Translate [Reference] 'Flooring which is great for both indoors and outdoors.'
 staxel.tileObject.serverVillage.exterior.SolidSlabFlooring.description=
@@ -5744,9 +5871,12 @@ staxel.tileObject.serverVillage.YellowJuice.description=
 staxel.tileObject.serverVillage.YellowJuice.name=
 staxel.tileObject.shop.CashRegister.description=
 staxel.tileObject.shop.CashRegister.name=
+staxel.tileObject.shop.Mannequin.name=
 staxel.tileObject.shop.ShopCounter.description=
 staxel.tileObject.shop.ShopCounter.name=
+staxel.tileObject.shop.ShopShelf.description=
 staxel.tileObject.shop.ShopShelf.name=
+staxel.tileObject.shop.ShopShelfMerchant.name=
 staxel.tileObject.shop.ShopShelfPlayer.name=
 //TODO Translate [Reference] 'A strange red flower found growing on swampy grounds.'
 staxel.tileObject.swampRuins.Flower.red.1.description=
