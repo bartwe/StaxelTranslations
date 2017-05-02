@@ -297,6 +297,16 @@ commands.spawnTile.description=spawntile nomDuJoueur codeTile
 commands.spawnTile.notFound=Tile introuvable.
 //[Reference] 'Spawn tile successful.'
 commands.spawnTile.success=La tile est bien apparue.
+//TODO Translate [Reference] '^c:F2E200;stealpetals ^c:FFFFFF;amount (optional)remove(true/false)'
+commands.stealPetals.description=
+//TODO Translate [Reference] 'Reset must be true or false.'
+commands.stealPetals.invalidReset=
+//TODO Translate [Reference] '{0-player} stole {1-amount} petals'
+commands.stealPetals.success=
+//TODO Translate [Reference] '{0-player} is no longer a thief.'
+commands.stealPetals.success.reset=
+//TODO Translate [Reference] '{0-player} stole {1-amount} petals. Thief!'
+commands.stealPetals.success.thief=
 //TODO No reference?
 commands.sun.success=
 //[Reference] '^c:F2E200;teleport ^c:FFFFFF;(optional)playerName location({0,0,0})'
@@ -489,6 +499,12 @@ hintText.oneSlotNeeded=1 emplacement d'inventaire requis
 hintText.recipeKnown=Vous connaissez déjà cette recette
 //[Reference] 'You successfully learnt the recipe for {0-recipe}!'
 hintText.recipeLearnt=Vous avez appris une nouvelle recette, pour {0-recipe} !
+//TODO Translate [Reference] 'You are no longer a thief'
+hintText.thiefReset=
+//TODO Translate [Reference] 'You stole {0-amount} Petals! {1-theft}'
+hintText.thiefSteal=
+//TODO Translate [Reference] 'You are a thief!'
+hintText.thiefThief=
 //[Reference] 'Downloading bundle assets'
 loading.bundles=Téléchargement du regroupement d'assets
 
@@ -1380,6 +1396,7 @@ staxel.category.cheese=Fromage
 staxel.category.cherries=Cerises
 //[Reference] 'Cherry'
 staxel.category.cherry=Cerise
+staxel.category.chess=
 //[Reference] 'Chest'
 staxel.category.chest=Coffre
 //[Reference] 'Chicken'
@@ -1572,6 +1589,7 @@ staxel.category.fluff=Duvet
 staxel.category.food=Nouriture
 //[Reference] 'Foot'
 staxel.category.foot=Pied
+staxel.category.forest=
 //[Reference] 'Fountain'
 staxel.category.fountain=Fontaine
 //[Reference] 'Frame'
@@ -1710,6 +1728,7 @@ staxel.category.lantern=Lanterne
 staxel.category.large=
 //TODO Translate [Reference] 'Lavender'
 staxel.category.lavender=
+staxel.category.leaf=
 //[Reference] 'Leaves'
 staxel.category.leaves=Feuilles
 //[Reference] 'Lemon'
@@ -2189,6 +2208,7 @@ staxel.category.watering=arroser
 staxel.category.watermelon=
 //[Reference] 'Web'
 staxel.category.web=toile
+staxel.category.weed=
 //[Reference] 'Welcome'
 staxel.category.welcome=bienvenue
 //[Reference] 'Well'
@@ -3660,6 +3680,7 @@ staxel.plant.flower.Allium.purple.name=
 staxel.plant.flower.Allium.white.description=
 //TODO Translate [Reference] 'White Allium'
 staxel.plant.flower.Allium.white.name=
+staxel.plant.flower.Bluebell.name=
 //TODO Translate [Reference] 'A small, cute bush.'
 staxel.plant.flower.Bush.small.description=
 //TODO Translate [Reference] 'Small Bush'
@@ -3776,6 +3797,7 @@ staxel.plant.flower.Lily.pink.2.name=
 staxel.plant.flower.Lily.white.description=
 //TODO Translate [Reference] 'White Lily'
 staxel.plant.flower.Lily.white.name=
+staxel.plant.flower.Madia.name=
 //TODO Translate [Reference] 'A flower with a unique pattern on its petals. It almost looks like a butterfly!'
 staxel.plant.flower.Pansies.blue.description=
 //TODO Translate [Reference] 'Blue Pansies'
@@ -4140,6 +4162,7 @@ staxel.tile.happyBlocks.carpet.BlueDotCarpet.name=
 staxel.tile.happyBlocks.carpet.GreenCheckerCarpet.name=
 staxel.tile.happyBlocks.carpet.GreenDotCarpet.description=
 staxel.tile.happyBlocks.carpet.GreenDotCarpet.name=
+staxel.tile.happyBlocks.carpet.PinkCheckerCarpet.description=
 staxel.tile.happyBlocks.carpet.PinkCheckerCarpet.name=
 staxel.tile.happyBlocks.carpet.PinkDotCarpet.description=
 staxel.tile.happyBlocks.carpet.PinkDotCarpet.name=
@@ -4164,6 +4187,7 @@ staxel.tile.happyBlocks.stone.YellowStone.name=
 staxel.tile.happyBlocks.wood.BlueWood.name=
 staxel.tile.happyBlocks.wood.BrownWood.name=
 staxel.tile.happyBlocks.wood.CreamWood.name=
+staxel.tile.happyBlocks.wood.DarkTexturedWood.description=
 staxel.tile.happyBlocks.wood.DarkTexturedWood.name=
 staxel.tile.happyBlocks.wood.GreenWood.name=
 staxel.tile.happyBlocks.wood.GreyWood.name=
@@ -4207,6 +4231,7 @@ staxel.tile.leaves.Leaf.7.name=
 staxel.tile.leaves.Leaf.Fairy.description=
 //TODO Translate [Reference] 'Pink Fairy Leaf Block'
 staxel.tile.leaves.Leaf.Fairy.name=
+staxel.tile.leaves.Leaf.Forest.name=
 //TODO Translate [Reference] 'This grass looks dead!'
 staxel.tile.lighthouse.Grass.dry.description=
 //TODO Translate [Reference] 'Long Grass'
@@ -4426,6 +4451,7 @@ staxel.tile.wicker.WickerFloorTile.name=
 staxel.tile.wood.BasicWood.description=
 //TODO Translate [Reference] 'Wood Block'
 staxel.tile.wood.BasicWood.name=
+staxel.tile.wood.ForestWood.name=
 //TODO Translate [Reference] 'A quality flooring block of lightly coloured wooden planks.'
 staxel.tile.wood.WoodPlankTile.description=
 //TODO Translate [Reference] 'White Wooden Plank Flooring'
@@ -4482,8 +4508,11 @@ staxel.tileObject.animalFurniture.TroughFeed.name=
 staxel.tileObject.animalFurniture.TroughWater.description=
 //TODO Translate [Reference] 'Water Trough'
 staxel.tileObject.animalFurniture.TroughWater.name=
+staxel.tileObject.balloon.BlueBalloon.description=
 staxel.tileObject.balloon.BlueBalloon.name=
+staxel.tileObject.balloon.GreenBalloon.description=
 staxel.tileObject.balloon.GreenBalloon.name=
+staxel.tileObject.balloon.OrangeBalloon.description=
 staxel.tileObject.balloon.OrangeBalloon.name=
 staxel.tileObject.balloon.PinkBalloon.name=
 staxel.tileObject.balloon.PurpleBalloon.name=
@@ -4603,6 +4632,29 @@ staxel.tileObject.bobbleheads.SteinBobbleHead.name=
 staxel.tileObject.campingset.Campfire.description=
 //TODO Translate [Reference] 'Campfire'
 staxel.tileObject.campingset.Campfire.name=
+staxel.tileObject.chess.DarkBishop.description=
+staxel.tileObject.chess.DarkBishop.name=
+staxel.tileObject.chess.DarkKing.description=
+staxel.tileObject.chess.DarkKing.name=
+staxel.tileObject.chess.DarkKnight.description=
+staxel.tileObject.chess.DarkKnight.name=
+staxel.tileObject.chess.DarkPawn.description=
+staxel.tileObject.chess.DarkPawn.name=
+staxel.tileObject.chess.DarkQueen.description=
+staxel.tileObject.chess.DarkQueen.name=
+staxel.tileObject.chess.DarkRook.description=
+staxel.tileObject.chess.DarkRook.name=
+staxel.tileObject.chess.LightBishop.description=
+staxel.tileObject.chess.LightBishop.name=
+staxel.tileObject.chess.LightKing.description=
+staxel.tileObject.chess.LightKing.name=
+staxel.tileObject.chess.LightKnight.description=
+staxel.tileObject.chess.LightKnight.name=
+staxel.tileObject.chess.LightPawn.description=
+staxel.tileObject.chess.LightPawn.name=
+staxel.tileObject.chess.LightQueen.name=
+staxel.tileObject.chess.LightRook.description=
+staxel.tileObject.chess.LightRook.name=
 //TODO Translate [Reference] 'A gift in a blue box and topped with a pretty yellow bow.'
 staxel.tileObject.christmas.BluePresent.description=
 //TODO Translate [Reference] 'Blue Gift'
@@ -4861,6 +4913,7 @@ staxel.tileObject.retrotest.dungeon_railing.name=
 staxel.tileObject.retrotest.dungeon_railing_corner.description=
 //TODO Translate [Reference] 'Cornered Dungeon Railing'
 staxel.tileObject.retrotest.dungeon_railing_corner.name=
+staxel.tileObject.roof.JadeRoof_FlatEdge.description=
 staxel.tileObject.roof.JadeRoof_FlatEdge.name=
 staxel.tileObject.roof.JadeRoof_FlatEdge2.name=
 staxel.tileObject.roof.JadeRoof_FlatEdgeShort.name=
@@ -4905,6 +4958,7 @@ staxel.tileObject.roof.LightGreenRoof_LeftEdgeCutLongFinal.name=
 staxel.tileObject.roof.LightGreenRoof_OuterCorner.description=
 staxel.tileObject.roof.LightGreenRoof_OuterCorner.name=
 staxel.tileObject.roof.LightGreenRoof_RightEdge.name=
+staxel.tileObject.roof.LightGreenRoof_RightEdgeCut.description=
 staxel.tileObject.roof.LightGreenRoof_RightEdgeCut.name=
 staxel.tileObject.roof.LightGreenRoof_RightEdgeCutLong.name=
 staxel.tileObject.roof.LightGreenRoof_RightEdgeCutLongFinal.name=
@@ -4929,6 +4983,7 @@ staxel.tileObject.roof.OrangeRoof_RightStraight.name=
 staxel.tileObject.roof.PinkRoof_FlatEdge.name=
 staxel.tileObject.roof.PinkRoof_FlatEdge2.name=
 staxel.tileObject.roof.PinkRoof_FlatEdgeShort.name=
+staxel.tileObject.roof.PinkRoof_FlatStraight.description=
 staxel.tileObject.roof.PinkRoof_FlatStraight.name=
 staxel.tileObject.roof.PinkRoof_InnerCorner.description=
 staxel.tileObject.roof.PinkRoof_InnerCorner.name=
@@ -6193,6 +6248,7 @@ staxel.tileObject.themedfurniture.minimalist.MinimalistCoffeeTable.name=
 staxel.tileObject.themedfurniture.minimalist.MinimalistCredenza.name=
 staxel.tileObject.themedfurniture.minimalist.MinimalistDesk.name=
 staxel.tileObject.themedfurniture.minimalist.MinimalistDoubleBed.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistDresser.description=
 staxel.tileObject.themedfurniture.minimalist.MinimalistDresser.name=
 staxel.tileObject.themedfurniture.minimalist.MinimalistLamp.name=
 staxel.tileObject.themedfurniture.minimalist.MinimalistLoveseat.name=
@@ -6436,6 +6492,7 @@ staxel.villager.staxel.villager.Maximilian.name.name=
 staxel.villager.staxel.villager.Oscar.name.name=
 staxel.villager.staxel.villager.Rosemary.name.name=
 staxel.villager.staxel.villager.Rowan.name.name=
+staxel.weed.Weed1.name=
 
 //[Reference] 'Staxel Development Build'
 version.developmentBuild=Version de développement - Staxel
