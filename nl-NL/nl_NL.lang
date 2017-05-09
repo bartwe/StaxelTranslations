@@ -500,12 +500,16 @@ hintText.oneSlotNeeded=Je hebt minstens 1 plek in je inventaris nodig
 hintText.recipeKnown=Je kent dit recept al
 //[Reference] 'You successfully learnt the recipe for {0-recipe}!'
 hintText.recipeLearnt=Je hebt het recept voor {0-recept} geleerd!
+//TODO Translate [Reference] 'There's nothing left to steal... for today.'
+hintText.thiefLimit=
 //TODO Translate [Reference] 'You are no longer a thief'
 hintText.thiefReset=
 //TODO Translate [Reference] 'You stole {0-amount} Petals! {1-theft}'
 hintText.thiefSteal=
-//TODO Translate [Reference] 'You are a thief!'
+//TODO Translate [Reference] 'Thief! You may be forgiven in time.'
 hintText.thiefThief=
+//TODO Translate [Reference] 'Stealing has consequences.'
+hintText.thiefWarning=
 
 //[Reference] 'Downloading bundle assets'
 loading.bundles=Downloaden bundel-assets
@@ -795,12 +799,14 @@ staxel.accessories.characters.accessories.cathats.DarkPinkCatHat=Roze Kat Hoed
 staxel.accessories.characters.accessories.cathats.DarkPurpleCatHat=Paarse Kat Hoed
 staxel.accessories.characters.accessories.facialhair.AbeBeard.description=
 staxel.accessories.characters.accessories.facialhair.AbeBeard.name=
+staxel.accessories.characters.accessories.facialhair.CurlyMustache.description=
 staxel.accessories.characters.accessories.facialhair.CurlyMustache.name=
 staxel.accessories.characters.accessories.facialhair.Goatee.name=
 staxel.accessories.characters.accessories.facialhair.Goateestache.name=
 staxel.accessories.characters.accessories.facialhair.LongBeard.description=
 staxel.accessories.characters.accessories.facialhair.LongBeard.name=
 staxel.accessories.characters.accessories.facialhair.PlainMustache.name=
+staxel.accessories.characters.accessories.facialhair.ScruffyMustache.description=
 staxel.accessories.characters.accessories.facialhair.ScruffyMustache.name=
 staxel.accessories.characters.accessories.facialhair.ShortBeard.description=
 staxel.accessories.characters.accessories.facialhair.ShortBeard.name=
@@ -4191,9 +4197,11 @@ staxel.tile.happyBlocks.stone.BrownStone.name=
 staxel.tile.happyBlocks.stone.CreamStone.name=
 staxel.tile.happyBlocks.stone.greenStone.name=
 staxel.tile.happyBlocks.stone.OrangeStone.name=
+staxel.tile.happyBlocks.stone.PinkStone.description=
 staxel.tile.happyBlocks.stone.PinkStone.name=
 staxel.tile.happyBlocks.stone.PurpleStone.name=
 staxel.tile.happyBlocks.stone.RedStone.name=
+staxel.tile.happyBlocks.stone.WhiteStone.description=
 staxel.tile.happyBlocks.stone.WhiteStone.name=
 staxel.tile.happyBlocks.stone.YellowStone.name=
 staxel.tile.happyBlocks.wood.BlueWood.name=
@@ -4539,6 +4547,7 @@ staxel.tileObject.balloon.OrangeBalloon.name=
 staxel.tileObject.balloon.PinkBalloon.name=
 staxel.tileObject.balloon.PurpleBalloon.name=
 staxel.tileObject.balloon.RedBalloon.name=
+staxel.tileObject.balloon.YellowBalloon.description=
 staxel.tileObject.balloon.YellowBalloon.name=
 staxel.tileObject.baloon.BlueBaloon.description=
 staxel.tileObject.baloon.BlueBaloon.name=
@@ -4953,12 +4962,14 @@ staxel.tileObject.roof.JadeRoof_InnerCorner.name=
 staxel.tileObject.roof.JadeRoof_LeftEdge.name=
 staxel.tileObject.roof.JadeRoof_LeftEdgeCut.name=
 staxel.tileObject.roof.JadeRoof_LeftEdgeCutLong.name=
+staxel.tileObject.roof.JadeRoof_LeftEdgeCutLongFinal.description=
 staxel.tileObject.roof.JadeRoof_LeftEdgeCutLongFinal.name=
 staxel.tileObject.roof.JadeRoof_OuterCorner.name=
 staxel.tileObject.roof.JadeRoof_RightEdge.name=
 staxel.tileObject.roof.JadeRoof_RightEdgeCut.name=
 staxel.tileObject.roof.JadeRoof_RightEdgeCutLong.name=
 staxel.tileObject.roof.JadeRoof_RightEdgeCutLongFinal.name=
+staxel.tileObject.roof.JadeRoof_RightStraight.description=
 staxel.tileObject.roof.JadeRoof_RightStraight.name=
 staxel.tileObject.roof.LightBlueRoof_FlatEdge.name=
 staxel.tileObject.roof.LightBlueRoof_FlatEdge2.name=
@@ -4974,6 +4985,7 @@ staxel.tileObject.roof.LightBlueRoof_OuterCorner.description=
 staxel.tileObject.roof.LightBlueRoof_OuterCorner.name=
 staxel.tileObject.roof.LightBlueRoof_RightEdge.name=
 staxel.tileObject.roof.LightBlueRoof_RightEdgeCut.name=
+staxel.tileObject.roof.LightBlueRoof_RightEdgeCutLong.description=
 staxel.tileObject.roof.LightBlueRoof_RightEdgeCutLong.name=
 staxel.tileObject.roof.LightBlueRoof_RightEdgeCutLongFinal.name=
 staxel.tileObject.roof.LightBlueRoof_RightStraight.name=
@@ -5003,6 +5015,7 @@ staxel.tileObject.roof.OrangeRoof_FlatStraight.name=
 staxel.tileObject.roof.OrangeRoof_InnerCorner.name=
 staxel.tileObject.roof.OrangeRoof_LeftEdge.name=
 staxel.tileObject.roof.OrangeRoof_LeftEdgeCut.name=
+staxel.tileObject.roof.OrangeRoof_LeftEdgeCutLong.description=
 staxel.tileObject.roof.OrangeRoof_LeftEdgeCutLong.name=
 staxel.tileObject.roof.OrangeRoof_LeftEdgeCutLongFinal.name=
 staxel.tileObject.roof.OrangeRoof_OuterCorner.name=
@@ -5022,6 +5035,7 @@ staxel.tileObject.roof.PinkRoof_LeftEdge.name=
 staxel.tileObject.roof.PinkRoof_LeftEdgeCut.name=
 staxel.tileObject.roof.PinkRoof_LeftEdgeCutLong.name=
 staxel.tileObject.roof.PinkRoof_LeftEdgeCutLongFinal.name=
+staxel.tileObject.roof.PinkRoof_OuterCorner.description=
 staxel.tileObject.roof.PinkRoof_OuterCorner.name=
 staxel.tileObject.roof.PinkRoof_RightEdge.name=
 staxel.tileObject.roof.PinkRoof_RightEdgeCut.name=
@@ -5810,6 +5824,7 @@ staxel.tileObject.serverVillage.RanchBlindLeft.name=Ranch Lamellen Links
 staxel.tileObject.serverVillage.RanchBlindRight.description=
 //[Reference] 'Ranch Blind Right'
 staxel.tileObject.serverVillage.RanchBlindRight.name=Ranch Lamellen Rechts
+staxel.tileObject.serverVillage.RanchDoor.description=
 //[Reference] 'Ranch Door'
 staxel.tileObject.serverVillage.RanchDoor.name=Ranch Deur
 staxel.tileObject.serverVillage.RanchStairs.description=
@@ -6410,6 +6425,7 @@ staxel.tileObject.themedfurniture.victorian.VictorianSideTable.name=Victoriaanse
 staxel.tileObject.themedfurniture.victorian.VictorianSingleBed.name=Victoriaans Bed
 staxel.tileObject.themedfurniture.victorian.VictorianSofa.name=Victoriaanse Sofa
 staxel.tileObject.themedfurniture.victorian.VictorianStool.name=Victoriaanse Kruk
+staxel.tileObject.themedfurniture.victorian.VictorianTable.description=
 staxel.tileObject.themedfurniture.victorian.VictorianTable.name=Victoriaanse Tafel
 staxel.tileObject.themedfurniture.victorian.VictorianTableLarge.name=Victoriaanse Grote Tafel
 staxel.tileObject.themedfurniture.victorian.VictorianVanity.name=Victoriaans Opmaakkast
