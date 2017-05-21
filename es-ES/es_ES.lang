@@ -710,6 +710,7 @@ recipeBook.ingredients=Ingredientes
 recipeBook.noRecipes=No hay recetas
 //[Reference] 'Process'
 recipeBook.process=Procesos
+Renamer.accept=
 //[Reference] 'You have been muted for {0-time} minutes.'
 server.notifyPlayerMuted=Has sido muteado por {0-time} minutos.
 //[Reference] '{0-player} has joined the server'
@@ -1763,6 +1764,7 @@ staxel.category.main=Principal
 staxel.category.maize=
 //TODO Translate [Reference] 'Mango'
 staxel.category.mango=
+staxel.category.marker=
 //[Reference] 'Market'
 staxel.category.market=Mercado
 staxel.category.marmalade=
@@ -1932,6 +1934,7 @@ staxel.category.red=Rojo
 staxel.category.refrigerator=Refrigerador
 //TODO Translate [Reference] 'Register'
 staxel.category.register=
+staxel.category.Renamer=
 //TODO Translate [Reference] 'Resource'
 staxel.category.resource=
 //[Reference] 'Right'
@@ -3415,18 +3418,23 @@ staxel.item.presents.TradePresent.name=Regalo
 staxel.item.quest.BlueLetter.description=
 //TODO Translate [Reference] 'Blue Letter'
 staxel.item.quest.BlueLetter.name=
+//TODO Translate [Reference] 'How'd this end up all the way over here?'
 staxel.item.quest.BlueSocks.description=
 //TODO Translate [Reference] 'Blue Socks'
 staxel.item.quest.BlueSocks.name=
+//TODO Translate [Reference] 'Somebody forgot their gaming device!'
 staxel.item.quest.BlueVoxelboy.description=
 //TODO Translate [Reference] 'Blue Voxelboy'
 staxel.item.quest.BlueVoxelboy.name=
+//TODO Translate [Reference] 'Uh oh, looks like someone lost their phone!'
 staxel.item.quest.BunnyPhoneBlue.description=
 //TODO Translate [Reference] 'Blue Bunny Phone'
 staxel.item.quest.BunnyPhoneBlue.name=
+//TODO Translate [Reference] 'Uh oh, looks like someone lost their phone!'
 staxel.item.quest.BunnyPhonePink.description=
 //TODO Translate [Reference] 'Pink Bunny Phone'
 staxel.item.quest.BunnyPhonePink.name=
+//TODO Translate [Reference] 'Uh oh, looks like someone lost their phone!'
 staxel.item.quest.BunnyPhoneYellow.description=
 //TODO Translate [Reference] 'Yellow Bunny Phone'
 staxel.item.quest.BunnyPhoneYellow.name=
@@ -3435,15 +3443,18 @@ staxel.item.quest.Parcel.name=
 staxel.item.quest.PinkLetter.description=
 //TODO Translate [Reference] 'Pink Letter'
 staxel.item.quest.PinkLetter.name=
+//TODO Translate [Reference] 'How'd this end up all the way over here?'
 staxel.item.quest.PinkSocks.description=
 //TODO Translate [Reference] 'Pink Socks'
 staxel.item.quest.PinkSocks.name=
 staxel.item.quest.YellowLetter.description=
 //TODO Translate [Reference] 'Yellow Letter'
 staxel.item.quest.YellowLetter.name=
+//TODO Translate [Reference] 'How'd this end up all the way over here?'
 staxel.item.quest.YellowSocks.description=
 //TODO Translate [Reference] 'Yellow Socks'
 staxel.item.quest.YellowSocks.name=
+//TODO Translate [Reference] 'Somebody forgot their gaming device!'
 staxel.item.quest.YellowVoxelboy.description=
 //TODO Translate [Reference] 'Yellow Voxelboy'
 staxel.item.quest.YellowVoxelboy.name=
@@ -3502,7 +3513,9 @@ staxel.item.tool.Net.name=
 staxel.item.tool.Pickaxe.description=
 //[Reference] 'Pickaxe'
 staxel.item.tool.Pickaxe.name=Pico
+//TODO Translate [Reference] 'A form used to (re)name animals.'
 staxel.item.tool.Renamer.description=
+//TODO Translate [Reference] 'Naming Form'
 staxel.item.tool.Renamer.name=
 //TODO Translate [Reference] 'A tool used to catch fish.'
 staxel.item.tool.Rod.description=
@@ -3528,6 +3541,10 @@ staxel.item.tool.Smoker.name=
 staxel.item.tool.WateringCan.description=
 //[Reference] 'Watering Can'
 staxel.item.tool.WateringCan.name=Regadera
+staxel.merchant.Brick.name=
+staxel.merchant.Buttons.name=
+staxel.merchant.Holly.name=
+staxel.merchant.Leon.name=
 //TODO Translate [Reference] 'Melissa'
 staxel.merchant.Melissa.name=
 //TODO Translate [Reference] 'Morgan'
@@ -3562,7 +3579,7 @@ staxel.nightTransition.Line2=
 staxel.nightTransition.Line3=
 //TODO Translate [Reference] 'Tip: Want to build freely? Try using /creativeMode'
 staxel.nightTransition.Line4=
-//TODO Translate [Reference] 'Tip: Fruit crops have a chance of producing 2 fruits'
+//TODO Translate [Reference] 'Tip: Try 3rd person mode by setting "Camera Distance" in the options, or use CTRL + Mousewheel'
 staxel.nightTransition.Line5=
 //TODO Translate [Reference] 'Tip: Most tools work better if you hold the button down'
 staxel.nightTransition.Line6=
@@ -4165,6 +4182,7 @@ staxel.tile.happyBlocks.pathing.PlazaBlock.2.description=
 staxel.tile.happyBlocks.pathing.PlazaBlock.2.name=
 staxel.tile.happyBlocks.pathing.PlazaBlock.description=
 staxel.tile.happyBlocks.pathing.PlazaBlock.name=
+staxel.tile.happyBlocks.PlazaBlock.2.description=
 staxel.tile.happyBlocks.PlazaBlock.2.name=
 staxel.tile.happyBlocks.PlazaBlock.name=
 staxel.tile.happyBlocks.stone.BlueStone.description=
@@ -4916,6 +4934,8 @@ staxel.tileObject.merchantTotem.FurnitureVendor.description=
 staxel.tileObject.merchantTotem.FurnitureVendor.name=
 staxel.tileObject.merchantTotem.SeedVendor.name=
 staxel.tileObject.merchantTotem.ToolVendor.name=
+staxel.tileObject.misc.SeedpacketSign.description=
+staxel.tileObject.misc.SeedpacketSign.name=
 //TODO Translate [Reference] 'To be removed'
 staxel.tileObject.modded.minecart_coal-tipped.description=
 //TODO Translate [Reference] 'Minecart'
