@@ -144,7 +144,7 @@ commands.creative.description=
 commands.creative.success=
 //TODO Translate [Reference] '^c:F2E200;currentTime'
 commands.currentTime.description=
-//TODO Translate [Reference] 'The day is {0-day} and phase is {1:G2-phase}.'
+//TODO Translate [Reference] 'The day is {0-day} and phase is {1:G2-phase} ({2-time}).'
 commands.currentTime.success=
 //TODO Translate [Reference] '^c:F2E200;demoMode ^c:FFFFFF;(optional)on(true/false)'
 commands.demoMode.description=
@@ -509,6 +509,10 @@ loading.bundles=Downloade Paket mit Assets
 
 //[Reference] 'Skip'
 loading.skip=Überspringen
+//TODO Translate [Reference] 'Loot'
+looting.loot=
+//TODO Translate [Reference] 'Steal from'
+looting.stealFrom=
 
 //[Reference] 'Back to main menu'
 multiplayerMenu.back=Zurück
@@ -1241,6 +1245,7 @@ staxel.category.ball=
 staxel.category.Banana=
 //TODO Translate [Reference] 'Banner'
 staxel.category.banner=
+staxel.category.barber=
 //TODO Translate [Reference] 'Bark'
 staxel.category.bark=
 //[Reference] 'Barrel'
@@ -1396,6 +1401,7 @@ staxel.category.chess=
 staxel.category.chest=Truhe
 //TODO Translate [Reference] 'Chicken'
 staxel.category.chicken=
+staxel.category.chime=
 //TODO Translate [Reference] 'Chimney'
 staxel.category.chimeny=
 //TODO Translate [Reference] 'Chimney'
@@ -1434,6 +1440,7 @@ staxel.category.coconut=
 //TODO Translate [Reference] 'Coffee'
 staxel.category.coffee=
 staxel.category.computer=
+staxel.category.cone=
 //TODO Translate [Reference] 'Consumable'
 staxel.category.consumable=
 //TODO Translate [Reference] 'Container'
@@ -1447,6 +1454,7 @@ staxel.category.cooking=
 staxel.category.cooler=
 //TODO Translate [Reference] 'Coop'
 staxel.category.coop=
+staxel.category.corkboard=
 //TODO Translate [Reference] 'Corn'
 staxel.category.corn=
 //TODO Translate [Reference] 'Corner'
@@ -1608,6 +1616,7 @@ staxel.category.futon=
 staxel.category.game=
 //TODO Translate [Reference] 'Garbage'
 staxel.category.garbage=
+staxel.category.garden=
 //TODO Translate [Reference] 'Gate'
 staxel.category.gate=
 //TODO Translate [Reference] 'Gatherable'
@@ -1800,6 +1809,7 @@ staxel.category.mixable=
 staxel.category.mixing=
 //TODO Translate [Reference] 'Money'
 staxel.category.money=
+staxel.category.mosaic=
 //TODO Translate [Reference] 'Moss'
 staxel.category.moss=
 //TODO Translate [Reference] 'Mossy'
@@ -1866,6 +1876,7 @@ staxel.category.pickaxe=
 staxel.category.picket=
 //TODO Translate [Reference] 'Picnic'
 staxel.category.picnic=
+staxel.category.pictures=
 //TODO Translate [Reference] 'Pie'
 staxel.category.pie=
 staxel.category.pig=
@@ -1950,6 +1961,7 @@ staxel.category.Renamer=
 staxel.category.resource=
 //TODO Translate [Reference] 'Right'
 staxel.category.right=
+staxel.category.road=
 //TODO Translate [Reference] 'Rock'
 staxel.category.rock=
 //TODO Translate [Reference] 'Rod'
@@ -2029,6 +2041,7 @@ staxel.category.side=Seite
 staxel.category.sign=
 //TODO Translate [Reference] 'Signboard'
 staxel.category.signboard=
+staxel.category.silver=
 //TODO Translate [Reference] 'Single'
 staxel.category.single=
 //TODO Translate [Reference] 'Sink'
@@ -2049,6 +2062,7 @@ staxel.category.small=
 staxel.category.smoke=
 //TODO Translate [Reference] 'Smoker'
 staxel.category.smoker=
+staxel.category.snow=
 //TODO Translate [Reference] 'Sofa'
 staxel.category.sofa=
 //TODO Translate [Reference] 'Solid'
@@ -2219,6 +2233,7 @@ staxel.category.whistle=
 staxel.category.white=Weiß
 //TODO Translate [Reference] 'Wicker'
 staxel.category.wicker=
+staxel.category.wind=
 //[Reference] 'Window'
 staxel.category.window=Fenster
 //TODO Translate [Reference] 'Winton'
@@ -3470,8 +3485,10 @@ staxel.item.quest.YellowVoxelboy.description=
 //TODO Translate [Reference] 'Yellow Voxelboy'
 staxel.item.quest.YellowVoxelboy.name=
 staxel.item.seed.DarkFairyGrassSeedPacket.description=
+//TODO Translate [Reference] 'Dark Fairy Grass Seed Packet'
 staxel.item.seed.DarkFairyGrassSeedPacket.name=
 staxel.item.seed.FairyGrassSeedPacket.description=
+//TODO Translate [Reference] 'Fairy Grass Seed Packet'
 staxel.item.seed.FairyGrassSeedPacket.name=
 //TODO Translate [Reference] 'Seeds for growing grass.'
 staxel.item.seed.GrassSeedPacket.description=
@@ -3481,11 +3498,11 @@ staxel.item.seed.GrassSeedPacket.name=
 staxel.item.seed.ThickGrassSeedPacket.description=
 //TODO Translate [Reference] 'Thick Grass Seed Packet'
 staxel.item.seed.ThickGrassSeedPacket.name=
-//TODO Translate [Reference] 'A tool used to chop down big trees.'
+//TODO Translate [Reference] 'A tool used to chop down big trees. Charge the tool to cut deeper.'
 staxel.item.tool.Axe.description=
 //TODO Translate [Reference] 'Axe'
 staxel.item.tool.Axe.name=
-//TODO Translate [Reference] 'Useful for sweeping.'
+//TODO Translate [Reference] 'Use to push dropped items, or play broom hockey!'
 staxel.item.tool.Broom.description=
 //TODO Translate [Reference] 'Broom'
 staxel.item.tool.Broom.name=
@@ -3493,14 +3510,15 @@ staxel.item.tool.Broom.name=
 staxel.item.tool.captureCrate.description=
 //TODO Translate [Reference] 'Capture Crate'
 staxel.item.tool.captureCrate.name=
-//TODO Translate [Reference] 'A tool used to disassemble objects.'
+//TODO Translate [Reference] 'A tool used to disassemble objects. Charge the tool to affect a larger area'
 staxel.item.tool.Hammer.description=
 //TODO Translate [Reference] 'Hammer'
 staxel.item.tool.Hammer.name=
-//TODO Translate [Reference] 'A tool used to till the ground.'
+//TODO Translate [Reference] 'A tool used to till the ground. Charge the tool to affect a larger area.'
 staxel.item.tool.Hoe.description=
 //TODO Translate [Reference] 'Hoe'
 staxel.item.tool.Hoe.name=
+//TODO Translate [Reference] 'Grows any crop instantly!'
 staxel.item.tool.MagicWater.description=
 //TODO Translate [Reference] 'Magic Water'
 staxel.item.tool.MagicWater.name=
@@ -3516,11 +3534,11 @@ staxel.item.tool.Milker.name=
 staxel.item.tool.MixedSeeds.description=
 //TODO Translate [Reference] 'Bag of Mixed Seeds'
 staxel.item.tool.MixedSeeds.name=
-//TODO Translate [Reference] 'A tool used to catch insects.'
+//TODO Translate [Reference] 'A tool used to catch insects. Look on trees or amongst flowers!'
 staxel.item.tool.Net.description=
 //TODO Translate [Reference] 'Bug Net'
 staxel.item.tool.Net.name=
-//TODO Translate [Reference] 'A tool used to mine stone.'
+//TODO Translate [Reference] 'A tool used to mine stone. Charge the tool to affect a larger area.'
 staxel.item.tool.Pickaxe.description=
 //TODO Translate [Reference] 'Pickaxe'
 staxel.item.tool.Pickaxe.name=
@@ -3532,7 +3550,7 @@ staxel.item.tool.Renamer.name=
 staxel.item.tool.Rod.description=
 //TODO Translate [Reference] 'Fishing Rod'
 staxel.item.tool.Rod.name=
-//TODO Translate [Reference] 'A tool used to cut down long grass, flowers, weeds and more!'
+//TODO Translate [Reference] 'A tool used to cut down long grass, flowers, weeds and more! Charge the tool to cut more.'
 staxel.item.tool.Scythe.description=
 //TODO Translate [Reference] 'Scythe'
 staxel.item.tool.Scythe.name=
@@ -3540,7 +3558,7 @@ staxel.item.tool.Scythe.name=
 staxel.item.tool.Shears.description=
 //TODO Translate [Reference] 'Sheep-Shears'
 staxel.item.tool.Shears.name=
-//TODO Translate [Reference] 'A tool used to dig up earth.'
+//TODO Translate [Reference] 'A tool used to dig up earth. Charge the tool to dig more.'
 staxel.item.tool.Shovel.description=
 //TODO Translate [Reference] 'Shovel'
 staxel.item.tool.Shovel.name=
@@ -3548,7 +3566,7 @@ staxel.item.tool.Shovel.name=
 staxel.item.tool.Smoker.description=
 //TODO Translate [Reference] 'Smoker'
 staxel.item.tool.Smoker.name=
-//TODO Translate [Reference] 'A tool used to water your crops easily.'
+//TODO Translate [Reference] 'A tool used to water your crops easily. Hold it down to water faster.'
 staxel.item.tool.WateringCan.description=
 //TODO Translate [Reference] 'Watering Can'
 staxel.item.tool.WateringCan.name=
@@ -4362,6 +4380,7 @@ staxel.tile.newVillage.RoughStonePathway.name=
 staxel.tile.newVillage.ShoddyWall.description=
 //TODO Translate [Reference] 'Shoddy Brick Block'
 staxel.tile.newVillage.ShoddyWall.name=
+staxel.tile.newVillage.ShopFlooring.name=
 //TODO Translate [Reference] 'Thatch makes for a great roof!'
 staxel.tile.newVillage.ThatchBlock.description=
 //TODO Translate [Reference] 'Thatch Block'
@@ -4452,6 +4471,7 @@ staxel.tile.rock.Rock.4.name=
 staxel.tile.rock.Rock.5.description=
 //TODO Translate [Reference] 'Mossy Stone Block'
 staxel.tile.rock.Rock.5.name=
+staxel.tile.rock.Rock.snow.1.name=
 //TODO Translate [Reference] 'This block is made up of a very fine sand.'
 staxel.tile.sand.Sand.beach.description=
 //TODO Translate [Reference] 'Sand Block'
@@ -4488,6 +4508,7 @@ staxel.tile.temple.LeafyTile.name=
 staxel.tile.temple.Water.description=
 //TODO Translate [Reference] 'Water Block'
 staxel.tile.temple.Water.name=
+staxel.tile.water.PondWater.name=
 //TODO Translate [Reference] 'Flooring block made out of wicker. Belongs to the 'Wicker Set'.'
 staxel.tile.wicker.WickerFloorTile.description=
 //TODO Translate [Reference] 'Wicker Flooring'
@@ -4593,6 +4614,10 @@ staxel.tileObject.beachset.Cooler.name=
 staxel.tileObject.beachset.Parasol.description=
 //TODO Translate [Reference] 'Parasol'
 staxel.tileObject.beachset.Parasol.name=
+staxel.tileObject.biomeDebris.LongMeadowGrass.1.name=
+staxel.tileObject.biomeDebris.LongMeadowGrass.2.name=
+staxel.tileObject.biomeDebris.LongMeadowGrass.3.name=
+staxel.tileObject.biomeDebris.LongMeadowGrass.4.name=
 //TODO Translate [Reference] 'A roof made from dark blue shingles.'
 staxel.tileObject.blueroof.BlueRoof_FlatEdge.description=
 //TODO Translate [Reference] 'Flat Edged Blue Tiled Roof'
@@ -4793,6 +4818,16 @@ staxel.tileObject.creepyBiome.TombstoneSmall.name=
 staxel.tileObject.creepyBiome.TombstoneSmallBroken.description=
 //TODO Translate [Reference] 'Small Broken Tombstone'
 staxel.tileObject.creepyBiome.TombstoneSmallBroken.name=
+staxel.tileObject.decorations.BarberPole.description=
+staxel.tileObject.decorations.BarberPole.name=
+staxel.tileObject.decorations.Corkboard.description=
+staxel.tileObject.decorations.Corkboard.name=
+staxel.tileObject.decorations.GardenArch.description=
+staxel.tileObject.decorations.GardenArch.name=
+staxel.tileObject.decorations.RoadCone.description=
+staxel.tileObject.decorations.RoadCone.name=
+staxel.tileObject.decorations.WindChime.description=
+staxel.tileObject.decorations.WindChime.name=
 //TODO Translate [Reference] 'Too much to fit in a coin purse, but not enough to swim in.'
 staxel.tileObject.dungeon.MoneyPile.description=
 //TODO Translate [Reference] 'Pile of Gold'
@@ -4945,7 +4980,9 @@ staxel.tileObject.merchantTotem.FurnitureVendor.description=
 staxel.tileObject.merchantTotem.FurnitureVendor.name=
 staxel.tileObject.merchantTotem.SeedVendor.name=
 staxel.tileObject.merchantTotem.ToolVendor.name=
+//TODO Translate [Reference] 'Place a seed packet inside to mark your crops! Remember, you can rotate items before you dock them.'
 staxel.tileObject.misc.SeedpacketSign.description=
+//TODO Translate [Reference] 'Seed Sign'
 staxel.tileObject.misc.SeedpacketSign.name=
 //TODO Translate [Reference] 'To be removed'
 staxel.tileObject.modded.minecart_coal-tipped.description=
@@ -5039,6 +5076,7 @@ staxel.tileObject.roof.LightGreenRoof_FlatStraight.name=
 staxel.tileObject.roof.LightGreenRoof_InnerCorner.name=
 staxel.tileObject.roof.LightGreenRoof_LeftEdge.description=
 staxel.tileObject.roof.LightGreenRoof_LeftEdge.name=
+staxel.tileObject.roof.LightGreenRoof_LeftEdgeCut.description=
 staxel.tileObject.roof.LightGreenRoof_LeftEdgeCut.name=
 staxel.tileObject.roof.LightGreenRoof_LeftEdgeCutLong.description=
 staxel.tileObject.roof.LightGreenRoof_LeftEdgeCutLong.name=
@@ -5745,6 +5783,8 @@ staxel.tileObject.serverVillage.FenceStraight.name=
 staxel.tileObject.serverVillage.FilledFountain.description=
 //TODO Translate [Reference] 'Fountain'
 staxel.tileObject.serverVillage.FilledFountain.name=
+staxel.tileObject.serverVillage.FilledFountainLarge.description=
+staxel.tileObject.serverVillage.FilledFountainLarge.name=
 //TODO Translate [Reference] 'Used for storing your food and keeping it fresh.'
 staxel.tileObject.serverVillage.Fridge.description=
 //TODO Translate [Reference] 'Simply Freezing Fridge'
@@ -6135,6 +6175,7 @@ staxel.tileObject.themedfurniture.bathroom.Sink.description=
 staxel.tileObject.themedfurniture.bathroom.Sink.name=
 staxel.tileObject.themedfurniture.bathroom.Toilet.description=
 staxel.tileObject.themedfurniture.bathroom.Toilet.name=
+staxel.tileObject.themedfurniture.bathroom.ToiletPaper.description=
 staxel.tileObject.themedfurniture.bathroom.ToiletPaper.name=
 //TODO Translate [Reference] 'From the 'Checkers Furniture Set' - A comfortable armchair with a checkered design.'
 staxel.tileObject.themedfurniture.checkered.CheckersArmChair.description=
@@ -6521,17 +6562,24 @@ staxel.tileObject.wicker.WickerTable.name=
 staxel.tileObject.wicker.WickerWardrobe.description=
 //TODO Translate [Reference] 'Wicker Wardrobe'
 staxel.tileObject.wicker.WickerWardrobe.name=
+staxel.totem.AirshipLanding=
 //TODO Translate [Reference] 'Simple Barn'
 staxel.totem.Barn=
 staxel.totem.Barn.name=
+staxel.totem.CecileHome=
 //TODO Translate [Reference] 'Emilia's House'
 staxel.totem.EmiliaHome=
+staxel.totem.ErisHome=
+staxel.totem.JamieHome=
+staxel.totem.MayorMaxHome=
 //TODO Translate [Reference] '({0-count} missing)'
 staxel.totem.missingItem=
+staxel.totem.OscarHome=
 //TODO Translate [Reference] '(Done)'
 staxel.totem.RequirementDone=
 //TODO Translate [Reference] '(Missing)'
 staxel.totem.roofMissing=
+staxel.totem.RosemaryHome=
 staxel.totem.Test.name=
 //TODO Translate [Reference] 'This tree grows juicy, crunchy apples.'
 staxel.tree.AppleTree.description=
