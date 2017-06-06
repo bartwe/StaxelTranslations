@@ -203,6 +203,14 @@ commands.kick.description=kick spelerNaam
 commands.kick.failure=Kan {0-player} niet kicken: speler is een admin, of is niet online.
 //[Reference] '{0-player} has been ejected from the server.'
 commands.kick.success={0-player} is van de server geschopt
+//TODO Translate [Reference] 'loadDesign requires a filename/design code'
+commands.loadDesign.needFileName=
+//TODO Translate [Reference] 'No such design {0-design}'
+commands.loadDesign.noSuchDesign=
+//TODO Translate [Reference] 'No such file {0-file}'
+commands.loadDesign.noSuchFile=
+//TODO Translate [Reference] 'Design loaded successfully'
+commands.loadDesign.success=
 //[Reference] '^c:F2E200;model ^c:FFFFFF;(optional)playerName (optional)modelFileName'
 commands.model.description=model (optioneel)spelerNaam (optioneel)modelBestandnaam
 //[Reference] 'Could not switch to character model '{0-model}' not found in assets.'
@@ -400,7 +408,7 @@ credits.beth.description=Ze stond altijd klaar om te helpen met programmeren en 
 credits.curtis.description=Hij is een getalenteerde muzikant die je met zijn levendige soundtracks onderdompelt in de wereld van Staxel.
 //[Reference] 'Helped out with writing all sorts.'
 credits.demanRisu.description=Hielp bij het schrijven op allerlei gebieden.
-//[Reference] 'A faceless entity between realms; only exists when you’re not looking. In its spare time, programs.'
+//[Reference] 'A faceless entity between realms; only exists when you�re not looking. In its spare time, programs.'
 credits.moocowtg.description=Een anonieme entiteit die slechts bestaat.. als je niet kijkt. In zijn vrije tijd programmeert hij.
 //[Reference] 'He is a programmer who writes music and fiction in his spare time. His cat writes approximately half of his code.'
 credits.moomba.description=Hij is een programmeur die in zijn vrije tijd muziek en fictie schrijft. Zijn kat schrijft ongeveer de helft van zijn code.
@@ -412,7 +420,7 @@ credits.sledra.description=Met een titel als Project Manager is sledra vermoedel
 credits.solatrus.description=Hij heeft een paar lieflijke soundtracks voor Staxel gecomponeerd.
 //[Reference] 'He is the artist. He has worked hard to produce all the in game models, and make the game as visually appealing as possible.'
 credits.steampunkstein.description=Hij is de kunstenaar. Hij heeft hard gewerkt om alle ingame modellen te ontwerpen, en het spel visueel zo aantrekkelijk mogelijk te maken.
-//[Reference] 'He is Staxel’s PR and community manager, additionally acts as Staxel’s Chief Lacky and helps out with the game design.'
+//[Reference] 'He is Staxel�s PR and community manager, additionally acts as Staxel�s Chief Lacky and helps out with the game design.'
 credits.teaGadd.description=Hij is Staxel's PR- en communitymanager, tevens fungeert hij als Staxel's Chef Lakei en helpt met het gamedesign.
 //[Reference] 'He is another programmer. Likes include: programming.'
 credits.terrorcell.description=Hij is een programmeur. Hij houdt van programmeren.
@@ -927,6 +935,8 @@ staxel.accessories.devavatars.damon.DamonTrousers.name=Damon Broek
 
 //[Reference] 'Joe Hair'
 staxel.accessories.devavatars.joe.JoeHair=Joe Haar
+staxel.accessories.devavatars.joe.JoeHat.description=
+staxel.accessories.devavatars.joe.JoeHat.name=
 staxel.accessories.devavatars.joe.JoeShirt.description=
 //TODO Translate [Reference] 'Joe Shirt'
 staxel.accessories.devavatars.joe.JoeShirt.name=
@@ -963,6 +973,8 @@ staxel.accessories.devavatars.razz.RazzTrousers.name=Razz Broek
 
 //[Reference] 'Sledra Hair'
 staxel.accessories.devavatars.sledra.SledraHair=Sledra Haar
+staxel.accessories.devavatars.sledra.SledraHat.description=
+staxel.accessories.devavatars.sledra.SledraHat.name=
 staxel.accessories.devavatars.sledra.SledraShirt.description=
 //TODO Translate [Reference] 'Sledra Shirt'
 staxel.accessories.devavatars.sledra.SledraShirt.name=
@@ -1525,6 +1537,7 @@ staxel.category.dining=Avondeten
 staxel.category.dinner=Avondmaal
 //[Reference] 'Dirt'
 staxel.category.dirt=Vuil
+staxel.category.display=
 //[Reference] 'Dog'
 staxel.category.dog=Hond
 //[Reference] 'Dogs'
@@ -1984,6 +1997,7 @@ staxel.category.roof=Dak
 staxel.category.roofing=Dakbedekking
 //[Reference] 'Room'
 staxel.category.room=Kamer
+staxel.category.rope=
 //[Reference] 'Rose'
 staxel.category.rose=Roos
 //[Reference] 'Rough'
@@ -2307,7 +2321,9 @@ staxel.crafting.recipes.JamRaspberry.name=Frambozenjam Recept
 staxel.crafting.recipes.JamStrawberry.description=Lees dit om het recept te leren.
 //[Reference] 'Strawberry Jam Recipe'
 staxel.crafting.recipes.JamStrawberry.name=Aardbeienjam Recept
+staxel.crafting.recipes.MakeSugar1.description=
 staxel.crafting.recipes.MakeSugar1.name=
+staxel.crafting.recipes.MakeSugar2.description=
 staxel.crafting.recipes.MakeSugar2.name=
 //[Reference] 'Read this to learn the recipe.'
 staxel.crafting.recipes.MarmaladeLemon.description=Lees dit om het recept te leren.
@@ -2337,6 +2353,7 @@ staxel.crafting.recipes.PieBlueberry.name=Bosbessentaart Recept
 staxel.crafting.recipes.PieCherry.description=Lees dit om het recept te leren.
 //[Reference] 'Cherry Pie Recipe'
 staxel.crafting.recipes.PieCherry.name=Kersentaart Recept
+staxel.crafting.recipes.PieCrust.description=
 staxel.crafting.recipes.PieCrust.name=Taartkorst
 //[Reference] 'Read this to learn the recipe.'
 staxel.crafting.recipes.PieDragonFruit.description=Lees dit om het recept te leren.
@@ -3434,6 +3451,7 @@ staxel.item.gatherable.FishBeta.name=Betta Vis
 staxel.item.gatherable.HoneyPotFull.description=Een honingpot tot de rand gevuld met honing. Het ziet er heerlijk uit!
 //[Reference] 'Full Honey Pot'
 staxel.item.gatherable.HoneyPotFull.name=Volle Pot Honing
+staxel.item.gatherable.Octopus.name=
 //[Reference] 'This red and white mushroom is very pretty, but it's not safe to eat!'
 staxel.item.gatherable.RedWhiteMushroom.description=Deze rood-witte paddestoel is erg mooi, maar pas op, hij is giftig!
 //[Reference] 'Red & White Mushroom'
@@ -3442,6 +3460,7 @@ staxel.item.gatherable.RedWhiteMushroom.name=Rood-witte Paddestoel
 staxel.item.gatherable.RhinoBeetle.description=En ze zeiden dat het niet mogelijk was.
 //[Reference] 'Rhino Beetle'
 staxel.item.gatherable.RhinoBeetle.name=Neushoornkever
+staxel.item.gatherable.Squid.name=
 //[Reference] 'White mushrooms pretty common, and taste great fried!'
 staxel.item.gatherable.WhiteMushrooms.description=Witte paddestoelen komen veel voor, en smaken heerlijk wanneer gebakken!
 //[Reference] 'White Mushroom'
@@ -3845,6 +3864,7 @@ staxel.plant.flower.Lily.pink.2.name=Roze Lelie
 staxel.plant.flower.Lily.white.description=Een fijne, trompetvormige bloem.
 //[Reference] 'White Lily'
 staxel.plant.flower.Lily.white.name=Witte Lelie
+staxel.plant.flower.Madia.description=
 staxel.plant.flower.Madia.name=
 //[Reference] 'A flower with a unique pattern on its petals. It almost looks like a butterfly!'
 staxel.plant.flower.Pansies.blue.description=Een bloem met een uniek patroon op haar blaadjes. Het lijkt wel een vlinder!
@@ -4417,6 +4437,8 @@ staxel.tile.newVillage.ShoddyWall.description=Een ruw uitziend bakstenen blok.
 staxel.tile.newVillage.ShoddyWall.name=Ruwe Baksteen Blok
 staxel.tile.newVillage.ShopFlooring.name=
 staxel.tile.newVillage.ShopRoof.name=
+staxel.tile.newVillage.ShopWall1.name=
+staxel.tile.newVillage.ShopWall2.name=
 //[Reference] 'Thatch makes for a great roof!'
 staxel.tile.newVillage.ThatchBlock.description=Met riet kun je een prima dak maken!
 //[Reference] 'Thatch Block'
@@ -4569,6 +4591,8 @@ staxel.tile.wood.WoodPlankTile.name=Witte Houten Plank Bevloering
 staxel.tile.wood.WoodPlankWall.description=Hoge kwaliteit houten planken.
 //[Reference] 'White Wooden Plank Block'
 staxel.tile.wood.WoodPlankWall.name=Witte Houten Planken Blok
+staxel.tileObject.airship.RopeFenceCorner.name=
+staxel.tileObject.airship.RopeFenceStraight.name=
 
 //[Reference] 'This is where bees are kept. If a bee colony resides here they will slowly make and store honey inside here which can be harvested!'
 staxel.tileObject.animalFurniture.Apiary.description=Hier worden bijen gehouden. Als hier een bijenkolonie huist, zullen ze gestaag honing maken en hier opslaan, wat dan gewonnen kan worden!
@@ -5043,6 +5067,7 @@ staxel.tileObject.office.Computer.description=
 staxel.tileObject.office.Computer.name=
 staxel.tileObject.office.DeskClock.description=
 staxel.tileObject.office.DeskClock.name=
+staxel.tileObject.office.OfficeChair.description=
 staxel.tileObject.office.OfficeChair.name=
 staxel.tileObject.office.OfficeCounter.description=
 staxel.tileObject.office.OfficeCounter.name=
@@ -5075,26 +5100,35 @@ staxel.tileObject.retrotest.dungeon_railing_corner.description=Dikke, stevige ra
 staxel.tileObject.retrotest.dungeon_railing_corner.name=Hoekstuk Kerker Reling
 staxel.tileObject.roof.JadeRoof_FlatEdge.description=
 staxel.tileObject.roof.JadeRoof_FlatEdge.name=
+staxel.tileObject.roof.JadeRoof_FlatEdge2.description=
 staxel.tileObject.roof.JadeRoof_FlatEdge2.name=
 staxel.tileObject.roof.JadeRoof_FlatEdgeShort.description=
 staxel.tileObject.roof.JadeRoof_FlatEdgeShort.name=
 staxel.tileObject.roof.JadeRoof_FlatStraight.name=
+staxel.tileObject.roof.JadeRoof_InnerCorner.description=
 staxel.tileObject.roof.JadeRoof_InnerCorner.name=
 staxel.tileObject.roof.JadeRoof_LeftEdge.description=
 staxel.tileObject.roof.JadeRoof_LeftEdge.name=
+staxel.tileObject.roof.JadeRoof_LeftEdgeCut.description=
 staxel.tileObject.roof.JadeRoof_LeftEdgeCut.name=
+staxel.tileObject.roof.JadeRoof_LeftEdgeCutLong.description=
 staxel.tileObject.roof.JadeRoof_LeftEdgeCutLong.name=
 staxel.tileObject.roof.JadeRoof_LeftEdgeCutLongFinal.description=
 staxel.tileObject.roof.JadeRoof_LeftEdgeCutLongFinal.name=
+staxel.tileObject.roof.JadeRoof_OuterCorner.description=
 staxel.tileObject.roof.JadeRoof_OuterCorner.name=
+staxel.tileObject.roof.JadeRoof_RightEdge.description=
 staxel.tileObject.roof.JadeRoof_RightEdge.name=
+staxel.tileObject.roof.JadeRoof_RightEdgeCut.description=
 staxel.tileObject.roof.JadeRoof_RightEdgeCut.name=
+staxel.tileObject.roof.JadeRoof_RightEdgeCutLong.description=
 staxel.tileObject.roof.JadeRoof_RightEdgeCutLong.name=
 staxel.tileObject.roof.JadeRoof_RightEdgeCutLongFinal.name=
 staxel.tileObject.roof.JadeRoof_RightStraight.description=
 staxel.tileObject.roof.JadeRoof_RightStraight.name=
 staxel.tileObject.roof.LightBlueRoof_FlatEdge.description=
 staxel.tileObject.roof.LightBlueRoof_FlatEdge.name=
+staxel.tileObject.roof.LightBlueRoof_FlatEdge2.description=
 staxel.tileObject.roof.LightBlueRoof_FlatEdge2.name=
 staxel.tileObject.roof.LightBlueRoof_FlatEdgeShort.description=
 staxel.tileObject.roof.LightBlueRoof_FlatEdgeShort.name=
@@ -5102,24 +5136,35 @@ staxel.tileObject.roof.LightBlueRoof_FlatStraight.description=
 staxel.tileObject.roof.LightBlueRoof_FlatStraight.name=
 staxel.tileObject.roof.LightBlueRoof_InnerCorner.description=
 staxel.tileObject.roof.LightBlueRoof_InnerCorner.name=
+staxel.tileObject.roof.LightBlueRoof_LeftEdge.description=
 staxel.tileObject.roof.LightBlueRoof_LeftEdge.name=
 staxel.tileObject.roof.LightBlueRoof_LeftEdgeCut.description=
 staxel.tileObject.roof.LightBlueRoof_LeftEdgeCut.name=
+staxel.tileObject.roof.LightBlueRoof_LeftEdgeCutLong.description=
 staxel.tileObject.roof.LightBlueRoof_LeftEdgeCutLong.name=
 staxel.tileObject.roof.LightBlueRoof_LeftEdgeCutLongFinal.description=
 staxel.tileObject.roof.LightBlueRoof_LeftEdgeCutLongFinal.name=
 staxel.tileObject.roof.LightBlueRoof_OuterCorner.description=
 staxel.tileObject.roof.LightBlueRoof_OuterCorner.name=
+staxel.tileObject.roof.LightBlueRoof_RightEdge.description=
 staxel.tileObject.roof.LightBlueRoof_RightEdge.name=
+staxel.tileObject.roof.LightBlueRoof_RightEdgeCut.description=
 staxel.tileObject.roof.LightBlueRoof_RightEdgeCut.name=
 staxel.tileObject.roof.LightBlueRoof_RightEdgeCutLong.description=
 staxel.tileObject.roof.LightBlueRoof_RightEdgeCutLong.name=
+staxel.tileObject.roof.LightBlueRoof_RightEdgeCutLongFinal.description=
 staxel.tileObject.roof.LightBlueRoof_RightEdgeCutLongFinal.name=
+staxel.tileObject.roof.LightBlueRoof_RightStraight.description=
 staxel.tileObject.roof.LightBlueRoof_RightStraight.name=
+staxel.tileObject.roof.LightGreenRoof_FlatEdge.description=
 staxel.tileObject.roof.LightGreenRoof_FlatEdge.name=
+staxel.tileObject.roof.LightGreenRoof_FlatEdge2.description=
 staxel.tileObject.roof.LightGreenRoof_FlatEdge2.name=
+staxel.tileObject.roof.LightGreenRoof_FlatEdgeShort.description=
 staxel.tileObject.roof.LightGreenRoof_FlatEdgeShort.name=
+staxel.tileObject.roof.LightGreenRoof_FlatStraight.description=
 staxel.tileObject.roof.LightGreenRoof_FlatStraight.name=
+staxel.tileObject.roof.LightGreenRoof_InnerCorner.description=
 staxel.tileObject.roof.LightGreenRoof_InnerCorner.name=
 staxel.tileObject.roof.LightGreenRoof_LeftEdge.description=
 staxel.tileObject.roof.LightGreenRoof_LeftEdge.name=
@@ -5127,16 +5172,21 @@ staxel.tileObject.roof.LightGreenRoof_LeftEdgeCut.description=
 staxel.tileObject.roof.LightGreenRoof_LeftEdgeCut.name=
 staxel.tileObject.roof.LightGreenRoof_LeftEdgeCutLong.description=
 staxel.tileObject.roof.LightGreenRoof_LeftEdgeCutLong.name=
+staxel.tileObject.roof.LightGreenRoof_LeftEdgeCutLongFinal.description=
 staxel.tileObject.roof.LightGreenRoof_LeftEdgeCutLongFinal.name=
 staxel.tileObject.roof.LightGreenRoof_OuterCorner.description=
 staxel.tileObject.roof.LightGreenRoof_OuterCorner.name=
+staxel.tileObject.roof.LightGreenRoof_RightEdge.description=
 staxel.tileObject.roof.LightGreenRoof_RightEdge.name=
 staxel.tileObject.roof.LightGreenRoof_RightEdgeCut.description=
 staxel.tileObject.roof.LightGreenRoof_RightEdgeCut.name=
+staxel.tileObject.roof.LightGreenRoof_RightEdgeCutLong.description=
 staxel.tileObject.roof.LightGreenRoof_RightEdgeCutLong.name=
 staxel.tileObject.roof.LightGreenRoof_RightEdgeCutLongFinal.description=
 staxel.tileObject.roof.LightGreenRoof_RightEdgeCutLongFinal.name=
+staxel.tileObject.roof.LightGreenRoof_RightStraight.description=
 staxel.tileObject.roof.LightGreenRoof_RightStraight.name=
+staxel.tileObject.roof.OrangeRoof_FlatEdge.description=
 staxel.tileObject.roof.OrangeRoof_FlatEdge.name=
 staxel.tileObject.roof.OrangeRoof_FlatEdge2.description=
 staxel.tileObject.roof.OrangeRoof_FlatEdge2.name=
@@ -5144,36 +5194,49 @@ staxel.tileObject.roof.OrangeRoof_FlatEdgeShort.description=
 staxel.tileObject.roof.OrangeRoof_FlatEdgeShort.name=
 staxel.tileObject.roof.OrangeRoof_FlatStraight.description=
 staxel.tileObject.roof.OrangeRoof_FlatStraight.name=
+staxel.tileObject.roof.OrangeRoof_InnerCorner.description=
 staxel.tileObject.roof.OrangeRoof_InnerCorner.name=
+staxel.tileObject.roof.OrangeRoof_LeftEdge.description=
 staxel.tileObject.roof.OrangeRoof_LeftEdge.name=
+staxel.tileObject.roof.OrangeRoof_LeftEdgeCut.description=
 staxel.tileObject.roof.OrangeRoof_LeftEdgeCut.name=
 staxel.tileObject.roof.OrangeRoof_LeftEdgeCutLong.description=
 staxel.tileObject.roof.OrangeRoof_LeftEdgeCutLong.name=
+staxel.tileObject.roof.OrangeRoof_LeftEdgeCutLongFinal.description=
 staxel.tileObject.roof.OrangeRoof_LeftEdgeCutLongFinal.name=
+staxel.tileObject.roof.OrangeRoof_OuterCorner.description=
 staxel.tileObject.roof.OrangeRoof_OuterCorner.name=
+staxel.tileObject.roof.OrangeRoof_RightEdge.description=
 staxel.tileObject.roof.OrangeRoof_RightEdge.name=
 staxel.tileObject.roof.OrangeRoof_RightEdgeCut.description=
 staxel.tileObject.roof.OrangeRoof_RightEdgeCut.name=
+staxel.tileObject.roof.OrangeRoof_RightEdgeCutLong.description=
 staxel.tileObject.roof.OrangeRoof_RightEdgeCutLong.name=
 staxel.tileObject.roof.OrangeRoof_RightEdgeCutLongFinal.description=
 staxel.tileObject.roof.OrangeRoof_RightEdgeCutLongFinal.name=
+staxel.tileObject.roof.OrangeRoof_RightStraight.description=
 staxel.tileObject.roof.OrangeRoof_RightStraight.name=
 staxel.tileObject.roof.PinkRoof_FlatEdge.description=
 staxel.tileObject.roof.PinkRoof_FlatEdge.name=
 staxel.tileObject.roof.PinkRoof_FlatEdge2.description=
 staxel.tileObject.roof.PinkRoof_FlatEdge2.name=
+staxel.tileObject.roof.PinkRoof_FlatEdgeShort.description=
 staxel.tileObject.roof.PinkRoof_FlatEdgeShort.name=
 staxel.tileObject.roof.PinkRoof_FlatStraight.description=
 staxel.tileObject.roof.PinkRoof_FlatStraight.name=
 staxel.tileObject.roof.PinkRoof_InnerCorner.description=
 staxel.tileObject.roof.PinkRoof_InnerCorner.name=
+staxel.tileObject.roof.PinkRoof_LeftEdge.description=
 staxel.tileObject.roof.PinkRoof_LeftEdge.name=
 staxel.tileObject.roof.PinkRoof_LeftEdgeCut.description=
 staxel.tileObject.roof.PinkRoof_LeftEdgeCut.name=
+staxel.tileObject.roof.PinkRoof_LeftEdgeCutLong.description=
 staxel.tileObject.roof.PinkRoof_LeftEdgeCutLong.name=
+staxel.tileObject.roof.PinkRoof_LeftEdgeCutLongFinal.description=
 staxel.tileObject.roof.PinkRoof_LeftEdgeCutLongFinal.name=
 staxel.tileObject.roof.PinkRoof_OuterCorner.description=
 staxel.tileObject.roof.PinkRoof_OuterCorner.name=
+staxel.tileObject.roof.PinkRoof_RightEdge.description=
 staxel.tileObject.roof.PinkRoof_RightEdge.name=
 staxel.tileObject.roof.PinkRoof_RightEdgeCut.description=
 staxel.tileObject.roof.PinkRoof_RightEdgeCut.name=
@@ -5973,11 +6036,13 @@ staxel.tileObject.serverVillage.RanchDoor.name=Ranch Deur
 staxel.tileObject.serverVillage.RanchStairs.description=
 //[Reference] 'Ranch Stairs'
 staxel.tileObject.serverVillage.RanchStairs.name=Ranch Trap
+staxel.tileObject.serverVillage.RanchWindow.description=
 //[Reference] 'Ranch Window'
 staxel.tileObject.serverVillage.RanchWindow.name=Ranch Raam
 staxel.tileObject.serverVillage.RanchWindowBroken.description=
 //[Reference] 'Broken Ranch Window'
 staxel.tileObject.serverVillage.RanchWindowBroken.name=Gebroken Ranch Raam
+staxel.tileObject.serverVillage.RanchWindowLarge.description=
 //[Reference] 'Large Ranch Window'
 staxel.tileObject.serverVillage.RanchWindowLarge.name=Groot Ranch Raam
 //[Reference] 'A freshly baked pie with a delicious, raspberry filling.'
@@ -6116,6 +6181,16 @@ staxel.tileObject.serverVillage.YellowJuice.description=Dit sap ziet er fruitig 
 staxel.tileObject.serverVillage.YellowJuice.name=Citroensap
 staxel.tileObject.shop.CashRegister.description=
 staxel.tileObject.shop.CashRegister.name=
+staxel.tileObject.shop.DisplayCaseLeft.description=
+staxel.tileObject.shop.DisplayCaseLeft.name=
+staxel.tileObject.shop.DisplayCaseMiddlePlain.description=
+staxel.tileObject.shop.DisplayCaseMiddlePlain.name=
+staxel.tileObject.shop.DisplayCaseMiddleSun.description=
+staxel.tileObject.shop.DisplayCaseMiddleSun.name=
+staxel.tileObject.shop.DisplayCaseRight.description=
+staxel.tileObject.shop.DisplayCaseRight.name=
+staxel.tileObject.shop.DisplayCaseStandalone.description=
+staxel.tileObject.shop.DisplayCaseStandalone.name=
 staxel.tileObject.shop.FurnitureDock.name=
 staxel.tileObject.shop.Mannequin.name=
 staxel.tileObject.shop.ShopCounter.description=
@@ -6436,24 +6511,35 @@ staxel.tileObject.themedfurniture.groovy.GroovyTable.name=Groovy Tafel
 staxel.tileObject.themedfurniture.groovy.GroovyWardrobe.description=Uit de 'Swingende Meubel Set' - Een kledingkast met twee deuren, geen laden.. en geen grenzen.
 //[Reference] 'Groovy Wardrobe'
 staxel.tileObject.themedfurniture.groovy.GroovyWardrobe.name=Groovy Kledingkast
+staxel.tileObject.themedfurniture.minimalist.MinimalistArmChair.description=
 staxel.tileObject.themedfurniture.minimalist.MinimalistArmChair.name=
 staxel.tileObject.themedfurniture.minimalist.MinimalistChair.description=
 staxel.tileObject.themedfurniture.minimalist.MinimalistChair.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistCoffeeTable.description=
 staxel.tileObject.themedfurniture.minimalist.MinimalistCoffeeTable.name=
 staxel.tileObject.themedfurniture.minimalist.MinimalistCredenza.description=
 staxel.tileObject.themedfurniture.minimalist.MinimalistCredenza.name=
 staxel.tileObject.themedfurniture.minimalist.MinimalistDesk.description=
 staxel.tileObject.themedfurniture.minimalist.MinimalistDesk.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistDoubleBed.description=
 staxel.tileObject.themedfurniture.minimalist.MinimalistDoubleBed.name=
 staxel.tileObject.themedfurniture.minimalist.MinimalistDresser.description=
 staxel.tileObject.themedfurniture.minimalist.MinimalistDresser.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistLamp.description=
 staxel.tileObject.themedfurniture.minimalist.MinimalistLamp.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistLoveseat.description=
 staxel.tileObject.themedfurniture.minimalist.MinimalistLoveseat.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistSideTable.description=
 staxel.tileObject.themedfurniture.minimalist.MinimalistSideTable.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistSingleBed.description=
 staxel.tileObject.themedfurniture.minimalist.MinimalistSingleBed.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistSofa.description=
 staxel.tileObject.themedfurniture.minimalist.MinimalistSofa.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistTable.description=
 staxel.tileObject.themedfurniture.minimalist.MinimalistTable.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistTableLarge.description=
 staxel.tileObject.themedfurniture.minimalist.MinimalistTableLarge.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistWardrobe.description=
 staxel.tileObject.themedfurniture.minimalist.MinimalistWardrobe.name=
 //[Reference] 'From the 'Pastel Furniture Set' - A comfortable armchair, with a floral design on the upholstery.'
 staxel.tileObject.themedfurniture.pastel.PastelArmChair.description=Uit de 'Pastel Meubel Set' - Een comfortabele fauteuil, met een bloemontwerp op de bekleding.
@@ -6560,33 +6646,47 @@ staxel.tileObject.themedfurniture.ranch.RanchTable.name=Ranch Tafel
 staxel.tileObject.themedfurniture.ranch.RanchWardrobe.description=
 //[Reference] 'Ranch Wardrobe'
 staxel.tileObject.themedfurniture.ranch.RanchWardrobe.name=Ranch Kledingkast
+staxel.tileObject.themedfurniture.victorian.VictorianArmChair.description=
 staxel.tileObject.themedfurniture.victorian.VictorianArmChair.name=Victoriaanse Stoel met Armleuning
+staxel.tileObject.themedfurniture.victorian.VictorianChair.description=
 staxel.tileObject.themedfurniture.victorian.VictorianChair.name=Victoriaanse Stoel
+staxel.tileObject.themedfurniture.victorian.VictorianCoffeeTable.description=
 staxel.tileObject.themedfurniture.victorian.VictorianCoffeeTable.name=Victoriaanse Salontafel
+staxel.tileObject.themedfurniture.victorian.VictorianCredenza.description=
 staxel.tileObject.themedfurniture.victorian.VictorianCredenza.name=Victoriaanse Credenza
+staxel.tileObject.themedfurniture.victorian.VictorianDesk.description=
 staxel.tileObject.themedfurniture.victorian.VictorianDesk.name=Victoriaans Bureau
+staxel.tileObject.themedfurniture.victorian.VictorianDoubleBed.description=
 staxel.tileObject.themedfurniture.victorian.VictorianDoubleBed.name=Victoriaans Tweepersoonsbed
 staxel.tileObject.themedfurniture.victorian.VictorianDresser.description=
 staxel.tileObject.themedfurniture.victorian.VictorianDresser.name=Victoriaans Dressoir
 staxel.tileObject.themedfurniture.victorian.VictorianLamp.description=
 staxel.tileObject.themedfurniture.victorian.VictorianLamp.name=Victoriaanse Lamp
+staxel.tileObject.themedfurniture.victorian.VictorianLoveseat.description=
 staxel.tileObject.themedfurniture.victorian.VictorianLoveseat.name=Victoriaanse Loveseat
 staxel.tileObject.themedfurniture.victorian.VictorianSideTable.description=
 staxel.tileObject.themedfurniture.victorian.VictorianSideTable.name=Victoriaanse Bijzettafel
 staxel.tileObject.themedfurniture.victorian.VictorianSingleBed.description=
 staxel.tileObject.themedfurniture.victorian.VictorianSingleBed.name=Victoriaans Bed
+staxel.tileObject.themedfurniture.victorian.VictorianSofa.description=
 staxel.tileObject.themedfurniture.victorian.VictorianSofa.name=Victoriaanse Sofa
+staxel.tileObject.themedfurniture.victorian.VictorianStool.description=
 staxel.tileObject.themedfurniture.victorian.VictorianStool.name=Victoriaanse Kruk
 staxel.tileObject.themedfurniture.victorian.VictorianTable.description=
 staxel.tileObject.themedfurniture.victorian.VictorianTable.name=Victoriaanse Tafel
+staxel.tileObject.themedfurniture.victorian.VictorianTableLarge.description=
 staxel.tileObject.themedfurniture.victorian.VictorianTableLarge.name=Victoriaanse Grote Tafel
+staxel.tileObject.themedfurniture.victorian.VictorianVanity.description=
 staxel.tileObject.themedfurniture.victorian.VictorianVanity.name=Victoriaans Opmaakkast
+staxel.tileObject.themedfurniture.victorian.VictorianWardrobe.description=
 staxel.tileObject.themedfurniture.victorian.VictorianWardrobe.name=Victoriaans Kledingkast
 staxel.tileObject.totems.BarnSign.description=
 staxel.tileObject.totems.BarnSign.name=
 staxel.tileObject.totems.EmiliaMailbox.description=
 //TODO Translate [Reference] 'Emilia's Mailbox'
 staxel.tileObject.totems.EmiliaMailbox.name=
+staxel.tileObject.totems.ErisMailbox.name=
+staxel.tileObject.totems.PatisserieSign.description=
 //TODO Translate [Reference] 'Patisserie Sign'
 staxel.tileObject.totems.PatisserieSign.name=
 staxel.tileObject.totems.Test.description=
@@ -6734,6 +6834,7 @@ staxel.villager.staxel.villager.Maximilian.name.name=
 staxel.villager.staxel.villager.Oscar.name.name=
 staxel.villager.staxel.villager.Rosemary.name.name=
 staxel.villager.staxel.villager.Rowan.name.name=
+staxel.weed.Weed1.description=
 staxel.weed.Weed1.name=
 
 //TODO Translate [Reference] 'Staxel Development Build'
