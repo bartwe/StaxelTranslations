@@ -280,6 +280,10 @@ commands.saveDesign.success=
 commands.saveOutfit.description=
 //TODO Translate [Reference] 'Character outfit file saved at {0-path}'
 commands.saveOutfit.success=
+//TODO Translate [Reference] '^c:F2E200;seed'
+commands.seed.description=
+//TODO Translate [Reference] 'Seed: {0-seed}'
+commands.seed.success=
 //TODO Translate [Reference] '^c:F2E200;creativeMode ^c:FFFFFF;(optional)on(true/false)'
 commands.serverCreative.description=
 //TODO Translate [Reference] 'Switched server creative mode to {0-creative} (persistent)'
@@ -763,6 +767,8 @@ singleplayer.copyingWorld=
 singleplayer.creative=
 //TODO Translate [Reference] 'Creative Mode'
 singleplayer.creativeMode=
+//TODO Translate [Reference] 'My World'
+singleplayer.defaultWorldName=
 //TODO Translate [Reference] 'Delete'
 singleplayer.delete=
 //TODO Translate [Reference] 'Failed to delete world'
@@ -1133,10 +1139,20 @@ staxel.accessory.none=
 staxel.achievement.CatchFish.description=
 //TODO Translate [Reference] 'Catch a fish'
 staxel.achievement.CatchFish.name=
+//TODO Translate [Reference] 'Charge a tool all the way'
+staxel.achievement.ChargeTool.description=
+//TODO Translate [Reference] 'Charge a tool'
+staxel.achievement.ChargeTool.name=
+staxel.achievement.DeliverLicense.description=
+staxel.achievement.DeliverLicense.name=
 //TODO Translate [Reference] 'Take a tool from the shelf'
 staxel.achievement.EquipTool.description=
 //TODO Translate [Reference] 'Equip a tool'
 staxel.achievement.EquipTool.name=
+staxel.achievement.FillFoodBowl.description=
+staxel.achievement.FillFoodBowl.name=
+staxel.achievement.FinishTutorial.description=
+staxel.achievement.FinishTutorial.name=
 //TODO Translate [Reference] 'It's harvest time! Bring in the bounty!'
 staxel.achievement.HarvestCrop.description=
 //TODO Translate [Reference] 'Harvest a crop'
@@ -1145,6 +1161,10 @@ staxel.achievement.HarvestCrop.name=
 staxel.achievement.MakeJam.description=
 //TODO Translate [Reference] 'Make jam'
 staxel.achievement.MakeJam.name=
+staxel.achievement.Mixed10.description=
+staxel.achievement.Mixed10.name=
+staxel.achievement.Mixed100.description=
+staxel.achievement.Mixed100.name=
 //TODO Translate [Reference] 'Place an order for any item in the shipping catalogue'
 staxel.achievement.OrderItem.description=
 //TODO Translate [Reference] 'Order an item'
@@ -1152,18 +1172,38 @@ staxel.achievement.OrderItem.name=
 staxel.achievement.PlaceFurniture.description=
 //TODO Translate [Reference] 'Place furniture'
 staxel.achievement.PlaceFurniture.name=
+staxel.achievement.PlaceSeedMaker.description=
+staxel.achievement.PlaceSeedMaker.name=
+staxel.achievement.Plant10.description=
+staxel.achievement.Plant10.name=
+staxel.achievement.Plant100.description=
+staxel.achievement.Plant100.name=
+staxel.achievement.Plant1000.description=
+staxel.achievement.Plant1000.name=
+staxel.achievement.Plant50.description=
+staxel.achievement.Plant50.name=
+staxel.achievement.Plant500.description=
+staxel.achievement.Plant500.name=
 //TODO Translate [Reference] 'Plant a seed in tilled soil'
 staxel.achievement.PlantCrop.description=
 //TODO Translate [Reference] 'Plant a seed'
 staxel.achievement.PlantCrop.name=
+staxel.achievement.PlantSeed.description=
+staxel.achievement.PlantSeed.name=
+staxel.achievement.Reap10.description=
+staxel.achievement.Reap10.name=
 //TODO Translate [Reference] 'Sell one of your freshly harvested crops via the shipping station'
 staxel.achievement.SellItem.description=
 //TODO Translate [Reference] 'Sell a crop'
 staxel.achievement.SellItem.name=
+staxel.achievement.TalkFarmFan.description=
+staxel.achievement.TalkFarmFan.name=
 //TODO Translate [Reference] 'Use the watering can to water a crop'
 staxel.achievement.WaterCrop.description=
 //TODO Translate [Reference] 'Water a crop'
 staxel.achievement.WaterCrop.name=
+//TODO Translate [Reference] 'Charge a tool all the way'
+staxel.achievements.chargeMax=
 //TODO Translate [Reference] 'Orders placed for {0-item}'
 staxel.achievements.descriptions.OrderItem.text=
 //TODO Translate [Reference] '{0-item} placed'
@@ -1727,6 +1767,7 @@ staxel.category.jar=
 staxel.category.juice=
 //TODO Translate [Reference] 'Keg'
 staxel.category.keg=
+staxel.category.kibble=
 //TODO Translate [Reference] 'King'
 staxel.category.king=
 //TODO Translate [Reference] 'Kitchen'
@@ -1816,6 +1857,7 @@ staxel.category.mirror=
 staxel.category.misc=
 //TODO Translate [Reference] 'Mixable'
 staxel.category.mixable=
+staxel.category.mixedSeeds=
 //TODO Translate [Reference] 'Mixing'
 staxel.category.mixing=
 //TODO Translate [Reference] 'Money'
@@ -1881,6 +1923,7 @@ staxel.category.pear=
 staxel.category.peppermint=
 //TODO Translate [Reference] 'Pet'
 staxel.category.pet=
+staxel.category.petFood=
 //TODO Translate [Reference] 'Pickaxe'
 staxel.category.pickaxe=
 //TODO Translate [Reference] 'Picket'
@@ -2017,6 +2060,7 @@ staxel.category.seat=
 staxel.category.seed=
 //TODO Translate [Reference] 'Seedling'
 staxel.category.seedling=
+staxel.category.seedMaker=
 //TODO Translate [Reference] 'Seeds'
 staxel.category.seeds=
 //TODO Translate [Reference] 'Set'
@@ -6957,6 +7001,12 @@ staxel.totem.workplace.Patisserie=
 staxel.totem.workplace.Tavern=
 //TODO Translate [Reference] 'Town Hall'
 staxel.totem.workplace.TownHall=
+//TODO Translate [Reference] 'Base Requirements'
+staxel.totemInfo.baseRequirements=
+//TODO Translate [Reference] 'Tier {0-level}'
+staxel.totemInfo.tier=
+//TODO Translate [Reference] 'Tier {0-level} Requirements'
+staxel.totemInfo.tierRequirements=
 //TODO Translate [Reference] 'Toggle Region Display'
 staxel.totems.toggleboundary=
 //TODO Translate [Reference] 'This tree grows juicy, crunchy apples.'
