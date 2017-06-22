@@ -120,11 +120,11 @@ fishing.success2=ERFOLG!
 //[Reference] 'YES!'
 fishing.success3=JA!
 
-//[Reference] 'Press (space) to leave bed'
+//[Reference] 'Press {0-gameLogicalButton} to leave bed'
 hintText.bed=Drücke (Leertaste) oder (a) um das Bett zu verlassen
 //[Reference] 'Plants won't grow here'
 hintText.cantPlantHere=Pflanzen werden hier nicht wachsen
-//[Reference] 'Press (space) to leave chair'
+//[Reference] 'Press {0-gameLogicalButton} to leave chair'
 hintText.chair=Drücke (Leertaste) oder (a) um vom Stuhl aufzustehen
 //[Reference] 'Charge: {0:P1-chargeLevel}, Right Click or Left Trigger to Cancel'
 hintText.charge=Aufladen: {0:P1-chargeLevel}, Rechtsklick oder linker Trigger zum Abbrechen
@@ -150,9 +150,9 @@ hintText.inventorySpaceNeeded=Benötigt mindestens {0-count} freie Plätze im In
 hintText.kind=Art: {0-itemCode}
 //[Reference] 'The light will turn on after a few seconds'
 hintText.lightTurnOn=Das Licht geht nach ein paar Sekunden an
-//TODO Translate [Reference] 'That's not a bug!'
+//[Reference] 'That's not a bug!'
 hintText.needBug=Das ist kein 'Bug'!
-//TODO Translate [Reference] 'Try placing on {0-tile}'
+//[Reference] 'Try placing on {0-tile}'
 hintText.needTile=Probiere es auf {0-tile} zu setzen
 //[Reference] 'Try planting on tilled soil'
 hintText.needTilledTile=Versuche dies auf bearbeitetem Boden zu pflanzen
@@ -164,39 +164,39 @@ hintText.oneSlotNeeded=Benötigt mindestens einen freien Inventarplatz
 hintText.recipeKnown=Du kennst dieses Rezept bereits
 //[Reference] 'You successfully learnt the recipe for {0-recipe}!'
 hintText.recipeLearnt=Du hast erfolgreich das Rezept für {0-recipe} gelernt!
-//TODO Translate [Reference] 'There's nothing left to steal... for today.'
+//[Reference] 'There's nothing left to steal... for today.'
 hintText.thiefLimit=Es gibt nichts zu stehlen... für heute.
-//TODO Translate [Reference] 'You are no longer a thief'
+//[Reference] 'You are no longer a thief'
 hintText.thiefReset=DU bist kein Dieb mehr
-//TODO Translate [Reference] 'You stole {0-amount} Petals! {1-theft}'
+//[Reference] 'You stole {0-amount} Petals! {1-theft}'
 hintText.thiefSteal=Du hast {0-amount} Blütenblätter gestohlen! {1-theft}
-//TODO Translate [Reference] 'Thief! You may be forgiven in time.'
+//[Reference] 'Thief! You may be forgiven in time.'
 hintText.thiefThief=Dieb! Dir wird nach einer Weile vergeben.
-//TODO Translate [Reference] 'Stealing has consequences.'
-hintText.thiefWarning= Stehlen hat Konsequenzen.
+//[Reference] 'Stealing has consequences.'
+hintText.thiefWarning=Stehlen hat Konsequenzen.
 //[Reference] 'Downloading bundle assets'
 loading.bundles=Downloade Paket mit Assets
 
 //[Reference] 'Skip'
 loading.skip=Überspringen
-//TODO Translate [Reference] 'Loot'
+//[Reference] 'Loot'
 looting.loot=Plündern
-//TODO Translate [Reference] 'Steal from'
-looting.stealFrom= Stehle von
+//[Reference] 'Steal from'
+looting.stealFrom=Stehle von
 
 //[Reference] 'Back to main menu'
 multiplayerMenu.back=Zurück
 //[Reference] 'Join Server'
 multiplayerMenu.joinServer=Server beitreten
-//TODO Translate [Reference] 'Server IP:'
+//[Reference] 'Server IP:'
 multiplayerMenu.serverIP=Server IP
 //[Reference] 'Server List'
 multiplayerMenu.serverList=Server Liste
 //[Reference] 'Options'
 options=Optionen
-//TODO Translate [Reference] 'Admin'
+//[Reference] 'Admin'
 options.admin=Admin
-//TODO Translate [Reference] 'Debug'
+//[Reference] 'Debug'
 options.admin.debug=Debug
 
 //[Reference] 'Camera Mode (ESC to exit)'
@@ -206,8 +206,8 @@ options.admin.debug.creativeMode=Creativ-Modus
 //[Reference] 'Fly Mode'
 options.admin.debug.flyMode=Flugmodus
 options.admin.debug.IncreasedViewRange=
-//TODO Translate [Reference] 'Make a crashlog'
-options.admin.debug.makeCrashlog= Erstelle einen Absturzbericht
+//[Reference] 'Make a crashlog'
+options.admin.debug.makeCrashlog=Erstelle einen Absturzbericht
 //[Reference] 'No Clip Mode'
 options.admin.debug.noClipMode=No Clip Modus
 //[Reference] 'Show name tags'
@@ -216,7 +216,7 @@ options.admin.debug.showNames=ZeigeNamensschilder Modus
 options.admin.debug.wireframeMode=Wireframe Modus
 //[Reference] 'Adminy stuff'
 options.admin.description=Admin Zeugs
-//TODO Translate [Reference] 'Audio'
+//[Reference] 'Audio'
 options.audio=Audio
 //[Reference] 'Set audio options here'
 options.audio.description=Ändere die Audio-Optionen
@@ -228,20 +228,20 @@ options.gameplay=Spiel
 options.gameplay.controller=
 //[Reference] 'Enable Controller Input'
 options.gameplay.controller.enableController=Controller aktivieren
-//TODO Translate [Reference] 'Flip Left Y Axis'
-options.gameplay.controller.flipLeftY= Linke Y-Achse umkehren
+//[Reference] 'Flip Left Y Axis'
+options.gameplay.controller.flipLeftY=Linke Y-Achse umkehren
 //[Reference] 'Flip Right Y Axis'
 options.gameplay.controller.flipRightY=Rechte Y-Achse umkehren
 options.gameplay.controller.flipY=
-//TODOO Translate [Reference] 'Left Thumb Curve:'
+//TODO Translate [Reference] 'Left Thumb Curve:'
 options.gameplay.controller.leftThumbCurve=
-//TODOO Translate [Reference] 'Left Thumb Deadzone:'
+//TODO Translate [Reference] 'Left Thumb Deadzone:'
 options.gameplay.controller.leftThumbDeadzone=
-//TODOO Translate [Reference] 'Right Thumb Curve:'
+//TODO Translate [Reference] 'Right Thumb Curve:'
 options.gameplay.controller.rightThumbCurve=
-//TODOO Translate [Reference] 'Right Thumb Deadzone:'
+//TODO Translate [Reference] 'Right Thumb Deadzone:'
 options.gameplay.controller.rightThumbDeadzone=
-//TODOO Translate [Reference] 'Right Thumb Velocity:'
+//TODO Translate [Reference] 'Right Thumb Velocity:'
 options.gameplay.controller.rightThumbVelocity=
 //[Reference] 'Set gameplay options here'
 options.gameplay.description=Ändere die Gameplay Optionen
@@ -267,13 +267,13 @@ options.gameplay.other.activeAchievement=Aktiver Errungenschaften Tracker
 options.gameplay.other.chatTimestamps=Chat Zeitstempel
 //[Reference] 'Left Handed Mode'
 options.gameplay.other.leftHandedMode=Linkshänder Modus
-//TODO Translate [Reference] 'Scale UI with resolution'
-options.gameplay.other.ScaleUIWithResolution= Skaliere Benutzeroberfläche mit der Auflösung
+//[Reference] 'Scale UI with resolution'
+options.gameplay.other.ScaleUIWithResolution=Skaliere Benutzeroberfläche mit der Auflösung
 //[Reference] 'Show Clock'
 options.gameplay.other.showClock=Zeige Uhr
 //[Reference] 'Crafting Keyword Tags'
 options.gameplay.other.showCraftingKeywordTags=Crafting Schlüsselwort-Tags
-//TODOO Translate [Reference] 'Prevent NPC Staring'
+//TODO Translate [Reference] 'Prevent NPC Staring'
 options.gameplay.other.StopNPCStaring=
 //[Reference] 'General'
 options.general=Allgemein
@@ -417,19 +417,19 @@ shippingDock.claimed=Du hast diese Abgabestelle für dich beansprucht!
 singleplayer.baseOff=
 //[Reference] 'Cancel'
 singleplayer.cancel=Abbrechen
-//TODO Translate [Reference] 'Are you certain you want to delete this world?'
-singleplayer.confirmDelete= Möchtest du wirkliche diese Welt löschen?
-//TODO Translate [Reference] 'Copying world...'
+//[Reference] 'Are you certain you want to delete this world?'
+singleplayer.confirmDelete=Möchtest du wirkliche diese Welt löschen?
+//[Reference] 'Copying world...'
 singleplayer.copyingWorld=Kopiere Welt...
-//TODO Translate [Reference] 'Creative'
+//[Reference] 'Creative'
 singleplayer.creative=Kreativ
 //[Reference] 'Creative Mode'
 singleplayer.creativeMode=Kreativ-Modus
-//TODO Translate [Reference] 'My World'
+//[Reference] 'My World'
 singleplayer.defaultWorldName=Meine Welt
-//TODO Translate [Reference] 'Delete'
+//[Reference] 'Delete'
 singleplayer.delete=Löschen
-//TODO Translate [Reference] 'Failed to delete world'
+//[Reference] 'Failed to delete world'
 singleplayer.failedToDeleteWorld=Welt konnte nicht gelöscht werden
 //[Reference] 'Launch'
 singleplayer.launch=Start
@@ -443,7 +443,7 @@ singleplayer.newWorld=Neue Welt
 singleplayer.serverName=
 //[Reference] 'Single Player'
 singleplayer.singleplayer=Einzelspieler
-//TODOO Translate [Reference] 'Storage is in use, lockfile detected.'
+//[Reference] 'Storage is in use, lockfile detected.'
 singleplayer.storageLockFile=Speicher wird genutzt, Lock-Datei wurde entdeckt.
 //[Reference] 'Village'
 singleplayer.village=Dorf
@@ -609,179 +609,186 @@ staxel.achievements.changeClothing=
 //TODO Translate [Reference] 'Throw a Ball'
 staxel.achievements.throw=
 staxel.achievements.UseRecipeOverlay=
-//TODO Translate [Reference] 'Ouch! The bees need to be calmed down'
+//[Reference] 'Ouch! The bees need to be calmed down'
 staxel.apiary.calmWorkers=Aua! Die Bienen müssen beruhigt werden
-//TODO Translate [Reference] 'This apiary has enough bees'
+//[Reference] 'This apiary has enough bees'
 staxel.apiary.fullWorkers=Dieses Bienenhaus hat genug Bienen
-//TODO Translate [Reference] 'This apiary already has a queen'
+//[Reference] 'This apiary already has a queen'
 staxel.apiary.hasQueen=Dieses Bienenhaus besitzt schon eine Königin
-//TODO Translate [Reference] 'Need to put the honey in a jar'
+//[Reference] 'Need to put the honey in a jar'
 staxel.apiary.needsCollector=Der Honig muss in ein Glas gefüllt werden
-//TODO Translate [Reference] 'This apiary needs a queen bee'
+//[Reference] 'This apiary needs a queen bee'
 staxel.apiary.needsQueen=Dieses Bienenhaus braucht eine Bienenkönigin
-//TODO Translate [Reference] 'This apiary needs bees'
+//[Reference] 'This apiary needs bees'
 staxel.apiary.needsWorkers=Dieses Bienenhaus braucht Bienen
-//TODO Translate [Reference] 'Honey is available and the bees are calm'
+//[Reference] 'Honey is available and the bees are calm'
 staxel.apiary.state.collection=Honig ist verfügbar und die Bienen sind ruhig
-//TODO Translate [Reference] 'This apiary is empty'
+//[Reference] 'This apiary is empty'
 staxel.apiary.state.none=Dieses Bienenhaus ist leer
-//TODO Translate [Reference] 'The bees are making honey: {0-days} days remaining'
+//[Reference] 'The bees are making honey: {0-days} days remaining'
 staxel.apiary.state.producing=Die Bienen produzieren Honig: Noch {0-days} Tage
-//TODO Translate [Reference] 'The queen is rallying bees: {0-bees}/{1-total} bees'
+//[Reference] 'The queen is rallying bees: {0-bees}/{1-total} bees'
 staxel.apiary.state.rallying=Die Königin sammelt Bienen: {0-bees}/{1-total} Bienen
-//TODO Translate [Reference] 'Honey is available but the bees are grumpy'
+//[Reference] 'Honey is available but the bees are grumpy'
 staxel.apiary.state.waiting=Honig ist verfügbar, doch die Bienen sind aufgebracht
-//TODO Translate [Reference] 'A bush that grows delicious blackberries.'
+//[Reference] 'A bush that grows delicious blackberries.'
 staxel.bush.BlackberryBush.description=Ein Busch an dem leckere Brombeeren wachsen.
-//TODO Translate [Reference] 'Blackberry Bush Seed'
+//[Reference] 'Blackberry Bush Seed'
 staxel.bush.BlackberryBush.name=Brombeerensamen
-//TODO Translate [Reference] 'A bush that grows delicious blueberries.'
+//[Reference] 'A bush that grows delicious blueberries.'
 staxel.bush.BlueberryBush.description=Ein Busch an dem leckere Blaubeeren wachsen.
-//TODO Translate [Reference] 'Blueberry Bush Seed'
+//[Reference] 'Blueberry Bush Seed'
 staxel.bush.BlueberryBush.name=Blaubeerensamen
-//TODO Translate [Reference] 'A bush that grows delicious goldenberries.'
+//[Reference] 'A bush that grows delicious goldenberries.'
 staxel.bush.GoldenberryBush.description=Ein Busch an dem leckere Goldbeeren wachsen.
-//TODO Translate [Reference] 'Goldenberry Bush Seed'
+//[Reference] 'Goldenberry Bush Seed'
 staxel.bush.GoldenberryBush.name=Goldbeerensamen
-//TODO Translate [Reference] 'A bush that grows delicious raspberries.'
+//[Reference] 'A bush that grows delicious raspberries.'
 staxel.bush.RaspberryBush.description=Ein Busch an dem leckere Himbeeren wachsen.
-//TODO Translate [Reference] 'Raspberry Bush Seed'
+//[Reference] 'Raspberry Bush Seed'
 staxel.bush.RaspberryBush.name=Himbeerensamen
+staxel.category.kennel=
+//TODO Translate [Reference] 'poop'
+staxel.category.poop=
+//TODO Translate [Reference] 'sheared'
+staxel.category.sheared=
+//TODO Translate [Reference] 'shell'
+staxel.category.shell=
 staxel.core.Compound.description=
 staxel.core.Compound.name=
-//TODO Translate [Reference] 'A brightly coloured beet.'
+//[Reference] 'A brightly coloured beet.'
 staxel.crop.Beet.description=Eine bunte Rübe.
-//TODO Translate [Reference] 'Beetroot Seed'
+//[Reference] 'Beetroot Seed'
 staxel.crop.Beet.name=Rübenwurzelsamen
-//TODO Translate [Reference] 'Spruce up your humble abode with a nice piece of furniture!'
+//[Reference] 'Spruce up your humble abode with a nice piece of furniture!'
 staxel.crop.Cabbage.description=Verschönere deine bescheidene Bleibe mit einem hübschen Möbelstück!
-//TODO Translate [Reference] 'Cabbage Seed'
+//[Reference] 'Cabbage Seed'
 staxel.crop.Cabbage.name=Kohlsamen
-//TODO Translate [Reference] 'A healthy looking carrot.'
+//[Reference] 'A healthy looking carrot.'
 staxel.crop.Carrot.description=Eine gesund aussehende Möhre
-//TODO Translate [Reference] 'Carrot Seed'
+//[Reference] 'Carrot Seed'
 staxel.crop.Carrot.name=Möhrensamen
-//TODO Translate [Reference] 'Delicious yellow corn.'
+//[Reference] 'Delicious yellow corn.'
 staxel.crop.Corn.description=Leckerer gelber Mais
-//TODO Translate [Reference] 'Corn Seed'
+//[Reference] 'Corn Seed'
 staxel.crop.Corn.name=Maissamen
-//TODO Translate [Reference] 'A freshly grown cucumber.'
+//[Reference] 'A freshly grown cucumber.'
 staxel.crop.Cucumber.description=Eine frisch geerntete Gurke
-//TODO Translate [Reference] 'Cucumber Seed'
+//[Reference] 'Cucumber Seed'
 staxel.crop.Cucumber.name=Gurkensamen
-//TODO Translate [Reference] 'A very shiny eggplant.'
+//[Reference] 'A very shiny eggplant.'
 staxel.crop.Eggplant.description=Eine glänzende Aubergine
-//TODO Translate [Reference] 'Eggplant Seed'
+//[Reference] 'Eggplant Seed'
 staxel.crop.Eggplant.name=Auberginesamen
-//TODO Translate [Reference] 'How strange, this beet is solid gold!'
+//[Reference] 'How strange, this beet is solid gold!'
 staxel.crop.GoldenBeet.description=Seltsam, diese Rübe ist aus massivem Gold!
-//TODO Translate [Reference] 'Golden Beet Seed'
+//[Reference] 'Golden Beet Seed'
 staxel.crop.GoldenBeet.name=Goldener Rübensamen
-//TODO Translate [Reference] 'Oh my, this carrot is solid gold!'
+//[Reference] 'Oh my, this carrot is solid gold!'
 staxel.crop.GoldenCarrot.description=Oh wow, diese Möhre ist aus massivem Gold!
-//TODO Translate [Reference] 'Golden Carrot Seed'
+//[Reference] 'Golden Carrot Seed'
 staxel.crop.GoldenCarrot.name=Goldener Möhrensamen
-//TODO Translate [Reference] 'This corn is made of gold! Best make sure no kernels fall off!'
+//[Reference] 'This corn is made of gold! Best make sure no kernels fall off!'
 staxel.crop.GoldenCorn.description=Dieser Mais besteht aus Gold! Besser keine der Körner fallen lassen!
-//TODO Translate [Reference] 'Golden Corn Seed'
+//[Reference] 'Golden Corn Seed'
 staxel.crop.GoldenCorn.name=Goldener Maissamen
-//TODO Translate [Reference] 'Wow, this cucumber is made of gold!'
+//[Reference] 'Wow, this cucumber is made of gold!'
 staxel.crop.GoldenCucumber.description=Wow, diese Gurke besteht aus Gold!
-//TODO Translate [Reference] 'Golden Cucumber Seed'
+//[Reference] 'Golden Cucumber Seed'
 staxel.crop.GoldenCucumber.name=Goldener Gurkensamen
-//TODOO Translate [Reference] 'This Eggplant is made of gold! Unfortunately, golden chickens don't hatch out of golden eggplants.'
+//[Reference] 'This Eggplant is made of gold! Unfortunately, golden chickens don't hatch out of golden eggplants.'
 staxel.crop.GoldenEggplant.description=Diese Aubergine ist aus Gold! Sie mag zwar wie ein Ei aussehen, aber leider wird hieraus keine goldene Gans schlüpfen.
-//TODO Translate [Reference] 'Golden Eggplant Seed'
+//[Reference] 'Golden Eggplant Seed'
 staxel.crop.GoldenEggplant.name=Goldener Auberginesamen
-//TODO Translate [Reference] 'This lettuce is made of gold! I hear this what caesar salads were originally made with...'
+//[Reference] 'This lettuce is made of gold! I hear this what caesar salads were originally made with...'
 staxel.crop.GoldenLettuce.description=Dieser Kopfsalat besteht aus Gold! Ich habe gehört, dass diese ursprünglich für Caesar Salads benutzt wurden...
-//TODO Translate [Reference] 'Golden Lettuce Seed'
+//[Reference] 'Golden Lettuce Seed'
 staxel.crop.GoldenLettuce.name=Goldener Kopfsalatsamen
-//TODO Translate [Reference] 'These oats are more golden than usual! They don't taste as nice though...'
+//[Reference] 'These oats are more golden than usual! They don't taste as nice though...'
 staxel.crop.GoldenOats.description=Dieser Hafer ist goldener als sonst! Er schmeckt jedoch nicht so gut...
-//TODO Translate [Reference] 'Golden Oat Seeds'
+//[Reference] 'Golden Oat Seeds'
 staxel.crop.GoldenOats.name=Goldeneer Hafersamen
-//TODO Translate [Reference] 'Wow, a golden onion! I'm tearing up!'
+//[Reference] 'Wow, a golden onion! I'm tearing up!'
 staxel.crop.GoldenOnion.description=Wow, eine goldene Zwiebel! Mir kommen die Tränen!
-//TODO Translate [Reference] 'Golden Onion Seed'
+//[Reference] 'Golden Onion Seed'
 staxel.crop.GoldenOnion.name=Goldener Zwiebelsamen
-//TODO Translate [Reference] 'A golden potato, with golden eyes!'
+//[Reference] 'A golden potato, with golden eyes!'
 staxel.crop.GoldenPotato.description=Eine goldene Kartoffel mit goldenen Augen!
-//TODO Translate [Reference] 'Golden Potato Seed'
+//[Reference] 'Golden Potato Seed'
 staxel.crop.GoldenPotato.name=Goldener Kartoffelsamen
-//TODO Translate [Reference] 'Sweet! A golden sugar beet!'
+//[Reference] 'Sweet! A golden sugar beet!'
 staxel.crop.GoldenSugarBeet.description=Entzückend! Eine goldene Zuckerrübe!
-//TODO Translate [Reference] 'Golden Sugar Beet Seed'
+//[Reference] 'Golden Sugar Beet Seed'
 staxel.crop.GoldenSugarBeet.name=Goldener Zuckerrübensamen
-//TODO Translate [Reference] 'Wow, a golden sugar cane!'
+//[Reference] 'Wow, a golden sugar cane!'
 staxel.crop.GoldenSugarCane.description=Wow, goldenes Zuckerrohr
-//TODO Translate [Reference] 'Golden Sugar Cane Seed'
+//[Reference] 'Golden Sugar Cane Seed'
 staxel.crop.GoldenSugarCane.name=Goldener Zuckerrohrsamen
-//TODO Translate [Reference] 'Woah, this Sweet Potato is solid gold!'
+//[Reference] 'Woah, this Sweet Potato is solid gold!'
 staxel.crop.GoldenSweetPotato.description=Woah, diese Süßkartoffel besteht aus massivem Gold!
-//TODO Translate [Reference] 'Golden Sweet Potato Seed'
+//[Reference] 'Golden Sweet Potato Seed'
 staxel.crop.GoldenSweetPotato.name=Goldener Süßkartoffelsamen
-//TODO Translate [Reference] 'A golden tomato! I wonder what golden tomato soup would taste like...'
+//[Reference] 'A golden tomato! I wonder what golden tomato soup would taste like...'
 staxel.crop.GoldenTomato.description=Eine goldene Tomate! Ich frage mich, wie eine goldene Tomatensuppe wohl schmeckt...
-//TODO Translate [Reference] 'Golden Tomato Seed'
+//[Reference] 'Golden Tomato Seed'
 staxel.crop.GoldenTomato.name=Goldener Tomatensamen
-//TODO Translate [Reference] 'Amazing, a golden turnip!'
+//[Reference] 'Amazing, a golden turnip!'
 staxel.crop.GoldenTurnip.description=Erstaunlich, eine goldene Weißrübe!
-//TODO Translate [Reference] 'Golden Turnip Seed'
+//[Reference] 'Golden Turnip Seed'
 staxel.crop.GoldenTurnip.name=Goldener Weißrübensamen
-//TODO Translate [Reference] 'A head of green lettuce.'
+//[Reference] 'A head of green lettuce.'
 staxel.crop.Lettuce.description=Ein knackig grüner Salatkopf
-//TODO Translate [Reference] 'Lettuce Seed'
+//[Reference] 'Lettuce Seed'
 staxel.crop.Lettuce.name=Kopfsalatsamen
-//TODO Translate [Reference] 'Fresh oats. What a fine grain!'
+//[Reference] 'Fresh oats. What a fine grain!'
 staxel.crop.Oat.description=Frischer Hafer. Was für ein feines Getreide!
-//TODO Translate [Reference] 'Oat Seeds'
+//[Reference] 'Oat Seeds'
 staxel.crop.Oat.name=Hafersamen
-//TODO Translate [Reference] 'Be careful when chopping!'
+//[Reference] 'Be careful when chopping!'
 staxel.crop.Onion.description=Sei vorsichtig beim Schneiden!
-//TODO Translate [Reference] 'Onion Seed'
+//[Reference] 'Onion Seed'
 staxel.crop.Onion.name=Zwiebelsamen
-//TODO Translate [Reference] 'That one vegetable everybody loves.'
+//[Reference] 'That one vegetable everybody loves.'
 staxel.crop.Potato.description=Das einzige Gemüse, das wirklich jeder mag.
-//TODO Translate [Reference] 'Potato Seed'
+//[Reference] 'Potato Seed'
 staxel.crop.Potato.name=Kartoffelsamen
-//TODO Translate [Reference] 'A great vegetable for soup'
+//[Reference] 'A great vegetable for soup'
 staxel.crop.Pumpkin.description=Eignet sich großartig, um Suppe zu kochen.
-//TODO Translate [Reference] 'Pumpkin Seed'
+//[Reference] 'Pumpkin Seed'
 staxel.crop.Pumpkin.name=Kürbissamen
-//TODO Translate [Reference] 'Raspberry Bush Seed'
+//[Reference] 'Raspberry Bush Seed'
 staxel.crop.RaspberryBush.name=Himbeerbuschsamen
-//TODO Translate [Reference] 'Sweet and full of flavour.'
+//[Reference] 'Sweet and full of flavour.'
 staxel.crop.Strawberry.description=Süß und voller Geschmack.
-//TODO Translate [Reference] 'Strawberry Seed'
+//[Reference] 'Strawberry Seed'
 staxel.crop.Strawberry.name=Erdbeersamen
-//TODO Translate [Reference] 'A healthy looking sugar beet.'
+//[Reference] 'A healthy looking sugar beet.'
 staxel.crop.SugarBeet.description=Eine gesund aussehende Zuckerrübe.
-//TODO Translate [Reference] 'Sugar Beet Seed'
+//[Reference] 'Sugar Beet Seed'
 staxel.crop.SugarBeet.name=Zuckerrübensamen
-//TODO Translate [Reference] 'So sweet, I cane-not resist.'
-staxel.crop.SugarCane.description= So süß, dass es mich zu Tränen röhrt.
-//TODO Translate [Reference] 'Sugar Cane Seed'
+//[Reference] 'So sweet, I cane-not resist.'
+staxel.crop.SugarCane.description=So süß, dass es mich zu Tränen röhrt.
+//[Reference] 'Sugar Cane Seed'
 staxel.crop.SugarCane.name=Zuckerrohrsamen
-//TODO Translate [Reference] 'Like a potato, but kinder.'
+//[Reference] 'Like a potato, but kinder.'
 staxel.crop.SweetPotato.description=Wie eine Kartoffel mit Zuckerschock.
-//TODO Translate [Reference] 'Sweet Potato Seed'
+//[Reference] 'Sweet Potato Seed'
 staxel.crop.SweetPotato.name=Süßkartoffelsamen
-//TODO Translate [Reference] 'Fresh, soft and juicy! Mmm.'
+//[Reference] 'Fresh, soft and juicy! Mmm.'
 staxel.crop.Tomato.description=Frisch, weich und saftig! Mmm.
-//TODO Translate [Reference] 'Tomato Seed'
+//[Reference] 'Tomato Seed'
 staxel.crop.Tomato.name=Tomatensamen
-//TODO Translate [Reference] 'The most popular crop for farming.'
+//[Reference] 'The most popular crop for farming.'
 staxel.crop.Turnip.description=Das beliebteste Erntegut für den Ackerbau.
-//TODO Translate [Reference] 'Turnip Seed'
+//[Reference] 'Turnip Seed'
 staxel.crop.Turnip.name=Weißrübensamen
-//TODO Translate [Reference] 'The juiciest, red fruit.'
+//[Reference] 'The juiciest, red fruit.'
 staxel.crop.Watermelon.description=Die saftigste, rote Frucht.
-//TODO Translate [Reference] 'Watermelon Seed'
+//[Reference] 'Watermelon Seed'
 staxel.crop.Watermelon.name=Wassermelonensamen
-//TODO Translate [Reference] 'A rose with beautiful white petals.'
+//[Reference] 'A rose with beautiful white petals.'
 staxel.crop.WhiteRose.description=Eine Rose mit wunderschönen weißen Blütenblättern.
-//TODO Translate [Reference] 'White rose Seed'
+//[Reference] 'White rose Seed'
 staxel.crop.WhiteRose.name=Weißer Rosensamen
 staxel.docks.merchantStalls.FestivalMerchant.description=
 //TODO Translate [Reference] 'Festival Merchant Stall'
@@ -813,21 +820,75 @@ staxel.emote.ScratchHead.description=
 staxel.emote.ScratchHead.name=
 staxel.emote.Search.begin.description=
 staxel.emote.Search.begin.name=
-//TODO Translate [Reference] 'Use this to trigger the wave emote.'
+//[Reference] 'Use this to trigger the wave emote.'
 staxel.emote.Wave.description=Benutze dies, um zu winken
-//TODO Translate [Reference] 'Wave Emote'
+//[Reference] 'Wave Emote'
 staxel.emote.Wave.name=Winken
-//TODO Translate [Reference] 'Chicken'
+staxel.emote.Yes.description=
+staxel.emote.Yes.name=
+//[Reference] 'Chicken'
 staxel.farmAnimal.Chicken=Huhn
-//TODO Translate [Reference] 'Cow'
+//[Reference] 'Cow'
 staxel.farmAnimal.Cow=Kuh
-//TODO Translate [Reference] 'Pig'
+//[Reference] 'Pig'
 staxel.farmAnimal.Pig=Schwein
-//TODO Translate [Reference] 'Sheep'
+//[Reference] 'Sheep'
 staxel.farmAnimal.Sheep=Schaf
-//TODO Translate [Reference] 'Crop of the forest. Delicious!'
+staxel.gameLogicalButton.Alt=
+staxel.gameLogicalButton.Backward=
+staxel.gameLogicalButton.Chat=
+staxel.gameLogicalButton.DropItem=
+staxel.gameLogicalButton.Esc=
+staxel.gameLogicalButton.Forward=
+staxel.gameLogicalButton.Inventory=
+staxel.gameLogicalButton.Jump=
+staxel.gameLogicalButton.Left=
+staxel.gameLogicalButton.Main=
+staxel.gameLogicalButton.Map=
+staxel.gameLogicalButton.Next=
+staxel.gameLogicalButton.PickItem=
+staxel.gameLogicalButton.PlayerList=
+staxel.gameLogicalButton.Previous=
+staxel.gameLogicalButton.Right=
+staxel.gameLogicalButton.Slot1=
+staxel.gameLogicalButton.Slot10=
+staxel.gameLogicalButton.Slot2=
+staxel.gameLogicalButton.Slot3=
+staxel.gameLogicalButton.Slot4=
+staxel.gameLogicalButton.Slot5=
+staxel.gameLogicalButton.Slot6=
+staxel.gameLogicalButton.Slot7=
+staxel.gameLogicalButton.Slot8=
+staxel.gameLogicalButton.Slot9=
+staxel.gameLogicalButton.Sneak=
+staxel.gameLogicalButton.SwitchItem=
+staxel.gamePadAxis.A=
+staxel.gamePadAxis.B=
+staxel.gamePadAxis.Back=
+staxel.gamePadAxis.DPadDown=
+staxel.gamePadAxis.DPadLeft=
+staxel.gamePadAxis.DPadRight=
+staxel.gamePadAxis.DPadUp=
+staxel.gamePadAxis.LeftShoulder=
+staxel.gamePadAxis.LeftStick=
+staxel.gamePadAxis.LeftStickXLeft=
+staxel.gamePadAxis.LeftStickXRight=
+staxel.gamePadAxis.LeftStickYDown=
+staxel.gamePadAxis.LeftStickYUp=
+staxel.gamePadAxis.LeftTrigger=
+staxel.gamePadAxis.RightShoulder=
+staxel.gamePadAxis.RightStick=
+staxel.gamePadAxis.RightStickXLeft=
+staxel.gamePadAxis.RightStickXRight=
+staxel.gamePadAxis.RightStickYDown=
+staxel.gamePadAxis.RightStickYUp=
+staxel.gamePadAxis.RightTrigger=
+staxel.gamePadAxis.Start=
+staxel.gamePadAxis.X=
+staxel.gamePadAxis.Y=
+//[Reference] 'Crop of the forest. Delicious!'
 staxel.gatherable.BrownMushroom.description=Die Ernte des Waldes. Lecker!
-//TODO Translate [Reference] 'Brown Mushroom'
+//[Reference] 'Brown Mushroom'
 staxel.gatherable.BrownMushroom.name=Brauner Pilz
 staxel.gatherable.HermitShell.description=
 //TODO Translate [Reference] 'Hermit Shell'
@@ -838,9 +899,9 @@ staxel.gatherable.PearlShell.name=
 staxel.gatherable.RedCoral.description=
 //TODO Translate [Reference] 'Red Coral'
 staxel.gatherable.RedCoral.name=
-//TODO Translate [Reference] 'You really need to be careful with this mushroom..'
+//[Reference] 'You really need to be careful with this mushroom..'
 staxel.gatherable.RedWhiteMushroom.description=Bei diesem Pilz solltest du vorsichtig sein...
-//TODO Translate [Reference] 'Toadstool'
+//[Reference] 'Toadstool'
 staxel.gatherable.RedWhiteMushroom.name=Fliegenpilz
 staxel.gatherable.Starfish.description=
 //TODO Translate [Reference] 'Starfish'
@@ -848,10 +909,11 @@ staxel.gatherable.Starfish.name=
 staxel.gatherable.SwirlyShell.description=
 //TODO Translate [Reference] 'Swirly Shell'
 staxel.gatherable.SwirlyShell.name=
-//TODO Translate [Reference] 'Popular in many dishes.'
+//[Reference] 'Popular in many dishes.'
 staxel.gatherable.WhiteMushrooms.description=Bei vielen Gerichten beliebt.
-//TODO Translate [Reference] 'White Mushrooms'
+//[Reference] 'White Mushrooms'
 staxel.gatherable.WhiteMushrooms.name=Weiße Pilze
+//TODO Translate [Reference] 'Brick'
 staxel.merchant.Brick.name=
 //TODO Translate [Reference] 'Buttons'
 staxel.merchant.Buttons.name=
@@ -863,11 +925,11 @@ staxel.merchant.Leon.name=
 staxel.merchant.Melissa.name=
 //TODO Translate [Reference] 'Morgan'
 staxel.merchant.Morgan.name=
-//TODO Translate [Reference] 'Not enough money'
+//[Reference] 'Not enough money'
 staxel.merchant.NotEnoughMoney=Nicht genug Geld
-//TODO Translate [Reference] 'Paid {0-amount} petals!'
+//[Reference] 'Paid {0-amount} petals!'
 staxel.merchant.paid={0-amount} Blütenblätter bezahlt!
-//TODO Translate [Reference] 'Received {0-amount} petals!'
+//[Reference] 'Received {0-amount} petals!'
 staxel.merchant.received={0-amount} Blütenblätter erhalten!
 //TODO Translate [Reference] 'Rob'
 staxel.merchant.Rob.name=
@@ -894,69 +956,76 @@ staxel.merchants.carts.PetMerchant.description=
 staxel.merchants.carts.PetMerchant.name=
 staxel.merchants.SellBox.description=
 staxel.merchants.SellBox.name=
-//TODO Translate [Reference] 'Tip: Scythe grass or flowers to get mixed seeds'
+//[Reference] 'Tip: Scythe grass or flowers to get mixed seeds'
 staxel.nightTransition.Line1=Tipp: Mähe Gras oder Blumen um gemischte Samen zu erhalten
-//TODO Translate [Reference] 'Tip: Hold shift to make some inventory actions faster'
+//[Reference] 'Tip: Hold shift to make some inventory actions faster'
 staxel.nightTransition.Line2=Tipp: Halte Shift gedrückt um einige Aktionen im Inventar zu beschleunigen
-//TODO Translate [Reference] 'Tip: The seed maker has a chance of giving golden seeds'
+//[Reference] 'Tip: The seed maker has a chance of giving golden seeds'
 staxel.nightTransition.Line3=Tipp: Der Samen-Hersteller hat eine Chance dir goldene Samen zu geben
-//TODO Translate [Reference] 'Tip: Want to build freely? Try using /creativeMode'
+//[Reference] 'Tip: Want to build freely? Try using /creativeMode'
 staxel.nightTransition.Line4=Tipp: Möchtest du einfach nur frei bauen? Versuche den /Kreativ-Modus
-//TODO Translate [Reference] 'Tip: Try 3rd person mode by setting "Camera Distance" in the options, or use CTRL + Mousewheel'
+//[Reference] 'Tip: Try 3rd person mode by setting "Camera Distance" in the options, or use CTRL + Mousewheel'
 staxel.nightTransition.Line5=Tipp: Probiere den 3rd-Person-Modus aus, indem du die Kameraentfernung in den Optionen umstellst oder STRG + Mausrad drückst
-//TODO Translate [Reference] 'Tip: Most tools work better if you hold the button down'
+//[Reference] 'Tip: Most tools work better if you hold the button down'
 staxel.nightTransition.Line6=Tipp: Die meisten Werkzeuge funktionieren besser, wenn du die Taste gedrückt hältst
-//TODO Translate [Reference] 'Tip: Use the mousewheel or bumpers to rotate items before you place them'
+//[Reference] 'Tip: Use the mousewheel or bumpers to rotate items before you place them'
 staxel.nightTransition.Line7=Tipp: Benutze das Mausrad oder die Schultertasten um Objekte zu drehen bevor du sie platzierst
-//TODO Translate [Reference] 'Tip: Crops that are ready to pick have a green outline'
+//[Reference] 'Tip: Crops that are ready to pick have a green outline'
 staxel.nightTransition.Line8=Tipp: Erntegut, das zum Pflücken bereit ist, haben einen grünen Umriss
-//TODO Translate [Reference] 'Tip: Play fetch with your pets by holding a ball, interacting with your pets, and then dropping the ball'
+//[Reference] 'Tip: Play fetch with your pets by holding a ball, interacting with your pets, and then dropping the ball'
 staxel.nightTransition.Line9=Tipp: Spiele 'Hol den Ball' mit deinen Haustieren, indem du den Ball hältst, mit Deinen Haustieren interagierst und dann den Ball fallen lässt
-//TODO Translate [Reference] '{0} is in bad health'
+//[Reference] '{0} is in bad health'
 staxel.notifications.farmAnimal.BadHealth={0} ist bei schlechter Gesundheit
-//TODO Translate [Reference] '{0} is busy'
+//[Reference] '{0} is busy'
 staxel.notifications.farmAnimal.Busy={0} ist beschäftigt
-//TODO Translate [Reference] 'You captured the {0-animal}!'
+//[Reference] 'You captured the {0-animal}!'
 staxel.notifications.farmAnimal.Captured={0-animal} gefangen!
-//TODO Translate [Reference] '{0} is catatonic'
+//[Reference] '{0} is catatonic'
 staxel.notifications.farmAnimal.Catatonic={0} ist katatonisch
-//TODO Translate [Reference] '{0} is grumpy'
+//[Reference] '{0} is grumpy'
 staxel.notifications.farmAnimal.Grumpy={0} ist aufgebracht
-//TODO Translate [Reference] '{0} is happy'
+//[Reference] '{0} is happy'
 staxel.notifications.farmAnimal.Happy={0} ist fröhlich
-//TODO Translate [Reference] '{0} has no milk'
+//[Reference] '{0} has no milk'
 staxel.notifications.farmAnimal.HasNoMilk={0} hat keine Milch
-//TODO Translate [Reference] '{0} has no wool'
+//[Reference] '{0} has no wool'
 staxel.notifications.farmAnimal.HasNoWool={0} hat keine Wolle
-//TODO Translate [Reference] '{0} is in a horrible mood'
+//[Reference] '{0} is in a horrible mood'
 staxel.notifications.farmAnimal.HorribleMood={0} ist in einer entsetzlichen Stimmung
-//TODO Translate [Reference] '{0} is hungry'
+//[Reference] '{0} is hungry'
 staxel.notifications.farmAnimal.Hungry={0} ist hungrig
-//TODO Translate [Reference] '{0} is sleeping'
+//[Reference] '{0} is sleeping'
 staxel.notifications.farmAnimal.Sleeping={0} schläft
-//TODO Translate [Reference] '{0} is positively glowing with life!'
+//[Reference] '{0} is positively glowing with life!'
 staxel.notifications.farmAnimal.SuperHappy={0} strahlt nur so vor Lebensfreude!
-//TODO Translate [Reference] 'Can't fill the feeder with this'
+//[Reference] 'Can't fill the feeder with this'
 staxel.notifications.feeder.CantFill=Futterspender kann nicht damit gefüllt werden
-//TODO Translate [Reference] 'There are {0}/{1} units of food'
+//[Reference] 'There are {0}/{1} units of food'
 staxel.notifications.feeder.FeedAmount=Es gibt {0}/{1} Futtereinheiten
-//TODO Translate [Reference] 'Filled with {0} units!'
+//[Reference] 'Filled with {0} units!'
 staxel.notifications.feeder.Filled=Gefüllt mit {0} Einheiten!
-//TODO Translate [Reference] 'Try a milkable animal'
+//[Reference] 'Try a milkable animal'
 staxel.notifications.milker.NotLookingAtMilkableAnimal=Versuche ein Tier, das man melken kann
-//TODOO Translate [Reference] 'New home position set!'
+//[Reference] 'New home position set!'
 staxel.notifications.newHomePosition=Neuer Heimatpunkt gesetzt!
+//TODO Translate [Reference] 'This can only be planted in {0-season}!'
+staxel.notifications.season.WrongSeason.1=
+//TODO Translate [Reference] 'This can only be planted in {0-season} or {1-season}!'
+staxel.notifications.season.WrongSeason.2=
+//TODO Translate [Reference] 'This can only be planted in {0-season}, {1-season}, or {2-season}!'
+staxel.notifications.season.WrongSeason.3=
 staxel.notifications.shears.NotLookingAtShearableAnimal=
-//TODO Translate [Reference] 'It's too early to sleep!'
+//[Reference] 'It's too early to sleep!'
 staxel.notifications.tooEarlyForSleep=Es ist zu früh, um zu schlafen!
-//TODO Translate [Reference] 'You don't need to water crops on rainy days!'
+//[Reference] 'You don't need to water crops on rainy days!'
 staxel.notifications.weatherAlreadyWatered=Du musst die Ernte an regnerischen Tagen nicht gießen!
-//TODO Translate [Reference] 'You don't need to water crops on snowy days!'
+//[Reference] 'You don't need to water crops on snowy days!'
 staxel.notifications.weatherSnowyAlreadyWatered=Du musst die Ernte an verschneiten Tagen nicht gießen!
-//TODO Translate [Reference] 'This isn't the right tool'
+//[Reference] 'This isn't the right tool'
 staxel.notifications.WrongTool=Das ist nicht das richtige Werkzeug
-//TODO Translate [Reference] 'You need a {0}{1}{2}{3}{4}{5}{6} to break this!'
+//[Reference] 'You need a {0}{1}{2}{3}{4}{5}{6} to break this!'
 staxel.notifications.WrongToolUniversal={0}{1}{2}{3}{4}{5}{6} benötigt, um das hier zu brechen!
+//TODO Translate [Reference] 'Chicken'
 staxel.personality.Chicken=
 //TODO Translate [Reference] 'Cow'
 staxel.personality.Cow=
@@ -968,50 +1037,81 @@ staxel.personality.Pig=
 staxel.personality.Sheep=
 //TODO Translate [Reference] 'Standard'
 staxel.personality.standard=
-//TODO Translate [Reference] 'Cat'
+//[Reference] 'Cat'
 staxel.pets.Cat.name=Katze
-//TODO Translate [Reference] 'Dog'
+//[Reference] 'Dog'
 staxel.pets.Dog.name=Hund
-//TODO Translate [Reference] '{0-pet} has brought you a gift!'
+//[Reference] '{0-pet} has brought you a gift!'
 staxel.pets.GiftReceived={0-pet} hat dir ein Geschenk gebracht!
-//TODO Translate [Reference] 'Open your delivery before selling Items!'
-staxel.shipping.dock.openDeliveryBeforeSell= Öffne deine Bestellung, bevor du Gegenstände verkaufst!
-//TODO Translate [Reference] 'Unclaimed'
+//TODO Translate [Reference] 'Autumn'
+staxel.season.Autumn=
+//TODO Translate [Reference] 'Spring'
+staxel.season.Spring=
+//TODO Translate [Reference] 'Summer'
+staxel.season.Summer=
+//TODO Translate [Reference] 'Winter'
+staxel.season.Winter=
+//[Reference] 'Open your delivery before selling Items!'
+staxel.shipping.dock.openDeliveryBeforeSell=Öffne deine Bestellung, bevor du Gegenstände verkaufst!
+//[Reference] 'Unclaimed'
 staxel.shipping.dock.unclaimed=uUnbeansprucht
 staxel.shipping.ItemsAlreadyOnDock=
-//TODO Translate [Reference] 'You received {0-amount} Petals!'
+//[Reference] 'You received {0-amount} Petals!'
 staxel.shipping.moneyReceived=Du hast {0-amount} Blütenblätter erhalten!
-//TODO Translate [Reference] 'You don't have a shipping station to receive an order!'
+//[Reference] 'You don't have a shipping station to receive an order!'
 staxel.shipping.noBox=Du besitzt keine Versandstation, um eine Bestellung zu empfangen!
-//TODO Translate [Reference] 'You can't order any more items today!'
+//[Reference] 'You can't order any more items today!'
 staxel.shipping.noMoreSlots=Du kannst heute keine weiteren Gegenstände bestellen!
-//TODO Translate [Reference] 'You can't afford to pay for this shipment!'
+//[Reference] 'You can't afford to pay for this shipment!'
 staxel.shipping.notEnoughMoney=Du kannst dir diese Lieferung nicht leisten!
-//TODO Translate [Reference] 'You don't own this shipping station!'
+//[Reference] 'You don't own this shipping station!'
 staxel.shipping.notOwned=Diese Versandstation gehört dir nicht!
-//TODO Translate [Reference] 'You placed an order for {0-num}x {1-item}'
+//[Reference] 'You placed an order for {0-num}x {1-item}'
 staxel.shipping.orderSuccess=Du hast Folgendes bestellt: {0-num}x {1-item}
-//TODO Translate [Reference] 'Items have been delivered to your shipping station!'
+//[Reference] 'Items have been delivered to your shipping station!'
 staxel.shipping.youHaveItems=Gegenstände wurden zu deiner Versandstation geliefert!
-//TODO Translate [Reference] 'There is money waiting at your shipping station'
+//[Reference] 'There is money waiting at your shipping station'
 staxel.shipping.YouHaveMoney=Bei deiner Versandstation wartet Geld auf dich
+staxel.tileObject.airship.RopeFenceCross.description=
+staxel.tileObject.airship.RopeFenceCross.name=
+staxel.tileObject.airship.RopeFenceTSection.description=
+staxel.tileObject.airship.RopeFenceTSection.name=
+staxel.tileObject.biomeDebris.ForestLog.description=
+staxel.tileObject.biomeDebris.ForestLog.name=
+staxel.tileObject.biomeDebris.ForestLogHalf.description=
+staxel.tileObject.biomeDebris.ForestLogHalf.name=
+staxel.tileObject.campingset.SittingLog.description=
+staxel.tileObject.campingset.SittingLog.name=
+staxel.tileObject.decorations.JapaneseArch.description=
+staxel.tileObject.decorations.JapaneseArch.name=
+staxel.tileObject.serverVillage.exterior.SmallWoodenPoleFenceCross.description=
+staxel.tileObject.serverVillage.exterior.SmallWoodenPoleFenceCross.name=
+staxel.tileObject.shop.Awning.description=
+staxel.tileObject.shop.Awning.name=
+staxel.tileObject.shop.MarketCube.description=
+staxel.tileObject.shop.MarketCube.name=
+staxel.tileObject.shop.MarketCubePole.description=
+staxel.tileObject.shop.MarketCubePole.name=
+staxel.tileObject.shop.ShopWindow.description=
+staxel.tileObject.shop.ShopWindow.name=
 staxel.tileObject.totems.RiahMailbox.description=
-//TODO Translate [Reference] 'Riah's Mailbox'
+//[Reference] 'Riah's Postbox'
 staxel.tileObject.totems.RiahMailbox.name=Riahs Postkasten
 staxel.tileObject.totems.workplace.FishingSpotSign.description=
-//TODO Translate [Reference] 'Fishing Spot Sign'
+//[Reference] 'Fishing Spot Sign'
 staxel.tileObject.totems.workplace.FishingSpotSign.name=Angelplatz-Schild
 staxel.tileObject.villagers.RiahSpawner.description=
 staxel.tileObject.villagers.RiahSpawner.name=
 //TODO Translate [Reference] 'Airship Landing'
 staxel.totem.AirshipLanding=
-//TODO Translate [Reference] 'Simple Barn'
+//[Reference] 'Simple Barn'
 staxel.totem.Barn=Einfache Scheune
 staxel.totem.Barn.name=
 //TODO Translate [Reference] 'Cecile's Home'
 staxel.totem.CecileHome=
-//TODO Translate [Reference] 'Emilia's House'
+//[Reference] 'Emilia's Home'
 staxel.totem.EmiliaHome=Emilias Haus
+//TODO Translate [Reference] 'Eris' Home'
 staxel.totem.ErisHome=
 //TODO Translate [Reference] 'Jamie's Home'
 staxel.totem.JamieHome=
@@ -1021,89 +1121,90 @@ staxel.totem.MayorMaxHome=
 staxel.totem.missingItem=
 //TODO Translate [Reference] 'Oscar's Home'
 staxel.totem.OscarHome=
-//TODO Translate [Reference] '(Done)'
+//[Reference] '(Done)'
 staxel.totem.RequirementDone=(Fertig)
-//TODO Translate [Reference] 'Riah's Home'
+//[Reference] 'Riah's Home'
 staxel.totem.RiahHome=Riahs Zuhause
-//TODO Translate [Reference] '(Missing)'
+//[Reference] '(Missing)'
 staxel.totem.roofMissing=(Fehlt)
+//TODO Translate [Reference] 'Rosemary's Home'
 staxel.totem.RosemaryHome=
 staxel.totem.Test.name=
-//TODO Translate [Reference] 'Fishing Spot'
+//[Reference] 'Fishing Spot'
 staxel.totem.workplace.FishingSpot=Angelplatz
-//TODO Translate [Reference] 'Grocery Store'
+//[Reference] 'Grocery Store'
 staxel.totem.workplace.GroceryStore=Lebensmittelladen
-//TODO Translate [Reference] 'Patisserie'
+//[Reference] 'Patisserie'
 staxel.totem.workplace.Patisserie=Patisserie
-//TODO Translate [Reference] 'Tavern'
+//[Reference] 'Tavern'
 staxel.totem.workplace.Tavern=Gasthaus
-//TODO Translate [Reference] 'Town Hall'
+//[Reference] 'Town Hall'
 staxel.totem.workplace.TownHall=Rathaus
-//TODOO Translate [Reference] 'Base Requirements'
+//TODO Translate [Reference] 'Base Requirements'
 staxel.totemInfo.baseRequirements=
-//TODOO Translate [Reference] 'Tier {0-level}'
+//[Reference] 'Tier {0-level}'
 staxel.totemInfo.tier=Stufe {0-level}
-//TODOO Translate [Reference] 'Tier {0-level} Requirements'
+//[Reference] 'Tier {0-level} Requirements'
 staxel.totemInfo.tierRequirements=Voraussetzungen für Stufe {0-level}
-//TODOO Translate [Reference] 'Toggle Region Display'
+//TODO Translate [Reference] 'Toggle Region Display'
 staxel.totems.toggleboundary=
-//TODO Translate [Reference] 'This tree grows juicy, crunchy apples.'
+//[Reference] 'This tree grows juicy, crunchy apples.'
 staxel.tree.AppleTree.description=An diesem Baum wachsen saftige, knackige Äpfel.
-//TODO Translate [Reference] 'Apple TreeSeed'
+//[Reference] 'Apple TreeSeed'
 staxel.tree.AppleTree.name=Apfelbaumsamen
-//TODO Translate [Reference] 'This tree grows yummy bananas.'
+//[Reference] 'This tree grows yummy bananas.'
 staxel.tree.BananaTree.description=An diesem Baum wachsen leckere Bananen
-//TODO Translate [Reference] 'Banana Tree Seed'
+//[Reference] 'Banana Tree Seed'
 staxel.tree.BananaTree.name=Bananensamen
-//TODO Translate [Reference] 'This tree grows sweet sweet cherries'
+//[Reference] 'This tree grows sweet sweet cherries'
 staxel.tree.CherryTree.description=An diesem Baum wachsen süße, süße Kirschen
-//TODO Translate [Reference] 'Cherry Tree Seed'
+//[Reference] 'Cherry Tree Seed'
 staxel.tree.CherryTree.name=Kirschsamen
-//TODO Translate [Reference] 'Chocolate does grow on trees'
+//[Reference] 'Chocolate does grow on trees'
 staxel.tree.CocoaTree.description=Schokolade wächst ja doch an Bäumen
-//TODO Translate [Reference] 'Cocoa Tree Seed'
+//[Reference] 'Cocoa Tree Seed'
 staxel.tree.CocoaTree.name=Kakaosamen
-//TODO Translate [Reference] 'This palm tree grows coconuts, mind your head!'
+//[Reference] 'This palm tree grows coconuts, mind your head!'
 staxel.tree.CoconutTree.description=An dieser Palme wachsen Kokosnüsse, pass auf deinen Kopf auf!
-//TODO Translate [Reference] 'Coconut Tree Seed'
+//[Reference] 'Coconut Tree Seed'
 staxel.tree.CoconutTree.name=Kokosnussbaum Saat
-//TODO Translate [Reference] 'This tree grows the strange, alien looking dragonfruit.'
+//[Reference] 'This tree grows the strange, alien looking dragonfruit.'
 staxel.tree.DragonFruitTree.description=An diesem Baum wächst die seltsame, fremdartige Drachenfrucht.
-//TODO Translate [Reference] 'Dragon Fruit Tree Seed'
+//[Reference] 'Dragon Fruit Tree Seed'
 staxel.tree.DragonFruitTree.name=Drachenfruchtsamen
-//TODO Translate [Reference] 'This tree grows sublime kiwis.'
+//[Reference] 'This tree grows sublime kiwis.'
 staxel.tree.KiwiTree.description=An diesem Baum wachsen großartige Kiwis.
-//TODO Translate [Reference] 'Kiwi Tree Seed'
+//[Reference] 'Kiwi Tree Seed'
 staxel.tree.KiwiTree.name=Kiwisamen
-//TODO Translate [Reference] 'A tree that grows sour and juicy lemons.'
+//[Reference] 'A tree that grows sour and juicy lemons.'
 staxel.tree.LemonTree.description=Ein Baum an dem saure und saftige Zitronen wachsen.
-//TODO Translate [Reference] 'Lemon Tree Seed'
+//[Reference] 'Lemon Tree Seed'
 staxel.tree.LemonTree.name=Zitronensamen
-//TODO Translate [Reference] 'A tree that produces bright green and zingy limes.'
+//[Reference] 'A tree that produces bright green and zingy limes.'
 staxel.tree.LimeTree.description=Ein Baum an dem hellgrüne und schwungvolle Limetten wachsen.
-//TODO Translate [Reference] 'Lime Tree Seed'
+//[Reference] 'Lime Tree Seed'
 staxel.tree.LimeTree.name=LimLimettensamen
-//TODO Translate [Reference] 'A tree that grows a delicious soft fruit.'
+//[Reference] 'A tree that grows a delicious soft fruit.'
 staxel.tree.MangoTree.description=Ein Baum an dem leckere Mangos wachsen.
-//TODO Translate [Reference] 'Mango Tree Seed'
+//[Reference] 'Mango Tree Seed'
 staxel.tree.MangoTree.name=Mangosamen
-//TODO Translate [Reference] 'With this tree you'll never run out of orange juice.'
+//[Reference] 'With this tree you'll never run out of orange juice.'
 staxel.tree.OrangeTree.description=Mit diesem Baum wird dir der Orangensaft niemals ausgehen.
-//TODO Translate [Reference] 'Orange Tree Seed'
+//[Reference] 'Orange Tree Seed'
 staxel.tree.OrangeTree.name=Orangensamen
-//TODO Translate [Reference] 'This tree grows succulent peaches.'
+//[Reference] 'This tree grows succulent peaches.'
 staxel.tree.PeachTree.description=An diesem Baum wachsen saftige Pfirsiche
-//TODO Translate [Reference] 'Peach Tree Seed'
+//[Reference] 'Peach Tree Seed'
 staxel.tree.PeachTree.name=Pfirsichsamen
-//TODO Translate [Reference] 'Pears are like longer apples.'
+//[Reference] 'Pears are like longer apples.'
 staxel.tree.PearTree.description=Birnen sind wie längere Äpfel.
-//TODO Translate [Reference] 'Pear Tree Seed'
+//[Reference] 'Pear Tree Seed'
 staxel.tree.PearTree.name=Birnensamen
-//TODO Translate [Reference] 'This tree grows tangerines, not oranges.'
+//[Reference] 'This tree grows tangerines, not oranges.'
 staxel.tree.TangerineTree.description=An diesem Baum wachsen Mandarinen, keine Orangen.
-//TODO Translate [Reference] 'Tangerine Tree'
+//[Reference] 'Tangerine Tree'
 staxel.tree.TangerineTree.name=Mandarinensamen
-//TODO Translate [Reference] '{0-name} has left the village.'
+//[Reference] '{0-name} has left the village.'
 staxel.village.villagerLeftTown={0-name} hat das Dorf verlassen.
 //TODO Translate [Reference] 'Cecile'
 staxel.villager.Cecile.name=
@@ -1111,7 +1212,7 @@ staxel.villager.Cecile.name=
 staxel.villager.Emilia.name=
 //TODO Translate [Reference] 'Eris'
 staxel.villager.Eris.name=
-//TODO Translate [Reference] 'Farm Fan'
+//[Reference] 'Farm Fan'
 staxel.villager.FarmFan.name=Farm-Fan
 //TODO Translate [Reference] 'Jamie'
 staxel.villager.Jamie.name=
@@ -1141,9 +1242,9 @@ staxel.weed.Weed1.description=
 //TODO Translate [Reference] 'Weed'
 staxel.weed.Weed1.name=
 
-//TODO Translate [Reference] 'Staxel Development Build'
+//[Reference] 'Staxel Development Build'
 version.developmentBuild=Staxel Demo in Entwicklung
 //[Reference] 'Can't equip this here!'
 wardrobe.CantEquip=Dies kann hier nicht ausgerüstet werden!
-//TODO Translate [Reference] 'Use a wardrobe to wear this'
+//[Reference] 'Use a wardrobe to wear this'
 wardrobe.UseAWardrobe=Benutze einen Kleiderschrank um dies zu tragen
