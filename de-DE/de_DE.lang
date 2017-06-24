@@ -40,13 +40,13 @@ crafting.action.keyword.fry=Brate
 //[Reference] 'Mix'
 crafting.action.keyword.mix=Vermische
 //TODO Translate [Reference] '{0-itemOne}, {1-itemTwo}'
-crafting.action.task.listedItems=
+crafting.action.task.listedItems={0-itemOne}, {1-itemTwo}
 //[Reference] '{0-keyword} {1-listedItems} and {2-lastListedItem}'
 crafting.action.task.multiItem={0-keyword} {1-listedItems} und {2-lastListedItem}
 //TODO Translate [Reference] '{0-count}x {1-item}'
-crafting.action.task.multiples=
+crafting.action.task.multiples={0-count}x {1-item}
 //TODO Translate [Reference] '{0-keyword} {1-item}'
-crafting.action.task.oneItem=
+crafting.action.task.oneItem={0-keyword} {1-item}
 //[Reference] 'That wasn't a recipe, Oops!'
 crafting.notifications.failedCraft=Ups, das war kein Rezept!
 //[Reference] 'You completed the recipe for {0-item}!'
@@ -141,7 +141,7 @@ hintText.checkPlantGrowth.wilted=Sie sieht nicht gesund aus
 //[Reference] 'It's heading to the big garden in the sky'
 hintText.checkPlantGrowth.withered=Sie ist jetzt im großen Garten im Himmel
 //TODO Translate [Reference] '{0-name}'
-hintText.inspectedEntity=
+hintText.inspectedEntity={0-name}
 //[Reference] 'Inventory Full'
 hintText.inventoryFull=Inventar ist voll
 //[Reference] 'Need at least {0-count} slots in inventory'
@@ -225,7 +225,7 @@ options.backButton=
 //[Reference] 'Gameplay'
 options.gameplay=Spiel
 //TODO Translate [Reference] 'Controller'
-options.gameplay.controller=
+options.gameplay.controller=Controller
 //[Reference] 'Enable Controller Input'
 options.gameplay.controller.enableController=Controller aktivieren
 //[Reference] 'Flip Left Y Axis'
@@ -274,11 +274,11 @@ options.gameplay.other.showClock=Zeige Uhr
 //[Reference] 'Crafting Keyword Tags'
 options.gameplay.other.showCraftingKeywordTags=Crafting Schlüsselwort-Tags
 //TODO Translate [Reference] 'Prevent NPC Staring'
-options.gameplay.other.StopNPCStaring=
+options.gameplay.other.StopNPCStaring= Starren der NPCs unterbinden
 //[Reference] 'General'
 options.general=Allgemein
 //TODO Translate [Reference] 'Audio'
-options.general.audio=
+options.general.audio=Audio
 //[Reference] 'Ambience:'
 options.general.audio.ambience=Umgebung:
 //[Reference] 'Master:'
@@ -294,13 +294,13 @@ options.general.graphics.advanced=Erweitert
 //[Reference] 'Auto detect graphics settings'
 options.general.graphics.autoDetect=Grafikeinstellungen automatisch ermitteln
 //TODO Translate [Reference] 'Bloom'
-options.general.graphics.bloom=
+options.general.graphics.bloom=Bloom
 //[Reference] 'Camera Distance:'
 options.general.graphics.cameraDistance=Kameraentfernung:
 //TODO Translate [Reference] 'Fat Quads'
 options.general.graphics.fatQuads=
 //[Reference] 'Field Of View:'
-options.general.graphics.fieldOfView=Tiefenunschärfe:
+options.general.graphics.fieldOfView=Sichtfeld:
 //[Reference] 'Fullscreen'
 options.general.graphics.fullscreen=Vollbild
 //[Reference] 'Half Resolution'
@@ -348,13 +348,13 @@ options.network=Netzwerk
 //[Reference] 'Preferences'
 options.network.preferences=Einstellungen
 //TODO Translate [Reference] 'Video'
-options.video=
+options.video=Video
 //[Reference] 'Set video options here'
 options.video.description=Ändere die Video Optionen
 //[Reference] 'Ban'
 playerList.ban=Bann
 //TODO Translate [Reference] 'Kick'
-playerList.kick=
+playerList.kick=Kick
 //[Reference] 'Mute'
 playerList.mute=Stumm
 //[Reference] 'Players Online:'
@@ -398,7 +398,7 @@ serverBrowser.back=Zurück
 //[Reference] 'No servers or master server unreachable'
 serverBrowser.noServers=Server sind nicht erreichbar
 //TODO Translate [Reference] 'Online:'
-serverBrowser.online=
+serverBrowser.online=Online
 //[Reference] 'Server name:'
 serverBrowser.serverName=Servername:
 //[Reference] 'Cancel all'
@@ -440,7 +440,7 @@ singleplayer.nameTooShort=Name zu kurz (min. 3 Zeichen)
 //[Reference] 'New World'
 singleplayer.newWorld=Neue Welt
 //TODO Translate [Reference] 'Name'
-singleplayer.serverName=
+singleplayer.serverName=Name
 //[Reference] 'Single Player'
 singleplayer.singleplayer=Einzelspieler
 //[Reference] 'Storage is in use, lockfile detected.'
@@ -448,7 +448,7 @@ singleplayer.storageLockFile=Speicher wird genutzt, Lock-Datei wurde entdeckt.
 //[Reference] 'Village'
 singleplayer.village=Dorf
 //TODO Translate [Reference] 'Credits'
-startMenu.credits=
+startMenu.credits=Mitwirkende
 //[Reference] 'Exit'
 startMenu.exit=Verlassen
 //[Reference] 'Multi Player'
@@ -464,29 +464,29 @@ staxel.accessories.fullBodyOutfits.villager.Riah.name=
 //[Reference] 'None'
 staxel.accessory.none=Nichts
 //TODO Translate [Reference] 'If only programming bugs were so easy to catch.'
-staxel.achievement.Catch100Bug.description=
+staxel.achievement.Catch100Bug.description=Wenn Programmier-Bugs nur so einfach zu fangen wären.
 //TODO Translate [Reference] 'Catch 100 Bugs'
-staxel.achievement.Catch100Bug.name=
+staxel.achievement.Catch100Bug.name=Fange 100 Käfer
 //TODO Translate [Reference] 'Them's good eating!'
-staxel.achievement.Catch100Fish.description=
+staxel.achievement.Catch100Fish.description=Auf den Tisch kommt heut' ein Fisch!
 //TODO Translate [Reference] 'Catch 100 Fish'
-staxel.achievement.Catch100Fish.name=
+staxel.achievement.Catch100Fish.name=Fange 100 Fische
 //TODO Translate [Reference] 'Bugs can be sold for money.'
-staxel.achievement.Catch10Bug.description=
+staxel.achievement.Catch10Bug.description=Käfer bringen kein Geld
 //TODO Translate [Reference] 'Catch 10 Bugs'
-staxel.achievement.Catch10Bug.name=
+staxel.achievement.Catch10Bug.name=Fange 10 Käfer
 //TODO Translate [Reference] 'Use a fishing rod.'
-staxel.achievement.Catch10Fish.description=
+staxel.achievement.Catch10Fish.description=Benutze die Angel
 //TODO Translate [Reference] 'Catch 10 Fish'
-staxel.achievement.Catch10Fish.name=
+staxel.achievement.Catch10Fish.name=Fange 10 Fische
 //TODO Translate [Reference] 'Use a bug net.'
-staxel.achievement.CatchBug.description=
+staxel.achievement.CatchBug.description=Benutze ein Schmetterlingsnetz
 //TODO Translate [Reference] 'Catch a Bug'
-staxel.achievement.CatchBug.name=
+staxel.achievement.CatchBug.name=Fange einen Käfter
 //TODO Translate [Reference] 'You can put them into Apiaries to make honey.'
-staxel.achievement.CatchQueen.description=
+staxel.achievement.CatchQueen.description=Du kannst sie in Bienenhäuser stecken um Honig zu produzieren
 //TODO Translate [Reference] 'Catch a Queen Bee'
-staxel.achievement.CatchQueen.name=
+staxel.achievement.CatchQueen.name=Fange eine Bienenkönigin
 staxel.achievement.ChangeClothing.description=
 staxel.achievement.ChangeClothing.name=
 staxel.achievement.Cook100.description=
@@ -504,73 +504,73 @@ staxel.achievement.CookPreserveOneOfEach.name=
 staxel.achievement.CookSoup.description=
 staxel.achievement.CookSoup.name=
 //TODO Translate [Reference] 'Mushrooms are a great way to make money. Activate them to pick them up.'
-staxel.achievement.Gather100Mushrooms.description=
+staxel.achievement.Gather100Mushrooms.description=Mit Pilzen kann man viel Geld machen. Aktiviere sie, um sie einzusammeln.
 //TODO Translate [Reference] 'Gather 100 Mushrooms'
-staxel.achievement.Gather100Mushrooms.name=
+staxel.achievement.Gather100Mushrooms.name=Sammle 100 Pilze
 //TODO Translate [Reference] 'Shells are a great way to make money. Activate them to pick them up.'
-staxel.achievement.Gather100Shells.description=
+staxel.achievement.Gather100Shells.description=Mit Muscheln kann man viel Geld machen. Aktiviere sie, um sie einzusammeln
 //TODO Translate [Reference] 'Gather 100 Shells'
-staxel.achievement.Gather100Shells.name=
+staxel.achievement.Gather100Shells.name=Sammle 100 Muscheln
 //TODO Translate [Reference] 'Mushrooms are a great way to make money. Activate them to pick them up.'
-staxel.achievement.Gather10Mushrooms.description=
+staxel.achievement.Gather10Mushrooms.description=Mit Pilzen kann man viel Geld machen. Aktiviere sie, um sie einzusammeln.
 //TODO Translate [Reference] 'Gather 10 Mushrooms'
-staxel.achievement.Gather10Mushrooms.name=
+staxel.achievement.Gather10Mushrooms.name=Sammle 10 Pilze
 //TODO Translate [Reference] 'Shells are a great way to make money. Activate them to pick them up.'
-staxel.achievement.Gather10Shells.description=
+staxel.achievement.Gather10Shells.description=Mit Muscheln kann man viel Geld machen. Aktiviere sie, um sie einzusammeln
 //TODO Translate [Reference] 'Gather 10 Shells'
-staxel.achievement.Gather10Shells.name=
+staxel.achievement.Gather10Shells.name=Sammle 10 Muscheln
 //TODO Translate [Reference] 'These make eggs.'
-staxel.achievement.GetChicken.description=
+staxel.achievement.GetChicken.description=Sie machen Eier
 //TODO Translate [Reference] 'Get a Chicken in a Crate'
-staxel.achievement.GetChicken.name=
+staxel.achievement.GetChicken.name=Lege ein Huhn in eine Kiste
 //TODO Translate [Reference] 'A great source of milk.'
-staxel.achievement.GetCow.description=
+staxel.achievement.GetCow.description=Eine gute Milchquelle
 //TODO Translate [Reference] 'Get a Cow in a Crate'
-staxel.achievement.GetCow.name=
+staxel.achievement.GetCow.name=Lege eine Kuh in eine Kiste
 //TODO Translate [Reference] 'A gift from your chickens!'
-staxel.achievement.GetEgg.description=
+staxel.achievement.GetEgg.description=Ein Geschenk deiner Hühner!
 //TODO Translate [Reference] 'Pick up an Egg'
-staxel.achievement.GetEgg.name=
+staxel.achievement.GetEgg.name=Hebe ein Ei auf
 //TODO Translate [Reference] 'Don't put them all in one basket!'
-staxel.achievement.GetEgg100.description=
+staxel.achievement.GetEgg100.description=Leg sie nicht alle in einen Korb!
 //TODO Translate [Reference] 'Pick up 100 Eggs'
-staxel.achievement.GetEgg100.name=
+staxel.achievement.GetEgg100.name=Sammle 100 Eier
 //TODO Translate [Reference] 'They love to play in the mud.'
-staxel.achievement.GetPig.description=
+staxel.achievement.GetPig.description=Sie lieben es im Schlamm zu spielen.
 //TODO Translate [Reference] 'Get a Pig in a Crate'
-staxel.achievement.GetPig.name=
+staxel.achievement.GetPig.name=Lege ein Schwein in eine Kiste
 //TODO Translate [Reference] 'Don't forget to pick up after your animals!'
-staxel.achievement.GetPoops.description=
+staxel.achievement.GetPoops.description=Vergiss nicht hinter deinen Tieren her zu räumen!
 //TODO Translate [Reference] 'Pick up 100 Poops'
-staxel.achievement.GetPoops.name=
+staxel.achievement.GetPoops.name=Hebe 100 Kot auf
 //TODO Translate [Reference] 'Your wooly friend.'
-staxel.achievement.GetSheep.description=
+staxel.achievement.GetSheep.description=Dein wolliger Freund
 //TODO Translate [Reference] 'Get a Sheep in a Crate'
-staxel.achievement.GetSheep.name=
+staxel.achievement.GetSheep.name=Lege ein Schaaf in eine Kiste
 //TODO Translate [Reference] 'You'll need to populate an Apiary for this.'
-staxel.achievement.HarvestHoney.description=
+staxel.achievement.HarvestHoney.description=Du musst ein Bienenhaus bevölkern
 //TODO Translate [Reference] 'Harvest Honey'
-staxel.achievement.HarvestHoney.name=
+staxel.achievement.HarvestHoney.name=Gewinne Honig
 //TODO Translate [Reference] 'Don't forget to milk them every day!'
-staxel.achievement.MilkCow.description=
+staxel.achievement.MilkCow.description=Vergiss nicht sie jeden Tag zu melken!
 //TODO Translate [Reference] 'Milk a Cow'
-staxel.achievement.MilkCow.name=
+staxel.achievement.MilkCow.name=Melke eine Kuh
 //TODO Translate [Reference] 'Do these things ever run out of milk?'
-staxel.achievement.MilkCow100.description=
+staxel.achievement.MilkCow100.description=Geht bei den Dingern je die Milch aus?
 //TODO Translate [Reference] 'Milk a Cow 100 Times'
-staxel.achievement.MilkCow100.name=
+staxel.achievement.MilkCow100.name=Melke 100 Kühe
 staxel.achievement.Order10.description=
 staxel.achievement.Order10.name=
 staxel.achievement.Order100.description=
 staxel.achievement.Order100.name=
 //TODO Translate [Reference] 'You can build a mansion with all these blocks.'
-staxel.achievement.Place1000Blocks.description=
+staxel.achievement.Place1000Blocks.description=Du kannst eine Villa mit all diesen Blöcken bauen
 //TODO Translate [Reference] 'Place 1000 Blocks'
-staxel.achievement.Place1000Blocks.name=
+staxel.achievement.Place1000Blocks.name=Platziere 1000 Blöcke
 //TODO Translate [Reference] 'Get to building!'
-staxel.achievement.Place100Blocks.description=
+staxel.achievement.Place100Blocks.description=Bau! Bau! Bau!
 //TODO Translate [Reference] 'Place 100 Blocks'
-staxel.achievement.Place100Blocks.name=
+staxel.achievement.Place100Blocks.name=Platziere 100 Blöcke
 staxel.achievement.PlaceCookingStuff.description=
 staxel.achievement.PlaceCookingStuff.name=
 staxel.achievement.PlaceShipping.description=
@@ -588,26 +588,26 @@ staxel.achievement.RawWood100.name=
 staxel.achievement.RawWood1000.description=
 staxel.achievement.RawWood1000.name=
 //TODO Translate [Reference] 'Get a gold seed from the seedmaker'
-staxel.achievement.ReapGold.description=
+staxel.achievement.ReapGold.description=Hol einen goldenen Samen vom Samenhersteller
 //TODO Translate [Reference] 'Reap a Gold Seed'
-staxel.achievement.ReapGold.name=
+staxel.achievement.ReapGold.name=Ernte einen Gold-Samen
 //TODO Translate [Reference] 'Shear a Sheep. Don't worry, they'll be fine!'
-staxel.achievement.ShearSheep.description=
+staxel.achievement.ShearSheep.description=Schere ein Shaf. Keine Angst sie werden's überleben!
 //TODO Translate [Reference] 'Shear a Sheep'
-staxel.achievement.ShearSheep.name=
+staxel.achievement.ShearSheep.name=Schere ein Schaf
 //TODO Translate [Reference] 'Rev up those shears!'
-staxel.achievement.ShearSheep100.description=
+staxel.achievement.ShearSheep100.description=Bring das Scheren auf Touren!
 //TODO Translate [Reference] 'Shear a Sheep 100 Times'
-staxel.achievement.ShearSheep100.name=
+staxel.achievement.ShearSheep100.name=Schere ein Schaf 100 Mal
 //TODO Translate [Reference] 'Throw a ball for your pet. They'll fetch it if they're following you!'
-staxel.achievement.ThrowBall.description=
+staxel.achievement.ThrowBall.description=Werfe einen Ball für dein Haustier. Sie werden es zurückbringen, wenn sie dir folgen!
 //TODO Translate [Reference] 'Throw a Ball'
-staxel.achievement.ThrowBall.name=
+staxel.achievement.ThrowBall.name=Werfe einen Ball
 staxel.achievement.UseRecipeOverlay.description=
 staxel.achievement.UseRecipeOverlay.name=
 staxel.achievements.changeClothing=
 //TODO Translate [Reference] 'Throw a Ball'
-staxel.achievements.throw=
+staxel.achievements.throw=Werfe einen Ball
 staxel.achievements.UseRecipeOverlay=
 //[Reference] 'Ouch! The bees need to be calmed down'
 staxel.apiary.calmWorkers=Aua! Die Bienen müssen beruhigt werden
@@ -812,12 +812,12 @@ staxel.emote.Inspect.begin.description=
 staxel.emote.Inspect.begin.name=
 staxel.emote.LookAround.description=
 //TODO Translate [Reference] 'Look Around'
-staxel.emote.LookAround.name=
+staxel.emote.LookAround.name=Schau dich um
 staxel.emote.No.description=
 staxel.emote.No.name=
 staxel.emote.ScratchHead.description=
 //TODO Translate [Reference] 'Scratch Head'
-staxel.emote.ScratchHead.name=
+staxel.emote.ScratchHead.name=Kratze Kopf
 staxel.emote.Search.begin.description=
 staxel.emote.Search.begin.name=
 //[Reference] 'Use this to trigger the wave emote.'
@@ -905,7 +905,7 @@ staxel.gatherable.RedWhiteMushroom.description=Bei diesem Pilz solltest du vorsi
 staxel.gatherable.RedWhiteMushroom.name=Fliegenpilz
 staxel.gatherable.Starfish.description=
 //TODO Translate [Reference] 'Starfish'
-staxel.gatherable.Starfish.name=
+staxel.gatherable.Starfish.name=Seestern
 staxel.gatherable.SwirlyShell.description=
 //TODO Translate [Reference] 'Swirly Shell'
 staxel.gatherable.SwirlyShell.name=
@@ -914,17 +914,17 @@ staxel.gatherable.WhiteMushrooms.description=Bei vielen Gerichten beliebt.
 //[Reference] 'White Mushrooms'
 staxel.gatherable.WhiteMushrooms.name=Weiße Pilze
 //TODO Translate [Reference] 'Brick'
-staxel.merchant.Brick.name=
+staxel.merchant.Brick.name=Brick
 //TODO Translate [Reference] 'Buttons'
-staxel.merchant.Buttons.name=
+staxel.merchant.Buttons.name=Buttons
 //TODO Translate [Reference] 'Holly'
-staxel.merchant.Holly.name=
+staxel.merchant.Holly.name=Holly
 //TODO Translate [Reference] 'Leon'
-staxel.merchant.Leon.name=
+staxel.merchant.Leon.name=Leon
 //TODO Translate [Reference] 'Melissa'
-staxel.merchant.Melissa.name=
+staxel.merchant.Melissa.name=Melissa
 //TODO Translate [Reference] 'Morgan'
-staxel.merchant.Morgan.name=
+staxel.merchant.Morgan.name=Morgan
 //[Reference] 'Not enough money'
 staxel.merchant.NotEnoughMoney=Nicht genug Geld
 //[Reference] 'Paid {0-amount} petals!'
@@ -932,7 +932,7 @@ staxel.merchant.paid={0-amount} Blütenblätter bezahlt!
 //[Reference] 'Received {0-amount} petals!'
 staxel.merchant.received={0-amount} Blütenblätter erhalten!
 //TODO Translate [Reference] 'Rob'
-staxel.merchant.Rob.name=
+staxel.merchant.Rob.name=Rob
 staxel.merchant.SellBoxDefault=
 staxel.merchants.carts.BuildingMerchant.description=
 //TODO Translate [Reference] 'Building Merchant Cart'
@@ -1009,11 +1009,11 @@ staxel.notifications.milker.NotLookingAtMilkableAnimal=Versuche ein Tier, das ma
 //[Reference] 'New home position set!'
 staxel.notifications.newHomePosition=Neuer Heimatpunkt gesetzt!
 //TODO Translate [Reference] 'This can only be planted in {0-season}!'
-staxel.notifications.season.WrongSeason.1=
+staxel.notifications.season.WrongSeason.1=Dies kann nur in {0-season} gepflanzt werden!
 //TODO Translate [Reference] 'This can only be planted in {0-season} or {1-season}!'
-staxel.notifications.season.WrongSeason.2=
+staxel.notifications.season.WrongSeason.2=Dies kann nur in {0-season} oder {1-season} gepflanzt werden!
 //TODO Translate [Reference] 'This can only be planted in {0-season}, {1-season}, or {2-season}!'
-staxel.notifications.season.WrongSeason.3=
+staxel.notifications.season.WrongSeason.3=Dies kann nur in {0-season}, {1-season} oder {2-season} gepflanzt werden!
 staxel.notifications.shears.NotLookingAtShearableAnimal=
 //[Reference] 'It's too early to sleep!'
 staxel.notifications.tooEarlyForSleep=Es ist zu früh, um zu schlafen!
@@ -1026,17 +1026,17 @@ staxel.notifications.WrongTool=Das ist nicht das richtige Werkzeug
 //[Reference] 'You need a {0}{1}{2}{3}{4}{5}{6} to break this!'
 staxel.notifications.WrongToolUniversal={0}{1}{2}{3}{4}{5}{6} benötigt, um das hier zu brechen!
 //TODO Translate [Reference] 'Chicken'
-staxel.personality.Chicken=
+staxel.personality.Chicken=Huhn
 //TODO Translate [Reference] 'Cow'
-staxel.personality.Cow=
+staxel.personality.Cow=Kuh
 //TODO Translate [Reference] 'Feminine'
 staxel.personality.feminine=
 //TODO Translate [Reference] 'Pig'
-staxel.personality.Pig=
+staxel.personality.Pig=Schwein
 //TODO Translate [Reference] 'Sheep'
-staxel.personality.Sheep=
+staxel.personality.Sheep=Schaf
 //TODO Translate [Reference] 'Standard'
-staxel.personality.standard=
+staxel.personality.standard=Standard
 //[Reference] 'Cat'
 staxel.pets.Cat.name=Katze
 //[Reference] 'Dog'
@@ -1044,13 +1044,13 @@ staxel.pets.Dog.name=Hund
 //[Reference] '{0-pet} has brought you a gift!'
 staxel.pets.GiftReceived={0-pet} hat dir ein Geschenk gebracht!
 //TODO Translate [Reference] 'Autumn'
-staxel.season.Autumn=
+staxel.season.Autumn=Herbst
 //TODO Translate [Reference] 'Spring'
-staxel.season.Spring=
+staxel.season.Spring=Frühling
 //TODO Translate [Reference] 'Summer'
-staxel.season.Summer=
+staxel.season.Summer=Sommer
 //TODO Translate [Reference] 'Winter'
-staxel.season.Winter=
+staxel.season.Winter=Winter
 //[Reference] 'Open your delivery before selling Items!'
 staxel.shipping.dock.openDeliveryBeforeSell=Öffne deine Bestellung, bevor du Gegenstände verkaufst!
 //[Reference] 'Unclaimed'
@@ -1108,19 +1108,19 @@ staxel.totem.AirshipLanding=
 staxel.totem.Barn=Einfache Scheune
 staxel.totem.Barn.name=
 //TODO Translate [Reference] 'Cecile's Home'
-staxel.totem.CecileHome=
+staxel.totem.CecileHome=Ceciles Haus
 //[Reference] 'Emilia's Home'
 staxel.totem.EmiliaHome=Emilias Haus
 //TODO Translate [Reference] 'Eris' Home'
-staxel.totem.ErisHome=
+staxel.totem.ErisHome=Eris Haus
 //TODO Translate [Reference] 'Jamie's Home'
-staxel.totem.JamieHome=
+staxel.totem.JamieHome=Jamies Haus
 //TODO Translate [Reference] 'Maximilian's Home'
-staxel.totem.MayorMaxHome=
+staxel.totem.MayorMaxHome=Maximilians Haus
 //TODO Translate [Reference] '({0-count} missing)'
-staxel.totem.missingItem=
+staxel.totem.missingItem=({0-count} missing)
 //TODO Translate [Reference] 'Oscar's Home'
-staxel.totem.OscarHome=
+staxel.totem.OscarHome=Oscars Haus
 //[Reference] '(Done)'
 staxel.totem.RequirementDone=(Fertig)
 //[Reference] 'Riah's Home'
@@ -1128,7 +1128,7 @@ staxel.totem.RiahHome=Riahs Zuhause
 //[Reference] '(Missing)'
 staxel.totem.roofMissing=(Fehlt)
 //TODO Translate [Reference] 'Rosemary's Home'
-staxel.totem.RosemaryHome=
+staxel.totem.RosemaryHome=Rosemarys Haus
 staxel.totem.Test.name=
 //[Reference] 'Fishing Spot'
 staxel.totem.workplace.FishingSpot=Angelplatz
@@ -1141,7 +1141,7 @@ staxel.totem.workplace.Tavern=Gasthaus
 //[Reference] 'Town Hall'
 staxel.totem.workplace.TownHall=Rathaus
 //TODO Translate [Reference] 'Base Requirements'
-staxel.totemInfo.baseRequirements=
+staxel.totemInfo.baseRequirements=Grundvoraussetzungen
 //[Reference] 'Tier {0-level}'
 staxel.totemInfo.tier=Stufe {0-level}
 //[Reference] 'Tier {0-level} Requirements'
@@ -1207,27 +1207,27 @@ staxel.tree.TangerineTree.name=Mandarinensamen
 //[Reference] '{0-name} has left the village.'
 staxel.village.villagerLeftTown={0-name} hat das Dorf verlassen.
 //TODO Translate [Reference] 'Cecile'
-staxel.villager.Cecile.name=
+staxel.villager.Cecile.name=Cecile
 //TODO Translate [Reference] 'Emilia'
-staxel.villager.Emilia.name=
+staxel.villager.Emilia.name=Emilia
 //TODO Translate [Reference] 'Eris'
-staxel.villager.Eris.name=
+staxel.villager.Eris.name=Eris
 //[Reference] 'Farm Fan'
 staxel.villager.FarmFan.name=Farm-Fan
 //TODO Translate [Reference] 'Jamie'
-staxel.villager.Jamie.name=
+staxel.villager.Jamie.name=Jamie
 //TODO Translate [Reference] 'Leif'
-staxel.villager.Leif.name=
+staxel.villager.Leif.name=Leif
 //TODO Translate [Reference] 'Maximilian'
-staxel.villager.Maximilian.name=
+staxel.villager.Maximilian.name=Maximilian
 //TODO Translate [Reference] 'Oscar'
-staxel.villager.Oscar.name=
+staxel.villager.Oscar.name=Oscar
 //TODO Translate [Reference] 'Riah'
-staxel.villager.Riah.name=
+staxel.villager.Riah.name=Riah
 //TODO Translate [Reference] 'Rosemary'
-staxel.villager.Rosemary.name=
+staxel.villager.Rosemary.name=Rosemary
 //TODO Translate [Reference] 'Rowan'
-staxel.villager.Rowan.name=
+staxel.villager.Rowan.name=Rowan
 staxel.villager.staxel.villager.Cecile.name.name=
 staxel.villager.staxel.villager.Emilia.name.name=
 staxel.villager.staxel.villager.Eris.name.name=
@@ -1247,4 +1247,4 @@ version.developmentBuild=Staxel Demo in Entwicklung
 //[Reference] 'Can't equip this here!'
 wardrobe.CantEquip=Dies kann hier nicht ausgerüstet werden!
 //[Reference] 'Use a wardrobe to wear this'
-wardrobe.UseAWardrobe=Benutze einen Kleiderschrank um dies zu tragen
+wardrobe.UseAWardrobe=Benutze einen Kleiderschrank, um dies zu tragen
