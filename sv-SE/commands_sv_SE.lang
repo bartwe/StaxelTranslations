@@ -105,6 +105,7 @@ commands.help.commandNotFound=Kommando hittades inte: '{0-command}'
 commands.help.description=help (optional)commandoNamn
 //[Reference] 'Command list (() brackets denote possible values):'
 commands.help.success=Kommando lista (() parantes förkortar möjliga värden):
+//TODO Translate [Reference] 'Inspection success.'
 commands.inspect.success=
 //[Reference] 'invalid args'
 commands.invalidArgs=ogiltiga argument
@@ -170,6 +171,7 @@ commands.position.description=position (optional)spelarNamn
 commands.position.failed=Misslyckades med att hitta spelare
 //[Reference] 'Position: {0-position}, Heading: {1-heading}'
 commands.position.success=position: {0-position}, Påväg: {1-heading}
+//TODO Translate [Reference] 'Made it a rainy day.'
 commands.rain.success=
 //[Reference] '^c:F2E200;reload'
 commands.reload.description=ladda om
@@ -229,6 +231,7 @@ commands.stealPetals.success=
 commands.stealPetals.success.reset=
 //TODO Translate [Reference] '{0-player} stole {1-amount} petals. Thief!'
 commands.stealPetals.success.thief=
+//TODO Translate [Reference] 'Made it a sunny day.'
 commands.sun.success=
 //[Reference] '^c:F2E200;teleport ^c:FFFFFF;(optional)playerName location({0,0,0})'
 commands.teleport.description=teleportera (optional)spelarNamn position({0,0,0})
@@ -240,6 +243,7 @@ commands.teleport.fail=Misslyckades med att parsa position {0-position}
 commands.teleport.success=Teleport lyckades.
 //[Reference] '^c:F2E200;tp ^c:FFFFFF;movingPlayerName destinationPlayerName'
 commands.teleportPlayer.description=tp flyttaSpelareNamn destinationSpelareNamn
+//TODO Translate [Reference] 'Saying text.'
 commands.textToSpeech.success=
 //[Reference] '^c:F2E200;tileAt ^c:FFFFFF;(optional)location({0,0,0})'
 commands.tileAt.description=brickaVid (optional)position({0,0,0})
@@ -250,8 +254,10 @@ commands.tileAt.notFound=Hittade inte Bricka
 //[Reference] 'Tile code: {0-tilecode} at {1-position}'
 commands.tileAt.success=Brick-kod: {0-tilecode} {1-position}
 commands.traceStart.description=
+//TODO Translate [Reference] 'Started tracing.'
 commands.traceStart.success=
 commands.traceStop.description=
+//TODO Translate [Reference] 'Stopped tracing.'
 commands.traceStop.success=
 //TODO Translate [Reference] '^c:F2E200;unban ^c:FFFFFF;playerName'
 commands.unban.description=

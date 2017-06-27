@@ -105,6 +105,7 @@ commands.help.commandNotFound=Comando no encontrado: '{0-command}'
 commands.help.description=
 //[Reference] 'Command list (() brackets denote possible values):'
 commands.help.success=Lista de comandos (() los paréntesis denotan posibles valores):
+//TODO Translate [Reference] 'Inspection success.'
 commands.inspect.success=
 //[Reference] 'invalid args'
 commands.invalidArgs=Argumentos invalidos
@@ -170,6 +171,7 @@ commands.position.description=posición (optional)playerName
 commands.position.failed=Fallo al encontrar jugadores
 //[Reference] 'Position: {0-position}, Heading: {1-heading}'
 commands.position.success=Posición: {0-position}, Grado: {1-heading}
+//TODO Translate [Reference] 'Made it a rainy day.'
 commands.rain.success=
 //[Reference] '^c:F2E200;reload'
 commands.reload.description=recargar
@@ -229,6 +231,7 @@ commands.stealPetals.success=
 commands.stealPetals.success.reset=
 //TODO Translate [Reference] '{0-player} stole {1-amount} petals. Thief!'
 commands.stealPetals.success.thief=
+//TODO Translate [Reference] 'Made it a sunny day.'
 commands.sun.success=
 //TODO Translate [Reference] '^c:F2E200;teleport ^c:FFFFFF;(optional)playerName location({0,0,0})'
 commands.teleport.description=
@@ -240,6 +243,7 @@ commands.teleport.fail=Fallo al detectar la posición {0-position}
 commands.teleport.success=Teletransporte realizado con éxito.
 //TODO Translate [Reference] '^c:F2E200;tp ^c:FFFFFF;movingPlayerName destinationPlayerName'
 commands.teleportPlayer.description=
+//TODO Translate [Reference] 'Saying text.'
 commands.textToSpeech.success=
 //TODO Translate [Reference] '^c:F2E200;tileAt ^c:FFFFFF;(optional)location({0,0,0})'
 commands.tileAt.description=
@@ -251,8 +255,10 @@ commands.tileAt.notFound=Baldosa no encontrada
 commands.tileAt.success=Codigo de la baldosa: {0-tilecode} {1-position}
 
 commands.traceStart.description=
+//TODO Translate [Reference] 'Started tracing.'
 commands.traceStart.success=
 commands.traceStop.description=
+//TODO Translate [Reference] 'Stopped tracing.'
 commands.traceStop.success=
 //TODO Translate [Reference] '^c:F2E200;unban ^c:FFFFFF;playerName'
 commands.unban.description=
