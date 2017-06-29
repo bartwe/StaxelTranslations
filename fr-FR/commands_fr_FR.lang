@@ -255,8 +255,10 @@ commands.tileAt.description=tileAt (facultatif)location({0,0,0})
 commands.tileAt.failParse=Données de position invalides {0-position}
 //[Reference] 'Tile not found'
 commands.tileAt.notFound=Tile introuvable
-//[Reference] 'Tile code: {0-tilecode} at {1-position}'
-commands.tileAt.success=Code de la tile : {0-tilecode} {1-position}
+//TODO Translate [Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: false)'
+commands.tileAt.success.false=
+//TODO Translate [Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true)'
+commands.tileAt.success.true=
 //TODO Quite a few with no references.
 commands.traceStart.description=
 //TODO Translate [Reference] 'Started tracing.'
