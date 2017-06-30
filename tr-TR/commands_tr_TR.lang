@@ -104,6 +104,7 @@ commands.help.commandNotFound=
 commands.help.description=
 //TODO Translate [Reference] 'Command list (() brackets denote possible values):'
 commands.help.success=
+commands.inspect.description=
 //TODO Translate [Reference] 'Inspection success.'
 commands.inspect.success=
 //TODO Translate [Reference] 'invalid args'
@@ -114,6 +115,7 @@ commands.kick.description=
 commands.kick.failure=
 //TODO Translate [Reference] '{0-player} has been ejected from the server.'
 commands.kick.success=
+commands.loadDesign.description=
 //TODO Translate [Reference] 'loadDesign requires a filename/design code'
 commands.loadDesign.needFileName=
 //TODO Translate [Reference] 'No such design {0-design}'
@@ -170,6 +172,13 @@ commands.position.description=
 commands.position.failed=
 //TODO Translate [Reference] 'Position: {0-position}, Heading: {1-heading}'
 commands.position.success=
+//TODO Translate [Reference] '^c:F2E200;qs ^c:FFFFFF;(optional)startFlying(true/false)'
+commands.quickStart.altDescription=
+//TODO Translate [Reference] '^c:F2E200;quickStart ^c:FFFFFF;(optional)startFlying(true/false)'
+commands.quickStart.description=
+//TODO Translate [Reference] 'Quick start success. Switched flying mode to: {0-flymode}'
+commands.quickStart.success=
+commands.rain.description=
 //TODO Translate [Reference] 'Made it a rainy day.'
 commands.rain.success=
 //TODO Translate [Reference] '^c:F2E200;reload'
@@ -180,6 +189,7 @@ commands.reload.success=
 commands.resetPlayer.description=
 //TODO Translate [Reference] 'Reset successful.'
 commands.resetPlayer.success=
+commands.returnhome.description=
 //TODO Translate [Reference] '^c:F2E200;saveDesign ^c:FFFFFF;fileName'
 commands.saveDesign.description=
 //TODO Translate [Reference] 'A filename is required to save a design'
@@ -198,6 +208,7 @@ commands.seed.success=
 commands.serverCreative.description=
 //TODO Translate [Reference] 'Switched server creative mode to {0-creative} (persistent)'
 commands.serverCreative.success=
+commands.snow.description=
 //TODO Translate [Reference] '^c:F2E200;spawncoins ^c:FFFFFF;playerName petalAmount'
 commands.spawnCoins.description=
 //TODO Translate [Reference] 'Spawned {0-amount} petals in coins for {1-player}'
@@ -230,6 +241,7 @@ commands.stealPetals.success=
 commands.stealPetals.success.reset=
 //TODO Translate [Reference] '{0-player} stole {1-amount} petals. Thief!'
 commands.stealPetals.success.thief=
+commands.sun.description=
 //TODO Translate [Reference] 'Made it a sunny day.'
 commands.sun.success=
 //TODO Translate [Reference] '^c:F2E200;teleport ^c:FFFFFF;(optional)playerName location({0,0,0})'
@@ -242,8 +254,12 @@ commands.teleport.fail=
 commands.teleport.success=
 //TODO Translate [Reference] '^c:F2E200;tp ^c:FFFFFF;movingPlayerName destinationPlayerName'
 commands.teleportPlayer.description=
+commands.textToSpeech.description=
 //TODO Translate [Reference] 'Saying text.'
 commands.textToSpeech.success=
+commands.thunder.description=
+//TODO Translate [Reference] 'success'
+commands.thunder.success=
 //TODO Translate [Reference] '^c:F2E200;tileAt ^c:FFFFFF;(optional)location({0,0,0})'
 commands.tileAt.description=
 //TODO Translate [Reference] 'Failed to parse position {0-position}'
@@ -260,6 +276,7 @@ commands.traceStart.success=
 commands.traceStop.description=
 //TODO Translate [Reference] 'Stopped tracing.'
 commands.traceStop.success=
+commands.tripod.description=
 //TODO Translate [Reference] '^c:F2E200;unban ^c:FFFFFF;playerName'
 commands.unban.description=
 //TODO Translate [Reference] 'Unable to unban {0-player}: player was not banned.'

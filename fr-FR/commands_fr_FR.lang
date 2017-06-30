@@ -105,6 +105,7 @@ commands.help.commandNotFound=Commande « {0-command} » non trouvée
 commands.help.description=help (facultatif)commandName
 //[Reference] 'Command list (() brackets denote possible values):'
 commands.help.success=Liste des commandes (()les parenthèses indiquent les valeurs possibles) :
+commands.inspect.description=
 //TODO No reference?
 //TODO Translate [Reference] 'Inspection success.'
 commands.inspect.success=
@@ -116,6 +117,7 @@ commands.kick.description=kick nomDuJoueur
 commands.kick.failure=Impossible d'éjecter le joueur {0-player} : Il n'est pas connecté ou est un administrateur.
 //[Reference] '{0-player} has been ejected from the server.'
 commands.kick.success=Le joueur {0-player} a été ejecté du serveur.
+commands.loadDesign.description=
 //TODO Translate [Reference] 'loadDesign requires a filename/design code'
 commands.loadDesign.needFileName=
 //TODO Translate [Reference] 'No such design {0-design}'
@@ -172,6 +174,13 @@ commands.position.description=position (facultatif)nomDuJoueur
 commands.position.failed=Impossible de localiser le joueur
 //[Reference] 'Position: {0-position}, Heading: {1-heading}'
 commands.position.success=Position : {0-position} - Titre : {1-heading}
+//TODO Translate [Reference] '^c:F2E200;qs ^c:FFFFFF;(optional)startFlying(true/false)'
+commands.quickStart.altDescription=
+//TODO Translate [Reference] '^c:F2E200;quickStart ^c:FFFFFF;(optional)startFlying(true/false)'
+commands.quickStart.description=
+//TODO Translate [Reference] 'Quick start success. Switched flying mode to: {0-flymode}'
+commands.quickStart.success=
+commands.rain.description=
 //TODO No reference?
 //TODO Translate [Reference] 'Made it a rainy day.'
 commands.rain.success=
@@ -183,6 +192,7 @@ commands.reload.success=Rafraîchissement demandé.
 commands.resetPlayer.description=
 //[Reference] 'Reset successful.'
 commands.resetPlayer.success=Réinitialisation réussie.
+commands.returnhome.description=
 //[Reference] '^c:F2E200;saveDesign ^c:FFFFFF;fileName'
 commands.saveDesign.description=saveDesign nomFichier
 //[Reference] 'A filename is required to save a design'
@@ -201,6 +211,7 @@ commands.seed.success=
 commands.serverCreative.description=creativeMode (optionel)on(true/false)
 //[Reference] 'Switched server creative mode to {0-creative} (persistent)'
 commands.serverCreative.success=Le mode créatif du serveur est désormais {0-creative}
+commands.snow.description=
 //[Reference] '^c:F2E200;spawncoins ^c:FFFFFF;playerName petalAmount'
 commands.spawnCoins.description=spawncoins nomDuJoueur montantEnPétales
 //[Reference] 'Spawned {0-amount} petals in coins for {1-player}'
@@ -233,6 +244,7 @@ commands.stealPetals.success=
 commands.stealPetals.success.reset=
 //TODO Translate [Reference] '{0-player} stole {1-amount} petals. Thief!'
 commands.stealPetals.success.thief=
+commands.sun.description=
 //TODO No reference?
 //TODO Translate [Reference] 'Made it a sunny day.'
 commands.sun.success=
@@ -246,9 +258,13 @@ commands.teleport.fail=Données de position invalides {0-position}
 commands.teleport.success=Téléportation réussie.
 //[Reference] '^c:F2E200;tp ^c:FFFFFF;movingPlayerName destinationPlayerName'
 commands.teleportPlayer.description=tp nomDuJoueurADeplacer nomDuJoueurDestination
+commands.textToSpeech.description=
 //TODO No reference?
 //TODO Translate [Reference] 'Saying text.'
 commands.textToSpeech.success=
+commands.thunder.description=
+//TODO Translate [Reference] 'success'
+commands.thunder.success=
 //[Reference] '^c:F2E200;tileAt ^c:FFFFFF;(optional)location({0,0,0})'
 commands.tileAt.description=tileAt (facultatif)location({0,0,0})
 //[Reference] 'Failed to parse position {0-position}'
@@ -266,6 +282,7 @@ commands.traceStart.success=
 commands.traceStop.description=
 //TODO Translate [Reference] 'Stopped tracing.'
 commands.traceStop.success=
+commands.tripod.description=
 //[Reference] '^c:F2E200;unban ^c:FFFFFF;playerName'
 commands.unban.description=unban nomDuJoueur
 //[Reference] 'Unable to unban {0-player}: player was not banned.'
