@@ -110,7 +110,7 @@ escapeMenu.desktopExit=Beenden und zum Desktop
 escapeMenu.mainMenu=Zum Hauptmenü
 //[Reference] 'Options'
 escapeMenu.options=Optionen
-//[Reference] 'Return Home'
+//[Reference] 'Teleport Home'
 escapeMenu.returnHome=Nach Hause zurückkehren
 
 //[Reference] 'It got away!'
@@ -244,6 +244,7 @@ options.gameplay.controller.leftThumbDeadzone=Linker Stick - Deadzone
 //[Reference] 'Right Thumb Curve:'
 options.gameplay.controller.rightThumbCurve=Rechter Stick - Kurve
 //Reference] 'Right Thumb Deadzone:'
+//[Reference] 'Right Thumb Deadzone:'
 options.gameplay.controller.rightThumbDeadzone=Rechter Stick - Deadzone
 //[Reference] 'Right Thumb Velocity:'
 options.gameplay.controller.rightThumbVelocity=Rechter Stick - Geschwindigkeit
@@ -400,12 +401,16 @@ server.youAreUnmuted=Du bist nicht länger stummgestellt.
 
 //[Reference] 'Back to main menu'
 serverBrowser.back=Zurück
-//[Reference] 'No servers or master server unreachable'
-serverBrowser.noServers=Server sind nicht erreichbar
+//TODO Translate [Reference] '(check your internet connection)'
+serverBrowser.checkConnection=
+//TODO Translate [Reference] 'No servers found'
+serverBrowser.noServersFound=
 //[Reference] 'Online:'
 serverBrowser.online=Online
 //[Reference] 'Server name:'
 serverBrowser.serverName=Servername:
+//TODO Translate [Reference] 'Master server unreachable'
+serverBrowser.unreachable=
 //[Reference] 'Cancel all'
 shippingCatalogue.cancelAll=Alle abbrechen
 //[Reference] 'Expedite'
@@ -507,6 +512,16 @@ staxel.bush.GoldenberryBush.name=Goldbeerensamen
 staxel.bush.RaspberryBush.description=Ein Busch, an dem leckere Himbeeren wachsen.
 //[Reference] 'Raspberry Bush Seed'
 staxel.bush.RaspberryBush.name=Himbeerensamen
+//TODO Translate [Reference] 'Awning'
+staxel.category.awning=
+//TODO Translate [Reference] 'Cloth'
+staxel.category.cloth=
+//TODO Translate [Reference] 'Cube'
+staxel.category.cube=
+//TODO Translate [Reference] 'Japanese'
+staxel.category.japanese=
+//TODO Translate [Reference] 'jelly'
+staxel.category.jelly=
 //[Reference] 'kennel'
 staxel.category.kennel=Zwinger
 //[Reference] 'poop'
@@ -515,6 +530,10 @@ staxel.category.poop=Kot
 staxel.category.sheared=Geschoren
 //[Reference] 'shell'
 staxel.category.shell=Muschel
+//TODO Translate [Reference] 'star'
+staxel.category.star=
+//TODO Translate [Reference] 'Sun'
+staxel.category.sun=
 staxel.core.Compound.description=
 //[Reference] 'Compound'
 staxel.core.Compound.name=Gelände
@@ -808,7 +827,7 @@ staxel.gamePadAxis.Y=Y
 staxel.gatherable.BrownMushroom.description=Die Ernte des Waldes. Lecker!
 //[Reference] 'Brown Mushroom'
 staxel.gatherable.BrownMushroom.name=Brauner Pilz
-staxel.gatherable.Hermit.description=
+staxel.gatherable.HermitShell.description=
 //[Reference] 'Hermit Shell'
 staxel.gatherable.HermitShell.name=Einsiedlermuschel
 staxel.gatherable.PearlShell.description=
@@ -824,6 +843,9 @@ staxel.gatherable.RedWhiteMushroom.name=Fliegenpilz
 staxel.gatherable.Starfish.description=
 //[Reference] 'Starfish'
 staxel.gatherable.Starfish.name=Seestern
+staxel.gatherable.StarJelly.description=
+//TODO Translate [Reference] 'StarJelly'
+staxel.gatherable.StarJelly.name=
 staxel.gatherable.SwirlyShell.description=
 //[Reference] 'Swirly Shell'
 staxel.gatherable.SwirlyShell.name=Spiralmuschel
@@ -831,6 +853,9 @@ staxel.gatherable.SwirlyShell.name=Spiralmuschel
 staxel.gatherable.WhiteMushrooms.description=Bei vielen Gerichten beliebt.
 //[Reference] 'White Mushrooms'
 staxel.gatherable.WhiteMushrooms.name=Weiße Pilze
+staxel.item.gatherable.StarJelly.description=
+//TODO Translate [Reference] 'StarJelly'
+staxel.item.gatherable.StarJelly.name=
 //[Reference] 'Brick'
 staxel.merchant.Brick.name=Brick
 //[Reference] 'Buttons'
@@ -860,7 +885,7 @@ staxel.merchants.carts.ClothingMerchant.description=
 //[Reference] 'Clothing Merchant Cart'
 staxel.merchants.carts.ClothingMerchant.name=Kleidungs-Verkaufswagen
 staxel.merchants.carts.FlowerMerchant.description=
-//[Reference] 'Flower Merchant Cart'Blumen-Verkaufswagen
+//TODO Translate [Reference] 'Flower Merchant Cart'
 staxel.merchants.carts.FlowerMerchant.name=
 staxel.merchants.carts.FlowerMerchantCart.description=
 //[Reference] 'Flower Merchant Cart'
@@ -964,6 +989,9 @@ staxel.pets.Cat.name=Katze
 staxel.pets.Dog.name=Hund
 //[Reference] '{0-pet} has brought you a gift!'
 staxel.pets.GiftReceived={0-pet} hat dir ein Geschenk gebracht!
+staxel.plant.gatherable.StarJelly.description=
+//TODO Translate [Reference] 'StarJelly'
+staxel.plant.gatherable.StarJelly.name=
 //[Reference] 'Autumn'
 staxel.season.Autumn=Herbst
 //[Reference] 'Spring'
@@ -1012,9 +1040,16 @@ staxel.tileObject.biomeDebris.ForestLog.name=Baumstamm
 staxel.tileObject.biomeDebris.ForestLogHalf.description=
 //[Reference] 'Forest Log'
 staxel.tileObject.biomeDebris.ForestLogHalf.name=Baumstamm
+//TODO Translate [Reference] 'The one and only!'
+staxel.tileObject.bobbleheads.FarmFanBobblehead.description=
+//TODO Translate [Reference] 'Farm Fan Bobblehead'
+staxel.tileObject.bobbleheads.FarmFanBobblehead.name=
 staxel.tileObject.campingset.SittingLog.description=
 //[Reference] 'Sitting Log'
 staxel.tileObject.campingset.SittingLog.name=Sitzbaumstamm
+staxel.tileObject.crafting.Churn.description=
+//TODO Translate [Reference] 'Churn'
+staxel.tileObject.crafting.Churn.name=
 staxel.tileObject.decorations.JapaneseArch.description=
 //[Reference] 'Japanese Arch'
 staxel.tileObject.decorations.JapaneseArch.name=Japanischer Bogen
@@ -1070,7 +1105,7 @@ staxel.totem.RiahHome=Riahs Zuhause
 staxel.totem.roofMissing=(Fehlt)
 //[Reference] 'Rosemary's Home'
 staxel.totem.RosemaryHome=Rosemarys Haus
-//Translate [Reference] 'Test'
+//[Reference] 'Test'
 staxel.totem.Test.name=Test
 //[Reference] 'Fishing Spot'
 staxel.totem.workplace.FishingSpot=Angelplatz
