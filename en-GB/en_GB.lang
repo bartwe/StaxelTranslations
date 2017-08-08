@@ -373,7 +373,7 @@ staxel.crafting.recipes.StraightWoodenFence.name=StraightWoodenFence
 
 staxel.crop.Beet.description=A brightly coloured beet.
 staxel.crop.Beet.name=Beetroot Seed
-staxel.crop.Cabbage.description=Spruce up your humble abode with a nice piece of furniture!
+staxel.crop.Cabbage.description=A delicious green leafy vegetable.
 staxel.crop.Cabbage.name=Cabbage Seed
 staxel.crop.Carrot.description=A healthy looking carrot.
 staxel.crop.Carrot.name=Carrot Seed
@@ -419,7 +419,7 @@ staxel.crop.Onion.description=Be careful when chopping!
 staxel.crop.Onion.name=Onion Seed
 staxel.crop.Potato.description=That one vegetable everybody loves.
 staxel.crop.Potato.name=Potato Seed
-staxel.crop.Pumpkin.description=A great vegetable for soup
+staxel.crop.Pumpkin.description=A great vegetable for soup.
 staxel.crop.Pumpkin.name=Pumpkin Seed
 staxel.crop.RaspberryBush.name=Raspberry Bush Seed
 staxel.crop.Strawberry.description=Sweet and full of flavour.
@@ -428,7 +428,7 @@ staxel.crop.SugarBeet.description=A healthy looking sugar beet.
 staxel.crop.SugarBeet.name=Sugar Beet Seed
 staxel.crop.SugarCane.description=So sweet, I cane-not resist.
 staxel.crop.SugarCane.name=Sugar Cane Seed
-staxel.crop.Sunflower.description=
+staxel.crop.Sunflower.description=A beautiful large flower. Can give back seeds when harvested! 
 staxel.crop.Sunflower.name=Sunflower
 staxel.crop.SweetPotato.description=Like a potato, but kinder.
 staxel.crop.SweetPotato.name=Sweet Potato Seed
@@ -628,6 +628,11 @@ staxel.notifications.feeder.Filled=Filled with {0} units!
 staxel.notifications.milker.NotLookingAtMilkableAnimal=Try a milkable animal
 staxel.notifications.newHomePosition=New home position set!
 
+staxel.description.GrowTimeValidSeasons.0=Doesn't grow in any seasons. Please report this as a bug.
+staxel.description.GrowTimeValidSeasons.1=Grows in {0-growTime} days in {1-season}.
+staxel.description.GrowTimeValidSeasons.2=Grows in {0-growTime} days in {1-season} and {2-season}.
+staxel.description.GrowTimeValidSeasons.3=Grows in {0-growTime} days in {1-season}, {2-season}, and {3-season}.
+staxel.description.GrowTimeValidSeasons.4=Grows in {0-growTime} days in all seasons.
 staxel.notifications.season.WrongSeason.1=This can only be planted in {0-season}!
 staxel.notifications.season.WrongSeason.2=This can only be planted in {0-season} or {1-season}!
 staxel.notifications.season.WrongSeason.3=This can only be planted in {0-season}, {1-season}, or {2-season}!
@@ -657,7 +662,6 @@ staxel.plant.gatherable.StarJelly.name=StarJelly
 staxel.season.Autumn=Autumn
 staxel.season.Spring=Spring
 staxel.season.Summer=Summer
-
 staxel.season.Winter=Winter
 
 staxel.shipping.dock.openDeliveryBeforeSell=Open your delivery before selling Items!
@@ -988,3 +992,5 @@ staxel.weed.Weed1.name=Weed
 version.developmentBuild=Staxel Development Build
 wardrobe.CantEquip=Can't equip this here!
 wardrobe.UseAWardrobe=Use a wardrobe to wear this
+
+staxel.category.gazebo=gazebo
