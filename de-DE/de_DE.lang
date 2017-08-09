@@ -21,53 +21,71 @@ catalogue.total=Summe
 //[Reference] 'success'
 commands.tripod.success=Erfolg
 //TODO Translate [Reference] 'Break'
-controlHint.verb.break=
+controlHint.verb.Break=
+//TODO Translate [Reference] 'Buy'
+controlHint.verb.Buy=
 //TODO Translate [Reference] 'Calm'
-controlHint.verb.calm=
+controlHint.verb.Calm=
 //TODO Translate [Reference] 'Cast'
-controlHint.verb.cast=
+controlHint.verb.Cast=
 //TODO Translate [Reference] 'Catch'
-controlHint.verb.catch=
+controlHint.verb.Catch=
 //TODO Translate [Reference] 'Check'
-controlHint.verb.check=
+controlHint.verb.Check=
 //TODO Translate [Reference] 'Chop'
-controlHint.verb.chop=
+controlHint.verb.Chop=
 //TODO Translate [Reference] 'Command'
-controlHint.verb.command=
+controlHint.verb.Command=
 //TODO Translate [Reference] 'Cancel'
-controlHint.verb.default.cancel=
+controlHint.verb.default.Cancel=
 //TODO Translate [Reference] 'Place'
-controlHint.verb.default.dock=
+controlHint.verb.default.Cock=
 //TODO Translate [Reference] 'Harvest'
-controlHint.verb.default.harvest=
+controlHint.verb.default.Harvest=
 //TODO Translate [Reference] 'Interact'
-controlHint.verb.default.interact=
+controlHint.verb.default.Interact=
 //TODO Translate [Reference] 'Rotate'
-controlHint.verb.default.rotate=
+controlHint.verb.default.Rotate=
 //TODO Translate [Reference] 'Throw'
-controlHint.verb.default.throw=
+controlHint.verb.default.Throw=
 //TODO Translate [Reference] 'Pick Up'
-controlHint.verb.default.undock=
+controlHint.verb.default.Undock=
 //TODO Translate [Reference] 'Use'
-controlHint.verb.default.use=
+controlHint.verb.default.Use=
 //TODO Translate [Reference] 'Dig'
-controlHint.verb.dig=
+controlHint.verb.Dig=
+//TODO Translate [Reference] 'Fill'
+controlHint.verb.Fill=
 //TODO Translate [Reference] 'Inspect'
-controlHint.verb.inspect=
+controlHint.verb.Inspect=
+//TODO Translate [Reference] 'Launch'
+controlHint.verb.Launch=
 //TODO Translate [Reference] 'Milk'
-controlHint.verb.milk=
+controlHint.verb.Milk=
+//TODO Translate [Reference] 'Open'
+controlHint.verb.Open=
 //TODO Translate [Reference] 'Plant'
-controlHint.verb.plant=
+controlHint.verb.Plant=
 //TODO Translate [Reference] 'Reap'
-controlHint.verb.reap=
+controlHint.verb.Reap=
+//TODO Translate [Reference] 'Reset'
+controlHint.verb.Reset=
+//TODO Translate [Reference] 'Sell'
+controlHint.verb.Sell=
 //TODO Translate [Reference] 'Shear'
-controlHint.verb.shear=
+controlHint.verb.Shear=
+//TODO Translate [Reference] 'Sit'
+controlHint.verb.Sit=
+//TODO Translate [Reference] 'Sleep'
+controlHint.verb.Sleep=
 //TODO Translate [Reference] 'Sweep'
-controlHint.verb.sweep=
+controlHint.verb.Sweep=
+//TODO Translate [Reference] 'Chat'
+controlHint.verb.Talk=
 //TODO Translate [Reference] 'Till'
-controlHint.verb.till=
+controlHint.verb.Till=
 //TODO Translate [Reference] 'Water'
-controlHint.verb.water=
+controlHint.verb.Water=
 
 //[Reference] 'Item Hotkeys'
 controllerHints.hotkeys=Item-Schnelltasten
@@ -598,6 +616,8 @@ staxel.category.cube=
 staxel.category.fried=
 //TODO Translate [Reference] 'fryable'
 staxel.category.fryable=
+//TODO Translate [Reference] 'gazebo'
+staxel.category.gazebo=
 //TODO Translate [Reference] 'Japanese'
 staxel.category.japanese=
 //TODO Translate [Reference] 'jelly'
@@ -663,7 +683,8 @@ staxel.crafting.recipes.StraightWoodenFence.name=
 staxel.crop.Beet.description=Eine bunte Rübe.
 //[Reference] 'Beetroot Seed'
 staxel.crop.Beet.name=Rübenwurzelsamen
-//[Reference] 'Spruce up your humble abode with a nice piece of furniture!'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'A delicious green leafy vegetable.'
 staxel.crop.Cabbage.description=Verschönere deine bescheidene Bleibe mit einem hübschen Möbelstück!
 //[Reference] 'Cabbage Seed'
 staxel.crop.Cabbage.name=Kohlsamen
@@ -755,7 +776,8 @@ staxel.crop.Onion.name=Zwiebelsamen
 staxel.crop.Potato.description=Das einzige Gemüse, das wirklich jeder mag.
 //[Reference] 'Potato Seed'
 staxel.crop.Potato.name=Kartoffelsamen
-//[Reference] 'A great vegetable for soup'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'A great vegetable for soup.'
 staxel.crop.Pumpkin.description=Eignet sich großartig, um Suppe zu kochen.
 //[Reference] 'Pumpkin Seed'
 staxel.crop.Pumpkin.name=Kürbissamen
@@ -773,6 +795,7 @@ staxel.crop.SugarBeet.name=Zuckerrübensamen
 staxel.crop.SugarCane.description=So süß, dass es mich zu Tränen röhrt.
 //[Reference] 'Sugar Cane Seed'
 staxel.crop.SugarCane.name=Zuckerrohrsamen
+//TODO Translate [Reference] 'A beautiful large flower. Can give back seeds when harvested!'
 staxel.crop.Sunflower.description=
 //TODO Translate [Reference] 'Sunflower'
 staxel.crop.Sunflower.name=
@@ -796,6 +819,16 @@ staxel.crop.Watermelon.name=Wassermelonensamen
 staxel.crop.WhiteRose.description=Eine Rose mit wunderschönen weißen Blütenblättern.
 //[Reference] 'White rose Seed'
 staxel.crop.WhiteRose.name=Weißer Rosensamen
+//TODO Translate [Reference] 'Doesn't grow in any seasons. Please report this as a bug.'
+staxel.description.GrowTimeValidSeasons.0=
+//TODO Translate [Reference] 'Grows in {0-growTime} days in {1-season}.'
+staxel.description.GrowTimeValidSeasons.1=
+//TODO Translate [Reference] 'Grows in {0-growTime} days in {1-season} and {2-season}.'
+staxel.description.GrowTimeValidSeasons.2=
+//TODO Translate [Reference] 'Grows in {0-growTime} days in {1-season}, {2-season}, and {3-season}.'
+staxel.description.GrowTimeValidSeasons.3=
+//TODO Translate [Reference] 'Grows in {0-growTime} days in all seasons.'
+staxel.description.GrowTimeValidSeasons.4=
 staxel.docks.merchantStalls.FestivalMerchant.description=
 //[Reference] 'Festival Merchant Stall'
 staxel.docks.merchantStalls.FestivalMerchant.name=Festival-Verkaufsstand

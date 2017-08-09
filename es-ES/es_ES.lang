@@ -21,53 +21,71 @@ catalogue.total=
 //TODO Translate [Reference] 'success'
 commands.tripod.success=
 //TODO Translate [Reference] 'Break'
-controlHint.verb.break=
+controlHint.verb.Break=
+//TODO Translate [Reference] 'Buy'
+controlHint.verb.Buy=
 //TODO Translate [Reference] 'Calm'
-controlHint.verb.calm=
+controlHint.verb.Calm=
 //TODO Translate [Reference] 'Cast'
-controlHint.verb.cast=
+controlHint.verb.Cast=
 //TODO Translate [Reference] 'Catch'
-controlHint.verb.catch=
+controlHint.verb.Catch=
 //TODO Translate [Reference] 'Check'
-controlHint.verb.check=
+controlHint.verb.Check=
 //TODO Translate [Reference] 'Chop'
-controlHint.verb.chop=
+controlHint.verb.Chop=
 //TODO Translate [Reference] 'Command'
-controlHint.verb.command=
+controlHint.verb.Command=
 //TODO Translate [Reference] 'Cancel'
-controlHint.verb.default.cancel=
+controlHint.verb.default.Cancel=
 //TODO Translate [Reference] 'Place'
-controlHint.verb.default.dock=
+controlHint.verb.default.Cock=
 //TODO Translate [Reference] 'Harvest'
-controlHint.verb.default.harvest=
+controlHint.verb.default.Harvest=
 //TODO Translate [Reference] 'Interact'
-controlHint.verb.default.interact=
+controlHint.verb.default.Interact=
 //TODO Translate [Reference] 'Rotate'
-controlHint.verb.default.rotate=
+controlHint.verb.default.Rotate=
 //TODO Translate [Reference] 'Throw'
-controlHint.verb.default.throw=
+controlHint.verb.default.Throw=
 //TODO Translate [Reference] 'Pick Up'
-controlHint.verb.default.undock=
+controlHint.verb.default.Undock=
 //TODO Translate [Reference] 'Use'
-controlHint.verb.default.use=
+controlHint.verb.default.Use=
 //TODO Translate [Reference] 'Dig'
-controlHint.verb.dig=
+controlHint.verb.Dig=
+//TODO Translate [Reference] 'Fill'
+controlHint.verb.Fill=
 //TODO Translate [Reference] 'Inspect'
-controlHint.verb.inspect=
+controlHint.verb.Inspect=
+//TODO Translate [Reference] 'Launch'
+controlHint.verb.Launch=
 //TODO Translate [Reference] 'Milk'
-controlHint.verb.milk=
+controlHint.verb.Milk=
+//TODO Translate [Reference] 'Open'
+controlHint.verb.Open=
 //TODO Translate [Reference] 'Plant'
-controlHint.verb.plant=
+controlHint.verb.Plant=
 //TODO Translate [Reference] 'Reap'
-controlHint.verb.reap=
+controlHint.verb.Reap=
+//TODO Translate [Reference] 'Reset'
+controlHint.verb.Reset=
+//TODO Translate [Reference] 'Sell'
+controlHint.verb.Sell=
 //TODO Translate [Reference] 'Shear'
-controlHint.verb.shear=
+controlHint.verb.Shear=
+//TODO Translate [Reference] 'Sit'
+controlHint.verb.Sit=
+//TODO Translate [Reference] 'Sleep'
+controlHint.verb.Sleep=
 //TODO Translate [Reference] 'Sweep'
-controlHint.verb.sweep=
+controlHint.verb.Sweep=
+//TODO Translate [Reference] 'Chat'
+controlHint.verb.Talk=
 //TODO Translate [Reference] 'Till'
-controlHint.verb.till=
+controlHint.verb.Till=
 //TODO Translate [Reference] 'Water'
-controlHint.verb.water=
+controlHint.verb.Water=
 //[Reference] 'Item Hotkeys'
 controllerHints.hotkeys=Acceso rápido
 //[Reference] 'Inventory'
@@ -602,6 +620,8 @@ staxel.category.cube=
 staxel.category.fried=
 //TODO Translate [Reference] 'fryable'
 staxel.category.fryable=
+//TODO Translate [Reference] 'gazebo'
+staxel.category.gazebo=
 //TODO Translate [Reference] 'Japanese'
 staxel.category.japanese=
 //TODO Translate [Reference] 'jelly'
@@ -667,7 +687,7 @@ staxel.crafting.recipes.StraightWoodenFence.name=
 staxel.crop.Beet.description=Una colorida remolacha.
 //[Reference] 'Beetroot Seed'
 staxel.crop.Beet.name=Semilla de remolacha
-//TODO Translate [Reference] 'Spruce up your humble abode with a nice piece of furniture!'
+//TODO Translate [Reference] 'A delicious green leafy vegetable.'
 staxel.crop.Cabbage.description=
 //TODO Translate [Reference] 'Cabbage Seed'
 staxel.crop.Cabbage.name=
@@ -759,7 +779,8 @@ staxel.crop.Onion.name=Semilla de cebolla
 staxel.crop.Potato.description=Ese vegetal que todos aman.
 //[Reference] 'Potato Seed'
 staxel.crop.Potato.name=Semilla de patata
-//[Reference] 'A great vegetable for soup'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'A great vegetable for soup.'
 staxel.crop.Pumpkin.description=Un gran vegetal para sopas
 //[Reference] 'Pumpkin Seed'
 staxel.crop.Pumpkin.name=Semilla de calabaza
@@ -777,6 +798,7 @@ staxel.crop.SugarBeet.name=Semilla de remolacha azucarada
 staxel.crop.SugarCane.description=Qué dulce, no puedo resistir
 //[Reference] 'Sugar Cane Seed'
 staxel.crop.SugarCane.name=Semilla de caña de azúcar
+//TODO Translate [Reference] 'A beautiful large flower. Can give back seeds when harvested!'
 staxel.crop.Sunflower.description=
 //TODO Translate [Reference] 'Sunflower'
 staxel.crop.Sunflower.name=
@@ -800,6 +822,16 @@ staxel.crop.Watermelon.name=Semilla de sandía
 staxel.crop.WhiteRose.description=Una rosa con bonitos pétalos blancos
 //[Reference] 'White rose Seed'
 staxel.crop.WhiteRose.name=Semilla de rosa blanca
+//TODO Translate [Reference] 'Doesn't grow in any seasons. Please report this as a bug.'
+staxel.description.GrowTimeValidSeasons.0=
+//TODO Translate [Reference] 'Grows in {0-growTime} days in {1-season}.'
+staxel.description.GrowTimeValidSeasons.1=
+//TODO Translate [Reference] 'Grows in {0-growTime} days in {1-season} and {2-season}.'
+staxel.description.GrowTimeValidSeasons.2=
+//TODO Translate [Reference] 'Grows in {0-growTime} days in {1-season}, {2-season}, and {3-season}.'
+staxel.description.GrowTimeValidSeasons.3=
+//TODO Translate [Reference] 'Grows in {0-growTime} days in all seasons.'
+staxel.description.GrowTimeValidSeasons.4=
 staxel.docks.merchantStalls.FestivalMerchant.description=
 //TODO Translate [Reference] 'Festival Merchant Stall'
 staxel.docks.merchantStalls.FestivalMerchant.name=
