@@ -40,6 +40,10 @@ controlHint.verb.Command=
 controlHint.verb.default.Cancel=
 //TODO Translate [Reference] 'Place'
 controlHint.verb.default.Dock=
+//TODO Translate [Reference] 'Drink'
+controlHint.verb.default.Drink=
+//TODO Translate [Reference] 'Eat'
+controlHint.verb.default.Eat=
 //TODO Translate [Reference] 'Harvest'
 controlHint.verb.default.Harvest=
 //TODO Translate [Reference] 'Interact'
@@ -66,6 +70,8 @@ controlHint.verb.Milk=
 controlHint.verb.Open=
 //TODO Translate [Reference] 'Plant'
 controlHint.verb.Plant=
+//TODO Translate [Reference] 'Pull'
+controlHint.verb.Pull=
 //TODO Translate [Reference] 'Reap'
 controlHint.verb.Reap=
 //TODO Translate [Reference] 'Reset'
@@ -108,6 +114,8 @@ crafting.action.keyword.boil=Koken
 crafting.action.keyword.carve=
 //[Reference] 'Combine'
 crafting.action.keyword.combine=Combineren
+//TODO Translate [Reference] 'Construct'
+crafting.action.keyword.construct=
 //[Reference] 'Cut'
 crafting.action.keyword.cut=Snijden
 //[Reference] 'Fry'
@@ -462,6 +470,8 @@ recipeBook.grouping.mainCourses=Hoofdgerechten
 recipeBook.grouping.roofing=Dakwerk
 //[Reference] 'Starters'
 recipeBook.grouping.starters=Voorafjes
+//TODO Translate [Reference] 'stone'
+recipeBook.grouping.stone=
 //[Reference] 'Walling'
 recipeBook.grouping.walling=Muren
 //TODO Translate [Reference] 'wood'
@@ -586,19 +596,23 @@ staxel.apiary.state.producing=De bijen maken honing: {0-days} dagen resterend
 staxel.apiary.state.rallying=De koningin verzamelt bijen: {0-bees}/{1-total} bijen
 //[Reference] 'Honey is available but the bees are grumpy'
 staxel.apiary.state.waiting=Honing is beschikbaar, maar de bijen zijn chagrijnig
-//[Reference] 'A bush that grows delicious blackberries.'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'A bush that grows delicious blackberries. Survives out of season.'
 staxel.bush.BlackberryBush.description=Een struik waar heerlijke bramen aan groeien.
 //[Reference] 'Blackberry Bush Seed'
 staxel.bush.BlackberryBush.name=Bramenstruik Zaad
-//[Reference] 'A bush that grows delicious blueberries.'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'A bush that grows delicious blueberries. Survives out of season.'
 staxel.bush.BlueberryBush.description=Een struik waar heerlijke bosbessen aan groeien.
 //[Reference] 'Blueberry Bush Seed'
 staxel.bush.BlueberryBush.name=Bosbessenstruik Zaad
-//[Reference] 'A bush that grows delicious goldenberries.'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'A bush that grows delicious goldenberries. Survives out of season.'
 staxel.bush.GoldenberryBush.description=Een struik waar heerlijke goudbessen aan groeien.
 //[Reference] 'Goldenberry Bush Seed'
 staxel.bush.GoldenberryBush.name=Goudbessenstruik Zaad
-//[Reference] 'A bush that grows delicious raspberries.'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'A bush that grows delicious raspberries. Survives out of season.'
 staxel.bush.RaspberryBush.description=Een struik waar heerlijke frambozen aan groeien.
 //[Reference] 'Raspberry Bush Seed'
 staxel.bush.RaspberryBush.name=Frambozenstruik Zaad
@@ -618,6 +632,10 @@ staxel.category.carve=
 staxel.category.carving=
 //TODO Translate [Reference] 'Cloth'
 staxel.category.cloth=
+//TODO Translate [Reference] 'construct'
+staxel.category.construct=
+//TODO Translate [Reference] 'construction'
+staxel.category.construction=
 //TODO Translate [Reference] 'cooked'
 staxel.category.cooked=
 //TODO Translate [Reference] 'Cube'
@@ -628,6 +646,8 @@ staxel.category.fried=
 staxel.category.fryable=
 //TODO Translate [Reference] 'gazebo'
 staxel.category.gazebo=
+//TODO Translate [Reference] 'hay'
+staxel.category.hay=
 //TODO Translate [Reference] 'Japanese'
 staxel.category.japanese=
 //TODO Translate [Reference] 'jelly'
@@ -640,6 +660,10 @@ staxel.category.LightBlue=
 staxel.category.LightGreen=
 //TODO Translate [Reference] 'lumber'
 staxel.category.lumber=
+//TODO Translate [Reference] 'masonry'
+staxel.category.masonry=
+//TODO Translate [Reference] 'mortar'
+staxel.category.mortar=
 //TODO Translate [Reference] 'mushrooms'
 staxel.category.mushrooms=
 //TODO Translate [Reference] 'nail'
@@ -674,9 +698,18 @@ staxel.crafting.recipes.BasicWoodenFloor.name=
 staxel.crafting.recipes.BasicWoodenWall.description=
 //TODO Translate [Reference] 'BasicWoodenWall'
 staxel.crafting.recipes.BasicWoodenWall.name=
+staxel.crafting.recipes.CobbleStonePath.description=
+//TODO Translate [Reference] 'CobbleStonePath'
+staxel.crafting.recipes.CobbleStonePath.name=
+staxel.crafting.recipes.CreamStoneWall.description=
+//TODO Translate [Reference] 'CreamStoneWall'
+staxel.crafting.recipes.CreamStoneWall.name=
 staxel.crafting.recipes.DoorFrame.description=
 //TODO Translate [Reference] 'DoorFrame'
 staxel.crafting.recipes.DoorFrame.name=
+staxel.crafting.recipes.EmptyTrough.description=
+//TODO Translate [Reference] 'EmptyTrough'
+staxel.crafting.recipes.EmptyTrough.name=
 staxel.crafting.recipes.Lumber.description=
 //TODO Translate [Reference] 'Lumber'
 staxel.crafting.recipes.Lumber.name=
@@ -686,6 +719,9 @@ staxel.crafting.recipes.MushroomRisotto.name=
 staxel.crafting.recipes.Pickets.description=
 //TODO Translate [Reference] 'Pickets'
 staxel.crafting.recipes.Pickets.name=
+staxel.crafting.recipes.RedRoof.description=
+//TODO Translate [Reference] 'RedRoof'
+staxel.crafting.recipes.RedRoof.name=
 staxel.crafting.recipes.StraightWoodenFence.description=
 //TODO Translate [Reference] 'StraightWoodenFence'
 staxel.crafting.recipes.StraightWoodenFence.name=
@@ -1037,12 +1073,18 @@ staxel.item.crafting.FriedMushrooms.name=
 staxel.item.crafting.Glue.description=
 //TODO Translate [Reference] 'Glue'
 staxel.item.crafting.Glue.name=
+staxel.item.crafting.HayBale.description=
+//TODO Translate [Reference] 'HayBale'
+staxel.item.crafting.HayBale.name=
 staxel.item.crafting.LargeWoodenFrame.description=
 //TODO Translate [Reference] 'Large Wooden Frame'
 staxel.item.crafting.LargeWoodenFrame.name=
 staxel.item.crafting.Lumber.description=
 //TODO Translate [Reference] 'Lumber'
 staxel.item.crafting.Lumber.name=
+staxel.item.crafting.Mortar.description=
+//TODO Translate [Reference] 'Mortar'
+staxel.item.crafting.Mortar.name=
 staxel.item.crafting.MushroomRisotto.description=
 //TODO Translate [Reference] 'Mushroom Risotto'
 staxel.item.crafting.MushroomRisotto.name=
@@ -1128,6 +1170,8 @@ staxel.nightTransition.Line7=Tip: Gebruik je muiswiel of de bumpers om items te 
 staxel.nightTransition.Line8=
 //TODO Translate [Reference] 'Tip: Play fetch with your pets by holding a ball, interacting with your pets, and then dropping the ball'
 staxel.nightTransition.Line9=
+//TODO Translate [Reference] 'Press {0-key} to continue...'
+staxel.nightTransition.PressToContinue=
 //[Reference] '{0} is in bad health'
 staxel.notifications.farmAnimal.BadHealth={0} is in slechte gezondheid
 //[Reference] '{0} is busy'
@@ -1156,6 +1200,8 @@ staxel.notifications.farmAnimal.Sleeping={0} is aan het slapen
 staxel.notifications.farmAnimal.SuperHappy={0} is uitzinnig van vreugde!
 //[Reference] 'Can't fill the feeder with this'
 staxel.notifications.feeder.CantFill=Kan de voeder hier niet mee vullen
+//TODO Translate [Reference] 'The feeder is empty'
+staxel.notifications.feeder.Empty=
 //[Reference] 'There are {0}/{1} units of food'
 staxel.notifications.feeder.FeedAmount=Er zijn {0}/{1} voedseleenheden
 //[Reference] 'Filled with {0} units!'
@@ -1164,6 +1210,8 @@ staxel.notifications.feeder.Filled=Gevuld met {0} eenheden!
 staxel.notifications.milker.NotLookingAtMilkableAnimal=Probeer een dier dat melk geeft
 //[Reference] 'New home position set!'
 staxel.notifications.newHomePosition=Nieuwe thuispositie ingesteld!
+//TODO Translate [Reference] 'This plant does not need to be watered.'
+staxel.notifications.plantDoesNotNeedWatering=
 //TODO Translate [Reference] 'This can only be planted in {0-season}!'
 staxel.notifications.season.WrongSeason.1=
 //TODO Translate [Reference] 'This can only be planted in {0-season} or {1-season}!'
@@ -1416,6 +1464,9 @@ staxel.tileObject.crafting.CarpentryStation.name=
 staxel.tileObject.crafting.Churn.description=
 //TODO Translate [Reference] 'Churn'
 staxel.tileObject.crafting.Churn.name=
+staxel.tileObject.crafting.MasonryStation.description=
+//TODO Translate [Reference] 'MasonryStation'
+staxel.tileObject.crafting.MasonryStation.name=
 staxel.tileObject.crafting.TilingStation.description=
 //TODO Translate [Reference] 'Tiling Station'
 staxel.tileObject.crafting.TilingStation.name=
@@ -1425,6 +1476,15 @@ staxel.tileObject.decorations.GazeboDiagonal.name=
 staxel.tileObject.decorations.GazeboFront.description=
 //TODO Translate [Reference] 'GazeboFront'
 staxel.tileObject.decorations.GazeboFront.name=
+staxel.tileObject.decorations.GazeboRoofCenter.description=
+//TODO Translate [Reference] 'GazeboRoofCenter'
+staxel.tileObject.decorations.GazeboRoofCenter.name=
+staxel.tileObject.decorations.GazeboRoofCorner.description=
+//TODO Translate [Reference] 'GazeboRoofCorner'
+staxel.tileObject.decorations.GazeboRoofCorner.name=
+staxel.tileObject.decorations.GazeboRoofSide.description=
+//TODO Translate [Reference] 'GazeboRoofSide'
+staxel.tileObject.decorations.GazeboRoofSide.name=
 staxel.tileObject.decorations.GazeboSide.description=
 //TODO Translate [Reference] 'GazeboSide'
 staxel.tileObject.decorations.GazeboSide.name=
@@ -1572,6 +1632,9 @@ staxel.tileObject.roofing.red.Red_Straight.name=
 staxel.tileObject.roofing.red.Red_Straight_Upsidedown.description=
 //TODO Translate [Reference] 'Red_Straight_Upsidedown'
 staxel.tileObject.roofing.red.Red_Straight_Upsidedown.name=
+staxel.tileObject.serverVillage.ClockTowerFace.description=
+//TODO Translate [Reference] 'ClockTowerFace'
+staxel.tileObject.serverVillage.ClockTowerFace.name=
 //TODO Translate [Reference] 'A processing station for combining ingredients.'
 staxel.tileObject.serverVillage.CombiningStation.description=
 //TODO Translate [Reference] 'Combining Station'
@@ -1653,59 +1716,73 @@ staxel.totemInfo.tier=
 staxel.totemInfo.tierRequirements=
 //TODO Translate [Reference] 'Toggle Region Display'
 staxel.totems.toggleboundary=
-//[Reference] 'This tree grows juicy, crunchy apples.'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'This tree grows juicy, crunchy apples. Fruits in Autumn.'
 staxel.tree.AppleTree.description=Aan deze boom groeien sappige appels.
 //[Reference] 'Apple TreeSeed'
 staxel.tree.AppleTree.name=Appelboom
-//[Reference] 'This tree grows yummy bananas.'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'This tree grows yummy bananas. Fruits in Summer.'
 staxel.tree.BananaTree.description=Aan deze boom groeien heerlijke bananen.
 //[Reference] 'Banana Tree Seed'
 staxel.tree.BananaTree.name=Bananenboom
-//[Reference] 'This tree grows sweet sweet cherries'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'This tree grows sweet sweet cherries. Fruits in Autumn.'
 staxel.tree.CherryTree.description=Aan deze boom groeien zoete kersen.
 //[Reference] 'Cherry Tree Seed'
 staxel.tree.CherryTree.name=Kerseboom
-//[Reference] 'Chocolate does grow on trees'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Chocolate does grow on trees! Fruits in Summer.'
 staxel.tree.CocoaTree.description=Chocolade groeit dus toch aan bomen...
 //[Reference] 'Cocoa Tree Seed'
 staxel.tree.CocoaTree.name=Cacaoboom
-//[Reference] 'This palm tree grows coconuts, mind your head!'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'This palm tree grows coconuts, mind your head! Fruits in Spring, Summer, and Autumn.'
 staxel.tree.CoconutTree.description=Aan deze palmboom groeien kokosnoten, kijk uit malloot!
 //[Reference] 'Coconut Tree Seed'
 staxel.tree.CoconutTree.name=Kokosnoot Boom
-//[Reference] 'This tree grows the strange, alien looking dragonfruit.'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'This tree grows the strange, alien looking dragonfruit. Fruits in Autumn.'
 staxel.tree.DragonFruitTree.description=Aan deze boom groeit het vreemde, buitenaards ogende drakenfruit.
 //[Reference] 'Dragon Fruit Tree Seed'
 staxel.tree.DragonFruitTree.name=Drakenfruit Boom
-//[Reference] 'This tree grows sublime kiwis.'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'This tree grows sublime kiwis. Fruits in Autumn.'
 staxel.tree.KiwiTree.description=Aan deze boom groeien geweldige kiwi's.
 //[Reference] 'Kiwi Tree Seed'
 staxel.tree.KiwiTree.name=Kiwi Boom
-//[Reference] 'A tree that grows sour and juicy lemons.'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'A tree that grows sour and juicy lemons. Fruits in Spring.'
 staxel.tree.LemonTree.description=Een boom waaraan zure en sappige citroenen groeien.
 //[Reference] 'Lemon Tree Seed'
 staxel.tree.LemonTree.name=Citroen Boom
-//[Reference] 'A tree that produces bright green and zingy limes.'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'A tree that produces bright green and zingy limes. Fruits in Spring.'
 staxel.tree.LimeTree.description=Een boom die heldergroene en sappige limoenen geeft.
 //[Reference] 'Lime Tree Seed'
 staxel.tree.LimeTree.name=Limoen Boom
-//[Reference] 'A tree that grows a delicious soft fruit.'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'A tree that grows a delicious soft fruit. Fruits in Spring.'
 staxel.tree.MangoTree.description=Deze bomen geven een heerlijk zacht fruit.
 //[Reference] 'Mango Tree Seed'
 staxel.tree.MangoTree.name=Mango Boom
-//[Reference] 'With this tree you'll never run out of orange juice.'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'With this tree you'll never run out of orange juice. Fruits in Spring.'
 staxel.tree.OrangeTree.description=Met deze boom zit je nooit zonder sinaasappelsap.
 //[Reference] 'Orange Tree Seed'
 staxel.tree.OrangeTree.name=Sinaasappel Boom
-//[Reference] 'This tree grows succulent peaches.'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'This tree grows succulent peaches. Fruits in Summer.'
 staxel.tree.PeachTree.description=Aan deze boom groeien sappige perziken.
 //[Reference] 'Peach Tree Seed'
 staxel.tree.PeachTree.name=Perzik Boom
-//[Reference] 'Pears are like longer apples.'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Pears are like longer apples. Fruits in Winter.'
 staxel.tree.PearTree.description=Peren zijn als lange appels.
 //[Reference] 'Pear Tree Seed'
 staxel.tree.PearTree.name=Peren Boom
-//[Reference] 'This tree grows tangerines, not oranges.'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'This tree grows tangerines, not oranges. Fruits in Winter.'
 staxel.tree.TangerineTree.description=Aan deze boom groeien mandarijnen, geen sinaasappels.
 //[Reference] 'Tangerine Tree'
 staxel.tree.TangerineTree.name=Mandarijn Boom
