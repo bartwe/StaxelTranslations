@@ -76,6 +76,8 @@ controlHint.verb.Plant=
 controlHint.verb.Pull=
 //TODO Translate [Reference] 'Reap'
 controlHint.verb.Reap=
+//TODO Translate [Reference] 'Rename'
+controlHint.verb.Rename=
 //TODO Translate [Reference] 'Reset'
 controlHint.verb.Reset=
 //TODO Translate [Reference] 'Sell'
@@ -560,6 +562,8 @@ startMenu.options=Opções
 startMenu.serverList=Lista de Servidores
 //TODO Translate [Reference] 'Single Player'
 startMenu.singlePlayer=
+//TODO Translate [Reference] 'PumpkinHat'
+staxel.accessories.characters.accessories.halloween.pumpkinhat.PumpkinHat.name=
 staxel.accessories.fullBodyOutfits.villager.Riah.description=
 //TODO Translate [Reference] 'Riah'
 staxel.accessories.fullBodyOutfits.villager.Riah.name=
@@ -609,6 +613,10 @@ staxel.category.assemble=
 staxel.category.assembly=
 //TODO Translate [Reference] 'Awning'
 staxel.category.awning=
+//TODO Translate [Reference] 'bake'
+staxel.category.bake=
+//TODO Translate [Reference] 'boil'
+staxel.category.boil=
 //TODO Translate [Reference] 'boiled'
 staxel.category.boiled=
 //TODO Translate [Reference] 'carpentry'
@@ -619,6 +627,8 @@ staxel.category.carve=
 staxel.category.carving=
 //TODO Translate [Reference] 'Cloth'
 staxel.category.cloth=
+//TODO Translate [Reference] 'combine'
+staxel.category.combine=
 //TODO Translate [Reference] 'construct'
 staxel.category.construct=
 //TODO Translate [Reference] 'construction'
@@ -629,6 +639,8 @@ staxel.category.cooked=
 staxel.category.cube=
 //TODO Translate [Reference] 'fried'
 staxel.category.fried=
+//TODO Translate [Reference] 'fry'
+staxel.category.fry=
 //TODO Translate [Reference] 'fryable'
 staxel.category.fryable=
 //TODO Translate [Reference] 'gazebo'
@@ -649,6 +661,8 @@ staxel.category.LightGreen=
 staxel.category.lumber=
 //TODO Translate [Reference] 'masonry'
 staxel.category.masonry=
+//TODO Translate [Reference] 'mix'
+staxel.category.mix=
 //TODO Translate [Reference] 'mortar'
 staxel.category.mortar=
 //TODO Translate [Reference] 'mushrooms'
@@ -850,6 +864,26 @@ staxel.crop.Watermelon.name=
 staxel.crop.WhiteRose.description=
 //TODO Translate [Reference] 'White rose Seed'
 staxel.crop.WhiteRose.name=
+//TODO Translate [Reference] 'Doesn't grow in any seasons. Please report this as a bug.'
+staxel.description.GrowTimeRegrowValidSeasons.0=
+//TODO Translate [Reference] 'Grows in {0-growTime} days then regrows in {1-reGrowTime} days in {2-season}.'
+staxel.description.GrowTimeRegrowValidSeasons.1=
+//TODO Translate [Reference] 'Grows in {0-growTime} days then regrows in {1-reGrowTime} days in {2-season} and {3-season}.'
+staxel.description.GrowTimeRegrowValidSeasons.2=
+//TODO Translate [Reference] 'Grows in {0-growTime} days then regrows in {1-reGrowTime} days in {2-season}, {3-season}, and {4-season}.'
+staxel.description.GrowTimeRegrowValidSeasons.3=
+//TODO Translate [Reference] 'Grows in {0-growTime} days then regrows in {1-reGrowTime} days in all seasons.'
+staxel.description.GrowTimeRegrowValidSeasons.4=
+//TODO Translate [Reference] 'Doesn't grow in any seasons. Please report this as a bug.'
+staxel.description.GrowTimeTree.0=
+//TODO Translate [Reference] 'Grows in {0-growTime} days in {3-season}. Regrows in {1-reGrowTime} in {2-season}'
+staxel.description.GrowTimeTree.1=
+//TODO Translate [Reference] 'Grows in {0-growTime} days in {3-season} and {4-season}. Regrows in {1-reGrowTime} in {2-season}'
+staxel.description.GrowTimeTree.2=
+//TODO Translate [Reference] 'Grows in {0-growTime} days in {3-season}, {4-season}, and {5-season}. Regrows in {1-reGrowTime} in {2-season}'
+staxel.description.GrowTimeTree.3=
+//TODO Translate [Reference] 'Grows in {0-growTime} days in all seasons. Regrows in {1-reGrowTime} in {2-season}'
+staxel.description.GrowTimeTree.4=
 //TODO Translate [Reference] 'Doesn't grow in any seasons. Please report this as a bug.'
 staxel.description.GrowTimeValidSeasons.0=
 //TODO Translate [Reference] 'Grows in {0-growTime} days in {1-season}.'
@@ -1312,6 +1346,30 @@ staxel.tile.grass.GrassLayer.2.Summer.name=
 staxel.tile.grass.GrassLayer.2.Winter.description=
 //TODO Translate [Reference] 'Winter'
 staxel.tile.grass.GrassLayer.2.Winter.name=
+staxel.tile.grass.MeadowGrassLayer.1.Autumn.description=
+//TODO Translate [Reference] 'Autumn'
+staxel.tile.grass.MeadowGrassLayer.1.Autumn.name=
+staxel.tile.grass.MeadowGrassLayer.1.Spring.description=
+//TODO Translate [Reference] 'Spring'
+staxel.tile.grass.MeadowGrassLayer.1.Spring.name=
+staxel.tile.grass.MeadowGrassLayer.1.Summer.description=
+//TODO Translate [Reference] 'Summer'
+staxel.tile.grass.MeadowGrassLayer.1.Summer.name=
+staxel.tile.grass.MeadowGrassLayer.1.Winter.description=
+//TODO Translate [Reference] 'Winter'
+staxel.tile.grass.MeadowGrassLayer.1.Winter.name=
+staxel.tile.grass.MeadowGrassLayer.2.Autumn.description=
+//TODO Translate [Reference] 'Autumn'
+staxel.tile.grass.MeadowGrassLayer.2.Autumn.name=
+staxel.tile.grass.MeadowGrassLayer.2.Spring.description=
+//TODO Translate [Reference] 'Spring'
+staxel.tile.grass.MeadowGrassLayer.2.Spring.name=
+staxel.tile.grass.MeadowGrassLayer.2.Summer.description=
+//TODO Translate [Reference] 'Summer'
+staxel.tile.grass.MeadowGrassLayer.2.Summer.name=
+staxel.tile.grass.MeadowGrassLayer.2.Winter.description=
+//TODO Translate [Reference] 'Winter'
+staxel.tile.grass.MeadowGrassLayer.2.Winter.name=
 staxel.tile.leaves.Leaf.1.Autumn.description=
 //TODO Translate [Reference] 'Autumn'
 staxel.tile.leaves.Leaf.1.Autumn.name=
@@ -1360,6 +1418,18 @@ staxel.tile.leaves.Leaf.Forest.Summer.name=
 staxel.tile.leaves.Leaf.Forest.Winter.description=
 //TODO Translate [Reference] 'Winter'
 staxel.tile.leaves.Leaf.Forest.Winter.name=
+staxel.tile.rock.Rock.5.Autumn.description=
+//TODO Translate [Reference] 'Autumn'
+staxel.tile.rock.Rock.5.Autumn.name=
+staxel.tile.rock.Rock.5.Spring.description=
+//TODO Translate [Reference] 'Spring'
+staxel.tile.rock.Rock.5.Spring.name=
+staxel.tile.rock.Rock.5.Summer.description=
+//TODO Translate [Reference] 'Summer'
+staxel.tile.rock.Rock.5.Summer.name=
+staxel.tile.rock.Rock.5.Winter.description=
+//TODO Translate [Reference] 'Winter'
+staxel.tile.rock.Rock.5.Winter.name=
 staxel.tileObject.airship.RopeFenceCross.description=
 //TODO Translate [Reference] 'Rope Fence'
 staxel.tileObject.airship.RopeFenceCross.name=
