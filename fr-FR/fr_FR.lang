@@ -227,14 +227,20 @@ hintText.checkPlantGrowth=Pourcentage de pousse : {0:P0-percentage}
 hintText.checkPlantGrowth.fruited=Le plant est prêt à être récolté
 //[Reference] 'It's growing healthily'
 hintText.checkPlantGrowth.growing=Le plant pousse, en bonne santé
-//TODO Translate [Reference] 'It can't grow during {0-season}'
+//TODO Translate [Reference] 'It's sleeping for now. It doesn't grow in this season.'
+hintText.checkPlantGrowth.outOfSeason=
+//TODO Translate [Reference] 'It's sleeping for now. It doesn't grow during {0-season}'
 hintText.checkPlantGrowth.season=
 //[Reference] 'The seeds are growing'
 hintText.checkPlantGrowth.seed=Les graines poussent
-//[Reference] 'It's not looking healthy'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'It's not looking healthy; it needs water.'
 hintText.checkPlantGrowth.wilted=Le plant est flétri
-//[Reference] 'It's heading to the big garden in the sky'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'It's heading to the big garden in the sky. You should have watered it.'
 hintText.checkPlantGrowth.withered=Le plant est fané, et s'en va vers le Paradis des plantes...
+//TODO Translate [Reference] 'It's heading to the big garden in the sky. It can't grow during {0-season}.'
+hintText.checkPlantGrowth.witheredSeason=
 //[Reference] '{0-name}'
 hintText.inspectedEntity={0-name}
 //[Reference] 'Inventory Full'
@@ -392,8 +398,6 @@ options.general.graphics.autoDetect=Détection automatique des paramètres graph
 options.general.graphics.bloom=Éclat
 //[Reference] 'Camera Distance:'
 options.general.graphics.cameraDistance=Distance de la caméra :
-//[Reference] 'Fat Quads'
-options.general.graphics.fatQuads=Fat Quads
 //[Reference] 'Field Of View:'
 options.general.graphics.fieldOfView=Champ de vision :
 //[Reference] 'Fullscreen'
@@ -517,8 +521,11 @@ shippingCatalogue.refund={0-amount} pétales vous ont été remboursées
 shippingCatalogue.viewOrders.description=Consultez et annulez les commandes en attente ici
 //[Reference] 'You have claimed this shipping station!'
 shippingDock.Claimed=Vous vous êtes associé à cette station d'envoi !
-//[Reference] 'Base on'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Copy from'
 singleplayer.baseOff=Placement
+//TODO Translate [Reference] 'Don't copy'
+singleplayer.baseOffCancel=
 //[Reference] 'Cancel'
 singleplayer.cancel=Annuler
 //[Reference] 'Are you certain you want to delete this world?'
@@ -529,6 +536,8 @@ singleplayer.copyingWorld=Copie du monde...
 singleplayer.creative=Créatif
 //[Reference] 'Creative Mode'
 singleplayer.creativeMode=Mode Créatif
+//TODO Translate [Reference] 'Creative Mode On'
+singleplayer.creativeModeEnabled=
 //[Reference] 'My World'
 singleplayer.defaultWorldName=Mon Monde
 //[Reference] 'Delete'
@@ -643,6 +652,10 @@ staxel.category.construction=
 staxel.category.cooked=
 //TODO Translate [Reference] 'Cube'
 staxel.category.cube=
+//TODO Translate [Reference] 'dryer'
+staxel.category.dryer=
+//TODO Translate [Reference] 'drying'
+staxel.category.drying=
 //TODO Translate [Reference] 'fried'
 staxel.category.fried=
 //TODO Translate [Reference] 'fry'
@@ -659,6 +672,8 @@ staxel.category.japanese=
 staxel.category.jelly=
 //[Reference] 'kennel'
 staxel.category.kennel=Niche
+//TODO Translate [Reference] 'laundry'
+staxel.category.laundry=
 //TODO Translate [Reference] 'LightBlue'
 staxel.category.LightBlue=
 //TODO Translate [Reference] 'LightGreen'
@@ -693,6 +708,10 @@ staxel.category.sun=
 staxel.category.Sunflower=
 //TODO Translate [Reference] 'varnish'
 staxel.category.varnish=
+//TODO Translate [Reference] 'washer'
+staxel.category.washer=
+//TODO Translate [Reference] 'washing'
+staxel.category.washing=
 staxel.core.Compound.description=
 //[Reference] 'Compound'
 staxel.core.Compound.name=Composé
@@ -1194,6 +1213,8 @@ staxel.nightTransition.Line8=Astuce : Les plantations prêtes à récolter ont 
 staxel.nightTransition.Line9=Astuce : Jouer à la balle avec votre animal de compagnie en tenant une balle, interagissant avec votre animal puis lâcher la balle
 //TODO Translate [Reference] 'Press {0-key} to continue...'
 staxel.nightTransition.PressToContinue=
+//TODO Translate [Reference] 'You can't break this tile.'
+staxel.notifications.CantBreak=
 //[Reference] '{0} is in bad health'
 staxel.notifications.farmAnimal.BadHealth={0} est en mauvaise santé
 //[Reference] '{0} is busy'
@@ -1250,8 +1271,18 @@ staxel.notifications.weatherAlreadyWatered=Vous n'avez pas à arroser les planta
 staxel.notifications.weatherSnowyAlreadyWatered=Vous n'avez pas à arroser les plantations quand il neige !
 //[Reference] 'This isn't the right tool'
 staxel.notifications.WrongTool=Ce n'est pas le bon outil
-//[Reference] 'You need a {0}{1}{2}{3}{4}{5}{6} to break this!'
-staxel.notifications.WrongToolUniversal=Il vous faut un {0}{1}{2}{3}{4}{5}{6} pour casser ça !
+//TODO Translate [Reference] 'your hands'
+staxel.notifications.WrongTool.YourHands=
+//TODO Translate [Reference] 'You need: {0} to break this.'
+staxel.notifications.WrongToolUniversal.1=
+//TODO Translate [Reference] 'You need: {0} or {1} to break this.'
+staxel.notifications.WrongToolUniversal.2=
+//TODO Translate [Reference] 'You need: {0}, {1}, or {2} to break this.'
+staxel.notifications.WrongToolUniversal.3=
+//TODO Translate [Reference] 'You need: {0}, {1}, {2}, or {3} to break this.'
+staxel.notifications.WrongToolUniversal.4=
+//TODO Translate [Reference] 'You need: {0}, {1}, {2}, {3}, or {4} to break this.'
+staxel.notifications.WrongToolUniversal.5=
 //[Reference] 'Chicken'
 staxel.personality.Chicken=Poulet
 //[Reference] 'Cow'
@@ -1276,6 +1307,8 @@ staxel.plant.crop.Sunflower.name=
 staxel.plant.gatherable.StarJelly.description=
 //TODO Translate [Reference] 'StarJelly'
 staxel.plant.gatherable.StarJelly.name=
+//TODO Translate [Reference] 'Free in Creative'
+staxel.priceTag.freeInCreative=
 //[Reference] 'Autumn'
 staxel.season.Autumn=Automne
 //[Reference] 'Spring'
@@ -1526,6 +1559,9 @@ staxel.tileObject.crafting.MasonryStation.name=
 staxel.tileObject.crafting.TilingStation.description=
 //TODO Translate [Reference] 'Tiling Station'
 staxel.tileObject.crafting.TilingStation.name=
+staxel.tileObject.decorations.Dryer.description=
+//TODO Translate [Reference] 'Dryer'
+staxel.tileObject.decorations.Dryer.name=
 staxel.tileObject.decorations.GazeboDiagonal.description=
 //TODO Translate [Reference] 'GazeboDiagonal'
 staxel.tileObject.decorations.GazeboDiagonal.name=
@@ -1547,6 +1583,9 @@ staxel.tileObject.decorations.GazeboSide.name=
 staxel.tileObject.decorations.JapaneseArch.description=Arche Japonais
 //[Reference] 'Japanese Arch'
 staxel.tileObject.decorations.JapaneseArch.name=Arche Japonais
+staxel.tileObject.decorations.WashingMachine.description=
+//TODO Translate [Reference] 'WashingMachine'
+staxel.tileObject.decorations.WashingMachine.name=
 staxel.tileObject.gatherable.HermitShell.description=
 //TODO Translate [Reference] 'HermitShell'
 staxel.tileObject.gatherable.HermitShell.name=
@@ -1707,9 +1746,15 @@ staxel.tileObject.shop.MarketCube.name=Cube Marché
 staxel.tileObject.shop.MarketCubePole.description=Poteau de Cube Marché
 //[Reference] 'Market Cube Pole'
 staxel.tileObject.shop.MarketCubePole.name=Poteau de Cube Marché
+staxel.tileObject.shop.ShopCounterNormal.description=
+//TODO Translate [Reference] 'ShopCounterNormal'
+staxel.tileObject.shop.ShopCounterNormal.name=
 staxel.tileObject.shop.ShopWindow.description=Vitrine
 //[Reference] 'Shop Window'
 staxel.tileObject.shop.ShopWindow.name=Vitrine
+staxel.tileObject.totems.AlizaMailbox.description=
+//TODO Translate [Reference] 'AlizaMailbox'
+staxel.tileObject.totems.AlizaMailbox.name=
 staxel.tileObject.totems.RiahMailbox.description=Boîte aux lettres de Riah
 //[Reference] 'Riah's Postbox'
 staxel.tileObject.totems.RiahMailbox.name=Boîte aux lettres de Riah
@@ -1719,11 +1764,16 @@ staxel.tileObject.totems.workplace.BuildingStoreSign.name=
 staxel.tileObject.totems.workplace.FishingSpotSign.description=Signe de Coin de Pêche
 //[Reference] 'Fishing Spot Sign'
 staxel.tileObject.totems.workplace.FishingSpotSign.name=Signe de Coin de Pêche
+staxel.tileObject.villagers.AlizaSpawner.description=
+//TODO Translate [Reference] 'AlizaSpawner'
+staxel.tileObject.villagers.AlizaSpawner.name=
 staxel.tileObject.villagers.RiahSpawner.description=Spawner de Riah
 //[Reference] 'Riah Spawner'
 staxel.tileObject.villagers.RiahSpawner.name=Spawner de Riah
 //[Reference] 'Airship Landing'
 staxel.totem.AirshipLanding=Piste d’atterrissage de Dirigeable
+//TODO Translate [Reference] 'AlizaHome'
+staxel.totem.AlizaHome=
 //[Reference] 'Simple Barn'
 staxel.totem.Barn=Grange simple
 //[Reference] 'Barn'
@@ -1844,6 +1894,8 @@ staxel.tree.TangerineTree.description=Cet arbre fait pousser des mandarines, pas
 staxel.tree.TangerineTree.name=Mandarinier
 //[Reference] '{0-name} has left the village.'
 staxel.village.villagerLeftTown={0-name} a quitté le village.
+//TODO Translate [Reference] 'Aliza'
+staxel.villager.Aliza.name=
 //[Reference] 'Cecile'
 staxel.villager.Cecile.name=Cécile
 //[Reference] 'Emilia'
