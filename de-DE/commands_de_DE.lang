@@ -3,77 +3,77 @@ language=Deutsch
 
 //Not sure if commands should be translated
 //TODO Translate [Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)'
-commands.advanceTime.description=
+commands.advanceTime.description='^c:F2E200;advanceTime ^c:FFFFFF;Menge(0.0-1.0)'
 //TODO Translate [Reference] 'Enter a float by which to advance time. 1.0 is a full day'
-commands.advanceTime.enterFloat=
+commands.advanceTime.enterFloat=Gib eine float ein um welche die Zeit vorgespult werden soll. 1.0 ist ein voller Tag
 //TODO Translate [Reference] 'failed: arg(1) must be a number. Floating points OK'
-commands.advanceTime.mustBeNumber=
+commands.advanceTime.mustBeNumber=Fehler: arg(1) muss eine Nummer sein. Floating Punkte OK
 //TODO Translate [Reference] 'Advancing time by {0-time}...'
-commands.advanceTime.success=
+commands.advanceTime.success=Spule Zeit um {0-time} vor...
 //TODO Translate [Reference] '^c:F2E200;ban ^c:FFFFFF;playerName (optional)reason'
-commands.ban.description=
+commands.ban.description=^c:F2E200;ban ^c:FFFFFF;playerName (optional)Begründung
 //TODO Translate [Reference] 'Unable to ban {0-player}: player is an admin or already banned.'
-commands.ban.failure=
+commands.ban.failure={0-player} ist nicht banbar: Player ist gebannt oder Admin
 //TODO Translate [Reference] '{0-player} has been banned from the server.'
-commands.ban.success=
+commands.ban.success={0-player} wurde vom Server gebannt.
 //TODO Translate [Reference] '^c:F2E200;bla'
-commands.bla.description=
+commands.bla.description=^c:F2E200;bla
 //TODO Translate [Reference] 'Moved to a new location in debug region: {0-region}'
-commands.bla.success=
+commands.bla.success=Zu einem neuen Standort in der Debug Region bewegt: {0-region}
 //TODO Translate [Reference] '^c:F2E200;cameraCapture'
-commands.cameraCapture.description=
+commands.cameraCapture.description=^c:F2E200;cameraCapture
 //TODO Translate [Reference] 'Captured player camera'
-commands.cameraCapture.success=
+commands.cameraCapture.success=Erfasse Spieler-Kamera
 //TODO Translate [Reference] '^c:F2E200;cameraCapture ^c:FFFFFF;savedCameraFilePath'
-commands.cameraLoad.description=
+commands.cameraLoad.description=^c:F2E200;cameraCapture ^c:FFFFFF;gespeichterKameraDateipfad
 //TODO Translate [Reference] 'Loaded player camera from file: {0-filename}'
-commands.cameraLoad.success=
+commands.cameraLoad.success=Lade Spieler-Kamera Datei von: {0-filename}
 //TODO Translate [Reference] '^c:F2E200;cameraPlay ^c:FFFFFF;(optional)duration(0.0-1.0) (optional)loop(true/false) (optional)savedCameraFilePath'
-commands.cameraPlay.description=
+commands.cameraPlay.description=^c:F2E200;cameraPlay ^c:FFFFFF;(optional)Länge(0.0-1.0) (optional)Loopen(true/false) (optional)gespeichterKameraDateipfad
 //TODO Translate [Reference] 'Playing back player camera'
-commands.cameraPlay.success=
+commands.cameraPlay.success=Gebe Spieler-Kamera wieder
 //TODO Translate [Reference] '^c:F2E200;cameraReset'
-commands.cameraReset.description=
+commands.cameraReset.description=^c:F2E200;cameraReset
 //TODO Translate [Reference] 'Reset player camera'
-commands.cameraReset.success=
+commands.cameraReset.success=Spieler-Kamera wird zurückgesetzt
 //TODO Translate [Reference] '^c:F2E200;cameraSave ^c:FFFFFF;cameraSaveFilePath'
-commands.cameraSave.description=
+commands.cameraSave.description=^c:F2E200;cameraSave ^c:FFFFFF;gespeichterKameraDateipfad
 //TODO Translate [Reference] 'Saved player camera to file: {0-filename}'
-commands.cameraSave.success=
+commands.cameraSave.success=Speichere Spieler-Kamera Datei: {0-filename}
 //TODO Translate [Reference] '^c:F2E200;cameraStop'
-commands.cameraStop.description=
+commands.cameraStop.description=^c:F2E200;cameraStop
 //TODO Translate [Reference] 'Stopped camera mode'
-commands.cameraStop.success=
+commands.cameraStop.success=Kameramodus gestoppt
 //TODO Translate [Reference] 'Not looking at an animal'
-commands.changeMood.animalNotFound=
+commands.changeMood.animalNotFound=Es wird nicht auf ein Tier geguckt
 //TODO Translate [Reference] '^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)'
-commands.changeMood.description=
+commands.changeMood.description=^c:F2E200;changeMood ^c:FFFFFF;erhöhen/verringern(true/false)
 //TODO Translate [Reference] 'Mood altered successfully'
-commands.changeMood.success=
+commands.changeMood.success=Laune erfolgreich geändert
 //TODO Translate [Reference] '^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)'
-commands.creative.description=
+commands.creative.description=^c:F2E200;creative ^c:FFFFFF;(optional)Spielername (optional)starteKreativmodus(true/false)
 //TODO Translate [Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
-commands.creative.success=
+commands.creative.success=Temporär den Krativmodus für {0-user} zu {1-creative} geändert
 //TODO Translate [Reference] '^c:F2E200;currentTime'
-commands.currentTime.description=
+commands.currentTime.description=^c:F2E200;currentTime
 //TODO Translate [Reference] 'The day is {0-day} and phase is {1:G2-phase} ({2-time}).'
-commands.currentTime.success=
+commands.currentTime.success=Es ist Tag {0-day} und die Phase is {1:G2-phase} ({2-time}).
 //TODO Translate [Reference] '^c:F2E200;demoMode ^c:FFFFFF;(optional)on(true/false)'
-commands.demoMode.description=
+commands.demoMode.description=^c:F2E200;demoMode c:FFFFFF;(optional)an(true/false)
 //[Reference] 'Switched server demo mode to {0-demoMode}'
 commands.demoMode.success=Wechsle Server-Vorschaumodus zu {0-demoMode}
 //TODO Translate [Reference] '^c:F2E200;describeitem ^c:FFFFFF;(optional)playerName'
-commands.describeItem.description=
+commands.describeItem.description=^c:F2E200;describeitem ^c:FFFFFF;(optional)Spielername
 //[Reference] 'Item description: {0-itemDesc}'
 commands.describeItem.success=Item-Beschreibung: {0-itemDesc}
 //TODO Translate [Reference] '^c:F2E200;doemote ^c:FFFFFF;emoteName (optional)useLookatEntity(true/false)'
-commands.doemote.description=
+commands.doemote.description=^c:F2E200;doemote ^c:FFFFFF;emoteName (optional)nutzeObjektAnschauen(true/false)
 //TODO Translate [Reference] '^c:F2E200;emote ^c:FFFFFF;emoteName'
-commands.emote.description=
+commands.emote.description=^c:F2E200;emote ^c:FFFFFF;emoteName
 //TODO Translate [Reference] 'No such emote {0-emote}'
-commands.emote.noSuchEmote=
+commands.emote.noSuchEmote=Emote nicht gefunden {0-emote}
 //TODO Translate [Reference] '^c:F2E200;entityInfo ^c:FFFFFF;entityID'
-commands.entityInfo.description=
+commands.entityInfo.description=^c:F2E200;entityInfo ^c:FFFFFF;objektID
 //[Reference] 'You need to include an EntityID!'
 commands.entityInfo.entityNumber=Du musst eine ObjektID mit angeben!
 //[Reference] 'Invalid EntityID!'
@@ -83,227 +83,227 @@ commands.entityInfo.noSuchEntity=Ein solches Objekt befindet sich nicht auf dem 
 //[Reference] 'Entity data: {0-data}'
 commands.entityInfo.success=Objekt-Daten: {0-data}
 //TODO Translate [Reference] 'Entity not found'
-commands.entityNotFound=
+commands.entityNotFound=Objekt nicht gefunden
 //TODO Translate [Reference] '^c:F2E200;fly ^c:FFFFFF;(optional)playerName (optional)startFlying(true/false)'
-commands.flyMode.description=
+commands.flyMode.description=^c:F2E200;fly ^c:FFFFFF;(optional)Spielername (optional)fliegenBeginnen(true/false)
 //[Reference] 'Switched flying mode to: {0-flymode}'
 commands.flyMode.success=Wechsle Flug-Modus zu: {0-flymode}
 //TODO Translate [Reference] '^c:F2E200;Give all recipes ^c:FFFFFF;(optional)playerName'
-commands.giveallrecipes.description=
+commands.giveallrecipes.description=^c:F2E200;Give all recipes ^c:FFFFFF;(optional)Spielername
 //[Reference] 'Done!'
 commands.giveallrecipes.success=Fertig!
 //TODO Translate [Reference] '^c:F2E200;givepetals ^c:FFFFFF;playerName amount'
-commands.givePetals.description=
+commands.givePetals.description=^c:F2E200;givepetals ^c:FFFFFF;Spielername Menge
 //[Reference] 'Petal amount needs to be a positive number'
 commands.givePetals.invalidNumber=Blütenblätter-Anzahl muss eine positive Anzahl sein
 //[Reference] 'Gave {0-player} {1-amount} petals'
 commands.givePetals.success=Gebe {0-player} {1-amount} Blütenblätter
 //TODO Translate [Reference] '^c:F2E200;? ^c:FFFFFF;(optional)commandName'
-commands.help.altDescription=
+commands.help.altDescription=^c:F2E200;? ^c:FFFFFF;(optional)Befehlsname
 //[Reference] 'Command not found: '{0-command}''
 commands.help.commandNotFound=Befehl nicht gefunden: '{0-command}'
 //TODO Translate [Reference] '^c:F2E200;help ^c:FFFFFF;(optional)commandName'
-commands.help.description=
+commands.help.description=^c:F2E200;help ^c:FFFFFF;(optional)Befehlsname
 //[Reference] 'Command list (() brackets denote possible values):'
 commands.help.success=Befehlsliste (() Klammern bezeichnen mögliche Werte):
 commands.inspect.description=
 //TODO Translate [Reference] 'Inspection success.'
-commands.inspect.success=
+commands.inspect.success=Inspektion erfolgreich,
 //[Reference] 'invalid args'
 commands.invalidArgs=Ungültige Parameter
 //TODO Translate [Reference] '^c:F2E200;kick ^c:FFFFFF;playerName'
-commands.kick.description=
+commands.kick.description=^c:F2E200;kick ^c:FFFFFF;Spielername
 //TODO Translate [Reference] 'Unable to kick {0-player}: player is an admin or not online.'
-commands.kick.failure=
+commands.kick.failure=Konnte {0-player} nicht kicken: Spieler ist Admin oder offline.
 //TODO Translate [Reference] '{0-player} has been ejected from the server.'
-commands.kick.success=
+commands.kick.success={0-player} wurde erfolgreich gekickt.
 commands.loadDesign.description=
 //TODO Translate [Reference] 'loadDesign requires a filename/design code'
-commands.loadDesign.needFileName=
+commands.loadDesign.needFileName=loadDesign braucht einen Dateinamen/Designcode
 //TODO Translate [Reference] 'No such design {0-design}'
-commands.loadDesign.noSuchDesign=
+commands.loadDesign.noSuchDesign=Design unbekannt {0-design}
 //TODO Translate [Reference] 'No such file {0-file}'
-commands.loadDesign.noSuchFile=
+commands.loadDesign.noSuchFile=Datei unbekannt {0-file}
 //TODO Translate [Reference] 'Design loaded successfully'
-commands.loadDesign.success=
+commands.loadDesign.success=Design erfolgreich geladen
 //TODO Translate [Reference] '^c:F2E200;model ^c:FFFFFF;(optional)playerName (optional)modelFileName'
-commands.model.description=
+commands.model.description=^c:F2E200;model ^c:FFFFFF;(optional)Spielername (optional)modellDateiname
 //TODO Translate [Reference] 'Could not switch to character model '{0-model}' not found in assets.'
-commands.model.notFound=
+commands.model.notFound=Konnte nicht zum Charaktermodell {0-model} wechseln. Assets nicht gefunden.
 //TODO Translate [Reference] 'Switched character model to: {0-model}'
-commands.model.success=
+commands.model.success=Charaktermodell gewechselt: {0-model}
 //TODO Translate [Reference] '^c:F2E200;mute ^c:FFFFFF;playerName (optional[default 60])lengthInMinutes'
-commands.mute.description=
+commands.mute.description=^c:F2E200;mute ^c:FFFFFF;Spielername (optional[default 60])längeInMinuten
 //TODO Translate [Reference] 'Unable to mute {0-player}: player is an admin.'
-commands.mute.failure=
+commands.mute.failure=Konnte {0-player} nicht stummschalten: Spieler ist ein Admin.
 //TODO Translate [Reference] 'Invalid time (should be in whole minutes)'
-commands.mute.invalidTime=
+commands.mute.invalidTime=Ungültige Zeitangabe (Ganze Minuten)
 //TODO Translate [Reference] '{0-player} has been silenced.'
-commands.mute.success=
+commands.mute.success={0-player} wurde stummgeschaltet.
 //TODO Translate [Reference] '^c:F2E200;noclip ^c:FFFFFF;(optional)playerName (optional)startNoclip(true/false)'
-commands.noClip.description=
+commands.noClip.description=^c:F2E200;noclip ^c:FFFFFF;(optional)Spielername (optional)starteWändeläufer(true/false)
 //TODO Translate [Reference] 'Switched noclip mode to: {0-noclip}'
-commands.noClip.success=
+commands.noClip.success=Wändeläufermodus gewechselt zu: {0-noclip}
 //TODO Translate [Reference] '{0-user} does not have the correct rights to use this command'
-commands.noRights=
+commands.noRights={0-user} hat nicht die Berechtigung diesen Befehl zu benutzen
 //TODO Translate [Reference] 'No such player '{0-player}''
-commands.noSuchPlayer=
+commands.noSuchPlayer=Kein solcher Spieler: {0-player}
 //TODO Translate [Reference] 'Not a player entity.'
-commands.notAPlayer=
+commands.notAPlayer=Kein Spieler-Objekt
 //TODO Translate [Reference] '^c:F2E200;op ^c:FFFFFF;playerName'
-commands.op.description=
+commands.op.description=^c:F2E200;op ^c:FFFFFF;Spielername
 //TODO Translate [Reference] 'Unable to promote {0-player}.'
-commands.op.failure=
+commands.op.failure=Konnte {0-player} nicht befördern.
 //TODO Translate [Reference] '{0-player} has been promoted.'
-commands.op.success=
+commands.op.success={0-player} wurde befördert.
 //TODO Translate [Reference] '^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime'
-commands.pe.description=
+commands.pe.description=^c:F2E200;pe ^c:FFFFFF;gesichtsausdruckAlias (optional)Anzeigezeit
 //TODO Translate [Reference] '^c:F2E200;plantgrowth'
-commands.plantGrowth.description=
+commands.plantGrowth.description=^c:F2E200;plantgrowth
 //TODO Translate [Reference] 'Not a plant.'
-commands.plantGrowth.noPlant=
+commands.plantGrowth.noPlant=Keine Pflanze.
 //TODO Translate [Reference] 'Plant {0-plant} at stage {1-stage}'
-commands.plantGrowth.success=
+commands.plantGrowth.success=Pflanze {0-plant} im Stadium {1-stage}
 //TODO Translate [Reference] 'Player Entity not found'
-commands.playerEntityNotFound=
+commands.playerEntityNotFound=Spieler-Objekt nicht gefunden
 //TODO Translate [Reference] '^c:F2E200;players'
-commands.players.description=
+commands.players.description=^c:F2E200;players
 //TODO Translate [Reference] 'Players: {0-playerlist}'
-commands.players.success=
+commands.players.success=Spieler: {0-playerlist}
 //TODO Translate [Reference] '^c:F2E200;playExpression ^c:FFFFFF;expressionCode (optional)displayTime'
-commands.playExpression.description=
+commands.playExpression.description=^c:F2E200;playExpression ^c:FFFFFF;gesichtsausdruckCode (optional)Anzeigezeit
 //TODO Translate [Reference] 'Aliases:'
-commands.playExpression.list=
+commands.playExpression.list=Aliases:
 //TODO Translate [Reference] 'Expression not found {0-expression}'
-commands.playExpression.noExpression=
+commands.playExpression.noExpression=Gesichtsausdruck nicht gefunden {0-expression}
 //TODO Translate [Reference] 'Expression played successfully'
-commands.playExpression.success=
+commands.playExpression.success=Gesichtsausdruck erfolgreich abgespielt
 //TODO Translate [Reference] '^c:F2E200;position ^c:FFFFFF;(optional)playerName'
-commands.position.description=
+commands.position.description=^c:F2E200;position ^c:FFFFFF;(optional)Spielername
 //TODO Translate [Reference] 'Failed to find player'
-commands.position.failed=
+commands.position.failed=Spieler nicht gefunden
 //TODO Translate [Reference] 'Position: {0-position}, Heading: {1-heading}'
-commands.position.success=
+commands.position.success=Position: {0-position}, Blickrichtung: {1-heading}
 //TODO Translate [Reference] '^c:F2E200;qs ^c:FFFFFF;(optional)startFlying(true/false)'
-commands.quickStart.altDescription=
+commands.quickStart.altDescription=^c:F2E200;qs ^c:FFFFFF;(optional)fliegenStarten(true/false)
 //TODO Translate [Reference] '^c:F2E200;quickStart ^c:FFFFFF;(optional)startFlying(true/false)'
-commands.quickStart.description=
+commands.quickStart.description=^c:F2E200;quickStart ^c:FFFFFF;(optional)fliegenStarten(true/false)
 //TODO Translate [Reference] 'Quick start success. Switched flying mode to: {0-flymode}'
-commands.quickStart.success=
+commands.quickStart.success=Schnellstart erfolgreich. Flugmodus gewechselt zu: {0-flymode}
 commands.rain.description=
 //TODO Translate [Reference] 'Made it a rainy day.'
-commands.rain.success=
+commands.rain.success=Es ist nun ein regnerischer Tag
 //TODO Translate [Reference] '^c:F2E200;reload'
-commands.reload.description=
+commands.reload.description=^c:F2E200;reload
 //TODO Translate [Reference] 'Reload requested.'
-commands.reload.success=
+commands.reload.success=Neu laden angefragt.
 //TODO Translate [Reference] '^c:F2E200;resetplayer'
-commands.resetPlayer.description=
+commands.resetPlayer.description=^c:F2E200;resetplayer
 //TODO Translate [Reference] 'Reset successful.'
-commands.resetPlayer.success=
+commands.resetPlayer.success=Zurücksetzen erfolgreich.
 commands.returnhome.description=
 //TODO Translate [Reference] '^c:F2E200;saveDesign ^c:FFFFFF;fileName'
-commands.saveDesign.description=
+commands.saveDesign.description=^c:F2E200;saveDesign ^c:FFFFFF;Dateiname
 //TODO Translate [Reference] 'A filename is required to save a design'
-commands.saveDesign.needFileName=
+commands.saveDesign.needFileName=Ein Dateiname wird benötigt um ein Design zu speichern
 //TODO Translate [Reference] 'Character design file saved at {0-path}'
-commands.saveDesign.success=
+commands.saveDesign.success=Charakterdesign Datei wurde gesichert: {0-path}
 //TODO Translate [Reference] '^c:F2E200;saveOutfit ^c:FFFFFF;fileName'
-commands.saveOutfit.description=
+commands.saveOutfit.description=^c:F2E200;saveOutfit ^c:FFFFFF;Dateiname
 //TODO Translate [Reference] 'Character outfit file saved at {0-path}'
-commands.saveOutfit.success=
+commands.saveOutfit.success=Charakter-Outfit wurde gespeichert: {0-path}
 //TODO Translate [Reference] '^c:F2E200;seed'
-commands.seed.description=
+commands.seed.description=^c:F2E200;seed
 //TODO Translate [Reference] 'Seed: {0-seed}'
-commands.seed.success=
+commands.seed.success=Seed: {0-seed}
 //TODO Translate [Reference] '^c:F2E200;creativeMode ^c:FFFFFF;(optional)on(true/false)'
-commands.serverCreative.description=
+commands.serverCreative.description=^c:F2E200;creativeMode ^c:FFFFFF;(optional)an(true/false)
 //TODO Translate [Reference] 'Switched server creative mode to {0-creative} (persistent)'
-commands.serverCreative.success=
+commands.serverCreative.success=Server-Kreativmodus wurde gewechselt zu {0-creative} (persistent)
 commands.snow.description=
 //TODO Translate [Reference] '^c:F2E200;spawncoins ^c:FFFFFF;playerName petalAmount'
-commands.spawnCoins.description=
+commands.spawnCoins.description=^c:F2E200;spawncoins ^c:FFFFFF;Spielername Blütenblattmenge
 //TODO Translate [Reference] 'Spawned {0-amount} petals in coins for {1-player}'
-commands.spawnCoins.success=
+commands.spawnCoins.success=Erschaffe {0-amount} Blütenblätter in Münzen für {1-player}
 //TODO Translate [Reference] '^c:F2E200;spawnitem ^c:FFFFFF;playerName item(kind/specification{})'
-commands.spawnItem.description=
+commands.spawnItem.description=^c:F2E200;spawnitem ^c:FFFFFF;Spielername Item(kind/specification{})
 //TODO Translate [Reference] 'Item not found.'
-commands.spawnItem.notFound=
+commands.spawnItem.notFound=Item nicht gefunden
 //TODO Translate [Reference] 'Spawn item successful.'
-commands.spawnItem.success=
+commands.spawnItem.success=Item erfolgreich erschaffen.
 //TODO Translate [Reference] '^c:F2E200;spawnmaterial ^c:FFFFFF;playerName materialCode'
-commands.spawnMaterial.description=
+commands.spawnMaterial.description=^c:F2E200;spawnmaterial ^c:FFFFFF;Spielername Materialcode
 //TODO Translate [Reference] 'Material kind not found.'
-commands.spawnMaterial.notFound=
+commands.spawnMaterial.notFound=Material nicht gefunden.
 //TODO Translate [Reference] 'Spawn material successful'
-commands.spawnMaterial.success=
+commands.spawnMaterial.success=Material erfolgreich erschaffen.
 //TODO Translate [Reference] '^c:F2E200;spawntile ^c:FFFFFF;playerName tileCode'
-commands.spawnTile.description=
+commands.spawnTile.description=^c:F2E200;spawntile ^c:FFFFFF;Spielername Fliesencode
 //TODO Translate [Reference] 'Tile kind not found.'
-commands.spawnTile.notFound=
+commands.spawnTile.notFound=Fliese nicht gefunden.
 //TODO Translate [Reference] 'Spawn tile successful.'
-commands.spawnTile.success=
+commands.spawnTile.success=Fliese erfolgreich erschaffen.
 //TODO Translate [Reference] '^c:F2E200;stealpetals ^c:FFFFFF;amount (optional)remove(true/false)'
-commands.stealPetals.description=
+commands.stealPetals.description=^c:F2E200;stealpetals ^c:FFFFFF;Menge (optional)entfernen(true/false)
 //TODO Translate [Reference] 'Reset must be true or false.'
-commands.stealPetals.invalidReset=
+commands.stealPetals.invalidReset=Neustart muss entweder true oder false sein.
 //TODO Translate [Reference] '{0-player} stole {1-amount} petals'
-commands.stealPetals.success=
+commands.stealPetals.success={0-player} stiehlt {1-amount} Blütenblätter
 //TODO Translate [Reference] '{0-player} is no longer a thief.'
-commands.stealPetals.success.reset=
+commands.stealPetals.success.reset={0-player} ist kein Dieb mehr.
 //TODO Translate [Reference] '{0-player} stole {1-amount} petals. Thief!'
-commands.stealPetals.success.thief=
+commands.stealPetals.success.thief={0-player} stiehlt {1-amount} Blütenblätter. Thief!
 commands.sun.description=
 //TODO Translate [Reference] 'Made it a sunny day.'
-commands.sun.success=
+commands.sun.success=Es ist nun ein sonniger Tag.
 //TODO Translate [Reference] '^c:F2E200;teleport ^c:FFFFFF;(optional)playerName location({0,0,0})'
-commands.teleport.description=
+commands.teleport.description=^c:F2E200;teleport ^c:FFFFFF;(optional)Spielername location({0,0,0})
 //TODO Translate [Reference] '{0-position} is too far to teleport'
-commands.teleport.distance=
+commands.teleport.distance={0-position} ist zu weit zum teleportieren
 //TODO Translate [Reference] 'Failed to parse position {0-position}'
-commands.teleport.fail=
+commands.teleport.fail=Position konnte nicht erfasst werden {0-position}
 //TODO Translate [Reference] 'Teleport successful.'
-commands.teleport.success=
+commands.teleport.success=Teleport erfolgreich
 //TODO Translate [Reference] '^c:F2E200;tp ^c:FFFFFF;movingPlayerName destinationPlayerName'
-commands.teleportPlayer.description=
+commands.teleportPlayer.description=^c:F2E200;tp ^c:FFFFFF;bewegeSpielername zielpunktSpielername
 commands.textToSpeech.description=
 //TODO Translate [Reference] 'Saying text.'
-commands.textToSpeech.success=
+commands.textToSpeech.success=Sage Text.
 commands.thunder.description=
 //TODO Translate [Reference] 'success'
-commands.thunder.success=
+commands.thunder.success=Erfolgreich.
 //TODO Translate [Reference] '^c:F2E200;tileAt ^c:FFFFFF;(optional)location({0,0,0})'
-commands.tileAt.description=
+commands.tileAt.description=^c:F2E200;tileAt ^c:FFFFFF;(optional)location({0,0,0})
 //TODO Translate [Reference] 'Failed to parse position {0-position}'
-commands.tileAt.failParse=
+commands.tileAt.failParse=Position konnte nicht erfasst werden {0-position}
 //TODO Translate [Reference] 'Tile not found'
-commands.tileAt.notFound=
+commands.tileAt.notFound=Fliese nicht gefunden
 //TODO Translate [Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: false)'
-commands.tileAt.success.false=
+commands.tileAt.success.false=Fliesencode: {0-tilecode} bei {1-position} (compoundFiller: false)
 //TODO Translate [Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true)'
-commands.tileAt.success.true=
+commands.tileAt.success.true=Fliesencode: {0-tilecode} bei {1-position} (compoundFiller: true)
 commands.traceStart.description=
 //TODO Translate [Reference] 'Started tracing.'
-commands.traceStart.success=
+commands.traceStart.success=Starte Verfolgung.
 commands.traceStop.description=
 //TODO Translate [Reference] 'Stopped tracing.'
-commands.traceStop.success=
+commands.traceStop.success=Stoppe Verfolgung.
 commands.tripod.description=
 //TODO Translate [Reference] '^c:F2E200;unban ^c:FFFFFF;playerName'
-commands.unban.description=
+commands.unban.description=^c:F2E200;unban ^c:FFFFFF;Spielername
 //TODO Translate [Reference] 'Unable to unban {0-player}: player was not banned.'
-commands.unban.failure=
+commands.unban.failure={0-player} konnte nicht entbannt werden: Spieler ist nicht gebannt.
 //TODO Translate [Reference] '{0-player} has been unbanned from the server.'
-commands.unban.success=
+commands.unban.success={0-player} wurde entbannt.
 //TODO Translate [Reference] 'Unknown command :'{0-command}''
-commands.unknown=
+commands.unknown=Unbekannter Befehl: {0-command}
 //TODO Translate [Reference] 'Unknown error.'
-commands.unknownError=
+commands.unknownError=Unbekannter Fehler.
 //TODO Translate [Reference] '^c:F2E200;unmute ^c:FFFFFF;playerName'
-commands.unmute.description=
+commands.unmute.description=^c:F2E200;unmute ^c:FFFFFF;Spielername
 //TODO Translate [Reference] 'Unable to unmute {0-player}: player is not muted.'
-commands.unmute.failure=
+commands.unmute.failure=Konnte {0-player} nicht entstummen: Spieler ist nicht stummgeschaltet.
 //TODO Translate [Reference] '{0-player} has regained the ability to speak.'
-commands.unmute.success=
+commands.unmute.success={0-player} kann nun wieder sprechen.
 //TODO Translate [Reference] 'Unrecognised command :'{0-command}''
-commands.unrecognised=
+commands.unrecognised=Unbekannter Befehl: {0-command}
