@@ -27,6 +27,6 @@
 | Rosemary		|				|				|				|				| ローズマリー		|				|				|				|				|				|				|
 | Rowan			|				|				|				|				| ローワン			|				|				|				|				|				|				|
 | Sledra		|				|				|				|				| スレドラ			|				|				|				|				|				|				|
-| Steampunkstein|				|				|				|				| Steampunkstein|				|				|				|				|				|				|
+| Steampunkstein|				|				|				|				| コナー			|				|				|				|				|				|				|
 | Stein			|				|				|				|				| ステイン			|				|				|				|				|				|				|
 | Teagadd		|				|				|				|				| ティーガッド		|				|				|				|				|				|				|
