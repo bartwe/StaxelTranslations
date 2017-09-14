@@ -52,6 +52,10 @@ controlHint.verb.default.Eat=食べる：
 controlHint.verb.default.Harvest=収穫する：
 //[Reference] 'Interact'
 controlHint.verb.default.Interact=話しかける：
+//TODO Translate [Reference] 'Memorise'
+controlHint.verb.default.Memorise=覚える
+//TODO Translate [Reference] 'Replace'
+controlHint.verb.default.reDock=
 //[Reference] 'Rotate'
 controlHint.verb.default.Rotate=回転させる：
 //[Reference] 'Throw'
@@ -144,6 +148,8 @@ crafting.action.task.oneItem={0-keyword} {1-item}
 crafting.notifications.failedCraft=レシピと違います！
 //[Reference] 'You can't make anything with these items...'
 crafting.notifications.notACraft=これらのアイテムでは何も作れません…
+//TODO Translate [Reference] 'You don't have enough reagents anymore.'
+crafting.notifications.NotEnough=もう材料が足りません。
 
 //[Reference] 'You completed the recipe for {0-item}!'
 crafting.recipeComplete={0-item}のレシピが完成しました！
@@ -623,6 +629,24 @@ staxel.accessories.fullBodyOutfits.villager.Rosemary.name=
 staxel.accessories.fullBodyOutfits.villager.Rowan.description=
 //TODO Translate [Reference] 'Rowan'
 staxel.accessories.fullBodyOutfits.villager.Rowan.name=
+staxel.accessories.helmets.mecha.Mecha_Classic.description=
+//TODO Translate [Reference] 'Mecha_Classic'
+staxel.accessories.helmets.mecha.Mecha_Classic.name=
+staxel.accessories.helmets.mecha.Mecha_EG4D.description=
+//TODO Translate [Reference] 'Mecha_EG4D'
+staxel.accessories.helmets.mecha.Mecha_EG4D.name=
+staxel.accessories.helmets.mecha.Mecha_L0V3.description=
+//TODO Translate [Reference] 'Mecha_L0V3'
+staxel.accessories.helmets.mecha.Mecha_L0V3.name=
+staxel.accessories.helmets.mecha.Mecha_P.description=
+//TODO Translate [Reference] 'Mecha_P'
+staxel.accessories.helmets.mecha.Mecha_P.name=
+staxel.accessories.helmets.mecha.Mecha_Red.description=
+//TODO Translate [Reference] 'Mecha_Red'
+staxel.accessories.helmets.mecha.Mecha_Red.name=
+staxel.accessories.helmets.mecha.Mecha_XYellow.description=
+//TODO Translate [Reference] 'Mecha_XYellow'
+staxel.accessories.helmets.mecha.Mecha_XYellow.name=
 
 //[Reference] 'None'
 staxel.accessory.none=なし
@@ -1380,18 +1404,38 @@ staxel.notifications.weatherAlreadyWatered=雨の日に作物に水やりする�
 staxel.notifications.weatherSnowyAlreadyWatered=雪の日に作物に水やりする必要はありません！
 //[Reference] 'This isn't the right tool'
 staxel.notifications.WrongTool=適切な道具ではありません
+//TODO Translate [Reference] 'break'
+staxel.notifications.WrongTool.Verb.Break=壊す
+//TODO Translate [Reference] 'catch'
+staxel.notifications.WrongTool.Verb.Catch=捕まえる
+//TODO Translate [Reference] 'chop'
+staxel.notifications.WrongTool.Verb.Chop=切る
+//TODO Translate [Reference] 'cut'
+staxel.notifications.WrongTool.Verb.Cut=伐採する
+//TODO Translate [Reference] 'dig'
+staxel.notifications.WrongTool.Verb.Dig=掘る
+//TODO Translate [Reference] 'harvest'
+staxel.notifications.WrongTool.Verb.Harvest=収穫する
+//TODO Translate [Reference] 'take'
+staxel.notifications.WrongTool.Verb.Pickup=拾う
+//TODO Translate [Reference] 'pull'
+staxel.notifications.WrongTool.Verb.Pull=引っぱる
+//TODO Translate [Reference] 'sweep'
+staxel.notifications.WrongTool.Verb.Sweep=掃除する
+//TODO Translate [Reference] 'till'
+staxel.notifications.WrongTool.Verb.Till=耕す
 //TODO Translate [Reference] 'your hands'
-staxel.notifications.WrongTool.YourHands=
-//TODO Translate [Reference] 'You need: {0} to break this.'
-staxel.notifications.WrongToolUniversal.1=
-//TODO Translate [Reference] 'You need: {0} or {1} to break this.'
-staxel.notifications.WrongToolUniversal.2=
-//TODO Translate [Reference] 'You need: {0}, {1}, or {2} to break this.'
-staxel.notifications.WrongToolUniversal.3=
-//TODO Translate [Reference] 'You need: {0}, {1}, {2}, or {3} to break this.'
-staxel.notifications.WrongToolUniversal.4=
-//TODO Translate [Reference] 'You need: {0}, {1}, {2}, {3}, or {4} to break this.'
-staxel.notifications.WrongToolUniversal.5=
+staxel.notifications.WrongTool.YourHands=手
+//TODO Translate [Reference] 'You need: {0} to {1} this.'
+staxel.notifications.WrongToolUniversal.1={1}ために{0}が必要。
+//TODO Translate [Reference] 'You need: {0} or {1} to {2}/{3} this.'
+staxel.notifications.WrongToolUniversal.2={2}/{3}ために{0}または{1}が必要。
+//TODO Translate [Reference] 'You need: {0}, {1}, or {2} to {3}/{4}/{5} this.'
+staxel.notifications.WrongToolUniversal.3={3}/{4}/{5}ために{0}または{1}または{2}が必要。
+//TODO Translate [Reference] 'You need: {0}, {1}, {2}, or {3} to {4}/{5}/{6}/{7} this.'
+staxel.notifications.WrongToolUniversal.4={4}/{5}/{6}/{7}ために{0}または{1}または{2}または{3}が必要。
+//TODO Translate [Reference] 'You need: {0}, {1}, {2}, {3}, or {4} to {5}/{6}/{7}/{8}/{9} this.'
+staxel.notifications.WrongToolUniversal.5={5}/{6}/{7}/{8}/{9}ために{0}または{1}または{2}または{3}または{4}が必要。
 
 //[Reference] 'Chicken'
 staxel.personality.Chicken=ニワトリ

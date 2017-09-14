@@ -48,6 +48,10 @@ controlHint.verb.default.Eat=
 controlHint.verb.default.Harvest=
 //TODO Translate [Reference] 'Interact'
 controlHint.verb.default.Interact=
+//TODO Translate [Reference] 'Memorise'
+controlHint.verb.default.Memorise=
+//TODO Translate [Reference] 'Replace'
+controlHint.verb.default.reDock=
 //TODO Translate [Reference] 'Rotate'
 controlHint.verb.default.Rotate=
 //TODO Translate [Reference] 'Throw'
@@ -141,6 +145,8 @@ crafting.action.task.oneItem=
 crafting.notifications.failedCraft=¡Ups, eso no era una receta!
 //TODO Translate [Reference] 'You can't make anything with these items...'
 crafting.notifications.notACraft=
+//TODO Translate [Reference] 'You don't have enough reagents anymore.'
+crafting.notifications.NotEnough=
 
 //[Reference] 'You completed the recipe for {0-item}!'
 crafting.recipeComplete=¡Has terminado la receta de {0-item}!
@@ -610,6 +616,24 @@ staxel.accessories.fullBodyOutfits.villager.Rosemary.name=
 staxel.accessories.fullBodyOutfits.villager.Rowan.description=
 //TODO Translate [Reference] 'Rowan'
 staxel.accessories.fullBodyOutfits.villager.Rowan.name=
+staxel.accessories.helmets.mecha.Mecha_Classic.description=
+//TODO Translate [Reference] 'Mecha_Classic'
+staxel.accessories.helmets.mecha.Mecha_Classic.name=
+staxel.accessories.helmets.mecha.Mecha_EG4D.description=
+//TODO Translate [Reference] 'Mecha_EG4D'
+staxel.accessories.helmets.mecha.Mecha_EG4D.name=
+staxel.accessories.helmets.mecha.Mecha_L0V3.description=
+//TODO Translate [Reference] 'Mecha_L0V3'
+staxel.accessories.helmets.mecha.Mecha_L0V3.name=
+staxel.accessories.helmets.mecha.Mecha_P.description=
+//TODO Translate [Reference] 'Mecha_P'
+staxel.accessories.helmets.mecha.Mecha_P.name=
+staxel.accessories.helmets.mecha.Mecha_Red.description=
+//TODO Translate [Reference] 'Mecha_Red'
+staxel.accessories.helmets.mecha.Mecha_Red.name=
+staxel.accessories.helmets.mecha.Mecha_XYellow.description=
+//TODO Translate [Reference] 'Mecha_XYellow'
+staxel.accessories.helmets.mecha.Mecha_XYellow.name=
 //[Reference] 'None'
 staxel.accessory.none=Ninguno
 //TODO Translate [Reference] 'Get your first pet!'
@@ -1356,17 +1380,37 @@ staxel.notifications.weatherAlreadyWatered=
 staxel.notifications.weatherSnowyAlreadyWatered=
 //TODO Translate [Reference] 'This isn't the right tool'
 staxel.notifications.WrongTool=
+//TODO Translate [Reference] 'break'
+staxel.notifications.WrongTool.Verb.Break=
+//TODO Translate [Reference] 'catch'
+staxel.notifications.WrongTool.Verb.Catch=
+//TODO Translate [Reference] 'chop'
+staxel.notifications.WrongTool.Verb.Chop=
+//TODO Translate [Reference] 'cut'
+staxel.notifications.WrongTool.Verb.Cut=
+//TODO Translate [Reference] 'dig'
+staxel.notifications.WrongTool.Verb.Dig=
+//TODO Translate [Reference] 'harvest'
+staxel.notifications.WrongTool.Verb.Harvest=
+//TODO Translate [Reference] 'take'
+staxel.notifications.WrongTool.Verb.Pickup=
+//TODO Translate [Reference] 'pull'
+staxel.notifications.WrongTool.Verb.Pull=
+//TODO Translate [Reference] 'sweep'
+staxel.notifications.WrongTool.Verb.Sweep=
+//TODO Translate [Reference] 'till'
+staxel.notifications.WrongTool.Verb.Till=
 //TODO Translate [Reference] 'your hands'
 staxel.notifications.WrongTool.YourHands=
-//TODO Translate [Reference] 'You need: {0} to break this.'
+//TODO Translate [Reference] 'You need: {0} to {1} this.'
 staxel.notifications.WrongToolUniversal.1=
-//TODO Translate [Reference] 'You need: {0} or {1} to break this.'
+//TODO Translate [Reference] 'You need: {0} or {1} to {2}/{3} this.'
 staxel.notifications.WrongToolUniversal.2=
-//TODO Translate [Reference] 'You need: {0}, {1}, or {2} to break this.'
+//TODO Translate [Reference] 'You need: {0}, {1}, or {2} to {3}/{4}/{5} this.'
 staxel.notifications.WrongToolUniversal.3=
-//TODO Translate [Reference] 'You need: {0}, {1}, {2}, or {3} to break this.'
+//TODO Translate [Reference] 'You need: {0}, {1}, {2}, or {3} to {4}/{5}/{6}/{7} this.'
 staxel.notifications.WrongToolUniversal.4=
-//TODO Translate [Reference] 'You need: {0}, {1}, {2}, {3}, or {4} to break this.'
+//TODO Translate [Reference] 'You need: {0}, {1}, {2}, {3}, or {4} to {5}/{6}/{7}/{8}/{9} this.'
 staxel.notifications.WrongToolUniversal.5=
 //[Reference] 'Chicken'
 staxel.personality.Chicken=Pollo
