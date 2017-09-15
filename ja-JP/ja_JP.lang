@@ -52,7 +52,7 @@ controlHint.verb.default.Eat=食べる：
 controlHint.verb.default.Harvest=収穫する：
 //[Reference] 'Interact'
 controlHint.verb.default.Interact=話しかける：
-//[Reference] 'Memorise'
+//TODO Translate [Reference] 'Memorise'
 controlHint.verb.default.Memorise=覚える
 //TODO Translate [Reference] 'Replace'
 controlHint.verb.default.reDock=
@@ -148,7 +148,7 @@ crafting.action.task.oneItem={0-keyword} {1-item}
 crafting.notifications.failedCraft=レシピと違います！
 //[Reference] 'You can't make anything with these items...'
 crafting.notifications.notACraft=これらのアイテムでは何も作れません…
-//[Reference] 'You don't have enough reagents anymore.'
+//TODO Translate [Reference] 'You don't have enough reagents anymore.'
 crafting.notifications.NotEnough=もう材料が足りません。
 
 //[Reference] 'You completed the recipe for {0-item}!'
@@ -159,7 +159,7 @@ credits.13lueWolf.description=Staxelのインターフェイスを担当しま�
 //[Reference] 'He helped out a bunch with the programming of the game.'
 credits.amos.description=ゲームのプログラミングに尽力してくれました。
 //[Reference] 'Back to main menu'
-credits.back=メインメニューに戻る
+credits.back=タイトルに戻る
 //[Reference] 'He is the lead developer, responsible for the coding and general awesomeness behind the game. He streams often so feel free to join him on twitch and ask some questions! Yep, he used to work on Starbound.'
 credits.bartwe.description=リードデベロッパーであり、コーディングやゲームのバックグラウンド全般の責任者です。ストリーミングをよく行っているので、気軽に参加して質問してください！そう、彼は以前Starboundで働いていました。
 //[Reference] 'She was always on hand to help out with additional coding and bug fixes.'
@@ -212,18 +212,18 @@ escapeMenu.mainMenu=タイトルに戻る
 //[Reference] 'Options'
 escapeMenu.options=設定
 //[Reference] 'Teleport Home'
-escapeMenu.returnHome=ホーム画面に移動
+escapeMenu.returnHome=ホームに移動
 
 //[Reference] 'It got away!'
 fishing.gotAway=逃げられた！
 //[Reference] 'Something is on the hook!'
 fishing.hooked=針に何かかかった！
 //[Reference] 'GOT IT!'
-fishing.success1=捕まえた！
+fishing.success1=GOT IT!
 //[Reference] 'SUCCESS!'
-fishing.success2=成功！
+fishing.success2=SUCCESS!
 //[Reference] 'YES!'
-fishing.success3=やった！
+fishing.success3=YES!
 
 //[Reference] 'Press {0-gameLogicalButton} to leave bed'
 hintText.bed=ベッドから起き上がるには{0-gameLogicalButton}を押してください
@@ -241,8 +241,8 @@ hintText.checkPlantGrowth.fruited=収穫できます
 hintText.checkPlantGrowth.growing=順調に育っています
 //[Reference] 'It's sleeping for now. It doesn't grow in this season.'
 hintText.checkPlantGrowth.outOfSeason=休眠中です。この季節には育ちません。
-//[Reference] 'It's sleeping for now. It doesn't grow during {0-season}'
-hintText.checkPlantGrowth.season=休眠中です。{0-season}の間は育ちません。
+//TODO Translate [Reference] 'It's sleeping for now. It doesn't grow during {0-season}'
+hintText.checkPlantGrowth.season=この作物は今は眠っています。{0-season}の間は育ちません
 //[Reference] 'The seeds are growing'
 hintText.checkPlantGrowth.seed=種は成長しています
 //[Validate] Delete this comment if or when the translation is accurate.
@@ -535,9 +535,9 @@ serverBrowser.unreachable=マスターサーバーに到達できません
 //[Reference] 'Cancel all'
 shippingCatalogue.cancelAll=すべてキャンセル
 //[Reference] 'Expedite'
-shippingCatalogue.expedite=特急便
+shippingCatalogue.expedite=今すぐ購入
 //[Reference] 'Order now'
-shippingCatalogue.order=今すぐ注文
+shippingCatalogue.order=注文する
 //[Reference] 'You have been refunded {0-amount} petals'
 shippingCatalogue.refund={0-amount}ペタルが返金されました
 //[Reference] 'Check and cancel pending orders here'
@@ -1344,9 +1344,9 @@ staxel.nightTransition.Line8=ヒント：収穫できる作物には緑の外枠
 //[Reference] 'Tip: Play fetch with your pets by holding a ball, interacting with your pets, and then dropping the ball'
 staxel.nightTransition.Line9=ヒント：ペットとボール遊びをするには、ボールを持ち、ペットに話しかけたあとに、ボールを投げましょう。
 //[Reference] 'Press {0-key} to continue...'
-staxel.nightTransition.PressToContinue=続けるには{0-key}を押してください…
-//[Reference] 'You can't break this tile.'
-staxel.notifications.CantBreak=このタイルは壊せません。
+staxel.nightTransition.PressToContinue={0-key}を押してください...
+//TODO Translate [Reference] 'You can't break this tile.'
+staxel.notifications.CantBreak=このタイルを壊すことはできません。
 //[Reference] '{0} is in bad health'
 staxel.notifications.farmAnimal.BadHealth={0}は病気です
 //[Reference] '{0} is busy'
@@ -1404,25 +1404,25 @@ staxel.notifications.weatherAlreadyWatered=雨の日に作物に水やりする�
 staxel.notifications.weatherSnowyAlreadyWatered=雪の日に作物に水やりする必要はありません！
 //[Reference] 'This isn't the right tool'
 staxel.notifications.WrongTool=適切な道具ではありません
-//[Reference] 'break'
+//TODO Translate [Reference] 'break'
 staxel.notifications.WrongTool.Verb.Break=壊す
-//[Reference] 'catch'
+//TODO Translate [Reference] 'catch'
 staxel.notifications.WrongTool.Verb.Catch=捕まえる
-//[Reference] 'chop'
+//TODO Translate [Reference] 'chop'
 staxel.notifications.WrongTool.Verb.Chop=切る
-//[Reference] 'cut'
+//TODO Translate [Reference] 'cut'
 staxel.notifications.WrongTool.Verb.Cut=伐採する
-//[Reference] 'dig'
+//TODO Translate [Reference] 'dig'
 staxel.notifications.WrongTool.Verb.Dig=掘る
-//[Reference] 'harvest'
+//TODO Translate [Reference] 'harvest'
 staxel.notifications.WrongTool.Verb.Harvest=収穫する
-//[Reference] 'take'
+//TODO Translate [Reference] 'take'
 staxel.notifications.WrongTool.Verb.Pickup=拾う
-//[Reference] 'pull'
+//TODO Translate [Reference] 'pull'
 staxel.notifications.WrongTool.Verb.Pull=引っぱる
-//[Reference] 'sweep'
+//TODO Translate [Reference] 'sweep'
 staxel.notifications.WrongTool.Verb.Sweep=掃除する
-//[Reference] 'till'
+//TODO Translate [Reference] 'till'
 staxel.notifications.WrongTool.Verb.Till=耕す
 //[Reference] 'your hands'
 staxel.notifications.WrongTool.YourHands=自分の手
@@ -1750,8 +1750,8 @@ staxel.tileObject.crafting.TilingStation.description=
 //[Reference] 'Tiling Station'
 staxel.tileObject.crafting.TilingStation.name=タイル張りステーション
 staxel.tileObject.decorations.Dryer.description=
-//[Reference] 'Dryer'
-staxel.tileObject.decorations.Dryer.name=ドライヤー
+//TODO Translate [Reference] 'Dryer'
+staxel.tileObject.decorations.Dryer.name=乾燥機
 staxel.tileObject.decorations.GazeboDiagonal.description=
 //[Reference] 'GazeboDiagonal'
 staxel.tileObject.decorations.GazeboDiagonal.name=ガゼボ（斜材）
@@ -1930,8 +1930,8 @@ staxel.tileObject.roofing.red.Red_Straight_Upsidedown.description=
 //[Reference] 'Red_Straight_Upsidedown'
 staxel.tileObject.roofing.red.Red_Straight_Upsidedown.name=Red_Straight_Upsidedown
 staxel.tileObject.serverVillage.ClockTowerFace.description=
-//[Reference] 'ClockTowerFace'
-staxel.tileObject.serverVillage.ClockTowerFace.name=時計塔の文字盤
+//TODO Translate [Reference] 'ClockTowerFace'
+staxel.tileObject.serverVillage.ClockTowerFace.name=時計台の時計
 //[Reference] 'A processing station for combining ingredients.'
 staxel.tileObject.serverVillage.CombiningStation.description=材料を合わせるための場所。
 //[Reference] 'Combining Station'
@@ -1953,16 +1953,16 @@ staxel.tileObject.shop.ShopCounterNormal.description=
 staxel.tileObject.shop.ShopCounterNormal.name=店のカウンター（普通）
 staxel.tileObject.shop.ShopWindow.description=
 //[Reference] 'Shop Window'
-staxel.tileObject.shop.ShopWindow.name=店の窓
+staxel.tileObject.shop.ShopWindow.name=ショーウインドー
 staxel.tileObject.shop.ShopWindow2.description=
-//[Reference] 'ShopWindow2'
-staxel.tileObject.shop.ShopWindow2.name=店の窓2
+//TODO Translate [Reference] 'ShopWindow2'
+staxel.tileObject.shop.ShopWindow2.name=ショーウインドー
 staxel.tileObject.shop.ShopWindow3.description=
-//[Reference] 'ShopWindow3'
-staxel.tileObject.shop.ShopWindow3.name=店の窓3
+//TODO Translate [Reference] 'ShopWindow3'
+staxel.tileObject.shop.ShopWindow3.name=ショーウインドー
 staxel.tileObject.shop.ShopWindow4.description=
-//[Reference] 'ShopWindow4'
-staxel.tileObject.shop.ShopWindow4.name=店の窓4
+//TODO Translate [Reference] 'ShopWindow4'
+staxel.tileObject.shop.ShopWindow4.name=ショーウインドー
 staxel.tileObject.totems.AlizaMailbox.description=
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Aliza's Postbox'
@@ -1974,7 +1974,7 @@ staxel.tileObject.totems.RiahMailbox.name=リアの郵便ポスト
 staxel.tileObject.totems.workplace.BuildingStoreSign.description=
 
 //[Reference] 'BuildingStoreSign'
-staxel.tileObject.totems.workplace.BuildingStoreSign.name=店舗の看板
+staxel.tileObject.totems.workplace.BuildingStoreSign.name=DIYショップの看板
 staxel.tileObject.totems.workplace.FishingSpotSign.description=
 //[Reference] 'Fishing Spot Sign'
 staxel.tileObject.totems.workplace.FishingSpotSign.name=釣り場の看板
@@ -2018,11 +2018,11 @@ staxel.totem.RosemaryHome=ローズマリーの家
 //[Reference] 'Test'
 staxel.totem.Test.name=テスト
 //[Reference] 'BuildingStore'
-staxel.totem.workplace.BuildingStore=店舗
+staxel.totem.workplace.BuildingStore=DIYショップ
 //[Reference] 'Fishing Spot'
 staxel.totem.workplace.FishingSpot=釣り場
 //[Reference] 'Grocery Store'
-staxel.totem.workplace.GroceryStore=雑貨店
+staxel.totem.workplace.GroceryStore=スーパーマーケット
 //[Reference] 'Patisserie'
 staxel.totem.workplace.Patisserie=パティスリー
 //[Reference] 'Tavern'
@@ -2032,11 +2032,11 @@ staxel.totem.workplace.TownHall=役所
 //[Reference] 'Base Requirements'
 staxel.totemInfo.baseRequirements=基本要件
 //[Reference] 'Tier {0-level}'
-staxel.totemInfo.tier={0-level}段目
+staxel.totemInfo.tier=ティア{0-level}
 //[Reference] 'Tier {0-level} Requirements'
-staxel.totemInfo.tierRequirements={0-level}段目の要件
+staxel.totemInfo.tierRequirements=ティア{0-level}の要件
 //[Reference] 'Toggle Region Display'
-staxel.totems.toggleboundary=表示領域の切り替え
+staxel.totems.toggleboundary=領域表示の切り替え
 //[Reference] 'This tree grows juicy, crunchy apples. Fruits in Autumn.'
 staxel.tree.AppleTree.description=この木には果汁たっぷりで歯ごたえの良いリンゴが実る。秋に収穫できる。
 //[Reference] 'Apple TreeSeed'
