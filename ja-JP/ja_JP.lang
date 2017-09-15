@@ -212,18 +212,18 @@ escapeMenu.mainMenu=タイトルに戻る
 //[Reference] 'Options'
 escapeMenu.options=設定
 //[Reference] 'Teleport Home'
-escapeMenu.returnHome=ホーム画面に移動
+escapeMenu.returnHome=ホームに移動
 
 //[Reference] 'It got away!'
 fishing.gotAway=逃げられた！
 //[Reference] 'Something is on the hook!'
 fishing.hooked=針に何かかかった！
 //[Reference] 'GOT IT!'
-fishing.success1=捕まえた！
+fishing.success1=GOT IT!
 //[Reference] 'SUCCESS!'
-fishing.success2=成功！
+fishing.success2=SUCCESS!
 //[Reference] 'YES!'
-fishing.success3=やった！
+fishing.success3=YES!
 
 //[Reference] 'Press {0-gameLogicalButton} to leave bed'
 hintText.bed=ベッドから起き上がるには{0-gameLogicalButton}を押してください
@@ -242,7 +242,7 @@ hintText.checkPlantGrowth.growing=順調に育っています
 //TODO Translate [Reference] 'It's sleeping for now. It doesn't grow in this season.'
 hintText.checkPlantGrowth.outOfSeason=
 //TODO Translate [Reference] 'It's sleeping for now. It doesn't grow during {0-season}'
-hintText.checkPlantGrowth.season=
+hintText.checkPlantGrowth.season=この作物は今は眠っています。{0-season}の間は育ちません
 //[Reference] 'The seeds are growing'
 hintText.checkPlantGrowth.seed=種は成長しています
 //[Validate] Delete this comment if or when the translation is accurate.
@@ -535,9 +535,9 @@ serverBrowser.unreachable=マスターサーバーに到達できません
 //[Reference] 'Cancel all'
 shippingCatalogue.cancelAll=すべてキャンセル
 //[Reference] 'Expedite'
-shippingCatalogue.expedite=特急便
+shippingCatalogue.expedite=今すぐ購入
 //[Reference] 'Order now'
-shippingCatalogue.order=今すぐ注文
+shippingCatalogue.order=注文する
 //[Reference] 'You have been refunded {0-amount} petals'
 shippingCatalogue.refund={0-amount}ペタルが返金されました
 //[Reference] 'Check and cancel pending orders here'
@@ -1344,7 +1344,7 @@ staxel.nightTransition.Line8=ヒント：収穫できる作物には緑の外枠
 //[Reference] 'Tip: Play fetch with your pets by holding a ball, interacting with your pets, and then dropping the ball'
 staxel.nightTransition.Line9=ヒント：ペットとボール遊びをするには、ボールを持ち、ペットに話しかけたあとに、ボールを投げましょう。
 //TODO Translate [Reference] 'Press {0-key} to continue...'
-staxel.nightTransition.PressToContinue=
+staxel.nightTransition.PressToContinue={0-key}を押してください...
 //TODO Translate [Reference] 'You can't break this tile.'
 staxel.notifications.CantBreak=このタイルを壊すことはできません。
 //[Reference] '{0} is in bad health'
@@ -1751,7 +1751,7 @@ staxel.tileObject.crafting.TilingStation.description=
 staxel.tileObject.crafting.TilingStation.name=タイル張りステーション
 staxel.tileObject.decorations.Dryer.description=
 //TODO Translate [Reference] 'Dryer'
-staxel.tileObject.decorations.Dryer.name=
+staxel.tileObject.decorations.Dryer.name=乾燥機
 staxel.tileObject.decorations.GazeboDiagonal.description=
 //[Reference] 'GazeboDiagonal'
 staxel.tileObject.decorations.GazeboDiagonal.name=ガゼボ（斜材）
@@ -1775,7 +1775,7 @@ staxel.tileObject.decorations.JapaneseArch.description=
 staxel.tileObject.decorations.JapaneseArch.name=鳥居
 staxel.tileObject.decorations.WashingMachine.description=
 //TODO Translate [Reference] 'WashingMachine'
-staxel.tileObject.decorations.WashingMachine.name=
+staxel.tileObject.decorations.WashingMachine.name=洗濯機
 staxel.tileObject.fishing.BaitBox.description=
 //TODO Translate [Reference] 'Baitbox'
 staxel.tileObject.fishing.BaitBox.name=
@@ -1932,7 +1932,7 @@ staxel.tileObject.roofing.red.Red_Straight_Upsidedown.description=
 staxel.tileObject.roofing.red.Red_Straight_Upsidedown.name=Red_Straight_Upsidedown
 staxel.tileObject.serverVillage.ClockTowerFace.description=
 //TODO Translate [Reference] 'ClockTowerFace'
-staxel.tileObject.serverVillage.ClockTowerFace.name=
+staxel.tileObject.serverVillage.ClockTowerFace.name=時計台の時計
 //[Reference] 'A processing station for combining ingredients.'
 staxel.tileObject.serverVillage.CombiningStation.description=材料を合わせるための場所。
 //[Reference] 'Combining Station'
@@ -1954,16 +1954,16 @@ staxel.tileObject.shop.ShopCounterNormal.description=
 staxel.tileObject.shop.ShopCounterNormal.name=
 staxel.tileObject.shop.ShopWindow.description=
 //[Reference] 'Shop Window'
-staxel.tileObject.shop.ShopWindow.name=店の窓
+staxel.tileObject.shop.ShopWindow.name=ショーウインドー
 staxel.tileObject.shop.ShopWindow2.description=
 //TODO Translate [Reference] 'ShopWindow2'
-staxel.tileObject.shop.ShopWindow2.name=
+staxel.tileObject.shop.ShopWindow2.name=ショーウインドー
 staxel.tileObject.shop.ShopWindow3.description=
 //TODO Translate [Reference] 'ShopWindow3'
-staxel.tileObject.shop.ShopWindow3.name=
+staxel.tileObject.shop.ShopWindow3.name=ショーウインドー
 staxel.tileObject.shop.ShopWindow4.description=
 //TODO Translate [Reference] 'ShopWindow4'
-staxel.tileObject.shop.ShopWindow4.name=
+staxel.tileObject.shop.ShopWindow4.name=ショーウインドー
 staxel.tileObject.totems.AlizaMailbox.description=
 //TODO Translate [Reference] 'Aliza's Postbox'
 staxel.tileObject.totems.AlizaMailbox.name=
@@ -1974,7 +1974,7 @@ staxel.tileObject.totems.RiahMailbox.name=リアの郵便ポスト
 staxel.tileObject.totems.workplace.BuildingStoreSign.description=
 
 //[Reference] 'BuildingStoreSign'
-staxel.tileObject.totems.workplace.BuildingStoreSign.name=店舗の看板
+staxel.tileObject.totems.workplace.BuildingStoreSign.name=DIYショップの看板
 staxel.tileObject.totems.workplace.FishingSpotSign.description=
 //[Reference] 'Fishing Spot Sign'
 staxel.tileObject.totems.workplace.FishingSpotSign.name=釣り場の看板
@@ -2018,11 +2018,11 @@ staxel.totem.RosemaryHome=ローズマリーの家
 //[Reference] 'Test'
 staxel.totem.Test.name=テスト
 //[Reference] 'BuildingStore'
-staxel.totem.workplace.BuildingStore=店舗
+staxel.totem.workplace.BuildingStore=DIYショップ
 //[Reference] 'Fishing Spot'
 staxel.totem.workplace.FishingSpot=釣り場
 //[Reference] 'Grocery Store'
-staxel.totem.workplace.GroceryStore=雑貨店
+staxel.totem.workplace.GroceryStore=スーパーマーケット
 //[Reference] 'Patisserie'
 staxel.totem.workplace.Patisserie=パティスリー
 //[Reference] 'Tavern'
@@ -2032,11 +2032,11 @@ staxel.totem.workplace.TownHall=役所
 //[Reference] 'Base Requirements'
 staxel.totemInfo.baseRequirements=基本要件
 //[Reference] 'Tier {0-level}'
-staxel.totemInfo.tier={0-level}段目
+staxel.totemInfo.tier=ティア{0-level}
 //[Reference] 'Tier {0-level} Requirements'
-staxel.totemInfo.tierRequirements={0-level}段目の要件
+staxel.totemInfo.tierRequirements=ティア{0-level}の要件
 //[Reference] 'Toggle Region Display'
-staxel.totems.toggleboundary=表示領域の切り替え
+staxel.totems.toggleboundary=領域表示の切り替え
 //[Reference] 'This tree grows juicy, crunchy apples. Fruits in Autumn.'
 staxel.tree.AppleTree.description=この木には果汁たっぷりで歯ごたえの良いリンゴが実る。
 //[Reference] 'Apple TreeSeed'
