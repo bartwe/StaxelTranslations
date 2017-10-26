@@ -280,9 +280,11 @@ commands.tileAt.description=^c:F2E200;tileAt ^c:FFFFFF;(optional)location({0,0,0
 commands.tileAt.failParse=Position konnte nicht erfasst werden {0-position}
 //[Reference] 'Tile not found'
 commands.tileAt.notFound=Fliese nicht gefunden
-//[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: false)'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: false, rotation: {2-rotation}, alt: {3-alt})'
 commands.tileAt.success.false=Fliesencode: {0-tilecode} bei {1-position} (compoundFiller: false)
-//[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true)'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt})'
 commands.tileAt.success.true=Fliesencode: {0-tilecode} bei {1-position} (compoundFiller: true)
 commands.traceStart.description=
 //[Reference] 'Started tracing.'

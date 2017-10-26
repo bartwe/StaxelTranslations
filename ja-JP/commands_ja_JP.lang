@@ -279,9 +279,11 @@ commands.tileAt.description=^c:F2E200;tileAt ^c:FFFFFF;(optional)location({0,0,0
 commands.tileAt.failParse=ポジション{0-position}の解析に失敗しました
 //[Reference] 'Tile not found'
 commands.tileAt.notFound=タイルが見つかりませんでした
-//[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: false)'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: false, rotation: {2-rotation}, alt: {3-alt})'
 commands.tileAt.success.false=Tile code: {0-tilecode} at {1-position} (compoundFiller: false)
-//[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true)'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt})'
 commands.tileAt.success.true=Tile code: {0-tilecode} at {1-position} (compoundFiller: true)
 commands.traceStart.description=
 //[Reference] 'Started tracing.'
