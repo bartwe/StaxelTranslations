@@ -1,7 +1,7 @@
 language.code=ja-JP
 language=日本語
+language.validated=true
 font=staxel/fonts/Mamelon.otf
-.name=
 
 //[Reference] 'Achievement unlocked: {0-achievement}!'
 achievements.achievementUnlocked=アチーブメントがアンロックされました：{0-achievement}！
@@ -21,6 +21,12 @@ catalogue.performSale=売る
 catalogue.sell=売る：
 //[Reference] 'Total'
 catalogue.total=合計
+//TODO Translate [Reference] 'Stop/resume time'
+commands.stopTime.description=
+//TODO Translate [Reference] 'Time resumed'
+commands.stopTime.resume=
+//TODO Translate [Reference] 'Time stopped'
+commands.stopTime.stop=
 //[Reference] 'success'
 commands.tripod.success=成功
 
@@ -40,6 +46,8 @@ controlHint.verb.Check=確認する：
 controlHint.verb.Chop=切る：
 //[Reference] 'Command'
 controlHint.verb.Command=命令する：
+//TODO Translate [Reference] 'Craft'
+controlHint.verb.Craft=
 //[Reference] 'Cancel'
 controlHint.verb.default.Cancel=キャンセルする：
 //TODO Translate [Reference] 'Charge'
@@ -92,6 +100,8 @@ controlHint.verb.Reset=リセットする：
 controlHint.verb.Resize=
 //[Reference] 'Sell'
 controlHint.verb.Sell=売る：
+//TODO Translate [Reference] 'Sell Back'
+controlHint.verb.SellBack=
 //[Reference] 'Shear'
 controlHint.verb.Shear=刈り込む：
 //[Reference] 'Sit'
@@ -215,12 +225,18 @@ error.sorry=申し訳ございません。
 
 //[Reference] 'Back to Game'
 escapeMenu.back=ゲームに戻る
+//TODO Translate [Reference] 'Cancel'
+escapemenu.cancel=
 //[Reference] 'Character Designer'
 escapeMenu.characterDesigner=キャラクター作成
+//TODO Translate [Reference] 'Are you sure you want to exit to desktop?'
+escapemenu.confirmExit=
 //[Reference] 'Control Hints'
 escapeMenu.controlHints=操作のヒント
 //[Reference] 'Exit to Desktop'
 escapeMenu.desktopExit=終了
+//TODO Translate [Reference] 'Exit'
+escapemenu.exit=
 //[Reference] 'Go to Main Menu'
 escapeMenu.mainMenu=タイトルに戻る
 //[Reference] 'Options'
@@ -415,6 +431,8 @@ options.gameplay.other.StepWiseUIScale=UIを引き伸ばさない
 options.gameplay.other.StopNPCStaring=NPCがこちらを向かないようにする
 //TODO Translate [Reference] 'UI'
 options.gameplay.ui=
+//TODO Translate [Reference] 'Resolution:'
+options.gameplay.ui.FullScreenResolution=
 //TODO Translate [Reference] 'UI Scale:'
 options.gameplay.ui.ManualUIScale=
 //[Reference] 'General'
@@ -474,6 +492,8 @@ options.general.graphics.showGridCursor=グリッドカーソルを表示する
 options.general.graphics.superLow=超低
 //[Reference] 'Super Sampling'
 options.general.graphics.superSampling=スーパーサンプリング
+//TODO Translate [Reference] 'Third Person'
+options.general.graphics.thirdPerson=
 //[Reference] 'Ultra'
 options.general.graphics.ultra=ウルトラ
 //[Reference] 'Prevent Indoor Weather'
@@ -766,12 +786,16 @@ staxel.category.batter=
 staxel.category.boil=煮る：
 //[Reference] 'boiled'
 staxel.category.boiled=茹でたもの
+//TODO Translate [Reference] 'butterfly'
+staxel.category.butterfly=
 //[Reference] 'carpentry'
 staxel.category.carpentry=大工
 //[Reference] 'carve'
 staxel.category.carve=彫る
 //[Reference] 'carving'
 staxel.category.carving=彫刻
+//TODO Translate [Reference] 'cicada'
+staxel.category.cicada=
 //[Reference] 'Cloth'
 staxel.category.cloth=服
 //[Reference] 'combine'
@@ -832,6 +856,8 @@ staxel.category.nail=クギ
 staxel.category.octopus=
 //[Reference] 'order'
 staxel.category.order=注文
+//TODO Translate [Reference] 'palm'
+staxel.category.palm=
 //[Reference] 'poop'
 staxel.category.poop=フン
 //[Reference] 'rack'
@@ -870,6 +896,8 @@ staxel.category.varnish=ニス
 staxel.category.washer=洗濯機
 //[Reference] 'washing'
 staxel.category.washing=ウォッシング
+//TODO Translate [Reference] '???'
+staxel.collections.unknown=
 
 staxel.core.Compound.description=
 //[Reference] 'Compound'
@@ -880,6 +908,10 @@ staxel.crafting.recipes.BaitBox.name=釣りエサ入れ
 staxel.crafting.recipes.Barrel.description=
 //[Reference] 'Barrel'
 staxel.crafting.recipes.Barrel.name=タル
+//TODO Translate [Reference] 'Teaches you to build a working door'
+staxel.crafting.recipes.BasicDoor.description=
+//TODO Translate [Reference] 'Basic Door Recipe'
+staxel.crafting.recipes.BasicDoor.name=
 staxel.crafting.recipes.BasicWoodenFence.description=
 //[Reference] 'BasicWoodenFence'
 staxel.crafting.recipes.BasicWoodenFence.name=普通の木製フェンス
@@ -898,8 +930,10 @@ staxel.crafting.recipes.CobbleStonePath.name=丸石の道
 staxel.crafting.recipes.CreamStoneWall.description=
 //[Reference] 'CreamStoneWall'
 staxel.crafting.recipes.CreamStoneWall.name=クリーム色の石壁
+//TODO Translate [Reference] 'Just the frame of a door. You can craft this into a working door.'
 staxel.crafting.recipes.DoorFrame.description=
-//[Reference] 'DoorFrame'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Door Frame'
 staxel.crafting.recipes.DoorFrame.name=ドア枠
 staxel.crafting.recipes.EmptyTrough.description=
 //[Reference] 'EmptyTrough'
@@ -1402,6 +1436,9 @@ staxel.item.gatherable.Blowfish.name=フグ
 staxel.item.gatherable.BlueLobster.description=
 //[Reference] 'BlueLobster'
 staxel.item.gatherable.BlueLobster.name=ブルーロブスター
+staxel.item.gatherable.BrownCicada.description=
+//TODO Translate [Reference] 'BrownCicada'
+staxel.item.gatherable.BrownCicada.name=
 staxel.item.gatherable.ButterflyFish.description=
 //[Reference] 'ButterflyFish'
 staxel.item.gatherable.ButterflyFish.name=チョウチョウウオ
@@ -1438,6 +1475,9 @@ staxel.item.gatherable.GoldenKoi.name=
 staxel.item.gatherable.Goldfish.description=
 //[Reference] 'Goldfish'
 staxel.item.gatherable.Goldfish.name=金魚
+staxel.item.gatherable.GreenCicada.description=
+//TODO Translate [Reference] 'GreenCicada'
+staxel.item.gatherable.GreenCicada.name=
 staxel.item.gatherable.Koi.description=
 //TODO Translate [Reference] 'Snowdust Koi'
 staxel.item.gatherable.Koi.name=
@@ -1447,6 +1487,9 @@ staxel.item.gatherable.Ladybug.name=テントウムシ
 staxel.item.gatherable.Lobster.description=
 //[Reference] 'Lobster'
 staxel.item.gatherable.Lobster.name=ロブスター
+staxel.item.gatherable.MonarchButterfly.description=
+//TODO Translate [Reference] 'MonarchButterfly'
+staxel.item.gatherable.MonarchButterfly.name=
 staxel.item.gatherable.NeonTetra.description=
 //[Reference] 'NeonTetra'
 staxel.item.gatherable.NeonTetra.name=ネオンテトラ
@@ -1468,9 +1511,18 @@ staxel.item.gatherable.RibbonEel.name=ハナヒゲウツボ
 staxel.item.gatherable.Salmon.description=
 //[Reference] 'Salmon'
 staxel.item.gatherable.Salmon.name=サケ
+staxel.item.gatherable.Scorpion.description=
+//TODO Translate [Reference] 'Scorpion'
+staxel.item.gatherable.Scorpion.name=
 staxel.item.gatherable.Seahorse.description=
 //[Reference] 'Seahorse'
 staxel.item.gatherable.Seahorse.name=タツノオトシゴ
+staxel.item.gatherable.Shrimp.description=
+//TODO Translate [Reference] 'Shrimp'
+staxel.item.gatherable.Shrimp.name=
+staxel.item.gatherable.Snail.description=
+//TODO Translate [Reference] 'Snail'
+staxel.item.gatherable.Snail.name=
 staxel.item.gatherable.Snowball.description=
 //TODO Translate [Reference] 'Snowball'
 staxel.item.gatherable.Snowball.name=
@@ -1583,6 +1635,10 @@ staxel.nightTransition.PressToContinue={0-key}を押してください...
 staxel.notifications.AlreadyHoed=このタイルはすでに耕されています！
 //[Reference] 'You can't break this tile.'
 staxel.notifications.CantBreak=このタイルを壊すことはできません。
+//TODO Translate [Reference] 'Farm Fan has set aside this day to show you around the farm, you should do that before sleeping!'
+staxel.notifications.cantSleepTutorial=
+//TODO Translate [Reference] 'You need to select a block before replacing!'
+staxel.notifications.DebugTools.SelectBlock=
 //[Reference] '{0} is in bad health'
 staxel.notifications.farmAnimal.BadHealth={0}は病気です
 //[Reference] '{0} is busy'
@@ -2023,12 +2079,10 @@ staxel.tileObject.decorations.JapaneseArch.name=鳥居
 staxel.tileObject.decorations.WashingMachine.description=
 //[Reference] 'WashingMachine'
 staxel.tileObject.decorations.WashingMachine.name=洗濯機
+//TODO Translate [Reference] 'A working door.'
 staxel.tileObject.door.DoorBasic.description=
 //TODO Translate [Reference] 'Basic Door'
 staxel.tileObject.door.DoorBasic.name=
-staxel.tileObject.door.DoorTest.description=
-//TODO Translate [Reference] 'DoorTest'
-staxel.tileObject.door.DoorTest.name=
 staxel.tileObject.festival.feymasquerade.BannerLeft.description=
 //TODO Translate [Reference] 'Fey Masquerade Banner Left'
 staxel.tileObject.festival.feymasquerade.BannerLeft.name=
@@ -2122,24 +2176,39 @@ staxel.tileObject.fishing.SimpleBox.name=質素な箱
 staxel.tileObject.fishing.TackleBox.description=
 //[Reference] 'Tackle Box'
 staxel.tileObject.fishing.TackleBox.name=タックルボックス
+staxel.tileObject.gatherable.BrownCicada.description=
+//TODO Translate [Reference] 'BrownCicada'
+staxel.tileObject.gatherable.BrownCicada.name=
 staxel.tileObject.gatherable.festival.Fairy.description=
 //TODO Translate [Reference] 'Fairy'
 staxel.tileObject.gatherable.festival.Fairy.name=
 staxel.tileObject.gatherable.festival.MalevolentFairy.description=
 //TODO Translate [Reference] 'Mischievous Fairy'
 staxel.tileObject.gatherable.festival.MalevolentFairy.name=
+staxel.tileObject.gatherable.GreenCicada.description=
+//TODO Translate [Reference] 'GreenCicada'
+staxel.tileObject.gatherable.GreenCicada.name=
 staxel.tileObject.gatherable.HermitShell.description=
 //[Reference] 'HermitShell'
 staxel.tileObject.gatherable.HermitShell.name=ヤドカリの貝殻
 staxel.tileObject.gatherable.Ladybug.description=
 //[Reference] 'Ladybug'
 staxel.tileObject.gatherable.Ladybug.name=テントウムシ
+staxel.tileObject.gatherable.MonarchButterfly.description=
+//TODO Translate [Reference] 'MonarchButterfly'
+staxel.tileObject.gatherable.MonarchButterfly.name=
 staxel.tileObject.gatherable.PearlShell.description=
 //[Reference] 'PearlShell'
 staxel.tileObject.gatherable.PearlShell.name=真珠の貝殻
 staxel.tileObject.gatherable.RedCoral.description=
 //[Reference] 'RedCoral'
 staxel.tileObject.gatherable.RedCoral.name=赤サンゴ
+staxel.tileObject.gatherable.Scorpion.description=
+//TODO Translate [Reference] 'Scorpion'
+staxel.tileObject.gatherable.Scorpion.name=
+staxel.tileObject.gatherable.Snail.description=
+//TODO Translate [Reference] 'Snail'
+staxel.tileObject.gatherable.Snail.name=
 staxel.tileObject.gatherable.Starfish.description=
 //[Reference] 'Starfish'
 staxel.tileObject.gatherable.Starfish.name=ヒトデ
@@ -2404,6 +2473,8 @@ staxel.totem.AlizaHome=アリザの家
 staxel.totem.Barn=質素な納屋
 //[Reference] 'Barn'
 staxel.totem.Barn.name=納屋
+//TODO Translate [Reference] 'This building is no longer complete!'
+staxel.totem.BuildingInvalidated=
 //[Reference] 'Cecile's Home'
 staxel.totem.CecileHome=セシルの家
 //[Reference] 'Emilia's Home'
@@ -2432,6 +2503,8 @@ staxel.totem.festival.feymasquerade.FeyRoom208=
 staxel.totem.festival.feymasquerade.FeyThroneRoom=
 //TODO Translate [Reference] 'Snowdust Shrine'
 staxel.totem.festival.SnowdustShrine=
+//TODO Translate [Reference] 'Furnishing requirements complete!'
+staxel.totem.FurnitureComplete=
 //[Reference] 'Jamie's Home'
 staxel.totem.JamieHome=ジェイミーの家
 //[Reference] 'Maximilian's Home'
@@ -2451,6 +2524,10 @@ staxel.totem.roofMissing=（見つかりません）
 staxel.totem.RosemaryHome=ローズマリーの家
 //[Reference] 'Test'
 staxel.totem.Test.name=テスト
+//TODO Translate [Reference] 'Building requirement added!'
+staxel.totem.TileAdded=
+//TODO Translate [Reference] 'Building requirement removed!'
+staxel.totem.TileRemoved=
 //[Reference] 'BuildingStore'
 staxel.totem.workplace.BuildingStore=DIYショップ
 //TODO Translate [Reference] 'Festival Square'

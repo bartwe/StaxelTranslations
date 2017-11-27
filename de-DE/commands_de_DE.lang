@@ -72,6 +72,12 @@ commands.doemote.description=^c:F2E200;doemote ^c:FFFFFF;emoteName (optional)nut
 commands.emote.description=^c:F2E200;emote ^c:FFFFFF;emoteName
 //[Reference] 'No such emote {0-emote}'
 commands.emote.noSuchEmote=Emote nicht gefunden {0-emote}
+//TODO Translate [Reference] '^c:F2E200;enablecheats^c:FFFFFF;'
+commands.enablecheats.description=
+//TODO Translate [Reference] 'Failed to enable cheats.'
+commands.enablecheats.failure=
+//TODO Translate [Reference] 'Cheats have been enabled.'
+commands.enablecheats.success=
 //[Reference] '^c:F2E200;entityInfo ^c:FFFFFF;entityID'
 commands.entityInfo.description=^c:F2E200;entityInfo ^c:FFFFFF;objektID
 //[Reference] 'You need to include an EntityID!'
@@ -156,6 +162,8 @@ commands.op.description=^c:F2E200;op ^c:FFFFFF;Spielername
 commands.op.failure=Konnte {0-player} nicht befördern.
 //[Reference] '{0-player} has been promoted.'
 commands.op.success={0-player} wurde befördert.
+//TODO Translate [Reference] 'Player {0-player} not found.'
+commands.op.userNotFound=
 //[Reference] '^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime'
 commands.pe.description=^c:F2E200;pe ^c:FFFFFF;gesichtsausdruckAlias (optional)Anzeigezeit
 //[Reference] '^c:F2E200;plantgrowth'
