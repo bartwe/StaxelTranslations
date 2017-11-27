@@ -18,6 +18,12 @@ catalogue.performSale=Verkaufen
 catalogue.sell=Verkaufen:
 //[Reference] 'Total'
 catalogue.total=Summe
+//TODO Translate [Reference] 'Stop/resume time'
+commands.stopTime.description=
+//TODO Translate [Reference] 'Time resumed'
+commands.stopTime.resume=
+//TODO Translate [Reference] 'Time stopped'
+commands.stopTime.stop=
 //[Reference] 'success'
 commands.tripod.success=Erfolg
 //[Reference] 'Break'
@@ -36,6 +42,8 @@ controlHint.verb.Check=Untersuchen
 controlHint.verb.Chop=Hacken
 //[Reference] 'Command'
 controlHint.verb.Command=Befehl
+//TODO Translate [Reference] 'Craft'
+controlHint.verb.Craft=
 //[Reference] 'Cancel'
 controlHint.verb.default.Cancel=Abbrechen
 //TODO Translate [Reference] 'Charge'
@@ -88,6 +96,8 @@ controlHint.verb.Reset=Neustart
 controlHint.verb.Resize=
 //[Reference] 'Sell'
 controlHint.verb.Sell=Verkaufen
+//TODO Translate [Reference] 'Sell Back'
+controlHint.verb.SellBack=
 //[Reference] 'Shear'
 controlHint.verb.Shear=Scheren
 //[Reference] 'Sit'
@@ -211,12 +221,18 @@ error.sorry=ENTSCHULDIGUNG!
 
 //[Reference] 'Back to Game'
 escapeMenu.back=Zurück zum Spiel
+//TODO Translate [Reference] 'Cancel'
+escapemenu.cancel=
 //[Reference] 'Character Designer'
 escapeMenu.characterDesigner=Charakter-Designer
+//TODO Translate [Reference] 'Are you sure you want to exit to desktop?'
+escapemenu.confirmExit=
 //[Reference] 'Control Hints'
 escapeMenu.controlHints=Steuerungshinweise
 //[Reference] 'Exit to Desktop'
 escapeMenu.desktopExit=Beenden und zum Desktop
+//TODO Translate [Reference] 'Exit'
+escapemenu.exit=
 //[Reference] 'Go to Main Menu'
 escapeMenu.mainMenu=Zum Hauptmenü
 //[Reference] 'Options'
@@ -407,6 +423,8 @@ options.gameplay.other.StepWiseUIScale=
 options.gameplay.other.StopNPCStaring=Starren der NPCs unterbinden
 //TODO Translate [Reference] 'UI'
 options.gameplay.ui=
+//TODO Translate [Reference] 'Resolution:'
+options.gameplay.ui.FullScreenResolution=
 //TODO Translate [Reference] 'UI Scale:'
 options.gameplay.ui.ManualUIScale=
 //[Reference] 'General'
@@ -464,6 +482,8 @@ options.general.graphics.showGridCursor=Zeige Grid Cursor
 options.general.graphics.superLow=Sehr niedrig
 //[Reference] 'Super Sampling'
 options.general.graphics.superSampling=Supersampling
+//TODO Translate [Reference] 'Third Person'
+options.general.graphics.thirdPerson=
 //[Reference] 'Ultra'
 options.general.graphics.ultra=Ultra
 //[Reference] 'Prevent Indoor Weather'
@@ -747,12 +767,16 @@ staxel.category.batter=
 staxel.category.boil=Kochen
 //[Reference] 'boiled'
 staxel.category.boiled=Gekocht
+//TODO Translate [Reference] 'butterfly'
+staxel.category.butterfly=
 //[Reference] 'carpentry'
 staxel.category.carpentry=Zimmerei
 //[Reference] 'carve'
 staxel.category.carve=Schnitzen
 //[Reference] 'carving'
 staxel.category.carving=Schnitzen
+//TODO Translate [Reference] 'cicada'
+staxel.category.cicada=
 //[Reference] 'Cloth'
 staxel.category.cloth=Stoff
 //[Reference] 'combine'
@@ -811,6 +835,8 @@ staxel.category.nail=Nagel
 staxel.category.octopus=
 //[Reference] 'order'
 staxel.category.order=Bestellung
+//TODO Translate [Reference] 'palm'
+staxel.category.palm=
 //[Reference] 'poop'
 staxel.category.poop=Kot
 //[Reference] 'rack'
@@ -849,6 +875,8 @@ staxel.category.varnish=Lack
 staxel.category.washer=Waschmaschine
 //[Reference] 'washing'
 staxel.category.washing=Waschen
+//TODO Translate [Reference] '???'
+staxel.collections.unknown=
 staxel.core.Compound.description=
 //[Reference] 'Compound'
 staxel.core.Compound.name=Gelände
@@ -858,6 +886,10 @@ staxel.crafting.recipes.BaitBox.name=Köderbox
 staxel.crafting.recipes.Barrel.description=
 //[Reference] 'Barrel'
 staxel.crafting.recipes.Barrel.name=Fass
+//TODO Translate [Reference] 'Teaches you to build a working door'
+staxel.crafting.recipes.BasicDoor.description=
+//TODO Translate [Reference] 'Basic Door Recipe'
+staxel.crafting.recipes.BasicDoor.name=
 staxel.crafting.recipes.BasicWoodenFence.description=
 //[Reference] 'BasicWoodenFence'
 staxel.crafting.recipes.BasicWoodenFence.name=Zaun
@@ -876,8 +908,10 @@ staxel.crafting.recipes.CobbleStonePath.name=Steinweg
 staxel.crafting.recipes.CreamStoneWall.description=
 //[Reference] 'CreamStoneWall'
 staxel.crafting.recipes.CreamStoneWall.name=Steinwand
+//TODO Translate [Reference] 'Just the frame of a door. You can craft this into a working door.'
 staxel.crafting.recipes.DoorFrame.description=
-//[Reference] 'DoorFrame'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Door Frame'
 staxel.crafting.recipes.DoorFrame.name=Türrahmen
 staxel.crafting.recipes.EmptyTrough.description=
 //[Reference] 'EmptyTrough'
@@ -1374,6 +1408,9 @@ staxel.item.gatherable.Blowfish.name=
 staxel.item.gatherable.BlueLobster.description=
 //TODO Translate [Reference] 'BlueLobster'
 staxel.item.gatherable.BlueLobster.name=
+staxel.item.gatherable.BrownCicada.description=
+//TODO Translate [Reference] 'BrownCicada'
+staxel.item.gatherable.BrownCicada.name=
 staxel.item.gatherable.ButterflyFish.description=
 //TODO Translate [Reference] 'ButterflyFish'
 staxel.item.gatherable.ButterflyFish.name=
@@ -1410,6 +1447,9 @@ staxel.item.gatherable.GoldenKoi.name=
 staxel.item.gatherable.Goldfish.description=
 //TODO Translate [Reference] 'Goldfish'
 staxel.item.gatherable.Goldfish.name=
+staxel.item.gatherable.GreenCicada.description=
+//TODO Translate [Reference] 'GreenCicada'
+staxel.item.gatherable.GreenCicada.name=
 staxel.item.gatherable.Koi.description=
 //TODO Translate [Reference] 'Snowdust Koi'
 staxel.item.gatherable.Koi.name=
@@ -1419,6 +1459,9 @@ staxel.item.gatherable.Ladybug.name=
 staxel.item.gatherable.Lobster.description=
 //TODO Translate [Reference] 'Lobster'
 staxel.item.gatherable.Lobster.name=
+staxel.item.gatherable.MonarchButterfly.description=
+//TODO Translate [Reference] 'MonarchButterfly'
+staxel.item.gatherable.MonarchButterfly.name=
 staxel.item.gatherable.NeonTetra.description=
 //TODO Translate [Reference] 'NeonTetra'
 staxel.item.gatherable.NeonTetra.name=
@@ -1440,9 +1483,18 @@ staxel.item.gatherable.RibbonEel.name=
 staxel.item.gatherable.Salmon.description=
 //TODO Translate [Reference] 'Salmon'
 staxel.item.gatherable.Salmon.name=
+staxel.item.gatherable.Scorpion.description=
+//TODO Translate [Reference] 'Scorpion'
+staxel.item.gatherable.Scorpion.name=
 staxel.item.gatherable.Seahorse.description=
 //TODO Translate [Reference] 'Seahorse'
 staxel.item.gatherable.Seahorse.name=
+staxel.item.gatherable.Shrimp.description=
+//TODO Translate [Reference] 'Shrimp'
+staxel.item.gatherable.Shrimp.name=
+staxel.item.gatherable.Snail.description=
+//TODO Translate [Reference] 'Snail'
+staxel.item.gatherable.Snail.name=
 staxel.item.gatherable.Snowball.description=
 //TODO Translate [Reference] 'Snowball'
 staxel.item.gatherable.Snowball.name=
@@ -1551,6 +1603,10 @@ staxel.nightTransition.PressToContinue=Drücke {0-key} zum fortfahren...
 staxel.notifications.AlreadyHoed=
 //[Reference] 'You can't break this tile.'
 staxel.notifications.CantBreak=Du kannst diese Fliese nicht zerbrechen.
+//TODO Translate [Reference] 'Farm Fan has set aside this day to show you around the farm, you should do that before sleeping!'
+staxel.notifications.cantSleepTutorial=
+//TODO Translate [Reference] 'You need to select a block before replacing!'
+staxel.notifications.DebugTools.SelectBlock=
 //[Reference] '{0} is in bad health'
 staxel.notifications.farmAnimal.BadHealth={0} ist bei schlechter Gesundheit
 //[Reference] '{0} is busy'
@@ -1990,12 +2046,10 @@ staxel.tileObject.decorations.JapaneseArch.name=Japanischer Bogen
 staxel.tileObject.decorations.WashingMachine.description=
 //[Reference] 'WashingMachine'
 staxel.tileObject.decorations.WashingMachine.name=Waschmaschine
+//TODO Translate [Reference] 'A working door.'
 staxel.tileObject.door.DoorBasic.description=
 //TODO Translate [Reference] 'Basic Door'
 staxel.tileObject.door.DoorBasic.name=
-staxel.tileObject.door.DoorTest.description=
-//TODO Translate [Reference] 'DoorTest'
-staxel.tileObject.door.DoorTest.name=
 staxel.tileObject.festival.feymasquerade.BannerLeft.description=
 //TODO Translate [Reference] 'Fey Masquerade Banner Left'
 staxel.tileObject.festival.feymasquerade.BannerLeft.name=
@@ -2089,24 +2143,39 @@ staxel.tileObject.fishing.SimpleBox.name=Einfacher Kaster
 staxel.tileObject.fishing.TackleBox.description=
 //[Reference] 'Tackle Box'
 staxel.tileObject.fishing.TackleBox.name=Werkzeugkasten
+staxel.tileObject.gatherable.BrownCicada.description=
+//TODO Translate [Reference] 'BrownCicada'
+staxel.tileObject.gatherable.BrownCicada.name=
 staxel.tileObject.gatherable.festival.Fairy.description=
 //TODO Translate [Reference] 'Fairy'
 staxel.tileObject.gatherable.festival.Fairy.name=
 staxel.tileObject.gatherable.festival.MalevolentFairy.description=
 //TODO Translate [Reference] 'Mischievous Fairy'
 staxel.tileObject.gatherable.festival.MalevolentFairy.name=
+staxel.tileObject.gatherable.GreenCicada.description=
+//TODO Translate [Reference] 'GreenCicada'
+staxel.tileObject.gatherable.GreenCicada.name=
 staxel.tileObject.gatherable.HermitShell.description=
 //[Reference] 'HermitShell'
 staxel.tileObject.gatherable.HermitShell.name=Einsiedlermuschel
 staxel.tileObject.gatherable.Ladybug.description=
 //TODO Translate [Reference] 'Ladybug'
 staxel.tileObject.gatherable.Ladybug.name=
+staxel.tileObject.gatherable.MonarchButterfly.description=
+//TODO Translate [Reference] 'MonarchButterfly'
+staxel.tileObject.gatherable.MonarchButterfly.name=
 staxel.tileObject.gatherable.PearlShell.description=
 //[Reference] 'PearlShell'
 staxel.tileObject.gatherable.PearlShell.name=Perlenmuschel
 staxel.tileObject.gatherable.RedCoral.description=
 //[Reference] 'RedCoral'
 staxel.tileObject.gatherable.RedCoral.name=RoteKoralle
+staxel.tileObject.gatherable.Scorpion.description=
+//TODO Translate [Reference] 'Scorpion'
+staxel.tileObject.gatherable.Scorpion.name=
+staxel.tileObject.gatherable.Snail.description=
+//TODO Translate [Reference] 'Snail'
+staxel.tileObject.gatherable.Snail.name=
 staxel.tileObject.gatherable.Starfish.description=
 //[Reference] 'Starfish'
 staxel.tileObject.gatherable.Starfish.name=Seestern
@@ -2370,6 +2439,8 @@ staxel.totem.AlizaHome=AlizaZuhause
 staxel.totem.Barn=Einfache Scheune
 //[Reference] 'Barn'
 staxel.totem.Barn.name=Scheune
+//TODO Translate [Reference] 'This building is no longer complete!'
+staxel.totem.BuildingInvalidated=
 //[Reference] 'Cecile's Home'
 staxel.totem.CecileHome=Ceciles Haus
 //[Reference] 'Emilia's Home'
@@ -2398,6 +2469,8 @@ staxel.totem.festival.feymasquerade.FeyRoom208=
 staxel.totem.festival.feymasquerade.FeyThroneRoom=
 //TODO Translate [Reference] 'Snowdust Shrine'
 staxel.totem.festival.SnowdustShrine=
+//TODO Translate [Reference] 'Furnishing requirements complete!'
+staxel.totem.FurnitureComplete=
 //[Reference] 'Jamie's Home'
 staxel.totem.JamieHome=Jamies Haus
 //[Reference] 'Maximilian's Home'
@@ -2416,6 +2489,10 @@ staxel.totem.roofMissing=(Fehlt)
 staxel.totem.RosemaryHome=Rosemarys Haus
 //[Reference] 'Test'
 staxel.totem.Test.name=Test
+//TODO Translate [Reference] 'Building requirement added!'
+staxel.totem.TileAdded=
+//TODO Translate [Reference] 'Building requirement removed!'
+staxel.totem.TileRemoved=
 //[Reference] 'BuildingStore'
 staxel.totem.workplace.BuildingStore=Handwerkerladen
 //TODO Translate [Reference] 'Festival Square'
