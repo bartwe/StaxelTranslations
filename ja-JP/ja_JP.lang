@@ -62,12 +62,16 @@ controlHint.verb.default.Eat=食べる：
 controlHint.verb.default.Harvest=収穫する：
 //[Reference] 'Interact'
 controlHint.verb.default.Interact=使う：
+//TODO Translate [Reference] 'Restart'
+controlHint.verb.default.ManualRestart=
 //[Reference] 'Memorise'
 controlHint.verb.default.Memorise=覚える
 //TODO Translate [Reference] 'Replace'
 controlHint.verb.default.reDock=
 //[Reference] 'Rotate'
 controlHint.verb.default.Rotate=回転させる：
+//TODO Translate [Reference] 'Stop'
+controlHint.verb.default.Stop=
 //[Reference] 'Throw'
 controlHint.verb.default.Throw=投げる：
 //[Reference] 'Pick Up'
@@ -810,6 +814,8 @@ staxel.category.construct=建設する
 staxel.category.construction=建設
 //[Reference] 'cooked'
 staxel.category.cooked=料理
+//TODO Translate [Reference] 'coral'
+staxel.category.coral=
 //[Reference] 'Cube'
 staxel.category.cube=キューブ
 //TODO Translate [Reference] 'doorTest'
@@ -856,6 +862,8 @@ staxel.category.mortar=モルタル
 staxel.category.mushrooms=キノコ
 //[Reference] 'nail'
 staxel.category.nail=クギ
+//TODO Translate [Reference] 'ocean'
+staxel.category.ocean=
 //[Reference] 'octopus'
 staxel.category.octopus=タコ
 //[Reference] 'order'
@@ -870,6 +878,8 @@ staxel.category.rack=ラック
 staxel.category.rice=コメ
 //[Reference] 'sawing'
 staxel.category.sawing=製材
+//TODO Translate [Reference] 'sea'
+staxel.category.sea=
 //[Reference] 'sheared'
 staxel.category.sheared=刈り込んだもの
 //[Reference] 'sheet'
@@ -1359,8 +1369,12 @@ staxel.gatherable.RedCoral.name=赤サンゴ
 staxel.gatherable.RedWhiteMushroom.description=このキノコには本当に気をつけて…
 //[Reference] 'Toadstool'
 staxel.gatherable.RedWhiteMushroom.name=毒キノコ
+staxel.gatherable.Seaweed.description=
+//TODO Translate [Reference] 'Seaweed'
+staxel.gatherable.Seaweed.name=
 staxel.gatherable.SnowMound.description=
-//[Reference] 'SnowMound'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Snow Mound'
 staxel.gatherable.SnowMound.name=雪のかたまり
 staxel.gatherable.Starfish.description=
 //[Reference] 'Starfish'
@@ -1509,6 +1523,15 @@ staxel.item.gatherable.FootballFish.name=チョウチンアンコウ
 staxel.item.gatherable.Frog.description=
 //[Reference] 'Frog'
 staxel.item.gatherable.Frog.name=カエル
+staxel.item.gatherable.garbage.Algae.description=
+//TODO Translate [Reference] 'Algae'
+staxel.item.gatherable.garbage.Algae.name=
+staxel.item.gatherable.garbage.AppleCore.description=
+//TODO Translate [Reference] 'Apple Core'
+staxel.item.gatherable.garbage.AppleCore.name=
+staxel.item.gatherable.garbage.EmptyBottle.description=
+//TODO Translate [Reference] 'Empty Bottle'
+staxel.item.gatherable.garbage.EmptyBottle.name=
 staxel.item.gatherable.garbage.GarbageShell.description=
 //[Reference] 'Garbage Shell'
 staxel.item.gatherable.garbage.GarbageShell.name=ゴミの貝殻
@@ -1519,6 +1542,12 @@ staxel.item.gatherable.garbage.GarbageTinCan.name=ゴミの空き缶
 staxel.item.gatherable.garbage.GarbageTwig.description=
 //[Reference] 'Garbage Twig'
 staxel.item.gatherable.garbage.GarbageTwig.name=ゴミの小枝
+staxel.item.gatherable.garbage.PlasticRings.description=
+//TODO Translate [Reference] 'Plastic Rings'
+staxel.item.gatherable.garbage.PlasticRings.name=
+staxel.item.gatherable.garbage.RustedKey.description=
+//TODO Translate [Reference] 'Rusted Key'
+staxel.item.gatherable.garbage.RustedKey.name=
 staxel.item.gatherable.GoldenDragonfly.description=
 //TODO Translate [Reference] 'Golden Dragonfly'
 staxel.item.gatherable.GoldenDragonfly.name=
@@ -1582,6 +1611,9 @@ staxel.item.gatherable.Scorpion.name=
 staxel.item.gatherable.Seahorse.description=
 //[Reference] 'Seahorse'
 staxel.item.gatherable.Seahorse.name=タツノオトシゴ
+staxel.item.gatherable.Seaweed.description=
+//TODO Translate [Reference] 'Seaweed'
+staxel.item.gatherable.Seaweed.name=
 staxel.item.gatherable.Shrimp.description=
 //TODO Translate [Reference] 'Shrimp'
 staxel.item.gatherable.Shrimp.name=
@@ -1687,10 +1719,6 @@ staxel.nightTransition.Line1=ヒント：草や花を刈り取ることでシー
 staxel.nightTransition.Line2=ヒント：shiftを押すとインベントリの操作が高速になります
 //[Reference] 'Tip: The seed maker has a chance of giving golden seeds'
 staxel.nightTransition.Line3=ヒント：種生成機を使うと黄金の種が手に入ることがあります
-//[Reference] 'Tip: Want to build freely? Try using /creativeMode'
-staxel.nightTransition.Line4=ヒント：自由に建築したいですか？クリエイティブモードを試してみてください
-//[Reference] 'Tip: Try 3rd person mode by setting "Camera Distance" in the options, or use CTRL + Mousewheel'
-staxel.nightTransition.Line5=ヒント：設定で「カメラの距離」を変更するか、CTRL+マウスホイールを使えば第三者モードになります
 //[Reference] 'Tip: Most tools work better if you hold the button down'
 staxel.nightTransition.Line6=ヒント：ほとんどの道具はボタンを長押しすることでより高い効果を発揮します
 //[Reference] 'Tip: Use the mousewheel or bumpers to rotate items before you place them'
@@ -1707,6 +1735,8 @@ staxel.notifications.AlreadyHoed=このタイルはすでに耕されていま�
 staxel.notifications.CantBreak=このタイルを壊すことはできません。
 //TODO Translate [Reference] 'Farm Fan has set aside this day to show you around the farm, you should do that before sleeping!'
 staxel.notifications.cantSleepTutorial=
+//TODO Translate [Reference] 'Failed to Export area. Error message in server console.'
+staxel.notifications.DebugTools.ExportFailed=
 //TODO Translate [Reference] 'You need to select a block before replacing!'
 staxel.notifications.DebugTools.SelectBlock=
 //[Reference] '{0} is in bad health'
@@ -1823,8 +1853,12 @@ staxel.pets.GiftReceived={0-pet}がプレゼントを持ってきました！
 staxel.plant.crop.Sunflower.description=
 //[Reference] 'Sunflower'
 staxel.plant.crop.Sunflower.name=ヒマワリ
+staxel.plant.gatherable.Seaweed.description=
+//TODO Translate [Reference] 'Seaweed'
+staxel.plant.gatherable.Seaweed.name=
 staxel.plant.gatherable.SnowMound.description=
-//[Reference] 'SnowMound'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Snow Mound'
 staxel.plant.gatherable.SnowMound.name=雪のかたまり
 staxel.plant.gatherable.StarJelly.description=
 //[Validate] Delete this comment if or when the translation is accurate.
@@ -2016,6 +2050,9 @@ staxel.tile.leaves.Leaf.Forest.Summer.name=夏
 staxel.tile.leaves.Leaf.Forest.Winter.description=
 //[Reference] 'Winter'
 staxel.tile.leaves.Leaf.Forest.Winter.name=冬
+staxel.tile.rock.CoralStone.1.description=
+//TODO Translate [Reference] 'Coral Stone'
+staxel.tile.rock.CoralStone.1.name=
 staxel.tile.rock.Rock.5.Autumn.description=
 //[Reference] 'Autumn'
 staxel.tile.rock.Rock.5.Autumn.name=秋
@@ -2162,7 +2199,6 @@ staxel.tileObject.decorations.WashingMachine.name=洗濯機
 staxel.tileObject.door.DoorBasic.description=
 //[Reference] 'Basic Door'
 staxel.tileObject.door.DoorBasic.name=開閉ドア
-staxel.tileObject.door.DoorTest.description=
 staxel.tileObject.festival.feymasquerade.BannerLeft.description=
 //TODO Translate [Reference] 'Fey Masquerade Banner Left'
 staxel.tileObject.festival.feymasquerade.BannerLeft.name=
@@ -2324,148 +2360,190 @@ staxel.tileObject.gatherable.WillOTheWisp.description=
 //[Reference] 'Will-o'-the-wisp'
 staxel.tileObject.gatherable.WillOTheWisp.name=ウィルオウィスプ
 staxel.tileObject.roofing.jade.Jade_Flat.description=
-//[Reference] 'Jade_Flat'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Jade Roof Tiles'
 staxel.tileObject.roofing.jade.Jade_Flat.name=Jade_Flat
 staxel.tileObject.roofing.jade.Jade_Full.description=
-//TODO Translate [Reference] 'Jade_Full'
+//TODO Translate [Reference] 'Jade Roof Tiles'
 staxel.tileObject.roofing.jade.Jade_Full.name=
 staxel.tileObject.roofing.jade.Jade_InnerCorner.description=
-//[Reference] 'Jade_InnerCorner'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Jade Roof Tiles'
 staxel.tileObject.roofing.jade.Jade_InnerCorner.name=Jade_InnerCorner
 staxel.tileObject.roofing.jade.Jade_InnerCorner_Upsidedown.description=
-//[Reference] 'Jade_InnerCorner_Upsidedown'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Jade Roof Tiles'
 staxel.tileObject.roofing.jade.Jade_InnerCorner_Upsidedown.name=Jade_InnerCorner_Upsidedown
 staxel.tileObject.roofing.jade.Jade_OuterCorner.description=
-//[Reference] 'Jade_OuterCorner'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Jade Roof Tiles'
 staxel.tileObject.roofing.jade.Jade_OuterCorner.name=Jade_OuterCorner
 staxel.tileObject.roofing.jade.Jade_OuterCorner_Upsidedown.description=
-//[Reference] 'Jade_OuterCorner_Upsidedown'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Jade Roof Tiles'
 staxel.tileObject.roofing.jade.Jade_OuterCorner_Upsidedown.name=Jade_OuterCorner_Upsidedown
 staxel.tileObject.roofing.jade.Jade_Straight.description=
-//[Reference] 'Jade_Straight'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Jade Roof Tiles'
 staxel.tileObject.roofing.jade.Jade_Straight.name=Jade_Straight
 staxel.tileObject.roofing.jade.Jade_Straight_Upsidedown.description=
-//[Reference] 'Jade_Straight_Upsidedown'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Jade Roof Tiles'
 staxel.tileObject.roofing.jade.Jade_Straight_Upsidedown.name=Jade_Straight_Upsidedown
 staxel.tileObject.roofing.lightBlue.LightBlue_Flat.description=
-//[Reference] 'LightBlue_Flat'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Light Blue Roof Tiles'
 staxel.tileObject.roofing.lightBlue.LightBlue_Flat.name=LightBlue_Flat
 staxel.tileObject.roofing.lightBlue.LightBlue_Full.description=
-//TODO Translate [Reference] 'LightBlue_Full'
+//TODO Translate [Reference] 'Light Blue Roof Tiles'
 staxel.tileObject.roofing.lightBlue.LightBlue_Full.name=
 staxel.tileObject.roofing.lightBlue.LightBlue_InnerCorner.description=
-//[Reference] 'LightBlue_InnerCorner'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Light Blue Roof Tiles'
 staxel.tileObject.roofing.lightBlue.LightBlue_InnerCorner.name=LightBlue_InnerCorner
 staxel.tileObject.roofing.lightBlue.LightBlue_InnerCorner_Upsidedown.description=
-//[Reference] 'LightBlue_InnerCorner_Upsidedown'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Light Blue Roof Tiles'
 staxel.tileObject.roofing.lightBlue.LightBlue_InnerCorner_Upsidedown.name=LightBlue_InnerCorner_Upsidedown
 staxel.tileObject.roofing.lightBlue.LightBlue_OuterCorner.description=
-//[Reference] 'LightBlue_OuterCorner'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Light Blue Roof Tiles'
 staxel.tileObject.roofing.lightBlue.LightBlue_OuterCorner.name=LightBlue_OuterCorner
 staxel.tileObject.roofing.lightBlue.LightBlue_OuterCorner_Upsidedown.description=
-//[Reference] 'LightBlue_OuterCorner_Upsidedown'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Light Blue Roof Tiles'
 staxel.tileObject.roofing.lightBlue.LightBlue_OuterCorner_Upsidedown.name=LightBlue_OuterCorner_Upsidedown
 staxel.tileObject.roofing.lightBlue.LightBlue_Straight.description=
-//[Reference] 'LightBlue_Straight'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Light Blue Roof Tiles'
 staxel.tileObject.roofing.lightBlue.LightBlue_Straight.name=LightBlue_Straight
 staxel.tileObject.roofing.lightBlue.LightBlue_Straight_Upsidedown.description=
-//[Reference] 'LightBlue_Straight_Upsidedown'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Light Blue Roof Tiles'
 staxel.tileObject.roofing.lightBlue.LightBlue_Straight_Upsidedown.name=LightBlue_Straight_Upsidedown
 staxel.tileObject.roofing.lightGreen.LightGreen_Flat.description=
-//[Reference] 'LightGreen_Flat'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Light Green Roof Tiles'
 staxel.tileObject.roofing.lightGreen.LightGreen_Flat.name=LightGreen_Flat
 staxel.tileObject.roofing.lightGreen.LightGreen_Full.description=
-//TODO Translate [Reference] 'LightGreen_Full'
+//TODO Translate [Reference] 'Light Green Roof Tiles'
 staxel.tileObject.roofing.lightGreen.LightGreen_Full.name=
 staxel.tileObject.roofing.lightGreen.LightGreen_InnerCorner.description=
-//[Reference] 'LightGreen_InnerCorner'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Light Green Roof Tiles'
 staxel.tileObject.roofing.lightGreen.LightGreen_InnerCorner.name=LightGreen_InnerCorner
 staxel.tileObject.roofing.lightGreen.LightGreen_InnerCorner_Upsidedown.description=
-//[Reference] 'LightGreen_InnerCorner_Upsidedown'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Light Green Roof Tiles'
 staxel.tileObject.roofing.lightGreen.LightGreen_InnerCorner_Upsidedown.name=LightGreen_InnerCorner_Upsidedown
 staxel.tileObject.roofing.lightGreen.LightGreen_OuterCorner.description=
-//[Reference] 'LightGreen_OuterCorner'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Light Green Roof Tiles'
 staxel.tileObject.roofing.lightGreen.LightGreen_OuterCorner.name=LightGreen_OuterCorner
 staxel.tileObject.roofing.lightGreen.LightGreen_OuterCorner_Upsidedown.description=
-//[Reference] 'LightGreen_OuterCorner_Upsidedown'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Light Green Roof Tiles'
 staxel.tileObject.roofing.lightGreen.LightGreen_OuterCorner_Upsidedown.name=LightGreen_OuterCorner_Upsidedown
 staxel.tileObject.roofing.lightGreen.LightGreen_Straight.description=
-//[Reference] 'LightGreen_Straight'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Light Green Roof Tiles'
 staxel.tileObject.roofing.lightGreen.LightGreen_Straight.name=LightGreen_Straight
 staxel.tileObject.roofing.lightGreen.LightGreen_Straight_Upsidedown.description=
-//[Reference] 'LightGreen_Straight_Upsidedown'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Light Green Roof Tiles'
 staxel.tileObject.roofing.lightGreen.LightGreen_Straight_Upsidedown.name=LightGreen_Straight_Upsidedown
 staxel.tileObject.roofing.orange.Orange_Flat.description=
-//[Reference] 'Orange_Flat'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Orange Roof Tiles'
 staxel.tileObject.roofing.orange.Orange_Flat.name=Orange_Flat
 staxel.tileObject.roofing.orange.Orange_Full.description=
-//TODO Translate [Reference] 'Orange_Full'
+//TODO Translate [Reference] 'Orange Roof Tiles'
 staxel.tileObject.roofing.orange.Orange_Full.name=
 staxel.tileObject.roofing.orange.Orange_InnerCorner.description=
-//[Reference] 'Orange_InnerCorner'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Orange Roof Tiles'
 staxel.tileObject.roofing.orange.Orange_InnerCorner.name=Orange_InnerCorner
 staxel.tileObject.roofing.orange.Orange_InnerCorner_Upsidedown.description=
-//[Reference] 'Orange_InnerCorner_Upsidedown'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Orange Roof Tiles'
 staxel.tileObject.roofing.orange.Orange_InnerCorner_Upsidedown.name=Orange_InnerCorner_Upsidedown
 staxel.tileObject.roofing.orange.Orange_OuterCorner.description=
-//[Reference] 'Orange_OuterCorner'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Orange Roof Tiles'
 staxel.tileObject.roofing.orange.Orange_OuterCorner.name=Orange_OuterCorner
 staxel.tileObject.roofing.orange.Orange_OuterCorner_Upsidedown.description=
-//[Reference] 'Orange_OuterCorner_Upsidedown'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Orange Roof Tiles'
 staxel.tileObject.roofing.orange.Orange_OuterCorner_Upsidedown.name=Orange_OuterCorner_Upsidedown
 staxel.tileObject.roofing.orange.Orange_Straight.description=
-//[Reference] 'Orange_Straight'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Orange Roof Tiles'
 staxel.tileObject.roofing.orange.Orange_Straight.name=Orange_Straight
 staxel.tileObject.roofing.orange.Orange_Straight_Upsidedown.description=
-//[Reference] 'Orange_Straight_Upsidedown'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Orange Roof Tiles'
 staxel.tileObject.roofing.orange.Orange_Straight_Upsidedown.name=Orange_Straight_Upsidedown
 staxel.tileObject.roofing.pink.Pink_Flat.description=
-//[Reference] 'Pink_Flat'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Pink Roof Tiles'
 staxel.tileObject.roofing.pink.Pink_Flat.name=Pink_Flat
 staxel.tileObject.roofing.pink.Pink_Full.description=
-//TODO Translate [Reference] 'Pink_Full'
+//TODO Translate [Reference] 'Pink Roof Tiles'
 staxel.tileObject.roofing.pink.Pink_Full.name=
 staxel.tileObject.roofing.pink.Pink_InnerCorner.description=
-//[Reference] 'Pink_InnerCorner'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Pink Roof Tiles'
 staxel.tileObject.roofing.pink.Pink_InnerCorner.name=Pink_InnerCorner
 staxel.tileObject.roofing.pink.Pink_InnerCorner_Upsidedown.description=
-//[Reference] 'Pink_InnerCorner_Upsidedown'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Pink Roof Tiles'
 staxel.tileObject.roofing.pink.Pink_InnerCorner_Upsidedown.name=Pink_InnerCorner_Upsidedown
 staxel.tileObject.roofing.pink.Pink_OuterCorner.description=
-//[Reference] 'Pink_OuterCorner'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Pink Roof Tiles'
 staxel.tileObject.roofing.pink.Pink_OuterCorner.name=Pink_OuterCorner
 staxel.tileObject.roofing.pink.Pink_OuterCorner_Upsidedown.description=
-//[Reference] 'Pink_OuterCorner_Upsidedown'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Pink Roof Tiles'
 staxel.tileObject.roofing.pink.Pink_OuterCorner_Upsidedown.name=Pink_OuterCorner_Upsidedown
 staxel.tileObject.roofing.pink.Pink_Straight.description=
-//[Reference] 'Pink_Straight'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Pink Roof Tiles'
 staxel.tileObject.roofing.pink.Pink_Straight.name=Pink_Straight
 staxel.tileObject.roofing.pink.Pink_Straight_Upsidedown.description=
-//[Reference] 'Pink_Straight_Upsidedown'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Pink Roof Tiles'
 staxel.tileObject.roofing.pink.Pink_Straight_Upsidedown.name=Pink_Straight_Upsidedown
 staxel.tileObject.roofing.red.Red_Flat.description=
-//[Reference] 'Red_Flat'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Red Roof Tiles'
 staxel.tileObject.roofing.red.Red_Flat.name=Red_Flat
 staxel.tileObject.roofing.red.Red_Full.description=
-//TODO Translate [Reference] 'Red_Full'
+//TODO Translate [Reference] 'Red Roof Tiles'
 staxel.tileObject.roofing.red.Red_Full.name=
 staxel.tileObject.roofing.red.Red_InnerCorner.description=
-//[Reference] 'Red_InnerCorner'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Red Roof Tiles'
 staxel.tileObject.roofing.red.Red_InnerCorner.name=Red_InnerCorner
 staxel.tileObject.roofing.red.Red_InnerCorner_Upsidedown.description=
-//[Reference] 'Red_InnerCorner_Upsidedown'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Red Roof Tiles'
 staxel.tileObject.roofing.red.Red_InnerCorner_Upsidedown.name=Red_InnerCorner_Upsidedown
 staxel.tileObject.roofing.red.Red_OuterCorner.description=
-//[Reference] 'Red_OuterCorner'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Red Roof Tiles'
 staxel.tileObject.roofing.red.Red_OuterCorner.name=Red_OuterCorner
 staxel.tileObject.roofing.red.Red_OuterCorner_Upsidedown.description=
-//[Reference] 'Red_OuterCorner_Upsidedown'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Red Roof Tiles'
 staxel.tileObject.roofing.red.Red_OuterCorner_Upsidedown.name=Red_OuterCorner_Upsidedown
 staxel.tileObject.roofing.red.Red_Straight.description=
-//[Reference] 'Straight Red Roof'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Red Roof Tiles'
 staxel.tileObject.roofing.red.Red_Straight.name=赤色の瓦屋根
 staxel.tileObject.roofing.red.Red_Straight_Upsidedown.description=
-//[Reference] 'Red_Straight_Upsidedown'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Red Roof Tiles'
 staxel.tileObject.roofing.red.Red_Straight_Upsidedown.name=Red_Straight_Upsidedown
 staxel.tileObject.serverVillage.ClockTowerFace.description=
 //[Validate] Delete this comment if or when the translation is accurate.
@@ -2478,6 +2556,9 @@ staxel.tileObject.serverVillage.CombiningStation.name=コンバイニングス�
 staxel.tileObject.serverVillage.exterior.SmallWoodenPoleFenceCross.description=
 //[Reference] 'Small Wooden Pole Fence'
 staxel.tileObject.serverVillage.exterior.SmallWoodenPoleFenceCross.name=小さな木のポールフェンス
+staxel.tileObject.serverVillage.Stairs.description=
+//TODO Translate [Reference] 'Stairs'
+staxel.tileObject.serverVillage.Stairs.name=
 staxel.tileObject.shop.Awning.description=
 //[Reference] 'Awning'
 staxel.tileObject.shop.Awning.name=日よけ
@@ -2636,12 +2717,13 @@ staxel.totem.roofMissing=（見つかりません）
 staxel.totem.RosemaryHome=ローズマリーの家
 //[Reference] 'Test'
 staxel.totem.Test.name=テスト
-//[Reference] 'BuildingStore'
-staxel.totem.workplace.BuildingStore=建材店
 //TODO Translate [Reference] 'Building requirement added!'
 staxel.totem.TileAdded=
 //TODO Translate [Reference] 'Building requirement removed!'
 staxel.totem.TileRemoved=
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Building Store'
+staxel.totem.workplace.BuildingStore=建材店
 //TODO Translate [Reference] 'Festival Square'
 staxel.totem.workplace.FestivalSquare=
 //[Reference] 'Fishing Spot'
