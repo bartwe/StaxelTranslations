@@ -66,12 +66,24 @@ commands.demoMode.success=
 commands.describeItem.description=
 //TODO Translate [Reference] 'Item description: {0-itemDesc}'
 commands.describeItem.success=
+//TODO Translate [Reference] '^c:F2E200;ditto ^c:FFFFFF; playerName villagernpcCode'
+commands.ditto.description=
+//TODO Translate [Reference] 'Player {0-playerName} does not have enough inventory space for all npc clothing items'
+commands.ditto.notEnoughSpace=
+//TODO Translate [Reference] 'Player {0-playerName} disguised successfully'
+commands.ditto.success=
 //TODO Translate [Reference] '^c:F2E200;doemote ^c:FFFFFF;emoteName (optional)useLookatEntity(true/false)'
 commands.doemote.description=
 //TODO Translate [Reference] '^c:F2E200;emote ^c:FFFFFF;emoteName'
 commands.emote.description=
 //TODO Translate [Reference] 'No such emote {0-emote}'
 commands.emote.noSuchEmote=
+//TODO Translate [Reference] '^c:F2E200;enablecheats^c:FFFFFF;'
+commands.enablecheats.description=
+//TODO Translate [Reference] 'Failed to enable cheats.'
+commands.enablecheats.failure=
+//TODO Translate [Reference] 'Cheats have been enabled.'
+commands.enablecheats.success=
 //TODO Translate [Reference] '^c:F2E200;entityInfo ^c:FFFFFF;entityID'
 commands.entityInfo.description=
 //TODO Translate [Reference] 'You need to include an EntityID!'
@@ -156,6 +168,10 @@ commands.op.description=
 commands.op.failure=
 //TODO Translate [Reference] '{0-player} has been promoted.'
 commands.op.success=
+//TODO Translate [Reference] 'Player {0-player} not found.'
+commands.op.userNotFound=
+//TODO Translate [Reference] '^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime'
+commands.pe.description=
 //TODO Translate [Reference] '^c:F2E200;plantgrowth'
 commands.plantGrowth.description=
 //TODO Translate [Reference] 'Not a plant.'
@@ -168,6 +184,14 @@ commands.playerEntityNotFound=
 commands.players.description=
 //TODO Translate [Reference] 'Players: {0-playerlist}'
 commands.players.success=
+//TODO Translate [Reference] '^c:F2E200;playExpression ^c:FFFFFF;expressionCode (optional)displayTime'
+commands.playExpression.description=
+//TODO Translate [Reference] 'Aliases:'
+commands.playExpression.list=
+//TODO Translate [Reference] 'Expression not found {0-expression}'
+commands.playExpression.noExpression=
+//TODO Translate [Reference] 'Expression played successfully'
+commands.playExpression.success=
 //TODO Translate [Reference] '^c:F2E200;position ^c:FFFFFF;(optional)playerName'
 commands.position.description=
 //TODO Translate [Reference] 'Failed to find player'
@@ -211,6 +235,8 @@ commands.serverCreative.description=
 //TODO Translate [Reference] 'Switched server creative mode to {0-creative} (persistent)'
 commands.serverCreative.success=
 commands.snow.description=
+//TODO Translate [Reference] 'Made it a snowy day.'
+commands.snow.success=
 //TODO Translate [Reference] '^c:F2E200;spawncoins ^c:FFFFFF;playerName petalAmount'
 commands.spawnCoins.description=
 //TODO Translate [Reference] 'Spawned {0-amount} petals in coins for {1-player}'
@@ -268,9 +294,9 @@ commands.tileAt.description=
 commands.tileAt.failParse=
 //TODO Translate [Reference] 'Tile not found'
 commands.tileAt.notFound=
-//TODO Translate [Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: false)'
+//TODO Translate [Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: false, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
 commands.tileAt.success.false=
-//TODO Translate [Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true)'
+//TODO Translate [Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
 commands.tileAt.success.true=
 commands.traceStart.description=
 //TODO Translate [Reference] 'Started tracing.'
@@ -297,3 +323,9 @@ commands.unmute.failure=
 commands.unmute.success=
 //TODO Translate [Reference] 'Unrecognised command :'{0-command}''
 commands.unrecognised=
+//TODO Translate [Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
+commands.weather.description=
+//TODO Translate [Reference] 'Unable to set weather: {0-weather}. Does not exist.'
+commands.weather.noweather=
+//TODO Translate [Reference] 'Set weather to: {0-weather}.'
+commands.weather.success=
