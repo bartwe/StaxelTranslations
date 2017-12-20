@@ -104,11 +104,11 @@ commands.giveallrecipes.description=^c:F2E200;Give all recipes ^c:FFFFFF;(玩家
 //[Reference] 'Done!'
 commands.giveallrecipes.success=成功!
 //[Reference] '^c:F2E200;givepetals ^c:FFFFFF;playerName amount'
-commands.givePetals.description=^c:F2E200;givepetals ^c:FFFFFF;玩家名 数量
+commands.givePetals.description=^c:F2E200;givepetals ^c:FFFFFF;玩家名 花币数量
 //[Reference] 'Petal amount needs to be a positive number'
-commands.givePetals.invalidNumber=花瓣数量必须为正数
+commands.givePetals.invalidNumber=花币数量必须为正数
 //[Reference] 'Gave {0-player} {1-amount} petals'
-commands.givePetals.success=给予 {0-player} {1-amount} 花瓣
+commands.givePetals.success=给予 {0-player} {1-amount} 花币
 //[Reference] '^c:F2E200;? ^c:FFFFFF;(optional)commandName'
 commands.help.altDescription=^c:F2E200;? ^c:FFFFFF;(命令名)
 //[Reference] 'Command not found: '{0-command}''
@@ -237,9 +237,9 @@ commands.snow.description=
 //[Reference] 'Made it a snowy day.'
 commands.snow.success=下雪咯!
 //[Reference] '^c:F2E200;spawncoins ^c:FFFFFF;playerName petalAmount'
-commands.spawnCoins.description=^c:F2E200;spawncoins ^c:FFFFFF;玩家名 花瓣数量
+commands.spawnCoins.description=^c:F2E200;spawncoins ^c:FFFFFF;玩家名 花币数量
 //[Reference] 'Spawned {0-amount} petals in coins for {1-player}'
-commands.spawnCoins.success=生成 {0-amount} 花瓣给 {1-player}
+commands.spawnCoins.success=生成 {0-amount} 花币给 {1-player}
 //[Reference] '^c:F2E200;spawnitem ^c:FFFFFF;playerName item(kind/specification{})'
 commands.spawnItem.description=^c:F2E200;spawnitem ^c:FFFFFF;玩家名 物品的(种类/数据信息{})
 //[Reference] 'Item not found.'
@@ -259,15 +259,15 @@ commands.spawnTile.notFound=无法找到该瓷砖
 //[Reference] 'Spawn tile successful.'
 commands.spawnTile.success=已生成该瓷砖
 //[Reference] '^c:F2E200;stealpetals ^c:FFFFFF;amount (optional)remove(true/false)'
-commands.stealPetals.description=^c:F2E200;stealpetals ^c:FFFFFF;数量 [true/false]
+commands.stealPetals.description=^c:F2E200;stealpetals ^c:FFFFFF;花币数量 [true/false]
 //[Reference] 'Reset must be true or false.'
 commands.stealPetals.invalidReset=重置小偷状态必须为true或false
 //[Reference] '{0-player} stole {1-amount} petals'
-commands.stealPetals.success={0-player} 被偷了 {1-amount} 枚花瓣
+commands.stealPetals.success={0-player} 被偷了 {1-amount} 枚花币
 //[Reference] '{0-player} is no longer a thief.'
 commands.stealPetals.success.reset={0-player} 不再是小偷了。
 //[Reference] '{0-player} stole {1-amount} petals. Thief!'
-commands.stealPetals.success.thief={0-player} 偷了 {1-amount} 枚花瓣. 小偷啊!快抓他!
+commands.stealPetals.success.thief={0-player} 偷了 {1-amount} 枚花币. 小偷啊!快抓他!
 commands.sun.description=
 //[Reference] 'Made it a sunny day.'
 commands.sun.success=阳光普照!
