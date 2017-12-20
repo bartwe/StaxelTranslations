@@ -1,331 +1,331 @@
 language.code=zh-CN
 language=简体中文
 
-//TODO Translate [Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)'
-commands.advanceTime.description=
-//TODO Translate [Reference] 'Enter a float by which to advance time. 1.0 is a full day'
-commands.advanceTime.enterFloat=
-//TODO Translate [Reference] 'failed: arg(1) must be a number. Floating points OK'
-commands.advanceTime.mustBeNumber=
-//TODO Translate [Reference] 'Advancing time by {0-time}...'
-commands.advanceTime.success=
-//TODO Translate [Reference] '^c:F2E200;ban ^c:FFFFFF;playerName (optional)reason'
-commands.ban.description=
-//TODO Translate [Reference] 'Unable to ban {0-player}: player is an admin or already banned.'
-commands.ban.failure=
-//TODO Translate [Reference] '{0-player} has been banned from the server.'
-commands.ban.success=
-//TODO Translate [Reference] '^c:F2E200;bla'
-commands.bla.description=
-//TODO Translate [Reference] 'Moved to a new location in debug region: {0-region}'
-commands.bla.success=
-//TODO Translate [Reference] '^c:F2E200;cameraCapture'
-commands.cameraCapture.description=
-//TODO Translate [Reference] 'Captured player camera'
-commands.cameraCapture.success=
-//TODO Translate [Reference] '^c:F2E200;cameraCapture ^c:FFFFFF;savedCameraFilePath'
-commands.cameraLoad.description=
-//TODO Translate [Reference] 'Loaded player camera from file: {0-filename}'
-commands.cameraLoad.success=
-//TODO Translate [Reference] '^c:F2E200;cameraPlay ^c:FFFFFF;(optional)duration(0.0-1.0) (optional)loop(true/false) (optional)savedCameraFilePath'
-commands.cameraPlay.description=
-//TODO Translate [Reference] 'Playing back player camera'
-commands.cameraPlay.success=
-//TODO Translate [Reference] '^c:F2E200;cameraReset'
-commands.cameraReset.description=
-//TODO Translate [Reference] 'Reset player camera'
-commands.cameraReset.success=
-//TODO Translate [Reference] '^c:F2E200;cameraSave ^c:FFFFFF;cameraSaveFilePath'
-commands.cameraSave.description=
-//TODO Translate [Reference] 'Saved player camera to file: {0-filename}'
-commands.cameraSave.success=
-//TODO Translate [Reference] '^c:F2E200;cameraStop'
-commands.cameraStop.description=
-//TODO Translate [Reference] 'Stopped camera mode'
-commands.cameraStop.success=
-//TODO Translate [Reference] 'Not looking at an animal'
-commands.changeMood.animalNotFound=
-//TODO Translate [Reference] '^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)'
-commands.changeMood.description=
-//TODO Translate [Reference] 'Mood altered successfully'
-commands.changeMood.success=
-//TODO Translate [Reference] '^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)'
-commands.creative.description=
-//TODO Translate [Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
-commands.creative.success=
-//TODO Translate [Reference] '^c:F2E200;currentTime'
-commands.currentTime.description=
-//TODO Translate [Reference] 'The day is {0-day} and phase is {1:G2-phase} ({2-time}).'
-commands.currentTime.success=
-//TODO Translate [Reference] '^c:F2E200;demoMode ^c:FFFFFF;(optional)on(true/false)'
-commands.demoMode.description=
-//TODO Translate [Reference] 'Switched server demo mode to {0-demoMode}'
-commands.demoMode.success=
-//TODO Translate [Reference] '^c:F2E200;describeitem ^c:FFFFFF;(optional)playerName'
-commands.describeItem.description=
-//TODO Translate [Reference] 'Item description: {0-itemDesc}'
-commands.describeItem.success=
-//TODO Translate [Reference] '^c:F2E200;ditto ^c:FFFFFF; playerName villagernpcCode'
-commands.ditto.description=
-//TODO Translate [Reference] 'Player {0-playerName} does not have enough inventory space for all npc clothing items'
-commands.ditto.notEnoughSpace=
-//TODO Translate [Reference] 'Player {0-playerName} disguised successfully'
-commands.ditto.success=
-//TODO Translate [Reference] '^c:F2E200;doemote ^c:FFFFFF;emoteName (optional)useLookatEntity(true/false)'
-commands.doemote.description=
-//TODO Translate [Reference] '^c:F2E200;emote ^c:FFFFFF;emoteName'
-commands.emote.description=
-//TODO Translate [Reference] 'No such emote {0-emote}'
-commands.emote.noSuchEmote=
-//TODO Translate [Reference] '^c:F2E200;enablecheats^c:FFFFFF;'
-commands.enablecheats.description=
-//TODO Translate [Reference] 'Failed to enable cheats.'
-commands.enablecheats.failure=
-//TODO Translate [Reference] 'Cheats have been enabled.'
-commands.enablecheats.success=
-//TODO Translate [Reference] '^c:F2E200;entityInfo ^c:FFFFFF;entityID'
-commands.entityInfo.description=
-//TODO Translate [Reference] 'You need to include an EntityID!'
-commands.entityInfo.entityNumber=
-//TODO Translate [Reference] 'Invalid EntityID!'
-commands.entityInfo.mustBeNumber=
-//TODO Translate [Reference] 'There is no such entity on the server'
-commands.entityInfo.noSuchEntity=
-//TODO Translate [Reference] 'Entity data: {0-data}'
-commands.entityInfo.success=
-//TODO Translate [Reference] 'Entity not found'
-commands.entityNotFound=
-//TODO Translate [Reference] '^c:F2E200;fly ^c:FFFFFF;(optional)playerName (optional)startFlying(true/false)'
-commands.flyMode.description=
-//TODO Translate [Reference] 'Switched flying mode to: {0-flymode}'
-commands.flyMode.success=
-//TODO Translate [Reference] '^c:F2E200;Give all recipes ^c:FFFFFF;(optional)playerName'
-commands.giveallrecipes.description=
-//TODO Translate [Reference] 'Done!'
-commands.giveallrecipes.success=
-//TODO Translate [Reference] '^c:F2E200;givepetals ^c:FFFFFF;playerName amount'
-commands.givePetals.description=
-//TODO Translate [Reference] 'Petal amount needs to be a positive number'
-commands.givePetals.invalidNumber=
-//TODO Translate [Reference] 'Gave {0-player} {1-amount} petals'
-commands.givePetals.success=
-//TODO Translate [Reference] '^c:F2E200;? ^c:FFFFFF;(optional)commandName'
-commands.help.altDescription=
-//TODO Translate [Reference] 'Command not found: '{0-command}''
-commands.help.commandNotFound=
-//TODO Translate [Reference] '^c:F2E200;help ^c:FFFFFF;(optional)commandName'
-commands.help.description=
-//TODO Translate [Reference] 'Command list (() brackets denote possible values):'
-commands.help.success=
+//[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)'
+commands.advanceTime.description=^c:F2E200;advanceTime ^c:FFFFFF;数量：(0.0-1.0)
+//[Reference] 'Enter a float by which to advance time. 1.0 is a full day'
+commands.advanceTime.enterFloat=输入要推进时间的小数。1是一整天
+//[Reference] 'failed: arg(1) must be a number. Floating points OK'
+commands.advanceTime.mustBeNumber=错误：arg(1)必须为数字.浮点数也可以
+//[Reference] 'Advancing time by {0-time}...'
+commands.advanceTime.success=前进{0-time}时间
+//[Reference] '^c:F2E200;ban ^c:FFFFFF;playerName (optional)reason'
+commands.ban.description=^c:F2E200;ban ^c:FFFFFF;玩家名（可选）原因
+//[Reference] 'Unable to ban {0-player}: player is an admin or already banned.'
+commands.ban.failure=无法监禁 {0-player} ：玩家是管理员或已经被监禁
+//[Reference] '{0-player} has been banned from the server.'
+commands.ban.success={0-player}已经被服务器监禁。
+//[Reference] '^c:F2E200;bla'
+commands.bla.description=^c:F2E200;bla
+//[Reference] 'Moved to a new location in debug region: {0-region}'
+commands.bla.success=移动到一个新的调试区域： {0-region}
+//[Reference] '^c:F2E200;cameraCapture'
+commands.cameraCapture.description=^c:F2E200;镜头捕捉
+//[Reference] 'Captured player camera'
+commands.cameraCapture.success=镜头捕捉玩家
+//[Reference] '^c:F2E200;cameraCapture ^c:FFFFFF;savedCameraFilePath'
+commands.cameraLoad.description=^c:F2E200;镜头捕捉 ^c:FFFFFF;保存镜头捕捉文件路径
+//[Reference] 'Loaded player camera from file: {0-filename}'
+commands.cameraLoad.success=已从文件：{0-filename}中加载玩家
+//[Reference] '^c:F2E200;cameraPlay ^c:FFFFFF;(optional)duration(0.0-1.0) (optional)loop(true/false) (optional)savedCameraFilePath'
+commands.cameraPlay.description=^c:F2E200;cameraPlay ^c:FFFFFF;(时间[0.0-1.0]) [true/false] (存储路径)
+//[Reference] 'Playing back player camera'
+commands.cameraPlay.success=回放玩家镜头
+//[Reference] '^c:F2E200;cameraReset'
+commands.cameraReset.description=^c:F2E200;重置镜头
+//[Reference] 'Reset player camera'
+commands.cameraReset.success=重置玩家镜头
+//[Reference] '^c:F2E200;cameraSave ^c:FFFFFF;cameraSaveFilePath'
+commands.cameraSave.description=^c:F2E200;cameraSave ^c:FFFFFF;保存路径
+//[Reference] 'Saved player camera to file: {0-filename}'
+commands.cameraSave.success=已保存玩家摄影到文件夹：{0-filename}
+//[Reference] '^c:F2E200;cameraStop'
+commands.cameraStop.description=^c:F2E200;停止摄影模式
+//[Reference] 'Stopped camera mode'
+commands.cameraStop.success=摄影模式已停止
+//[Reference] 'Not looking at an animal'
+commands.changeMood.animalNotFound=不看动物
+//[Reference] '^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)'
+commands.changeMood.description=^c:F2E200;changeMood ^c:FFFFFF;increase/decrease[true/false]
+//[Reference] 'Mood altered successfully'
+commands.changeMood.success=情绪修改成功
+//[Reference] '^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)'
+commands.creative.description=^c:F2E200;creative ^c:FFFFFF;(玩家名) (true/false)
+//[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
+commands.creative.success=临时修改 {0-user} 的创造模式为 {1-creative}
+//[Reference] '^c:F2E200;currentTime'
+commands.currentTime.description=^c:F2E200;当前时间
+//[Reference] 'The day is {0-day} and phase is {1:G2-phase} ({2-time}).'
+commands.currentTime.success=现在是 {0-day} 天,第{1:G2-phase} 周 ,({2-time})
+//[Reference] '^c:F2E200;demoMode ^c:FFFFFF;(optional)on(true/false)'
+commands.demoMode.description=^c:F2E200;demoMode ^c:FFFFFF;(true/false)
+//[Reference] 'Switched server demo mode to {0-demoMode}'
+commands.demoMode.success=切换服务器测试模式为{0-demoMode}
+//[Reference] '^c:F2E200;describeitem ^c:FFFFFF;(optional)playerName'
+commands.describeItem.description=^c:F2E200;describeitem ^c:FFFFFF;(玩家名)
+//[Reference] 'Item description: {0-itemDesc}'
+commands.describeItem.success=物品介绍: {0-itemDesc}
+//[Reference] '^c:F2E200;ditto ^c:FFFFFF; playerName villagernpcCode'
+commands.ditto.description=^c:F2E200;ditto ^c:FFFFFF; 玩家名 村民代码
+//[Reference] 'Player {0-playerName} does not have enough inventory space for all npc clothing items'
+commands.ditto.notEnoughSpace=玩家 {0-playerName} 没有足够的空间来装备NPC的衣服。
+//[Reference] 'Player {0-playerName} disguised successfully'
+commands.ditto.success=玩家 {0-playerName} 伪装成功
+//[Reference] '^c:F2E200;doemote ^c:FFFFFF;emoteName (optional)useLookatEntity(true/false)'
+commands.doemote.description=^c:F2E200;doemote ^c:FFFFFF;表情名 (true/false)
+//[Reference] '^c:F2E200;emote ^c:FFFFFF;emoteName'
+commands.emote.description=^c:F2E200;emote ^c:FFFFFF;表情名
+//[Reference] 'No such emote {0-emote}'
+commands.emote.noSuchEmote=没有该表情 {0-emote}
+//[Reference] '^c:F2E200;enablecheats^c:FFFFFF;'
+commands.enablecheats.description=^c:F2E200;enablecheats^c:FFFFFF;
+//[Reference] 'Failed to enable cheats.'
+commands.enablecheats.failure=作弊开启失败
+//[Reference] 'Cheats have been enabled.'
+commands.enablecheats.success=作弊开启成功
+//[Reference] '^c:F2E200;entityInfo ^c:FFFFFF;entityID'
+commands.entityInfo.description=^c:F2E200;entityInfo ^c:FFFFFF;物品ID
+//[Reference] 'You need to include an EntityID!'
+commands.entityInfo.entityNumber=你需要填写物品ID
+//[Reference] 'Invalid EntityID!'
+commands.entityInfo.mustBeNumber=无效的物品ID
+//[Reference] 'There is no such entity on the server'
+commands.entityInfo.noSuchEntity=服务器当中没有这种物品
+//[Reference] 'Entity data: {0-data}'
+commands.entityInfo.success=Entity data: {0-data}
+//[Reference] 'Entity not found'
+commands.entityNotFound=无法找到该物品
+//[Reference] '^c:F2E200;fly ^c:FFFFFF;(optional)playerName (optional)startFlying(true/false)'
+commands.flyMode.description=^c:F2E200;fly ^c:FFFFFF;(玩家名) (true/false)
+//[Reference] 'Switched flying mode to: {0-flymode}'
+commands.flyMode.success=切换飞行模式为: {0-flymode}
+//[Reference] '^c:F2E200;Give all recipes ^c:FFFFFF;(optional)playerName'
+commands.giveallrecipes.description=^c:F2E200;Give all recipes ^c:FFFFFF;(玩家名)
+//[Reference] 'Done!'
+commands.giveallrecipes.success=成功!
+//[Reference] '^c:F2E200;givepetals ^c:FFFFFF;playerName amount'
+commands.givePetals.description=^c:F2E200;givepetals ^c:FFFFFF;玩家名 数量
+//[Reference] 'Petal amount needs to be a positive number'
+commands.givePetals.invalidNumber=花瓣数量必须为正数
+//[Reference] 'Gave {0-player} {1-amount} petals'
+commands.givePetals.success=给予 {0-player} {1-amount} 花瓣
+//[Reference] '^c:F2E200;? ^c:FFFFFF;(optional)commandName'
+commands.help.altDescription=^c:F2E200;? ^c:FFFFFF;(命令名)
+//[Reference] 'Command not found: '{0-command}''
+commands.help.commandNotFound=无法找该命令：'{0-command}'
+//[Reference] '^c:F2E200;help ^c:FFFFFF;(optional)commandName'
+commands.help.description=^c:F2E200;help ^c:FFFFFF;(命令名)
+//[Reference] 'Command list (() brackets denote possible values):'
+commands.help.success=命令列表(()表示可选值,[]表示必选值)
 commands.inspect.description=
-//TODO Translate [Reference] 'Inspection success.'
-commands.inspect.success=
-//TODO Translate [Reference] 'invalid args'
-commands.invalidArgs=
-//TODO Translate [Reference] '^c:F2E200;kick ^c:FFFFFF;playerName'
-commands.kick.description=
-//TODO Translate [Reference] 'Unable to kick {0-player}: player is an admin or not online.'
-commands.kick.failure=
-//TODO Translate [Reference] '{0-player} has been ejected from the server.'
-commands.kick.success=
+//[Reference] 'Inspection success.'
+commands.inspect.success=检查成功。
+//[Reference] 'invalid args'
+commands.invalidArgs=无效的参数
+//[Reference] '^c:F2E200;kick ^c:FFFFFF;playerName'
+commands.kick.description=^c:F2E200;kick ^c:FFFFFF;玩家名
+//[Reference] 'Unable to kick {0-player}: player is an admin or not online.'
+commands.kick.failure=无法踢出 {0-player}：玩家为管理员或不在线。
+//[Reference] '{0-player} has been ejected from the server.'
+commands.kick.success={0-player}被服务器踢出。
 commands.loadDesign.description=
-//TODO Translate [Reference] 'loadDesign requires a filename/design code'
-commands.loadDesign.needFileName=
-//TODO Translate [Reference] 'No such design {0-design}'
-commands.loadDesign.noSuchDesign=
-//TODO Translate [Reference] 'No such file {0-file}'
-commands.loadDesign.noSuchFile=
-//TODO Translate [Reference] 'Design loaded successfully'
-commands.loadDesign.success=
-//TODO Translate [Reference] '^c:F2E200;model ^c:FFFFFF;(optional)playerName (optional)modelFileName'
-commands.model.description=
-//TODO Translate [Reference] 'Could not switch to character model '{0-model}' not found in assets.'
-commands.model.notFound=
-//TODO Translate [Reference] 'Switched character model to: {0-model}'
-commands.model.success=
-//TODO Translate [Reference] '^c:F2E200;mute ^c:FFFFFF;playerName (optional[default 60])lengthInMinutes'
-commands.mute.description=
-//TODO Translate [Reference] 'Unable to mute {0-player}: player is an admin.'
-commands.mute.failure=
-//TODO Translate [Reference] 'Invalid time (should be in whole minutes)'
-commands.mute.invalidTime=
-//TODO Translate [Reference] '{0-player} has been silenced.'
-commands.mute.success=
-//TODO Translate [Reference] '^c:F2E200;noclip ^c:FFFFFF;(optional)playerName (optional)startNoclip(true/false)'
-commands.noClip.description=
-//TODO Translate [Reference] 'Switched noclip mode to: {0-noclip}'
-commands.noClip.success=
-//TODO Translate [Reference] '{0-user} does not have the correct rights to use this command'
-commands.noRights=
-//TODO Translate [Reference] 'No such player '{0-player}''
-commands.noSuchPlayer=
-//TODO Translate [Reference] 'Not a player entity.'
-commands.notAPlayer=
-//TODO Translate [Reference] '^c:F2E200;op ^c:FFFFFF;playerName'
-commands.op.description=
-//TODO Translate [Reference] 'Unable to promote {0-player}.'
-commands.op.failure=
-//TODO Translate [Reference] '{0-player} has been promoted.'
-commands.op.success=
-//TODO Translate [Reference] 'Player {0-player} not found.'
-commands.op.userNotFound=
-//TODO Translate [Reference] '^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime'
-commands.pe.description=
-//TODO Translate [Reference] '^c:F2E200;plantgrowth'
-commands.plantGrowth.description=
-//TODO Translate [Reference] 'Not a plant.'
-commands.plantGrowth.noPlant=
-//TODO Translate [Reference] 'Plant {0-plant} at stage {1-stage}'
-commands.plantGrowth.success=
-//TODO Translate [Reference] 'Player Entity not found'
-commands.playerEntityNotFound=
-//TODO Translate [Reference] '^c:F2E200;players'
-commands.players.description=
-//TODO Translate [Reference] 'Players: {0-playerlist}'
-commands.players.success=
-//TODO Translate [Reference] '^c:F2E200;playExpression ^c:FFFFFF;expressionCode (optional)displayTime'
-commands.playExpression.description=
-//TODO Translate [Reference] 'Aliases:'
-commands.playExpression.list=
-//TODO Translate [Reference] 'Expression not found {0-expression}'
-commands.playExpression.noExpression=
-//TODO Translate [Reference] 'Expression played successfully'
-commands.playExpression.success=
-//TODO Translate [Reference] '^c:F2E200;position ^c:FFFFFF;(optional)playerName'
-commands.position.description=
-//TODO Translate [Reference] 'Failed to find player'
-commands.position.failed=
-//TODO Translate [Reference] 'Position: {0-position}, Heading: {1-heading}'
-commands.position.success=
-//TODO Translate [Reference] '^c:F2E200;qs ^c:FFFFFF;(optional)startFlying(true/false)'
-commands.quickStart.altDescription=
-//TODO Translate [Reference] '^c:F2E200;quickStart ^c:FFFFFF;(optional)startFlying(true/false)'
-commands.quickStart.description=
-//TODO Translate [Reference] 'Quick start success. Switched flying mode to: {0-flymode}'
-commands.quickStart.success=
+//[Reference] 'loadDesign requires a filename/design code'
+commands.loadDesign.needFileName=加载设计需要文件名/设计的代码
+//[Reference] 'No such design {0-design}'
+commands.loadDesign.noSuchDesign=没有改设计 {0-design}
+//[Reference] 'No such file {0-file}'
+commands.loadDesign.noSuchFile=没有该文件 {0-file}
+//[Reference] 'Design loaded successfully'
+commands.loadDesign.success=设计加载成功
+//[Reference] '^c:F2E200;model ^c:FFFFFF;(optional)playerName (optional)modelFileName'
+commands.model.description=^c:F2E200;model ^c:FFFFFF;(玩家名) (模型文件名)
+//[Reference] 'Could not switch to character model '{0-model}' not found in assets.'
+commands.model.notFound=无法切换角色模型：'{0-model}' ,无法找到该资源
+//[Reference] 'Switched character model to: {0-model}'
+commands.model.success=已切换角色模型为： {0-model}
+//[Reference] '^c:F2E200;mute ^c:FFFFFF;playerName (optional[default 60])lengthInMinutes'
+commands.mute.description=^c:F2E200;mute ^c:FFFFFF;玩家名 (默认 60,可选)分钟
+//[Reference] 'Unable to mute {0-player}: player is an admin.'
+commands.mute.failure=无法禁言 {0-player}:玩家是管理员。
+//[Reference] 'Invalid time (should be in whole minutes)'
+commands.mute.invalidTime=无效时间（必须为整数）
+//[Reference] '{0-player} has been silenced.'
+commands.mute.success={0-player}已被禁言
+//[Reference] '^c:F2E200;noclip ^c:FFFFFF;(optional)playerName (optional)startNoclip(true/false)'
+commands.noClip.description='^c:F2E200;noclip ^c:FFFFFF;(玩家名)(true/false)
+//[Reference] 'Switched noclip mode to: {0-noclip}'
+commands.noClip.success=切换穿墙模式为：{0-noclip}
+//[Reference] '{0-user} does not have the correct rights to use this command'
+commands.noRights={0-user} 没有该权限
+//[Reference] 'No such player '{0-player}''
+commands.noSuchPlayer=该玩家'{0-player}'不存在
+//[Reference] 'Not a player entity.'
+commands.notAPlayer=不是玩家
+//[Reference] '^c:F2E200;op ^c:FFFFFF;playerName'
+commands.op.description=^c:F2E200;op ^c:FFFFFF;玩家名
+//[Reference] 'Unable to promote {0-player}.'
+commands.op.failure=无法提升 {0-player}权限
+//[Reference] '{0-player} has been promoted.'
+commands.op.success={0-player} 权限提升
+//[Reference] 'Player {0-player} not found.'
+commands.op.userNotFound=无法找到玩家 {0-player}
+//[Reference] '^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime'
+commands.pe.description=^c:F2E200;pe ^c:FFFFFF;昵称 (显示时间)
+//[Reference] '^c:F2E200;plantgrowth'
+commands.plantGrowth.description=^c:F2E200;plantgrowth
+//[Reference] 'Not a plant.'
+commands.plantGrowth.noPlant=不是农作物
+//[Reference] 'Plant {0-plant} at stage {1-stage}'
+commands.plantGrowth.success=将 {0-plant} 成长到第 {1-stage} 阶段
+//[Reference] 'Player Entity not found'
+commands.playerEntityNotFound=玩家物品不存在
+//[Reference] '^c:F2E200;players'
+commands.players.description=^c:F2E200;players
+//[Reference] 'Players: {0-playerlist}'
+commands.players.success=玩家：{0-playerlist}
+//[Reference] '^c:F2E200;playExpression ^c:FFFFFF;expressionCode (optional)displayTime'
+commands.playExpression.description=^c:F2E200;playExpression ^c:FFFFFF;表情代码 (显示时间)
+//[Reference] 'Aliases:'
+commands.playExpression.list=Aliases:
+//[Reference] 'Expression not found {0-expression}'
+commands.playExpression.noExpression=无法找到该表情：{0-expression}
+//[Reference] 'Expression played successfully'
+commands.playExpression.success=表情展示成功
+//[Reference] '^c:F2E200;position ^c:FFFFFF;(optional)playerName'
+commands.position.description=^c:F2E200;position ^c:FFFFFF;(玩家名)
+//[Reference] 'Failed to find player'
+commands.position.failed=无法找到该玩家
+//[Reference] 'Position: {0-position}, Heading: {1-heading}'
+commands.position.success=坐标： {0-position}, 朝向： {1-heading}
+//[Reference] '^c:F2E200;qs ^c:FFFFFF;(optional)startFlying(true/false)'
+commands.quickStart.altDescription=^c:F2E200;qs ^c:FFFFFF;(true/false)
+//[Reference] '^c:F2E200;quickStart ^c:FFFFFF;(optional)startFlying(true/false)'
+commands.quickStart.description=^c:F2E200;quickStart ^c:FFFFFF;(true/false)
+//[Reference] 'Quick start success. Switched flying mode to: {0-flymode}'
+commands.quickStart.success=快速启动成功。切换飞行模式为: {0-flymode}
 commands.rain.description=
-//TODO Translate [Reference] 'Made it a rainy day.'
-commands.rain.success=
-//TODO Translate [Reference] '^c:F2E200;reload'
-commands.reload.description=
-//TODO Translate [Reference] 'Reload requested.'
-commands.reload.success=
-//TODO Translate [Reference] '^c:F2E200;resetplayer'
-commands.resetPlayer.description=
-//TODO Translate [Reference] 'Reset successful.'
-commands.resetPlayer.success=
-commands.returnhome.description=
-//TODO Translate [Reference] '^c:F2E200;saveDesign ^c:FFFFFF;fileName'
-commands.saveDesign.description=
-//TODO Translate [Reference] 'A filename is required to save a design'
-commands.saveDesign.needFileName=
-//TODO Translate [Reference] 'Character design file saved at {0-path}'
-commands.saveDesign.success=
-//TODO Translate [Reference] '^c:F2E200;saveOutfit ^c:FFFFFF;fileName'
-commands.saveOutfit.description=
-//TODO Translate [Reference] 'Character outfit file saved at {0-path}'
-commands.saveOutfit.success=
-//TODO Translate [Reference] '^c:F2E200;seed'
-commands.seed.description=
-//TODO Translate [Reference] 'Seed: {0-seed}'
-commands.seed.success=
-//TODO Translate [Reference] '^c:F2E200;creativeMode ^c:FFFFFF;(optional)on(true/false)'
-commands.serverCreative.description=
-//TODO Translate [Reference] 'Switched server creative mode to {0-creative} (persistent)'
-commands.serverCreative.success=
+//[Reference] 'Made it a rainy day.'
+commands.rain.success=下雨啦!
+//[Reference] '^c:F2E200;reload'
+commands.reload.description=^c:F2E200;重载服务器
+//[Reference] 'Reload requested.'
+commands.reload.success=重载成功
+//[Reference] '^c:F2E200;resetplayer'
+commands.resetPlayer.description=^c:F2E200;重置玩家
+//[Reference] 'Reset successful.'
+commands.resetPlayer.success=重置成功
+commands.returnhome.description=回家
+//[Reference] '^c:F2E200;saveDesign ^c:FFFFFF;fileName'
+commands.saveDesign.description=^c:F2E200;saveDesign ^c:FFFFFF;文件名
+//[Reference] 'A filename is required to save a design'
+commands.saveDesign.needFileName=需要文件名来保存设计
+//[Reference] 'Character design file saved at {0-path}'
+commands.saveDesign.success=角色设计文件已被保存到 {0-path}
+//[Reference] '^c:F2E200;saveOutfit ^c:FFFFFF;fileName'
+commands.saveOutfit.description=^c:F2E200;saveOutfit ^c:FFFFFF;文件名
+//[Reference] 'Character outfit file saved at {0-path}'
+commands.saveOutfit.success=角色套装文件已被保存到 {0-path}
+//[Reference] '^c:F2E200;seed'
+commands.seed.description=^c:F2E200;seed
+//[Reference] 'Seed: {0-seed}'
+commands.seed.success=种子: {0-seed}
+//[Reference] '^c:F2E200;creativeMode ^c:FFFFFF;(optional)on(true/false)'
+commands.serverCreative.description=^c:F2E200;creativeMode ^c:FFFFFF;(true/false)
+//[Reference] 'Switched server creative mode to {0-creative} (persistent)'
+commands.serverCreative.success=切换服务器创造模式为{0-creative}(永久)
 commands.snow.description=
-//TODO Translate [Reference] 'Made it a snowy day.'
-commands.snow.success=
-//TODO Translate [Reference] '^c:F2E200;spawncoins ^c:FFFFFF;playerName petalAmount'
-commands.spawnCoins.description=
-//TODO Translate [Reference] 'Spawned {0-amount} petals in coins for {1-player}'
-commands.spawnCoins.success=
-//TODO Translate [Reference] '^c:F2E200;spawnitem ^c:FFFFFF;playerName item(kind/specification{})'
-commands.spawnItem.description=
-//TODO Translate [Reference] 'Item not found.'
-commands.spawnItem.notFound=
-//TODO Translate [Reference] 'Spawn item successful.'
-commands.spawnItem.success=
-//TODO Translate [Reference] '^c:F2E200;spawnmaterial ^c:FFFFFF;playerName materialCode'
-commands.spawnMaterial.description=
-//TODO Translate [Reference] 'Material kind not found.'
-commands.spawnMaterial.notFound=
-//TODO Translate [Reference] 'Spawn material successful'
-commands.spawnMaterial.success=
-//TODO Translate [Reference] '^c:F2E200;spawntile ^c:FFFFFF;playerName tileCode'
-commands.spawnTile.description=
-//TODO Translate [Reference] 'Tile kind not found.'
-commands.spawnTile.notFound=
-//TODO Translate [Reference] 'Spawn tile successful.'
-commands.spawnTile.success=
-//TODO Translate [Reference] '^c:F2E200;stealpetals ^c:FFFFFF;amount (optional)remove(true/false)'
-commands.stealPetals.description=
-//TODO Translate [Reference] 'Reset must be true or false.'
-commands.stealPetals.invalidReset=
-//TODO Translate [Reference] '{0-player} stole {1-amount} petals'
-commands.stealPetals.success=
-//TODO Translate [Reference] '{0-player} is no longer a thief.'
-commands.stealPetals.success.reset=
-//TODO Translate [Reference] '{0-player} stole {1-amount} petals. Thief!'
-commands.stealPetals.success.thief=
+//[Reference] 'Made it a snowy day.'
+commands.snow.success=下雪咯!
+//[Reference] '^c:F2E200;spawncoins ^c:FFFFFF;playerName petalAmount'
+commands.spawnCoins.description=^c:F2E200;spawncoins ^c:FFFFFF;玩家名 花瓣数量
+//[Reference] 'Spawned {0-amount} petals in coins for {1-player}'
+commands.spawnCoins.success=生成 {0-amount} 花瓣给 {1-player}
+//[Reference] '^c:F2E200;spawnitem ^c:FFFFFF;playerName item(kind/specification{})'
+commands.spawnItem.description=^c:F2E200;spawnitem ^c:FFFFFF;玩家名 物品的(种类/数据信息{})
+//[Reference] 'Item not found.'
+commands.spawnItem.notFound=无法找到该物品。
+//[Reference] 'Spawn item successful.'
+commands.spawnItem.success=已生成物品。
+//[Reference] '^c:F2E200;spawnmaterial ^c:FFFFFF;playerName materialCode'
+commands.spawnMaterial.description=^c:F2E200;spawnmaterial ^c:FFFFFF;玩家名 材料代码
+//[Reference] 'Material kind not found.'
+commands.spawnMaterial.notFound=无法找到该材料类型。
+//[Reference] 'Spawn material successful'
+commands.spawnMaterial.success=已生成材料。
+//[Reference] '^c:F2E200;spawntile ^c:FFFFFF;playerName tileCode'
+commands.spawnTile.description=^c:F2E200;spawntile ^c:FFFFFF;玩家名 瓷砖代码
+//[Reference] 'Tile kind not found.'
+commands.spawnTile.notFound=无法找到该瓷砖
+//[Reference] 'Spawn tile successful.'
+commands.spawnTile.success=已生成该瓷砖
+//[Reference] '^c:F2E200;stealpetals ^c:FFFFFF;amount (optional)remove(true/false)'
+commands.stealPetals.description=^c:F2E200;stealpetals ^c:FFFFFF;数量 [true/false]
+//[Reference] 'Reset must be true or false.'
+commands.stealPetals.invalidReset=重置小偷状态必须为true或false
+//[Reference] '{0-player} stole {1-amount} petals'
+commands.stealPetals.success={0-player} 被偷了 {1-amount} 枚花瓣
+//[Reference] '{0-player} is no longer a thief.'
+commands.stealPetals.success.reset={0-player} 不再是小偷了。
+//[Reference] '{0-player} stole {1-amount} petals. Thief!'
+commands.stealPetals.success.thief={0-player} 偷了 {1-amount} 枚花瓣. 小偷啊!快抓他!
 commands.sun.description=
-//TODO Translate [Reference] 'Made it a sunny day.'
-commands.sun.success=
-//TODO Translate [Reference] '^c:F2E200;teleport ^c:FFFFFF;(optional)playerName location({0,0,0})'
-commands.teleport.description=
-//TODO Translate [Reference] '{0-position} is too far to teleport'
-commands.teleport.distance=
-//TODO Translate [Reference] 'Failed to parse position {0-position}'
-commands.teleport.fail=
-//TODO Translate [Reference] 'Teleport successful.'
-commands.teleport.success=
-//TODO Translate [Reference] '^c:F2E200;tp ^c:FFFFFF;movingPlayerName destinationPlayerName'
-commands.teleportPlayer.description=
+//[Reference] 'Made it a sunny day.'
+commands.sun.success=阳光普照!
+//[Reference] '^c:F2E200;teleport ^c:FFFFFF;(optional)playerName location({0,0,0})'
+commands.teleport.description=^c:F2E200;teleport ^c:FFFFFF;(玩家名) ({0,0,0})
+//[Reference] '{0-position} is too far to teleport'
+commands.teleport.distance={0-position}太远了
+//[Reference] 'Failed to parse position {0-position}'
+commands.teleport.fail=无法传送到{0-position}
+//[Reference] 'Teleport successful.'
+commands.teleport.success=传送成功
+//[Reference] '^c:F2E200;tp ^c:FFFFFF;movingPlayerName destinationPlayerName'
+commands.teleportPlayer.description=^c:F2E200;tp ^c:FFFFFF;被传送玩家名 目标玩家名
 commands.textToSpeech.description=
-//TODO Translate [Reference] 'Saying text.'
-commands.textToSpeech.success=
+//[Reference] 'Saying text.'
+commands.textToSpeech.success=玩家已被传送。
 commands.thunder.description=
-//TODO Translate [Reference] 'success'
-commands.thunder.success=
-//TODO Translate [Reference] '^c:F2E200;tileAt ^c:FFFFFF;(optional)location({0,0,0})'
-commands.tileAt.description=
-//TODO Translate [Reference] 'Failed to parse position {0-position}'
-commands.tileAt.failParse=
-//TODO Translate [Reference] 'Tile not found'
-commands.tileAt.notFound=
-//TODO Translate [Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: false, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
-commands.tileAt.success.false=
-//TODO Translate [Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
-commands.tileAt.success.true=
+//[Reference] 'success'
+commands.thunder.success=成功
+//[Reference] '^c:F2E200;tileAt ^c:FFFFFF;(optional)location({0,0,0})'
+commands.tileAt.description=^c:F2E200;tileAt ^c:FFFFFF;({0,0,0})
+//[Reference] 'Failed to parse position {0-position}'
+commands.tileAt.failParse=无法传送到 {0-position}
+//[Reference] 'Tile not found'
+commands.tileAt.notFound=找不到该瓦片
+//[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: false, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
+commands.tileAt.success.false=瓦片代码： {0-tilecode} 在 {1-position} (过滤器: false, 方位: {2-rotation}, 高度: {3-alt}, 区块: {4-chunk})
+//[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
+commands.tileAt.success.true=瓦片代码： {0-tilecode} 在 {1-position} (过滤器: true, 方位: {2-rotation}, 高度: {3-alt}, 区块: {4-chunk})
 
 commands.traceStart.description=
-//TODO Translate [Reference] 'Started tracing.'
-commands.traceStart.success=
+//[Reference] 'Started tracing.'
+commands.traceStart.success=开始追踪
 commands.traceStop.description=
-//TODO Translate [Reference] 'Stopped tracing.'
-commands.traceStop.success=
+//[Reference] 'Stopped tracing.'
+commands.traceStop.success=停止追踪
 commands.tripod.description=
 //[Reference] '^c:F2E200;unban ^c:FFFFFF;playerName'
-commands.unban.description=解除禁止 playerName
-//TODO Translate [Reference] 'Unable to unban {0-player}: player was not banned.'
-commands.unban.failure=
-//TODO Translate [Reference] '{0-player} has been unbanned from the server.'
-commands.unban.success=
-//TODO Translate [Reference] 'Unknown command :'{0-command}''
-commands.unknown=
-//TODO Translate [Reference] 'Unknown error.'
-commands.unknownError=
+commands.unban.description=^c:F2E200;unban ^c:FFFFFF;玩家名
+//[Reference] 'Unable to unban {0-player}: player was not banned.'
+commands.unban.failure=无法解禁 {0-player}：该玩家未被监禁
+//[Reference] '{0-player} has been unbanned from the server.'
+commands.unban.success={0-player}已被服务器解禁
+//[Reference] 'Unknown command :'{0-command}''
+commands.unknown=未知命令：'{0-command}'
+//[Reference] 'Unknown error.'
+commands.unknownError=未知错误。
 //[Reference] '^c:F2E200;unmute ^c:FFFFFF;playerName'
-commands.unmute.description=解除静音 playerName
-//TODO Translate [Reference] 'Unable to unmute {0-player}: player is not muted.'
-commands.unmute.failure=
-//TODO Translate [Reference] '{0-player} has regained the ability to speak.'
-commands.unmute.success=
-//TODO Translate [Reference] 'Unrecognised command :'{0-command}''
-commands.unrecognised=
-//TODO Translate [Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
-commands.weather.description=
-//TODO Translate [Reference] 'Unable to set weather: {0-weather}. Does not exist.'
-commands.weather.noweather=
-//TODO Translate [Reference] 'Set weather to: {0-weather}.'
-commands.weather.success=
+commands.unmute.description=^c:F2E200;unmute ^c:FFFFFF;玩家名
+//[Reference] 'Unable to unmute {0-player}: player is not muted.'
+commands.unmute.failure=无法解除 {0-player}的禁言状态：玩家未被禁言
+//[Reference] '{0-player} has regained the ability to speak.'
+commands.unmute.success={0-player} 已经恢复了说话的能力。
+//[Reference] 'Unrecognised command :'{0-command}''
+commands.unrecognised=无法识别命令 :'{0-command}'
+//[Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
+commands.weather.description=^c:F2E200;weather ^c:FFFFFF;(Sun/Rain/Snow/Storm/weather.)
+//[Reference] 'Unable to set weather: {0-weather}. Does not exist.'
+commands.weather.noweather=无法设置天气为： {0-weather}。该天气不存在。
+//[Reference] 'Set weather to: {0-weather}.'
+commands.weather.success=将天气设置为： {0-weather}。
