@@ -1,4 +1,6 @@
+//[Reference] 'en-GB'
 language.code=ja-JP
+//[Reference] 'English'
 language=日本語
 
 //[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)'
@@ -65,24 +67,12 @@ commands.demoMode.success=サーバーデモモードを{0-demoMode}に切り替
 commands.describeItem.description=^c:F2E200;describeitem ^c:FFFFFF;(optional)playerName
 //[Reference] 'Item description: {0-itemDesc}'
 commands.describeItem.success=アイテムの説明：{0-itemDesc}
-//TODO Translate [Reference] '^c:F2E200;ditto ^c:FFFFFF; playerName villagernpcCode'
-commands.ditto.description=
-//TODO Translate [Reference] 'Player {0-playerName} does not have enough inventory space for all npc clothing items'
-commands.ditto.notEnoughSpace=
-//TODO Translate [Reference] 'Player {0-playerName} disguised successfully'
-commands.ditto.success=
 //[Reference] '^c:F2E200;doemote ^c:FFFFFF;emoteName (optional)useLookatEntity(true/false)'
 commands.doemote.description=^c:F2E200;doemote ^c:FFFFFF;emoteName (optional)useLookatEntity(true/false)
 //[Reference] '^c:F2E200;emote ^c:FFFFFF;emoteName'
 commands.emote.description=^c:F2E200;emote ^c:FFFFFF;emoteName
 //[Reference] 'No such emote {0-emote}'
 commands.emote.noSuchEmote={0-emote}という感情表現はありません
-//TODO Translate [Reference] '^c:F2E200;enablecheats^c:FFFFFF;'
-commands.enablecheats.description=
-//TODO Translate [Reference] 'Failed to enable cheats.'
-commands.enablecheats.failure=
-//TODO Translate [Reference] 'Cheats have been enabled.'
-commands.enablecheats.success=
 //[Reference] '^c:F2E200;entityInfo ^c:FFFFFF;entityID'
 commands.entityInfo.description=^c:F2E200;entityInfo ^c:FFFFFF;entityID
 //[Reference] 'You need to include an EntityID!'
@@ -167,8 +157,6 @@ commands.op.description=^c:F2E200;op ^c:FFFFFF;playerName
 commands.op.failure={0-player}をプロモートできません。
 //[Reference] '{0-player} has been promoted.'
 commands.op.success={0-player}をプロモートしました。
-//TODO Translate [Reference] 'Player {0-player} not found.'
-commands.op.userNotFound=
 //[Reference] '^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime'
 commands.pe.description=^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime
 //[Reference] '^c:F2E200;plantgrowth'
@@ -234,8 +222,8 @@ commands.serverCreative.description=^c:F2E200;creativeMode ^c:FFFFFF;(optional)o
 //[Reference] 'Switched server creative mode to {0-creative} (persistent)'
 commands.serverCreative.success=サーバーのクリエイティブモードを{0-creative}に切り替えました（持続）
 commands.snow.description=
-//TODO Translate [Reference] 'Made it a snowy day.'
-commands.snow.success=
+//[Reference] 'Made it a snowy day.'
+commands.snow.success=雪の日になりました。
 //[Reference] '^c:F2E200;spawncoins ^c:FFFFFF;playerName petalAmount'
 commands.spawnCoins.description=^c:F2E200;spawncoins ^c:FFFFFF;playerName petalAmount
 //[Reference] 'Spawned {0-amount} petals in coins for {1-player}'
@@ -293,12 +281,10 @@ commands.tileAt.description=^c:F2E200;tileAt ^c:FFFFFF;(optional)location({0,0,0
 commands.tileAt.failParse=ポジション{0-position}の解析に失敗しました
 //[Reference] 'Tile not found'
 commands.tileAt.notFound=タイルが見つかりませんでした
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: false, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
-commands.tileAt.success.false=Tile code: {0-tilecode} at {1-position} (compoundFiller: false)
-//[Validate] Delete this comment if or when the translation is accurate.
+commands.tileAt.success.false=Tile code: {0-tilecode} at {1-position} (compoundFiller: false, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})
 //[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
-commands.tileAt.success.true=Tile code: {0-tilecode} at {1-position} (compoundFiller: true)
+commands.tileAt.success.true=Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})
 commands.traceStart.description=
 //[Reference] 'Started tracing.'
 commands.traceStart.success=トレースを開始しました。
@@ -324,9 +310,9 @@ commands.unmute.failure={0-player}のミュートを解除できません：プ�
 commands.unmute.success={0-player}は再び話せるようになりました。
 //[Reference] 'Unrecognised command :'{0-command}''
 commands.unrecognised=コマンド'{0-command}'を認識できませんでした
-//TODO Translate [Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
-commands.weather.description=
-//TODO Translate [Reference] 'Unable to set weather: {0-weather}. Does not exist.'
-commands.weather.noweather=
-//TODO Translate [Reference] 'Set weather to: {0-weather}.'
-commands.weather.success=
+//[Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
+commands.weather.description=^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)
+//[Reference] 'Unable to set weather: {0-weather}. Does not exist.'
+commands.weather.noweather=天気をセットできません：{0-weather}。存在しません。
+//[Reference] 'Set weather to: {0-weather}.'
+commands.weather.success=天気をセットしました：{0-weather}。
