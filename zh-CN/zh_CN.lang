@@ -1,7 +1,7 @@
 language.code=zh-CN
 language=简体中文
 language.validated=true
-font=staxel/fonts/GhostFlyLovely.otf
+//font=staxel/fonts/GhostFlyLovely.otf
 
 //[Reference] 'Achievement unlocked: {0-achievement}!'
 achievements.achievementUnlocked=成就解锁：{0-achievement}!
@@ -192,8 +192,8 @@ credits.deamonhunter.description=同时也是程序猿.经常帮大家了解如�
 credits.demanRisu.description=所有的分类都是他帮忙写的.
 //[Reference] 'is another member of the programmer team who works on the more tedious stuff.'
 credits.h1n1.description=是程序猿当中的一只,总是在做令人乏味的事情.
-//[Reference] 'A faceless entity between realms; only exists when you're not looking. In its spare time, programs.'
-credits.moocowtg.description=在很多地方都很少见到；只有你不找他的时候才会出现.用业余时间编程.
+//[Reference] 'A faceless entity between realms; only exists when you’re not looking. In its spare time, programs.'
+credits.moocowtg.description=在很多地方都很少见到；只有你不找他的时候才会出现.业余时间喜欢编程.
 //[Reference] 'He is a programmer who writes music and fiction in his spare time. His cat writes approximately half of his code.'
 credits.moomba.description=他是一名在业余时间里写音乐的程序猿.他写出来的代码一半是他的猫写的.
 //[Reference] 'Razz is a 3D artist working closely with Steampunkstein to bring you guys cute furniture sets and anything else she can come up with.'
@@ -202,6 +202,8 @@ credits.razzleberryFox.description=Razz是一名3D绘画师,与Steampunkstein密
 credits.sledra.description=帮助团队走向正规.
 //[Reference] 'He has contributed some lovely soundtracks for Staxel.'
 credits.solatrus.description=为Staxel提供了一些可爱的音乐
+//[Reference] 'Special Thanks'
+credits.specialThanks=特别鸣谢
 //[Reference] 'He is the artist. He has worked hard to produce all the in game models, and make the game as visually appealing as possible.'
 credits.steampunkstein.description=他是一名艺术家,努力制作所有的游戏模型,并使其具有吸引力.
 //[Reference] 'He is the assistant producer, involved with the game design and generally has a finger in every pie.'
@@ -212,7 +214,7 @@ credits.terrorcell.description=他是另一个程序猿.爱好：编程.
 credits.winters.description=我们忠实的建筑师.你可以在游戏中看到他设计的建筑
 
 //[Reference] 'You're starting to feel sleepy...'
-dayNight.hintNightTransition=开始变得疲惫...
+dayNight.hintNightTransition=你开始感到疲惫...
 
 //[Reference] 'MissingNotification: {0-notificationCode}'
 debug.MissingNotification=任务提示： {0-notificationCode}
@@ -378,7 +380,7 @@ options.backButton=(X)
 //[Reference] 'Gameplay'
 options.gameplay=游戏设置
 //[Reference] 'Controller'
-options.gameplay.controller=手柄设置
+options.gameplay.controller=手柄
 //[Reference] 'Enable Controller Input'
 options.gameplay.controller.enableController=使用手柄控制
 //[Reference] 'Flip Left Y Axis'
@@ -398,13 +400,13 @@ options.gameplay.controller.rightThumbVelocity=右摇杆灵敏度
 //[Reference] 'Set gameplay options here'
 options.gameplay.description=用来修改游戏设置
 //[Reference] 'Input'
-options.gameplay.input=输入设置
+options.gameplay.input=输入
 //[Reference] 'Enable Repeating'
 options.gameplay.input.enableRepeat=重置
 //[Reference] 'Keyboard'
-options.gameplay.keyboard=按键设置
+options.gameplay.keyboard=按键
 //[Reference] 'Mouse'
-options.gameplay.mouse=鼠标设置
+options.gameplay.mouse=鼠标
 //[Reference] 'Flip Wheel Direction'
 options.gameplay.mouse.flipWheelDirection=鼠标滚轮反转
 //[Reference] 'Flip Y Axis'
@@ -412,7 +414,7 @@ options.gameplay.mouse.flipY=Y轴反转
 //[Reference] 'Mouse Velocity:'
 options.gameplay.mouse.mouseVelocity=鼠标灵敏度:
 //[Reference] 'Other'
-options.gameplay.other=其他设置
+options.gameplay.other=其他
 //[Reference] 'Active Achievement Tracker'
 options.gameplay.other.activeAchievement=显示成就追踪
 //[Reference] 'Chat Timestamps'
@@ -423,6 +425,8 @@ options.gameplay.other.leftHandedMode=左手模式
 options.gameplay.other.ScaleUIWithResolution=根据分辨率缩放UI
 //[Reference] 'Show Clock'
 options.gameplay.other.showClock=显示时钟
+//[Reference] 'Show Console'
+options.gameplay.other.ShowConsole=显示控制台
 //[Reference] 'Crafting Keyword Tags'
 options.gameplay.other.showCraftingKeywordTags=创建关键字标签
 //[Reference] 'Don't stretch UI'
@@ -430,7 +434,7 @@ options.gameplay.other.StepWiseUIScale=关闭拉伸UI
 //[Reference] 'Prevent NPC Staring'
 options.gameplay.other.StopNPCStaring=关闭NPC关注
 //[Reference] 'UI'
-options.gameplay.ui=界面设置
+options.gameplay.ui=界面
 //[Reference] 'Resolution:'
 options.gameplay.ui.FullScreenResolution=分辨率
 //[Reference] 'UI Scale:'
@@ -438,7 +442,7 @@ options.gameplay.ui.ManualUIScale=界面拉伸
 //[Reference] 'General'
 options.general=一般
 //[Reference] 'Audio'
-options.general.audio=声音设置
+options.general.audio=声音
 //[Reference] 'Ambience:'
 options.general.audio.ambience=环境音量:
 //[Reference] 'Master:'
@@ -448,9 +452,9 @@ options.general.audio.music=音乐音量:
 //[Reference] 'Sound:'
 options.general.audio.sound=音效音量:
 //[Reference] 'Graphics'
-options.general.graphics=图像设置
+options.general.graphics=图像
 //[Reference] 'Advanced'
-options.general.graphics.advanced=高级设置
+options.general.graphics.advanced=高级
 
 //[Reference] 'Auto detect graphics settings'
 options.general.graphics.autoDetect=自动设置图像
@@ -500,7 +504,7 @@ options.general.graphics.ultra=超级
 //[Reference] 'Prevent Indoor Weather'
 options.general.graphics.WeatherParticles=关闭室内天气
 //[Reference] 'Language'
-options.general.language=语言设置
+options.general.language=语言
 //[Reference] 'Misc'
 options.misc=杂项
 //[Reference] 'Reset'
@@ -510,11 +514,11 @@ options.misc.resetCurrent=重置当前选项
 //[Reference] 'Reset to Default Settings'
 options.misc.resetToDefault=重置为默认设置
 //[Reference] 'Network'
-options.network=网络设置
+options.network=网络
 //[Reference] 'Preferences'
 options.network.preferences=预设
 //[Reference] 'Video'
-options.video=视频设置
+options.video=视频
 //[Reference] 'Set video options here'
 options.video.description=修改视频设置
 //[Reference] 'Ban'
@@ -854,12 +858,14 @@ staxel.category.hay=干草
 staxel.category.herb=植物
 //[Reference] 'hinge'
 staxel.category.hinge=合页
+//[Reference] 'iron'
+staxel.category.iron=金属
 //[Reference] 'Japanese'
 staxel.category.japanese=日式
 //[Reference] 'jelly'
 staxel.category.jelly=果冻
 //[Reference] 'kennel'
-staxel.category.kennel=狗窝
+staxel.category.kennel=窝
 //[Reference] 'Knob'
 staxel.category.Knob=旋钮
 //[Reference] 'latch'
@@ -1981,6 +1987,8 @@ staxel.nightTransition.Line18=提示：你可以把一个商品卖回到商店�
 staxel.nightTransition.Line19=提示：商人卖的新衣.可以在任何衣柜更换!
 //[Reference] 'Tip: Talk to Riah if you want to try fishing!'
 staxel.nightTransition.Line20=提示：如果你想钓鱼就找雷亚!
+//[Reference] 'Tip: Use the whistle to have your pet do tricks!'
+staxel.nightTransition.Line21=提示：吹哨可以让你的宠物做动作!
 //[Reference] 'Next'
 staxel.nightTransition.next=下一页
 //[Reference] 'Press {0-key} to continue...'
