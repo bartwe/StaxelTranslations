@@ -554,8 +554,8 @@ staxel.tileObject.pets.DogHouse.description=
 staxel.tileObject.pets.DogHouse.name=狗窝
 staxel.tileObject.pets.FoodBowlEmpty.description=
 //[Reference] 'Food Bowl'
-staxel.tileObject.pets.FoodBowlEmpty.name=食盆·空
-staxel.tileObject.pets.FoodBowlFull.description=食盆·满
+staxel.tileObject.pets.FoodBowlEmpty.name=空食盆
+staxel.tileObject.pets.FoodBowlFull.description=
 //[Reference] 'Filled Food Bowl'
 staxel.tileObject.pets.FoodBowlFull.name=装满食物的食盆
 staxel.tileObject.pets.FoodBowlFullWater.description=
@@ -1548,7 +1548,7 @@ staxel.tileObject.serverVillage.PottedPlant.long.purple.description=用砖砌成
 staxel.tileObject.serverVillage.PottedPlant.long.purple.name=长灌木花坛·紫花
 //[Reference] 'A large flower bed built from bricks. You don't have to worry about anyone knocking this flower bed over!'
 staxel.tileObject.serverVillage.PottedPlant.orange.description=用砖砌成的大花床.你不必担心有人敲坏这张花床!
-//[Reference] 'Long Flower Bed With Orange Flowers'
+//[Reference] 'Flower Bed With Orange Flowers'
 staxel.tileObject.serverVillage.PottedPlant.orange.name=灌木花坛·橙花
 //[Reference] 'Potted, healthy looking, orange roses.'
 staxel.tileObject.serverVillage.PottedPlant.orangeRose.description=盆栽,长着看起来健康的橙色玫瑰.
@@ -1777,9 +1777,9 @@ staxel.tileObject.shop.ShopShelf.description=
 staxel.tileObject.shop.ShopShelf.name=商店货架
 staxel.tileObject.shop.ShopShelfMerchant.description=
 //[Reference] 'Shop Shelf'
-staxel.tileObject.shop.ShopShelfMerchant.name=商店货架·商人
+staxel.tileObject.shop.ShopShelfMerchant.name=商人商店货架
 //[Reference] 'Shop Shelf'
-staxel.tileObject.shop.ShopShelfPlayer.name=商店货架·玩家
+staxel.tileObject.shop.ShopShelfPlayer.name=玩家商店货架
 //[Reference] 'A strange red flower found growing on swampy grounds.'
 staxel.tileObject.swampRuins.Flower.red.1.description=在沼泽地上发现了一朵奇怪的红花.
 //[Reference] 'Red Swamp Flower'
@@ -2094,8 +2094,8 @@ staxel.tileObject.themedfurniture.groovy.GroovyStool.name=流行风凳子
 staxel.tileObject.themedfurniture.groovy.GroovyTable.description=流行家具合集 - 有着彩色桌布一样的正方形桌子
 //[Reference] 'Groovy Table'
 staxel.tileObject.themedfurniture.groovy.GroovyTable.name=流行风桌子
-//[Reference] 'From the 'Groovy Furniture Set' - A wardobe with two doors, no drawers and no limits.'
-staxel.tileObject.themedfurniture.groovy.GroovyWardrobe.description=流行家具合集 - 一个有两个门的衣柜,没有抽屉,没有限制
+//[Reference] 'From the 'Groovy Furniture Set' - A wardrobe with two doors, no drawers and no limits.'
+staxel.tileObject.themedfurniture.groovy.GroovyWardrobe.description=流行家具合集 - 一个有两个门的衣柜,可以放无限的物品,没有抽屉.
 //[Reference] 'Groovy Wardrobe'
 staxel.tileObject.themedfurniture.groovy.GroovyWardrobe.name=流行风衣柜
 staxel.tileObject.themedfurniture.minimalist.MinimalistArmChair.description=
@@ -2264,7 +2264,7 @@ staxel.tileObject.themedfurniture.victorian.VictorianDesk.description=
 //[Reference] 'Victorian Desk'
 staxel.tileObject.themedfurniture.victorian.VictorianDesk.name=维多利亚书桌
 staxel.tileObject.themedfurniture.victorian.VictorianDoubleBed.description=
-//[Reference] 'Victorian Double Desk'
+//[Reference] 'Victorian Double Bed'
 staxel.tileObject.themedfurniture.victorian.VictorianDoubleBed.name=维多利亚双人床
 staxel.tileObject.themedfurniture.victorian.VictorianDresser.description=
 //[Reference] 'Victorian Dresser'
@@ -2297,9 +2297,9 @@ staxel.tileObject.themedfurniture.victorian.VictorianVanity.description=
 //[Reference] 'Victorian Vanity'
 staxel.tileObject.themedfurniture.victorian.VictorianVanity.name=维多利亚梳妆台
 staxel.tileObject.themedfurniture.victorian.VictorianWardrobe.description=
-//TODO Translate [Reference] 'Victorian Wardrobe'
-staxel.tileObject.themedfurniture.victorian.VictorianWardrobe.name=
-staxel.tileObject.totems.AirshipLandingTotem.description=维多利亚衣柜
+//[Reference] 'Victorian Wardrobe'
+staxel.tileObject.themedfurniture.victorian.VictorianWardrobe.name=维多利亚衣柜
+staxel.tileObject.totems.AirshipLandingTotem.description=
 //[Reference] 'Airship Landing Sign'
 staxel.tileObject.totems.AirshipLandingTotem.name=飞艇着陆处标牌
 staxel.tileObject.totems.BarnSign.description=
@@ -2361,7 +2361,7 @@ staxel.tileObject.villagers.LeifSpawner.description=
 staxel.tileObject.villagers.LeifSpawner.name=雷夫生成器
 staxel.tileObject.villagers.MayorMaxSpawner.description=
 //[Reference] 'Mayor Max Spawner'
-staxel.tileObject.villagers.MayorMaxSpawner.name=镇长马科斯生成器
+staxel.tileObject.villagers.MayorMaxSpawner.name=镇长马克西生成器
 staxel.tileObject.villagers.OscarSpawner.description=
 //[Reference] 'Oscar Spawner'
 staxel.tileObject.villagers.OscarSpawner.name=奥斯卡生成器

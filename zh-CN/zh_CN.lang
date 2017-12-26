@@ -1,7 +1,7 @@
 language.code=zh-CN
 language=简体中文
 language.validated=true
-//font=staxel/fonts/GhostFlyLovely.otf
+font=staxel/fonts/GhostFlyLovely.otf
 
 //[Reference] 'Achievement unlocked: {0-achievement}!'
 achievements.achievementUnlocked=成就解锁：{0-achievement}!
@@ -40,7 +40,7 @@ controlHint.verb.Catch=抓
 //[Reference] 'Check'
 controlHint.verb.Check=检查
 //[Reference] 'Chop'
-controlHint.verb.Chop=切割
+controlHint.verb.Chop=切
 //[Reference] 'Command'
 controlHint.verb.Command=命令
 //[Reference] 'Craft'
@@ -62,7 +62,7 @@ controlHint.verb.default.Interact=互动
 //[Reference] 'Restart'
 controlHint.verb.default.ManualRestart=重启
 //[Reference] 'Memorise'
-controlHint.verb.default.Memorise=记住
+controlHint.verb.default.Memorise=学习
 //[Reference] 'Replace'
 controlHint.verb.default.reDock=更换
 //[Reference] 'Rotate'
@@ -153,7 +153,7 @@ crafting.action.keyword.reap=收割
 //[Reference] 'Saw'
 crafting.action.keyword.saw=锯
 //[Reference] 'Tile'
-crafting.action.keyword.tile=耕
+crafting.action.keyword.tile=造
 //[Reference] '{0-itemOne}, {1-itemTwo}'
 crafting.action.task.listedItems={0-itemOne}, {1-itemTwo}
 //[Reference] '{0-keyword} {1-listedItems} and {2-lastListedItem}'
@@ -193,7 +193,7 @@ credits.demanRisu.description=所有的分类都是他帮忙写的.
 //[Reference] 'is another member of the programmer team who works on the more tedious stuff.'
 credits.h1n1.description=是程序猿当中的一只,总是在做令人乏味的事情.
 //[Reference] 'A faceless entity between realms; only exists when you’re not looking. In its spare time, programs.'
-credits.moocowtg.description=在很多地方都很少见到；只有你不找他的时候才会出现.业余时间喜欢编程.
+credits.moocowtg.description=一个在不同领域中的无意识体;只有你不看他的时候才会出现.用业余时间编程.
 //[Reference] 'He is a programmer who writes music and fiction in his spare time. His cat writes approximately half of his code.'
 credits.moomba.description=他是一名在业余时间里写音乐的程序猿.他写出来的代码一半是他的猫写的.
 //[Reference] 'Razz is a 3D artist working closely with Steampunkstein to bring you guys cute furniture sets and anything else she can come up with.'
@@ -210,11 +210,12 @@ credits.steampunkstein.description=他是一名艺术家,努力制作所有的�
 credits.teaGadd.description=他是开发助理,参与整个游戏设计,他的魔掌遍布了这个游戏的角角落落.
 //[Reference] 'He is another programmer. Likes include: programming.'
 credits.terrorcell.description=他是另一个程序猿.爱好：编程.
+credits.thomas.description=
 //[Reference] 'Is our dedicated builder. He designs the premade structures that you'll find in-game.'
 credits.winters.description=我们忠实的建筑师.你可以在游戏中看到他设计的建筑
 
 //[Reference] 'You're starting to feel sleepy...'
-dayNight.hintNightTransition=你开始感到疲惫...
+dayNight.hintNightTransition=开始变得疲惫...
 
 //[Reference] 'MissingNotification: {0-notificationCode}'
 debug.MissingNotification=任务提示： {0-notificationCode}
@@ -328,9 +329,9 @@ loading.bundles=下载游戏资源中
 //[Reference] 'Skip'
 loading.skip=跳过
 //[Reference] 'Loot from'
-looting.loot=你抢了
+looting.loot=抢劫
 //[Reference] 'Steal from'
-looting.stealFrom=你偷了
+looting.stealFrom=偷窃
 
 //[Reference] 'Back to main menu'
 multiplayerMenu.back=返回主菜单
@@ -355,6 +356,8 @@ options.admin.debug=调试
 options.admin.debug.cameraMode=摄影模式 (ESC按键退出)
 //[Reference] 'Creative Mode'
 options.admin.debug.creativeMode=创造模式
+//[Reference] 'Enable Debug Keys'
+options.admin.debug.EnableDebugKeys=开启调试模式
 //[Reference] 'Fly Mode'
 options.admin.debug.flyMode=飞行模式
 //[Reference] 'Increased View Range'
@@ -378,7 +381,9 @@ options.auto=自动
 //[Reference] '(X)'
 options.backButton=(X)
 //[Reference] 'Gameplay'
-options.gameplay=游戏设置
+options.gameplay=游戏
+//[Reference] 'Mute Error Sounds'
+options.gameplay.audio.muteErrorSounds=关闭错误提示
 //[Reference] 'Controller'
 options.gameplay.controller=手柄
 //[Reference] 'Enable Controller Input'
@@ -660,6 +665,12 @@ staxel.accessories.characters.accessories.halloween.PumpkingHat.name=南瓜王�
 staxel.accessories.characters.accessories.halloween.pumpkinhat.PumpkinHat.description=
 //[Reference] 'Pumpkin Hat'
 staxel.accessories.characters.accessories.halloween.pumpkinhat.PumpkinHat.name=南瓜头
+staxel.accessories.characters.accessories.hats.christmas.ReindeerAntlers.description=
+//[Reference] 'Reindeer Antlers'
+staxel.accessories.characters.accessories.hats.christmas.ReindeerAntlers.name=驯鹿角
+staxel.accessories.characters.accessories.hats.christmas.SantaHat.description=
+//[Reference] 'Santa Hat'
+staxel.accessories.characters.accessories.hats.christmas.SantaHat.name=圣诞帽
 staxel.accessories.characters.accessories.hats.pirate.Bandana.description=
 //[Reference] 'Bandana'
 staxel.accessories.characters.accessories.hats.pirate.Bandana.name=香蕉
@@ -707,7 +718,7 @@ staxel.accessories.fullBodyOutfits.villager.Leif.description=
 staxel.accessories.fullBodyOutfits.villager.Leif.name=雷夫
 staxel.accessories.fullBodyOutfits.villager.MayorMax.description=
 //[Reference] 'Mayor Max'
-staxel.accessories.fullBodyOutfits.villager.MayorMax.name=镇长 马科斯
+staxel.accessories.fullBodyOutfits.villager.MayorMax.name=镇长 马克西
 staxel.accessories.fullBodyOutfits.villager.Riah.description=
 //[Reference] 'Riah'
 staxel.accessories.fullBodyOutfits.villager.Riah.name=雷亚
@@ -738,6 +749,9 @@ staxel.accessories.helmets.mecha.Mecha_XYellow.name=机甲_X黄
 staxel.accessories.shirts.stripedshirts.StripedShirt.description=
 //[Reference] 'StripedShirt'
 staxel.accessories.shirts.stripedshirts.StripedShirt.name=条纹衫
+staxel.accessories.shorts.shortjeanspaletted.description=
+//[Reference] 'shortjeanspaletted'
+staxel.accessories.shorts.shortjeanspaletted.name=短皮裤
 
 //[Reference] 'None'
 staxel.accessory.none=没有
@@ -859,13 +873,13 @@ staxel.category.herb=植物
 //[Reference] 'hinge'
 staxel.category.hinge=合页
 //[Reference] 'iron'
-staxel.category.iron=金属
+staxel.category.iron=铁
 //[Reference] 'Japanese'
 staxel.category.japanese=日式
 //[Reference] 'jelly'
 staxel.category.jelly=果冻
 //[Reference] 'kennel'
-staxel.category.kennel=窝
+staxel.category.kennel=狗窝
 //[Reference] 'Knob'
 staxel.category.Knob=旋钮
 //[Reference] 'latch'
@@ -1988,7 +2002,7 @@ staxel.nightTransition.Line19=提示：商人卖的新衣.可以在任何衣柜�
 //[Reference] 'Tip: Talk to Riah if you want to try fishing!'
 staxel.nightTransition.Line20=提示：如果你想钓鱼就找雷亚!
 //[Reference] 'Tip: Use the whistle to have your pet do tricks!'
-staxel.nightTransition.Line21=提示：吹哨可以让你的宠物做动作!
+staxel.nightTransition.Line21=提示：使用哨子来和你的宠物玩耍!
 //[Reference] 'Next'
 staxel.nightTransition.next=下一页
 //[Reference] 'Press {0-key} to continue...'
@@ -2317,6 +2331,9 @@ staxel.tile.leaves.Leaf.Forest.Summer.name=森林树叶·夏
 staxel.tile.leaves.Leaf.Forest.Winter.description=
 //[Reference] 'Winter'
 staxel.tile.leaves.Leaf.Forest.Winter.name=森林树叶·冬
+staxel.tile.ocean.Coral.description=
+//[Reference] 'Coral'
+staxel.tile.ocean.Coral.name=珊瑚
 staxel.tile.rock.CoralStone.1.description=
 //[Reference] 'Coral Stone'
 staxel.tile.rock.CoralStone.1.name=珊瑚石
@@ -2811,7 +2828,7 @@ staxel.tileObject.serverVillage.ClockTowerFace.name=钟塔面
 //[Reference] 'A processing station for combining ingredients.'
 staxel.tileObject.serverVillage.CombiningStation.description=配料加工站.
 //[Reference] 'Combining Station'
-staxel.tileObject.serverVillage.CombiningStation.name=组成台
+staxel.tileObject.serverVillage.CombiningStation.name=合成台
 staxel.tileObject.serverVillage.exterior.SmallWoodenPoleFenceCross.description=
 //[Reference] 'Small Wooden Pole Fence'
 staxel.tileObject.serverVillage.exterior.SmallWoodenPoleFenceCross.name=小木桩栅栏
@@ -2917,7 +2934,7 @@ staxel.totem.Barn=简单牲口棚
 //[Reference] 'Barn'
 staxel.totem.Barn.name=牲口棚
 //[Reference] 'This building is no longer complete!'
-staxel.totem.BuildingInvalidated=这个建筑还未完成
+staxel.totem.BuildingInvalidated=这个建筑不再完整!
 //[Reference] 'Cecile's Home'
 staxel.totem.CecileHome=塞西尔的家
 //[Reference] 'Emilia's Home'
@@ -2993,7 +3010,7 @@ staxel.totemInfo.tier=等级 {0-level}
 //[Reference] 'Tier {0-level} Requirements'
 staxel.totemInfo.tierRequirements=所需等级 {0-level}
 //[Reference] 'Toggle Region Display'
-staxel.totems.toggleboundary=切换区域显示
+staxel.totems.toggleboundary=领地显示开关
 //[Reference] 'This tree grows juicy, crunchy apples. Fruits in Autumn.'
 staxel.tree.AppleTree.description=长大后会长出多汁,脆脆的苹果的树苗.秋季水果.
 //[Reference] 'Apple Tree Seed'
@@ -3095,6 +3112,6 @@ staxel.weed.Weed1.name=杂草
 //[Reference] 'Staxel Development Build'
 version.developmentBuild=星甍开发建设
 //[Reference] 'Can't equip this here!'
-wardrobe.CantEquip=这里不能换衣服!
+wardrobe.CantEquip=你没有装备可穿!
 //[Reference] 'Use a wardrobe to wear this'
 wardrobe.UseAWardrobe=你得用衣橱才能穿
