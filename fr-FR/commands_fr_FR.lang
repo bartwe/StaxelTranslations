@@ -65,7 +65,7 @@ commands.demoMode.success=Le mode démo du serveur est passé à {0-demoMode}
 commands.describeItem.description=describeitem (facultatif)nomDuJoueur
 //[Reference] 'Item description: {0-itemDesc}'
 commands.describeItem.success=Description de l'objet : {0-itemDesc}
-//TODO Translate [Reference] '^c:F2E200;ditto ^c:FFFFFF; playerName villagernpcCode'
+//TODO Translate [Reference] '^c:F2E200;ditto ^c:FFFFFF;(optional)playerName villagernpcCode'
 commands.ditto.description=
 //TODO Translate [Reference] 'Player {0-playerName} does not have enough inventory space for all npc clothing items'
 commands.ditto.notEnoughSpace=
@@ -238,23 +238,27 @@ commands.serverCreative.success=Le mode créatif du serveur est désormais {0-cr
 commands.snow.description=
 //TODO Translate [Reference] 'Made it a snowy day.'
 commands.snow.success=
-//[Reference] '^c:F2E200;spawncoins ^c:FFFFFF;playerName petalAmount'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;spawncoins ^c:FFFFFF;(optional)playerName petalAmount'
 commands.spawnCoins.description=spawncoins nomDuJoueur montantEnPétales
 //[Reference] 'Spawned {0-amount} petals in coins for {1-player}'
 commands.spawnCoins.success={0-amount} pétales en pièces ont été générées pour le joueur {1-player}
-//[Reference] '^c:F2E200;spawnitem ^c:FFFFFF;playerName item(kind/specification{})'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;spawnitem ^c:FFFFFF;(optional)playerName item(kind/specification{})'
 commands.spawnItem.description=spawnitem nomDuJoueur objet(type/spécifications{})
 //[Reference] 'Item not found.'
 commands.spawnItem.notFound=Objet introuvable.
 //[Reference] 'Spawn item successful.'
 commands.spawnItem.success=Génération de l'objet réussite.
-//[Reference] '^c:F2E200;spawnmaterial ^c:FFFFFF;playerName materialCode'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;spawnmaterial ^c:FFFFFF;(optional)playerName materialCode'
 commands.spawnMaterial.description=spawnmaterial nomDuJoueur codeMateriau
 //[Reference] 'Material kind not found.'
 commands.spawnMaterial.notFound=Matériau introuvable.
 //[Reference] 'Spawn material successful'
 commands.spawnMaterial.success=Génération du matériau réussite.
-//[Reference] '^c:F2E200;spawntile ^c:FFFFFF;playerName tileCode'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;spawntile ^c:FFFFFF;(optional)playerName tileCode'
 commands.spawnTile.description=spawntile nomDuJoueur codeTile
 //[Reference] 'Tile kind not found.'
 commands.spawnTile.notFound=Tile introuvable.

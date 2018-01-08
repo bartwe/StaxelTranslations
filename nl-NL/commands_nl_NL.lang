@@ -65,7 +65,7 @@ commands.demoMode.success=Server demo-modus geswitched naar {0-demoMode}
 commands.describeItem.description=describeitem (optioneel)spelerNaam
 //[Reference] 'Item description: {0-itemDesc}'
 commands.describeItem.success=Item omschrijving: {0-itemDesc}
-//TODO Translate [Reference] '^c:F2E200;ditto ^c:FFFFFF; playerName villagernpcCode'
+//TODO Translate [Reference] '^c:F2E200;ditto ^c:FFFFFF;(optional)playerName villagernpcCode'
 commands.ditto.description=
 //TODO Translate [Reference] 'Player {0-playerName} does not have enough inventory space for all npc clothing items'
 commands.ditto.notEnoughSpace=
@@ -236,23 +236,27 @@ commands.serverCreative.success=Creatieve modus van server is nu {0-creative} (p
 commands.snow.description=
 //TODO Translate [Reference] 'Made it a snowy day.'
 commands.snow.success=
-//[Reference] '^c:F2E200;spawncoins ^c:FFFFFF;playerName petalAmount'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;spawncoins ^c:FFFFFF;(optional)playerName petalAmount'
 commands.spawnCoins.description=spawncoins spelerNaam hoeveelheid
 //[Reference] 'Spawned {0-amount} petals in coins for {1-player}'
 commands.spawnCoins.success={0-amount} bloemblaadjes gegenereerd in muntstukken voor {1-player}
-//[Reference] '^c:F2E200;spawnitem ^c:FFFFFF;playerName item(kind/specification{})'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;spawnitem ^c:FFFFFF;(optional)playerName item(kind/specification{})'
 commands.spawnItem.description=spawnitem spelerNaam item(soort/specificatie{})
 //[Reference] 'Item not found.'
 commands.spawnItem.notFound=Item niet gevonden.
 //[Reference] 'Spawn item successful.'
 commands.spawnItem.success=Item succesvol gegenereerd
-//[Reference] '^c:F2E200;spawnmaterial ^c:FFFFFF;playerName materialCode'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;spawnmaterial ^c:FFFFFF;(optional)playerName materialCode'
 commands.spawnMaterial.description=spawnmaterial spelerNaam materiaalCode
 //[Reference] 'Material kind not found.'
 commands.spawnMaterial.notFound=Materiaalsoort niet gevonden.
 //[Reference] 'Spawn material successful'
 commands.spawnMaterial.success=Materiaal succesvol gegenereerd
-//[Reference] '^c:F2E200;spawntile ^c:FFFFFF;playerName tileCode'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;spawntile ^c:FFFFFF;(optional)playerName tileCode'
 commands.spawnTile.description=spawntile spelerNaam tileCode
 //[Reference] 'Tile kind not found.'
 commands.spawnTile.notFound=Tilesoort niet gevonden.

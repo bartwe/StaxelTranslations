@@ -67,7 +67,7 @@ commands.demoMode.success=サーバーデモモードを{0-demoMode}に切り替
 commands.describeItem.description=^c:F2E200;describeitem ^c:FFFFFF;(optional)playerName
 //[Reference] 'Item description: {0-itemDesc}'
 commands.describeItem.success=アイテムの説明：{0-itemDesc}
-//TODO Translate [Reference] '^c:F2E200;ditto ^c:FFFFFF; playerName villagernpcCode'
+//TODO Translate [Reference] '^c:F2E200;ditto ^c:FFFFFF;(optional)playerName villagernpcCode'
 commands.ditto.description=
 //TODO Translate [Reference] 'Player {0-playerName} does not have enough inventory space for all npc clothing items'
 commands.ditto.notEnoughSpace=
@@ -238,23 +238,27 @@ commands.serverCreative.success=サーバーのクリエイティブモードを
 commands.snow.description=
 //[Reference] 'Made it a snowy day.'
 commands.snow.success=雪の日になりました。
-//[Reference] '^c:F2E200;spawncoins ^c:FFFFFF;playerName petalAmount'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;spawncoins ^c:FFFFFF;(optional)playerName petalAmount'
 commands.spawnCoins.description=^c:F2E200;spawncoins ^c:FFFFFF;playerName petalAmount
 //[Reference] 'Spawned {0-amount} petals in coins for {1-player}'
 commands.spawnCoins.success={1-player}のために{0-amount}ペタルのコインを生成しました
-//[Reference] '^c:F2E200;spawnitem ^c:FFFFFF;playerName item(kind/specification{})'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;spawnitem ^c:FFFFFF;(optional)playerName item(kind/specification{})'
 commands.spawnItem.description=^c:F2E200;spawnitem ^c:FFFFFF;playerName item(kind/specification{})
 //[Reference] 'Item not found.'
 commands.spawnItem.notFound=アイテムが見つかりませんでした。
 //[Reference] 'Spawn item successful.'
 commands.spawnItem.success=アイテムの生成に成功しました。
-//[Reference] '^c:F2E200;spawnmaterial ^c:FFFFFF;playerName materialCode'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;spawnmaterial ^c:FFFFFF;(optional)playerName materialCode'
 commands.spawnMaterial.description=^c:F2E200;spawnmaterial ^c:FFFFFF;playerName materialCode
 //[Reference] 'Material kind not found.'
 commands.spawnMaterial.notFound=材料が見つかりませんでした。
 //[Reference] 'Spawn material successful'
 commands.spawnMaterial.success=材料の生成に成功しました
-//[Reference] '^c:F2E200;spawntile ^c:FFFFFF;playerName tileCode'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;spawntile ^c:FFFFFF;(optional)playerName tileCode'
 commands.spawnTile.description=^c:F2E200;spawntile ^c:FFFFFF;playerName tileCode
 //[Reference] 'Tile kind not found.'
 commands.spawnTile.notFound=タイルが見つかりません。
