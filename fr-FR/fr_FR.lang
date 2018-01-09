@@ -1,6 +1,5 @@
 language.code=fr-FR
 language=Français
-language.validated=true
 
 //[Reference] 'Achievement unlocked: {0-achievement}!'
 achievements.achievementUnlocked={0-achievement} débloqué !
@@ -328,6 +327,8 @@ hintText.thiefSteal=Vous avez volé {0-amount} Pétales! {1-theft}
 hintText.thiefThief=Voleur ! Vous pourrez être pardonné en temps et en heure.
 //[Reference] 'Stealing has consequences.'
 hintText.thiefWarning=Voler entraine des conséquences.
+//[Reference] 'true'
+language.validated=true
 //[Reference] 'Downloading bundle assets'
 loading.bundles=Téléchargement du regroupement d'assets
 
@@ -346,6 +347,8 @@ multiplayerMenu.joinServer=Rejoindre le serveur
 multiplayerMenu.serverIP=IP du Serveur :
 //[Reference] 'Server List'
 multiplayerMenu.serverList=Liste des serveurs
+//TODO Translate [Reference] 'Server Password (optional):'
+multiplayerMenu.serverPassword=
 //TODO Translate [Reference] 'The festival has ended.'
 notifications.festivalEnded=
 //TODO Translate [Reference] 'It looks like something is happening in the village!'
@@ -1248,6 +1251,9 @@ staxel.crop.Eggplant.name=Graine d'aubergine
 staxel.crop.GoldenBeet.description=Étrange, cette betterave est en or massif !
 //[Reference] 'Golden Beet Seed'
 staxel.crop.GoldenBeet.name=Graine d'aubergine dorée
+staxel.crop.GoldenCabbage.description=
+//TODO Translate [Reference] 'Golden Cabbage'
+staxel.crop.GoldenCabbage.name=
 //[Reference] 'Oh my, this carrot is solid gold!'
 staxel.crop.GoldenCarrot.description=Oh waow, cette carotte est en or massif !
 //[Reference] 'Golden Carrot Seed'
@@ -1280,6 +1286,12 @@ staxel.crop.GoldenOnion.name=Graine d'oignon doré
 staxel.crop.GoldenPotato.description=Une pomme de terre en or, avec des yeux dorés !
 //[Reference] 'Golden Potato Seed'
 staxel.crop.GoldenPotato.name=Graine de pomme de terre dorée
+staxel.crop.GoldenPumpkin.description=
+//TODO Translate [Reference] 'Golden Pumpkin'
+staxel.crop.GoldenPumpkin.name=
+staxel.crop.GoldenStrawberry.description=
+//TODO Translate [Reference] 'Golden Strawberry'
+staxel.crop.GoldenStrawberry.name=
 //[Reference] 'Sweet! A golden sugar beet!'
 staxel.crop.GoldenSugarBeet.description=Super, une betterave à sucre dorée !
 //[Reference] 'Golden Sugar Beet Seed'
@@ -1300,6 +1312,9 @@ staxel.crop.GoldenTomato.name=Graine de tomate dorée
 staxel.crop.GoldenTurnip.description=Incroyable, un navet doré !
 //[Reference] 'Golden Turnip Seed'
 staxel.crop.GoldenTurnip.name=Graine de navet doré
+staxel.crop.GoldenWatermelon.description=
+//TODO Translate [Reference] 'Golden Watermelon'
+staxel.crop.GoldenWatermelon.name=
 //[Reference] 'A head of green lettuce.'
 staxel.crop.Lettuce.description=Une tête de laitue verte.
 //[Reference] 'Lettuce Seed'
@@ -1766,6 +1781,18 @@ staxel.item.crafting.Varnish.name=
 staxel.item.crafting.WoodShingles.description=
 //TODO Translate [Reference] 'WoodShingles'
 staxel.item.crafting.WoodShingles.name=
+staxel.item.crops.GoldenCabbage.description=
+//TODO Translate [Reference] 'Golden Cabbage'
+staxel.item.crops.GoldenCabbage.name=
+staxel.item.crops.GoldenPumpkin.description=
+//TODO Translate [Reference] 'Golden Pumpkin'
+staxel.item.crops.GoldenPumpkin.name=
+staxel.item.crops.GoldenStrawberry.description=
+//TODO Translate [Reference] 'Golden Strawberry'
+staxel.item.crops.GoldenStrawberry.name=
+staxel.item.crops.GoldenWatermelon.description=
+//TODO Translate [Reference] 'Golden Watermelon'
+staxel.item.crops.GoldenWatermelon.name=
 staxel.item.crops.Sunflower.description=
 //TODO Translate [Reference] 'Sunflower'
 staxel.item.crops.Sunflower.name=
@@ -2207,6 +2234,18 @@ staxel.pets.Cat.name=Chat
 staxel.pets.Dog.name=Chien
 //[Reference] '{0-pet} has brought you a gift!'
 staxel.pets.GiftReceived={0-pet} vous a apporté un cadeau !
+staxel.plant.crop.GoldenCabbage.description=
+//TODO Translate [Reference] 'Golden Cabbage'
+staxel.plant.crop.GoldenCabbage.name=
+staxel.plant.crop.GoldenPumpkin.description=
+//TODO Translate [Reference] 'Golden Pumpkin'
+staxel.plant.crop.GoldenPumpkin.name=
+staxel.plant.crop.GoldenStrawberry.description=
+//TODO Translate [Reference] 'Golden Strawberry'
+staxel.plant.crop.GoldenStrawberry.name=
+staxel.plant.crop.GoldenWatermelon.description=
+//TODO Translate [Reference] 'Golden Watermelon'
+staxel.plant.crop.GoldenWatermelon.name=
 staxel.plant.crop.Sunflower.description=
 //TODO Translate [Reference] 'Sunflower'
 staxel.plant.crop.Sunflower.name=
@@ -2855,6 +2894,12 @@ staxel.tileObject.mines.WallMoss1.name=
 staxel.tileObject.mines.WallMoss2.description=
 //TODO Translate [Reference] 'Wall Moss2'
 staxel.tileObject.mines.WallMoss2.name=
+staxel.tileObject.office.OfficeCounter.NoDock.description=
+//TODO Translate [Reference] 'No Dock'
+staxel.tileObject.office.OfficeCounter.NoDock.name=
+staxel.tileObject.office.OfficeDesk.NoDock.description=
+//TODO Translate [Reference] 'No Dock'
+staxel.tileObject.office.OfficeDesk.NoDock.name=
 staxel.tileObject.patisserie.ApplePieStand.description=
 //TODO Translate [Reference] 'Apple Pie Stand'
 staxel.tileObject.patisserie.ApplePieStand.name=
@@ -3159,6 +3204,9 @@ staxel.tileObject.serverVillage.CombiningStation.name=
 staxel.tileObject.serverVillage.exterior.SmallWoodenPoleFenceCross.description=Clôture en Bois Croisé
 //[Reference] 'Small Wooden Pole Fence'
 staxel.tileObject.serverVillage.exterior.SmallWoodenPoleFenceCross.name=Clôture en Bois Croisé
+staxel.tileObject.serverVillage.KitchenCounter.NoDock.description=
+//TODO Translate [Reference] 'No Dock'
+staxel.tileObject.serverVillage.KitchenCounter.NoDock.name=
 staxel.tileObject.serverVillage.RanchWindowSmall.description=
 //TODO Translate [Reference] 'Ranch Window Small'
 staxel.tileObject.serverVillage.RanchWindowSmall.name=
@@ -3189,6 +3237,24 @@ staxel.tileObject.shop.ShopWindow3.name=
 staxel.tileObject.shop.ShopWindow4.description=
 //TODO Translate [Reference] 'Shop Window4'
 staxel.tileObject.shop.ShopWindow4.name=
+staxel.tileObject.themedfurniture.contemporary.ContemporaryDesk.NoDock.description=
+//TODO Translate [Reference] 'No Dock'
+staxel.tileObject.themedfurniture.contemporary.ContemporaryDesk.NoDock.name=
+staxel.tileObject.themedfurniture.contemporary.contemporarySideTable.NoDock.description=
+//TODO Translate [Reference] 'No Dock'
+staxel.tileObject.themedfurniture.contemporary.contemporarySideTable.NoDock.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistDesk.NoDock.description=
+//TODO Translate [Reference] 'No Dock'
+staxel.tileObject.themedfurniture.minimalist.MinimalistDesk.NoDock.name=
+staxel.tileObject.themedfurniture.ranch.RanchCoffeeTable.NoDock.description=
+//TODO Translate [Reference] 'No Dock'
+staxel.tileObject.themedfurniture.ranch.RanchCoffeeTable.NoDock.name=
+staxel.tileObject.themedfurniture.ranch.RanchSideTable.NoDock.description=
+//TODO Translate [Reference] 'No Dock'
+staxel.tileObject.themedfurniture.ranch.RanchSideTable.NoDock.name=
+staxel.tileObject.themedfurniture.victorian.VictorianSideTable.NoDock.description=
+//TODO Translate [Reference] 'No Dock'
+staxel.tileObject.themedfurniture.victorian.VictorianSideTable.NoDock.name=
 staxel.tileObject.totems.AlizaMailbox.description=
 //TODO Translate [Reference] 'Aliza's Postbox'
 staxel.tileObject.totems.AlizaMailbox.name=

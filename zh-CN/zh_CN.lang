@@ -2,7 +2,6 @@
 language.code=zh-CN
 //[Reference] 'English'
 language=简体中文
-language.validated=true
 
 //[Reference] 'Achievement unlocked: {0-achievement}!'
 achievements.achievementUnlocked=解锁成就：{0-achievement}！
@@ -330,6 +329,8 @@ hintText.thiefSteal=你偷了{0-amount}花瓣币！{1-theft}
 hintText.thiefThief=小偷！你一段时间后或许会被人们原谅的。
 //[Reference] 'Stealing has consequences.'
 hintText.thiefWarning=偷窃会造成后果。
+//[Reference] 'true'
+language.validated=true
 
 //[Reference] 'Downloading bundle assets'
 loading.bundles=下载游戏资源中
@@ -348,6 +349,8 @@ multiplayerMenu.joinServer=加入服务器
 multiplayerMenu.serverIP=服务器 IP：
 //[Reference] 'Server List'
 multiplayerMenu.serverList=服务器列表
+//TODO Translate [Reference] 'Server Password (optional):'
+multiplayerMenu.serverPassword=
 //[Reference] 'The festival has ended.'
 notifications.festivalEnded=节日结束了
 //[Reference] 'It looks like something is happening in the village!'
@@ -1278,6 +1281,9 @@ staxel.crop.Eggplant.name=茄子种子
 staxel.crop.GoldenBeet.description=真奇怪，这颗甜菜是纯金的！
 //[Reference] 'Golden Beet Seed'
 staxel.crop.GoldenBeet.name=黄金甜菜种子
+staxel.crop.GoldenCabbage.description=
+//TODO Translate [Reference] 'Golden Cabbage'
+staxel.crop.GoldenCabbage.name=
 //[Reference] 'Oh my, this carrot is solid gold!'
 staxel.crop.GoldenCarrot.description=噢，天啊，这个胡萝卜是纯金的！
 //[Reference] 'Golden Carrot Seed'
@@ -1310,6 +1316,12 @@ staxel.crop.GoldenOnion.name=黄金洋葱种子
 staxel.crop.GoldenPotato.description=黄金土豆，发的芽都是黄金做的！
 //[Reference] 'Golden Potato Seed'
 staxel.crop.GoldenPotato.name=黄金的土豆种子
+staxel.crop.GoldenPumpkin.description=
+//TODO Translate [Reference] 'Golden Pumpkin'
+staxel.crop.GoldenPumpkin.name=
+staxel.crop.GoldenStrawberry.description=
+//TODO Translate [Reference] 'Golden Strawberry'
+staxel.crop.GoldenStrawberry.name=
 //[Reference] 'Sweet! A golden sugar beet!'
 staxel.crop.GoldenSugarBeet.description=好甜！一棵黄金糖用甜菜！
 //[Reference] 'Golden Sugar Beet Seed'
@@ -1330,6 +1342,9 @@ staxel.crop.GoldenTomato.name=黄金西红柿种子
 staxel.crop.GoldenTurnip.description=太棒了，一棵黄金芜菁！
 //[Reference] 'Golden Turnip Seed'
 staxel.crop.GoldenTurnip.name=黄金芜菁种子
+staxel.crop.GoldenWatermelon.description=
+//TODO Translate [Reference] 'Golden Watermelon'
+staxel.crop.GoldenWatermelon.name=
 //[Reference] 'A head of green lettuce.'
 staxel.crop.Lettuce.description=一棵绿色的生菜。
 //[Reference] 'Lettuce Seed'
@@ -1814,6 +1829,18 @@ staxel.item.crafting.Varnish.name=装饰
 staxel.item.crafting.WoodShingles.description=
 //[Reference] 'WoodShingles'
 staxel.item.crafting.WoodShingles.name=木瓦片
+staxel.item.crops.GoldenCabbage.description=
+//TODO Translate [Reference] 'Golden Cabbage'
+staxel.item.crops.GoldenCabbage.name=
+staxel.item.crops.GoldenPumpkin.description=
+//TODO Translate [Reference] 'Golden Pumpkin'
+staxel.item.crops.GoldenPumpkin.name=
+staxel.item.crops.GoldenStrawberry.description=
+//TODO Translate [Reference] 'Golden Strawberry'
+staxel.item.crops.GoldenStrawberry.name=
+staxel.item.crops.GoldenWatermelon.description=
+//TODO Translate [Reference] 'Golden Watermelon'
+staxel.item.crops.GoldenWatermelon.name=
 staxel.item.crops.Sunflower.description=
 //[Reference] 'Sunflower'
 staxel.item.crops.Sunflower.name=向日葵
@@ -2285,6 +2312,18 @@ staxel.pets.Dog.name=狗
 
 //[Reference] '{0-pet} has brought you a gift!'
 staxel.pets.GiftReceived={0-pet}给你带来一份礼物！
+staxel.plant.crop.GoldenCabbage.description=
+//TODO Translate [Reference] 'Golden Cabbage'
+staxel.plant.crop.GoldenCabbage.name=
+staxel.plant.crop.GoldenPumpkin.description=
+//TODO Translate [Reference] 'Golden Pumpkin'
+staxel.plant.crop.GoldenPumpkin.name=
+staxel.plant.crop.GoldenStrawberry.description=
+//TODO Translate [Reference] 'Golden Strawberry'
+staxel.plant.crop.GoldenStrawberry.name=
+staxel.plant.crop.GoldenWatermelon.description=
+//TODO Translate [Reference] 'Golden Watermelon'
+staxel.plant.crop.GoldenWatermelon.name=
 staxel.plant.crop.Sunflower.description=
 //[Reference] 'Sunflower'
 staxel.plant.crop.Sunflower.name=向日葵
@@ -2961,6 +3000,12 @@ staxel.tileObject.mines.WallMoss1.name=
 staxel.tileObject.mines.WallMoss2.description=
 //TODO Translate [Reference] 'Wall Moss2'
 staxel.tileObject.mines.WallMoss2.name=
+staxel.tileObject.office.OfficeCounter.NoDock.description=
+//TODO Translate [Reference] 'No Dock'
+staxel.tileObject.office.OfficeCounter.NoDock.name=
+staxel.tileObject.office.OfficeDesk.NoDock.description=
+//TODO Translate [Reference] 'No Dock'
+staxel.tileObject.office.OfficeDesk.NoDock.name=
 staxel.tileObject.patisserie.ApplePieStand.description=
 //TODO Translate [Reference] 'Apple Pie Stand'
 staxel.tileObject.patisserie.ApplePieStand.name=
@@ -3314,6 +3359,9 @@ staxel.tileObject.serverVillage.CombiningStation.name=组合工作台
 staxel.tileObject.serverVillage.exterior.SmallWoodenPoleFenceCross.description=
 //[Reference] 'Small Wooden Pole Fence'
 staxel.tileObject.serverVillage.exterior.SmallWoodenPoleFenceCross.name=小型木杆栅栏
+staxel.tileObject.serverVillage.KitchenCounter.NoDock.description=
+//TODO Translate [Reference] 'No Dock'
+staxel.tileObject.serverVillage.KitchenCounter.NoDock.name=
 staxel.tileObject.serverVillage.RanchWindowSmall.description=
 //TODO Translate [Reference] 'Ranch Window Small'
 staxel.tileObject.serverVillage.RanchWindowSmall.name=
@@ -3350,6 +3398,24 @@ staxel.tileObject.shop.ShopWindow4.description=
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Shop Window4'
 staxel.tileObject.shop.ShopWindow4.name=商店窗户4
+staxel.tileObject.themedfurniture.contemporary.ContemporaryDesk.NoDock.description=
+//TODO Translate [Reference] 'No Dock'
+staxel.tileObject.themedfurniture.contemporary.ContemporaryDesk.NoDock.name=
+staxel.tileObject.themedfurniture.contemporary.contemporarySideTable.NoDock.description=
+//TODO Translate [Reference] 'No Dock'
+staxel.tileObject.themedfurniture.contemporary.contemporarySideTable.NoDock.name=
+staxel.tileObject.themedfurniture.minimalist.MinimalistDesk.NoDock.description=
+//TODO Translate [Reference] 'No Dock'
+staxel.tileObject.themedfurniture.minimalist.MinimalistDesk.NoDock.name=
+staxel.tileObject.themedfurniture.ranch.RanchCoffeeTable.NoDock.description=
+//TODO Translate [Reference] 'No Dock'
+staxel.tileObject.themedfurniture.ranch.RanchCoffeeTable.NoDock.name=
+staxel.tileObject.themedfurniture.ranch.RanchSideTable.NoDock.description=
+//TODO Translate [Reference] 'No Dock'
+staxel.tileObject.themedfurniture.ranch.RanchSideTable.NoDock.name=
+staxel.tileObject.themedfurniture.victorian.VictorianSideTable.NoDock.description=
+//TODO Translate [Reference] 'No Dock'
+staxel.tileObject.themedfurniture.victorian.VictorianSideTable.NoDock.name=
 staxel.tileObject.totems.AlizaMailbox.description=
 //[Reference] 'Aliza's Postbox'
 staxel.tileObject.totems.AlizaMailbox.name=爱丽哲的邮箱
