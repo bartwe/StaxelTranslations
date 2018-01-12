@@ -1,4 +1,6 @@
+//[Reference] 'en-GB'
 language.code=ja-JP
+//[Reference] 'English'
 language=日本語
 
 //[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)'
@@ -65,7 +67,7 @@ commands.demoMode.success=サーバーデモモードを{0-demoMode}に切り替
 commands.describeItem.description=^c:F2E200;describeitem ^c:FFFFFF;(optional)playerName
 //[Reference] 'Item description: {0-itemDesc}'
 commands.describeItem.success=アイテムの説明：{0-itemDesc}
-//TODO Translate [Reference] '^c:F2E200;ditto ^c:FFFFFF; playerName villagernpcCode'
+//TODO Translate [Reference] '^c:F2E200;ditto ^c:FFFFFF;(optional)playerName villagernpcCode'
 commands.ditto.description=
 //TODO Translate [Reference] 'Player {0-playerName} does not have enough inventory space for all npc clothing items'
 commands.ditto.notEnoughSpace=
@@ -234,25 +236,29 @@ commands.serverCreative.description=^c:F2E200;creativeMode ^c:FFFFFF;(optional)o
 //[Reference] 'Switched server creative mode to {0-creative} (persistent)'
 commands.serverCreative.success=サーバーのクリエイティブモードを{0-creative}に切り替えました（持続）
 commands.snow.description=
-//TODO Translate [Reference] 'Made it a snowy day.'
-commands.snow.success=
-//[Reference] '^c:F2E200;spawncoins ^c:FFFFFF;playerName petalAmount'
+//[Reference] 'Made it a snowy day.'
+commands.snow.success=雪の日になりました。
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;spawncoins ^c:FFFFFF;(optional)playerName petalAmount'
 commands.spawnCoins.description=^c:F2E200;spawncoins ^c:FFFFFF;playerName petalAmount
 //[Reference] 'Spawned {0-amount} petals in coins for {1-player}'
 commands.spawnCoins.success={1-player}のために{0-amount}ペタルのコインを生成しました
-//[Reference] '^c:F2E200;spawnitem ^c:FFFFFF;playerName item(kind/specification{})'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;spawnitem ^c:FFFFFF;(optional)playerName item(kind/specification{})'
 commands.spawnItem.description=^c:F2E200;spawnitem ^c:FFFFFF;playerName item(kind/specification{})
 //[Reference] 'Item not found.'
 commands.spawnItem.notFound=アイテムが見つかりませんでした。
 //[Reference] 'Spawn item successful.'
 commands.spawnItem.success=アイテムの生成に成功しました。
-//[Reference] '^c:F2E200;spawnmaterial ^c:FFFFFF;playerName materialCode'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;spawnmaterial ^c:FFFFFF;(optional)playerName materialCode'
 commands.spawnMaterial.description=^c:F2E200;spawnmaterial ^c:FFFFFF;playerName materialCode
 //[Reference] 'Material kind not found.'
 commands.spawnMaterial.notFound=材料が見つかりませんでした。
 //[Reference] 'Spawn material successful'
 commands.spawnMaterial.success=材料の生成に成功しました
-//[Reference] '^c:F2E200;spawntile ^c:FFFFFF;playerName tileCode'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;spawntile ^c:FFFFFF;(optional)playerName tileCode'
 commands.spawnTile.description=^c:F2E200;spawntile ^c:FFFFFF;playerName tileCode
 //[Reference] 'Tile kind not found.'
 commands.spawnTile.notFound=タイルが見つかりません。
@@ -293,12 +299,10 @@ commands.tileAt.description=^c:F2E200;tileAt ^c:FFFFFF;(optional)location({0,0,0
 commands.tileAt.failParse=ポジション{0-position}の解析に失敗しました
 //[Reference] 'Tile not found'
 commands.tileAt.notFound=タイルが見つかりませんでした
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: false, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
-commands.tileAt.success.false=Tile code: {0-tilecode} at {1-position} (compoundFiller: false)
-//[Validate] Delete this comment if or when the translation is accurate.
+commands.tileAt.success.false=Tile code: {0-tilecode} at {1-position} (compoundFiller: false, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})
 //[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
-commands.tileAt.success.true=Tile code: {0-tilecode} at {1-position} (compoundFiller: true)
+commands.tileAt.success.true=Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})
 commands.traceStart.description=
 //[Reference] 'Started tracing.'
 commands.traceStart.success=トレースを開始しました。
@@ -324,9 +328,9 @@ commands.unmute.failure={0-player}のミュートを解除できません：プ�
 commands.unmute.success={0-player}は再び話せるようになりました。
 //[Reference] 'Unrecognised command :'{0-command}''
 commands.unrecognised=コマンド'{0-command}'を認識できませんでした
-//TODO Translate [Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
-commands.weather.description=
-//TODO Translate [Reference] 'Unable to set weather: {0-weather}. Does not exist.'
-commands.weather.noweather=
-//TODO Translate [Reference] 'Set weather to: {0-weather}.'
-commands.weather.success=
+//[Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
+commands.weather.description=^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)
+//[Reference] 'Unable to set weather: {0-weather}. Does not exist.'
+commands.weather.noweather=天気をセットできません：{0-weather}。存在しません。
+//[Reference] 'Set weather to: {0-weather}.'
+commands.weather.success=天気をセットしました：{0-weather}。
