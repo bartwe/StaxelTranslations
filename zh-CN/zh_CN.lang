@@ -21,7 +21,7 @@ catalogue.performSale=出售
 catalogue.sell=出售：
 //[Reference] 'Total'
 catalogue.total=合计
-//TODO Translate [Reference] 'Stop/resume time'
+//TODO Translate [Reference] '^c:F2E200;stopTime'
 commands.stopTime.description=
 //TODO Translate [Reference] 'Time resumed'
 commands.stopTime.resume=
@@ -826,6 +826,8 @@ staxel.bush.GoldenberryBush.name=灯笼果灌木种子
 staxel.bush.RaspberryBush.description=一棵会长出美味红莓的灌木。不当季时也能存活。
 //[Reference] 'Raspberry Bush Seed'
 staxel.bush.RaspberryBush.name=红莓灌木种子
+//TODO Translate [Reference] 'acorn'
+staxel.category.acorn=
 //TODO Translate [Reference] 'Apple Pie Stand'
 staxel.category.ApplePieStand=
 //[Reference] 'assemble'
@@ -842,6 +844,8 @@ staxel.category.baked=烘烤的
 staxel.category.band=环带
 //[Reference] 'batter'
 staxel.category.batter=面糊
+//TODO Translate [Reference] 'berry'
+staxel.category.berry=
 //TODO Translate [Reference] 'Blackberry Pie Stand'
 staxel.category.BlackberryPieStand=
 //TODO Translate [Reference] 'Blueberry Pie Stand'
@@ -2641,7 +2645,8 @@ staxel.tileObject.crafting.AssemblyStation.description=
 //[Reference] 'Assembly Station'
 staxel.tileObject.crafting.AssemblyStation.name=装配台
 staxel.tileObject.crafting.CarpentryStation.description=
-//[Reference] 'Carpentry Station'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Carving Station'
 staxel.tileObject.crafting.CarpentryStation.name=木工台
 staxel.tileObject.crafting.Churn.description=
 //[Reference] 'Churn'
@@ -2649,7 +2654,7 @@ staxel.tileObject.crafting.Churn.name=搅拌
 staxel.tileObject.crafting.MasonryStation.description=
 
 //[Validate] Delete this comment if or when the translation is accurate.
-//[Reference] 'Masonry Station'
+//[Reference] 'Construction Station'
 staxel.tileObject.crafting.MasonryStation.name=石工台
 staxel.tileObject.crafting.TilingStation.description=
 //[Reference] 'Tiling Station'
@@ -3007,10 +3012,10 @@ staxel.tileObject.mines.WallMoss2.description=
 //TODO Translate [Reference] 'Wall Moss2'
 staxel.tileObject.mines.WallMoss2.name=
 staxel.tileObject.office.OfficeCounter.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Office Counter (No Docks)'
 staxel.tileObject.office.OfficeCounter.NoDock.name=
 staxel.tileObject.office.OfficeDesk.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Office Desk (No Docks)'
 staxel.tileObject.office.OfficeDesk.NoDock.name=
 staxel.tileObject.patisserie.ApplePieStand.description=
 //TODO Translate [Reference] 'Apple Pie Stand'
@@ -3362,11 +3367,16 @@ staxel.tileObject.serverVillage.ClockTowerFace.name=钟楼表盘
 staxel.tileObject.serverVillage.CombiningStation.description=用来组合材料的工作台。
 //[Reference] 'Combining Station'
 staxel.tileObject.serverVillage.CombiningStation.name=组合工作台
+//TODO Translate [Reference] 'A wooden counter, usually used for retail stores.'
+staxel.tileObject.serverVillage.exterior.ShopCounterNoDock.description=
+//TODO Translate [Reference] 'Shop Counter (No Docks)'
+staxel.tileObject.serverVillage.exterior.ShopCounterNoDock.name=
 staxel.tileObject.serverVillage.exterior.SmallWoodenPoleFenceCross.description=
 //[Reference] 'Small Wooden Pole Fence'
 staxel.tileObject.serverVillage.exterior.SmallWoodenPoleFenceCross.name=小型木杆栅栏
+//TODO Translate [Reference] 'Sure this kitchen counter was designed in the '50s, but it's design is still going strong today!'
 staxel.tileObject.serverVillage.KitchenCounter.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Simply Stylish Kitchen Counter (No Docks)'
 staxel.tileObject.serverVillage.KitchenCounter.NoDock.name=
 staxel.tileObject.serverVillage.RanchWindowSmall.description=
 //TODO Translate [Reference] 'Ranch Window Small'
@@ -3404,23 +3414,25 @@ staxel.tileObject.shop.ShopWindow4.description=
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Shop Window4'
 staxel.tileObject.shop.ShopWindow4.name=商店窗户4
+//TODO Translate [Reference] 'From the 'Contemporary Furniture Set' - A sleek, modern desk with plenty of work space.'
 staxel.tileObject.themedfurniture.contemporary.ContemporaryDesk.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Contemporary Desk (No Docks)'
 staxel.tileObject.themedfurniture.contemporary.ContemporaryDesk.NoDock.name=
+//TODO Translate [Reference] 'From the 'Contemporary Furniture Set' - A modern side table. It may seem simple, but read between the lines.'
 staxel.tileObject.themedfurniture.contemporary.contemporarySideTable.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Contemporary Side Table (No Docks)'
 staxel.tileObject.themedfurniture.contemporary.contemporarySideTable.NoDock.name=
 staxel.tileObject.themedfurniture.minimalist.MinimalistDesk.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Minimalist Desk (No Docks)'
 staxel.tileObject.themedfurniture.minimalist.MinimalistDesk.NoDock.name=
 staxel.tileObject.themedfurniture.ranch.RanchCoffeeTable.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Ranch Coffee Table (No Docks)'
 staxel.tileObject.themedfurniture.ranch.RanchCoffeeTable.NoDock.name=
 staxel.tileObject.themedfurniture.ranch.RanchSideTable.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Ranch Side Table (No Docks)'
 staxel.tileObject.themedfurniture.ranch.RanchSideTable.NoDock.name=
 staxel.tileObject.themedfurniture.victorian.VictorianSideTable.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Victorian Side Table (No Docks)'
 staxel.tileObject.themedfurniture.victorian.VictorianSideTable.NoDock.name=
 staxel.tileObject.totems.AlizaMailbox.description=
 //[Reference] 'Aliza's Postbox'
@@ -3549,6 +3561,8 @@ staxel.totem.MayorMaxHome=马克西米利安的家
 staxel.totem.missingItem=（{0-count}缺失）
 //[Reference] 'Oscar's Home'
 staxel.totem.OscarHome=奥斯卡的家
+//TODO Translate [Reference] 'Updating...'
+staxel.totem.pendingUpdate=
 //[Reference] '(Done)'
 staxel.totem.RequirementDone=（已完成）
 //[Reference] 'Riah's Home'

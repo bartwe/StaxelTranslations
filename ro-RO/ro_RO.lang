@@ -19,7 +19,7 @@ catalogue.performSale=Vinde
 catalogue.sell=Vinde:
 //TODO Translate [Reference] 'Total'
 catalogue.total=
-//TODO Translate [Reference] 'Stop/resume time'
+//TODO Translate [Reference] '^c:F2E200;stopTime'
 commands.stopTime.description=
 //TODO Translate [Reference] 'Time resumed'
 commands.stopTime.resume=
@@ -797,6 +797,8 @@ staxel.bush.GoldenberryBush.name=
 staxel.bush.RaspberryBush.description=
 //TODO Translate [Reference] 'Raspberry Bush Seed'
 staxel.bush.RaspberryBush.name=
+//TODO Translate [Reference] 'acorn'
+staxel.category.acorn=
 //TODO Translate [Reference] 'Apple Pie Stand'
 staxel.category.ApplePieStand=
 //TODO Translate [Reference] 'assemble'
@@ -813,6 +815,8 @@ staxel.category.baked=
 staxel.category.band=
 //TODO Translate [Reference] 'batter'
 staxel.category.batter=
+//TODO Translate [Reference] 'berry'
+staxel.category.berry=
 //TODO Translate [Reference] 'Blackberry Pie Stand'
 staxel.category.BlackberryPieStand=
 //TODO Translate [Reference] 'Blueberry Pie Stand'
@@ -2517,13 +2521,13 @@ staxel.tileObject.crafting.AssemblyStation.description=
 //TODO Translate [Reference] 'Assembly Station'
 staxel.tileObject.crafting.AssemblyStation.name=
 staxel.tileObject.crafting.CarpentryStation.description=
-//TODO Translate [Reference] 'Carpentry Station'
+//TODO Translate [Reference] 'Carving Station'
 staxel.tileObject.crafting.CarpentryStation.name=
 staxel.tileObject.crafting.Churn.description=
 //TODO Translate [Reference] 'Churn'
 staxel.tileObject.crafting.Churn.name=
 staxel.tileObject.crafting.MasonryStation.description=
-//TODO Translate [Reference] 'Masonry Station'
+//TODO Translate [Reference] 'Construction Station'
 staxel.tileObject.crafting.MasonryStation.name=
 staxel.tileObject.crafting.TilingStation.description=
 //TODO Translate [Reference] 'Tiling Station'
@@ -2863,10 +2867,10 @@ staxel.tileObject.mines.WallMoss2.description=
 //TODO Translate [Reference] 'Wall Moss2'
 staxel.tileObject.mines.WallMoss2.name=
 staxel.tileObject.office.OfficeCounter.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Office Counter (No Docks)'
 staxel.tileObject.office.OfficeCounter.NoDock.name=
 staxel.tileObject.office.OfficeDesk.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Office Desk (No Docks)'
 staxel.tileObject.office.OfficeDesk.NoDock.name=
 staxel.tileObject.patisserie.ApplePieStand.description=
 //TODO Translate [Reference] 'Apple Pie Stand'
@@ -3169,11 +3173,16 @@ staxel.tileObject.serverVillage.ClockTowerFace.name=
 staxel.tileObject.serverVillage.CombiningStation.description=
 //TODO Translate [Reference] 'Combining Station'
 staxel.tileObject.serverVillage.CombiningStation.name=
+//TODO Translate [Reference] 'A wooden counter, usually used for retail stores.'
+staxel.tileObject.serverVillage.exterior.ShopCounterNoDock.description=
+//TODO Translate [Reference] 'Shop Counter (No Docks)'
+staxel.tileObject.serverVillage.exterior.ShopCounterNoDock.name=
 staxel.tileObject.serverVillage.exterior.SmallWoodenPoleFenceCross.description=
 //TODO Translate [Reference] 'Small Wooden Pole Fence'
 staxel.tileObject.serverVillage.exterior.SmallWoodenPoleFenceCross.name=
+//TODO Translate [Reference] 'Sure this kitchen counter was designed in the '50s, but it's design is still going strong today!'
 staxel.tileObject.serverVillage.KitchenCounter.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Simply Stylish Kitchen Counter (No Docks)'
 staxel.tileObject.serverVillage.KitchenCounter.NoDock.name=
 staxel.tileObject.serverVillage.RanchWindowSmall.description=
 //TODO Translate [Reference] 'Ranch Window Small'
@@ -3205,23 +3214,25 @@ staxel.tileObject.shop.ShopWindow3.name=
 staxel.tileObject.shop.ShopWindow4.description=
 //TODO Translate [Reference] 'Shop Window4'
 staxel.tileObject.shop.ShopWindow4.name=
+//TODO Translate [Reference] 'From the 'Contemporary Furniture Set' - A sleek, modern desk with plenty of work space.'
 staxel.tileObject.themedfurniture.contemporary.ContemporaryDesk.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Contemporary Desk (No Docks)'
 staxel.tileObject.themedfurniture.contemporary.ContemporaryDesk.NoDock.name=
+//TODO Translate [Reference] 'From the 'Contemporary Furniture Set' - A modern side table. It may seem simple, but read between the lines.'
 staxel.tileObject.themedfurniture.contemporary.contemporarySideTable.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Contemporary Side Table (No Docks)'
 staxel.tileObject.themedfurniture.contemporary.contemporarySideTable.NoDock.name=
 staxel.tileObject.themedfurniture.minimalist.MinimalistDesk.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Minimalist Desk (No Docks)'
 staxel.tileObject.themedfurniture.minimalist.MinimalistDesk.NoDock.name=
 staxel.tileObject.themedfurniture.ranch.RanchCoffeeTable.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Ranch Coffee Table (No Docks)'
 staxel.tileObject.themedfurniture.ranch.RanchCoffeeTable.NoDock.name=
 staxel.tileObject.themedfurniture.ranch.RanchSideTable.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Ranch Side Table (No Docks)'
 staxel.tileObject.themedfurniture.ranch.RanchSideTable.NoDock.name=
 staxel.tileObject.themedfurniture.victorian.VictorianSideTable.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Victorian Side Table (No Docks)'
 staxel.tileObject.themedfurniture.victorian.VictorianSideTable.NoDock.name=
 staxel.tileObject.totems.AlizaMailbox.description=
 //TODO Translate [Reference] 'Aliza's Postbox'
@@ -3343,6 +3354,8 @@ staxel.totem.MayorMaxHome=
 staxel.totem.missingItem=
 //TODO Translate [Reference] 'Oscar's Home'
 staxel.totem.OscarHome=
+//TODO Translate [Reference] 'Updating...'
+staxel.totem.pendingUpdate=
 //TODO Translate [Reference] '(Done)'
 staxel.totem.RequirementDone=
 //TODO Translate [Reference] 'Riah's Home'
