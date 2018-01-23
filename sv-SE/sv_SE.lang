@@ -17,7 +17,7 @@ catalogue.performSale=
 catalogue.sell=
 //TODO Translate [Reference] 'Total'
 catalogue.total=
-//TODO Translate [Reference] 'Stop/resume time'
+//TODO Translate [Reference] '^c:F2E200;stopTime'
 commands.stopTime.description=
 //TODO Translate [Reference] 'Time resumed'
 commands.stopTime.resume=
@@ -219,6 +219,8 @@ debug.MissingNotification=
 
 //[Reference] 'Back'
 error.back=Tillbaka
+//TODO Translate [Reference] 'Bad Version'
+error.badVersion=
 //[Reference] 'The Staxel.net server appears to be offline. Please try again later.'
 error.serverOffline=Staxel.net servern verkar vara offline. Vänligen försök senare.
 //[Reference] 'SORRY!'
@@ -652,6 +654,9 @@ startMenu.options=Alternativ
 startMenu.serverList=Server Lista
 //[Reference] 'Single Player'
 startMenu.singlePlayer=En Spelare
+staxel.accessories.characters.accessories.animalhats.FrogHat_paletted.description=
+//TODO Translate [Reference] 'Frog Hat'
+staxel.accessories.characters.accessories.animalhats.FrogHat_paletted.name=
 staxel.accessories.characters.accessories.festival.FlowerCrown.description=
 //TODO Translate [Reference] 'Flower Crown'
 staxel.accessories.characters.accessories.festival.FlowerCrown.name=
@@ -745,9 +750,21 @@ staxel.accessories.helmets.mecha.Mecha_Red.name=
 staxel.accessories.helmets.mecha.Mecha_XYellow.description=
 //TODO Translate [Reference] 'Mecha_XYellow'
 staxel.accessories.helmets.mecha.Mecha_XYellow.name=
+staxel.accessories.shirts.colouredhoodie.ColouredHoodie.description=
+//TODO Translate [Reference] 'Coloured Hoodie'
+staxel.accessories.shirts.colouredhoodie.ColouredHoodie.name=
+staxel.accessories.shirts.darkhoodie.DarkHoodie.description=
+//TODO Translate [Reference] 'Dark Hoodie'
+staxel.accessories.shirts.darkhoodie.DarkHoodie.name=
+staxel.accessories.shirts.ghostshirts.GhostShirt.description=
+//TODO Translate [Reference] 'Ghost Shirt'
+staxel.accessories.shirts.ghostshirts.GhostShirt.name=
 staxel.accessories.shirts.stripedshirts.StripedShirt.description=
 //TODO Translate [Reference] 'StripedShirt'
 staxel.accessories.shirts.stripedshirts.StripedShirt.name=
+staxel.accessories.shirts.tartanshirts.TartanShirt.description=
+//TODO Translate [Reference] 'Tartan Shirt'
+staxel.accessories.shirts.tartanshirts.TartanShirt.name=
 staxel.accessories.shorts.shortjeanspaletted.description=
 //TODO Translate [Reference] 'shortjeanspaletted'
 staxel.accessories.shorts.shortjeanspaletted.name=
@@ -797,6 +814,8 @@ staxel.bush.GoldenberryBush.name=
 staxel.bush.RaspberryBush.description=
 //TODO Translate [Reference] 'Raspberry Bush Seed'
 staxel.bush.RaspberryBush.name=
+//TODO Translate [Reference] 'acorn'
+staxel.category.acorn=
 //TODO Translate [Reference] 'Apple Pie Stand'
 staxel.category.ApplePieStand=
 //TODO Translate [Reference] 'assemble'
@@ -813,6 +832,8 @@ staxel.category.baked=
 staxel.category.band=
 //TODO Translate [Reference] 'batter'
 staxel.category.batter=
+//TODO Translate [Reference] 'berry'
+staxel.category.berry=
 //TODO Translate [Reference] 'Blackberry Pie Stand'
 staxel.category.BlackberryPieStand=
 //TODO Translate [Reference] 'Blueberry Pie Stand'
@@ -873,6 +894,8 @@ staxel.category.drying=
 staxel.category.fey=
 //TODO Translate [Reference] 'fine'
 staxel.category.fine=
+//TODO Translate [Reference] 'fly'
+staxel.category.fly=
 //TODO Translate [Reference] 'fried'
 staxel.category.fried=
 //TODO Translate [Reference] 'fry'
@@ -955,6 +978,8 @@ staxel.category.patisserie=
 staxel.category.PeachPieStand=
 //TODO Translate [Reference] 'Plain Cake Stand'
 staxel.category.PlainCakeStand=
+//TODO Translate [Reference] 'platform'
+staxel.category.platform=
 //TODO Translate [Reference] 'poop'
 staxel.category.poop=
 //TODO Translate [Reference] 'popcorn'
@@ -969,6 +994,10 @@ staxel.category.rice=
 staxel.category.salad=
 //TODO Translate [Reference] 'sawing'
 staxel.category.sawing=
+//TODO Translate [Reference] 'scaffold'
+staxel.category.scaffold=
+//TODO Translate [Reference] 'scaffolding'
+staxel.category.scaffolding=
 //TODO Translate [Reference] 'sea'
 staxel.category.sea=
 //TODO Translate [Reference] 'sheared'
@@ -1227,6 +1256,9 @@ staxel.crop.Cabbage.name=
 staxel.crop.Carrot.description=
 //TODO Translate [Reference] 'Carrot Seed'
 staxel.crop.Carrot.name=
+staxel.crop.CatTurnip.description=
+//TODO Translate [Reference] 'Cat Turnip'
+staxel.crop.CatTurnip.name=
 //TODO Translate [Reference] 'Delicious yellow corn.'
 staxel.crop.Corn.description=
 //TODO Translate [Reference] 'Corn Seed'
@@ -1750,6 +1782,9 @@ staxel.item.crafting.Varnish.name=
 staxel.item.crafting.WoodShingles.description=
 //TODO Translate [Reference] 'WoodShingles'
 staxel.item.crafting.WoodShingles.name=
+staxel.item.crops.CatTurnip.description=
+//TODO Translate [Reference] 'Cat Turnip'
+staxel.item.crops.CatTurnip.name=
 staxel.item.crops.GoldenCabbage.description=
 //TODO Translate [Reference] 'Golden Cabbage'
 staxel.item.crops.GoldenCabbage.name=
@@ -1829,6 +1864,9 @@ staxel.item.gatherable.festival.Fairy.name=
 staxel.item.gatherable.festival.MalevolentFairy.description=
 //TODO Translate [Reference] 'Mischievous Fairy'
 staxel.item.gatherable.festival.MalevolentFairy.name=
+staxel.item.gatherable.Firefly.description=
+//TODO Translate [Reference] 'Firefly'
+staxel.item.gatherable.Firefly.name=
 staxel.item.gatherable.Fly.description=
 //TODO Translate [Reference] 'Fly'
 staxel.item.gatherable.Fly.name=
@@ -2076,6 +2114,10 @@ staxel.nightTransition.Line19=
 staxel.nightTransition.Line20=
 //TODO Translate [Reference] 'Tip: Use the whistle to have your pet do tricks!'
 staxel.nightTransition.Line21=
+//TODO Translate [Reference] 'Tip: Make sure to pet your animals every day to keep them happy'
+staxel.nightTransition.Line22=
+//TODO Translate [Reference] 'Tip: Placing seeds and picking up items can be repeated by holding down the button'
+staxel.nightTransition.Line23=
 //TODO Translate [Reference] 'Next'
 staxel.nightTransition.next=
 //TODO Translate [Reference] 'Press {0-key} to continue...'
@@ -2202,6 +2244,9 @@ staxel.pets.Cat.name=
 staxel.pets.Dog.name=
 //TODO Translate [Reference] '{0-pet} has brought you a gift!'
 staxel.pets.GiftReceived=
+staxel.plant.crop.CatTurnip.description=
+//TODO Translate [Reference] 'Cat Turnip'
+staxel.plant.crop.CatTurnip.name=
 staxel.plant.crop.GoldenCabbage.description=
 //TODO Translate [Reference] 'Golden Cabbage'
 staxel.plant.crop.GoldenCabbage.name=
@@ -2506,10 +2551,28 @@ staxel.tileObject.biomeDebris.LongMeadowGrass.4.Summer.name=
 staxel.tileObject.biomeDebris.LongMeadowGrass.4.Winter.description=
 //TODO Translate [Reference] 'Winter'
 staxel.tileObject.biomeDebris.LongMeadowGrass.4.Winter.name=
+staxel.tileObject.bobbleheads.BadgerBobbleHead.description=
+//TODO Translate [Reference] 'Badger Bobble Head'
+staxel.tileObject.bobbleheads.BadgerBobbleHead.name=
+staxel.tileObject.bobbleheads.CurtisBobbleHead.description=
+//TODO Translate [Reference] 'Curtis Bobble Head'
+staxel.tileObject.bobbleheads.CurtisBobbleHead.name=
+staxel.tileObject.bobbleheads.DeamonHunterBobbleHead.description=
+//TODO Translate [Reference] 'Deamon Hunter Bobble Head'
+staxel.tileObject.bobbleheads.DeamonHunterBobbleHead.name=
 //TODO Translate [Reference] 'The one and only!'
 staxel.tileObject.bobbleheads.FarmFanBobblehead.description=
 //TODO Translate [Reference] 'Farm Fan Bobblehead'
 staxel.tileObject.bobbleheads.FarmFanBobblehead.name=
+staxel.tileObject.bobbleheads.LambdaBobbleHead.description=
+//TODO Translate [Reference] 'Lambda Bobble Head'
+staxel.tileObject.bobbleheads.LambdaBobbleHead.name=
+staxel.tileObject.bobbleheads.ThomasBobbleHead.description=
+//TODO Translate [Reference] 'Thomas Bobble Head'
+staxel.tileObject.bobbleheads.ThomasBobbleHead.name=
+staxel.tileObject.bobbleheads.WintersBobbleHead.description=
+//TODO Translate [Reference] 'Winters Bobble Head'
+staxel.tileObject.bobbleheads.WintersBobbleHead.name=
 staxel.tileObject.campingset.SittingLog.description=
 //TODO Translate [Reference] 'Sitting Log'
 staxel.tileObject.campingset.SittingLog.name=
@@ -2517,13 +2580,13 @@ staxel.tileObject.crafting.AssemblyStation.description=
 //TODO Translate [Reference] 'Assembly Station'
 staxel.tileObject.crafting.AssemblyStation.name=
 staxel.tileObject.crafting.CarpentryStation.description=
-//TODO Translate [Reference] 'Carpentry Station'
+//TODO Translate [Reference] 'Carving Station'
 staxel.tileObject.crafting.CarpentryStation.name=
 staxel.tileObject.crafting.Churn.description=
 //TODO Translate [Reference] 'Churn'
 staxel.tileObject.crafting.Churn.name=
 staxel.tileObject.crafting.MasonryStation.description=
-//TODO Translate [Reference] 'Masonry Station'
+//TODO Translate [Reference] 'Construction Station'
 staxel.tileObject.crafting.MasonryStation.name=
 staxel.tileObject.crafting.TilingStation.description=
 //TODO Translate [Reference] 'Tiling Station'
@@ -2706,6 +2769,9 @@ staxel.tileObject.gatherable.festival.Fairy.name=
 staxel.tileObject.gatherable.festival.MalevolentFairy.description=
 //TODO Translate [Reference] 'Mischievous Fairy'
 staxel.tileObject.gatherable.festival.MalevolentFairy.name=
+staxel.tileObject.gatherable.Firefly.description=
+//TODO Translate [Reference] 'Firefly'
+staxel.tileObject.gatherable.Firefly.name=
 staxel.tileObject.gatherable.Fly.description=
 //TODO Translate [Reference] 'Fly'
 staxel.tileObject.gatherable.Fly.name=
@@ -2862,11 +2928,20 @@ staxel.tileObject.mines.WallMoss1.name=
 staxel.tileObject.mines.WallMoss2.description=
 //TODO Translate [Reference] 'Wall Moss2'
 staxel.tileObject.mines.WallMoss2.name=
+staxel.tileObject.misc.DinosaurPlush.description=
+//TODO Translate [Reference] 'Dinosaur Plush'
+staxel.tileObject.misc.DinosaurPlush.name=
+staxel.tileObject.misc.Scaffolding.description=
+//TODO Translate [Reference] 'Scaffolding'
+staxel.tileObject.misc.Scaffolding.name=
+staxel.tileObject.misc.SlugCatPlush.description=
+//TODO Translate [Reference] 'Slug Cat Plush'
+staxel.tileObject.misc.SlugCatPlush.name=
 staxel.tileObject.office.OfficeCounter.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Office Counter (No Docks)'
 staxel.tileObject.office.OfficeCounter.NoDock.name=
 staxel.tileObject.office.OfficeDesk.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Office Desk (No Docks)'
 staxel.tileObject.office.OfficeDesk.NoDock.name=
 staxel.tileObject.patisserie.ApplePieStand.description=
 //TODO Translate [Reference] 'Apple Pie Stand'
@@ -2910,6 +2985,9 @@ staxel.tileObject.patisserie.PatisserieDisplayRight.name=
 staxel.tileObject.patisserie.PatisserieDisplayStandalone.description=
 //TODO Translate [Reference] 'Patisserie Display Standalone'
 staxel.tileObject.patisserie.PatisserieDisplayStandalone.name=
+staxel.tileObject.patisserie.PatisserieOven.description=
+//TODO Translate [Reference] 'Patisserie Oven'
+staxel.tileObject.patisserie.PatisserieOven.name=
 staxel.tileObject.patisserie.PeachPieStand.description=
 //TODO Translate [Reference] 'Peach Pie Stand'
 staxel.tileObject.patisserie.PeachPieStand.name=
@@ -3169,11 +3247,22 @@ staxel.tileObject.serverVillage.ClockTowerFace.name=
 staxel.tileObject.serverVillage.CombiningStation.description=
 //TODO Translate [Reference] 'Combining Station'
 staxel.tileObject.serverVillage.CombiningStation.name=
+//TODO Translate [Reference] 'A wooden counter, usually used for retail stores.'
+staxel.tileObject.serverVillage.exterior.ShopCounterNoDock.description=
+//TODO Translate [Reference] 'Shop Counter (No Docks)'
+staxel.tileObject.serverVillage.exterior.ShopCounterNoDock.name=
 staxel.tileObject.serverVillage.exterior.SmallWoodenPoleFenceCross.description=
 //TODO Translate [Reference] 'Small Wooden Pole Fence'
 staxel.tileObject.serverVillage.exterior.SmallWoodenPoleFenceCross.name=
+staxel.tileObject.serverVillage.exterior.WoodenPoleFenceCross.description=
+//TODO Translate [Reference] 'Wooden Pole Fence Cross'
+staxel.tileObject.serverVillage.exterior.WoodenPoleFenceCross.name=
+staxel.tileObject.serverVillage.exterior.WoodenPoleFenceTSection.description=
+//TODO Translate [Reference] 'Wooden Pole Fence TSection'
+staxel.tileObject.serverVillage.exterior.WoodenPoleFenceTSection.name=
+//TODO Translate [Reference] 'Sure this kitchen counter was designed in the '50s, but it's design is still going strong today!'
 staxel.tileObject.serverVillage.KitchenCounter.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Simply Stylish Kitchen Counter (No Docks)'
 staxel.tileObject.serverVillage.KitchenCounter.NoDock.name=
 staxel.tileObject.serverVillage.RanchWindowSmall.description=
 //TODO Translate [Reference] 'Ranch Window Small'
@@ -3205,23 +3294,157 @@ staxel.tileObject.shop.ShopWindow3.name=
 staxel.tileObject.shop.ShopWindow4.description=
 //TODO Translate [Reference] 'Shop Window4'
 staxel.tileObject.shop.ShopWindow4.name=
+//TODO Translate [Reference] 'From the 'Contemporary Furniture Set' - A sleek, modern desk with plenty of work space.'
 staxel.tileObject.themedfurniture.contemporary.ContemporaryDesk.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Contemporary Desk (No Docks)'
 staxel.tileObject.themedfurniture.contemporary.ContemporaryDesk.NoDock.name=
+//TODO Translate [Reference] 'From the 'Contemporary Furniture Set' - A modern side table. It may seem simple, but read between the lines.'
 staxel.tileObject.themedfurniture.contemporary.contemporarySideTable.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Contemporary Side Table (No Docks)'
 staxel.tileObject.themedfurniture.contemporary.contemporarySideTable.NoDock.name=
 staxel.tileObject.themedfurniture.minimalist.MinimalistDesk.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Minimalist Desk (No Docks)'
 staxel.tileObject.themedfurniture.minimalist.MinimalistDesk.NoDock.name=
+staxel.tileObject.themedfurniture.pet.PawArmChair.description=
+//TODO Translate [Reference] 'Paw Arm Chair'
+staxel.tileObject.themedfurniture.pet.PawArmChair.name=
+staxel.tileObject.themedfurniture.pet.PawChair.description=
+//TODO Translate [Reference] 'Paw Chair'
+staxel.tileObject.themedfurniture.pet.PawChair.name=
+staxel.tileObject.themedfurniture.pet.PawDesk.description=
+//TODO Translate [Reference] 'Paw Desk'
+staxel.tileObject.themedfurniture.pet.PawDesk.name=
+staxel.tileObject.themedfurniture.pet.PawDoubleBed.description=
+//TODO Translate [Reference] 'Paw Double Bed'
+staxel.tileObject.themedfurniture.pet.PawDoubleBed.name=
+staxel.tileObject.themedfurniture.pet.PawLamp.description=
+//TODO Translate [Reference] 'Paw Lamp'
+staxel.tileObject.themedfurniture.pet.PawLamp.name=
+staxel.tileObject.themedfurniture.pet.PawLoveseat.description=
+//TODO Translate [Reference] 'Paw Loveseat'
+staxel.tileObject.themedfurniture.pet.PawLoveseat.name=
+staxel.tileObject.themedfurniture.pet.PawSideTable.description=
+//TODO Translate [Reference] 'Paw Side Table'
+staxel.tileObject.themedfurniture.pet.PawSideTable.name=
+staxel.tileObject.themedfurniture.pet.PawTable.description=
+//TODO Translate [Reference] 'Paw Table'
+staxel.tileObject.themedfurniture.pet.PawTable.name=
+staxel.tileObject.themedfurniture.pet.PawWardrobe.description=
+//TODO Translate [Reference] 'Paw Wardrobe'
+staxel.tileObject.themedfurniture.pet.PawWardrobe.name=
+staxel.tileObject.themedfurniture.rainbow.BlueRainbowArmChair.description=
+//TODO Translate [Reference] 'Blue Rainbow Arm Chair'
+staxel.tileObject.themedfurniture.rainbow.BlueRainbowArmChair.name=
+staxel.tileObject.themedfurniture.rainbow.BlueRainbowBed.description=
+//TODO Translate [Reference] 'Blue Rainbow Bed'
+staxel.tileObject.themedfurniture.rainbow.BlueRainbowBed.name=
+staxel.tileObject.themedfurniture.rainbow.BlueRainbowChair.description=
+//TODO Translate [Reference] 'Blue Rainbow Chair'
+staxel.tileObject.themedfurniture.rainbow.BlueRainbowChair.name=
+staxel.tileObject.themedfurniture.rainbow.BlueRainbowLoveseat.description=
+//TODO Translate [Reference] 'Blue Rainbow Loveseat'
+staxel.tileObject.themedfurniture.rainbow.BlueRainbowLoveseat.name=
+staxel.tileObject.themedfurniture.rainbow.BlueRainbowStool.description=
+//TODO Translate [Reference] 'Blue Rainbow Stool'
+staxel.tileObject.themedfurniture.rainbow.BlueRainbowStool.name=
+staxel.tileObject.themedfurniture.rainbow.GreenRainbowArmChair.description=
+//TODO Translate [Reference] 'Green Rainbow Arm Chair'
+staxel.tileObject.themedfurniture.rainbow.GreenRainbowArmChair.name=
+staxel.tileObject.themedfurniture.rainbow.GreenRainbowBed.description=
+//TODO Translate [Reference] 'Green Rainbow Bed'
+staxel.tileObject.themedfurniture.rainbow.GreenRainbowBed.name=
+staxel.tileObject.themedfurniture.rainbow.GreenRainbowChair.description=
+//TODO Translate [Reference] 'Green Rainbow Chair'
+staxel.tileObject.themedfurniture.rainbow.GreenRainbowChair.name=
+staxel.tileObject.themedfurniture.rainbow.GreenRainbowLoveseat.description=
+//TODO Translate [Reference] 'Green Rainbow Loveseat'
+staxel.tileObject.themedfurniture.rainbow.GreenRainbowLoveseat.name=
+staxel.tileObject.themedfurniture.rainbow.GreenRainbowStool.description=
+//TODO Translate [Reference] 'Green Rainbow Stool'
+staxel.tileObject.themedfurniture.rainbow.GreenRainbowStool.name=
+staxel.tileObject.themedfurniture.rainbow.OrangeRainbowArmChair.description=
+//TODO Translate [Reference] 'Orange Rainbow Arm Chair'
+staxel.tileObject.themedfurniture.rainbow.OrangeRainbowArmChair.name=
+staxel.tileObject.themedfurniture.rainbow.OrangeRainbowBed.description=
+//TODO Translate [Reference] 'Orange Rainbow Bed'
+staxel.tileObject.themedfurniture.rainbow.OrangeRainbowBed.name=
+staxel.tileObject.themedfurniture.rainbow.OrangeRainbowChair.description=
+//TODO Translate [Reference] 'Orange Rainbow Chair'
+staxel.tileObject.themedfurniture.rainbow.OrangeRainbowChair.name=
+staxel.tileObject.themedfurniture.rainbow.OrangeRainbowLoveseat.description=
+//TODO Translate [Reference] 'Orange Rainbow Loveseat'
+staxel.tileObject.themedfurniture.rainbow.OrangeRainbowLoveseat.name=
+staxel.tileObject.themedfurniture.rainbow.OrangeRainbowStool.description=
+//TODO Translate [Reference] 'Orange Rainbow Stool'
+staxel.tileObject.themedfurniture.rainbow.OrangeRainbowStool.name=
+staxel.tileObject.themedfurniture.rainbow.PinkRainbowArmChair.description=
+//TODO Translate [Reference] 'Pink Rainbow Arm Chair'
+staxel.tileObject.themedfurniture.rainbow.PinkRainbowArmChair.name=
+staxel.tileObject.themedfurniture.rainbow.PinkRainbowBed.description=
+//TODO Translate [Reference] 'Pink Rainbow Bed'
+staxel.tileObject.themedfurniture.rainbow.PinkRainbowBed.name=
+staxel.tileObject.themedfurniture.rainbow.PinkRainbowChair.description=
+//TODO Translate [Reference] 'Pink Rainbow Chair'
+staxel.tileObject.themedfurniture.rainbow.PinkRainbowChair.name=
+staxel.tileObject.themedfurniture.rainbow.PinkRainbowLoveseat.description=
+//TODO Translate [Reference] 'Pink Rainbow Loveseat'
+staxel.tileObject.themedfurniture.rainbow.PinkRainbowLoveseat.name=
+staxel.tileObject.themedfurniture.rainbow.PinkRainbowStool.description=
+//TODO Translate [Reference] 'Pink Rainbow Stool'
+staxel.tileObject.themedfurniture.rainbow.PinkRainbowStool.name=
+staxel.tileObject.themedfurniture.rainbow.PurpleRainbowArmChair.description=
+//TODO Translate [Reference] 'Purple Rainbow Arm Chair'
+staxel.tileObject.themedfurniture.rainbow.PurpleRainbowArmChair.name=
+staxel.tileObject.themedfurniture.rainbow.PurpleRainbowBed.description=
+//TODO Translate [Reference] 'Purple Rainbow Bed'
+staxel.tileObject.themedfurniture.rainbow.PurpleRainbowBed.name=
+staxel.tileObject.themedfurniture.rainbow.PurpleRainbowChair.description=
+//TODO Translate [Reference] 'Purple Rainbow Chair'
+staxel.tileObject.themedfurniture.rainbow.PurpleRainbowChair.name=
+staxel.tileObject.themedfurniture.rainbow.PurpleRainbowLoveseat.description=
+//TODO Translate [Reference] 'Purple Rainbow Loveseat'
+staxel.tileObject.themedfurniture.rainbow.PurpleRainbowLoveseat.name=
+staxel.tileObject.themedfurniture.rainbow.PurpleRainbowStool.description=
+//TODO Translate [Reference] 'Purple Rainbow Stool'
+staxel.tileObject.themedfurniture.rainbow.PurpleRainbowStool.name=
+staxel.tileObject.themedfurniture.rainbow.RedRainbowArmChair.description=
+//TODO Translate [Reference] 'Red Rainbow Arm Chair'
+staxel.tileObject.themedfurniture.rainbow.RedRainbowArmChair.name=
+staxel.tileObject.themedfurniture.rainbow.RedRainbowBed.description=
+//TODO Translate [Reference] 'Red Rainbow Bed'
+staxel.tileObject.themedfurniture.rainbow.RedRainbowBed.name=
+staxel.tileObject.themedfurniture.rainbow.RedRainbowChair.description=
+//TODO Translate [Reference] 'Red Rainbow Chair'
+staxel.tileObject.themedfurniture.rainbow.RedRainbowChair.name=
+staxel.tileObject.themedfurniture.rainbow.RedRainbowLoveseat.description=
+//TODO Translate [Reference] 'Red Rainbow Loveseat'
+staxel.tileObject.themedfurniture.rainbow.RedRainbowLoveseat.name=
+staxel.tileObject.themedfurniture.rainbow.RedRainbowStool.description=
+//TODO Translate [Reference] 'Red Rainbow Stool'
+staxel.tileObject.themedfurniture.rainbow.RedRainbowStool.name=
+staxel.tileObject.themedfurniture.rainbow.YellowRainbowArmChair.description=
+//TODO Translate [Reference] 'Yellow Rainbow Arm Chair'
+staxel.tileObject.themedfurniture.rainbow.YellowRainbowArmChair.name=
+staxel.tileObject.themedfurniture.rainbow.YellowRainbowBed.description=
+//TODO Translate [Reference] 'Yellow Rainbow Bed'
+staxel.tileObject.themedfurniture.rainbow.YellowRainbowBed.name=
+staxel.tileObject.themedfurniture.rainbow.YellowRainbowChair.description=
+//TODO Translate [Reference] 'Yellow Rainbow Chair'
+staxel.tileObject.themedfurniture.rainbow.YellowRainbowChair.name=
+staxel.tileObject.themedfurniture.rainbow.YellowRainbowLoveseat.description=
+//TODO Translate [Reference] 'Yellow Rainbow Loveseat'
+staxel.tileObject.themedfurniture.rainbow.YellowRainbowLoveseat.name=
+staxel.tileObject.themedfurniture.rainbow.YellowRainbowStool.description=
+//TODO Translate [Reference] 'Yellow Rainbow Stool'
+staxel.tileObject.themedfurniture.rainbow.YellowRainbowStool.name=
 staxel.tileObject.themedfurniture.ranch.RanchCoffeeTable.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Ranch Coffee Table (No Docks)'
 staxel.tileObject.themedfurniture.ranch.RanchCoffeeTable.NoDock.name=
 staxel.tileObject.themedfurniture.ranch.RanchSideTable.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Ranch Side Table (No Docks)'
 staxel.tileObject.themedfurniture.ranch.RanchSideTable.NoDock.name=
 staxel.tileObject.themedfurniture.victorian.VictorianSideTable.NoDock.description=
-//TODO Translate [Reference] 'No Dock'
+//TODO Translate [Reference] 'Victorian Side Table (No Docks)'
 staxel.tileObject.themedfurniture.victorian.VictorianSideTable.NoDock.name=
 staxel.tileObject.totems.AlizaMailbox.description=
 //TODO Translate [Reference] 'Aliza's Postbox'
@@ -3343,6 +3566,8 @@ staxel.totem.MayorMaxHome=
 staxel.totem.missingItem=
 //TODO Translate [Reference] 'Oscar's Home'
 staxel.totem.OscarHome=
+//TODO Translate [Reference] 'Updating...'
+staxel.totem.pendingUpdate=
 //TODO Translate [Reference] '(Done)'
 staxel.totem.RequirementDone=
 //TODO Translate [Reference] 'Riah's Home'
