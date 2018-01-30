@@ -1,7 +1,8 @@
 language.code=ko-KR
 language=한국어
 font=staxel/fonts/SDMiSaeng.ttf
-//[Reference] 'Achievement unlocked: {0-achievement}!' {0-achievement}은 "~~를 하는" 같이 ~는으로 끝내주세요
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Achievement unlocked: {0-achievement}!'
 achievements.achievementUnlocked={0-achievement} 도전과제를 달성했어요!
 //[Reference] 'Buy:'
 catalogue.buy=Buy:
@@ -28,15 +29,17 @@ commands.stopTime.stop=Time stopped
 //[Reference] 'success'
 commands.tripod.success=success
 
-//[Reference] 'Break' (일반 블럭) 캐기 부수기
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Break'
 controlHint.verb.Break=Break
 //[Reference] 'Buy'
 controlHint.verb.Buy=구매
-//[Reference] 'Calm' 	
+//[Reference] 'Calm'
 controlHint.verb.Calm=Calm
 //[Reference] 'Cast'
 controlHint.verb.Cast=Cast
-//[Reference] 'Catch' 채집 or 잡기
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Catch'
 controlHint.verb.Catch=채집
 //[Reference] 'Check'
 controlHint.verb.Check=Check
@@ -58,7 +61,8 @@ controlHint.verb.default.Drink=마시기
 controlHint.verb.default.Eat=먹기
 //[Reference] 'Harvest'
 controlHint.verb.default.Harvest=Harvest
-//[Reference] 'Interact' (문, 풍선)
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Interact'
 controlHint.verb.default.Interact=만지기
 //[Reference] 'Restart'
 controlHint.verb.default.ManualRestart=Restart
@@ -120,7 +124,7 @@ controlHint.verb.Talk=말걸기
 controlHint.verb.Till=Till
 //[Reference] 'Water'
 controlHint.verb.Water=Water
-//[Reference] 'Item Hotkeys'
+//TODO Translate [Reference] 'Item Hotkeys'
 controllerHints.hotkeys=
 //[Reference] 'Inventory'
 controllerHints.inventory=가방 여는 방법
@@ -228,6 +232,8 @@ error.back=Back
 
 //[Reference] 'Bad Version'
 error.badVersion=서버와 버전이 맞지 않아요.
+//TODO Translate [Reference] 'Server Full'
+error.serverFull=
 //[Reference] 'The Staxel.net server appears to be offline. Please try again later.'
 error.serverOffline=The Staxel.net server appears to be offline. Please try again later.
 //[Reference] 'SORRY!'
@@ -345,6 +351,8 @@ looting.stealFrom=Steal from
 multiplayerMenu.back=돌아가기
 //[Reference] 'Join Server'
 multiplayerMenu.joinServer=서버 참가
+//TODO Translate [Reference] 'Play With Friends'
+multiplayerMenu.playWithFriends=
 //[Reference] 'Server IP:'
 multiplayerMenu.serverIP=서버 주소 (IP):
 //[Reference] 'Server List'
@@ -423,7 +431,8 @@ options.gameplay.controller.rightThumbVelocity=Right Thumb Velocity:
 options.gameplay.description=게임을 설정해주세요.
 //[Reference] 'Input'
 options.gameplay.input=입력
-//[Reference] 'Enable Repeating' IDK
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Enable Repeating'
 options.gameplay.input.enableRepeat=키 반복 허용
 //[Reference] 'Keyboard'
 options.gameplay.keyboard=키보드
@@ -439,6 +448,8 @@ options.gameplay.mouse.mouseVelocity=마우스 감도:
 options.gameplay.other=기타
 //[Reference] 'Active Achievement Tracker'
 options.gameplay.other.activeAchievement=도전과제 달성 알리미 활성화
+//TODO Translate [Reference] 'Text Speed:'
+options.gameplay.other.ChatSpeed=
 //[Reference] 'Chat Timestamps'
 options.gameplay.other.chatTimestamps=채팅 시간 기록
 //[Reference] 'Left Handed Mode'
@@ -462,7 +473,8 @@ options.gameplay.ui=UI
 
 //[Reference] 'Fullscreen Resolution:'
 options.gameplay.ui.FullScreenResolution=전체화면 해상도:
-//[Reference] 'UI Scale:' UI -> 화면? UI?
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'UI Scale:'
 options.gameplay.ui.ManualUIScale=UI 크기:
 //[Reference] 'General'
 options.general=전체
@@ -647,6 +659,8 @@ singleplayer.defaultWorldName=My World
 singleplayer.delete=지우기
 //[Reference] 'Failed to delete world'
 singleplayer.failedToDeleteWorld=세계를 지우는데 실패했습니다.
+//TODO Translate [Reference] 'Allow friend joins'
+singleplayer.friendJoin=
 //[Reference] 'Launch'
 singleplayer.launch=시작
 //[Reference] 'Storage with this name already exists'
@@ -655,6 +669,8 @@ singleplayer.nameAlreadyExists=이 이름은 이미 있는 이름입니다.
 singleplayer.nameTooShort=이름이 너무 짧아요. (최소 3자 이상)
 //[Reference] 'New World'
 singleplayer.newWorld=새로운 세계
+//TODO Translate [Reference] 'Play With Friends'
+singleplayer.playWithFriends=
 //[Reference] 'Name'
 singleplayer.serverName=이름
 
@@ -1259,6 +1275,9 @@ staxel.crafting.recipes.SimpleWardrobeSingle.name=SimpleWardrobeSingle
 staxel.crafting.recipes.SmallCrate.description=
 //[Reference] 'SmallCrate'
 staxel.crafting.recipes.SmallCrate.name=SmallCrate
+staxel.crafting.recipes.SoupCabbage.description=
+//TODO Translate [Reference] 'Soup Cabbage'
+staxel.crafting.recipes.SoupCabbage.name=
 staxel.crafting.recipes.StraightWoodenFence.description=
 //[Reference] 'Straight Wooden Fence'
 staxel.crafting.recipes.StraightWoodenFence.name=Straight Wooden Fence
@@ -2667,6 +2686,9 @@ staxel.tileObject.crafting.TilingStation.name=Tiling Station
 staxel.tileObject.creepyBiome.CampfireLarge.description=
 //[Reference] 'Campfire Large'
 staxel.tileObject.creepyBiome.CampfireLarge.name=Campfire Large
+staxel.tileObject.decorations.BottledFirefly.description=
+//TODO Translate [Reference] 'Bottled Firefly'
+staxel.tileObject.decorations.BottledFirefly.name=
 staxel.tileObject.decorations.Dryer.description=
 
 //[Reference] 'Dryer'
@@ -3735,6 +3757,8 @@ staxel.totem.festival.feymasquerade.FeyRoom208=Fey Room 208
 staxel.totem.festival.feymasquerade.FeyThroneRoom=Fey Throne Room
 //[Reference] 'Snowdust Shrine'
 staxel.totem.festival.SnowdustShrine=Snowdust Shrine
+//TODO Translate [Reference] 'Warning: Festival gate regions are periodically overwritten!'
+staxel.totem.FestivalTotem=
 //[Reference] 'Furnishing requirements complete!'
 staxel.totem.FurnitureComplete=Furnishing requirements complete!
 //[Reference] 'Jamie's Home'
