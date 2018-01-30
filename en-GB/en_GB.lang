@@ -181,6 +181,8 @@ looting.stealFrom=Steal from
 
 multiplayerMenu.back=Back to main menu
 multiplayerMenu.joinServer=Join Server
+
+multiplayerMenu.playWithFriends=Play With Friends
 multiplayerMenu.serverIP=Server IP:
 multiplayerMenu.serverList=Server List
 multiplayerMenu.serverPassword=Server Password (optional):
@@ -230,11 +232,11 @@ options.gameplay.mouse.flipY=Flip Y Axis
 options.gameplay.mouse.mouseVelocity=Mouse Velocity:
 options.gameplay.other=Other
 options.gameplay.other.activeAchievement=Active Achievement Tracker
+options.gameplay.other.ChatSpeed=Text Speed:
 options.gameplay.other.chatTimestamps=Chat Timestamps
 options.gameplay.other.leftHandedMode=Left Handed Mode
 options.gameplay.other.ScaleUIWithResolution=Scale UI with resolution
-options.gameplay.other.showClock=Show Clock 
-options.gameplay.other.ChatSpeed=Text Speed: 
+options.gameplay.other.showClock=Show Clock
 
 options.gameplay.other.ShowConsole=Show Console
 options.gameplay.other.showCraftingKeywordTags=Crafting Keyword Tags
@@ -340,10 +342,12 @@ singleplayer.creativeModeEnabled=Creative Mode On
 singleplayer.defaultWorldName=My World
 singleplayer.delete=Delete
 singleplayer.failedToDeleteWorld=Failed to delete world
+singleplayer.friendJoin=Allow friend joins
 singleplayer.launch=Launch
 singleplayer.nameAlreadyExists=Storage with this name already exists
 singleplayer.nameTooShort=Name to short (min 3 characters)
 singleplayer.newWorld=New World
+singleplayer.playWithFriends=Play With Friends
 singleplayer.serverName=Name
 
 singleplayer.singleplayer=Single Player
@@ -1547,6 +1551,8 @@ staxel.tileObject.crafting.TilingStation.description=
 staxel.tileObject.crafting.TilingStation.name=Tiling Station
 staxel.tileObject.creepyBiome.CampfireLarge.description=
 staxel.tileObject.creepyBiome.CampfireLarge.name=Campfire Large
+staxel.tileObject.decorations.BottledFirefly.description=
+staxel.tileObject.decorations.BottledFirefly.name=Bottled Firefly
 staxel.tileObject.decorations.Dryer.description=
 
 staxel.tileObject.decorations.Dryer.name=Dryer
@@ -2253,6 +2259,8 @@ staxel.totem.festival.feymasquerade.FeyRoom207=Fey Room 207
 staxel.totem.festival.feymasquerade.FeyRoom208=Fey Room 208
 staxel.totem.festival.feymasquerade.FeyThroneRoom=Fey Throne Room
 staxel.totem.festival.SnowdustShrine=Snowdust Shrine
+
+staxel.totem.FestivalTotem=Warning: Festival gate regions are periodically overwritten!
 staxel.totem.FurnitureComplete=Furnishing requirements complete!
 staxel.totem.JamieHome=Jamie's Home
 staxel.totem.MayorMaxHome=Maximilian's Home
@@ -2332,7 +2340,3 @@ staxel.weed.Weed1.name=Weed
 version.developmentBuild=Staxel Development Build
 wardrobe.CantEquip=Can't equip this here!
 wardrobe.UseAWardrobe=Use a wardrobe to wear this
-
-multiplayerMenu.playWithFriends=Play With Friends
-singleplayer.playWithFriends=Play With Friends
-singleplayer.friendJoin=Allow friend joins
