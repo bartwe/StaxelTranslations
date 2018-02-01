@@ -218,6 +218,8 @@ debug.MissingNotification=Eksik Uyarı {0-notificationCode}
 error.back=Geri Dön
 //[Reference] 'Bad Version'
 error.badVersion=Yanlış Versiyon
+//TODO Translate [Reference] 'Server Full'
+error.serverFull=
 //[Reference] 'The Staxel.net server appears to be offline. Please try again later.'
 error.serverOffline=Staxel.net yanıt verdiyor daha sonra tekrar dene.
 //[Reference] 'SORRY!'
@@ -330,6 +332,8 @@ looting.stealFrom=Çal
 multiplayerMenu.back=Ana menüye dön
 //[Reference] 'Join Server'
 multiplayerMenu.joinServer=Sunucuya katıl
+//TODO Translate [Reference] 'Play With Friends'
+multiplayerMenu.playWithFriends=
 //[Reference] 'Server IP:'
 multiplayerMenu.serverIP=Sunucu IP'si:
 //[Reference] 'Server List'
@@ -418,6 +422,8 @@ options.gameplay.mouse.mouseVelocity=Fare Hassasiyeti
 options.gameplay.other=Diğer
 //[Reference] 'Active Achievement Tracker'
 options.gameplay.other.activeAchievement=Aktif Başarım Takipçisi
+//TODO Translate [Reference] 'Text Speed:'
+options.gameplay.other.ChatSpeed=
 //[Reference] 'Chat Timestamps'
 options.gameplay.other.chatTimestamps=Komuşma Damgaları
 //[Reference] 'Left Handed Mode'
@@ -428,434 +434,685 @@ options.gameplay.other.ScaleUIWithResolution=Çözünürlüğü ayarla
 options.gameplay.other.showClock=Saati göster
 //[Reference] 'Show Console'
 options.gameplay.other.ShowConsole=Konsolu göster
+//[Reference] 'Crafting Keyword Tags'
 options.gameplay.other.showCraftingKeywordTags=Üretim Kelime Etiketleri
+//[Reference] 'Don't stretch UI'
 options.gameplay.other.StepWiseUIScale=Kullanıcı arayüzünü germe
+//[Reference] 'Prevent NPC Staring'
 options.gameplay.other.StopNPCStaring=NPC Bakmasını Önle
+//[Reference] 'UI'
 options.gameplay.ui=Kullanıcı Arayüzü
+//[Reference] 'Fullscreen Resolution:'
 options.gameplay.ui.FullScreenResolution=Tam Ekran Çözünürlüğü
+//[Reference] 'UI Scale:'
 options.gameplay.ui.ManualUIScale=Kullanıcı Arayüzü Boyutu
+//[Reference] 'General'
 options.general=Genel
+//[Reference] 'Audio'
 options.general.audio=Ses
+//[Reference] 'Ambience:'
 options.general.audio.ambience=Ortam
+//[Reference] 'Master:'
 options.general.audio.master=Ana
+//[Reference] 'Music:'
 options.general.audio.music=Müzik
+//[Reference] 'Sound:'
 options.general.audio.sound=Ses
+//[Reference] 'Graphics'
 options.general.graphics=Grafikler
+//[Reference] 'Advanced'
 options.general.graphics.advanced=Gelişmiş
+//[Reference] 'Auto detect graphics settings'
 options.general.graphics.autoDetect=Grafik ayarlarını otomatik belirle
+//[Reference] 'Bloom'
 options.general.graphics.bloom=Bloom
+//[Reference] 'Borderless Window'
 options.general.graphics.borderless=Boşluksuz Pencere
+//[Reference] 'Camera Distance:'
 options.general.graphics.cameraDistance=Kamera Mesafesi
+//[Reference] 'Field Of View:'
 options.general.graphics.fieldOfView=Görüş Alanı
+//[Reference] 'Fullscreen'
 options.general.graphics.fullscreen=Tamekran
+//[Reference] 'Half Resolution'
 options.general.graphics.halfResolution=Yarım Çözünürlük
+//[Reference] 'High'
 options.general.graphics.high=Yüksek
+//[Reference] 'Increased View Range'
 options.general.graphics.increasedViewRange=Artırılmış Görüş Alanı
+//[Reference] 'Render Distant Terrain'
 options.general.graphics.lod=Uzak Araziyi İşle
+//[Reference] 'Low'
 options.general.graphics.low=Düşük
+//[Reference] 'Median Filter (Requires Bloom)'
 options.general.graphics.medianFilter=Medyan Filtre(Bloom Gerektirir)
+//[Reference] 'Medium'
 options.general.graphics.medium=Orta
+//[Reference] 'Multi Sampling'
 options.general.graphics.MultiSampling=Çok Örnekleme
+//[Reference] 'Reduced View Range'
 options.general.graphics.reducedViewRange=Azaltılmış Görüs Alanı
+//[Reference] 'Shadows'
 options.general.graphics.shadows=Gölgeler
+//[Reference] 'Show Grid Cursor'
 options.general.graphics.showGridCursor=Izgara İmlecini Göster
+//[Reference] 'Super Low'
 options.general.graphics.superLow=Çok Düşük
+//[Reference] 'Super Sampling'
 options.general.graphics.superSampling=Süper Örnekleme
+//[Reference] 'Third Person'
 options.general.graphics.thirdPerson=Üçüncü Kişi
+//[Reference] 'Transparent Player Avatar'
 options.general.graphics.transparentThirdPerson=Şeffaf Oyuncu Avatarı
+//[Reference] 'Ultra'
 options.general.graphics.ultra=Ultra
+//[Reference] 'Prevent Indoor Weather'
 options.general.graphics.WeatherParticles=Ev İçi Havayı Önle
+//[Reference] 'Language'
 options.general.language=Dil
+//[Reference] 'Misc'
 options.misc=Diğer
+//[Reference] 'Reset'
 options.misc.reset=Sıfırla
+//[Reference] 'Reset Current Changes'
 options.misc.resetCurrent=Şu Anki Değişiklikleri Sıfırla
+//[Reference] 'Reset to Default Settings'
 options.misc.resetToDefault=Varsayılan Ayarlara Dön
+//[Reference] 'Network'
 options.network=Ağ
+//[Reference] 'Preferences'
 options.network.preferences=Tercihler
+//[Reference] 'Video'
 options.video=Ekran
+//[Reference] 'Set video options here'
 options.video.description=Ekran ayarlarını burada ayarla
+//[Reference] 'Ban'
 playerList.ban=Engelle
+//[Reference] 'Kick'
 playerList.kick=At
+//[Reference] 'Mute'
 playerList.mute=Sustur
+//[Reference] 'Players Online:'
 playerList.playerCount=Online Oyuncular:
+//[Reference] 'Teleport To'
 playerList.teleportTo=Işınlan
+//[Reference] 'Desserts'
 recipeBook.grouping.desserts=Tatlılar
+//[Reference] 'Fencing'
 recipeBook.grouping.fencing=Çitler
+//[Reference] 'Flooring'
 recipeBook.grouping.flooring=Döşeme
+//[Reference] 'Main Courses'
 recipeBook.grouping.mainCourses=Ana Yemekler
+//[Reference] 'Roofing'
 recipeBook.grouping.roofing=Çatı
+//[Reference] 'Starters'
 recipeBook.grouping.starters=Aperatifler
+//[Reference] 'stone'
 recipeBook.grouping.stone=taş
+//[Reference] 'Walling'
 recipeBook.grouping.walling=Duvar
+//[Reference] 'wood'
 recipeBook.grouping.wood=ahşap
+//[Reference] 'Ingredients'
 recipeBook.ingredients=Malzemeler
+//[Reference] 'No recipes'
 recipeBook.noRecipes=Tarif yok
+//[Reference] 'Process'
 recipeBook.process=Süreç
+//[Reference] 'Accept'
 Renamer.accept=Kabul Et
+//[Reference] 'You have been muted for {0-time} minutes.'
 server.notifyPlayerMuted=Şu kadar zaman için susturuldun {0-time}. dakika
+//[Reference] '{0-player} has joined the server'
 server.playerJoin={0-player} sunucuya katıldı
+//[Reference] '{0-player} has left the server'
 server.playerLeave={0-player} sunucudan ayrıldı
+//[Reference] 'You are currently muted and your messages will not be received by other players.'
 server.youAreMuted=Şu anda sessizdesin mesajların diğer oyuncular tarafından görülmeyecek.
+//[Reference] 'You have been unmuted.'
 server.youAreUnmuted=Sessizliğin Kaldırıldı .
+//[Reference] 'Back to main menu'
 serverBrowser.back=Ana menüye dön
+//[Reference] '(check your internet connection)'
 serverBrowser.checkConnection=(internet bağlantını kontrol et)
+//[Reference] 'Filter:'
 serverBrowser.filter=Filtre:
+//[Reference] 'No servers found'
 serverBrowser.noServersFound=Sunucu bulunamadı
+//[Reference] 'Online:'
 serverBrowser.online=Online:
+//[Reference] 'Server name:'
 serverBrowser.serverName=Sunucu adı:
+//[Reference] 'Master server unreachable'
 serverBrowser.unreachable=Ana sunucuya ulaşılamıyor
+//[Reference] 'Cancel all'
 shippingCatalogue.cancelAll=Hepsini iptal et
+//[Reference] 'Expedite'
 shippingCatalogue.expedite=Hızlandır
+//[Reference] 'Order now'
 shippingCatalogue.order=Şimdi şipariş ver
+//[Reference] 'You have been refunded {0-amount} petals'
 shippingCatalogue.refund={0-amount} petunya geri ödendi
+//[Reference] 'Check and cancel pending orders here'
 shippingCatalogue.viewOrders.description=Askıda olan siparişlerini buradan kontrol veya iptal edebilirsin
+//[Reference] 'You have claimed this shipping station!'
 shippingDock.Claimed=Bu nakliye istasyonunu sahip edindin!
+//[Reference] 'Copy from'
 singleplayer.baseOff='dan kopyala
+//[Reference] 'Don't copy'
 singleplayer.baseOffCancel=Kopyalama
+//[Reference] 'Cancel'
 singleplayer.cancel=İptal
+//[Reference] 'Are you certain you want to delete this world?'
 singleplayer.confirmDelete=Bu haritayı silmek istediğinden emin misin?
+//[Reference] 'Copying world...'
 singleplayer.copyingWorld=Harita kopyalanıyor...
+//[Reference] 'Creative'
 singleplayer.creative=Yaratıcı
+//[Reference] 'Creative Mode'
 singleplayer.creativeMode=Yaratıcı Modu
+//[Reference] 'Creative Mode On'
 singleplayer.creativeModeEnabled=Yaratıcı Modu Açık
+//[Reference] 'My World'
 singleplayer.defaultWorldName=Benim Dünyam
+//[Reference] 'Delete'
 singleplayer.delete=Sil
+//[Reference] 'Failed to delete world'
 singleplayer.failedToDeleteWorld=Harita silinirken hata oluştu
+//TODO Translate [Reference] 'Allow friend joins'
+singleplayer.friendJoin=
+//[Reference] 'Launch'
 singleplayer.launch=Başlat
+//[Reference] 'Storage with this name already exists'
 singleplayer.nameAlreadyExists=Bu isimli alan zaten var
+//[Reference] 'Name to short (min 3 characters)'
 singleplayer.nameTooShort=İsim çok kısa (min 3 karakter)
+//[Reference] 'New World'
 singleplayer.newWorld=Yeni Dünya
+//TODO Translate [Reference] 'Play With Friends'
+singleplayer.playWithFriends=
+//[Reference] 'Name'
 singleplayer.serverName=İsim
+//[Reference] 'Single Player'
 singleplayer.singleplayer=Tek Oyunculu
+//[Reference] 'Storage is in use, lockfile detected.'
 singleplayer.storageLockFile=Bu alan kullanımda lockfile algılandı.
+//[Reference] 'Village'
 singleplayer.village=Köy
+//[Reference] 'Controller is available'
 startMenu.controllerReady=Kumanda mevcut
+//[Reference] 'Credits'
 startMenu.credits=Credits
+//[Reference] 'Exit'
 startMenu.exit=Çık
+//[Reference] 'Multi Player'
 startMenu.multiPlayer=Çoklu Oyunculu
+//[Reference] 'Options'
 startMenu.options=Ayarlar
+//[Reference] 'Server List'
 startMenu.serverList=Sunucu Listesi
+//[Reference] 'Single Player'
 startMenu.singlePlayer=Tek Oyunculu
 staxel.accessories.characters.accessories.animalhats.FrogHat_paletted.description=
+//[Reference] 'Frog Hat'
 staxel.accessories.characters.accessories.animalhats.FrogHat_paletted.name=Kurbağa Şapkası
 staxel.accessories.characters.accessories.festival.FlowerCrown.description=
+//[Reference] 'Flower Crown'
 staxel.accessories.characters.accessories.festival.FlowerCrown.name=Çiçek Taç
 staxel.accessories.characters.accessories.festival.KabutoHelmet.description=
+//[Reference] 'Kabuto Helmet'
 staxel.accessories.characters.accessories.festival.KabutoHelmet.name=Kabuta Kaskı
 staxel.accessories.characters.accessories.halloween.PumpkingHat.description=
+//[Reference] 'Pumpking Hat'
 staxel.accessories.characters.accessories.halloween.PumpkingHat.name=Balkabağı Şapkası
 staxel.accessories.characters.accessories.halloween.pumpkinhat.PumpkinHat.description=
+//[Reference] 'Pumpkin Hat'
 staxel.accessories.characters.accessories.halloween.pumpkinhat.PumpkinHat.name=Balkabağı Şapkası
 staxel.accessories.characters.accessories.hats.christmas.ReindeerAntlers.description=
+//[Reference] 'Reindeer Antlers'
 staxel.accessories.characters.accessories.hats.christmas.ReindeerAntlers.name=Ren Geyiği Boynuzları
 staxel.accessories.characters.accessories.hats.christmas.SantaHat.description=
+//[Reference] 'Santa Hat'
 staxel.accessories.characters.accessories.hats.christmas.SantaHat.name=Noel Baba Şapkası
 staxel.accessories.characters.accessories.hats.pirate.Bandana.description=
+//[Reference] 'Bandana'
 staxel.accessories.characters.accessories.hats.pirate.Bandana.name=Bandana
 staxel.accessories.characters.accessories.hats.pirate.EyePatch.description=
+//[Reference] 'EyePatch'
 staxel.accessories.characters.accessories.hats.pirate.EyePatch.name=Göz Bandı
 staxel.accessories.characters.accessories.hats.pirate.PirateHat.description=
+//[Reference] 'PirateHat'
 staxel.accessories.characters.accessories.hats.pirate.PirateHat.name=Korsan Şapkası
 staxel.accessories.fullBodyOutfits.villager.Aliza.description=
+//[Reference] 'Aliza'
 staxel.accessories.fullBodyOutfits.villager.Aliza.name=Aliza
 staxel.accessories.fullBodyOutfits.villager.Cecile.description=
+//[Reference] 'Cecile'
 staxel.accessories.fullBodyOutfits.villager.Cecile.name=Cecile
 staxel.accessories.fullBodyOutfits.villager.Emilia.description=
+//[Reference] 'Emilia'
 staxel.accessories.fullBodyOutfits.villager.Emilia.name=Emilia
 staxel.accessories.fullBodyOutfits.villager.Eris.description=
+//[Reference] 'Eris'
 staxel.accessories.fullBodyOutfits.villager.Eris.name=Eris
 staxel.accessories.fullBodyOutfits.villager.festival.Ami.description=
+//[Reference] 'Ami'
 staxel.accessories.fullBodyOutfits.villager.festival.Ami.name=Ami
 staxel.accessories.fullBodyOutfits.villager.festival.Caren.description=
+//[Reference] 'Caren'
 staxel.accessories.fullBodyOutfits.villager.festival.Caren.name=Caren
 staxel.accessories.fullBodyOutfits.villager.festival.DefinitelyNotRiah.description=
+//[Reference] 'Definitely Not Riah'
 staxel.accessories.fullBodyOutfits.villager.festival.DefinitelyNotRiah.name=Kesinlikle Riah Değil
 staxel.accessories.fullBodyOutfits.villager.festival.EmiliaFeyMasquerade.description=
+//[Reference] 'Emilia Fey Masquerade'
 staxel.accessories.fullBodyOutfits.villager.festival.EmiliaFeyMasquerade.name=Emilia Fey Masquerade
 staxel.accessories.fullBodyOutfits.villager.festival.FeyQueen.description=
+//[Reference] 'Fey Queen'
 staxel.accessories.fullBodyOutfits.villager.festival.FeyQueen.name=Fey Kraliçesi
 staxel.accessories.fullBodyOutfits.villager.festival.NotRiah.description=
+//[Reference] 'Not Riah'
 staxel.accessories.fullBodyOutfits.villager.festival.NotRiah.name=Riah Değil
 staxel.accessories.fullBodyOutfits.villager.Jamie.description=
+//[Reference] 'Jamie'
 staxel.accessories.fullBodyOutfits.villager.Jamie.name=Jamie
 staxel.accessories.fullBodyOutfits.villager.Leif.description=
+//[Reference] 'Leif'
 staxel.accessories.fullBodyOutfits.villager.Leif.name=Leif
 staxel.accessories.fullBodyOutfits.villager.MayorMax.description=
+//[Reference] 'Mayor Max'
 staxel.accessories.fullBodyOutfits.villager.MayorMax.name=Başkan Max
 staxel.accessories.fullBodyOutfits.villager.Riah.description=
+//[Reference] 'Riah'
 staxel.accessories.fullBodyOutfits.villager.Riah.name=Riah
 staxel.accessories.fullBodyOutfits.villager.Rosemary.description=
+//[Reference] 'Rosemary'
 staxel.accessories.fullBodyOutfits.villager.Rosemary.name=Rosemary
 staxel.accessories.fullBodyOutfits.villager.Rowan.description=
+//[Reference] 'Rowan'
 staxel.accessories.fullBodyOutfits.villager.Rowan.name=Rowan
 staxel.accessories.helmets.mecha.Mecha_Classic.description=
+//[Reference] 'Mecha_Classic'
 staxel.accessories.helmets.mecha.Mecha_Classic.name=Mecha_Klasik
 staxel.accessories.helmets.mecha.Mecha_EG4D.description=
+//[Reference] 'Mecha_EG4D'
 staxel.accessories.helmets.mecha.Mecha_EG4D.name=Mecha_EG4D
 staxel.accessories.helmets.mecha.Mecha_L0V3.description=
+//[Reference] 'Mecha_L0V3'
 staxel.accessories.helmets.mecha.Mecha_L0V3.name=Mecha_L0V3
 staxel.accessories.helmets.mecha.Mecha_P.description=
+//[Reference] 'Mecha_P'
 staxel.accessories.helmets.mecha.Mecha_P.name=Mecha_P
 staxel.accessories.helmets.mecha.Mecha_Red.description=
+//[Reference] 'Mecha_Red'
 staxel.accessories.helmets.mecha.Mecha_Red.name=Mecha_Red
 staxel.accessories.helmets.mecha.Mecha_XYellow.description=
+//[Reference] 'Mecha_XYellow'
 staxel.accessories.helmets.mecha.Mecha_XYellow.name=Mecha_XYellow
 staxel.accessories.shirts.colouredhoodie.ColouredHoodie.description=
+//[Reference] 'Coloured Hoodie'
 staxel.accessories.shirts.colouredhoodie.ColouredHoodie.name=Renkli Kapüşonlu Svetşört
 staxel.accessories.shirts.darkhoodie.DarkHoodie.description=
+//[Reference] 'Dark Hoodie'
 staxel.accessories.shirts.darkhoodie.DarkHoodie.name=Koyu Kapüşonlu Svetşört
 staxel.accessories.shirts.ghostshirts.GhostShirt.description=
+//[Reference] 'Ghost Shirt'
 staxel.accessories.shirts.ghostshirts.GhostShirt.name=Hayalet Gömleği
 staxel.accessories.shirts.stripedshirts.StripedShirt.description=
+//[Reference] 'StripedShirt'
 staxel.accessories.shirts.stripedshirts.StripedShirt.name=Çizgili Gömlek
 staxel.accessories.shirts.tartanshirts.TartanShirt.description=
+//[Reference] 'Tartan Shirt'
 staxel.accessories.shirts.tartanshirts.TartanShirt.name=Tartan Gömlek
 staxel.accessories.shorts.shortjeanspaletted.description=
+//[Reference] 'shortjeanspaletted'
 staxel.accessories.shorts.shortjeanspaletted.name=Kısa Kot
+//[Reference] 'None'
 staxel.accessory.none=Hiçbiri
+//[Reference] 'Get your first pet!'
 staxel.achievement.GetPet.description=İlk hayvanını al!
+//[Reference] 'Get a pet'
 staxel.achievement.GetPet.name=Bir hayvan al
+//[Reference] 'Get your first pet!'
 staxel.achievements.getPet=İlk hayvanını al!
+//[Reference] 'Ouch! The bees need to be calmed down'
 staxel.apiary.calmWorkers=AH! Arıların sakinleşmeleri gerek
+//[Reference] 'This apiary has enough bees'
 staxel.apiary.fullWorkers=Kovanda yeteri kadar arı var
+//[Reference] 'This apiary already has a queen'
 staxel.apiary.hasQueen=Bu kovanda zaten kraliçe arı var
+//[Reference] 'Need to put the honey in a jar'
 staxel.apiary.needsCollector=Balı kavanoza koymak gerek
+//[Reference] 'This apiary needs a queen bee'
 staxel.apiary.needsQueen=Bu kovanın kraliçe arıya ihtiyacı var
+//[Reference] 'This apiary needs bees'
 staxel.apiary.needsWorkers=Bu kovanın arılara ihtiyacı var
+//[Reference] 'Honey is available and the bees are calm'
 staxel.apiary.state.collection=Arılar sakin ve bal var
+//[Reference] 'This apiary is empty'
 staxel.apiary.state.none=Bu kovan boş
+//[Reference] 'The bees are making honey: {0-days} days remaining'
 staxel.apiary.state.producing=Arılar bal yapıyorlar: {0-days} kaldı
+//[Reference] 'The queen is rallying bees: {0-bees}/{1-total} bees'
 staxel.apiary.state.rallying=Kraliçe arıları topluyor: {0-bees}/{1-total} arı
+//[Reference] 'Honey is available but the bees are grumpy'
 staxel.apiary.state.waiting=Bal var ama arılar huysuz
+//[Reference] 'A bush that grows delicious blackberries. Survives out of season.'
 staxel.bush.BlackberryBush.description=Enfes böğürtlen yetiştiren bir çalı. Sezon dışı varlığını sürdürür.
+//[Reference] 'Blackberry Bush Seed'
 staxel.bush.BlackberryBush.name=Böğürtlen Tohumu
+//[Reference] 'A bush that grows delicious blueberries. Survives out of season.'
 staxel.bush.BlueberryBush.description=Enfes yaban mersini yetiştiren bir çalı. Sezon dışı varlığını sürdürür.
+//[Reference] 'Blueberry Bush Seed'
 staxel.bush.BlueberryBush.name=Yaban Mersini Tohumu
+//[Reference] 'A bush that grows delicious goldenberries. Survives out of season.'
 staxel.bush.GoldenberryBush.description=Enfes altın çilek yetiştiren bir çalı. Sezon dışı varlığını sürdürür.
+//[Reference] 'Goldenberry Bush Seed'
 staxel.bush.GoldenberryBush.name=Altın Çilek Tohumu
+//[Reference] 'A bush that grows delicious raspberries. Survives out of season.'
 staxel.bush.RaspberryBush.description=Enfes ahududu yetiştiren bir çalı. Sezon dışı varlığını sürdürür.
+//[Reference] 'Raspberry Bush Seed'
 staxel.bush.RaspberryBush.name=Ahududu Tohumu
+//[Reference] 'acorn'
 staxel.category.acorn=Palamut
+//[Reference] 'Apple Pie Stand'
 staxel.category.ApplePieStand=Elamlı Turta Standı
+//[Reference] 'assemble'
 staxel.category.assemble=birleştir
+//[Reference] 'assembly'
 staxel.category.assembly=montaj
+//[Reference] 'Awning'
 staxel.category.awning=Güneşlik
+//[Reference] 'bake'
 staxel.category.bake=fırında pişir
+//[Reference] 'baked'
 staxel.category.baked=pişmiş
-//TODO Translate [Reference] 'band'
+//[Reference] 'band'
 staxel.category.band=lastik
-//TODO Translate [Reference] 'batter'
+//[Reference] 'batter'
 staxel.category.batter=sulu hamur
-//TODO Translate [Reference] 'berry'
+//[Reference] 'berry'
 staxel.category.berry=dut
+//[Reference] 'Blackberry Pie Stand'
 staxel.category.BlackberryPieStand=Böğürtlenli Turta Standı
-//TODO Translate [Reference] 'Blueberry Pie Stand'
+//[Reference] 'Blueberry Pie Stand'
 staxel.category.BlueberryPieStand=Yaban Mersinli Turta Standı
+//[Reference] 'boil'
 staxel.category.boil=kaynat
+//[Reference] 'boiled'
 staxel.category.boiled=kaynamış
-//TODO Translate [Reference] 'butterfly'
+//[Reference] 'butterfly'
 staxel.category.butterfly=kelebek
-//TODO Translate [Reference] 'Campfire Large'
+//[Reference] 'Campfire Large'
 staxel.category.CampfireLarge=Büyük Kamp Ateşi
-//TODO Translate [Reference] 'capture'
+//[Reference] 'capture'
 staxel.category.capture=ele geçir
-//TODO Translate [Reference] 'carpentry'
+//[Reference] 'carpentry'
 staxel.category.carpentry=marangozluk
-//TODO Translate [Reference] 'Carrot Cake Stand'
+//[Reference] 'Carrot Cake Stand'
 staxel.category.CarrotCakeStand=Havuçlu Kek Standı
-//TODO Translate [Reference] 'carve'
+//[Reference] 'carve'
 staxel.category.carve=oy
-//TODO Translate [Reference] 'carving'
+//[Reference] 'carving'
 staxel.category.carving=oymacılık
 //TODO Translate [Reference] 'case'
 staxel.category.case=
-//TODO Translate [Reference] 'cave'
+//[Reference] 'cave'
 staxel.category.cave=mağara
+//[Reference] 'Cherry Pie Stand'
 staxel.category.CherryPieStand=Kirazlı Turta Standı
+//[Reference] 'Chocolate Cake Stand'
 staxel.category.ChocolateCakeStand=Cikolatalı Kek Standı
+//[Reference] 'cicada'
 staxel.category.cicada=ağustosböceği
+//[Reference] 'Cloth'
 staxel.category.cloth=Bez
+//[Reference] 'combine'
 staxel.category.combine=birleştir
+//[Reference] 'construct'
 staxel.category.construct=inşa et
+//[Reference] 'construction'
 staxel.category.construction=inşaat
+//[Reference] 'cooked'
 staxel.category.cooked=pişmiş
+//[Reference] 'coral'
 staxel.category.coral=mercan
+//[Reference] 'creaturebud'
 staxel.category.creaturebud=creaturebud
+//[Reference] 'Cube'
 staxel.category.cube=Küp
+//[Reference] 'doorTest'
 staxel.category.doorTest=kapıTesti
+//[Reference] 'Dragon Fruit Pie Stand'
 staxel.category.DragonFruitPieStand=Pitayalı Turta Standı
+//[Reference] 'dryer'
 staxel.category.dryer=kurutma makinesi
-//TODO Translate [Reference] 'drying'
+//[Reference] 'drying'
 staxel.category.drying=kurutma
-//TODO Translate [Reference] 'fey'
+//[Reference] 'fey'
 staxel.category.fey=kaçık
-//TODO Translate [Reference] 'fine'
+//[Reference] 'fine'
 staxel.category.fine=iyi
+//[Reference] 'fly'
 staxel.category.fly=sinek
-//TODO Translate [Reference] 'fried'
+//[Reference] 'fried'
 staxel.category.fried=kızarmış
-//TODO Translate [Reference] 'fry'
+//[Reference] 'fry'
 staxel.category.fry=kızart
-//TODO Translate [Reference] 'fryable'
+//[Reference] 'fryable'
 staxel.category.fryable=kızartılabilir
-//TODO Translate [Reference] 'gazebo'
+//[Reference] 'gazebo'
 staxel.category.gazebo=balkon
-//TODO Translate [Reference] 'Golden Pumpkin'
+//[Reference] 'Golden Pumpkin'
 staxel.category.GoldenPumpkin=Altın Balkabağı
-//TODO Translate [Reference] 'Golden Strawberry'
+//[Reference] 'Golden Strawberry'
 staxel.category.GoldenStrawberry=Altın Çilek
-//TODO Translate [Reference] 'Golden Watermelon'
+//[Reference] 'Golden Watermelon'
 staxel.category.GoldenWatermelon=Altın Karpuz
-//TODO Translate [Reference] 'hanging'
+//[Reference] 'hanging'
 staxel.category.hanging=asma
+//[Reference] 'hay'
 staxel.category.hay=saman
+//[Reference] 'herb'
 staxel.category.herb=ot
+//[Reference] 'hinge'
 staxel.category.hinge=menteşe
+//[Reference] 'iron'
 staxel.category.iron=demir
+//[Reference] 'Japanese'
 staxel.category.japanese=Japonca
-//TODO Translate [Reference] 'jelly'
+//[Reference] 'jelly'
 staxel.category.jelly=jöle
-//TODO Translate [Reference] 'kennel'
+//[Reference] 'kennel'
 staxel.category.kennel=kulübe
-//TODO Translate [Reference] 'Knob'
+//[Reference] 'Knob'
 staxel.category.Knob=Tokmak
 //TODO Translate [Reference] 'latch'
 staxel.category.latch=
-//TODO Translate [Reference] 'laundry'
+//[Reference] 'laundry'
 staxel.category.laundry=çamaşır
+//[Reference] 'left'
 staxel.category.left=sol
+//[Reference] 'Lemon Pie Stand'
 staxel.category.LemonPieStand=Limonlu Turta Standı
+//[Reference] 'LightBlue'
 staxel.category.LightBlue=AçıkMavi
+//[Reference] 'LightGreen'
 staxel.category.LightGreen=AçıkYeşil
+//[Reference] 'Lime Pie Stand'
 staxel.category.LimePieStand=Misket Limonlu Turta Standı
 //TODO Translate [Reference] 'lumber'
 staxel.category.lumber=
-//TODO Translate [Reference] 'masonry'
+//[Reference] 'masonry'
 staxel.category.masonry=duvarcılık
-//TODO Translate [Reference] 'meat'
+//[Reference] 'meat'
 staxel.category.meat=et
-//TODO Translate [Reference] 'mine'
+//[Reference] 'mine'
 staxel.category.mine=maden
-//TODO Translate [Reference] 'mix'
+//[Reference] 'mix'
 staxel.category.mix=karıştır
-//TODO Translate [Reference] 'mortar'
+//[Reference] 'mortar'
 staxel.category.mortar=harç
+//[Reference] 'mushrooms'
 staxel.category.mushrooms=mantarlar
+//[Reference] 'nail'
 staxel.category.nail=çivi
+//[Reference] 'ocean'
 staxel.category.ocean=okyanus
+//[Reference] 'octopus'
 staxel.category.octopus=ahtapot
+//[Reference] 'Orange Pie Stand'
 staxel.category.OrangePieStand=Portakallı Turta Standı
+//[Reference] 'order'
 staxel.category.order=sipariş
-//TODO Translate [Reference] 'palm'
+//[Reference] 'palm'
 staxel.category.palm=palmiye
-//TODO Translate [Reference] 'pancakes'
+//[Reference] 'pancakes'
 staxel.category.pancakes=krepler
 //TODO Translate [Reference] 'pane'
 staxel.category.pane=
 //TODO Translate [Reference] 'patisserie'
 staxel.category.patisserie=
+//[Reference] 'Peach Pie Stand'
 staxel.category.PeachPieStand=Şeftalili Turta Standı
+//[Reference] 'Plain Cake Stand'
 staxel.category.PlainCakeStand=Sade Kek Standı
+//[Reference] 'platform'
 staxel.category.platform=platform
+//[Reference] 'poop'
 staxel.category.poop=kaka
+//[Reference] 'popcorn'
 staxel.category.popcorn=patlamış mısır
 //TODO Translate [Reference] 'porridge'
 staxel.category.porridge=
 //TODO Translate [Reference] 'rack'
 staxel.category.rack=
-//TODO Translate [Reference] 'rice'
+//[Reference] 'rice'
 staxel.category.rice=pirinç
-//TODO Translate [Reference] 'salad'
+//[Reference] 'salad'
 staxel.category.salad=salata
-//TODO Translate [Reference] 'sawing'
+//[Reference] 'sawing'
 staxel.category.sawing=salata
 //TODO Translate [Reference] 'scaffold'
 staxel.category.scaffold=
 //TODO Translate [Reference] 'scaffolding'
 staxel.category.scaffolding=
-//TODO Translate [Reference] 'sea'
+//[Reference] 'sea'
 staxel.category.sea=deniz
 //TODO Translate [Reference] 'sheared'
 staxel.category.sheared=
 //TODO Translate [Reference] 'sheet'
 staxel.category.sheet=
+//[Reference] 'shell'
 staxel.category.shell=kabuk
 //TODO Translate [Reference] 'shingles'
 staxel.category.shingles=
+//[Reference] 'shrine'
 staxel.category.shrine=türbe
 //TODO Translate [Reference] 'smoothie'
 staxel.category.smoothie=
 //TODO Translate [Reference] 'snowdust'
 staxel.category.snowdust=
-//TODO Translate [Reference] 'standalone'
+//[Reference] 'standalone'
 staxel.category.standalone=bağımsız
+//[Reference] 'star'
 staxel.category.star=yıldız
 //TODO Translate [Reference] 'straight roof'
 staxel.category.straight roof=
+//[Reference] 'Strawberry Pie Stand'
 staxel.category.StrawberryPieStand=Çilekli Turta Standı
+//[Reference] 'Sun'
 staxel.category.sun=Güneş
+//[Reference] 'Sunflower'
 staxel.category.Sunflower=Ayçiçeği
 //TODO Translate [Reference] 'tackle'
 staxel.category.tackle=
 //TODO Translate [Reference] 'throne'
 staxel.category.throne=
-//TODO Translate [Reference] 'unbaked'
+//[Reference] 'unbaked'
 staxel.category.unbaked=pişmemiş
 //TODO Translate [Reference] 'upside down straight roof'
 staxel.category.upside down straight roof=
 //TODO Translate [Reference] 'varnish'
 staxel.category.varnish=
+//[Reference] 'Vegetable Pie Stand'
 staxel.category.VegetablePieStand=Sebzeli Turta Standı
+//[Reference] 'washer'
 staxel.category.washer=yıkayıcı
+//[Reference] 'washing'
 staxel.category.washing=yıkama
-//TODO Translate [Reference] '???'
+//[Reference] '???'
 staxel.collections.unknown=???
 staxel.core.Compound.description=
+//[Reference] 'Compound'
 staxel.core.Compound.name=Bileşik
 staxel.crafting.recipes.Apiary.description=
 //TODO Translate [Reference] 'Apiary'
 staxel.crafting.recipes.Apiary.name=
 staxel.crafting.recipes.AppleBananaSmoothie.description=
-//TODO Translate [Reference] 'AppleBananaSmoothie'
+//[Reference] 'AppleBananaSmoothie'
 staxel.crafting.recipes.AppleBananaSmoothie.name=Elmalı ve Muzlu Smoothie
 staxel.crafting.recipes.BaitBox.description=
-//TODO Translate [Reference] 'Baitbox'
+//[Reference] 'Baitbox'
 staxel.crafting.recipes.BaitBox.name=Yem Kutusu
 staxel.crafting.recipes.BakedPotatoWithCheese.description=
+//[Reference] 'BakedPotatoWithCheese'
 staxel.crafting.recipes.BakedPotatoWithCheese.name=Pişmiş Peynirli Patates
 staxel.crafting.recipes.Barrel.description=
+//[Reference] 'Barrel'
 staxel.crafting.recipes.Barrel.name=Varil
 staxel.crafting.recipes.BasicChair.description=
+//[Reference] 'BasicChair'
 staxel.crafting.recipes.BasicChair.name=Temel Sandalye
+//[Reference] 'Teaches you to build a working door'
 staxel.crafting.recipes.BasicDoor.description=Sana nasıl çalışan bir kapı yapıldığını öğretir
+//[Reference] 'Basic Door Recipe'
 staxel.crafting.recipes.BasicDoor.name=Temel Sandalye Tarifi
 staxel.crafting.recipes.BasicSalad.description=
+//[Reference] 'BasicSalad'
 staxel.crafting.recipes.BasicSalad.name=Temel Salata
 staxel.crafting.recipes.BasicTable.description=
+//[Reference] 'BasicTable'
 staxel.crafting.recipes.BasicTable.name=Temel Sandalye
 staxel.crafting.recipes.BasicWoodenFence.description=
+//[Reference] 'Basic Wooden Fence'
 staxel.crafting.recipes.BasicWoodenFence.name=Temel Ahşaptan Çit
 staxel.crafting.recipes.BasicWoodenFloor.description=
+//[Reference] 'Basic Wooden Floor'
 staxel.crafting.recipes.BasicWoodenFloor.name=Temel Ahşaptan Zemin
 staxel.crafting.recipes.BasicWoodenWall.description=
+//[Reference] 'Basic Wooden Wall'
 staxel.crafting.recipes.BasicWoodenWall.name=Temel Ahşaptan Duvar
 staxel.crafting.recipes.BrownBrickBlock.description=
+//[Reference] 'BrownBrickBlock'
 staxel.crafting.recipes.BrownBrickBlock.name=Kahverengi Tuğla Blok
 staxel.crafting.recipes.BrownWoodBlock.description=
+//[Reference] 'BrownWoodBlock'
 staxel.crafting.recipes.BrownWoodBlock.name=Kahverengi Ahşap Blok
+staxel.crafting.recipes.Butter.description=
+//TODO Translate [Reference] 'Butter'
+staxel.crafting.recipes.Butter.name=
 staxel.crafting.recipes.CandyCorn.description=
+//[Reference] 'Candy Corn'
 staxel.crafting.recipes.CandyCorn.name=Şeker Mısır
 staxel.crafting.recipes.CaptureCrate.description=
+//[Reference] 'CaptureCrate'
 staxel.crafting.recipes.CaptureCrate.name=Yakalama Kasası
 staxel.crafting.recipes.ChickenCoop.description=
+//[Reference] 'ChickenCoop'
 staxel.crafting.recipes.ChickenCoop.name=Tavuk Kümesi
 staxel.crafting.recipes.ChickenFeeder.description=
+//[Reference] 'ChickenFeeder'
 staxel.crafting.recipes.ChickenFeeder.name=Tavuk Yemleyici
 staxel.crafting.recipes.Chips.description=
+//[Reference] 'Chips'
 staxel.crafting.recipes.Chips.name=Cips
 staxel.crafting.recipes.ClassicBrickBlock.description=
+//[Reference] 'ClassicBrickBlock'
 staxel.crafting.recipes.ClassicBrickBlock.name=Klasik Tuğla Bloğu
 staxel.crafting.recipes.ClassicWoodBlock.description=
+//[Reference] 'ClassicWoodBlock'
 staxel.crafting.recipes.ClassicWoodBlock.name=Klasik Ahşap Bloğu
 staxel.crafting.recipes.CobbleStonePath.description=
 //TODO Translate [Reference] 'Cobble Stone Path'
@@ -866,6 +1123,9 @@ staxel.crafting.recipes.CoffeeTable.name=
 staxel.crafting.recipes.Crate.description=
 //TODO Translate [Reference] 'Crate'
 staxel.crafting.recipes.Crate.name=
+staxel.crafting.recipes.Cream.description=
+//TODO Translate [Reference] 'Cream'
+staxel.crafting.recipes.Cream.name=
 staxel.crafting.recipes.CreamStoneWall.description=
 //TODO Translate [Reference] 'Cream Stone Wall'
 staxel.crafting.recipes.CreamStoneWall.name=
@@ -1014,153 +1274,153 @@ staxel.crop.Corn.description=
 staxel.crop.Corn.name=
 //TODO Translate [Reference] 'A freshly grown cucumber.'
 staxel.crop.Cucumber.description=
-//TODO Translate [Reference] 'Cucumber Seed'
+//[Reference] 'Cucumber Seed'
 staxel.crop.Cucumber.name=Salatalık Tohumu
-//TODO Translate [Reference] 'A very shiny eggplant.'
+//[Reference] 'A very shiny eggplant.'
 staxel.crop.Eggplant.description=Çok parlak bir patlıcan.
-//TODO Translate [Reference] 'Eggplant Seed'
+//[Reference] 'Eggplant Seed'
 staxel.crop.Eggplant.name=Patlıcan Tohumu
-//TODO Translate [Reference] 'How strange, this beet is solid gold!'
+//[Reference] 'How strange, this beet is solid gold!'
 staxel.crop.GoldenBeet.description=Ne kadar garip bu pancar altın!
-//TODO Translate [Reference] 'Golden Beet Seed'
+//[Reference] 'Golden Beet Seed'
 staxel.crop.GoldenBeet.name=Altın Pancar Tohumu
 staxel.crop.GoldenCabbage.description=
-//TODO Translate [Reference] 'Golden Cabbage'
+//[Reference] 'Golden Cabbage'
 staxel.crop.GoldenCabbage.name=Altın Lahana
-//TODO Translate [Reference] 'Oh my, this carrot is solid gold!'
+//[Reference] 'Oh my, this carrot is solid gold!'
 staxel.crop.GoldenCarrot.description=Aman, bu havuç altın!
-//TODO Translate [Reference] 'Golden Carrot Seed'
+//[Reference] 'Golden Carrot Seed'
 staxel.crop.GoldenCarrot.name=Altın Havuç Tohumu
-//TODO Translate [Reference] 'This corn is made of gold! Best make sure no kernels fall off!'
+//[Reference] 'This corn is made of gold! Best make sure no kernels fall off!'
 staxel.crop.GoldenCorn.description=Bu mısır altından yapılmış! En iyisi çekirdekleri düşürmemek!
-//TODO Translate [Reference] 'Golden Corn Seed'
+//[Reference] 'Golden Corn Seed'
 staxel.crop.GoldenCorn.name=Altın Mısır Tohumu
-//TODO Translate [Reference] 'Wow, this cucumber is made of gold!'
+//[Reference] 'Wow, this cucumber is made of gold!'
 staxel.crop.GoldenCucumber.description=Vaycanına, bu salatalık altından yapılmış!
-//TODO Translate [Reference] 'Golden Cucumber Seed'
+//[Reference] 'Golden Cucumber Seed'
 staxel.crop.GoldenCucumber.name=Altın Salatalık Tohumu
-//TODO Translate [Reference] 'This Eggplant is made of gold! Unfortunately, golden chickens don't hatch out of golden eggplants.'
+//[Reference] 'This Eggplant is made of gold! Unfortunately, golden chickens don't hatch out of golden eggplants.'
 staxel.crop.GoldenEggplant.description=Bu patlıcan altından! Ne yazık ki, altın tavuklar altın patlıcandan çıkmıyor.
-//TODO Translate [Reference] 'Golden Eggplant Seed'
+//[Reference] 'Golden Eggplant Seed'
 staxel.crop.GoldenEggplant.name=Altın Patlıcan Tohumu
-//TODO Translate [Reference] 'This lettuce is made of gold! I hear this what caesar salads were originally made with...'
+//[Reference] 'This lettuce is made of gold! I hear this what caesar salads were originally made with...'
 staxel.crop.GoldenLettuce.description=Bu marul altından! Duyduğum kadarıyla sezar salataları aslından bunlardan yapılırmış...
-//TODO Translate [Reference] 'Golden Lettuce Seed'
+//[Reference] 'Golden Lettuce Seed'
 staxel.crop.GoldenLettuce.name=Altın Marul Tohumu
-//TODO Translate [Reference] 'These oats are more golden than usual! They don't taste as nice though...'
+//[Reference] 'These oats are more golden than usual! They don't taste as nice though...'
 staxel.crop.GoldenOats.description=Bu yulaflar normalden daha altın! Çok güzel tadları yok ama...
-//TODO Translate [Reference] 'Golden Oat Seeds'
+//[Reference] 'Golden Oat Seeds'
 staxel.crop.GoldenOats.name=Altın Yulaf Tohumu
-//TODO Translate [Reference] 'Wow, a golden onion! I'm tearing up!'
+//[Reference] 'Wow, a golden onion! I'm tearing up!'
 staxel.crop.GoldenOnion.description=Vaycanına, altın bir soğan! Yırtıyorum!
-//TODO Translate [Reference] 'Golden Onion Seed'
+//[Reference] 'Golden Onion Seed'
 staxel.crop.GoldenOnion.name=Altın Soğan Tohumu
-//TODO Translate [Reference] 'A golden potato, with golden eyes!'
+//[Reference] 'A golden potato, with golden eyes!'
 staxel.crop.GoldenPotato.description=Altın gözlü, altın patates!
-//TODO Translate [Reference] 'Golden Potato Seed'
+//[Reference] 'Golden Potato Seed'
 staxel.crop.GoldenPotato.name=Altın Patates Tohumu
 staxel.crop.GoldenPumpkin.description=
-//TODO Translate [Reference] 'Golden Pumpkin'
+//[Reference] 'Golden Pumpkin'
 staxel.crop.GoldenPumpkin.name=Altın Balkabağı
 staxel.crop.GoldenStrawberry.description=
-//TODO Translate [Reference] 'Golden Strawberry'
+//[Reference] 'Golden Strawberry'
 staxel.crop.GoldenStrawberry.name=Altın Çilek
-//TODO Translate [Reference] 'Sweet! A golden sugar beet!'
+//[Reference] 'Sweet! A golden sugar beet!'
 staxel.crop.GoldenSugarBeet.description=Altından pancar! Tatlı!
-//TODO Translate [Reference] 'Golden Sugar Beet Seed'
+//[Reference] 'Golden Sugar Beet Seed'
 staxel.crop.GoldenSugarBeet.name=Altın Şekerpancar Tohumu
-//TODO Translate [Reference] 'Wow, a golden sugar cane!'
+//[Reference] 'Wow, a golden sugar cane!'
 staxel.crop.GoldenSugarCane.description=Vaycanına, altın şeker kamışı!
-//TODO Translate [Reference] 'Golden Sugar Cane Seed'
+//[Reference] 'Golden Sugar Cane Seed'
 staxel.crop.GoldenSugarCane.name=Altın Şeker Kamış Tohumu
-//TODO Translate [Reference] 'Woah, this Sweet Potato is solid gold!'
-staxel.crop.GoldenSweetPotato.description=Vay, bu tatlı patates altın! 
-//TODO Translate [Reference] 'Golden Sweet Potato Seed'
+//[Reference] 'Woah, this Sweet Potato is solid gold!'
+staxel.crop.GoldenSweetPotato.description=Vay, bu tatlı patates altın!
+//[Reference] 'Golden Sweet Potato Seed'
 staxel.crop.GoldenSweetPotato.name=Altın Tatlı Patates Tohumu
-//TODO Translate [Reference] 'A golden tomato! I wonder what golden tomato soup would taste like...'
+//[Reference] 'A golden tomato! I wonder what golden tomato soup would taste like...'
 staxel.crop.GoldenTomato.description=Altın domates! Acaba altın domates çorbasının nasıl tadı vardır...
-//TODO Translate [Reference] 'Golden Tomato Seed'
+//[Reference] 'Golden Tomato Seed'
 staxel.crop.GoldenTomato.name=Altın Domates Tohumu
-//TODO Translate [Reference] 'Amazing, a golden turnip!'
+//[Reference] 'Amazing, a golden turnip!'
 staxel.crop.GoldenTurnip.description=İnanılmaz, altın şalgam!
-//TODO Translate [Reference] 'Golden Turnip Seed'
+//[Reference] 'Golden Turnip Seed'
 staxel.crop.GoldenTurnip.name=Altın Şalgam Tohumu
 staxel.crop.GoldenWatermelon.description=
-//TODO Translate [Reference] 'Golden Watermelon'
+//[Reference] 'Golden Watermelon'
 staxel.crop.GoldenWatermelon.name=Altın Karpuz
-//TODO Translate [Reference] 'A head of green lettuce.'
+//[Reference] 'A head of green lettuce.'
 staxel.crop.Lettuce.description=Yeşil bir marul.
-//TODO Translate [Reference] 'Lettuce Seed'
+//[Reference] 'Lettuce Seed'
 staxel.crop.Lettuce.name=Marul Tohumu
-//TODO Translate [Reference] 'Fresh oats. What a fine grain!'
+//[Reference] 'Fresh oats. What a fine grain!'
 staxel.crop.Oat.description=Taze yulaf. İyi bir tahıl!
-//TODO Translate [Reference] 'Oat Seeds'
+//[Reference] 'Oat Seeds'
 staxel.crop.Oat.name=Yulaf Tohumu
-//TODO Translate [Reference] 'Be careful when chopping!'
+//[Reference] 'Be careful when chopping!'
 staxel.crop.Onion.description=Keserken dikkat et!
-//TODO Translate [Reference] 'Onion Seed'
+//[Reference] 'Onion Seed'
 staxel.crop.Onion.name=Soğan Tohumu
-//TODO Translate [Reference] 'That one vegetable everybody loves.'
+//[Reference] 'That one vegetable everybody loves.'
 staxel.crop.Potato.description=Herkesin sevdiği sebze.
-//TODO Translate [Reference] 'Potato Seed'
+//[Reference] 'Potato Seed'
 staxel.crop.Potato.name=Patates Tohumu
-//TODO Translate [Reference] 'A great vegetable for soup.'
+//[Reference] 'A great vegetable for soup.'
 staxel.crop.Pumpkin.description=Çorba için harika sebze.
-//TODO Translate [Reference] 'Pumpkin Seed'
+//[Reference] 'Pumpkin Seed'
 staxel.crop.Pumpkin.name=Balkabağı Tohumu
-//TODO Translate [Reference] 'Raspberry Bush Seed'
+//[Reference] 'Raspberry Bush Seed'
 staxel.crop.RaspberryBush.name=Ahududu Tohumu
-//TODO Translate [Reference] 'Sweet and full of flavour.'
+//[Reference] 'Sweet and full of flavour.'
 staxel.crop.Strawberry.description=Tatlı ve lezzet dolu.
-//TODO Translate [Reference] 'Strawberry Seed'
+//[Reference] 'Strawberry Seed'
 staxel.crop.Strawberry.name=Çilek Tohumu
-//TODO Translate [Reference] 'A healthy looking sugar beet.'
+//[Reference] 'A healthy looking sugar beet.'
 staxel.crop.SugarBeet.description=Sağlıklı görünen bir şekerpancarı.
-//TODO Translate [Reference] 'Sugar Beet Seed'
+//[Reference] 'Sugar Beet Seed'
 staxel.crop.SugarBeet.name=Şekerpancar Tohumu
-//TODO Translate [Reference] 'So sweet, I cane-not resist.'
+//[Reference] 'So sweet, I cane-not resist.'
 staxel.crop.SugarCane.description=Çok tatlı, kamış-rşı koyamıyorum.
-//TODO Translate [Reference] 'Sugar Cane Seed'
+//[Reference] 'Sugar Cane Seed'
 staxel.crop.SugarCane.name=Şeker Kamış Tohumu
-//TODO Translate [Reference] 'A beautiful large flower. Can give back seeds when harvested!'
+//[Reference] 'A beautiful large flower. Can give back seeds when harvested!'
 staxel.crop.Sunflower.description=Güzel büyük bir çiçek. Hasatlandığında geri tohum verebilir!
-//TODO Translate [Reference] 'Sunflower'
+//[Reference] 'Sunflower'
 staxel.crop.Sunflower.name=Ayçiçeği
-//TODO Translate [Reference] 'Like a potato, but kinder.'
+//[Reference] 'Like a potato, but kinder.'
 staxel.crop.SweetPotato.description=Patates gibi, ama daha yumuşak.
-//TODO Translate [Reference] 'Sweet Potato Seed'
+//[Reference] 'Sweet Potato Seed'
 staxel.crop.SweetPotato.name=Tatlı Patates Tohumu
-//TODO Translate [Reference] 'Fresh, soft and juicy! Mmm.'
+//[Reference] 'Fresh, soft and juicy! Mmm.'
 staxel.crop.Tomato.description=Taze, yumuşak ve sulu! Mmm.
-//TODO Translate [Reference] 'Tomato Seed'
+//[Reference] 'Tomato Seed'
 staxel.crop.Tomato.name=Domates Tohumu
-//TODO Translate [Reference] 'The most popular crop for farming.'
+//[Reference] 'The most popular crop for farming.'
 staxel.crop.Turnip.description=Çiftçilikte en popüler ekin.
-//TODO Translate [Reference] 'Turnip Seed'
+//[Reference] 'Turnip Seed'
 staxel.crop.Turnip.name=Şalgam Tohumu
-//TODO Translate [Reference] 'The juiciest, red fruit.'
+//[Reference] 'The juiciest, red fruit.'
 staxel.crop.Watermelon.description=En sulu, kırmızı meyve.
-//TODO Translate [Reference] 'Watermelon Seed'
+//[Reference] 'Watermelon Seed'
 staxel.crop.Watermelon.name=Karpuz Tohumu
-//TODO Translate [Reference] 'A rose with beautiful white petals.'
+//[Reference] 'A rose with beautiful white petals.'
 staxel.crop.WhiteRose.description=Beyaz yapraklı güzel bir gül.
-//TODO Translate [Reference] 'White rose Seed'
+//[Reference] 'White rose Seed'
 staxel.crop.WhiteRose.name=Beyaz gül Tohumu
-//TODO Translate [Reference] 'in {0-growTime} days'
+//[Reference] 'in {0-growTime} days'
 staxel.description.GrowTimeDays={0-growTime} gün
-//TODO Translate [Reference] 'immediately'
+//[Reference] 'immediately'
 staxel.description.GrowTimeImmediate=hemen
-//TODO Translate [Reference] 'Doesn't grow in any seasons. Please report this as a bug.'
+//[Reference] 'Doesn't grow in any seasons. Please report this as a bug.'
 staxel.description.GrowTimeRegrowValidSeasons.0=Hiçbir sezonda büyümüyor. Lütfen bunu hata olarak rapor ediniz.
-//TODO Translate [Reference] 'Grows {0-growTime} then regrows {1-reGrowTime} in {2-season}.'
+//[Reference] 'Grows {0-growTime} then regrows {1-reGrowTime} in {2-season}.'
 staxel.description.GrowTimeRegrowValidSeasons.1={0-growTime} büyür sonra yeniden büyür {1-reGrowTime} {2-season} içinde.
-//TODO Translate [Reference] 'Grows {0-growTime} then regrows {1-reGrowTime} in {2-season} and {3-season}.'
+//[Reference] 'Grows {0-growTime} then regrows {1-reGrowTime} in {2-season} and {3-season}.'
 staxel.description.GrowTimeRegrowValidSeasons.2={0-growTime} büyür sonra yeniden büyür {1-reGrowTime} {2-season} ve {3-season}içinde.
-//TODO Translate [Reference] 'Grows {0-growTime} then regrows {1-reGrowTime} in {2-season}, {3-season}, and {4-season}.'
+//[Reference] 'Grows {0-growTime} then regrows {1-reGrowTime} in {2-season}, {3-season}, and {4-season}.'
 staxel.description.GrowTimeRegrowValidSeasons.3={0-growTime} büyür sonra yeniden büyür {1-reGrowTime} {2-season}, {3-season} ve {4-season} içinde.
-//TODO Translate [Reference] 'Grows {0-growTime} then regrows {1-reGrowTime} in all seasons.'
+//[Reference] 'Grows {0-growTime} then regrows {1-reGrowTime} in all seasons.'
 staxel.description.GrowTimeRegrowValidSeasons.4={0-growTime} büyür sonra yeniden büyür {1-reGrowTime} tüm sezonlarda.
-//TODO Translate [Reference] 'Doesn't grow in any seasons. Please report this as a bug.'
+//[Reference] 'Doesn't grow in any seasons. Please report this as a bug.'
 staxel.description.GrowTimeTree.0=Hiçbir sezonda büyümüyor. Lütfen bunu hata olarak rapor ediniz.
 //TODO Translate [Reference] 'Grows in {0-growTime} days in {3-season}. Regrows in {1-reGrowTime} in {2-season}'
 staxel.description.GrowTimeTree.1=
@@ -1170,7 +1430,7 @@ staxel.description.GrowTimeTree.2=
 staxel.description.GrowTimeTree.3=
 //TODO Translate [Reference] 'Grows in {0-growTime} days in all seasons. Regrows in {1-reGrowTime} in {2-season}'
 staxel.description.GrowTimeTree.4=
-//TODO Translate [Reference] 'Doesn't grow in any seasons. Please report this as a bug.'
+//[Reference] 'Doesn't grow in any seasons. Please report this as a bug.'
 staxel.description.GrowTimeValidSeasons.0=Hiçbir sezonda büyümüyor. Lütfen bunu hata olarak rapor ediniz.
 //TODO Translate [Reference] 'Grows {0-growTime} in {1-season}.'
 staxel.description.GrowTimeValidSeasons.1=
@@ -1199,98 +1459,99 @@ staxel.docks.merchantStalls.MerchantShopLarge.description=
 //TODO Translate [Reference] 'Large Merchant Stall'
 staxel.docks.merchantStalls.MerchantShopLarge.name=
 staxel.emote.Inspect.begin.description=
-//TODO Translate [Reference] 'Inspect Emote'
+//[Reference] 'Inspect Emote'
 staxel.emote.Inspect.begin.name=Yoklama Animasyonu
 staxel.emote.LookAround.description=
-//TODO Translate [Reference] 'Look Around'
+//[Reference] 'Look Around'
 staxel.emote.LookAround.name=Etrafa bak
 staxel.emote.No.description=
-//TODO Translate [Reference] 'No Emote'
+//[Reference] 'No Emote'
 staxel.emote.No.name=Boş
 staxel.emote.ScratchHead.description=
-//TODO Translate [Reference] 'Scratch Head'
+//[Reference] 'Scratch Head'
 staxel.emote.ScratchHead.name=Kaşıma Animasyonu
 staxel.emote.Search.begin.description=
-//TODO Translate [Reference] 'Search Emote'
+//[Reference] 'Search Emote'
 staxel.emote.Search.begin.name=Arama Animasyonu
 //TODO Translate [Reference] 'Use this to trigger the wave emote.'
 staxel.emote.Wave.description=
-//TODO Translate [Reference] 'Wave Emote'
+//[Reference] 'Wave Emote'
 staxel.emote.Wave.name=El Sallama Emojisi
 staxel.emote.Yes.description=
-//TODO Translate [Reference] 'Yes Emote'
+//[Reference] 'Yes Emote'
 staxel.emote.Yes.name=Evet Emojisi
-//TODO Translate [Reference] 'Chicken'
+//[Reference] 'Chicken'
 staxel.farmAnimal.Chicken=Tavuk
-//TODO Translate [Reference] 'Cow'
+//[Reference] 'Cow'
 staxel.farmAnimal.Cow=İnek
-//TODO Translate [Reference] 'Pig'
+//[Reference] 'Pig'
 staxel.farmAnimal.Pig=Domuz
-//TODO Translate [Reference] 'Sheep'
+//[Reference] 'Sheep'
 staxel.farmAnimal.Sheep=Koyun
-//TODO Translate [Reference] 'Alt'
+//[Reference] 'Alt'
 staxel.gameLogicalButton.Alt=Alt
 //TODO Translate [Reference] 'Backward'
 staxel.gameLogicalButton.Backward=
-//TODO Translate [Reference] 'Chat'
+//[Reference] 'Chat'
 staxel.gameLogicalButton.Chat=Konuş
-//TODO Translate [Reference] 'Chat Commands'
+//[Reference] 'Chat Commands'
 staxel.gameLogicalButton.ChatCommands=Konuşma Komutları
-//TODO Translate [Reference] 'Drop Item'
+//[Reference] 'Drop Item'
 staxel.gameLogicalButton.DropItem=Eşyayı At
-//TODO Translate [Reference] 'Esc'
+//[Reference] 'Esc'
 staxel.gameLogicalButton.Esc=Esc
-//TODO Translate [Reference] 'Forward'
+//[Reference] 'Forward'
 staxel.gameLogicalButton.Forward=İleri
-//TODO Translate [Reference] 'Inventory'
+//[Reference] 'Inventory'
 staxel.gameLogicalButton.Inventory=Envanter
-//TODO Translate [Reference] 'Jump'
+//[Reference] 'Jump'
 staxel.gameLogicalButton.Jump=Atla
-//TODO Translate [Reference] 'Left'
+//[Reference] 'Left'
 staxel.gameLogicalButton.Left=Sol
 //TODO Translate [Reference] 'Main'
 staxel.gameLogicalButton.Main=
-//TODO Translate [Reference] 'Map'
+//[Reference] 'Map'
 staxel.gameLogicalButton.Map=Harita
-//TODO Translate [Reference] 'Next'
+//[Reference] 'Next'
 staxel.gameLogicalButton.Next=Sonraki
-//TODO Translate [Reference] 'Pick Item'
+//[Reference] 'Pick Item'
 staxel.gameLogicalButton.PickItem=Eşyayı Al
-//TODO Translate [Reference] 'Player List'
+//[Reference] 'Player List'
 staxel.gameLogicalButton.PlayerList=Oyuncu Listesi
-//TODO Translate [Reference] 'Previous'
+//[Reference] 'Previous'
 staxel.gameLogicalButton.Previous=Önceki
-//TODO Translate [Reference] 'Right'
+//[Reference] 'Right'
 staxel.gameLogicalButton.Right=Sağ
-//TODO Translate [Reference] 'Slot1'
+//[Reference] 'Slot1'
 staxel.gameLogicalButton.Slot1=Yer1
-//TODO Translate [Reference] 'Slot2'
+//[Reference] 'Slot2'
 staxel.gameLogicalButton.Slot2=Yer2
-//TODO Translate [Reference] 'Slot3'
+//[Reference] 'Slot3'
 staxel.gameLogicalButton.Slot3=Yer3
-//TODO Translate [Reference] 'Slot4'
+//[Reference] 'Slot4'
 staxel.gameLogicalButton.Slot4=Yer4
-//TODO Translate [Reference] 'Slot5'
+//[Reference] 'Slot5'
 staxel.gameLogicalButton.Slot5=Yer5
-//TODO Translate [Reference] 'Slot6'
+//[Reference] 'Slot6'
 staxel.gameLogicalButton.Slot6=Yer6
-//TODO Translate [Reference] 'Slot7'
+//[Reference] 'Slot7'
 staxel.gameLogicalButton.Slot7=Yer7
-//TODO Translate [Reference] 'Slot8'
+//[Reference] 'Slot8'
 staxel.gameLogicalButton.Slot8=Yer8
-//TODO Translate [Reference] 'Slot9'
+//[Reference] 'Slot9'
 staxel.gameLogicalButton.Slot9=Yer8
-//TODO Translate [Reference] 'Slot10'
+//[Reference] 'Slot10'
 staxel.gameLogicalButton.Slot10=Yer10
-//TODO Translate [Reference] 'Sneak' ???????????????
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Sneak'
 staxel.gameLogicalButton.Sneak=Sinsi
-//TODO Translate [Reference] 'Switch Item'
+//[Reference] 'Switch Item'
 staxel.gameLogicalButton.SwitchItem=Eşyayı Değiştir
-//TODO Translate [Reference] 'A'
+//[Reference] 'A'
 staxel.gamePadAxis.A=A
-//TODO Translate [Reference] 'B'
+//[Reference] 'B'
 staxel.gamePadAxis.B=B
-//TODO Translate [Reference] 'Back'
+//[Reference] 'Back'
 staxel.gamePadAxis.Back=Geri
 //TODO Translate [Reference] 'D Pad Down'
 staxel.gamePadAxis.DPadDown=
@@ -1326,55 +1587,55 @@ staxel.gamePadAxis.RightStickXRight=
 staxel.gamePadAxis.RightStickYDown=
 //TODO Translate [Reference] 'Right Stick Y Up'
 staxel.gamePadAxis.RightStickYUp=
-//TODO Translate [Reference] 'Right Trigger'
+//[Reference] 'Right Trigger'
 staxel.gamePadAxis.RightTrigger=Sağ Tetik
-//TODO Translate [Reference] 'Start'
+//[Reference] 'Start'
 staxel.gamePadAxis.Start=Başla
-//TODO Translate [Reference] 'X'
+//[Reference] 'X'
 staxel.gamePadAxis.X=X
-//TODO Translate [Reference] 'Y'
+//[Reference] 'Y'
 staxel.gamePadAxis.Y=Y
 staxel.gatherable.Acorn.description=
-//TODO Translate [Reference] 'Acorn'
+//[Reference] 'Acorn'
 staxel.gatherable.Acorn.name=Palamut
-//TODO Translate [Reference] 'Crop of the forest. Delicious!'
+//[Reference] 'Crop of the forest. Delicious!'
 staxel.gatherable.BrownMushroom.description=Ormanın ekini. Leziz!
-//TODO Translate [Reference] 'Brown Mushroom'
+//[Reference] 'Brown Mushroom'
 staxel.gatherable.BrownMushroom.name=Kahverengi Mantar
 staxel.gatherable.Creaturebud.description=
-//TODO Translate [Reference] 'Creaturebud'
+//[Reference] 'Creaturebud'
 staxel.gatherable.Creaturebud.name=Yaratık Tomurcuğu
 staxel.gatherable.HermitShell.description=
-//TODO Translate [Reference] 'Hermit Shell'
+//[Reference] 'Hermit Shell'
 staxel.gatherable.HermitShell.name=Keşiş Kabuğu
 staxel.gatherable.PearlShell.description=
-//TODO Translate [Reference] 'Pearl Shell'
+//[Reference] 'Pearl Shell'
 staxel.gatherable.PearlShell.name=İnci Kabuğu
 staxel.gatherable.RedCoral.description=
-//TODO Translate [Reference] 'Red Coral'
+//[Reference] 'Red Coral'
 staxel.gatherable.RedCoral.name=Kırmızı Mercan
-//TODO Translate [Reference] 'You really need to be careful with this mushroom..'
+//[Reference] 'You really need to be careful with this mushroom..'
 staxel.gatherable.RedWhiteMushroom.description=Bu mantarla gerçekten çok dikkatli olman gerek...
 //TODO Translate [Reference] 'Toadstool'
 staxel.gatherable.RedWhiteMushroom.name=
 staxel.gatherable.Seaweed.description=
-//TODO Translate [Reference] 'Seaweed'
+//[Reference] 'Seaweed'
 staxel.gatherable.Seaweed.name=Deniz yosunu
 staxel.gatherable.SnowMound.description=
-//TODO Translate [Reference] 'Snow Mound'
+//[Reference] 'Snow Mound'
 staxel.gatherable.SnowMound.name=Kar Höyüğü
 staxel.gatherable.Starfish.description=
-//TODO Translate [Reference] 'Starfish'
+//[Reference] 'Starfish'
 staxel.gatherable.Starfish.name=Denizyıldızı
 staxel.gatherable.StarJelly.description=
-//TODO Translate [Reference] 'Star Jelly'
+//[Reference] 'Star Jelly'
 staxel.gatherable.StarJelly.name=Yıldız Jölesi
 staxel.gatherable.SwirlyShell.description=
 //TODO Translate [Reference] 'Swirly Shell'
 staxel.gatherable.SwirlyShell.name=
-//TODO Translate [Reference] 'Popular in many dishes.'
+//[Reference] 'Popular in many dishes.'
 staxel.gatherable.WhiteMushrooms.description=Çoğu yemekte popüler.
-//TODO Translate [Reference] 'White Mushrooms'
+//[Reference] 'White Mushrooms'
 staxel.gatherable.WhiteMushrooms.name=Beyaz Mantarlar
 staxel.item.buildingTools.Export.description=
 //TODO Translate [Reference] 'Export'
@@ -1387,41 +1648,41 @@ staxel.item.buildingTools.MassReplacer.description=
 staxel.item.buildingTools.MassReplacer.name=
 //TODO Translate [Reference] 'Rowan asked you to deliver this. There might be a cat's paw mark on it?'
 staxel.item.CatLetter.description=
-//TODO Translate [Reference] 'Letter to Farm Fan'
-staxel.item.CatLetter.name=	Farm Fan'dan Mektup
+//[Reference] 'Letter to Farm Fan'
+staxel.item.CatLetter.name=Farm Fan'dan Mektup
 staxel.item.crafting.ApiaryFrame.description=
 //TODO Translate [Reference] 'ApiaryFrame'
 staxel.item.crafting.ApiaryFrame.name=
 staxel.item.crafting.AppleBananaSmoothie.description=
-//TODO Translate [Reference] 'AppleBananaSmoothie'
+//[Reference] 'AppleBananaSmoothie'
 staxel.item.crafting.AppleBananaSmoothie.name=Elmalı ve Muzlu Smoothie
 staxel.item.crafting.AssortedDrawers.description=
 //TODO Translate [Reference] 'AssortedDrawers'
 staxel.item.crafting.AssortedDrawers.name=
-//TODO Translate [Reference] 'How pigs produce this is still the village's greatest mystery.'
+//[Reference] 'How pigs produce this is still the village's greatest mystery.'
 staxel.item.crafting.Bacon.description=Bunu domuzların nasıl ürettiği hala köyün harika gizemlerinden birisi.
-//TODO Translate [Reference] 'Bacon'
+//[Reference] 'Bacon'
 staxel.item.crafting.Bacon.name=Domuz Pastırması
 staxel.item.crafting.BakedPotatoWithCheese.description=
 //TODO Translate [Reference] 'BakedPotatoWithCheese'
 staxel.item.crafting.BakedPotatoWithCheese.name=
 staxel.item.crafting.BasicFramelessDoor.description=
-//TODO Translate [Reference] 'BasicFramelessDoor'
+//[Reference] 'BasicFramelessDoor'
 staxel.item.crafting.BasicFramelessDoor.name=Temel Çerçevesiz Kapı
 staxel.item.crafting.BasicSalad.description=
-//TODO Translate [Reference] 'BasicSalad'
+//[Reference] 'BasicSalad'
 staxel.item.crafting.BasicSalad.name=Temel Salata
 staxel.item.crafting.Batter.description=
-//TODO Translate [Reference] 'Batter'
+//[Reference] 'Batter'
 staxel.item.crafting.Batter.name=Hamur
 staxel.item.crafting.BoiledRice.description=
-//TODO Translate [Reference] 'Boiled Rice'
+//[Reference] 'Boiled Rice'
 staxel.item.crafting.BoiledRice.name=Kaynamış Pirinç
 staxel.item.crafting.BookCaseFrame.description=
 //TODO Translate [Reference] 'BookCaseFrame'
 staxel.item.crafting.BookCaseFrame.name=
 staxel.item.crafting.CakeBatter.description=
-//TODO Translate [Reference] 'CakeBatter'
+//[Reference] 'CakeBatter'
 staxel.item.crafting.CakeBatter.name=Kek Hamuru
 staxel.item.crafting.CaptureCrateDoor.description=
 //TODO Translate [Reference] 'CaptureCrateDoor'
@@ -1436,7 +1697,7 @@ staxel.item.crafting.ChickenCoopFrame.description=
 //TODO Translate [Reference] 'ChickenCoopFrame'
 staxel.item.crafting.ChickenCoopFrame.name=
 staxel.item.crafting.Chips.description=
-//TODO Translate [Reference] 'Chips'
+//[Reference] 'Chips'
 staxel.item.crafting.Chips.name=Cips
 staxel.item.crafting.FineLumber.description=
 //TODO Translate [Reference] 'FineLumber'
@@ -1448,7 +1709,7 @@ staxel.item.crafting.GlassPane.description=
 //TODO Translate [Reference] 'GlassPane'
 staxel.item.crafting.GlassPane.name=
 staxel.item.crafting.Glue.description=
-//TODO Translate [Reference] 'Glue'
+//[Reference] 'Glue'
 staxel.item.crafting.Glue.name=Yapıştırıcı
 staxel.item.crafting.HayBale.description=
 //TODO Translate [Reference] 'Hay Bale'
@@ -1457,7 +1718,7 @@ staxel.item.crafting.Hinge.description=
 //TODO Translate [Reference] 'Hinge'
 staxel.item.crafting.Hinge.name=
 staxel.item.crafting.Knob.description=
-//TODO Translate [Reference] 'Knob'
+//[Reference] 'Knob'
 staxel.item.crafting.Knob.name=Tokmak
 staxel.item.crafting.LargeWoodenFrame.description=
 //TODO Translate [Reference] 'Large Wooden Frame'
@@ -1466,10 +1727,10 @@ staxel.item.crafting.Latch.description=
 //TODO Translate [Reference] 'Latch'
 staxel.item.crafting.Latch.name=
 staxel.item.crafting.lightMeal.BoiledEgg.description=
-//TODO Translate [Reference] 'BoiledEgg'
+//[Reference] 'BoiledEgg'
 staxel.item.crafting.lightMeal.BoiledEgg.name=Haşlanmış Yumurta
 staxel.item.crafting.lightMeal.FriedEgg.description=
-//TODO Translate [Reference] 'FriedEgg'
+//[Reference] 'FriedEgg'
 staxel.item.crafting.lightMeal.FriedEgg.name=Kızarmış Yumurta
 staxel.item.crafting.lightMeal.Porridge.description=
 //TODO Translate [Reference] 'Porridge'
@@ -1478,7 +1739,7 @@ staxel.item.crafting.Lumber.description=
 //TODO Translate [Reference] 'Lumber'
 staxel.item.crafting.Lumber.name=
 staxel.item.crafting.MangoPeachSmoothie.description=
-//TODO Translate [Reference] 'MangoPeachSmoothie'
+//[Reference] 'MangoPeachSmoothie'
 staxel.item.crafting.MangoPeachSmoothie.name=Mango ve Şeftalili Smoothie
 staxel.item.crafting.MetalBands.description=
 //TODO Translate [Reference] 'Metal Bands'
@@ -1490,28 +1751,28 @@ staxel.item.crafting.MushroomRisotto.description=
 //TODO Translate [Reference] 'Mushroom Risotto'
 staxel.item.crafting.MushroomRisotto.name=
 staxel.item.crafting.Nails.description=
-//TODO Translate [Reference] 'Nails'
+//[Reference] 'Nails'
 staxel.item.crafting.Nails.name=Çiviler
 staxel.item.crafting.PancakeBatter.description=
 //TODO Translate [Reference] 'PancakeBatter'
 staxel.item.crafting.PancakeBatter.name=
 staxel.item.crafting.Pancakes.description=
-//TODO Translate [Reference] 'Pancakes'
+//[Reference] 'Pancakes'
 staxel.item.crafting.Pancakes.name=Krepler
 staxel.item.crafting.Pickets.description=
 //TODO Translate [Reference] 'Pickets'
 staxel.item.crafting.Pickets.name=
 staxel.item.crafting.Popcorn.description=
-//TODO Translate [Reference] 'Popcorn'
+//[Reference] 'Popcorn'
 staxel.item.crafting.Popcorn.name=Patlamış Mısır
 staxel.item.crafting.RaspberryBlackberrySmoothie.description=
 //TODO Translate [Reference] 'RaspberryBlackberrySmoothie'
 staxel.item.crafting.RaspberryBlackberrySmoothie.name=
 staxel.item.crafting.Rice.description=
-//TODO Translate [Reference] 'Rice'
+//[Reference] 'Rice'
 staxel.item.crafting.Rice.name=Pirin.
 staxel.item.crafting.Rope.description=
-//TODO Translate [Reference] 'Rope'
+//[Reference] 'Rope'
 staxel.item.crafting.Rope.name=Halat
 staxel.item.crafting.SheetMetal.description=
 //TODO Translate [Reference] 'Sheet Metal'
@@ -1526,7 +1787,7 @@ staxel.item.crafting.UnbakedPotatoWithCheese.description=
 //TODO Translate [Reference] 'UnbakedPotatoWithCheese'
 staxel.item.crafting.UnbakedPotatoWithCheese.name=
 staxel.item.crafting.Varnish.description=
-//TODO Translate [Reference] 'Varnish'
+//[Reference] 'Varnish'
 staxel.item.crafting.Varnish.name=Cila
 staxel.item.crafting.WoodShingles.description=
 //TODO Translate [Reference] 'WoodShingles'
@@ -1538,23 +1799,23 @@ staxel.item.crops.GoldenCabbage.description=
 //TODO Translate [Reference] 'Golden Cabbage'
 staxel.item.crops.GoldenCabbage.name=
 staxel.item.crops.GoldenPumpkin.description=
-//TODO Translate [Reference] 'Golden Pumpkin'
+//[Reference] 'Golden Pumpkin'
 staxel.item.crops.GoldenPumpkin.name=Altın Balkabağı
 staxel.item.crops.GoldenStrawberry.description=
-//TODO Translate [Reference] 'Golden Strawberry'
+//[Reference] 'Golden Strawberry'
 staxel.item.crops.GoldenStrawberry.name=Altın Çilek
 staxel.item.crops.GoldenWatermelon.description=
-//TODO Translate [Reference] 'Golden Watermelon'
+//[Reference] 'Golden Watermelon'
 staxel.item.crops.GoldenWatermelon.name=Altın Karpuz
 staxel.item.crops.Sunflower.description=
-//TODO Translate [Reference] 'Sunflower'
+//[Reference] 'Sunflower'
 staxel.item.crops.Sunflower.name=Ayçiçeği
 staxel.item.debug.Export.description=
 //TODO Translate [Reference] 'Export'
 staxel.item.debug.Export.name=
-//TODO Translate [Reference] 'Rowan asked you to deliver this. It looks like he drew a bone on it?'
+//[Reference] 'Rowan asked you to deliver this. It looks like he drew a bone on it?'
 staxel.item.DogLetter.description=Roawn bunu sana birine teslim etmeni söyledi. Üstüne kemik çizmiş gibi?
-//TODO Translate [Reference] 'Letter to Farm Fan'
+//[Reference] 'Letter to Farm Fan'
 staxel.item.DogLetter.name=Farm Fan'e Mektup
 staxel.item.festival.CandyCorn.description=
 //TODO Translate [Reference] 'Candy Corn'
@@ -1563,10 +1824,10 @@ staxel.item.festival.Takoyaki.description=
 //TODO Translate [Reference] 'Takoyaki'
 staxel.item.festival.Takoyaki.name=
 staxel.item.festival.ToffeeApple.description=
-//TODO Translate [Reference] 'Toffee Apple'
+//[Reference] 'Toffee Apple'
 staxel.item.festival.ToffeeApple.name=Toffee Elma
 staxel.item.gatherable.Acorn.description=
-//TODO Translate [Reference] 'Acorn'
+//[Reference] 'Acorn'
 staxel.item.gatherable.Acorn.name=Palamut
 staxel.item.gatherable.AngelFish.description=
 //TODO Translate [Reference] 'Angel Fish'
@@ -1602,7 +1863,7 @@ staxel.item.gatherable.Dab.description=
 //TODO Translate [Reference] 'Dab'
 staxel.item.gatherable.Dab.name=
 staxel.item.gatherable.Eel.description=
-//TODO Translate [Reference] 'Eel'
+//[Reference] 'Eel'
 staxel.item.gatherable.Eel.name=Yılanbalığı
 staxel.item.gatherable.EmperorButterfly.description=
 //TODO Translate [Reference] 'EmperorButterfly'
@@ -1614,7 +1875,7 @@ staxel.item.gatherable.festival.MalevolentFairy.description=
 //TODO Translate [Reference] 'Mischievous Fairy'
 staxel.item.gatherable.festival.MalevolentFairy.name=
 staxel.item.gatherable.Firefly.description=
-//TODO Translate [Reference] 'Firefly'
+//[Reference] 'Firefly'
 staxel.item.gatherable.Firefly.name=Ateş Böceği
 staxel.item.gatherable.Fly.description=
 //TODO Translate [Reference] 'Fly'
@@ -1623,7 +1884,7 @@ staxel.item.gatherable.FootballFish.description=
 //TODO Translate [Reference] 'Football Fish'
 staxel.item.gatherable.FootballFish.name=
 staxel.item.gatherable.Frog.description=
-//TODO Translate [Reference] 'Frog'
+//[Reference] 'Frog'
 staxel.item.gatherable.Frog.name=Kurbağa
 staxel.item.gatherable.garbage.Algae.description=
 //TODO Translate [Reference] 'Algae'
@@ -2343,6 +2604,9 @@ staxel.tileObject.crafting.TilingStation.name=
 staxel.tileObject.creepyBiome.CampfireLarge.description=
 //TODO Translate [Reference] 'Campfire Large'
 staxel.tileObject.creepyBiome.CampfireLarge.name=
+staxel.tileObject.decorations.BottledFirefly.description=
+//TODO Translate [Reference] 'Bottled Firefly'
+staxel.tileObject.decorations.BottledFirefly.name=
 staxel.tileObject.decorations.Dryer.description=
 //TODO Translate [Reference] 'Dryer'
 staxel.tileObject.decorations.Dryer.name=
@@ -3394,6 +3658,8 @@ staxel.totem.festival.feymasquerade.FeyRoom208=
 staxel.totem.festival.feymasquerade.FeyThroneRoom=
 //TODO Translate [Reference] 'Snowdust Shrine'
 staxel.totem.festival.SnowdustShrine=
+//TODO Translate [Reference] 'Warning: Festival gate regions are periodically overwritten!'
+staxel.totem.FestivalTotem=
 //TODO Translate [Reference] 'Furnishing requirements complete!'
 staxel.totem.FurnitureComplete=
 //TODO Translate [Reference] 'Jamie's Home'
