@@ -21,6 +21,8 @@ catalogue.performSale=出售
 catalogue.sell=出售：
 //[Reference] 'Total'
 catalogue.total=合计
+//TODO Translate [Reference] 'success'
+commands.mail.success=
 //TODO Translate [Reference] '^c:F2E200;stopTime'
 commands.stopTime.description=
 //TODO Translate [Reference] 'Time resumed'
@@ -92,6 +94,8 @@ controlHint.verb.Milk=挤奶
 controlHint.verb.Open=开
 //[Reference] 'Plant'
 controlHint.verb.Plant=种植
+//TODO Translate [Reference] 'Play'
+controlHint.verb.Play=
 //[Reference] 'Pull'
 controlHint.verb.Pull=拉
 //[Reference] 'Reap'
@@ -230,6 +234,8 @@ debug.MissingNotification=缺少通知：{0-notificationCode}
 error.back=返回
 //TODO Translate [Reference] 'Bad Version'
 error.badVersion=
+//TODO Translate [Reference] 'Server Full'
+error.serverFull=
 //[Reference] 'The Staxel.net server appears to be offline. Please try again later.'
 error.serverOffline=Staxel.net服务器似乎处于离线状态，请稍后再试。
 //[Reference] 'SORRY!'
@@ -293,7 +299,8 @@ hintText.checkPlantGrowth.season=正在沉睡中。在{0-season}无法生长。
 hintText.checkPlantGrowth.seed=种子在萌芽
 //[Reference] 'It's not looking healthy; it needs water.'
 hintText.checkPlantGrowth.wilted=看起来不怎么健康，需要浇水。
-//[Reference] 'It's heading to the big garden in the sky. You should have watered it.'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'It's heading to the big garden in the sky.'
 hintText.checkPlantGrowth.withered=正朝着天空茁壮成长。你应该早点给它浇水的。
 //[Reference] 'It's heading to the big garden in the sky. It can't grow during {0-season}.'
 hintText.checkPlantGrowth.witheredSeason=正朝着天空茁壮成长。在{0-season}无法生长。
@@ -347,6 +354,8 @@ looting.stealFrom=偷窃自
 multiplayerMenu.back=返回主菜单
 //[Reference] 'Join Server'
 multiplayerMenu.joinServer=加入服务器
+//TODO Translate [Reference] 'Play With Friends'
+multiplayerMenu.playWithFriends=
 //[Reference] 'Server IP:'
 multiplayerMenu.serverIP=服务器 IP：
 //[Reference] 'Server List'
@@ -438,6 +447,8 @@ options.gameplay.mouse.mouseVelocity=鼠标灵敏度：
 options.gameplay.other=其他设置
 //[Reference] 'Active Achievement Tracker'
 options.gameplay.other.activeAchievement=开启成就追踪
+//TODO Translate [Reference] 'Text Speed:'
+options.gameplay.other.ChatSpeed=
 //[Reference] 'Chat Timestamps'
 options.gameplay.other.chatTimestamps=聊天时间戳
 //[Reference] 'Left Handed Mode'
@@ -598,6 +609,8 @@ server.youAreUnmuted=你处于禁言状态。
 serverBrowser.back=返回主菜单
 //[Reference] '(check your internet connection)'
 serverBrowser.checkConnection=（请检查网络连接）
+//TODO Translate [Reference] 'Filter:'
+serverBrowser.filter=
 //[Reference] 'No servers found'
 serverBrowser.noServersFound=找不到服务器
 //[Reference] 'Online:'
@@ -640,6 +653,8 @@ singleplayer.defaultWorldName=My World
 singleplayer.delete=删除
 //[Reference] 'Failed to delete world'
 singleplayer.failedToDeleteWorld=删除世界失败
+//TODO Translate [Reference] 'Allow friend joins'
+singleplayer.friendJoin=
 //[Reference] 'Launch'
 singleplayer.launch=启动
 //[Reference] 'Storage with this name already exists'
@@ -648,6 +663,8 @@ singleplayer.nameAlreadyExists=以该名称命名的储存已经存在
 singleplayer.nameTooShort=名称太短（最少三个字符）
 //[Reference] 'New World'
 singleplayer.newWorld=新的世界
+//TODO Translate [Reference] 'Play With Friends'
+singleplayer.playWithFriends=
 //[Reference] 'Name'
 singleplayer.serverName=名称
 
@@ -675,6 +692,9 @@ startMenu.singlePlayer=单人游戏
 staxel.accessories.characters.accessories.animalhats.FrogHat_paletted.description=
 //TODO Translate [Reference] 'Frog Hat'
 staxel.accessories.characters.accessories.animalhats.FrogHat_paletted.name=
+staxel.accessories.characters.accessories.animalhats.UnicornHat_paletted.description=
+//TODO Translate [Reference] 'Unicorn Hat_paletted'
+staxel.accessories.characters.accessories.animalhats.UnicornHat_paletted.name=
 staxel.accessories.characters.accessories.festival.FlowerCrown.description=
 //[Reference] 'Flower Crown'
 staxel.accessories.characters.accessories.festival.FlowerCrown.name=花冠
@@ -845,6 +865,8 @@ staxel.bush.RaspberryBush.description=一棵会长出美味红莓的灌木。不
 staxel.bush.RaspberryBush.name=红莓灌木种子
 //TODO Translate [Reference] 'acorn'
 staxel.category.acorn=
+//TODO Translate [Reference] 'animal Crate'
+staxel.category.animalCrate=
 //TODO Translate [Reference] 'Apple Pie Stand'
 staxel.category.ApplePieStand=
 //[Reference] 'assemble'
@@ -853,6 +875,8 @@ staxel.category.assemble=组装
 staxel.category.assembly=装配
 //[Reference] 'Awning'
 staxel.category.awning=遮阳篷
+//TODO Translate [Reference] 'bacon'
+staxel.category.bacon=
 //[Reference] 'bake'
 staxel.category.bake=烤
 //[Reference] 'baked'
@@ -871,6 +895,8 @@ staxel.category.BlueberryPieStand=
 staxel.category.boil=煮
 //[Reference] 'boiled'
 staxel.category.boiled=煮过的
+//TODO Translate [Reference] 'bottle'
+staxel.category.bottle=
 //[Reference] 'butterfly'
 staxel.category.butterfly=蝴蝶
 //TODO Translate [Reference] 'Campfire Large'
@@ -897,6 +923,8 @@ staxel.category.ChocolateCakeStand=
 staxel.category.cicada=蝉
 //[Reference] 'Cloth'
 staxel.category.cloth=布料
+//TODO Translate [Reference] 'color'
+staxel.category.color=
 //[Reference] 'combine'
 staxel.category.combine=组合
 //[Reference] 'construct'
@@ -919,6 +947,12 @@ staxel.category.DragonFruitPieStand=
 staxel.category.dryer=烘干机
 //[Reference] 'drying'
 staxel.category.drying=烘干中
+//TODO Translate [Reference] 'dye'
+staxel.category.dye=
+//TODO Translate [Reference] 'farming'
+staxel.category.farming=
+//TODO Translate [Reference] 'fertilizer'
+staxel.category.fertilizer=
 //[Reference] 'fey'
 staxel.category.fey=精灵
 //[Reference] 'fine'
@@ -976,6 +1010,8 @@ staxel.category.LightGreen=浅绿色
 staxel.category.LimePieStand=
 //[Reference] 'lumber'
 staxel.category.lumber=木材
+//TODO Translate [Reference] 'manure'
+staxel.category.manure=
 //[Reference] 'masonry'
 staxel.category.masonry=石工
 //TODO Translate [Reference] 'meat'
@@ -1087,6 +1123,9 @@ staxel.crafting.recipes.Apiary.name=蜂房
 staxel.crafting.recipes.AppleBananaSmoothie.description=
 //[Reference] 'AppleBananaSmoothie'
 staxel.crafting.recipes.AppleBananaSmoothie.name=苹果香蕉奶昔
+staxel.crafting.recipes.BaconSandwich.description=
+//TODO Translate [Reference] 'Bacon Sandwich'
+staxel.crafting.recipes.BaconSandwich.name=
 staxel.crafting.recipes.BaitBox.description=
 //[Reference] 'Baitbox'
 staxel.crafting.recipes.BaitBox.name=饵料盒
@@ -1121,12 +1160,30 @@ staxel.crafting.recipes.BasicWoodenWall.description=
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Basic Wooden Wall'
 staxel.crafting.recipes.BasicWoodenWall.name=基础木墙
+staxel.crafting.recipes.BlueBrick.description=
+//TODO Translate [Reference] 'Blue Brick'
+staxel.crafting.recipes.BlueBrick.name=
+staxel.crafting.recipes.BlueStone.description=
+//TODO Translate [Reference] 'Blue Stone'
+staxel.crafting.recipes.BlueStone.name=
+staxel.crafting.recipes.BlueWoodBlock.description=
+//TODO Translate [Reference] 'Blue Wood Block'
+staxel.crafting.recipes.BlueWoodBlock.name=
+staxel.crafting.recipes.BrownBrick.description=
+//TODO Translate [Reference] 'Brown Brick'
+staxel.crafting.recipes.BrownBrick.name=
 staxel.crafting.recipes.BrownBrickBlock.description=
 //[Reference] 'BrownBrickBlock'
 staxel.crafting.recipes.BrownBrickBlock.name=棕色砖块
+staxel.crafting.recipes.BrownStone.description=
+//TODO Translate [Reference] 'Brown Stone'
+staxel.crafting.recipes.BrownStone.name=
 staxel.crafting.recipes.BrownWoodBlock.description=
 //[Reference] 'BrownWoodBlock'
 staxel.crafting.recipes.BrownWoodBlock.name=棕色原木
+staxel.crafting.recipes.Butter.description=
+//TODO Translate [Reference] 'Butter'
+staxel.crafting.recipes.Butter.name=
 staxel.crafting.recipes.CandyCorn.description=
 //[Reference] 'Candy Corn'
 staxel.crafting.recipes.CandyCorn.name=玉米糖
@@ -1155,13 +1212,28 @@ staxel.crafting.recipes.CobbleStonePath.name=鹅卵石路
 staxel.crafting.recipes.CoffeeTable.description=
 //[Reference] 'CoffeeTable'
 staxel.crafting.recipes.CoffeeTable.name=咖啡桌
+staxel.crafting.recipes.CombineFruitSalad.description=
+//TODO Translate [Reference] 'Combine Fruit Salad'
+staxel.crafting.recipes.CombineFruitSalad.name=
 staxel.crafting.recipes.Crate.description=
 //[Reference] 'Crate'
 staxel.crafting.recipes.Crate.name=制造
+staxel.crafting.recipes.Cream.description=
+//TODO Translate [Reference] 'Cream'
+staxel.crafting.recipes.Cream.name=
+staxel.crafting.recipes.CreamBrick.description=
+//TODO Translate [Reference] 'Cream Brick'
+staxel.crafting.recipes.CreamBrick.name=
+staxel.crafting.recipes.CreamStone.description=
+//TODO Translate [Reference] 'Cream Stone'
+staxel.crafting.recipes.CreamStone.name=
 staxel.crafting.recipes.CreamStoneWall.description=
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Cream Stone Wall'
 staxel.crafting.recipes.CreamStoneWall.name=奶油石墙
+staxel.crafting.recipes.CreamWoodBlock.description=
+//TODO Translate [Reference] 'Cream Wood Block'
+staxel.crafting.recipes.CreamWoodBlock.name=
 staxel.crafting.recipes.DarkWoodBlock.description=
 //[Reference] 'DarkWoodBlock'
 staxel.crafting.recipes.DarkWoodBlock.name=深色木方块
@@ -1170,6 +1242,9 @@ staxel.crafting.recipes.DoorFrame.description=只是一个门的框架.你可以
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Door Frame'
 staxel.crafting.recipes.DoorFrame.name=门框
+staxel.crafting.recipes.EggFriedRice.description=
+//TODO Translate [Reference] 'Egg Fried Rice'
+staxel.crafting.recipes.EggFriedRice.name=
 staxel.crafting.recipes.EmptyTrough.description=
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Empty Trough'
@@ -1183,6 +1258,21 @@ staxel.crafting.recipes.FishRack.name=鱼栅
 staxel.crafting.recipes.FriedEgg.description=
 //[Reference] 'FriedEgg'
 staxel.crafting.recipes.FriedEgg.name=煎蛋
+staxel.crafting.recipes.GreenBrick.description=
+//TODO Translate [Reference] 'Green Brick'
+staxel.crafting.recipes.GreenBrick.name=
+staxel.crafting.recipes.GreenStone.description=
+//TODO Translate [Reference] 'Green Stone'
+staxel.crafting.recipes.GreenStone.name=
+staxel.crafting.recipes.GreenWoodBlock.description=
+//TODO Translate [Reference] 'Green Wood Block'
+staxel.crafting.recipes.GreenWoodBlock.name=
+staxel.crafting.recipes.GreyBrick.description=
+//TODO Translate [Reference] 'Grey Brick'
+staxel.crafting.recipes.GreyBrick.name=
+staxel.crafting.recipes.GreyWoodBlock.description=
+//TODO Translate [Reference] 'Grey Wood Block'
+staxel.crafting.recipes.GreyWoodBlock.name=
 staxel.crafting.recipes.JackOLantern.description=
 //[Reference] 'Jack O' Lantern'
 staxel.crafting.recipes.JackOLantern.name=杰克南瓜灯
@@ -1198,21 +1288,54 @@ staxel.crafting.recipes.MakeSyrup.name=糖浆
 staxel.crafting.recipes.MangoPeachSmoothie.description=
 //[Reference] 'MangoPeachSmoothie'
 staxel.crafting.recipes.MangoPeachSmoothie.name=芒果蜜子冰沙
+staxel.crafting.recipes.Manure.description=
+//TODO Translate [Reference] 'Manure'
+staxel.crafting.recipes.Manure.name=
 staxel.crafting.recipes.MushroomRisotto.description=
 //[Reference] 'Mushroom Risotto'
 staxel.crafting.recipes.MushroomRisotto.name=蘑菇意大利烩饭
+staxel.crafting.recipes.OrangeBrick.description=
+//TODO Translate [Reference] 'Orange Brick'
+staxel.crafting.recipes.OrangeBrick.name=
+staxel.crafting.recipes.OrangeStone.description=
+//TODO Translate [Reference] 'Orange Stone'
+staxel.crafting.recipes.OrangeStone.name=
+staxel.crafting.recipes.OrangeWoodBlock.description=
+//TODO Translate [Reference] 'Orange Wood Block'
+staxel.crafting.recipes.OrangeWoodBlock.name=
 staxel.crafting.recipes.Pancakes.description=
 //[Reference] 'Pancakes'
 staxel.crafting.recipes.Pancakes.name=烙饼
+staxel.crafting.recipes.PetFood.description=
+//TODO Translate [Reference] 'Pet Food'
+staxel.crafting.recipes.PetFood.name=
 staxel.crafting.recipes.Pickets.description=
 //[Reference] 'Pickets'
 staxel.crafting.recipes.Pickets.name=木栅栏
+staxel.crafting.recipes.PinkBrick.description=
+//TODO Translate [Reference] 'Pink Brick'
+staxel.crafting.recipes.PinkBrick.name=
+staxel.crafting.recipes.PinkStone.description=
+//TODO Translate [Reference] 'Pink Stone'
+staxel.crafting.recipes.PinkStone.name=
+staxel.crafting.recipes.PinkWoodBlock.description=
+//TODO Translate [Reference] 'Pink Wood Block'
+staxel.crafting.recipes.PinkWoodBlock.name=
 staxel.crafting.recipes.Popcorn.description=
 //[Reference] 'Popcorn'
 staxel.crafting.recipes.Popcorn.name=爆米花
 staxel.crafting.recipes.Porridge.description=
 //[Reference] 'Porridge'
 staxel.crafting.recipes.Porridge.name=粥
+staxel.crafting.recipes.PurpleBrick.description=
+//TODO Translate [Reference] 'Purple Brick'
+staxel.crafting.recipes.PurpleBrick.name=
+staxel.crafting.recipes.PurpleStone.description=
+//TODO Translate [Reference] 'Purple Stone'
+staxel.crafting.recipes.PurpleStone.name=
+staxel.crafting.recipes.PurpleWoodBlock.description=
+//TODO Translate [Reference] 'Purple Wood Block'
+staxel.crafting.recipes.PurpleWoodBlock.name=
 staxel.crafting.recipes.RanchDoorFrame.description=
 //[Reference] 'RanchDoorFrame'
 staxel.crafting.recipes.RanchDoorFrame.name=牧场门框
@@ -1231,16 +1354,31 @@ staxel.crafting.recipes.RanchWindowLarge.name=大型牧场窗户
 staxel.crafting.recipes.RaspberryBlackberrySmoothie.description=
 //[Reference] 'RaspberryBlackberrySmoothie'
 staxel.crafting.recipes.RaspberryBlackberrySmoothie.name=树莓黑莓冰沙
+staxel.crafting.recipes.RedBrick.description=
+//TODO Translate [Reference] 'Red Brick'
+staxel.crafting.recipes.RedBrick.name=
 staxel.crafting.recipes.RedRoof.description=
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Red Roof'
 staxel.crafting.recipes.RedRoof.name=红屋顶
+staxel.crafting.recipes.RedStone.description=
+//TODO Translate [Reference] 'Red Stone'
+staxel.crafting.recipes.RedStone.name=
+staxel.crafting.recipes.RedWoodBlock.description=
+//TODO Translate [Reference] 'Red Wood Block'
+staxel.crafting.recipes.RedWoodBlock.name=
 staxel.crafting.recipes.RopeFence.description=
 //[Reference] 'RopeFence'
 staxel.crafting.recipes.RopeFence.name=绳围栏
+staxel.crafting.recipes.ScrambledEgg.description=
+//TODO Translate [Reference] 'Scrambled Egg'
+staxel.crafting.recipes.ScrambledEgg.name=
 staxel.crafting.recipes.SeedSign.description=
 //[Reference] 'SeedSign'
 staxel.crafting.recipes.SeedSign.name=种子牌
+staxel.crafting.recipes.ShrimpFriedRice.description=
+//TODO Translate [Reference] 'Shrimp Fried Rice'
+staxel.crafting.recipes.ShrimpFriedRice.name=
 staxel.crafting.recipes.SimpleBookCase.description=
 //[Reference] 'SimpleBookCase'
 staxel.crafting.recipes.SimpleBookCase.name=简单书柜
@@ -1256,6 +1394,9 @@ staxel.crafting.recipes.SimpleWardrobeSingle.name=简单单衣柜
 staxel.crafting.recipes.SmallCrate.description=
 //[Reference] 'SmallCrate'
 staxel.crafting.recipes.SmallCrate.name=小木箱
+staxel.crafting.recipes.SoupCabbage.description=
+//TODO Translate [Reference] 'Soup Cabbage'
+staxel.crafting.recipes.SoupCabbage.name=
 staxel.crafting.recipes.StraightWoodenFence.description=
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Straight Wooden Fence'
@@ -1272,6 +1413,9 @@ staxel.crafting.recipes.ToffeeApple.name=太妃糖苹果
 staxel.crafting.recipes.Trough.description=
 //[Reference] 'Trough'
 staxel.crafting.recipes.Trough.name=水槽
+staxel.crafting.recipes.WhiteStone.description=
+//TODO Translate [Reference] 'White Stone'
+staxel.crafting.recipes.WhiteStone.name=
 staxel.crafting.recipes.WhiteStoneBlock.description=
 //[Reference] 'WhiteStoneBlock'
 staxel.crafting.recipes.WhiteStoneBlock.name=白色石头
@@ -1284,9 +1428,21 @@ staxel.crafting.recipes.WoodenShelf.name=木架子
 staxel.crafting.recipes.WoodShingles.description=
 //[Reference] 'WoodShingles'
 staxel.crafting.recipes.WoodShingles.name=木头屋瓦
+staxel.crafting.recipes.YellowBrick.description=
+//TODO Translate [Reference] 'Yellow Brick'
+staxel.crafting.recipes.YellowBrick.name=
 staxel.crafting.recipes.YellowDotCarpet.description=
 //[Reference] 'YellowDotCarpet'
 staxel.crafting.recipes.YellowDotCarpet.name=黄斑地毯
+staxel.crafting.recipes.YellowStone.description=
+//TODO Translate [Reference] 'Yellow Stone'
+staxel.crafting.recipes.YellowStone.name=
+staxel.crafting.recipes.YellowWoodBlock.description=
+//TODO Translate [Reference] 'Yellow Wood Block'
+staxel.crafting.recipes.YellowWoodBlock.name=
+staxel.crafting.recipes.Yoghurt.description=
+//TODO Translate [Reference] 'Yoghurt'
+staxel.crafting.recipes.Yoghurt.name=
 
 //[Reference] 'A brightly coloured beet.'
 staxel.crop.Beet.description=一棵色彩鲜艳的甜菜。
@@ -1737,6 +1893,9 @@ staxel.item.crafting.AssortedDrawers.name=组合五斗柜
 staxel.item.crafting.Bacon.description=猪是从哪儿来的仍然是这个村庄最大的谜团.
 //[Reference] 'Bacon'
 staxel.item.crafting.Bacon.name=猪肉
+staxel.item.crafting.BaconSandwich.description=
+//TODO Translate [Reference] 'Bacon Sandwich'
+staxel.item.crafting.BaconSandwich.name=
 staxel.item.crafting.BakedPotatoWithCheese.description=
 //[Reference] 'BakedPotatoWithCheese'
 staxel.item.crafting.BakedPotatoWithCheese.name=奶酪焗马铃薯
@@ -1749,6 +1908,12 @@ staxel.item.crafting.BasicSalad.name=普通沙拉
 staxel.item.crafting.Batter.description=
 //[Reference] 'Batter'
 staxel.item.crafting.Batter.name=面糊
+staxel.item.crafting.BlackPetal.description=
+//TODO Translate [Reference] 'Black Petal'
+staxel.item.crafting.BlackPetal.name=
+staxel.item.crafting.BluePetal.description=
+//TODO Translate [Reference] 'Blue Petal'
+staxel.item.crafting.BluePetal.name=
 staxel.item.crafting.BoiledRice.description=
 //[Reference] 'Boiled Rice'
 staxel.item.crafting.BoiledRice.name=煮好的米饭
@@ -1773,18 +1938,27 @@ staxel.item.crafting.ChickenCoopFrame.name=鸡舍框架
 staxel.item.crafting.Chips.description=
 //[Reference] 'Chips'
 staxel.item.crafting.Chips.name=芯片
+staxel.item.crafting.EggFriedRice.description=
+//TODO Translate [Reference] 'Egg Fried Rice'
+staxel.item.crafting.EggFriedRice.name=
 staxel.item.crafting.FineLumber.description=
 //[Reference] 'FineLumber'
 staxel.item.crafting.FineLumber.name=优质木材
 staxel.item.crafting.FriedMushrooms.description=
 //[Reference] 'Assorted Fried Mushrooms'
 staxel.item.crafting.FriedMushrooms.name=什锦炸蘑菇
+staxel.item.crafting.FruitSalad.description=
+//TODO Translate [Reference] 'Fruit Salad'
+staxel.item.crafting.FruitSalad.name=
 staxel.item.crafting.GlassPane.description=
 //[Reference] 'GlassPane'
 staxel.item.crafting.GlassPane.name=玻璃板
 staxel.item.crafting.Glue.description=
 //[Reference] 'Glue'
 staxel.item.crafting.Glue.name=胶水
+staxel.item.crafting.GreenLeaf.description=
+//TODO Translate [Reference] 'Green Leaf'
+staxel.item.crafting.GreenLeaf.name=
 staxel.item.crafting.HayBale.description=
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Hay Bale'
@@ -1843,15 +2017,27 @@ staxel.item.crafting.Popcorn.name=爆米花
 staxel.item.crafting.RaspberryBlackberrySmoothie.description=
 //[Reference] 'RaspberryBlackberrySmoothie'
 staxel.item.crafting.RaspberryBlackberrySmoothie.name=树莓蓝莓奶昔
+staxel.item.crafting.RedPetal.description=
+//TODO Translate [Reference] 'Red Petal'
+staxel.item.crafting.RedPetal.name=
 staxel.item.crafting.Rice.description=
 //[Reference] 'Rice'
 staxel.item.crafting.Rice.name=米
 staxel.item.crafting.Rope.description=
 //[Reference] 'Rope'
 staxel.item.crafting.Rope.name=绳子
+staxel.item.crafting.ScrambledEgg.description=
+//TODO Translate [Reference] 'Scrambled Egg'
+staxel.item.crafting.ScrambledEgg.name=
+staxel.item.crafting.ScrambledEggMix.description=
+//TODO Translate [Reference] 'Scrambled Egg Mix'
+staxel.item.crafting.ScrambledEggMix.name=
 staxel.item.crafting.SheetMetal.description=
 //[Reference] 'Sheet Metal'
 staxel.item.crafting.SheetMetal.name=金属片
+staxel.item.crafting.ShrimpFriedRice.description=
+//TODO Translate [Reference] 'Shrimp Fried Rice'
+staxel.item.crafting.ShrimpFriedRice.name=
 staxel.item.crafting.StrawberryBlueberrySmoothie.description=
 //[Reference] 'StrawberryBlueberrySmoothie'
 staxel.item.crafting.StrawberryBlueberrySmoothie.name=草莓蓝莓奶昔
@@ -1861,12 +2047,21 @@ staxel.item.crafting.UnbakedBakedPotatoWithColdUnbakedCheese.name=未烤的冷�
 staxel.item.crafting.UnbakedPotatoWithCheese.description=
 //[Reference] 'UnbakedPotatoWithCheese'
 staxel.item.crafting.UnbakedPotatoWithCheese.name=未烤的奶酪焗马铃薯
+staxel.item.crafting.UncookedBaconSandwich.description=
+//TODO Translate [Reference] 'Uncooked Bacon Sandwich'
+staxel.item.crafting.UncookedBaconSandwich.name=
 staxel.item.crafting.Varnish.description=
 //[Reference] 'Varnish'
 staxel.item.crafting.Varnish.name=装饰
+staxel.item.crafting.WhitePetal.description=
+//TODO Translate [Reference] 'White Petal'
+staxel.item.crafting.WhitePetal.name=
 staxel.item.crafting.WoodShingles.description=
 //[Reference] 'WoodShingles'
 staxel.item.crafting.WoodShingles.name=木瓦片
+staxel.item.crafting.YellowPetal.description=
+//TODO Translate [Reference] 'Yellow Petal'
+staxel.item.crafting.YellowPetal.name=
 staxel.item.crops.CatTurnip.description=
 //TODO Translate [Reference] 'Cat Turnip'
 staxel.item.crops.CatTurnip.name=
@@ -2127,6 +2322,9 @@ staxel.item.RowansParcel.name=罗恩的包裹
 staxel.item.tool.FlowerWatercan.description=
 //[Reference] 'Flower Watering Can'
 staxel.item.tool.FlowerWatercan.name=花朵洒水壶
+staxel.item.tool.Manure.description=
+//TODO Translate [Reference] 'Manure'
+staxel.item.tool.Manure.name=
 staxel.item.tool.PumpkingScythe.description=
 //[Reference] 'Pumpking Scythe'
 staxel.item.tool.PumpkingScythe.name=南瓜镰刀
@@ -2306,6 +2504,8 @@ staxel.notifications.tooEarlyForSleep=现在睡觉还太早！
 staxel.notifications.weatherAlreadyWatered=你不需要在雨天浇灌作物！
 //[Reference] 'You don't need to water crops on snowy days!'
 staxel.notifications.weatherSnowyAlreadyWatered=你不需要在雪天浇灌作物！
+//TODO Translate [Reference] 'You can only use manure on wilted plants'
+staxel.notifications.WrongManureUse=
 //[Reference] 'This isn't the right tool'
 staxel.notifications.WrongTool=这不是正确的工具
 //[Reference] 'break'
@@ -2721,6 +2921,9 @@ staxel.tileObject.crafting.TilingStation.name=铺砖台
 staxel.tileObject.creepyBiome.CampfireLarge.description=
 //TODO Translate [Reference] 'Campfire Large'
 staxel.tileObject.creepyBiome.CampfireLarge.name=
+staxel.tileObject.decorations.BottledFirefly.description=
+//TODO Translate [Reference] 'Bottled Firefly'
+staxel.tileObject.decorations.BottledFirefly.name=
 staxel.tileObject.decorations.Dryer.description=
 
 //[Reference] 'Dryer'
@@ -3082,6 +3285,9 @@ staxel.tileObject.misc.Scaffolding.name=
 staxel.tileObject.misc.SlugCatPlush.description=
 //TODO Translate [Reference] 'Slug Cat Plush'
 staxel.tileObject.misc.SlugCatPlush.name=
+staxel.tileObject.misc.UnicornPlush.description=
+//TODO Translate [Reference] 'Unicorn Plush'
+staxel.tileObject.misc.UnicornPlush.name=
 staxel.tileObject.office.OfficeCounter.NoDock.description=
 //TODO Translate [Reference] 'Office Counter (No Docks)'
 staxel.tileObject.office.OfficeCounter.NoDock.name=
@@ -3145,6 +3351,9 @@ staxel.tileObject.patisserie.StrawberryPieStand.name=
 staxel.tileObject.patisserie.VegetablePieStand.description=
 //TODO Translate [Reference] 'Vegetable Pie Stand'
 staxel.tileObject.patisserie.VegetablePieStand.name=
+staxel.tileObject.postbox.StandardPostbox.description=
+//TODO Translate [Reference] 'Standard Postbox'
+staxel.tileObject.postbox.StandardPostbox.name=
 staxel.tileObject.roofing.black.Black_Flat.description=
 //TODO Translate [Reference] 'Black_Flat'
 staxel.tileObject.roofing.black.Black_Flat.name=
@@ -3541,12 +3750,24 @@ staxel.tileObject.themedfurniture.rainbow.BlueRainbowBed.name=
 staxel.tileObject.themedfurniture.rainbow.BlueRainbowChair.description=
 //TODO Translate [Reference] 'Blue Rainbow Chair'
 staxel.tileObject.themedfurniture.rainbow.BlueRainbowChair.name=
+staxel.tileObject.themedfurniture.rainbow.BlueRainbowCoffeeTable.description=
+//TODO Translate [Reference] 'Blue Rainbow Coffee Table'
+staxel.tileObject.themedfurniture.rainbow.BlueRainbowCoffeeTable.name=
+staxel.tileObject.themedfurniture.rainbow.BlueRainbowDesk.description=
+//TODO Translate [Reference] 'Blue Rainbow Desk'
+staxel.tileObject.themedfurniture.rainbow.BlueRainbowDesk.name=
 staxel.tileObject.themedfurniture.rainbow.BlueRainbowLoveseat.description=
 //TODO Translate [Reference] 'Blue Rainbow Loveseat'
 staxel.tileObject.themedfurniture.rainbow.BlueRainbowLoveseat.name=
+staxel.tileObject.themedfurniture.rainbow.BlueRainbowSideTable.description=
+//TODO Translate [Reference] 'Blue Rainbow Side Table'
+staxel.tileObject.themedfurniture.rainbow.BlueRainbowSideTable.name=
 staxel.tileObject.themedfurniture.rainbow.BlueRainbowStool.description=
 //TODO Translate [Reference] 'Blue Rainbow Stool'
 staxel.tileObject.themedfurniture.rainbow.BlueRainbowStool.name=
+staxel.tileObject.themedfurniture.rainbow.BlueRainbowTable.description=
+//TODO Translate [Reference] 'Blue Rainbow Table'
+staxel.tileObject.themedfurniture.rainbow.BlueRainbowTable.name=
 staxel.tileObject.themedfurniture.rainbow.GreenRainbowArmChair.description=
 //TODO Translate [Reference] 'Green Rainbow Arm Chair'
 staxel.tileObject.themedfurniture.rainbow.GreenRainbowArmChair.name=
@@ -3556,12 +3777,24 @@ staxel.tileObject.themedfurniture.rainbow.GreenRainbowBed.name=
 staxel.tileObject.themedfurniture.rainbow.GreenRainbowChair.description=
 //TODO Translate [Reference] 'Green Rainbow Chair'
 staxel.tileObject.themedfurniture.rainbow.GreenRainbowChair.name=
+staxel.tileObject.themedfurniture.rainbow.GreenRainbowCoffeeTable.description=
+//TODO Translate [Reference] 'Green Rainbow Coffee Table'
+staxel.tileObject.themedfurniture.rainbow.GreenRainbowCoffeeTable.name=
+staxel.tileObject.themedfurniture.rainbow.GreenRainbowDesk.description=
+//TODO Translate [Reference] 'Green Rainbow Desk'
+staxel.tileObject.themedfurniture.rainbow.GreenRainbowDesk.name=
 staxel.tileObject.themedfurniture.rainbow.GreenRainbowLoveseat.description=
 //TODO Translate [Reference] 'Green Rainbow Loveseat'
 staxel.tileObject.themedfurniture.rainbow.GreenRainbowLoveseat.name=
+staxel.tileObject.themedfurniture.rainbow.GreenRainbowSideTable.description=
+//TODO Translate [Reference] 'Green Rainbow Side Table'
+staxel.tileObject.themedfurniture.rainbow.GreenRainbowSideTable.name=
 staxel.tileObject.themedfurniture.rainbow.GreenRainbowStool.description=
 //TODO Translate [Reference] 'Green Rainbow Stool'
 staxel.tileObject.themedfurniture.rainbow.GreenRainbowStool.name=
+staxel.tileObject.themedfurniture.rainbow.GreenRainbowTable.description=
+//TODO Translate [Reference] 'Green Rainbow Table'
+staxel.tileObject.themedfurniture.rainbow.GreenRainbowTable.name=
 staxel.tileObject.themedfurniture.rainbow.OrangeRainbowArmChair.description=
 //TODO Translate [Reference] 'Orange Rainbow Arm Chair'
 staxel.tileObject.themedfurniture.rainbow.OrangeRainbowArmChair.name=
@@ -3571,12 +3804,24 @@ staxel.tileObject.themedfurniture.rainbow.OrangeRainbowBed.name=
 staxel.tileObject.themedfurniture.rainbow.OrangeRainbowChair.description=
 //TODO Translate [Reference] 'Orange Rainbow Chair'
 staxel.tileObject.themedfurniture.rainbow.OrangeRainbowChair.name=
+staxel.tileObject.themedfurniture.rainbow.OrangeRainbowCoffeeTable.description=
+//TODO Translate [Reference] 'Orange Rainbow Coffee Table'
+staxel.tileObject.themedfurniture.rainbow.OrangeRainbowCoffeeTable.name=
+staxel.tileObject.themedfurniture.rainbow.OrangeRainbowDesk.description=
+//TODO Translate [Reference] 'Orange Rainbow Desk'
+staxel.tileObject.themedfurniture.rainbow.OrangeRainbowDesk.name=
 staxel.tileObject.themedfurniture.rainbow.OrangeRainbowLoveseat.description=
 //TODO Translate [Reference] 'Orange Rainbow Loveseat'
 staxel.tileObject.themedfurniture.rainbow.OrangeRainbowLoveseat.name=
+staxel.tileObject.themedfurniture.rainbow.OrangeRainbowSideTable.description=
+//TODO Translate [Reference] 'Orange Rainbow Side Table'
+staxel.tileObject.themedfurniture.rainbow.OrangeRainbowSideTable.name=
 staxel.tileObject.themedfurniture.rainbow.OrangeRainbowStool.description=
 //TODO Translate [Reference] 'Orange Rainbow Stool'
 staxel.tileObject.themedfurniture.rainbow.OrangeRainbowStool.name=
+staxel.tileObject.themedfurniture.rainbow.OrangeRainbowTable.description=
+//TODO Translate [Reference] 'Orange Rainbow Table'
+staxel.tileObject.themedfurniture.rainbow.OrangeRainbowTable.name=
 staxel.tileObject.themedfurniture.rainbow.PinkRainbowArmChair.description=
 //TODO Translate [Reference] 'Pink Rainbow Arm Chair'
 staxel.tileObject.themedfurniture.rainbow.PinkRainbowArmChair.name=
@@ -3586,12 +3831,24 @@ staxel.tileObject.themedfurniture.rainbow.PinkRainbowBed.name=
 staxel.tileObject.themedfurniture.rainbow.PinkRainbowChair.description=
 //TODO Translate [Reference] 'Pink Rainbow Chair'
 staxel.tileObject.themedfurniture.rainbow.PinkRainbowChair.name=
+staxel.tileObject.themedfurniture.rainbow.PinkRainbowCoffeeTable.description=
+//TODO Translate [Reference] 'Pink Rainbow Coffee Table'
+staxel.tileObject.themedfurniture.rainbow.PinkRainbowCoffeeTable.name=
+staxel.tileObject.themedfurniture.rainbow.PinkRainbowDesk.description=
+//TODO Translate [Reference] 'Pink Rainbow Desk'
+staxel.tileObject.themedfurniture.rainbow.PinkRainbowDesk.name=
 staxel.tileObject.themedfurniture.rainbow.PinkRainbowLoveseat.description=
 //TODO Translate [Reference] 'Pink Rainbow Loveseat'
 staxel.tileObject.themedfurniture.rainbow.PinkRainbowLoveseat.name=
+staxel.tileObject.themedfurniture.rainbow.PinkRainbowSideTable.description=
+//TODO Translate [Reference] 'Pink Rainbow Side Table'
+staxel.tileObject.themedfurniture.rainbow.PinkRainbowSideTable.name=
 staxel.tileObject.themedfurniture.rainbow.PinkRainbowStool.description=
 //TODO Translate [Reference] 'Pink Rainbow Stool'
 staxel.tileObject.themedfurniture.rainbow.PinkRainbowStool.name=
+staxel.tileObject.themedfurniture.rainbow.PinkRainbowTable.description=
+//TODO Translate [Reference] 'Pink Rainbow Table'
+staxel.tileObject.themedfurniture.rainbow.PinkRainbowTable.name=
 staxel.tileObject.themedfurniture.rainbow.PurpleRainbowArmChair.description=
 //TODO Translate [Reference] 'Purple Rainbow Arm Chair'
 staxel.tileObject.themedfurniture.rainbow.PurpleRainbowArmChair.name=
@@ -3601,12 +3858,27 @@ staxel.tileObject.themedfurniture.rainbow.PurpleRainbowBed.name=
 staxel.tileObject.themedfurniture.rainbow.PurpleRainbowChair.description=
 //TODO Translate [Reference] 'Purple Rainbow Chair'
 staxel.tileObject.themedfurniture.rainbow.PurpleRainbowChair.name=
+staxel.tileObject.themedfurniture.rainbow.PurpleRainbowCoffeeTable.description=
+//TODO Translate [Reference] 'Purple Rainbow Coffee Table'
+staxel.tileObject.themedfurniture.rainbow.PurpleRainbowCoffeeTable.name=
+staxel.tileObject.themedfurniture.rainbow.PurpleRainbowDesk.description=
+//TODO Translate [Reference] 'Purple Rainbow Desk'
+staxel.tileObject.themedfurniture.rainbow.PurpleRainbowDesk.name=
 staxel.tileObject.themedfurniture.rainbow.PurpleRainbowLoveseat.description=
 //TODO Translate [Reference] 'Purple Rainbow Loveseat'
 staxel.tileObject.themedfurniture.rainbow.PurpleRainbowLoveseat.name=
+staxel.tileObject.themedfurniture.rainbow.PurpleRainbowSideTable.description=
+//TODO Translate [Reference] 'Purple Rainbow Side Table'
+staxel.tileObject.themedfurniture.rainbow.PurpleRainbowSideTable.name=
 staxel.tileObject.themedfurniture.rainbow.PurpleRainbowStool.description=
 //TODO Translate [Reference] 'Purple Rainbow Stool'
 staxel.tileObject.themedfurniture.rainbow.PurpleRainbowStool.name=
+staxel.tileObject.themedfurniture.rainbow.PurpleRainbowTable.description=
+//TODO Translate [Reference] 'Purple Rainbow Table'
+staxel.tileObject.themedfurniture.rainbow.PurpleRainbowTable.name=
+staxel.tileObject.themedfurniture.rainbow.RainbowLamp.description=
+//TODO Translate [Reference] 'Rainbow Lamp'
+staxel.tileObject.themedfurniture.rainbow.RainbowLamp.name=
 staxel.tileObject.themedfurniture.rainbow.RedRainbowArmChair.description=
 //TODO Translate [Reference] 'Red Rainbow Arm Chair'
 staxel.tileObject.themedfurniture.rainbow.RedRainbowArmChair.name=
@@ -3616,12 +3888,24 @@ staxel.tileObject.themedfurniture.rainbow.RedRainbowBed.name=
 staxel.tileObject.themedfurniture.rainbow.RedRainbowChair.description=
 //TODO Translate [Reference] 'Red Rainbow Chair'
 staxel.tileObject.themedfurniture.rainbow.RedRainbowChair.name=
+staxel.tileObject.themedfurniture.rainbow.RedRainbowCoffeeTable.description=
+//TODO Translate [Reference] 'Red Rainbow Coffee Table'
+staxel.tileObject.themedfurniture.rainbow.RedRainbowCoffeeTable.name=
+staxel.tileObject.themedfurniture.rainbow.RedRainbowDesk.description=
+//TODO Translate [Reference] 'Red Rainbow Desk'
+staxel.tileObject.themedfurniture.rainbow.RedRainbowDesk.name=
 staxel.tileObject.themedfurniture.rainbow.RedRainbowLoveseat.description=
 //TODO Translate [Reference] 'Red Rainbow Loveseat'
 staxel.tileObject.themedfurniture.rainbow.RedRainbowLoveseat.name=
+staxel.tileObject.themedfurniture.rainbow.RedRainbowSideTable.description=
+//TODO Translate [Reference] 'Red Rainbow Side Table'
+staxel.tileObject.themedfurniture.rainbow.RedRainbowSideTable.name=
 staxel.tileObject.themedfurniture.rainbow.RedRainbowStool.description=
 //TODO Translate [Reference] 'Red Rainbow Stool'
 staxel.tileObject.themedfurniture.rainbow.RedRainbowStool.name=
+staxel.tileObject.themedfurniture.rainbow.RedRainbowTable.description=
+//TODO Translate [Reference] 'Red Rainbow Table'
+staxel.tileObject.themedfurniture.rainbow.RedRainbowTable.name=
 staxel.tileObject.themedfurniture.rainbow.YellowRainbowArmChair.description=
 //TODO Translate [Reference] 'Yellow Rainbow Arm Chair'
 staxel.tileObject.themedfurniture.rainbow.YellowRainbowArmChair.name=
@@ -3631,12 +3915,24 @@ staxel.tileObject.themedfurniture.rainbow.YellowRainbowBed.name=
 staxel.tileObject.themedfurniture.rainbow.YellowRainbowChair.description=
 //TODO Translate [Reference] 'Yellow Rainbow Chair'
 staxel.tileObject.themedfurniture.rainbow.YellowRainbowChair.name=
+staxel.tileObject.themedfurniture.rainbow.YellowRainbowCoffeeTable.description=
+//TODO Translate [Reference] 'Yellow Rainbow Coffee Table'
+staxel.tileObject.themedfurniture.rainbow.YellowRainbowCoffeeTable.name=
+staxel.tileObject.themedfurniture.rainbow.YellowRainbowDesk.description=
+//TODO Translate [Reference] 'Yellow Rainbow Desk'
+staxel.tileObject.themedfurniture.rainbow.YellowRainbowDesk.name=
 staxel.tileObject.themedfurniture.rainbow.YellowRainbowLoveseat.description=
 //TODO Translate [Reference] 'Yellow Rainbow Loveseat'
 staxel.tileObject.themedfurniture.rainbow.YellowRainbowLoveseat.name=
+staxel.tileObject.themedfurniture.rainbow.YellowRainbowSideTable.description=
+//TODO Translate [Reference] 'Yellow Rainbow Side Table'
+staxel.tileObject.themedfurniture.rainbow.YellowRainbowSideTable.name=
 staxel.tileObject.themedfurniture.rainbow.YellowRainbowStool.description=
 //TODO Translate [Reference] 'Yellow Rainbow Stool'
 staxel.tileObject.themedfurniture.rainbow.YellowRainbowStool.name=
+staxel.tileObject.themedfurniture.rainbow.YellowRainbowTable.description=
+//TODO Translate [Reference] 'Yellow Rainbow Table'
+staxel.tileObject.themedfurniture.rainbow.YellowRainbowTable.name=
 staxel.tileObject.themedfurniture.ranch.RanchCoffeeTable.NoDock.description=
 //TODO Translate [Reference] 'Ranch Coffee Table (No Docks)'
 staxel.tileObject.themedfurniture.ranch.RanchCoffeeTable.NoDock.name=
@@ -3699,7 +3995,7 @@ staxel.tileObject.totems.workplace.FestivalSquare.name=节日广场
 staxel.tileObject.totems.workplace.FishingSpotSign.description=
 //[Reference] 'Fishing Spot Sign'
 staxel.tileObject.totems.workplace.FishingSpotSign.name=钓点指示牌
-//TODO Translate [Reference] 'Grocery Store Sign'
+//TODO Translate [Reference] 'General Store Sign'
 staxel.tileObject.totems.workplace.GroceryStoreSign=
 //TODO Translate [Reference] 'Town Hall Sign'
 staxel.tileObject.totems.workplace.TownHall=
@@ -3729,6 +4025,8 @@ staxel.tileObject.villagers.RiahSpawner.name=瑞安生成器
 staxel.totem.AirshipLanding=飞船着陆台
 //[Reference] 'Aliza's Home'
 staxel.totem.AlizaHome=爱丽哲的家
+//TODO Translate [Reference] '{0-roof} (Any blocks)'
+staxel.totem.anyBlock=
 //[Reference] 'Simple Barn'
 staxel.totem.Barn=简易畜棚
 //[Reference] 'Barn'
@@ -3763,6 +4061,8 @@ staxel.totem.festival.feymasquerade.FeyRoom208=精灵房间208
 staxel.totem.festival.feymasquerade.FeyThroneRoom=精灵正殿
 //[Reference] 'Snowdust Shrine'
 staxel.totem.festival.SnowdustShrine=雪尘神殿
+//TODO Translate [Reference] 'Warning: Festival gate regions are periodically overwritten!'
+staxel.totem.FestivalTotem=
 //[Reference] 'Furnishing requirements complete!'
 staxel.totem.FurnitureComplete=所需家具齐全!
 //[Reference] 'Jamie's Home'
@@ -3797,7 +4097,8 @@ staxel.totem.workplace.BuildingStore=建筑商店
 staxel.totem.workplace.FestivalSquare=节日广场
 //[Reference] 'Fishing Spot'
 staxel.totem.workplace.FishingSpot=钓点
-//[Reference] 'Grocery Store'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'General Store'
 staxel.totem.workplace.GroceryStore=杂货店
 //[Reference] 'Patisserie'
 staxel.totem.workplace.Patisserie=法式糕点店
