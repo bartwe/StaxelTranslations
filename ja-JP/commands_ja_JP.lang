@@ -45,6 +45,16 @@ commands.cameraSave.success=プレイヤーカメラをファイルに保存し�
 commands.cameraStop.description=^c:F2E200;cameraStop
 //[Reference] 'Stopped camera mode'
 commands.cameraStop.success=カメラモードを停止しました
+//TODO Translate [Reference] '^c:F2E200;catchableDetails ^c:FFFFFF;(optional)location({0,0,0})'
+commands.catchableDetails.description=
+//TODO Translate [Reference] 'Failed to parse location {0-location}'
+commands.catchableDetails.failParse=
+//TODO Translate [Reference] 'Tile not found'
+commands.catchableDetails.notFound=
+//TODO Translate [Reference] 'Catchable entity does not exist: {0-details}'
+commands.catchableDetails.success.false=
+//TODO Translate [Reference] 'Catchable entity exists: {0-details}'
+commands.catchableDetails.success.true=
 //[Reference] 'Not looking at an animal'
 commands.changeMood.animalNotFound=動物を見ていません
 //[Reference] '^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)'
