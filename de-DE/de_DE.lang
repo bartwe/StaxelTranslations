@@ -1583,32 +1583,32 @@ staxel.crop.WhiteRose.description=Eine Rose mit wunderschönen weißen Blütenbl
 //[Reference] 'White rose Seed'
 staxel.crop.WhiteRose.name=Weißer Rosensamen
 //[Reference] 'in {0-growTime} days'
-staxel.description.GrowTimeDays=in {0-growTime} Tagen
+staxel.description.GrowTimeDays={0-growTime}
 //[Reference] 'immediately'
 staxel.description.GrowTimeImmediate=sofort
 
 //[Reference] 'Doesn't grow in any seasons. Please report this as a bug.'
 staxel.description.GrowTimeRegrowValidSeasons.0=Wächst zu keiner Jahreszeit. Bitte als Fehler melden.
 //[Reference] 'Grows {0-growTime} then regrows {1-reGrowTime} in {2-season}.'
-staxel.description.GrowTimeRegrowValidSeasons.1=Wächst innerhalb von {0-growTime} Tagen und wächst in {1-reGrowTime} Tagen nach im {2-season}.
+staxel.description.GrowTimeRegrowValidSeasons.1=Wächst innerhalb von {0-growTime} Tagen im {2-season}. Wächst alle {1-reGrowTime} Tage nach.
 //[Reference] 'Grows {0-growTime} then regrows {1-reGrowTime} in {2-season} and {3-season}.'
-staxel.description.GrowTimeRegrowValidSeasons.2=Wächst innerhalb von {0-growTime} Tagen und wächst in {1-reGrowTime} Tagen nach im {2-season} und {3-season}.
+staxel.description.GrowTimeRegrowValidSeasons.2=Wächst innerhalb von {0-growTime} Tagen im {2-season} und {3-season}. Wächst alle {1-reGrowTime} Tage nach.
 //[Reference] 'Grows {0-growTime} then regrows {1-reGrowTime} in {2-season}, {3-season}, and {4-season}.'
-staxel.description.GrowTimeRegrowValidSeasons.3=Wächst innerhalb von {0-growTime} Tagen und wächst in {1-reGrowTime} Tagen nach im {2-season}, {3-season} und {4-season}.
+staxel.description.GrowTimeRegrowValidSeasons.3=Wächst innerhalb von {0-growTime} Tagen im {2-season}, {3-season} und {4-season}. Wächst alle {1-reGrowTime} Tage nach.
 //[Reference] 'Grows {0-growTime} then regrows {1-reGrowTime} in all seasons.'
-staxel.description.GrowTimeRegrowValidSeasons.4=Wächst innerhalb von {0-growTime} Tagen und wächst in allen Jahreszeiten in {1-reGrowTime} Tagen nach.
+staxel.description.GrowTimeRegrowValidSeasons.4=Wächst innerhalb von {0-growTime} Tagen zu allen Jahreszeiten. Wächst alle {1-reGrowTime} Tage nach.
 
 
 //[Reference] 'Doesn't grow in any seasons. Please report this as a bug.'
 staxel.description.GrowTimeTree.0=Wächst zu keiner Jahreszeit. Bitte als Fehler melden.
 //[Reference] 'Grows in {0-growTime} days in {3-season}. Regrows in {1-reGrowTime} in {2-season}'
-staxel.description.GrowTimeTree.1=Wächst innerhalb von {0-growTime} Tagen im {3-season}. Wächst innerhalb von {1-reGrowTime} Tagen im {2-season} nach.
+staxel.description.GrowTimeTree.1=Wächst innerhalb von {0-growTime} Tagen im {3-season}. Wächst im {2-season} alle {1-reGrowTime} Tage nach.
 //[Reference] 'Grows in {0-growTime} days in {3-season} and {4-season}. Regrows in {1-reGrowTime} in {2-season}'
-staxel.description.GrowTimeTree.2=Wächst innerhalb von {0-growTime} Tagen im {3-season} und {4-season}. Wächst innerhalb von {1-reGrowTime} Tagen im {2-season} nach.
+staxel.description.GrowTimeTree.2=Wächst innerhalb von {0-growTime} Tagen im {3-season} und {4-season}. Wächst  im {2-season} alle {1-reGrowTime} Tage nach.
 //[Reference] 'Grows in {0-growTime} days in {3-season}, {4-season}, and {5-season}. Regrows in {1-reGrowTime} in {2-season}'
-staxel.description.GrowTimeTree.3=Wächst innerhalb von {0-growTime} Tagen im {3-season}, {4-season} und {5-season}. Wächst innerhalb von {1-reGrowTime} Tagen im {2-season} nach.
+staxel.description.GrowTimeTree.3=Wächst innerhalb von {0-growTime} Tagen im {3-season}, {4-season} und {5-season}. Wächst im {2-season} alle {1-reGrowTime} Tage nach.
 //[Reference] 'Grows in {0-growTime} days in all seasons. Regrows in {1-reGrowTime} in {2-season}'
-staxel.description.GrowTimeTree.4=Wächst innerhalb von {0-growTime} Tagen in allen Jahreszeiten. Wächst innerhalb von {1-reGrowTime} Tagen im {2-season} nach.
+staxel.description.GrowTimeTree.4=Wächst innerhalb von {0-growTime} Tagen zu allen Jahreszeiten. Wächst im {2-season} alle {1-reGrowTime} Tage nach.
 
 //[Reference] 'Doesn't grow in any seasons. Please report this as a bug.'
 staxel.description.GrowTimeValidSeasons.0=Wächst zu keiner Jahreszeit. Bitte als Fehler melden.
@@ -1619,7 +1619,7 @@ staxel.description.GrowTimeValidSeasons.2=Wächst innerhalb von {0-growTime} Tag
 //[Reference] 'Grows {0-growTime} in {1-season}, {2-season}, and {3-season}.'
 staxel.description.GrowTimeValidSeasons.3=Wächst innerhalb von {0-growTime} Tagen im {1-season}, {2-season} und {3-season}.
 //[Reference] 'Grows {0-growTime} in all seasons.'
-staxel.description.GrowTimeValidSeasons.4=Wächst innerhalb von {0-growTime} Tagen in allen Jahreszeiten.
+staxel.description.GrowTimeValidSeasons.4=Wächst innerhalb von {0-growTime} Tagen zu allen Jahreszeiten.
 
 staxel.docks.merchantStalls.FestivalMerchant.description=
 //[Reference] 'Festival Merchant Stall'
