@@ -42,6 +42,16 @@ commands.cameraSave.success=
 commands.cameraStop.description=
 //TODO Translate [Reference] 'Stopped camera mode'
 commands.cameraStop.success=
+//TODO Translate [Reference] '^c:F2E200;catchableDetails ^c:FFFFFF;(optional)location({0,0,0})'
+commands.catchableDetails.description=
+//TODO Translate [Reference] 'Failed to parse location {0-location}'
+commands.catchableDetails.failParse=
+//TODO Translate [Reference] 'Tile not found'
+commands.catchableDetails.notFound=
+//TODO Translate [Reference] 'Catchable entity does not exist: {0-details}'
+commands.catchableDetails.success.false=
+//TODO Translate [Reference] 'Catchable entity exists: {0-details}'
+commands.catchableDetails.success.true=
 //TODO Translate [Reference] 'Not looking at an animal'
 commands.changeMood.animalNotFound=
 //TODO Translate [Reference] '^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)'
@@ -98,7 +108,7 @@ commands.entityNotFound=
 commands.flyMode.description=
 //TODO Translate [Reference] 'Switched flying mode to: {0-flymode}'
 commands.flyMode.success=
-//TODO Translate [Reference] '^c:F2E200;Give all recipes ^c:FFFFFF;(optional)playerName'
+//TODO Translate [Reference] '^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)playerName'
 commands.giveallrecipes.description=
 //TODO Translate [Reference] 'Done!'
 commands.giveallrecipes.success=

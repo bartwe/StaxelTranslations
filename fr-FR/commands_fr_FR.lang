@@ -43,12 +43,22 @@ commands.cameraSave.success=Caméra du joueur enregistrée sous le fichier « {0
 commands.cameraStop.description=
 //[Reference] 'Stopped camera mode'
 commands.cameraStop.success=Mode caméra désactivé
-//TODO Translate [Reference] 'Not looking at an animal'
-commands.changeMood.animalNotFound=
+//TODO Translate [Reference] '^c:F2E200;catchableDetails ^c:FFFFFF;(optional)location({0,0,0})'
+commands.catchableDetails.description=
+//TODO Translate [Reference] 'Failed to parse location {0-location}'
+commands.catchableDetails.failParse=
+//TODO Translate [Reference] 'Tile not found'
+commands.catchableDetails.notFound=
+//TODO Translate [Reference] 'Catchable entity does not exist: {0-details}'
+commands.catchableDetails.success.false=
+//TODO Translate [Reference] 'Catchable entity exists: {0-details}'
+commands.catchableDetails.success.true=
+//[Reference] 'Not looking at an animal'
+commands.changeMood.animalNotFound=N'est pas en train de regarder un animal
 //TODO Translate [Reference] '^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)'
 commands.changeMood.description=
-//TODO Translate [Reference] 'Mood altered successfully'
-commands.changeMood.success=
+//[Reference] 'Mood altered successfully'
+commands.changeMood.success=Humeur changée avec succès
 //[Reference] '^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)'
 commands.creative.description=creative (facultatif)nomDuJoueur (facultatif)startCreativeMode(true/false)
 //[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
@@ -67,10 +77,10 @@ commands.describeItem.description=describeitem (facultatif)nomDuJoueur
 commands.describeItem.success=Description de l'objet : {0-itemDesc}
 //TODO Translate [Reference] '^c:F2E200;ditto ^c:FFFFFF;(optional)playerName villagernpcCode'
 commands.ditto.description=
-//TODO Translate [Reference] 'Player {0-playerName} does not have enough inventory space for all npc clothing items'
-commands.ditto.notEnoughSpace=
-//TODO Translate [Reference] 'Player {0-playerName} disguised successfully'
-commands.ditto.success=
+//[Reference] 'Player {0-playerName} does not have enough inventory space for all npc clothing items'
+commands.ditto.notEnoughSpace=Le joueur {0-playerName} n'a pas assez de place dans son inventaire pour tous les habits du PNJ
+//[Reference] 'Player {0-playerName} disguised successfully'
+commands.ditto.success=Le joueur {0-playerName} a été déguisé avec succès
 //TODO Translate [Reference] '^c:F2E200;doemote ^c:FFFFFF;emoteName (optional)useLookatEntity(true/false)'
 commands.doemote.description=
 //TODO Translate [Reference] '^c:F2E200;emote ^c:FFFFFF;emoteName'
@@ -79,10 +89,10 @@ commands.emote.description=
 commands.emote.noSuchEmote=
 //TODO Translate [Reference] '^c:F2E200;enablecheats^c:FFFFFF;'
 commands.enablecheats.description=
-//TODO Translate [Reference] 'Failed to enable cheats.'
-commands.enablecheats.failure=
-//TODO Translate [Reference] 'Cheats have been enabled.'
-commands.enablecheats.success=
+//[Reference] 'Failed to enable cheats.'
+commands.enablecheats.failure=Echec de l'activation des codes de triche
+//[Reference] 'Cheats have been enabled.'
+commands.enablecheats.success=Les codes de triche ont été activé
 //[Reference] '^c:F2E200;entityInfo ^c:FFFFFF;entityID'
 commands.entityInfo.description=entityInfo IdEntite
 //[Reference] 'You need to include an EntityID!'
@@ -93,13 +103,14 @@ commands.entityInfo.mustBeNumber=L'id de l'entité est invalide !
 commands.entityInfo.noSuchEntity=Cette entité n'existe pas sur le serveur
 //[Reference] 'Entity data: {0-data}'
 commands.entityInfo.success=Données de l'entité : {0-data}
-//TODO Translate [Reference] 'Entity not found'
-commands.entityNotFound=
+//[Reference] 'Entity not found'
+commands.entityNotFound=Entité non trouvée
 //[Reference] '^c:F2E200;fly ^c:FFFFFF;(optional)playerName (optional)startFlying(true/false)'
 commands.flyMode.description=fly (facultatif)playerName (facultatif)startFlying(true/false)
 //[Reference] 'Switched flying mode to: {0-flymode}'
 commands.flyMode.success=La valeur du mode vol a été modifiée en : {0-flymode}
-//[Reference] '^c:F2E200;Give all recipes ^c:FFFFFF;(optional)playerName'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)playerName'
 commands.giveallrecipes.description=giveallrecipes (facultatif)nomDuJoueur
 //[Reference] 'Done!'
 commands.giveallrecipes.success=Recettes données !
@@ -119,8 +130,8 @@ commands.help.description=help (facultatif)commandName
 commands.help.success=Liste des commandes (()les parenthèses indiquent les valeurs possibles) :
 commands.inspect.description=
 //TODO No reference?
-//TODO Translate [Reference] 'Inspection success.'
-commands.inspect.success=
+//[Reference] 'Inspection success.'
+commands.inspect.success=Inspection réussie
 //[Reference] 'invalid args'
 commands.invalidArgs=Arguments invalides
 //[Reference] '^c:F2E200;kick ^c:FFFFFF;playerName'
@@ -130,14 +141,14 @@ commands.kick.failure=Impossible d'éjecter le joueur {0-player} : Il n'est pas 
 //[Reference] '{0-player} has been ejected from the server.'
 commands.kick.success=Le joueur {0-player} a été ejecté du serveur.
 commands.loadDesign.description=
-//TODO Translate [Reference] 'loadDesign requires a filename/design code'
-commands.loadDesign.needFileName=
-//TODO Translate [Reference] 'No such design {0-design}'
-commands.loadDesign.noSuchDesign=
-//TODO Translate [Reference] 'No such file {0-file}'
-commands.loadDesign.noSuchFile=
-//TODO Translate [Reference] 'Design loaded successfully'
-commands.loadDesign.success=
+//[Reference] 'loadDesign requires a filename/design code'
+commands.loadDesign.needFileName=Charger un design requiers un nom de code design
+//[Reference] 'No such design {0-design}'
+commands.loadDesign.noSuchDesign=Il n'y a pas de design {0-design}
+//[Reference] 'No such file {0-file}'
+commands.loadDesign.noSuchFile=Il n'y a pas de fichier {0-file}
+//[Reference] 'Design loaded successfully'
+commands.loadDesign.success=Design chargé avec succès
 //[Reference] '^c:F2E200;model ^c:FFFFFF;(optional)playerName (optional)modelFileName'
 commands.model.description=model (facultatif)nomDuJoueur (facultatif)nomFichierModèle
 //[Reference] 'Could not switch to character model '{0-model}' not found in assets.'
@@ -164,12 +175,12 @@ commands.noSuchPlayer=Joueur « {0-player} » introuvable
 commands.notAPlayer=Ce n'est pas une entité de joueur.
 //TODO Translate [Reference] '^c:F2E200;op ^c:FFFFFF;playerName'
 commands.op.description=
-//TODO Translate [Reference] 'Unable to promote {0-player}.'
-commands.op.failure=
-//TODO Translate [Reference] '{0-player} has been promoted.'
-commands.op.success=
-//TODO Translate [Reference] 'Player {0-player} not found.'
-commands.op.userNotFound=
+//[Reference] 'Unable to promote {0-player}.'
+commands.op.failure=Incapable de promouvoir {0-player}
+//[Reference] '{0-player} has been promoted.'
+commands.op.success=le joueur {0-player} a été promu
+//[Reference] 'Player {0-player} not found.'
+commands.op.userNotFound=Le joueur {0-player} n'est pas là
 //TODO Translate [Reference] '^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime'
 commands.pe.description=
 //TODO Translate [Reference] '^c:F2E200;plantgrowth'
@@ -202,12 +213,11 @@ commands.position.success=Position : {0-position} - Titre : {1-heading}
 commands.quickStart.altDescription=
 //TODO Translate [Reference] '^c:F2E200;quickStart ^c:FFFFFF;(optional)startFlying(true/false)'
 commands.quickStart.description=
-//TODO Translate [Reference] 'Quick start success. Switched flying mode to: {0-flymode}'
-commands.quickStart.success=
-commands.rain.description=
-//TODO No reference?
-//TODO Translate [Reference] 'Made it a rainy day.'
-commands.rain.success=
+//[Reference] 'Quick start success. Switched flying mode to: {0-flymode}'
+commands.quickStart.success=Démarrage rapide réussis. Transféré en mode volant : {0-flymode}
+commands.rain.description=Changer le temps
+//[Reference] 'Made it a rainy day.'
+commands.rain.success=Faire tomber la pluie aujourd'hui
 //TODO Translate [Reference] '^c:F2E200;reload'
 commands.reload.description=
 //[Reference] 'Reload requested.'
@@ -216,7 +226,7 @@ commands.reload.success=Rafraîchissement demandé.
 commands.resetPlayer.description=
 //[Reference] 'Reset successful.'
 commands.resetPlayer.success=Réinitialisation réussie.
-commands.returnhome.description=
+commands.returnhome.description=Retour à la maison réussis
 //[Reference] '^c:F2E200;saveDesign ^c:FFFFFF;fileName'
 commands.saveDesign.description=saveDesign nomFichier
 //[Reference] 'A filename is required to save a design'
@@ -236,8 +246,8 @@ commands.serverCreative.description=creativeMode (optionel)on(true/false)
 //[Reference] 'Switched server creative mode to {0-creative} (persistent)'
 commands.serverCreative.success=Le mode créatif du serveur est désormais {0-creative}
 commands.snow.description=
-//TODO Translate [Reference] 'Made it a snowy day.'
-commands.snow.success=
+//[Reference] 'Made it a snowy day.'
+commands.snow.success=Faire tomber la neige aujourd'hui
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;spawncoins ^c:FFFFFF;(optional)playerName petalAmount'
 commands.spawnCoins.description=spawncoins nomDuJoueur montantEnPétales
@@ -266,18 +276,18 @@ commands.spawnTile.notFound=Tile introuvable.
 commands.spawnTile.success=La tile est bien apparue.
 //TODO Translate [Reference] '^c:F2E200;stealpetals ^c:FFFFFF;amount (optional)remove(true/false)'
 commands.stealPetals.description=
-//TODO Translate [Reference] 'Reset must be true or false.'
-commands.stealPetals.invalidReset=
-//TODO Translate [Reference] '{0-player} stole {1-amount} petals'
-commands.stealPetals.success=
-//TODO Translate [Reference] '{0-player} is no longer a thief.'
-commands.stealPetals.success.reset=
-//TODO Translate [Reference] '{0-player} stole {1-amount} petals. Thief!'
-commands.stealPetals.success.thief=
+//[Reference] 'Reset must be true or false.'
+commands.stealPetals.invalidReset=la réinitialisation doit être "vrai" ou "fausse"
+//[Reference] '{0-player} stole {1-amount} petals'
+commands.stealPetals.success={0-player} à volé {1-amount} pétals
+//[Reference] '{0-player} is no longer a thief.'
+commands.stealPetals.success.reset={0-player} n'est plus un voleur désormais.
+//[Reference] '{0-player} stole {1-amount} petals. Thief!'
+commands.stealPetals.success.thief={0-player} a volé {1-amount} pétals. Voleur !
 commands.sun.description=
 //TODO No reference?
-//TODO Translate [Reference] 'Made it a sunny day.'
-commands.sun.success=
+//[Reference] 'Made it a sunny day.'
+commands.sun.success=Faire que le soleil brille aujourd'hui.
 //[Reference] '^c:F2E200;teleport ^c:FFFFFF;(optional)playerName location({0,0,0})'
 commands.teleport.description=teleport (facultatif)nomDuJoueur location({0,0,0})
 //[Reference] '{0-position} is too far to teleport'
@@ -290,11 +300,11 @@ commands.teleport.success=Téléportation réussie.
 commands.teleportPlayer.description=tp nomDuJoueurADeplacer nomDuJoueurDestination
 commands.textToSpeech.description=
 //TODO No reference?
-//TODO Translate [Reference] 'Saying text.'
-commands.textToSpeech.success=
+//[Reference] 'Saying text.'
+commands.textToSpeech.success=Text à dire
 commands.thunder.description=
-//TODO Translate [Reference] 'success'
-commands.thunder.success=
+//[Reference] 'success'
+commands.thunder.success=Succès
 //[Reference] '^c:F2E200;tileAt ^c:FFFFFF;(optional)location({0,0,0})'
 commands.tileAt.description=tileAt (facultatif)location({0,0,0})
 //[Reference] 'Failed to parse position {0-position}'
@@ -307,11 +317,11 @@ commands.tileAt.success.false=
 commands.tileAt.success.true=
 //TODO Quite a few with no references.
 commands.traceStart.description=
-//TODO Translate [Reference] 'Started tracing.'
-commands.traceStart.success=
+//[Reference] 'Started tracing.'
+commands.traceStart.success=démarage du tracé
 commands.traceStop.description=
-//TODO Translate [Reference] 'Stopped tracing.'
-commands.traceStop.success=
+//[Reference] 'Stopped tracing.'
+commands.traceStop.success=Arrêt du tracé
 commands.tripod.description=
 //[Reference] '^c:F2E200;unban ^c:FFFFFF;playerName'
 commands.unban.description=unban nomDuJoueur
@@ -333,7 +343,7 @@ commands.unmute.success=Le joueur {0-player} peut à nouveau parler.
 commands.unrecognised=Commande non reconnue : «{0-command} »
 //TODO Translate [Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
 commands.weather.description=
-//TODO Translate [Reference] 'Unable to set weather: {0-weather}. Does not exist.'
-commands.weather.noweather=
-//TODO Translate [Reference] 'Set weather to: {0-weather}.'
-commands.weather.success=
+//[Reference] 'Unable to set weather: {0-weather}. Does not exist.'
+commands.weather.noweather=Impossible de mettre le temps en : {0-weather}. Celà n'éxiste pas.
+//[Reference] 'Set weather to: {0-weather}.'
+commands.weather.success=Mettre le temps en : {0-weather}

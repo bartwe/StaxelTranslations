@@ -45,6 +45,16 @@ commands.cameraSave.success=プレイヤーカメラをファイルに保存し�
 commands.cameraStop.description=^c:F2E200;cameraStop
 //[Reference] 'Stopped camera mode'
 commands.cameraStop.success=カメラモードを停止しました
+//TODO Translate [Reference] '^c:F2E200;catchableDetails ^c:FFFFFF;(optional)location({0,0,0})'
+commands.catchableDetails.description=
+//TODO Translate [Reference] 'Failed to parse location {0-location}'
+commands.catchableDetails.failParse=
+//TODO Translate [Reference] 'Tile not found'
+commands.catchableDetails.notFound=
+//TODO Translate [Reference] 'Catchable entity does not exist: {0-details}'
+commands.catchableDetails.success.false=
+//TODO Translate [Reference] 'Catchable entity exists: {0-details}'
+commands.catchableDetails.success.true=
 //[Reference] 'Not looking at an animal'
 commands.changeMood.animalNotFound=動物を見ていません
 //[Reference] '^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)'
@@ -67,24 +77,24 @@ commands.demoMode.success=サーバーデモモードを{0-demoMode}に切り替
 commands.describeItem.description=^c:F2E200;describeitem ^c:FFFFFF;(optional)playerName
 //[Reference] 'Item description: {0-itemDesc}'
 commands.describeItem.success=アイテムの説明：{0-itemDesc}
-//TODO Translate [Reference] '^c:F2E200;ditto ^c:FFFFFF;(optional)playerName villagernpcCode'
-commands.ditto.description=
-//TODO Translate [Reference] 'Player {0-playerName} does not have enough inventory space for all npc clothing items'
-commands.ditto.notEnoughSpace=
-//TODO Translate [Reference] 'Player {0-playerName} disguised successfully'
-commands.ditto.success=
+//[Reference] '^c:F2E200;ditto ^c:FFFFFF;(optional)playerName villagernpcCode'
+commands.ditto.description=^c:F2E200;ditto ^c:FFFFFF;(optional)playerName villagernpcCode
+//[Reference] 'Player {0-playerName} does not have enough inventory space for all npc clothing items'
+commands.ditto.notEnoughSpace={0-playerName}十分な在庫スペースがない
+//[Reference] 'Player {0-playerName} disguised successfully'
+commands.ditto.success={0-playerName}成功裏に偽装された
 //[Reference] '^c:F2E200;doemote ^c:FFFFFF;emoteName (optional)useLookatEntity(true/false)'
 commands.doemote.description=^c:F2E200;doemote ^c:FFFFFF;emoteName (optional)useLookatEntity(true/false)
 //[Reference] '^c:F2E200;emote ^c:FFFFFF;emoteName'
 commands.emote.description=^c:F2E200;emote ^c:FFFFFF;emoteName
 //[Reference] 'No such emote {0-emote}'
 commands.emote.noSuchEmote={0-emote}という感情表現はありません
-//TODO Translate [Reference] '^c:F2E200;enablecheats^c:FFFFFF;'
-commands.enablecheats.description=
-//TODO Translate [Reference] 'Failed to enable cheats.'
-commands.enablecheats.failure=
-//TODO Translate [Reference] 'Cheats have been enabled.'
-commands.enablecheats.success=
+//[Reference] '^c:F2E200;enablecheats^c:FFFFFF;'
+commands.enablecheats.description=c:F2E200;enablecheats^c:FFFFFF;
+//[Reference] 'Failed to enable cheats.'
+commands.enablecheats.failure=チートを有効にできませんでした
+//[Reference] 'Cheats have been enabled.'
+commands.enablecheats.success=チートを可能にした
 //[Reference] '^c:F2E200;entityInfo ^c:FFFFFF;entityID'
 commands.entityInfo.description=^c:F2E200;entityInfo ^c:FFFFFF;entityID
 //[Reference] 'You need to include an EntityID!'
@@ -101,7 +111,8 @@ commands.entityNotFound=エンティティが見つかりません
 commands.flyMode.description=^c:F2E200;fly ^c:FFFFFF;(optional)playerName (optional)startFlying(true/false)
 //[Reference] 'Switched flying mode to: {0-flymode}'
 commands.flyMode.success=飛行モードを{0-flymode}に切り替えました
-//[Reference] '^c:F2E200;Give all recipes ^c:FFFFFF;(optional)playerName'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)playerName'
 commands.giveallrecipes.description=^c:F2E200;Give all recipes ^c:FFFFFF;(optional)playerName
 //[Reference] 'Done!'
 commands.giveallrecipes.success=完了！
@@ -169,8 +180,8 @@ commands.op.description=^c:F2E200;op ^c:FFFFFF;playerName
 commands.op.failure={0-player}をプロモートできません。
 //[Reference] '{0-player} has been promoted.'
 commands.op.success={0-player}をプロモートしました。
-//TODO Translate [Reference] 'Player {0-player} not found.'
-commands.op.userNotFound=
+//[Reference] 'Player {0-player} not found.'
+commands.op.userNotFound={0-player}見つかりません
 //[Reference] '^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime'
 commands.pe.description=^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime
 //[Reference] '^c:F2E200;plantgrowth'
