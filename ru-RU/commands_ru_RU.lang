@@ -277,6 +277,12 @@ commands.stealPetals.success={0-player} крадет лепестки: {1-amount
 commands.stealPetals.success.reset={0-player} больше не является вором.
 //[Reference] '{0-player} stole {1-amount} petals. Thief!'
 commands.stealPetals.success.thief={0-player} крадет лепестки: {1-amount}. Воришка!
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;stopTime ^c:FFFFFF;Stops time'
+commands.stopTime.description=^c:F2E200;остановка времени
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Time Stopped'
+commands.stopTime.stop=Время остановлено
 commands.sun.description=
 //[Reference] 'Made it a sunny day.'
 commands.sun.success=Смена погоды на солнечную.
@@ -306,6 +312,12 @@ commands.tileAt.notFound=Ячейка не найдена
 commands.tileAt.success.false=Код ячейки: {0-tilecode} в месте — {1-position} (compoundFiller: false, поворот: {2-rotation}, высота: {3-alt}, фрагмент: {4-chunk})
 //[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
 commands.tileAt.success.true=Код ячейки: {0-tilecode} в месте — {1-position} (compoundFiller: true, поворот: {2-rotation}, высота: {3-alt}, фрагмент: {4-chunk})
+//TODO Translate [Reference] '^c:F2E200;toggleTimePassing ^c:FFFFFF;Toggles the passing of time'
+commands.toggleTimePassing.description=
+//TODO Translate [Reference] 'Time Resumed'
+commands.toggleTimePassing.resume=
+//TODO Translate [Reference] 'Time Stopped'
+commands.toggleTimePassing.stop=
 commands.traceStart.description=
 //[Reference] 'Started tracing.'
 commands.traceStart.success=Построение началось.

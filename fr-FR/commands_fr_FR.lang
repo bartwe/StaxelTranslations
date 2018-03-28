@@ -284,6 +284,12 @@ commands.stealPetals.success={0-player} à volé {1-amount} pétals
 commands.stealPetals.success.reset={0-player} n'est plus un voleur désormais.
 //[Reference] '{0-player} stole {1-amount} petals. Thief!'
 commands.stealPetals.success.thief={0-player} a volé {1-amount} pétals. Voleur !
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;stopTime ^c:FFFFFF;Stops time'
+commands.stopTime.description=Arrêter/redémarrer le temps
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Time Stopped'
+commands.stopTime.stop=Temps arrêté
 commands.sun.description=
 //TODO No reference?
 //[Reference] 'Made it a sunny day.'
@@ -315,6 +321,12 @@ commands.tileAt.notFound=Tile introuvable
 commands.tileAt.success.false=
 //TODO Translate [Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
 commands.tileAt.success.true=
+//TODO Translate [Reference] '^c:F2E200;toggleTimePassing ^c:FFFFFF;Toggles the passing of time'
+commands.toggleTimePassing.description=
+//TODO Translate [Reference] 'Time Resumed'
+commands.toggleTimePassing.resume=
+//TODO Translate [Reference] 'Time Stopped'
+commands.toggleTimePassing.stop=
 //TODO Quite a few with no references.
 commands.traceStart.description=
 //[Reference] 'Started tracing.'

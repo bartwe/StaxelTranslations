@@ -285,6 +285,12 @@ commands.stealPetals.success={0-player}が{1-amount}ペタル盗みました
 commands.stealPetals.success.reset={0-player}はもはや泥棒ではありません。
 //[Reference] '{0-player} stole {1-amount} petals. Thief!'
 commands.stealPetals.success.thief={0-player}が{1-amount}ペタル盗みました。泥棒！
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;stopTime ^c:FFFFFF;Stops time'
+commands.stopTime.description=一時停止/再開の時間
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Time Stopped'
+commands.stopTime.stop=一時停止した時間
 commands.sun.description=
 //[Reference] 'Made it a sunny day.'
 commands.sun.success=晴れの日になりました。
@@ -314,6 +320,12 @@ commands.tileAt.notFound=タイルが見つかりませんでした
 commands.tileAt.success.false=Tile code: {0-tilecode} at {1-position} (compoundFiller: false, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})
 //[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
 commands.tileAt.success.true=Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})
+//TODO Translate [Reference] '^c:F2E200;toggleTimePassing ^c:FFFFFF;Toggles the passing of time'
+commands.toggleTimePassing.description=
+//TODO Translate [Reference] 'Time Resumed'
+commands.toggleTimePassing.resume=
+//TODO Translate [Reference] 'Time Stopped'
+commands.toggleTimePassing.stop=
 commands.traceStart.description=
 //[Reference] 'Started tracing.'
 commands.traceStart.success=トレースを開始しました。

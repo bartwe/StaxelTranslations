@@ -279,6 +279,12 @@ commands.stealPetals.success={0-player} roubou {1-amount} pétalas
 commands.stealPetals.success.reset={0-player} não é mais ladrão.
 //[Reference] '{0-player} stole {1-amount} petals. Thief!'
 commands.stealPetals.success.thief={0-player} roubou {1-amount} pétalas. Ladrão!
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;stopTime ^c:FFFFFF;Stops time'
+commands.stopTime.description=^c:F2E200;stopTime
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Time Stopped'
+commands.stopTime.stop=Tempo parado
 commands.sun.description=
 //[Reference] 'Made it a sunny day.'
 commands.sun.success=O dia ficou ensolarado.
@@ -308,6 +314,12 @@ commands.tileAt.notFound=Objeto não encontrado
 commands.tileAt.success.false=Código de objeto: {0-tilecode} em {1-position} (compoundFiller: false, rotação: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})
 //[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
 commands.tileAt.success.true=Código de objeto: {0-tilecode} em {1-position} (compoundFiller: true, rotação: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})
+//TODO Translate [Reference] '^c:F2E200;toggleTimePassing ^c:FFFFFF;Toggles the passing of time'
+commands.toggleTimePassing.description=
+//TODO Translate [Reference] 'Time Resumed'
+commands.toggleTimePassing.resume=
+//TODO Translate [Reference] 'Time Stopped'
+commands.toggleTimePassing.stop=
 commands.traceStart.description=
 //[Reference] 'Started tracing.'
 commands.traceStart.success=Rastreamento iniciado.
