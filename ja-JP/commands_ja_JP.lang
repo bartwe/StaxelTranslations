@@ -1,6 +1,4 @@
-//[Reference] 'en-GB'
 language.code=ja-JP
-//[Reference] 'English'
 language=日本語
 
 //[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)'
@@ -46,15 +44,15 @@ commands.cameraStop.description=^c:F2E200;cameraStop
 //[Reference] 'Stopped camera mode'
 commands.cameraStop.success=カメラモードを停止しました
 //TODO Translate [Reference] '^c:F2E200;catchableDetails ^c:FFFFFF;(optional)location({0,0,0})'
-commands.catchableDetails.description=
+commands.catchableDetails.description=^c:F2E200;catchableDetails^c:FFFFFF;（選択）ロケーション（{0,0,0}）
 //TODO Translate [Reference] 'Failed to parse location {0-location}'
-commands.catchableDetails.failParse=
+commands.catchableDetails.failParse=ロケーション{0-location}の解析に失敗しました
 //TODO Translate [Reference] 'Tile not found'
-commands.catchableDetails.notFound=
+commands.catchableDetails.notFound=タイルが見つかりませんでした
 //TODO Translate [Reference] 'Catchable entity does not exist: {0-details}'
-commands.catchableDetails.success.false=
+commands.catchableDetails.success.false=目を引く存在はありません：{0-details}
 //TODO Translate [Reference] 'Catchable entity exists: {0-details}'
-commands.catchableDetails.success.true=
+commands.catchableDetails.success.true=目を引く存在があります：{0-details}
 //[Reference] 'Not looking at an animal'
 commands.changeMood.animalNotFound=動物を見ていません
 //[Reference] '^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)'
@@ -111,9 +109,8 @@ commands.entityNotFound=エンティティが見つかりません
 commands.flyMode.description=^c:F2E200;fly ^c:FFFFFF;(optional)playerName (optional)startFlying(true/false)
 //[Reference] 'Switched flying mode to: {0-flymode}'
 commands.flyMode.success=飛行モードを{0-flymode}に切り替えました
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)playerName'
-commands.giveallrecipes.description=^c:F2E200;Give all recipes ^c:FFFFFF;(optional)playerName
+commands.giveallrecipes.description=^c:F2E200;giveallrecipes^c:FFFFFF;（選択）プレイヤーの名前
 //[Reference] 'Done!'
 commands.giveallrecipes.success=完了！
 //[Reference] '^c:F2E200;givepetals ^c:FFFFFF;playerName amount'
@@ -249,28 +246,24 @@ commands.serverCreative.success=サーバーのクリエイティブモードを
 commands.snow.description=
 //[Reference] 'Made it a snowy day.'
 commands.snow.success=雪の日になりました。
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;spawncoins ^c:FFFFFF;(optional)playerName petalAmount'
-commands.spawnCoins.description=^c:F2E200;spawncoins ^c:FFFFFF;playerName petalAmount
+commands.spawnCoins.description=^c:F2E200;spawncoins^c:FFFFFF;（選択）プレイヤーの名前　花びらの合計
 //[Reference] 'Spawned {0-amount} petals in coins for {1-player}'
 commands.spawnCoins.success={1-player}のために{0-amount}ペタルのコインを生成しました
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;spawnitem ^c:FFFFFF;(optional)playerName item(kind/specification{})'
-commands.spawnItem.description=^c:F2E200;spawnitem ^c:FFFFFF;playerName item(kind/specification{})
+commands.spawnItem.description=^c:F2E200;spawnitem^c:FFFFFF;（選択）プレイヤーの名前　アイテム（種類/属性{}）
 //[Reference] 'Item not found.'
 commands.spawnItem.notFound=アイテムが見つかりませんでした。
 //[Reference] 'Spawn item successful.'
 commands.spawnItem.success=アイテムの生成に成功しました。
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;spawnmaterial ^c:FFFFFF;(optional)playerName materialCode'
-commands.spawnMaterial.description=^c:F2E200;spawnmaterial ^c:FFFFFF;playerName materialCode
+commands.spawnMaterial.description=^c:F2E200;spawnmaterial^c:FFFFFF;（選択）プレイヤーの名前　素材コード
 //[Reference] 'Material kind not found.'
 commands.spawnMaterial.notFound=材料が見つかりませんでした。
 //[Reference] 'Spawn material successful'
 commands.spawnMaterial.success=材料の生成に成功しました
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;spawntile ^c:FFFFFF;(optional)playerName tileCode'
-commands.spawnTile.description=^c:F2E200;spawntile ^c:FFFFFF;playerName tileCode
+commands.spawnTile.description=^c:F2E200;spawntile^c:FFFFFF;（選択）プレイヤーの名前タイルコード
 //[Reference] 'Tile kind not found.'
 commands.spawnTile.notFound=タイルが見つかりません。
 //[Reference] 'Spawn tile successful.'
