@@ -1,6 +1,4 @@
-//[Reference] 'en-GB'
 language.code=zh-CN
-//[Reference] 'English'
 language=简体中文
 
 //[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)'
@@ -46,15 +44,15 @@ commands.cameraStop.description=^c:F2E200;cameraStop
 //[Reference] 'Stopped camera mode'
 commands.cameraStop.success=摄影模式已停止
 //TODO Translate [Reference] '^c:F2E200;catchableDetails ^c:FFFFFF;(optional)location({0,0,0})'
-commands.catchableDetails.description=
+commands.catchableDetails.description=^c:F2E200;catchableDetails ^c:FFFFFF;(可选)地点({0,0,0})
 //TODO Translate [Reference] 'Failed to parse location {0-location}'
-commands.catchableDetails.failParse=
+commands.catchableDetails.failParse=无法分析位置{0-location}
 //TODO Translate [Reference] 'Tile not found'
-commands.catchableDetails.notFound=
+commands.catchableDetails.notFound=方块未找到
 //TODO Translate [Reference] 'Catchable entity does not exist: {0-details}'
-commands.catchableDetails.success.false=
+commands.catchableDetails.success.false=可捕捉实体不存在：{0-details}
 //TODO Translate [Reference] 'Catchable entity exists: {0-details}'
-commands.catchableDetails.success.true=
+commands.catchableDetails.success.true=存在可捕捉实体：{0-details}
 //[Reference] 'Not looking at an animal'
 commands.changeMood.animalNotFound=没找到要观看的动物
 //[Reference] '^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)'
@@ -78,11 +76,11 @@ commands.describeItem.description=^c:F2E200;describeitem ^c:FFFFFF;(optional)pla
 //[Reference] 'Item description: {0-itemDesc}'
 commands.describeItem.success=物品描述：{0-itemDesc}
 //TODO Translate [Reference] '^c:F2E200;ditto ^c:FFFFFF;(optional)playerName villagernpcCode'
-commands.ditto.description=
+commands.ditto.description=^c:F2E200;ditto ^c:FFFFFF;(可选)玩家姓名 村民NPC代码
 //TODO Translate [Reference] 'Player {0-playerName} does not have enough inventory space for all npc clothing items'
-commands.ditto.notEnoughSpace=
+commands.ditto.notEnoughSpace=玩家{0-playerName}没有足够的物品栏空间存放所有的NPC服装道具
 //TODO Translate [Reference] 'Player {0-playerName} disguised successfully'
-commands.ditto.success=
+commands.ditto.success=玩家{0-playerName}已成功伪装
 //[Reference] '^c:F2E200;doemote ^c:FFFFFF;emoteName (optional)useLookatEntity(true/false)'
 commands.doemote.description=^c:F2E200;doemote ^c:FFFFFF;emoteName (optional)useLookatEntity(true/false)
 //[Reference] '^c:F2E200;emote ^c:FFFFFF;emoteName'
@@ -90,11 +88,11 @@ commands.emote.description=^c:F2E200;emote ^c:FFFFFF;emoteName
 //[Reference] 'No such emote {0-emote}'
 commands.emote.noSuchEmote=无对应表情{0-emote}
 //TODO Translate [Reference] '^c:F2E200;enablecheats^c:FFFFFF;'
-commands.enablecheats.description=
+commands.enablecheats.description=^c:F2E200;开启作弊^c:FFFFFF;
 //TODO Translate [Reference] 'Failed to enable cheats.'
-commands.enablecheats.failure=
+commands.enablecheats.failure=开启作弊失败。
 //TODO Translate [Reference] 'Cheats have been enabled.'
-commands.enablecheats.success=
+commands.enablecheats.success=开启作弊成功。
 //[Reference] '^c:F2E200;entityInfo ^c:FFFFFF;entityID'
 commands.entityInfo.description=^c:F2E200;entityInfo ^c:FFFFFF;entityID
 //[Reference] 'You need to include an EntityID!'
@@ -111,9 +109,8 @@ commands.entityNotFound=实体未找到
 commands.flyMode.description=^c:F2E200;fly ^c:FFFFFF;(optional)playerName (optional)startFlying(true/false)
 //[Reference] 'Switched flying mode to: {0-flymode}'
 commands.flyMode.success=切换飞行模式到：{0-flymode}
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)playerName'
-commands.giveallrecipes.description=^c:F2E200;Give all recipes ^c:FFFFFF;(optional)playerName
+commands.giveallrecipes.description=^c:F2E200;giveallrecipes ^c:FFFFFF;(可选)玩家姓名
 //[Reference] 'Done!'
 commands.giveallrecipes.success=完成！
 //[Reference] '^c:F2E200;givepetals ^c:FFFFFF;playerName amount'
@@ -181,7 +178,7 @@ commands.op.failure=无法晋升{0-player}。
 //[Reference] '{0-player} has been promoted.'
 commands.op.success={0-player}已被晋升。
 //TODO Translate [Reference] 'Player {0-player} not found.'
-commands.op.userNotFound=
+commands.op.userNotFound=玩家{0-player}未找到。
 //[Reference] '^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime'
 commands.pe.description=^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime
 //[Reference] '^c:F2E200;plantgrowth'
@@ -249,28 +246,24 @@ commands.serverCreative.success=切换服务器创造者模式至{0-creative}（
 commands.snow.description=
 //[Reference] 'Made it a snowy day.'
 commands.snow.success=制造雪天。
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;spawncoins ^c:FFFFFF;(optional)playerName petalAmount'
-commands.spawnCoins.description=^c:F2E200;spawncoins ^c:FFFFFF;playerName petalAmount
+commands.spawnCoins.description=^c:F2E200;spawncoins ^c:FFFFFF;(可选)玩家姓名 花瓣币数量
 //[Reference] 'Spawned {0-amount} petals in coins for {1-player}'
 commands.spawnCoins.success=为{1-player}以生成{0-amount}花瓣币
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;spawnitem ^c:FFFFFF;(optional)playerName item(kind/specification{})'
-commands.spawnItem.description=^c:F2E200;spawnitem ^c:FFFFFF;playerName item(kind/specification{})
+commands.spawnItem.description=^c:F2E200;spawnitem ^c:FFFFFF;(可选)玩家姓名 物品(种类/规格{})
 //[Reference] 'Item not found.'
 commands.spawnItem.notFound=物品未找到。
 //[Reference] 'Spawn item successful.'
 commands.spawnItem.success=产出物品成功。
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;spawnmaterial ^c:FFFFFF;(optional)playerName materialCode'
-commands.spawnMaterial.description=^c:F2E200;spawnmaterial ^c:FFFFFF;playerName materialCode
+commands.spawnMaterial.description=^c:F2E200;spawnmaterial ^c:FFFFFF;(可选)玩家姓名 材料代码
 //[Reference] 'Material kind not found.'
 commands.spawnMaterial.notFound=材料种类未找到。
 //[Reference] 'Spawn material successful'
 commands.spawnMaterial.success=产出材料成功
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;spawntile ^c:FFFFFF;(optional)playerName tileCode'
-commands.spawnTile.description=^c:F2E200;spawntile ^c:FFFFFF;playerName tileCode
+commands.spawnTile.description=^c:F2E200;spawntile ^c:FFFFFF;(可选)玩家姓名 方砖代码
 //[Reference] 'Tile kind not found.'
 commands.spawnTile.notFound=方砖种类未找到。
 //[Reference] 'Spawn tile successful.'
