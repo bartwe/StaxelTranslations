@@ -44,15 +44,15 @@ commands.cameraStop.description=^c:F2E200;cameraStop
 //[Reference] 'Stopped camera mode'
 commands.cameraStop.success=Modo câmera interrompido
 //TODO Translate [Reference] '^c:F2E200;catchableDetails ^c:FFFFFF;(optional)location({0,0,0})'
-commands.catchableDetails.description=
+commands.catchableDetails.description=^c:F2E200;catchableDetails ^c:FFFFFF;(opcional)local({0,0,0})
 //TODO Translate [Reference] 'Failed to parse location {0-location}'
-commands.catchableDetails.failParse=
+commands.catchableDetails.failParse=Falha ao processar o local {0-location}
 //TODO Translate [Reference] 'Tile not found'
-commands.catchableDetails.notFound=
+commands.catchableDetails.notFound=Objeto não encontrado
 //TODO Translate [Reference] 'Catchable entity does not exist: {0-details}'
-commands.catchableDetails.success.false=
+commands.catchableDetails.success.false=Entidade capturável inexistente: {0-details}
 //TODO Translate [Reference] 'Catchable entity exists: {0-details}'
-commands.catchableDetails.success.true=
+commands.catchableDetails.success.true=Entidade capturável existente: {0-details}
 //[Reference] 'Not looking at an animal'
 commands.changeMood.animalNotFound=Não há animais aqui
 //[Reference] '^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)'
