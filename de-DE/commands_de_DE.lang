@@ -1,6 +1,4 @@
-//[Reference] 'en-GB'
 language.code=de-DE
-//[Reference] 'English'
 language=Deutsch
 
 //[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)'
@@ -46,15 +44,15 @@ commands.cameraStop.description=^c:F2E200;cameraStop
 //[Reference] 'Stopped camera mode'
 commands.cameraStop.success=Kameramodus gestoppt
 //TODO Translate [Reference] '^c:F2E200;catchableDetails ^c:FFFFFF;(optional)location({0,0,0})'
-commands.catchableDetails.description=
+commands.catchableDetails.description=^c:F2E200;catchableDetails ^c:FFFFFF;(optional)Ort({0,0,0})
 //TODO Translate [Reference] 'Failed to parse location {0-location}'
-commands.catchableDetails.failParse=
+commands.catchableDetails.failParse=Ort konnte nicht erfasst werden: {0-location}
 //TODO Translate [Reference] 'Tile not found'
-commands.catchableDetails.notFound=
+commands.catchableDetails.notFound=Fliese nicht gefunden
 //TODO Translate [Reference] 'Catchable entity does not exist: {0-details}'
-commands.catchableDetails.success.false=
+commands.catchableDetails.success.false=Fangbare Einheit existiert nicht: {0-details}
 //TODO Translate [Reference] 'Catchable entity exists: {0-details}'
-commands.catchableDetails.success.true=
+commands.catchableDetails.success.true=Fangbare Einheit existiert: {0-details}
 //[Reference] 'Not looking at an animal'
 commands.changeMood.animalNotFound=Kein Tier im Blickfeld
 //[Reference] '^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)'
@@ -78,11 +76,11 @@ commands.describeItem.description=^c:F2E200;describeitem ^c:FFFFFF;(optional)pla
 //[Reference] 'Item description: {0-itemDesc}'
 commands.describeItem.success=Item-Beschreibung: {0-itemDesc}
 //TODO Translate [Reference] '^c:F2E200;ditto ^c:FFFFFF;(optional)playerName villagernpcCode'
-commands.ditto.description=
+commands.ditto.description=^c:F2E200;ditto ^c:FFFFFF;(optional)Spielername DorfbewohnerNPCCode
 //TODO Translate [Reference] 'Player {0-playerName} does not have enough inventory space for all npc clothing items'
-commands.ditto.notEnoughSpace=
+commands.ditto.notEnoughSpace=Spieler {0-playerName} hat nicht genug Platz im Inventar für alle NPC-Kleidungsstücke
 //TODO Translate [Reference] 'Player {0-playerName} disguised successfully'
-commands.ditto.success=
+commands.ditto.success=Spieler {0-playerName} erfolgreich verkleidet
 //[Reference] '^c:F2E200;doemote ^c:FFFFFF;emoteName (optional)useLookatEntity(true/false)'
 commands.doemote.description=^c:F2E200;doemote ^c:FFFFFF;emoteName (optional)useLookatEntity(true/false)
 //[Reference] '^c:F2E200;emote ^c:FFFFFF;emoteName'
@@ -90,11 +88,11 @@ commands.emote.description=^c:F2E200;emote ^c:FFFFFF;emoteName
 //[Reference] 'No such emote {0-emote}'
 commands.emote.noSuchEmote=Emote nicht gefunden: {0-emote}
 //TODO Translate [Reference] '^c:F2E200;enablecheats^c:FFFFFF;'
-commands.enablecheats.description=
+commands.enablecheats.description=^c:F2E200;enablecheats^c:FFFFFF;
 //TODO Translate [Reference] 'Failed to enable cheats.'
-commands.enablecheats.failure=
+commands.enablecheats.failure=Aktivierung der Cheats fehlgeschlagen.
 //TODO Translate [Reference] 'Cheats have been enabled.'
-commands.enablecheats.success=
+commands.enablecheats.success=Cheats wurden aktiviert.
 //[Reference] '^c:F2E200;entityInfo ^c:FFFFFF;entityID'
 commands.entityInfo.description=^c:F2E200;entityInfo ^c:FFFFFF;entityID
 //[Reference] 'You need to include an EntityID!'
@@ -111,9 +109,8 @@ commands.entityNotFound=Objekt nicht gefunden
 commands.flyMode.description=^c:F2E200;fly ^c:FFFFFF;(optional)playerName (optional)startFlying(true/false)
 //[Reference] 'Switched flying mode to: {0-flymode}'
 commands.flyMode.success=Flug-Modus gewechselt zu: {0-flymode}
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)playerName'
-commands.giveallrecipes.description=^c:F2E200;Give all recipes ^c:FFFFFF;(optional)playerName
+commands.giveallrecipes.description=^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)Spielername
 //[Reference] 'Done!'
 commands.giveallrecipes.success=Fertig!
 //[Reference] '^c:F2E200;givepetals ^c:FFFFFF;playerName amount'
@@ -181,7 +178,7 @@ commands.op.failure={0-player} konnte nicht hochgestuft werden.
 //[Reference] '{0-player} has been promoted.'
 commands.op.success={0-player} wurde hochgestuft.
 //TODO Translate [Reference] 'Player {0-player} not found.'
-commands.op.userNotFound=
+commands.op.userNotFound=Spieler {0-player} nicht gefunden.
 //[Reference] '^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime'
 commands.pe.description=^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime
 //[Reference] '^c:F2E200;plantgrowth'
@@ -249,28 +246,24 @@ commands.serverCreative.success=Server-Kreativ-Modus wurde gewechselt zu {0-crea
 commands.snow.description=
 //[Reference] 'Made it a snowy day.'
 commands.snow.success=Es ist nun ein verschneiter Tag.
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;spawncoins ^c:FFFFFF;(optional)playerName petalAmount'
-commands.spawnCoins.description=^c:F2E200;spawncoins ^c:FFFFFF;playerName petalAmount
+commands.spawnCoins.description=^c:F2E200;spawncoins ^c:FFFFFF;(optional)Spielername Blütenblattmenge
 //[Reference] 'Spawned {0-amount} petals in coins for {1-player}'
 commands.spawnCoins.success={0-amount} Blütenblätter in Münzen erschaffen für {1-player}
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;spawnitem ^c:FFFFFF;(optional)playerName item(kind/specification{})'
-commands.spawnItem.description=^c:F2E200;spawnitem ^c:FFFFFF;playerName item(kind/specification{})
+commands.spawnItem.description=^c:F2E200;spawnitem ^c:FFFFFF;(optional)Spielername Item(Art/Spezifikation{})
 //[Reference] 'Item not found.'
 commands.spawnItem.notFound=Item nicht gefunden.
 //[Reference] 'Spawn item successful.'
 commands.spawnItem.success=Item erfolgreich erschaffen.
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;spawnmaterial ^c:FFFFFF;(optional)playerName materialCode'
-commands.spawnMaterial.description=^c:F2E200;spawnmaterial ^c:FFFFFF;playerName materialCode
+commands.spawnMaterial.description=^c:F2E200;spawnmaterial ^c:FFFFFF;(optional)Spielername Materialcode
 //[Reference] 'Material kind not found.'
 commands.spawnMaterial.notFound=Material nicht gefunden.
 //[Reference] 'Spawn material successful'
 commands.spawnMaterial.success=Material erfolgreich erschaffen.
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;spawntile ^c:FFFFFF;(optional)playerName tileCode'
-commands.spawnTile.description=^c:F2E200;spawntile ^c:FFFFFF;playerName tileCode
+commands.spawnTile.description=^c:F2E200;spawntile ^c:FFFFFF;(optional)Spielername Fliesencode
 //[Reference] 'Tile kind not found.'
 commands.spawnTile.notFound=Fliese nicht gefunden.
 //[Reference] 'Spawn tile successful.'
