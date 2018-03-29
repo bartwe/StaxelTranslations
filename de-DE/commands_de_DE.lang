@@ -43,15 +43,15 @@ commands.cameraSave.success=Speichere Spieler-Kamera-Datei: {0-filename}
 commands.cameraStop.description=^c:F2E200;cameraStop
 //[Reference] 'Stopped camera mode'
 commands.cameraStop.success=Kameramodus gestoppt
-//TODO Translate [Reference] '^c:F2E200;catchableDetails ^c:FFFFFF;(optional)location({0,0,0})'
+//[Reference] '^c:F2E200;catchableDetails ^c:FFFFFF;(optional)location({0,0,0})'
 commands.catchableDetails.description=^c:F2E200;catchableDetails ^c:FFFFFF;(optional)Ort({0,0,0})
-//TODO Translate [Reference] 'Failed to parse location {0-location}'
+//[Reference] 'Failed to parse location {0-location}'
 commands.catchableDetails.failParse=Ort konnte nicht erfasst werden: {0-location}
-//TODO Translate [Reference] 'Tile not found'
+//[Reference] 'Tile not found'
 commands.catchableDetails.notFound=Fliese nicht gefunden
-//TODO Translate [Reference] 'Catchable entity does not exist: {0-details}'
+//[Reference] 'Catchable entity does not exist: {0-details}'
 commands.catchableDetails.success.false=Fangbare Einheit existiert nicht: {0-details}
-//TODO Translate [Reference] 'Catchable entity exists: {0-details}'
+//[Reference] 'Catchable entity exists: {0-details}'
 commands.catchableDetails.success.true=Fangbare Einheit existiert: {0-details}
 //[Reference] 'Not looking at an animal'
 commands.changeMood.animalNotFound=Kein Tier im Blickfeld
@@ -59,6 +59,8 @@ commands.changeMood.animalNotFound=Kein Tier im Blickfeld
 commands.changeMood.description=^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)
 //[Reference] 'Mood altered successfully'
 commands.changeMood.success=Laune erfolgreich geändert
+//TODO Translate [Reference] '^c:F2E200;checkMail'
+commands.checkMail.description=
 //[Reference] '^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)'
 commands.creative.description=^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)
 //[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
@@ -75,11 +77,11 @@ commands.demoMode.success=Server-Vorschaumodus zu {0-demoMode} gewechselt
 commands.describeItem.description=^c:F2E200;describeitem ^c:FFFFFF;(optional)playerName
 //[Reference] 'Item description: {0-itemDesc}'
 commands.describeItem.success=Item-Beschreibung: {0-itemDesc}
-//TODO Translate [Reference] '^c:F2E200;ditto ^c:FFFFFF;(optional)playerName villagernpcCode'
+//[Reference] '^c:F2E200;ditto ^c:FFFFFF;(optional)playerName villagernpcCode'
 commands.ditto.description=^c:F2E200;ditto ^c:FFFFFF;(optional)Spielername DorfbewohnerNPCCode
-//TODO Translate [Reference] 'Player {0-playerName} does not have enough inventory space for all npc clothing items'
+//[Reference] 'Player {0-playerName} does not have enough inventory space for all npc clothing items'
 commands.ditto.notEnoughSpace=Spieler {0-playerName} hat nicht genug Platz im Inventar für alle NPC-Kleidungsstücke
-//TODO Translate [Reference] 'Player {0-playerName} disguised successfully'
+//[Reference] 'Player {0-playerName} disguised successfully'
 commands.ditto.success=Spieler {0-playerName} erfolgreich verkleidet
 //[Reference] '^c:F2E200;doemote ^c:FFFFFF;emoteName (optional)useLookatEntity(true/false)'
 commands.doemote.description=^c:F2E200;doemote ^c:FFFFFF;emoteName (optional)useLookatEntity(true/false)
@@ -87,11 +89,11 @@ commands.doemote.description=^c:F2E200;doemote ^c:FFFFFF;emoteName (optional)use
 commands.emote.description=^c:F2E200;emote ^c:FFFFFF;emoteName
 //[Reference] 'No such emote {0-emote}'
 commands.emote.noSuchEmote=Emote nicht gefunden: {0-emote}
-//TODO Translate [Reference] '^c:F2E200;enablecheats^c:FFFFFF;'
+//[Reference] '^c:F2E200;enablecheats^c:FFFFFF;'
 commands.enablecheats.description=^c:F2E200;enablecheats^c:FFFFFF;
-//TODO Translate [Reference] 'Failed to enable cheats.'
+//[Reference] 'Failed to enable cheats.'
 commands.enablecheats.failure=Aktivierung der Cheats fehlgeschlagen.
-//TODO Translate [Reference] 'Cheats have been enabled.'
+//[Reference] 'Cheats have been enabled.'
 commands.enablecheats.success=Cheats wurden aktiviert.
 //[Reference] '^c:F2E200;entityInfo ^c:FFFFFF;entityID'
 commands.entityInfo.description=^c:F2E200;entityInfo ^c:FFFFFF;entityID
@@ -177,7 +179,7 @@ commands.op.description=^c:F2E200;op ^c:FFFFFF;playerName
 commands.op.failure={0-player} konnte nicht hochgestuft werden.
 //[Reference] '{0-player} has been promoted.'
 commands.op.success={0-player} wurde hochgestuft.
-//TODO Translate [Reference] 'Player {0-player} not found.'
+//[Reference] 'Player {0-player} not found.'
 commands.op.userNotFound=Spieler {0-player} nicht gefunden.
 //[Reference] '^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime'
 commands.pe.description=^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime

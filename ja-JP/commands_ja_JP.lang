@@ -43,15 +43,15 @@ commands.cameraSave.success=プレイヤーカメラをファイルに保存し�
 commands.cameraStop.description=^c:F2E200;cameraStop
 //[Reference] 'Stopped camera mode'
 commands.cameraStop.success=カメラモードを停止しました
-//TODO Translate [Reference] '^c:F2E200;catchableDetails ^c:FFFFFF;(optional)location({0,0,0})'
+//[Reference] '^c:F2E200;catchableDetails ^c:FFFFFF;(optional)location({0,0,0})'
 commands.catchableDetails.description=^c:F2E200;catchableDetails^c:FFFFFF;（選択）ロケーション（{0,0,0}）
-//TODO Translate [Reference] 'Failed to parse location {0-location}'
+//[Reference] 'Failed to parse location {0-location}'
 commands.catchableDetails.failParse=ロケーション{0-location}の解析に失敗しました
-//TODO Translate [Reference] 'Tile not found'
+//[Reference] 'Tile not found'
 commands.catchableDetails.notFound=タイルが見つかりませんでした
-//TODO Translate [Reference] 'Catchable entity does not exist: {0-details}'
+//[Reference] 'Catchable entity does not exist: {0-details}'
 commands.catchableDetails.success.false=目を引く存在はありません：{0-details}
-//TODO Translate [Reference] 'Catchable entity exists: {0-details}'
+//[Reference] 'Catchable entity exists: {0-details}'
 commands.catchableDetails.success.true=目を引く存在があります：{0-details}
 //[Reference] 'Not looking at an animal'
 commands.changeMood.animalNotFound=動物を見ていません
@@ -59,6 +59,8 @@ commands.changeMood.animalNotFound=動物を見ていません
 commands.changeMood.description=^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)
 //[Reference] 'Mood altered successfully'
 commands.changeMood.success=ムードの変更に成功しました
+//TODO Translate [Reference] '^c:F2E200;checkMail'
+commands.checkMail.description=
 //[Reference] '^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)'
 commands.creative.description=^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)
 //[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'

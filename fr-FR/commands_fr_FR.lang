@@ -15,11 +15,11 @@ commands.ban.description=ban nomDuJoueur (facultatif)raison
 commands.ban.failure=Impossible de bannir le joueur {0-player} : il est déjà banni ou est un administrateur.
 //[Reference] '{0-player} has been banned from the server.'
 commands.ban.success={0-player} a été banni du serveur.
-//TODO Translate [Reference] '^c:F2E200;bla'
+//[Reference] '^c:F2E200;bla'
 commands.bla.description=^c:F2E200;bla
 //[Reference] 'Moved to a new location in debug region: {0-region}'
 commands.bla.success=Déplacé vers un nouvel emplacement dans la région de debug : {0-region}
-//TODO Translate [Reference] '^c:F2E200;cameraCapture'
+//[Reference] '^c:F2E200;cameraCapture'
 commands.cameraCapture.description=^c:F2E200;cameraCapture
 //[Reference] 'Captured player camera'
 commands.cameraCapture.success=Caméra du joueur capturé
@@ -31,7 +31,7 @@ commands.cameraLoad.success=Caméra du joueur chargé à partir du fichier « {0
 commands.cameraPlay.description=cameraPlay (facultatif)duration(0.0-1.0) (facultatif)loop(true/false) (facultatif)savedCameraFilePath
 //[Reference] 'Playing back player camera'
 commands.cameraPlay.success=Lecture de la caméra du joueur
-//TODO Translate [Reference] '^c:F2E200;cameraReset'
+//[Reference] '^c:F2E200;cameraReset'
 commands.cameraReset.description=^c:F2E200;cameraReset
 //[Reference] 'Reset player camera'
 commands.cameraReset.success=Caméra du joueur reinitialisée
@@ -39,34 +39,36 @@ commands.cameraReset.success=Caméra du joueur reinitialisée
 commands.cameraSave.description=cameraSave cheminVersLeFichierCamera
 //[Reference] 'Saved player camera to file: {0-filename}'
 commands.cameraSave.success=Caméra du joueur enregistrée sous le fichier « {0-filename} »
-//TODO Translate [Reference] '^c:F2E200;cameraStop'
+//[Reference] '^c:F2E200;cameraStop'
 commands.cameraStop.description=^c:F2E200;cameraStop
 //[Reference] 'Stopped camera mode'
 commands.cameraStop.success=Mode caméra désactivé
-//TODO Translate [Reference] '^c:F2E200;catchableDetails ^c:FFFFFF;(optional)location({0,0,0})'
+//[Reference] '^c:F2E200;catchableDetails ^c:FFFFFF;(optional)location({0,0,0})'
 commands.catchableDetails.description=^c:F2E200;catchableDetails ^c:FFFFFF;(facultatif)emplacement({0,0,0})
-//TODO Translate [Reference] 'Failed to parse location {0-location}'
+//[Reference] 'Failed to parse location {0-location}'
 commands.catchableDetails.failParse=Données d'emplacement invalides {0-location}
-//TODO Translate [Reference] 'Tile not found'
+//[Reference] 'Tile not found'
 commands.catchableDetails.notFound=Tile introuvable
-//TODO Translate [Reference] 'Catchable entity does not exist: {0-details}'
+//[Reference] 'Catchable entity does not exist: {0-details}'
 commands.catchableDetails.success.false=Entité attrapable inexistante : {0-details}
-//TODO Translate [Reference] 'Catchable entity exists: {0-details}'
+//[Reference] 'Catchable entity exists: {0-details}'
 commands.catchableDetails.success.true=Entité attrapable existante : {0-details}
 //[Reference] 'Not looking at an animal'
 commands.changeMood.animalNotFound=N'est pas en train de regarder un animal
-//TODO Translate [Reference] '^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)'
+//[Reference] '^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)'
 commands.changeMood.description=^c:F2E200;changeMood ^c:FFFFFF;augmenter/diminuer(true/false)
 //[Reference] 'Mood altered successfully'
 commands.changeMood.success=Humeur changée avec succès
+//TODO Translate [Reference] '^c:F2E200;checkMail'
+commands.checkMail.description=
 //[Reference] '^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)'
 commands.creative.description=creative (facultatif)nomDuJoueur (facultatif)startCreativeMode(true/false)
 //[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
 commands.creative.success=Le mode créatif du joueur {0-user} a été temporairement changé à {1-creative}
-//TODO Translate [Reference] '^c:F2E200;currentTime'
+//[Reference] '^c:F2E200;currentTime'
 commands.currentTime.description=^c:F2E200;currentTime
 //[Reference] 'The day is {0-day} and phase is {1:G2-phase} ({2-time}).'
-commands.currentTime.success=Jour actuel : {0-day} - Phase actuelle : {1:G2-phase}.
+commands.currentTime.success=Jour actuel : {0-day} - Phase actuelle : {1:G2-phase} ({2-time}).
 //[Reference] '^c:F2E200;demoMode ^c:FFFFFF;(optional)on(true/false)'
 commands.demoMode.description=demoMode (facultatif)on(true/false)
 //[Reference] 'Switched server demo mode to {0-demoMode}'
@@ -75,19 +77,19 @@ commands.demoMode.success=Le mode démo du serveur est passé à {0-demoMode}
 commands.describeItem.description=describeitem (facultatif)nomDuJoueur
 //[Reference] 'Item description: {0-itemDesc}'
 commands.describeItem.success=Description de l'objet : {0-itemDesc}
-//TODO Translate [Reference] '^c:F2E200;ditto ^c:FFFFFF;(optional)playerName villagernpcCode'
+//[Reference] '^c:F2E200;ditto ^c:FFFFFF;(optional)playerName villagernpcCode'
 commands.ditto.description=^c:F2E200;ditto ^c:FFFFFF;(facultatif)NomJoueur Codepnjvillageois
 //[Reference] 'Player {0-playerName} does not have enough inventory space for all npc clothing items'
 commands.ditto.notEnoughSpace=Le joueur {0-playerName} n'a pas assez de place dans son inventaire pour tous les habits du PNJ
 //[Reference] 'Player {0-playerName} disguised successfully'
 commands.ditto.success=Le joueur {0-playerName} a été déguisé avec succès
-//TODO Translate [Reference] '^c:F2E200;doemote ^c:FFFFFF;emoteName (optional)useLookatEntity(true/false)'
+//[Reference] '^c:F2E200;doemote ^c:FFFFFF;emoteName (optional)useLookatEntity(true/false)'
 commands.doemote.description=^c:F2E200;doemote ^c:FFFFFF;NomÉmoticône (facultatif)utiliserRegardEntitié(true/false)
-//TODO Translate [Reference] '^c:F2E200;emote ^c:FFFFFF;emoteName'
+//[Reference] '^c:F2E200;emote ^c:FFFFFF;emoteName'
 commands.emote.description=^c:F2E200;emote ^c:FFFFFF;NomÉmoticône
-//TODO Translate [Reference] 'No such emote {0-emote}'
+//[Reference] 'No such emote {0-emote}'
 commands.emote.noSuchEmote=Émoticône « {0-emote} » introuvable
-//TODO Translate [Reference] '^c:F2E200;enablecheats^c:FFFFFF;'
+//[Reference] '^c:F2E200;enablecheats^c:FFFFFF;'
 commands.enablecheats.description=^c:F2E200;enablecheats^c:FFFFFF;
 //[Reference] 'Failed to enable cheats.'
 commands.enablecheats.failure=Echec de l'activation des codes de triche
@@ -172,7 +174,7 @@ commands.noRights={0-user} ne possède pas les droits suffisants pour utiliser c
 commands.noSuchPlayer=Joueur « {0-player} » introuvable
 //[Reference] 'Not a player entity.'
 commands.notAPlayer=Ce n'est pas une entité de joueur.
-//TODO Translate [Reference] '^c:F2E200;op ^c:FFFFFF;playerName'
+//[Reference] '^c:F2E200;op ^c:FFFFFF;playerName'
 commands.op.description=^c:F2E200;op ^c:FFFFFF;NomJoueur
 //[Reference] 'Unable to promote {0-player}.'
 commands.op.failure=Incapable de promouvoir {0-player}
@@ -180,9 +182,9 @@ commands.op.failure=Incapable de promouvoir {0-player}
 commands.op.success=le joueur {0-player} a été promu
 //[Reference] 'Player {0-player} not found.'
 commands.op.userNotFound=Le joueur {0-player} n'est pas là
-//TODO Translate [Reference] '^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime'
+//[Reference] '^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime'
 commands.pe.description=^c:F2E200;pe ^c:FFFFFF;PseudoExpression (facultatif)TempsAffichage
-//TODO Translate [Reference] '^c:F2E200;plantgrowth'
+//[Reference] '^c:F2E200;plantgrowth'
 commands.plantGrowth.description=^c:F2E200;plantgrowth
 //[Reference] 'Not a plant.'
 commands.plantGrowth.noPlant=Ce n'est pas une plante.
@@ -190,17 +192,17 @@ commands.plantGrowth.noPlant=Ce n'est pas une plante.
 commands.plantGrowth.success=Plante {0-plant} à l'étape {1-stage}
 //[Reference] 'Player Entity not found'
 commands.playerEntityNotFound=Entité de joueur introuvable
-//TODO Translate [Reference] '^c:F2E200;players'
+//[Reference] '^c:F2E200;players'
 commands.players.description=^c:F2E200;players
 //[Reference] 'Players: {0-playerlist}'
 commands.players.success=Joueurs: {0-playerlist}
-//TODO Translate [Reference] '^c:F2E200;playExpression ^c:FFFFFF;expressionCode (optional)displayTime'
+//[Reference] '^c:F2E200;playExpression ^c:FFFFFF;expressionCode (optional)displayTime'
 commands.playExpression.description=^c:F2E200;playExpression ^c:FFFFFF;CodeExpression (facultatif)TempsAffichage
-//TODO Translate [Reference] 'Aliases:'
+//[Reference] 'Aliases:'
 commands.playExpression.list=Pseudos :
-//TODO Translate [Reference] 'Expression not found {0-expression}'
+//[Reference] 'Expression not found {0-expression}'
 commands.playExpression.noExpression=Expression « {0-expression} » introuvable
-//TODO Translate [Reference] 'Expression played successfully'
+//[Reference] 'Expression played successfully'
 commands.playExpression.success=Expression jouée avec succès
 //[Reference] '^c:F2E200;position ^c:FFFFFF;(optional)playerName'
 commands.position.description=position (facultatif)nomDuJoueur
@@ -208,20 +210,20 @@ commands.position.description=position (facultatif)nomDuJoueur
 commands.position.failed=Impossible de localiser le joueur
 //[Reference] 'Position: {0-position}, Heading: {1-heading}'
 commands.position.success=Position : {0-position} - Titre : {1-heading}
-//TODO Translate [Reference] '^c:F2E200;qs ^c:FFFFFF;(optional)startFlying(true/false)'
+//[Reference] '^c:F2E200;qs ^c:FFFFFF;(optional)startFlying(true/false)'
 commands.quickStart.altDescription=^c:F2E200;qs ^c:FFFFFF;(facultatif)commencerVol(true/false)
-//TODO Translate [Reference] '^c:F2E200;quickStart ^c:FFFFFF;(optional)startFlying(true/false)'
+//[Reference] '^c:F2E200;quickStart ^c:FFFFFF;(optional)startFlying(true/false)'
 commands.quickStart.description=^c:F2E200;quickStart ^c:FFFFFF;(facultatif)commencerVol(true/false)
 //[Reference] 'Quick start success. Switched flying mode to: {0-flymode}'
 commands.quickStart.success=Démarrage rapide réussis. Transféré en mode volant : {0-flymode}
 commands.rain.description=Changer le temps
 //[Reference] 'Made it a rainy day.'
 commands.rain.success=Faire tomber la pluie aujourd'hui
-//TODO Translate [Reference] '^c:F2E200;reload'
+//[Reference] '^c:F2E200;reload'
 commands.reload.description=^c:F2E200;reload
 //[Reference] 'Reload requested.'
 commands.reload.success=Rafraîchissement demandé.
-//TODO Translate [Reference] '^c:F2E200;resetplayer'
+//[Reference] '^c:F2E200;resetplayer'
 commands.resetPlayer.description=^c:F2E200;resetplayer
 //[Reference] 'Reset successful.'
 commands.resetPlayer.success=Réinitialisation réussie.
@@ -236,9 +238,9 @@ commands.saveDesign.success=Le design a été sauvegardé à {0-path}
 commands.saveOutfit.description=saveOutfit nomFichier
 //[Reference] 'Character outfit file saved at {0-path}'
 commands.saveOutfit.success=Tenue du personnage sauvegardée à {0-path}
-//TODO Translate [Reference] '^c:F2E200;seed'
+//[Reference] '^c:F2E200;seed'
 commands.seed.description=^c:F2E200;seed
-//TODO Translate [Reference] 'Seed: {0-seed}'
+//[Reference] 'Seed: {0-seed}'
 commands.seed.success=Graine : {0-seed}
 //[Reference] '^c:F2E200;creativeMode ^c:FFFFFF;(optional)on(true/false)'
 commands.serverCreative.description=creativeMode (optionel)on(true/false)
@@ -269,7 +271,7 @@ commands.spawnTile.description=^c:F2E200;spawntile ^c:FFFFFF;(facultatif)NomJoue
 commands.spawnTile.notFound=Tile introuvable.
 //[Reference] 'Spawn tile successful.'
 commands.spawnTile.success=La tile est bien apparue.
-//TODO Translate [Reference] '^c:F2E200;stealpetals ^c:FFFFFF;amount (optional)remove(true/false)'
+//[Reference] '^c:F2E200;stealpetals ^c:FFFFFF;amount (optional)remove(true/false)'
 commands.stealPetals.description=^c:F2E200;stealpetals ^c:FFFFFF;quantité (facultatif)retirer(true/false)
 //[Reference] 'Reset must be true or false.'
 commands.stealPetals.invalidReset=la réinitialisation doit être "vrai" ou "fausse"
@@ -312,9 +314,9 @@ commands.tileAt.description=tileAt (facultatif)location({0,0,0})
 commands.tileAt.failParse=Données de position invalides {0-position}
 //[Reference] 'Tile not found'
 commands.tileAt.notFound=Tile introuvable
-//TODO Translate [Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: false, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
+//[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: false, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
 commands.tileAt.success.false=Code de carreau : {0-tilecode} à {1-position} (compoundFiller: faux, rotation : {2-rotation}, alt : {3-alt}, morceau : {4-chunk})
-//TODO Translate [Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
+//[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
 commands.tileAt.success.true=Code de carreau : {0-tilecode} à {1-position} (compoundFiller: vrai, rotation : {2-rotation}, alt : {3-alt}, morceau : {4-chunk})
 //TODO Translate [Reference] '^c:F2E200;toggleTimePassing ^c:FFFFFF;Toggles the passing of time'
 commands.toggleTimePassing.description=
@@ -348,7 +350,7 @@ commands.unmute.failure=Impossible de rendre la voix au joueur {0-player} : le j
 commands.unmute.success=Le joueur {0-player} peut à nouveau parler.
 //[Reference] 'Unrecognised command :'{0-command}''
 commands.unrecognised=Commande non reconnue : «{0-command} »
-//TODO Translate [Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
+//[Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
 commands.weather.description=^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)
 //[Reference] 'Unable to set weather: {0-weather}. Does not exist.'
 commands.weather.noweather=Impossible de mettre le temps en : {0-weather}. Celà n'éxiste pas.
