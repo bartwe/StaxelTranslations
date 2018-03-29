@@ -111,7 +111,8 @@ commands.entityNotFound=实体未找到
 commands.flyMode.description=^c:F2E200;fly ^c:FFFFFF;(optional)playerName (optional)startFlying(true/false)
 //[Reference] 'Switched flying mode to: {0-flymode}'
 commands.flyMode.success=切换飞行模式到：{0-flymode}
-//[Reference] '^c:F2E200;Give all recipes ^c:FFFFFF;(optional)playerName'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)playerName'
 commands.giveallrecipes.description=^c:F2E200;Give all recipes ^c:FFFFFF;(optional)playerName
 //[Reference] 'Done!'
 commands.giveallrecipes.success=完成！
@@ -284,6 +285,10 @@ commands.stealPetals.success={0-player}偷走{1-amount}花瓣币
 commands.stealPetals.success.reset={0-player}不再是小偷。
 //[Reference] '{0-player} stole {1-amount} petals. Thief!'
 commands.stealPetals.success.thief={0-player}偷走{1-amount}花瓣币。小偷！
+//TODO Translate [Reference] '^c:F2E200;stopTime ^c:FFFFFF;Stops time'
+commands.stopTime.description=
+//TODO Translate [Reference] 'Time Stopped'
+commands.stopTime.stop=
 commands.sun.description=
 //[Reference] 'Made it a sunny day.'
 commands.sun.success=制造晴天。
@@ -313,6 +318,12 @@ commands.tileAt.notFound=方块未找到
 commands.tileAt.success.false=方块代码：{0-tilecode}在{1-position}（复合填充：假，翻转：{2-rotation}，转换{3-alt}，组块：{4-chunk}）
 //[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
 commands.tileAt.success.true=方块代码：{0-tilecode}在{1-position}（复合填充：真，翻转：{2-rotation}，转换{3-alt}，组块：{4-chunk}）
+//TODO Translate [Reference] '^c:F2E200;toggleTimePassing ^c:FFFFFF;Toggles the passing of time'
+commands.toggleTimePassing.description=
+//TODO Translate [Reference] 'Time Resumed'
+commands.toggleTimePassing.resume=
+//TODO Translate [Reference] 'Time Stopped'
+commands.toggleTimePassing.stop=
 commands.traceStart.description=
 //[Reference] 'Started tracing.'
 commands.traceStart.success=开始追踪。

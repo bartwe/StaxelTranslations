@@ -111,7 +111,8 @@ commands.entityNotFound=Objekt nicht gefunden
 commands.flyMode.description=^c:F2E200;fly ^c:FFFFFF;(optional)playerName (optional)startFlying(true/false)
 //[Reference] 'Switched flying mode to: {0-flymode}'
 commands.flyMode.success=Flug-Modus gewechselt zu: {0-flymode}
-//[Reference] '^c:F2E200;Give all recipes ^c:FFFFFF;(optional)playerName'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)playerName'
 commands.giveallrecipes.description=^c:F2E200;Give all recipes ^c:FFFFFF;(optional)playerName
 //[Reference] 'Done!'
 commands.giveallrecipes.success=Fertig!
@@ -284,6 +285,12 @@ commands.stealPetals.success={0-player} hat {1-amount} Blütenblätter gestohlen
 commands.stealPetals.success.reset={0-player} ist kein Dieb mehr.
 //[Reference] '{0-player} stole {1-amount} petals. Thief!'
 commands.stealPetals.success.thief={0-player} hat {1-amount} Blütenblätter gestohlen. Dieb!
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;stopTime ^c:FFFFFF;Stops time'
+commands.stopTime.description=Zeit stoppen/fortsetzen
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Time Stopped'
+commands.stopTime.stop=Zeit gestoppt
 commands.sun.description=
 //[Reference] 'Made it a sunny day.'
 commands.sun.success=Es ist nun ein sonniger Tag.
@@ -313,6 +320,12 @@ commands.tileAt.notFound=Fliese nicht gefunden
 commands.tileAt.success.false=Fliesencode: {0-tilecode} bei {1-position} (compoundFiller: false, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})
 //[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
 commands.tileAt.success.true=Fliesencode: {0-tilecode} bei {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})
+//TODO Translate [Reference] '^c:F2E200;toggleTimePassing ^c:FFFFFF;Toggles the passing of time'
+commands.toggleTimePassing.description=
+//TODO Translate [Reference] 'Time Resumed'
+commands.toggleTimePassing.resume=
+//TODO Translate [Reference] 'Time Stopped'
+commands.toggleTimePassing.stop=
 commands.traceStart.description=
 //[Reference] 'Started tracing.'
 commands.traceStart.success=Starte Verfolgung.
