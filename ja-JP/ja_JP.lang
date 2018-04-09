@@ -79,6 +79,8 @@ controlHint.verb.default.Use=使う
 controlHint.verb.Dig=掘る
 //[Reference] 'Fill'
 controlHint.verb.Fill=入れる
+//TODO Translate [Reference] 'Give'
+controlHint.verb.Give=
 //[Reference] 'Inspect'
 controlHint.verb.Inspect=検査する
 //[Reference] 'Launch'
@@ -961,6 +963,8 @@ staxel.category.boil=煮る：
 staxel.category.boiled=茹でたもの
 //[Reference] 'bottle'
 staxel.category.bottle=ビン
+//TODO Translate [Reference] 'bug Display'
+staxel.category.bugDisplay=
 //[Reference] 'butterfly'
 staxel.category.butterfly=バタフライ
 //[Reference] 'Campfire Large'
@@ -1026,6 +1030,8 @@ staxel.category.fey=妖精
 
 //[Reference] 'fine'
 staxel.category.fine=ファイン
+//TODO Translate [Reference] 'fish Display'
+staxel.category.fishDisplay=
 //[Reference] 'fly'
 staxel.category.fly=飛ぶ
 //[Reference] 'fossil'
@@ -1151,6 +1157,8 @@ staxel.category.scaffold=足場
 staxel.category.scaffolding=足場の材料
 //[Reference] 'sea'
 staxel.category.sea=海
+//TODO Translate [Reference] 'seafood'
+staxel.category.seafood=
 //[Reference] 'sheared'
 staxel.category.sheared=刈り込んだもの
 //[Reference] 'sheet'
@@ -1159,6 +1167,8 @@ staxel.category.sheet=シート
 staxel.category.shell=貝
 //[Reference] 'shingles'
 staxel.category.shingles=こけら板
+//TODO Translate [Reference] 'ship'
+staxel.category.ship=
 //[Reference] 'shrimp'
 staxel.category.shrimp=エビ
 //[Reference] 'shrine'
@@ -1169,8 +1179,12 @@ staxel.category.smallBugDisplay=
 staxel.category.smallFishDisplay=
 //[Reference] 'smoothie'
 staxel.category.smoothie=スムージー
+//TODO Translate [Reference] 'snack'
+staxel.category.snack=
 //[Reference] 'snowdust'
 staxel.category.snowdust=スノーダスト
+//TODO Translate [Reference] 'sponge'
+staxel.category.sponge=
 //[Reference] 'standalone'
 staxel.category.standalone=スタンドアロン
 //[Reference] 'star'
@@ -1183,6 +1197,8 @@ staxel.category.StrawberryPieStand=ストロベリーパイスタンド
 staxel.category.sun=太陽
 //[Reference] 'Sunflower'
 staxel.category.Sunflower=ヒマワリ
+//TODO Translate [Reference] 'sushi'
+staxel.category.sushi=
 //[Reference] 'tackle'
 staxel.category.tackle=釣り具
 //[Reference] 'throne'
@@ -1559,6 +1575,14 @@ staxel.crafting.recipes.YellowWoodBlock.name=黄色の木ブロック
 staxel.crafting.recipes.Yoghurt.description=
 //[Reference] 'Yoghurt'
 staxel.crafting.recipes.Yoghurt.name=ヨーグルト
+//TODO Translate [Reference] '{0-name} Recipe'
+staxel.crafting.type.Cooking=
+//TODO Translate [Reference] '{0-name} Blueprint'
+staxel.crafting.type.Crafting=
+//TODO Translate [Reference] 'Recipe for making {0-name}'
+staxel.crafting.type.desc.Cooking=
+//TODO Translate [Reference] 'Blueprint for making {0-name}'
+staxel.crafting.type.desc.Crafting=
 
 //[Reference] 'A brightly coloured beet.'
 staxel.crop.Beet.description=つやつやのビート。
@@ -2186,6 +2210,7 @@ staxel.item.debug.Export.name=エクスポート
 staxel.item.DogLetter.description=ローワンから配達を依頼された手紙。骨の絵が描いてある？
 //[Reference] 'Letter to Farm Fan'
 staxel.item.DogLetter.name=ファームファン宛ての手紙
+//TODO Translate [Reference] 'Soaks up water (stackable)'
 staxel.item.DrySponge.description=
 //TODO Translate [Reference] 'Dry Sponge'
 staxel.item.DrySponge.name=
@@ -2405,6 +2430,26 @@ staxel.item.museum.Fossil.name=磨かれていない化石
 staxel.item.NoteToRowan.description=ローワン宛のメモ。開けない方が良さそう。
 //[Reference] 'Note To Rowan'
 staxel.item.NoteToRowan.name=ローワン宛てのメモ
+//TODO Translate [Reference] 'The blue letter in this bottle isn't addressed to you. You shouldn't peek!'
+staxel.item.quest.Riah.BlueLetterBottle.description=
+//TODO Translate [Reference] 'Letter in a Bottle (Blue)'
+staxel.item.quest.Riah.BlueLetterBottle.name=
+//TODO Translate [Reference] 'The grey letter in this bottle isn't addressed to you. You shouldn't peek!'
+staxel.item.quest.Riah.GreyLetterBottle.description=
+//TODO Translate [Reference] 'Letter in a Bottle (Grey)'
+staxel.item.quest.Riah.GreyLetterBottle.name=
+//TODO Translate [Reference] 'A message in a bottle with a hook stuck in it. Could this be...?'
+staxel.item.quest.Riah.HookedBottle.description=
+//TODO Translate [Reference] 'Hooked Bottle'
+staxel.item.quest.Riah.HookedBottle.name=
+//TODO Translate [Reference] 'Riah wanted you to deliver this to Max.'
+staxel.item.quest.Riah.LetterToMax.description=
+//TODO Translate [Reference] 'Letter To Max'
+staxel.item.quest.Riah.LetterToMax.name=
+//TODO Translate [Reference] 'The red letter in this bottle isn't addressed to you. You shouldn't peek!'
+staxel.item.quest.Riah.RedLetterBottle.description=
+//TODO Translate [Reference] 'Letter in a Bottle (Red)'
+staxel.item.quest.Riah.RedLetterBottle.name=
 //[Reference] 'Rowan asked you to deliver this to Leif'
 staxel.item.RowansOrder.description=レイフに渡すようローワンから頼まれたもの
 //[Reference] 'Rowan's Order'
@@ -2478,7 +2523,8 @@ staxel.merchants.SellBox.name=販売ボックス
 
 //[Reference] 'Tip: Scythe grass or flowers to get mixed seeds'
 staxel.nightTransition.Line1=ヒント：草や花を刈り取ることでシードミックスが手に入ります
-//[Reference] 'Tip: Hold shift to make some inventory actions faster'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Tip: Press shift or the left stick to move stacks on shelves or in the inventory'
 staxel.nightTransition.Line2=ヒント：shiftを押すとインベントリの操作が高速になります
 //[Reference] 'Tip: The seed maker has a chance of giving golden seeds'
 staxel.nightTransition.Line3=ヒント：種生成機を使うと黄金の種が手に入ることがあります
@@ -3599,6 +3645,10 @@ staxel.tileObject.patisserie.VegetablePieStand.name=ベジタブルパイスタ�
 staxel.tileObject.postbox.StandardPostbox.description=
 //[Reference] 'Standard Postbox'
 staxel.tileObject.postbox.StandardPostbox.name=スタンダードの郵便ポスト
+//TODO Translate [Reference] 'These things are always a bit of a mystery. How did it fit?'
+staxel.tileObject.quest.Riah.ShipInABottle.description=
+//TODO Translate [Reference] 'Ship In A Bottle'
+staxel.tileObject.quest.Riah.ShipInABottle.name=
 staxel.tileObject.roofing.black.Black_Flat.description=
 //[Reference] 'Black_Flat'
 staxel.tileObject.roofing.black.Black_Flat.name=Black_Flat

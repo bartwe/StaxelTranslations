@@ -74,6 +74,8 @@ controlHint.verb.default.Use=Kullan
 controlHint.verb.Dig=Kaz
 //[Reference] 'Fill'
 controlHint.verb.Fill=Doldur
+//TODO Translate [Reference] 'Give'
+controlHint.verb.Give=
 //[Reference] 'Inspect'
 controlHint.verb.Inspect=Denetle
 //[Reference] 'Launch'
@@ -926,6 +928,8 @@ staxel.category.boil=kaynat
 staxel.category.boiled=kaynamış
 //TODO Translate [Reference] 'bottle'
 staxel.category.bottle=
+//TODO Translate [Reference] 'bug Display'
+staxel.category.bugDisplay=
 //[Reference] 'butterfly'
 staxel.category.butterfly=kelebek
 //[Reference] 'Campfire Large'
@@ -990,6 +994,8 @@ staxel.category.fertilizer=
 staxel.category.fey=kaçık
 //[Reference] 'fine'
 staxel.category.fine=iyi
+//TODO Translate [Reference] 'fish Display'
+staxel.category.fishDisplay=
 //[Reference] 'fly'
 staxel.category.fly=sinek
 //TODO Translate [Reference] 'fossil'
@@ -1112,6 +1118,8 @@ staxel.category.scaffold=
 staxel.category.scaffolding=
 //[Reference] 'sea'
 staxel.category.sea=deniz
+//TODO Translate [Reference] 'seafood'
+staxel.category.seafood=
 //TODO Translate [Reference] 'sheared'
 staxel.category.sheared=
 //TODO Translate [Reference] 'sheet'
@@ -1120,6 +1128,8 @@ staxel.category.sheet=
 staxel.category.shell=kabuk
 //TODO Translate [Reference] 'shingles'
 staxel.category.shingles=
+//TODO Translate [Reference] 'ship'
+staxel.category.ship=
 //TODO Translate [Reference] 'shrimp'
 staxel.category.shrimp=
 //[Reference] 'shrine'
@@ -1130,8 +1140,12 @@ staxel.category.smallBugDisplay=
 staxel.category.smallFishDisplay=
 //TODO Translate [Reference] 'smoothie'
 staxel.category.smoothie=
+//TODO Translate [Reference] 'snack'
+staxel.category.snack=
 //TODO Translate [Reference] 'snowdust'
 staxel.category.snowdust=
+//TODO Translate [Reference] 'sponge'
+staxel.category.sponge=
 //[Reference] 'standalone'
 staxel.category.standalone=bağımsız
 //[Reference] 'star'
@@ -1144,6 +1158,8 @@ staxel.category.StrawberryPieStand=Çilekli Turta Standı
 staxel.category.sun=Güneş
 //[Reference] 'Sunflower'
 staxel.category.Sunflower=Ayçiçeği
+//TODO Translate [Reference] 'sushi'
+staxel.category.sushi=
 //TODO Translate [Reference] 'tackle'
 staxel.category.tackle=
 //TODO Translate [Reference] 'throne'
@@ -1505,6 +1521,14 @@ staxel.crafting.recipes.YellowWoodBlock.name=
 staxel.crafting.recipes.Yoghurt.description=
 //TODO Translate [Reference] 'Yoghurt'
 staxel.crafting.recipes.Yoghurt.name=
+//TODO Translate [Reference] '{0-name} Recipe'
+staxel.crafting.type.Cooking=
+//TODO Translate [Reference] '{0-name} Blueprint'
+staxel.crafting.type.Crafting=
+//TODO Translate [Reference] 'Recipe for making {0-name}'
+staxel.crafting.type.desc.Cooking=
+//TODO Translate [Reference] 'Blueprint for making {0-name}'
+staxel.crafting.type.desc.Crafting=
 //TODO Translate [Reference] 'A brightly coloured beet.'
 staxel.crop.Beet.description=
 //TODO Translate [Reference] 'Beetroot Seed'
@@ -2124,6 +2148,7 @@ staxel.item.debug.Export.name=
 staxel.item.DogLetter.description=Roawn bunu sana birine teslim etmeni söyledi. Üstüne kemik çizmiş gibi?
 //[Reference] 'Letter to Farm Fan'
 staxel.item.DogLetter.name=Farm Fan'e Mektup
+//TODO Translate [Reference] 'Soaks up water (stackable)'
 staxel.item.DrySponge.description=
 //TODO Translate [Reference] 'Dry Sponge'
 staxel.item.DrySponge.name=
@@ -2336,6 +2361,26 @@ staxel.item.museum.Fossil.name=
 staxel.item.NoteToRowan.description=
 //TODO Translate [Reference] 'Note To Rowan'
 staxel.item.NoteToRowan.name=
+//TODO Translate [Reference] 'The blue letter in this bottle isn't addressed to you. You shouldn't peek!'
+staxel.item.quest.Riah.BlueLetterBottle.description=
+//TODO Translate [Reference] 'Letter in a Bottle (Blue)'
+staxel.item.quest.Riah.BlueLetterBottle.name=
+//TODO Translate [Reference] 'The grey letter in this bottle isn't addressed to you. You shouldn't peek!'
+staxel.item.quest.Riah.GreyLetterBottle.description=
+//TODO Translate [Reference] 'Letter in a Bottle (Grey)'
+staxel.item.quest.Riah.GreyLetterBottle.name=
+//TODO Translate [Reference] 'A message in a bottle with a hook stuck in it. Could this be...?'
+staxel.item.quest.Riah.HookedBottle.description=
+//TODO Translate [Reference] 'Hooked Bottle'
+staxel.item.quest.Riah.HookedBottle.name=
+//TODO Translate [Reference] 'Riah wanted you to deliver this to Max.'
+staxel.item.quest.Riah.LetterToMax.description=
+//TODO Translate [Reference] 'Letter To Max'
+staxel.item.quest.Riah.LetterToMax.name=
+//TODO Translate [Reference] 'The red letter in this bottle isn't addressed to you. You shouldn't peek!'
+staxel.item.quest.Riah.RedLetterBottle.description=
+//TODO Translate [Reference] 'Letter in a Bottle (Red)'
+staxel.item.quest.Riah.RedLetterBottle.name=
 //TODO Translate [Reference] 'Rowan asked you to deliver this to Leif'
 staxel.item.RowansOrder.description=
 //TODO Translate [Reference] 'Rowan's Order'
@@ -2406,7 +2451,7 @@ staxel.merchants.SellBox.description=
 staxel.merchants.SellBox.name=
 //TODO Translate [Reference] 'Tip: Scythe grass or flowers to get mixed seeds'
 staxel.nightTransition.Line1=
-//TODO Translate [Reference] 'Tip: Hold shift to make some inventory actions faster'
+//TODO Translate [Reference] 'Tip: Press shift or the left stick to move stacks on shelves or in the inventory'
 staxel.nightTransition.Line2=
 //TODO Translate [Reference] 'Tip: The seed maker has a chance of giving golden seeds'
 staxel.nightTransition.Line3=
@@ -3511,6 +3556,10 @@ staxel.tileObject.patisserie.VegetablePieStand.name=
 staxel.tileObject.postbox.StandardPostbox.description=
 //TODO Translate [Reference] 'Standard Postbox'
 staxel.tileObject.postbox.StandardPostbox.name=
+//TODO Translate [Reference] 'These things are always a bit of a mystery. How did it fit?'
+staxel.tileObject.quest.Riah.ShipInABottle.description=
+//TODO Translate [Reference] 'Ship In A Bottle'
+staxel.tileObject.quest.Riah.ShipInABottle.name=
 staxel.tileObject.roofing.black.Black_Flat.description=
 //TODO Translate [Reference] 'Black_Flat'
 staxel.tileObject.roofing.black.Black_Flat.name=
