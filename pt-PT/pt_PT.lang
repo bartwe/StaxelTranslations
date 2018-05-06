@@ -20,8 +20,12 @@ catalogue.total=
 commands.debugGraphics.success=
 //TODO Translate [Reference] 'success'
 commands.mail.success=
+//TODO Translate [Reference] 'resume'
+commands.stopTime.resume=
 //TODO Translate [Reference] 'success'
 commands.tripod.success=
+//TODO Translate [Reference] '<?>'
+controlHint.class.Missing=
 //TODO Translate [Reference] 'Break'
 controlHint.verb.Break=
 //TODO Translate [Reference] 'Buy'
@@ -416,6 +420,8 @@ options.gameplay.description=
 options.gameplay.input=
 //TODO Translate [Reference] 'Enable Repeating'
 options.gameplay.input.enableRepeat=
+//TODO Translate [Reference] 'Controls'
+options.gameplay.keyBindings=
 //TODO Translate [Reference] 'Keyboard'
 options.gameplay.keyboard=
 //TODO Translate [Reference] 'Mouse'
@@ -530,6 +536,22 @@ options.general.graphics.ultra=
 options.general.graphics.WeatherParticles=
 //TODO Translate [Reference] 'Language'
 options.general.language=
+//TODO Translate [Reference] 'Controller'
+options.keyBindings.controller=
+//TODO Translate [Reference] 'Gameplay'
+options.keyBindings.gameplay=
+//TODO Translate [Reference] 'Interface'
+options.keyBindings.interface=
+//TODO Translate [Reference] 'Keyboard/Mouse'
+options.keyBindings.keyboard=
+//TODO Translate [Reference] 'Press any key/button or'
+options.keyBindings.pressButton=
+//TODO Translate [Reference] 'press {0} to cancel key binding'
+options.keyBindings.pressToCancel=
+//TODO Translate [Reference] 'press {0} to remove the key binding'
+options.keyBindings.pressToRemove=
+//TODO Translate [Reference] 'Reset to Default Key Bindings'
+options.keyBindings.resetToDefault=
 //TODO Translate [Reference] 'Misc'
 options.misc=
 //TODO Translate [Reference] 'Reset'
@@ -618,10 +640,14 @@ shippingCatalogue.refund=
 shippingCatalogue.viewOrders.description=
 //TODO Translate [Reference] 'You have claimed this shipping station!'
 shippingDock.Claimed=
+//TODO Translate [Reference] 'Advanced'
+singleplayer.advanced=
 //TODO Translate [Reference] 'Copy from'
 singleplayer.baseOff=
 //TODO Translate [Reference] 'Don't copy'
 singleplayer.baseOffCancel=
+//TODO Translate [Reference] 'Basic'
+singleplayer.basic=
 //TODO Translate [Reference] 'Cancel'
 singleplayer.cancel=
 //TODO Translate [Reference] 'Are you certain you want to delete this world?'
@@ -654,12 +680,16 @@ singleplayer.newWorld=
 singleplayer.playWithFriends=
 //TODO Translate [Reference] 'Name'
 singleplayer.serverName=
+//TODO Translate [Reference] 'Seed'
+singleplayer.serverSeed=
 //TODO Translate [Reference] 'Single Player'
 singleplayer.singleplayer=
 //TODO Translate [Reference] 'Storage is in use, lockfile detected.'
 singleplayer.storageLockFile=
 //TODO Translate [Reference] 'Village'
 singleplayer.village=
+//TODO Translate [Reference] 'World Size'
+singleplayer.worldSize=
 //TODO Translate [Reference] 'Controller is available'
 startMenu.controllerReady=
 //TODO Translate [Reference] 'Credits'
@@ -1042,6 +1072,8 @@ staxel.category.jelly=
 staxel.category.kennel=
 //TODO Translate [Reference] 'Knob'
 staxel.category.Knob=
+//TODO Translate [Reference] 'large Display'
+staxel.category.largeDisplay=
 //TODO Translate [Reference] 'Large Fish Display'
 staxel.category.largeFishDisplay=
 //TODO Translate [Reference] 'latch'
@@ -1106,6 +1138,8 @@ staxel.category.PeachPieStand=
 staxel.category.PlainCakeStand=
 //TODO Translate [Reference] 'platform'
 staxel.category.platform=
+//TODO Translate [Reference] 'playpen'
+staxel.category.playpen=
 //TODO Translate [Reference] 'polisher'
 staxel.category.polisher=
 //TODO Translate [Reference] 'poop'
@@ -1146,6 +1180,8 @@ staxel.category.shrimp=
 staxel.category.shrine=
 //TODO Translate [Reference] 'Small Bug Display'
 staxel.category.smallBugDisplay=
+//TODO Translate [Reference] 'small Display'
+staxel.category.smallDisplay=
 //TODO Translate [Reference] 'Small Fish Display'
 staxel.category.smallFishDisplay=
 //TODO Translate [Reference] 'smoothie'
@@ -1382,6 +1418,8 @@ staxel.crafting.recipes.Pancakes.name=
 staxel.crafting.recipes.PetFood.description=
 //TODO Translate [Reference] 'Pet Food'
 staxel.crafting.recipes.PetFood.name=
+//TODO Translate [Reference] 'Pet Store Shelf'
+staxel.crafting.recipes.PetStoreShelf.name=
 staxel.crafting.recipes.Pickets.description=
 //TODO Translate [Reference] 'Pickets'
 staxel.crafting.recipes.Pickets.name=
@@ -1924,6 +1962,62 @@ staxel.gatherable.SwirlyShell.name=
 staxel.gatherable.WhiteMushrooms.description=
 //TODO Translate [Reference] 'White Mushrooms'
 staxel.gatherable.WhiteMushrooms.name=
+//TODO Translate [Reference] 'Interface Letters'
+staxel.inputMappingModality.InterfaceLetters=
+//TODO Translate [Reference] 'Main Down'
+staxel.inputMappingModality.MainDown=
+//TODO Translate [Reference] 'Main Up'
+staxel.inputMappingModality.MainUp=
+//TODO Translate [Reference] 'None'
+staxel.inputMappingModality.None=
+//TODO Translate [Reference] 'No Shift Control Alt'
+staxel.inputMappingModality.NoShiftControlAlt=
+//TODO Translate [Reference] 'Accept'
+staxel.interfaceLogicalButton.Accept=
+//TODO Translate [Reference] 'Back'
+staxel.interfaceLogicalButton.Back=
+//TODO Translate [Reference] 'Down'
+staxel.interfaceLogicalButton.Down=
+//TODO Translate [Reference] 'Enter'
+staxel.interfaceLogicalButton.Enter=
+//TODO Translate [Reference] 'Left'
+staxel.interfaceLogicalButton.Left=
+//TODO Translate [Reference] 'Next'
+staxel.interfaceLogicalButton.Next=
+//TODO Translate [Reference] 'Next Tab'
+staxel.interfaceLogicalButton.NextTab=
+//TODO Translate [Reference] 'Previous'
+staxel.interfaceLogicalButton.Previous=
+//TODO Translate [Reference] 'Previous Tab'
+staxel.interfaceLogicalButton.PreviousTab=
+//TODO Translate [Reference] 'Reset'
+staxel.interfaceLogicalButton.Reset=
+//TODO Translate [Reference] 'Right'
+staxel.interfaceLogicalButton.Right=
+//TODO Translate [Reference] 'Scroll Down'
+staxel.interfaceLogicalButton.ScrollDown=
+//TODO Translate [Reference] 'Scroll Left'
+staxel.interfaceLogicalButton.ScrollLeft=
+//TODO Translate [Reference] 'Scroll Right'
+staxel.interfaceLogicalButton.ScrollRight=
+//TODO Translate [Reference] 'Scroll Up'
+staxel.interfaceLogicalButton.ScrollUp=
+//TODO Translate [Reference] 'Tab1'
+staxel.interfaceLogicalButton.Tab1=
+//TODO Translate [Reference] 'Tab2'
+staxel.interfaceLogicalButton.Tab2=
+//TODO Translate [Reference] 'Tab3'
+staxel.interfaceLogicalButton.Tab3=
+//TODO Translate [Reference] 'Tab4'
+staxel.interfaceLogicalButton.Tab4=
+//TODO Translate [Reference] 'Tab5'
+staxel.interfaceLogicalButton.Tab5=
+//TODO Translate [Reference] 'Tab Down'
+staxel.interfaceLogicalButton.TabDown=
+//TODO Translate [Reference] 'Tab Up'
+staxel.interfaceLogicalButton.TabUp=
+//TODO Translate [Reference] 'Up'
+staxel.interfaceLogicalButton.Up=
 staxel.item.buildingTools.Export.description=
 //TODO Translate [Reference] 'Export'
 staxel.item.buildingTools.Export.name=
@@ -2419,6 +2513,10 @@ staxel.item.quest.Riah.RedLetterBottle.name=
 staxel.item.quest.Riah.RiahsBottledLetter.description=
 //TODO Translate [Reference] 'Riahs Bottled Letter'
 staxel.item.quest.Riah.RiahsBottledLetter.name=
+//TODO Translate [Reference] 'The poor thing. Take it to Rosemary.'
+staxel.item.quest.StrayCat.description=
+//TODO Translate [Reference] 'Stray Cat'
+staxel.item.quest.StrayCat.name=
 //TODO Translate [Reference] 'Rowan asked you to deliver this to Leif'
 staxel.item.RowansOrder.description=
 //TODO Translate [Reference] 'Rowan's Order'
@@ -2442,6 +2540,16 @@ staxel.item.tool.PumpkingScythe.name=
 staxel.item.tool.TaikoHammer.description=
 //TODO Translate [Reference] 'Taiko Hammer'
 staxel.item.tool.TaikoHammer.name=
+//TODO Translate [Reference] '^c:1486b0;$playername;^c:pop;!\n\nI couldn't help overhearing your conversation with ^c:1486b0;Rosemary^c:pop; yesterday (sorry, I wasn't listening on purpose, I swear). See, I was around these parts back then and I swear something wasn't quite right about the whole thing...\n\nMaybe it would be worth having a little wander around the village and seeing if anyone else can remember anything?\n\n^c:1486b0;Farm Fan^c:pop;'
+staxel.mail.FarmFanEavesdrop.body=
+//TODO Translate [Reference] 'Rosemary'
+staxel.mail.FarmFanEavesdrop.subject=
+//TODO Translate [Reference] 'Pet Store'
+staxel.mainQuest.Rosemary.Acquaintance=
+//TODO Translate [Reference] 'Rabbits'
+staxel.mainQuest.Rosemary.Friend=
+//TODO Translate [Reference] 'Rescue Cat'
+staxel.mainQuest.Rosemary.Liked=
 //TODO Translate [Reference] 'Brick'
 staxel.merchant.Brick.name=
 //TODO Translate [Reference] 'Buttons'
@@ -2487,6 +2595,12 @@ staxel.merchants.carts.PetMerchant.name=
 staxel.merchants.SellBox.description=
 //TODO Translate [Reference] 'Sell Box'
 staxel.merchants.SellBox.name=
+//TODO Translate [Reference] 'Left'
+staxel.mouseAxis.Left=
+//TODO Translate [Reference] 'Middle'
+staxel.mouseAxis.Middle=
+//TODO Translate [Reference] 'Right'
+staxel.mouseAxis.Right=
 //TODO Translate [Reference] 'Tip: Scythe grass or flowers to get mixed seeds'
 staxel.nightTransition.Line1=
 //TODO Translate [Reference] 'Tip: Press shift or the left stick to move stacks on shelves or in the inventory'
@@ -3889,6 +4003,14 @@ staxel.tileObject.shop.MarketCube.name=
 staxel.tileObject.shop.MarketCubePole.description=
 //TODO Translate [Reference] 'Market Cube Pole'
 staxel.tileObject.shop.MarketCubePole.name=
+//TODO Translate [Reference] 'A place for pets to play!'
+staxel.tileObject.shop.PetPlaypen.description=
+//TODO Translate [Reference] 'Pet Playpen'
+staxel.tileObject.shop.PetPlaypen.name=
+//TODO Translate [Reference] 'Sells pet store things'
+staxel.tileObject.shop.PetStoreShelf.description=
+//TODO Translate [Reference] 'Pet Store Shelf'
+staxel.tileObject.shop.PetStoreShelf.name=
 staxel.tileObject.shop.ShopCounterNormal.description=
 //TODO Translate [Reference] 'Shop Counter Normal'
 staxel.tileObject.shop.ShopCounterNormal.name=
@@ -4183,6 +4305,10 @@ staxel.tileObject.totems.festival.SnowdustShrine.name=
 staxel.tileObject.totems.MyahLure.description=
 //TODO Translate [Reference] 'M'yah's Summoning Circle'
 staxel.tileObject.totems.MyahLure.name=
+//TODO Translate [Reference] 'A great place to window shop.'
+staxel.tileObject.totems.PetStoreSign.description=
+//TODO Translate [Reference] 'Pet Store Sign'
+staxel.tileObject.totems.PetStoreSign.name=
 staxel.tileObject.totems.RiahMailbox.description=
 //TODO Translate [Reference] 'Riah's Postbox'
 staxel.tileObject.totems.RiahMailbox.name=
@@ -4341,6 +4467,8 @@ staxel.totem.workplace.Museum=
 staxel.totem.workplace.MyahLure=
 //TODO Translate [Reference] 'Patisserie'
 staxel.totem.workplace.Patisserie=
+//TODO Translate [Reference] 'Pet Store'
+staxel.totem.workplace.PetStore=
 //TODO Translate [Reference] 'Tavern'
 staxel.totem.workplace.Tavern=
 //TODO Translate [Reference] 'Town Hall'
@@ -4454,6 +4582,8 @@ staxel.villager.Riah.name=
 staxel.villager.Rosemary.name=
 //TODO Translate [Reference] 'Rowan'
 staxel.villager.Rowan.name=
+//TODO Translate [Reference] 'Stray Cat'
+staxel.villager.Stray Cat.name=
 //TODO Translate [Reference] 'Vorlen'
 staxel.villager.Vorlen.name=
 staxel.weed.Weed1.description=
