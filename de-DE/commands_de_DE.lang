@@ -1,5 +1,9 @@
 language.code=de-DE
 language=Deutsch
+//TODO Translate [Reference] '^c:F2E200;activateMurmur ^c:FFFFFF;murmurCode'
+commands.activateMurmur.description=
+//TODO Translate [Reference] 'Successfully activated {0-murmur}.'
+commands.activateMurmur.success=
 
 //[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)'
 commands.advanceTime.description=^c:F2E200;advanceTime ^c:FFFFFF;Menge(0.0-1.0)
@@ -61,6 +65,12 @@ commands.changeMood.description=^c:F2E200;changeMood ^c:FFFFFF;increase/decrease
 commands.changeMood.success=Laune erfolgreich geändert
 //TODO Translate [Reference] '^c:F2E200;checkMail'
 commands.checkMail.description=
+//TODO Translate [Reference] '^c:F2E200;completeQuest ^c:FFFFFF;questCode villagerName/Code'
+commands.completeQuest.description=
+//TODO Translate [Reference] 'Quest does not exist'
+commands.completeQuest.noSuchQuest=
+//TODO Translate [Reference] 'Quest completed successfuly'
+commands.completeQuest.success=
 //[Reference] '^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)'
 commands.creative.description=^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)
 //[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
@@ -69,6 +79,10 @@ commands.creative.success=Vorübergehend den Kreativ-Modus für {0-user} zu {1-c
 commands.currentTime.description=^c:F2E200;currentTime
 //[Reference] 'The day is {0-day} and phase is {1:G2-phase} ({2-time}).'
 commands.currentTime.success=Es ist Tag {0-day} und die Phase ist {1:G2-phase} ({2-time}).
+//TODO Translate [Reference] '^c:F2E200;deactivateMurmur ^c:FFFFFF;'
+commands.deactivateMurmur.description=
+//TODO Translate [Reference] 'Successfully deactivated {0-murmur} if it existed.'
+commands.deactivateMurmur.success=
 //[Reference] '^c:F2E200;demoMode ^c:FFFFFF;(optional)on(true/false)'
 commands.demoMode.description=^c:F2E200;demoMode ^c:FFFFFF;(optional)on(true/false)
 //[Reference] 'Switched server demo mode to {0-demoMode}'
@@ -353,6 +367,12 @@ commands.unmute.failure=Stummschaltung von {0-player} konnte nicht aufgehoben we
 commands.unmute.success={0-player} kann nun wieder sprechen.
 //[Reference] 'Unrecognised command :'{0-command}''
 commands.unrecognised=Unbekannter Befehl: {0-command}
+//TODO Translate [Reference] '^c:F2E200;unmute ^c:FFFFFF;villagerName/Code amount'
+commands.updateReputation.description=
+//TODO Translate [Reference] 'Reputation updated to {0-newAmount} for villager {1-villagerCode}'
+commands.updateReputation.success=
+//TODO Translate [Reference] 'Villager Entity not found'
+commands.villagerEntityNotFound=
 //[Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
 commands.weather.description=^c:F2E200;Wetter ^c:FFFFFF;Art (Sonne, Regen, Schnee, Sturm oder Wettercode)
 //[Reference] 'Unable to set weather: {0-weather}. Does not exist.'

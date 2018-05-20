@@ -1,5 +1,9 @@
 language.code=fr-FR
 language=Français
+//TODO Translate [Reference] '^c:F2E200;activateMurmur ^c:FFFFFF;murmurCode'
+commands.activateMurmur.description=
+//TODO Translate [Reference] 'Successfully activated {0-murmur}.'
+commands.activateMurmur.success=
 
 //[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)'
 commands.advanceTime.description=advanceTime montant(0.0-1.0)
@@ -61,6 +65,12 @@ commands.changeMood.description=^c:F2E200;changeMood ^c:FFFFFF;augmenter/diminue
 commands.changeMood.success=Humeur changée avec succès
 //TODO Translate [Reference] '^c:F2E200;checkMail'
 commands.checkMail.description=
+//TODO Translate [Reference] '^c:F2E200;completeQuest ^c:FFFFFF;questCode villagerName/Code'
+commands.completeQuest.description=
+//TODO Translate [Reference] 'Quest does not exist'
+commands.completeQuest.noSuchQuest=
+//TODO Translate [Reference] 'Quest completed successfuly'
+commands.completeQuest.success=
 //[Reference] '^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)'
 commands.creative.description=creative (facultatif)nomDuJoueur (facultatif)startCreativeMode(true/false)
 //[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
@@ -69,6 +79,10 @@ commands.creative.success=Le mode créatif du joueur {0-user} a été temporaire
 commands.currentTime.description=^c:F2E200;currentTime
 //[Reference] 'The day is {0-day} and phase is {1:G2-phase} ({2-time}).'
 commands.currentTime.success=Jour actuel : {0-day} - Phase actuelle : {1:G2-phase} ({2-time}).
+//TODO Translate [Reference] '^c:F2E200;deactivateMurmur ^c:FFFFFF;'
+commands.deactivateMurmur.description=
+//TODO Translate [Reference] 'Successfully deactivated {0-murmur} if it existed.'
+commands.deactivateMurmur.success=
 //[Reference] '^c:F2E200;demoMode ^c:FFFFFF;(optional)on(true/false)'
 commands.demoMode.description=demoMode (facultatif)on(true/false)
 //[Reference] 'Switched server demo mode to {0-demoMode}'
@@ -357,6 +371,12 @@ commands.unmute.failure=Impossible de rendre la voix au joueur {0-player} : le j
 commands.unmute.success=Le joueur {0-player} peut à nouveau parler.
 //[Reference] 'Unrecognised command :'{0-command}''
 commands.unrecognised=Commande non reconnue : «{0-command} »
+//TODO Translate [Reference] '^c:F2E200;unmute ^c:FFFFFF;villagerName/Code amount'
+commands.updateReputation.description=
+//TODO Translate [Reference] 'Reputation updated to {0-newAmount} for villager {1-villagerCode}'
+commands.updateReputation.success=
+//TODO Translate [Reference] 'Villager Entity not found'
+commands.villagerEntityNotFound=
 //[Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
 commands.weather.description=^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)
 //[Reference] 'Unable to set weather: {0-weather}. Does not exist.'
