@@ -1,6 +1,5 @@
-language.code=nl-NL
+﻿language.code=nl-NL
 language=Nederlands
-=
 
 //[Reference] 'Achievement unlocked: {0-achievement}!'
 achievements.achievementUnlocked={0-achievement} behaald!
@@ -22,12 +21,12 @@ catalogue.total=Totaal
 commands.debugGraphics.success=succes
 //[Reference] 'success'
 commands.mail.success=succes
-//TODO Translate [Reference] 'resume'
-commands.stopTime.resume=
+//[Reference] 'resume'
+commands.stopTime.resume=hervatten
 //[Reference] 'success'
 commands.tripod.success=succes
-//TODO Translate [Reference] '<?>'
-controlHint.class.Missing=
+//[Reference] '<?>'
+controlHint.class.Missing=<?>
 //[Reference] 'Break'
 controlHint.verb.Break=Breken
 //[Reference] 'Buy'
@@ -154,8 +153,8 @@ crafting.action.keyword.cut=Snijden
 crafting.action.keyword.fry=Frituren
 //[Reference] 'Mix'
 crafting.action.keyword.mix=Mengen
-//TODO Translate [Reference] 'Polish'
-crafting.action.keyword.polish=
+//[Reference] 'Polish'
+crafting.action.keyword.polish=Polijsten
 //[Reference] 'Reap'
 crafting.action.keyword.reap=Zaden oogsten
 //[Reference] 'Saw'
@@ -435,8 +434,8 @@ options.gameplay.description=Instellen gameplay-opties
 options.gameplay.input=Invoer
 //[Reference] 'Enable Repeating'
 options.gameplay.input.enableRepeat=Toetsherhaling aanzetten
-//TODO Translate [Reference] 'Controls'
-options.gameplay.keyBindings=
+//[Reference] 'Controls'
+options.gameplay.keyBindings=Besturing
 //[Reference] 'Keyboard'
 options.gameplay.keyboard=Toetsenbord
 //[Reference] 'Mouse'
@@ -519,11 +518,11 @@ options.general.graphics.medianFilter=Mediaan Filter (Vereist Bloom)
 //[Reference] 'Medium'
 options.general.graphics.medium=Gemiddeld
 //[Reference] 'Window Mode:'
-options.general.graphics.mode=Scherm Modus
+options.general.graphics.mode=Scherm:
 //[Reference] 'Borderless'
 options.general.graphics.mode.borderless=Randloos
 //[Reference] 'Fullscreen'
-options.general.graphics.mode.fullscreen=Volledig Scherm
+options.general.graphics.mode.fullscreen=Volledig
 //[Reference] 'Windowed'
 options.general.graphics.mode.windowed=In Venster
 //[Reference] 'Multi Sampling'
@@ -549,25 +548,25 @@ options.general.graphics.transparentThirdPerson=Doorzichte Speler Avatar
 //[Reference] 'Ultra'
 options.general.graphics.ultra=Ultra
 //[Reference] 'Prevent Indoor Weather'
-options.general.graphics.WeatherParticles=Weerseffecten Binnen Voorkomen
+options.general.graphics.WeatherParticles=Weer Binnen Voorkomen
 //[Reference] 'Language'
 options.general.language=Taal
-//TODO Translate [Reference] 'Controller'
-options.keyBindings.controller=
-//TODO Translate [Reference] 'Gameplay'
-options.keyBindings.gameplay=
-//TODO Translate [Reference] 'Interface'
-options.keyBindings.interface=
-//TODO Translate [Reference] 'Keyboard/Mouse'
-options.keyBindings.keyboard=
-//TODO Translate [Reference] 'Press any key/button or'
-options.keyBindings.pressButton=
-//TODO Translate [Reference] 'press {0} to cancel key binding'
-options.keyBindings.pressToCancel=
-//TODO Translate [Reference] 'press {0} to remove the key binding'
-options.keyBindings.pressToRemove=
-//TODO Translate [Reference] 'Reset to Default Key Bindings'
-options.keyBindings.resetToDefault=
+//[Reference] 'Controller'
+options.keyBindings.controller=Controller
+//[Reference] 'Gameplay'
+options.keyBindings.gameplay=Gameplay
+//[Reference] 'Interface'
+options.keyBindings.interface=Interface
+//[Reference] 'Keyboard/Mouse'
+options.keyBindings.keyboard=Toetsenbord/Muis
+//[Reference] 'Press any key/button or'
+options.keyBindings.pressButton=Druk een toets/knop of
+//[Reference] 'press {0} to cancel key binding'
+options.keyBindings.pressToCancel=druk {0} om toetsenbinding te annuleren
+//[Reference] 'press {0} to remove the key binding'
+options.keyBindings.pressToRemove=druk {0} om toetsenbinding te verwijderen
+//[Reference] 'Reset to Default Key Bindings'
+options.keyBindings.resetToDefault=Terugzetten naar Standaard Toetsenbindingen
 //[Reference] 'Misc'
 options.misc=Overige
 //[Reference] 'Reset'
@@ -660,14 +659,14 @@ shippingCatalogue.refund=Je hebt {0-amount} bloemblaadjes teruggekregen
 shippingCatalogue.viewOrders.description=Check of annuleer je bestelling hier
 //[Reference] 'You have claimed this shipping station!'
 shippingDock.Claimed=Je hebt dit verzendstation opgeëist!
-//TODO Translate [Reference] 'Advanced'
-singleplayer.advanced=
+//[Reference] 'Advanced'
+singleplayer.advanced=Geavanceerd
 //[Reference] 'Copy from'
 singleplayer.baseOff=Kopieer van
 //[Reference] 'Don't copy'
 singleplayer.baseOffCancel=Kopieer niet van
-//TODO Translate [Reference] 'Basic'
-singleplayer.basic=
+//[Reference] 'Basic'
+singleplayer.basic=Basis
 //[Reference] 'Cancel'
 singleplayer.cancel=Annuleren
 //[Reference] 'Are you certain you want to delete this world?'
@@ -700,16 +699,16 @@ singleplayer.newWorld=Nieuwe Wereld
 singleplayer.playWithFriends=Speel Met Vrienden
 //[Reference] 'Name'
 singleplayer.serverName=Naam
-//TODO Translate [Reference] 'Seed'
-singleplayer.serverSeed=
+//[Reference] 'Seed'
+singleplayer.serverSeed=Wereldcode
 //[Reference] 'Single Player'
 singleplayer.singleplayer=Enkele Speler
 //[Reference] 'Storage is in use, lockfile detected.'
 singleplayer.storageLockFile=Opslag is in gebruik, gesloten bestand gedetecteerd.
 //[Reference] 'Village'
 singleplayer.village=Dorp
-//TODO Translate [Reference] 'World Size'
-singleplayer.worldSize=
+//[Reference] 'World Size'
+singleplayer.worldSize=Wereld Grootte
 //[Reference] 'Controller is available'
 startMenu.controllerReady=Controller is beschikbaar
 
@@ -726,143 +725,143 @@ startMenu.serverList=Serverlijst
 //[Reference] 'Single Player'
 startMenu.singlePlayer=Enkele Speler
 staxel.accessories.characters.accessories.achievements.BeachSandals.description=
-//TODO Translate [Reference] 'Beach Sandals'
-staxel.accessories.characters.accessories.achievements.BeachSandals.name=
+//[Reference] 'Beach Sandals'
+staxel.accessories.characters.accessories.achievements.BeachSandals.name=Strans Sandalen
 staxel.accessories.characters.accessories.achievements.BeeHat.description=
-//TODO Translate [Reference] 'Bee Hat'
-staxel.accessories.characters.accessories.achievements.BeeHat.name=
+//[Reference] 'Bee Hat'
+staxel.accessories.characters.accessories.achievements.BeeHat.name=Bij Hoed
 staxel.accessories.characters.accessories.achievements.ChefHat.description=
-//TODO Translate [Reference] 'Chef Hat'
-staxel.accessories.characters.accessories.achievements.ChefHat.name=
+//[Reference] 'Chef Hat'
+staxel.accessories.characters.accessories.achievements.ChefHat.name=Kok Hoed
 staxel.accessories.characters.accessories.achievements.ConstructionHat.description=
-//TODO Translate [Reference] 'Construction Hat'
-staxel.accessories.characters.accessories.achievements.ConstructionHat.name=
+//[Reference] 'Construction Hat'
+staxel.accessories.characters.accessories.achievements.ConstructionHat.name=Bouw Hoed
 staxel.accessories.characters.accessories.achievements.EggHat.description=
-//TODO Translate [Reference] 'Egg Hat'
-staxel.accessories.characters.accessories.achievements.EggHat.name=
+//[Reference] 'Egg Hat'
+staxel.accessories.characters.accessories.achievements.EggHat.name=Ei Hoed
 staxel.accessories.characters.accessories.achievements.FishingHat.description=
-//TODO Translate [Reference] 'Fishing Hat'
-staxel.accessories.characters.accessories.achievements.FishingHat.name=
+//[Reference] 'Fishing Hat'
+staxel.accessories.characters.accessories.achievements.FishingHat.name=Vis Hoed
 staxel.accessories.characters.accessories.achievements.GrassSkirt.description=
-//TODO Translate [Reference] 'Grass Skirt'
-staxel.accessories.characters.accessories.achievements.GrassSkirt.name=
+//[Reference] 'Grass Skirt'
+staxel.accessories.characters.accessories.achievements.GrassSkirt.name=Gras Rok
 staxel.accessories.characters.accessories.achievements.LumberJackShirt.description=
-//TODO Translate [Reference] 'Lumber Jack Shirt'
-staxel.accessories.characters.accessories.achievements.LumberJackShirt.name=
+//[Reference] 'Lumber Jack Shirt'
+staxel.accessories.characters.accessories.achievements.LumberJackShirt.name=Houthakker Shirt
 staxel.accessories.characters.accessories.achievements.MilkmanHat.description=
-//TODO Translate [Reference] 'Milkman Hat'
-staxel.accessories.characters.accessories.achievements.MilkmanHat.name=
+//[Reference] 'Milkman Hat'
+staxel.accessories.characters.accessories.achievements.MilkmanHat.name=Melkman Hoed
 staxel.accessories.characters.accessories.achievements.MiningHelmet.description=
-//TODO Translate [Reference] 'Mining Helmet'
-staxel.accessories.characters.accessories.achievements.MiningHelmet.name=
+//[Reference] 'Mining Helmet'
+staxel.accessories.characters.accessories.achievements.MiningHelmet.name=Mijn Helm
 staxel.accessories.characters.accessories.achievements.MushroomHat.description=
-//TODO Translate [Reference] 'Mushroom Hat'
-staxel.accessories.characters.accessories.achievements.MushroomHat.name=
+//[Reference] 'Mushroom Hat'
+staxel.accessories.characters.accessories.achievements.MushroomHat.name=Paddenstoel Hoed
 staxel.accessories.characters.accessories.achievements.StrawFarmerHat.description=
-//TODO Translate [Reference] 'Straw Farmer Hat'
-staxel.accessories.characters.accessories.achievements.StrawFarmerHat.name=
+//[Reference] 'Straw Farmer Hat'
+staxel.accessories.characters.accessories.achievements.StrawFarmerHat.name=Boeren Hoed van Stro
 staxel.accessories.characters.accessories.achievements.WoolJumper.description=
-//TODO Translate [Reference] 'Wool Jumper'
-staxel.accessories.characters.accessories.achievements.WoolJumper.name=
+//[Reference] 'Wool Jumper'
+staxel.accessories.characters.accessories.achievements.WoolJumper.name=Wollen Jumper
 staxel.accessories.characters.accessories.animalhats.FrogHat_paletted.description=
-//TODO Translate [Reference] 'Frog Hat'
-staxel.accessories.characters.accessories.animalhats.FrogHat_paletted.name=
+//[Reference] 'Frog Hat'
+staxel.accessories.characters.accessories.animalhats.FrogHat_paletted.name=Kikker Hoed
 staxel.accessories.characters.accessories.animalhats.UnicornHat_paletted.description=
-//TODO Translate [Reference] 'Unicorn Hat'
-staxel.accessories.characters.accessories.animalhats.UnicornHat_paletted.name=
+//[Reference] 'Unicorn Hat'
+staxel.accessories.characters.accessories.animalhats.UnicornHat_paletted.name=Eenhoorn Hoed
 staxel.accessories.characters.accessories.festival.FlowerCrown.description=
-//TODO Translate [Reference] 'Flower Crown'
-staxel.accessories.characters.accessories.festival.FlowerCrown.name=
+//[Reference] 'Flower Crown'
+staxel.accessories.characters.accessories.festival.FlowerCrown.name=Bloemen Kroon
 staxel.accessories.characters.accessories.festival.KabutoHelmet.description=
-//TODO Translate [Reference] 'Kabuto Helmet'
-staxel.accessories.characters.accessories.festival.KabutoHelmet.name=
+//[Reference] 'Kabuto Helmet'
+staxel.accessories.characters.accessories.festival.KabutoHelmet.name=Kabuto Helm
 staxel.accessories.characters.accessories.halloween.PumpkingHat.description=
-//TODO Translate [Reference] 'Pumpking Hat'
-staxel.accessories.characters.accessories.halloween.PumpkingHat.name=
+//[Reference] 'Pumpking Hat'
+staxel.accessories.characters.accessories.halloween.PumpkingHat.name=Pompoen Hoed
 staxel.accessories.characters.accessories.halloween.pumpkinhat.PumpkinHat.description=
-//TODO Translate [Reference] 'Pumpkin Hat'
-staxel.accessories.characters.accessories.halloween.pumpkinhat.PumpkinHat.name=
+//[Reference] 'Pumpkin Hat'
+staxel.accessories.characters.accessories.halloween.pumpkinhat.PumpkinHat.name=Pompoen Hoed
 staxel.accessories.characters.accessories.hats.christmas.ReindeerAntlers.description=
-//TODO Translate [Reference] 'Reindeer Antlers'
-staxel.accessories.characters.accessories.hats.christmas.ReindeerAntlers.name=
+//[Reference] 'Reindeer Antlers'
+staxel.accessories.characters.accessories.hats.christmas.ReindeerAntlers.name=Rendier Gewei
 staxel.accessories.characters.accessories.hats.christmas.SantaHat.description=
-//TODO Translate [Reference] 'Santa Hat'
-staxel.accessories.characters.accessories.hats.christmas.SantaHat.name=
+//[Reference] 'Santa Hat'
+staxel.accessories.characters.accessories.hats.christmas.SantaHat.name=Kerstman Hoed
 staxel.accessories.characters.accessories.hats.pirate.Bandana.description=
-//TODO Translate [Reference] 'Bandana'
-staxel.accessories.characters.accessories.hats.pirate.Bandana.name=
+//[Reference] 'Bandana'
+staxel.accessories.characters.accessories.hats.pirate.Bandana.name=Bandana
 staxel.accessories.characters.accessories.hats.pirate.EyePatch.description=
-//TODO Translate [Reference] 'EyePatch'
-staxel.accessories.characters.accessories.hats.pirate.EyePatch.name=
+//[Reference] 'EyePatch'
+staxel.accessories.characters.accessories.hats.pirate.EyePatch.name=Ooglap
 staxel.accessories.characters.accessories.hats.pirate.PirateHat.description=
-//TODO Translate [Reference] 'PirateHat'
-staxel.accessories.characters.accessories.hats.pirate.PirateHat.name=
+//[Reference] 'PirateHat'
+staxel.accessories.characters.accessories.hats.pirate.PirateHat.name=Piraten Hoed
 staxel.accessories.explorer.Hat.description=
-//TODO Translate [Reference] 'Explorer's Hat'
-staxel.accessories.explorer.Hat.name=
+//[Reference] 'Explorer's Hat'
+staxel.accessories.explorer.Hat.name= Verkenner Hoed
 staxel.accessories.explorer.Shirt.description=
-//TODO Translate [Reference] 'Explorer's Shirt'
-staxel.accessories.explorer.Shirt.name=
+//[Reference] 'Explorer's Shirt'
+staxel.accessories.explorer.Shirt.name=Verkenner Shirt
 staxel.accessories.explorer.Shoes.description=
-//TODO Translate [Reference] 'Explorer's Shoes'
-staxel.accessories.explorer.Shoes.name=
+//[Reference] 'Explorer's Shoes'
+staxel.accessories.explorer.Shoes.name=Verkenner Schoenen
 staxel.accessories.explorer.Trousers.description=
-//TODO Translate [Reference] 'Explorer's Trousers'
-staxel.accessories.explorer.Trousers.name=
+//[Reference] 'Explorer's Trousers'
+staxel.accessories.explorer.Trousers.name=Verkenner Broek
 staxel.accessories.fullBodyOutfits.villager.Aliza.description=
-//TODO Translate [Reference] 'Aliza'
-staxel.accessories.fullBodyOutfits.villager.Aliza.name=
+//[Reference] 'Aliza'
+staxel.accessories.fullBodyOutfits.villager.Aliza.name=Aliza
 staxel.accessories.fullBodyOutfits.villager.Cecile.description=
-//TODO Translate [Reference] 'Cecile'
-staxel.accessories.fullBodyOutfits.villager.Cecile.name=
+//[Reference] 'Cecile'
+staxel.accessories.fullBodyOutfits.villager.Cecile.name=Cecile
 staxel.accessories.fullBodyOutfits.villager.Cirahna.description=
-//TODO Translate [Reference] 'Cirahna'
-staxel.accessories.fullBodyOutfits.villager.Cirahna.name=
+//[Reference] 'Cirahna'
+staxel.accessories.fullBodyOutfits.villager.Cirahna.name=Cirahna
 staxel.accessories.fullBodyOutfits.villager.Emilia.description=
-//TODO Translate [Reference] 'Emilia'
-staxel.accessories.fullBodyOutfits.villager.Emilia.name=
+//[Reference] 'Emilia'
+staxel.accessories.fullBodyOutfits.villager.Emilia.name=Emilia
 staxel.accessories.fullBodyOutfits.villager.Eris.description=
-//TODO Translate [Reference] 'Eris'
-staxel.accessories.fullBodyOutfits.villager.Eris.name=
+//[Reference] 'Eris'
+staxel.accessories.fullBodyOutfits.villager.Eris.name=Eris
 staxel.accessories.fullBodyOutfits.villager.festival.Ami.description=
-//TODO Translate [Reference] 'Ami'
-staxel.accessories.fullBodyOutfits.villager.festival.Ami.name=
+//[Reference] 'Ami'
+staxel.accessories.fullBodyOutfits.villager.festival.Ami.name=Ami
 staxel.accessories.fullBodyOutfits.villager.festival.Caren.description=
-//TODO Translate [Reference] 'Caren'
-staxel.accessories.fullBodyOutfits.villager.festival.Caren.name=
+//[Reference] 'Caren'
+staxel.accessories.fullBodyOutfits.villager.festival.Caren.name=Caren
 staxel.accessories.fullBodyOutfits.villager.festival.DefinitelyNotRiah.description=
-//TODO Translate [Reference] 'Definitely Not Riah'
-staxel.accessories.fullBodyOutfits.villager.festival.DefinitelyNotRiah.name=
+//[Reference] 'Definitely Not Riah'
+staxel.accessories.fullBodyOutfits.villager.festival.DefinitelyNotRiah.name=Zeker Niet Riah
 staxel.accessories.fullBodyOutfits.villager.festival.EmiliaFeyMasquerade.description=
-//TODO Translate [Reference] 'Emilia Fey Masquerade'
+//[Reference] 'Emilia Fey Masquerade'
 staxel.accessories.fullBodyOutfits.villager.festival.EmiliaFeyMasquerade.name=
 staxel.accessories.fullBodyOutfits.villager.festival.FeyQueen.description=
-//TODO Translate [Reference] 'Fey Queen'
+//[Reference] 'Fey Queen'
 staxel.accessories.fullBodyOutfits.villager.festival.FeyQueen.name=
 staxel.accessories.fullBodyOutfits.villager.festival.NotRiah.description=
-//TODO Translate [Reference] 'Not Riah'
-staxel.accessories.fullBodyOutfits.villager.festival.NotRiah.name=
+//[Reference] 'Not Riah'
+staxel.accessories.fullBodyOutfits.villager.festival.NotRiah.name=Niet Riah
 staxel.accessories.fullBodyOutfits.villager.Jamie.description=
-//TODO Translate [Reference] 'Jamie'
-staxel.accessories.fullBodyOutfits.villager.Jamie.name=
+//[Reference] 'Jamie'
+staxel.accessories.fullBodyOutfits.villager.Jamie.name=Jamie
 staxel.accessories.fullBodyOutfits.villager.Leif.description=
-//TODO Translate [Reference] 'Leif'
-staxel.accessories.fullBodyOutfits.villager.Leif.name=
+//[Reference] 'Leif'
+staxel.accessories.fullBodyOutfits.villager.Leif.name=Leif
 staxel.accessories.fullBodyOutfits.villager.MayorMax.description=
-//TODO Translate [Reference] 'Mayor Max'
-staxel.accessories.fullBodyOutfits.villager.MayorMax.name=
+//[Reference] 'Mayor Max'
+staxel.accessories.fullBodyOutfits.villager.MayorMax.name=Burgemeester Max
 staxel.accessories.fullBodyOutfits.villager.Riah.description=
-//TODO Translate [Reference] 'Riah'
-staxel.accessories.fullBodyOutfits.villager.Riah.name=
+//[Reference] 'Riah'
+staxel.accessories.fullBodyOutfits.villager.Riah.name=Riah
 staxel.accessories.fullBodyOutfits.villager.Rosemary.description=
-//TODO Translate [Reference] 'Rosemary'
-staxel.accessories.fullBodyOutfits.villager.Rosemary.name=
+//[Reference] 'Rosemary'
+staxel.accessories.fullBodyOutfits.villager.Rosemary.name=Rosemary
 staxel.accessories.fullBodyOutfits.villager.Rowan.description=
-//TODO Translate [Reference] 'Rowan'
-staxel.accessories.fullBodyOutfits.villager.Rowan.name=
+//[Reference] 'Rowan'
+staxel.accessories.fullBodyOutfits.villager.Rowan.name=Rowan
 staxel.accessories.fullBodyOutfits.villager.Vorlen.description=
-//TODO Translate [Reference] 'Vorlen'
-staxel.accessories.fullBodyOutfits.villager.Vorlen.name=
+//[Reference] 'Vorlen'
+staxel.accessories.fullBodyOutfits.villager.Vorlen.name=Vorlen
 staxel.accessories.helmets.mecha.Mecha_Classic.description=
 //TODO Translate [Reference] 'Mecha_Classic'
 staxel.accessories.helmets.mecha.Mecha_Classic.name=
@@ -1179,16 +1178,16 @@ staxel.category.poop=poep
 staxel.category.popcorn=popcorn
 //[Reference] 'porridge'
 staxel.category.porridge=pap
-//TODO Translate [Reference] 'rabbit'
-staxel.category.rabbit=
+//Translate [Reference] 'rabbit'
+staxel.category.rabbit=konijn
 //[Reference] 'rack'
 staxel.category.rack=rek
-//TODO Translate [Reference] 'Raw Wood'
-staxel.category.rawWood=
+//[Reference] 'Raw Wood'
+staxel.category.rawWood=Onbewerkt hout
 //[Reference] 'rice'
 staxel.category.rice=rijst
-//TODO Translate [Reference] 'sack'
-staxel.category.sack=
+//[Reference] 'sack'
+staxel.category.sack=zak
 //[Reference] 'salad'
 staxel.category.salad=salade
 //[Reference] 'sawing'
@@ -1197,8 +1196,8 @@ staxel.category.sawing=zagerij
 staxel.category.scaffold=stijger
 //[Reference] 'scaffolding'
 staxel.category.scaffolding=stijgerwerk
-//TODO Translate [Reference] 'science'
-staxel.category.science=
+//[Reference] 'science'
+staxel.category.science=wetenschap
 //[Reference] 'sea'
 staxel.category.sea=zee
 //[Reference] 'seafood'
@@ -1219,8 +1218,8 @@ staxel.category.shrimp=garnaal
 staxel.category.shrine=tempel
 //[Reference] 'Small Bug Display'
 staxel.category.smallBugDisplay=Kleine Beestje Etalage
-//TODO Translate [Reference] 'small Display'
-staxel.category.smallDisplay=
+//[Reference] 'small Display'
+staxel.category.smallDisplay=Kleine Etalage
 //[Reference] 'Small Fish Display'
 staxel.category.smallFishDisplay=Kleine Vis Etalage
 //[Reference] 'smoothie'
@@ -1257,14 +1256,14 @@ staxel.category.upside down straight roof=recht dak op zijn kop
 staxel.category.varnish=lak
 //[Reference] 'Vegetable Pie Stand'
 staxel.category.VegetablePieStand=Groetentaart Plateau
-//TODO Translate [Reference] 'wand'
-staxel.category.wand=
+//[Reference] 'wand'
+staxel.category.wand=toverstaf
 //[Reference] 'washer'
 staxel.category.washer=wasser
 //[Reference] 'washing'
 staxel.category.washing=wassend
-//TODO Translate [Reference] 'wedding'
-staxel.category.wedding=
+//[Reference] 'wedding'
+staxel.category.wedding=huwelijk
 //[Reference] '???'
 staxel.collections.unknown=???
 
@@ -1272,10 +1271,10 @@ staxel.core.Compound.description=
 //TODO Translate [Reference] 'Compound'
 staxel.core.Compound.name=
 //TODO Translate [Reference] 'Airship Parts'
-staxel.crafting.recipes.AirshipParts.name=
+staxel.crafting.recipes.AirshipParts.name=Luchtschip Onderdelen
 staxel.crafting.recipes.Apiary.description=
 //TODO Translate [Reference] 'Apiary'
-staxel.crafting.recipes.Apiary.name=
+staxel.crafting.recipes.Apiary.name=Bijenkorf
 staxel.crafting.recipes.AppleBananaSmoothie.description=
 //TODO Translate [Reference] 'AppleBananaSmoothie'
 staxel.crafting.recipes.AppleBananaSmoothie.name=
@@ -2787,9 +2786,8 @@ staxel.mouseAxis.Right=
 
 //[Reference] 'Tip: Scythe grass or flowers to get mixed seeds'
 staxel.nightTransition.Line1=Tip: Gebruik je zeis op gras of bloemen om gemengde zaden te krijgen
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Tip: Press shift or the left stick to move stacks on shelves or in the inventory'
-staxel.nightTransition.Line2=Tip: Houd SHIFT ingedrukt om een ​​aantal inventarisacties sneller te maken
+staxel.nightTransition.Line2=Tip: Houd shift of de linker stick ingedrukt om stapels op planken of inventaris te plaatsen
 //[Reference] 'Tip: The seed maker has a chance of giving golden seeds'
 staxel.nightTransition.Line3=Tip: Er is een kans dat de zaadmaker gouden zaden geeft
 //TODO Translate [Reference] 'Tip: You can craft capture crates to move your animals around'
@@ -4753,80 +4751,65 @@ staxel.totemInfo.tier=
 staxel.totemInfo.tierRequirements=
 //TODO Translate [Reference] 'Toggle Region Display'
 staxel.totems.toggleboundary=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'This tree grows juicy, crunchy apples. Fruits in Autumn.'
-staxel.tree.AppleTree.description=Aan deze boom groeien sappige appels.
-//[Validate] Delete this comment if or when the translation is accurate.
+staxel.tree.AppleTree.description=Aan deze boom groeien sappige, knapperige appels. Draagt in de herfst.
 //[Reference] 'Apple Tree Seed'
-staxel.tree.AppleTree.name=Appelboom
-//[Validate] Delete this comment if or when the translation is accurate.
+staxel.tree.AppleTree.name=Appelboom Zaad
 //[Reference] 'This tree grows yummy bananas. Fruits in Summer.'
-staxel.tree.BananaTree.description=Aan deze boom groeien heerlijke bananen.
+staxel.tree.BananaTree.description=Aan deze boom groeien heerlijke bananen. Draagt in de zomer.
 //[Reference] 'Banana Tree Seed'
-staxel.tree.BananaTree.name=Bananenboom
+staxel.tree.BananaTree.name=Bananenboom Zaad
 staxel.tree.BasicNaturalTree.description=
-//TODO Translate [Reference] 'Basic Natural Tree'
-staxel.tree.BasicNaturalTree.name=
-//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Basic Natural Tree'
+staxel.tree.BasicNaturalTree.name=Normale Natuurlijke Boom
 //[Reference] 'This tree grows sweet sweet cherries. Fruits in Autumn.'
-staxel.tree.CherryTree.description=Aan deze boom groeien zoete kersen.
+staxel.tree.CherryTree.description=Aan deze boom groeien zoete zoete kersen. Draagt in de herfst.
 //[Reference] 'Cherry Tree Seed'
-staxel.tree.CherryTree.name=Kerseboom
-//[Validate] Delete this comment if or when the translation is accurate.
+staxel.tree.CherryTree.name=Kersenboom Zaad
 //[Reference] 'Chocolate does grow on trees! Fruits in Summer.'
-staxel.tree.CocoaTree.description=Chocolade groeit dus toch aan bomen...
+staxel.tree.CocoaTree.description=Chocolade groeit dus toch aan bomen! Draagt in de zomer.
 //[Reference] 'Cocoa Tree Seed'
-staxel.tree.CocoaTree.name=Cacaoboom
-//[Validate] Delete this comment if or when the translation is accurate.
+staxel.tree.CocoaTree.name=Cacaoboom Zaad
 //[Reference] 'This palm tree grows coconuts, mind your head! Fruits in Spring, Summer, and Autumn.'
-staxel.tree.CoconutTree.description=Aan deze palmboom groeien kokosnoten, kijk uit malloot!
+staxel.tree.CoconutTree.description=Aan deze palmboom groeien kokosnoten, kijk uit voor je hoofd! Draagt in de lente, zomer en herfst.
 //[Reference] 'Coconut Tree Seed'
-staxel.tree.CoconutTree.name=Kokosnoot Boom
-//[Validate] Delete this comment if or when the translation is accurate.
+staxel.tree.CoconutTree.name=Kokosnoot Boom Zaad
 //[Reference] 'This tree grows the strange, alien looking dragonfruit. Fruits in Autumn.'
-staxel.tree.DragonFruitTree.description=Aan deze boom groeit het vreemde, buitenaards ogende drakenfruit.
+staxel.tree.DragonFruitTree.description=Aan deze boom groeit het vreemde, buitenaards ogende drakenfruit. Draagt in de herfst.
 //[Reference] 'Dragon Fruit Tree Seed'
-staxel.tree.DragonFruitTree.name=Drakenfruit Boom
-//[Validate] Delete this comment if or when the translation is accurate.
+staxel.tree.DragonFruitTree.name=Drakenfruit Boom Zaad
 //[Reference] 'This tree grows sublime kiwis. Fruits in Autumn.'
-staxel.tree.KiwiTree.description=Aan deze boom groeien geweldige kiwi's.
+staxel.tree.KiwiTree.description=Aan deze boom groeien geweldige kiwi's. Draagt in de herfst.
 //[Reference] 'Kiwi Tree Seed'
-staxel.tree.KiwiTree.name=Kiwi Boom
-//[Validate] Delete this comment if or when the translation is accurate.
+staxel.tree.KiwiTree.name=Kiwi Boom Zaad
 //[Reference] 'A tree that grows sour and juicy lemons. Fruits in Spring.'
-staxel.tree.LemonTree.description=Een boom waaraan zure en sappige citroenen groeien.
+staxel.tree.LemonTree.description=Een boom waaraan zure en sappige citroenen groeien. Draagt in de lente.
 //[Reference] 'Lemon Tree Seed'
-staxel.tree.LemonTree.name=Citroen Boom
-//[Validate] Delete this comment if or when the translation is accurate.
+staxel.tree.LemonTree.name=Citroen Boom Zaad
 //[Reference] 'A tree that produces bright green and zingy limes. Fruits in Spring.'
-staxel.tree.LimeTree.description=Een boom die heldergroene en sappige limoenen geeft.
+staxel.tree.LimeTree.description=Een boom die heldergroene en sprankelende limoenen geeft. Draagt in de lente.
 //[Reference] 'Lime Tree Seed'
-staxel.tree.LimeTree.name=Limoen Boom
-//[Validate] Delete this comment if or when the translation is accurate.
+staxel.tree.LimeTree.name=Limoen Boom Zaad
 //[Reference] 'A tree that grows a delicious soft fruit. Fruits in Spring.'
-staxel.tree.MangoTree.description=Deze bomen geven een heerlijk zacht fruit.
+staxel.tree.MangoTree.description=Deze bomen geven een heerlijk zacht fruit. Draagt in de lente.
 //[Reference] 'Mango Tree Seed'
-staxel.tree.MangoTree.name=Mango Boom
-//[Validate] Delete this comment if or when the translation is accurate.
+staxel.tree.MangoTree.name=Mango Boom Zaad
 //[Reference] 'With this tree you'll never run out of orange juice. Fruits in Spring.'
-staxel.tree.OrangeTree.description=Met deze boom zit je nooit zonder sinaasappelsap.
+staxel.tree.OrangeTree.description=Met deze boom zit je nooit zonder sinaasappelsap. Draagt in de lente.
 //[Reference] 'Orange Tree Seed'
-staxel.tree.OrangeTree.name=Sinaasappel Boom
-//[Validate] Delete this comment if or when the translation is accurate.
+staxel.tree.OrangeTree.name=Sinaasappel Boom Zaad
 //[Reference] 'This tree grows succulent peaches. Fruits in Summer.'
-staxel.tree.PeachTree.description=Aan deze boom groeien sappige perziken.
+staxel.tree.PeachTree.description=Aan deze boom groeien sappige perziken. Draagt in de zomer.
 //[Reference] 'Peach Tree Seed'
-staxel.tree.PeachTree.name=Perzik Boom
-//[Validate] Delete this comment if or when the translation is accurate.
+staxel.tree.PeachTree.name=Perzik Boom Zaad
 //[Reference] 'Pears are like longer apples. Fruits in Winter.'
-staxel.tree.PearTree.description=Peren zijn als lange appels.
+staxel.tree.PearTree.description=Peren zijn als lange appels. Draagt in de winter.
 //[Reference] 'Pear Tree Seed'
-staxel.tree.PearTree.name=Peren Boom
-//[Validate] Delete this comment if or when the translation is accurate.
+staxel.tree.PearTree.name=Peren Boom Zaad
 //[Reference] 'This tree grows tangerines, not oranges. Fruits in Winter.'
-staxel.tree.TangerineTree.description=Aan deze boom groeien mandarijnen, geen sinaasappels.
+staxel.tree.TangerineTree.description=Aan deze boom groeien mandarijnen, geen sinaasappels. Draagt in de winter.
 //[Reference] 'Tangerine Tree'
-staxel.tree.TangerineTree.name=Mandarijn Boom
+staxel.tree.TangerineTree.name=Mandarijn Boom Zaad
 staxel.village.dialogue.ForestBunnyGiveItem.=
 //TODO Translate [Reference] '...'
 staxel.village.dialogue.ForestBunnyGiveItem.line:10000101=
