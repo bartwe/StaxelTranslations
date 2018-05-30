@@ -434,6 +434,8 @@ options.gameplay.mouse.flipWheelDirection=Инвертировать напра�
 options.gameplay.mouse.flipY=Инвертировать ось Y
 //[Reference] 'Mouse Velocity:'
 options.gameplay.mouse.mouseVelocity=Чувствительность мыши:
+//TODO Translate [Reference] 'Smoothing'
+options.gameplay.mouse.smoothingFactor=
 //[Reference] 'Other'
 options.gameplay.other=Другое
 //[Reference] 'Active Achievement Tracker'
@@ -484,12 +486,18 @@ options.general.graphics.autoDetect=Автонастройка графики
 options.general.graphics.bloom=Размытие
 //[Reference] 'Borderless Window'
 options.general.graphics.borderless=Окно без рамки
+//TODO Translate [Reference] 'Brightness'
+options.general.graphics.brightness=
 //[Reference] 'Camera Distance:'
 options.general.graphics.cameraDistance=Отдаление камеры:
+//TODO Translate [Reference] 'Contrast'
+options.general.graphics.contrast=
 //[Reference] 'Field Of View:'
 options.general.graphics.fieldOfView=Область обзора:
 //[Reference] 'Fullscreen'
 options.general.graphics.fullscreen=Полный экран
+//TODO Translate [Reference] 'Gamma'
+options.general.graphics.gamma=
 //[Reference] 'Half Resolution'
 options.general.graphics.halfResolution=Половинное разрешение
 //[Reference] 'High'
@@ -516,6 +524,10 @@ options.general.graphics.mode.windowed=В окне
 options.general.graphics.MultiSampling=Множественная выборка сглаживания
 //[Reference] 'Reduced View Range'
 options.general.graphics.reducedViewRange=Уменьшенный радиус обзора
+//TODO Translate [Reference] 'Reset Sliders'
+options.general.graphics.resetSliders=
+//TODO Translate [Reference] 'Saturation'
+options.general.graphics.saturation=
 //[Reference] 'Shadows'
 options.general.graphics.shadows=Тени
 //TODO Translate [Reference] 'shoulder Height'
@@ -524,6 +536,10 @@ options.general.graphics.shoulderHeight=
 options.general.graphics.shoulderOffset=
 //[Reference] 'Show Grid Cursor'
 options.general.graphics.showGridCursor=Отображать пиксельный указатель
+//TODO Translate [Reference] 'Sliders'
+options.general.graphics.sliders=
+//TODO Translate [Reference] 'Enabled Sliders'
+options.general.graphics.slidersEnabled=
 //[Reference] 'Super Low'
 options.general.graphics.superLow=Очень низк.
 //[Reference] 'Super Sampling'
@@ -2034,6 +2050,9 @@ staxel.gatherable.SwirlyShell.name=Спиральная раковина
 staxel.gatherable.WhiteMushrooms.description=Популярный ингредиент для приготовления блюд.
 //[Reference] 'White Mushrooms'
 staxel.gatherable.WhiteMushrooms.name=Белые грибы
+staxel.gatherable.Wildberry.description=
+//TODO Translate [Reference] 'Wildberry'
+staxel.gatherable.Wildberry.name=
 //TODO Translate [Reference] 'Interface Letters'
 staxel.inputMappingModality.InterfaceLetters=
 //TODO Translate [Reference] 'Main Down'
@@ -2350,6 +2369,9 @@ staxel.item.crops.GoldenWatermelon.name=Золотой арбуз
 staxel.item.crops.Sunflower.description=
 //[Reference] 'Sunflower'
 staxel.item.crops.Sunflower.name=Подсолнух
+staxel.item.DarkPetalCore.description=
+//TODO Translate [Reference] 'Dark Petal Core'
+staxel.item.DarkPetalCore.name=
 staxel.item.debug.Export.description=
 //[Reference] 'Export'
 staxel.item.debug.Export.name=Экспортировать
@@ -2553,6 +2575,9 @@ staxel.item.gatherable.Tadpole.name=Головастик
 staxel.item.gatherable.WhiteButterfly.description=
 //[Reference] 'WhiteButterfly'
 staxel.item.gatherable.WhiteButterfly.name=Белая бабочка
+staxel.item.gatherable.Wildberry.description=
+//TODO Translate [Reference] 'Wildberry'
+staxel.item.gatherable.Wildberry.name=
 staxel.item.gatherable.WillOTheWisp.description=
 //[Reference] 'Will-o'-the-wisp'
 staxel.item.gatherable.WillOTheWisp.name=Блуждающий огонек
@@ -2565,6 +2590,9 @@ staxel.item.gatherable.YellowPerch.name=Желтый окунь
 staxel.item.gatherable.ZebraButterfly.description=
 //[Reference] 'Zebra Butterfly'
 staxel.item.gatherable.ZebraButterfly.name=Нимфалида
+staxel.item.LightPetalCore.description=
+//TODO Translate [Reference] 'Light Petal Core'
+staxel.item.LightPetalCore.name=
 //[Reference] 'Who knows what you might find if you polish this old relic!'
 staxel.item.museum.Fossil.description=Кто знает, что можно найти, если отполировать эту старую реликвию!
 //[Reference] 'Unpolished Fossil'
@@ -2573,6 +2601,9 @@ staxel.item.museum.Fossil.name=Неотполированная окаменел
 staxel.item.NoteToRowan.description=Это записка для Роуана. Открывать ее, наверное, не стоит.
 //[Reference] 'Note To Rowan'
 staxel.item.NoteToRowan.name=Записка для Роуана
+staxel.item.PetalWandCore.description=
+//TODO Translate [Reference] 'Petal Wand Core'
+staxel.item.PetalWandCore.name=
 staxel.item.quest.Aliza.AirshipParts.description=
 //TODO Translate [Reference] 'Airship Parts'
 staxel.item.quest.Aliza.AirshipParts.name=
@@ -2588,6 +2619,12 @@ staxel.item.quest.Aliza.NewAirshipBlueprintAnnotated.name=
 staxel.item.quest.CaithWitchLocket.description=
 //TODO Translate [Reference] 'Cirahna's Mother's Locket'
 staxel.item.quest.CaithWitchLocket.name=
+staxel.item.quest.CapturedMonster.description=
+//TODO Translate [Reference] 'Captured Monster'
+staxel.item.quest.CapturedMonster.name=
+staxel.item.quest.Cecile.LeifLetter.description=
+//TODO Translate [Reference] 'Leif Letter'
+staxel.item.quest.Cecile.LeifLetter.name=
 staxel.item.quest.CraftedWitchWand.description=
 //TODO Translate [Reference] 'Magicless Wand'
 staxel.item.quest.CraftedWitchWand.name=
@@ -2675,6 +2712,9 @@ staxel.item.quest.Riah.RiahsBottledLetter.name=
 staxel.item.quest.SciencePermit.description=
 //TODO Translate [Reference] 'Science Permit'
 staxel.item.quest.SciencePermit.name=
+staxel.item.quest.SecretIngredient.description=
+//TODO Translate [Reference] 'Secret Ingredient'
+staxel.item.quest.SecretIngredient.name=
 //TODO Translate [Reference] 'The poor thing. Take it to Rosemary.'
 staxel.item.quest.StrayCat.description=
 //TODO Translate [Reference] 'Stray Cat'
@@ -2683,6 +2723,15 @@ staxel.item.quest.StrayCat.name=
 staxel.item.quest.UnidentifiableMedicine.description=
 //TODO Translate [Reference] 'Unidentifiable Medicine'
 staxel.item.quest.UnidentifiableMedicine.name=
+staxel.item.quest.Vorlen.MundaneTransformationPotion.description=
+//TODO Translate [Reference] 'Mundane Transformation Potion'
+staxel.item.quest.Vorlen.MundaneTransformationPotion.name=
+staxel.item.quest.Vorlen.RainbowButterfly.description=
+//TODO Translate [Reference] 'Rainbow Butterfly'
+staxel.item.quest.Vorlen.RainbowButterfly.name=
+staxel.item.quest.Vorlen.TransformationPotion.description=
+//TODO Translate [Reference] 'Transformation Potion'
+staxel.item.quest.Vorlen.TransformationPotion.name=
 //TODO Translate [Reference] 'One might consider describing this as 'abstract art'. Even that may be a stretch.'
 staxel.item.quest.WeddingGift.description=
 //TODO Translate [Reference] 'Wedding Gift'
@@ -2991,6 +3040,15 @@ staxel.plant.gatherable.SnowMound.name=Снежный холм
 staxel.plant.gatherable.StarJelly.description=
 //[Reference] 'Star Jelly'
 staxel.plant.gatherable.StarJelly.name=Звездное желе
+staxel.plant.gatherable.Wildberry.description=
+//TODO Translate [Reference] 'Wildberry'
+staxel.plant.gatherable.Wildberry.name=
+staxel.plant.quest.RainbowButterfly.description=
+//TODO Translate [Reference] 'Rainbow Butterfly'
+staxel.plant.quest.RainbowButterfly.name=
+staxel.plant.quest.RainbowButterfly.tile.description=
+//TODO Translate [Reference] 'tile'
+staxel.plant.quest.RainbowButterfly.tile.name=
 staxel.plant.tree.BasicNaturalTree.description=
 //TODO Translate [Reference] 'Basic Natural Tree'
 staxel.plant.tree.BasicNaturalTree.name=
@@ -3286,6 +3344,9 @@ staxel.tileObject.bobbleheads.BadgerBobbleHead.name=Фигурка Бэджер�
 staxel.tileObject.bobbleheads.CaithWitchBobbleHead.description=
 //TODO Translate [Reference] 'Cirahna Bobblehead'
 staxel.tileObject.bobbleheads.CaithWitchBobbleHead.name=
+staxel.tileObject.bobbleheads.CursedCuratorBobblehead.description=
+//TODO Translate [Reference] 'Cursed Curator Bobblehead'
+staxel.tileObject.bobbleheads.CursedCuratorBobblehead.name=
 staxel.tileObject.bobbleheads.CurtisBobbleHead.description=
 //[Reference] 'Curtis Bobble Head'
 staxel.tileObject.bobbleheads.CurtisBobbleHead.name=Фигурка Кертиса
@@ -4264,6 +4325,24 @@ staxel.tileObject.themedfurniture.contemporary.contemporarySideTable.NoDock.name
 staxel.tileObject.themedfurniture.minimalist.MinimalistDesk.NoDock.description=
 //[Reference] 'Minimalist Desk (No Docks)'
 staxel.tileObject.themedfurniture.minimalist.MinimalistDesk.NoDock.name=Письменный стол «Минимализм» (неинтерактив.)
+staxel.tileObject.themedfurniture.mushroom.MushroomChair.description=
+//TODO Translate [Reference] 'Mushroom Chair'
+staxel.tileObject.themedfurniture.mushroom.MushroomChair.name=
+staxel.tileObject.themedfurniture.mushroom.MushroomDoubleBed.description=
+//TODO Translate [Reference] 'Mushroom Double Bed'
+staxel.tileObject.themedfurniture.mushroom.MushroomDoubleBed.name=
+staxel.tileObject.themedfurniture.mushroom.MushroomDresser.description=
+//TODO Translate [Reference] 'Mushroom Dresser'
+staxel.tileObject.themedfurniture.mushroom.MushroomDresser.name=
+staxel.tileObject.themedfurniture.mushroom.MushroomLamp.description=
+//TODO Translate [Reference] 'Mushroom Lamp'
+staxel.tileObject.themedfurniture.mushroom.MushroomLamp.name=
+staxel.tileObject.themedfurniture.mushroom.MushroomSofa.description=
+//TODO Translate [Reference] 'Mushroom Sofa'
+staxel.tileObject.themedfurniture.mushroom.MushroomSofa.name=
+staxel.tileObject.themedfurniture.mushroom.MushroomTable.description=
+//TODO Translate [Reference] 'Mushroom Table'
+staxel.tileObject.themedfurniture.mushroom.MushroomTable.name=
 staxel.tileObject.themedfurniture.pet.PawArmChair.description=
 //[Reference] 'Paw Arm Chair'
 staxel.tileObject.themedfurniture.pet.PawArmChair.name=Кресло «Лапка»
@@ -4608,6 +4687,12 @@ staxel.tileObject.villager.SpotlessTable.name=Идеально чистый ст
 staxel.tileObject.villagers.AlizaSpawner.description=
 //[Reference] 'Aliza Spawner'
 staxel.tileObject.villagers.AlizaSpawner.name=Место появления Элизы
+staxel.tileObject.villagers.ButterflySpawner.description=
+//TODO Translate [Reference] 'Butterfly Spawner'
+staxel.tileObject.villagers.ButterflySpawner.name=
+staxel.tileObject.villagers.CecilesMonsterSpawner.description=
+//TODO Translate [Reference] 'Ceciles Monster Spawner'
+staxel.tileObject.villagers.CecilesMonsterSpawner.name=
 staxel.tileObject.villagers.CirahnaSpawner.description=
 //[Reference] 'Cirahna Spawner'
 staxel.tileObject.villagers.CirahnaSpawner.name=Место появления Кирайны
