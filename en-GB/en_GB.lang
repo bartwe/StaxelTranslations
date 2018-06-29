@@ -3381,13 +3381,44 @@ version.developmentBuild=Staxel Development Build
 wardrobe.CantEquip=Can't equip this here!
 wardrobe.UseAWardrobe=Use a wardrobe to wear this
 
-staxel.item.tool.BoxPlacer.name=Box Placer
-staxel.item.tool.BoxPlacer.description=
+staxel.item.tool.SpherePlacer.name=Sphere Builder
+staxel.item.tool.SpherePlacer.description=Click a tile to place a sphere at it. Alt click for settings. (uses clicked tile as material)
 staxel.item.tool.FaceExtruder.name=Face Extruder
-staxel.item.tool.FaceExtruder.description=
-staxel.item.tool.LinePlacer.name=Line Placer
-staxel.item.tool.LinePlacer.description=
+staxel.item.tool.FaceExtruder.description=Click a surface of connected same-type tiles to extrude the face in that direction. Alt click for settings
 staxel.item.tool.MeasuringTape.name=Measuring Tape
-staxel.item.tool.MeasuringTape.description=
-staxel.item.tool.SpherePlacer.name=Sphere Placer
-staxel.item.tool.SpherePlacer.description=
+staxel.item.tool.MeasuringTape.description=Click a tile to start, click another to end. First and last tile inclusive
+staxel.item.tool.LinePlacer.name=Line Builder
+staxel.item.tool.LinePlacer.description=Click a tile to start, click another to end. Builds a line between. Alt click for settings. (uses first tile as material)
+staxel.item.tool.BoxPlacer.name=Box Builder
+staxel.item.tool.BoxPlacer.description=Click a tile to start, click another to end. Builds a box between the corners. Alt click for settings. (uses first tile as material)
+
+staxel.notifications.BuildingTools.MeasuredDistance=Distance: {0} tiles
+staxel.notifications.BuildingTools.MeasuringTapeOne=Measuring point one set
+
+BuildToolSettings.accept=Save
+
+LinePlacerSettings.title=Line Builder Settings
+options.linetool.supported=Supported Lines
+options.linetool.destructive=Destructive Mode
+options.linetool.supported.description=Adds extra tiles between tiles to ensure the structure is supported. (Can mess up diagonals such as rooves of On)
+options.linetool.destructive.description=Determines whether or not the tool will destroy tiles in the way when creating a line
+
+SpherePlacerSettings.title=Sphere Builder Settings
+options.spheretool.destructive=Destructive Mode
+options.spheretool.radius=Sphere Radius
+options.spheretool.hollow=Hollow Mode
+options.spheretool.destructive.description=Determines whether or not the tool will destroy tiles in the way when creating a sphere
+options.spheretool.radius.description=The radius of the sphere to create
+options.spheretool.hollow.description=When On, the created sphere will be hollow inside
+
+FaceExtruderSettings.title=Face Extruder Settings
+options.faceextruder.destructive=Destructive Mode
+options.faceextruder.destructive.description=Determines whether or not the tool will destroy tiles in the way when extruding a face
+options.faceextruder.allowgaps=Allow Gaps
+options.faceextruder.allowgaps.description=Will extrude tiles even if there is a one tile gap from the main face
+
+BoxPlacerSettings.title=Box Builder Settings
+options.boxtool.destructive=Destructive Mode
+options.boxtool.destructive.description=Determines whether or not the tool will destroy tiles in the way when creating a box
+options.boxtool.hollow=Hollow Mode
+options.boxtool.hollow.description=When On, the created box will be hollow inside
