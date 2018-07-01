@@ -1,9 +1,9 @@
 ﻿language.code=ja-JP
 language=日本語
-//TODO Translate [Reference] '^c:F2E200;activateMurmur ^c:FFFFFF;murmurCode'
-commands.activateMurmur.description=
-//TODO Translate [Reference] 'Successfully activated {0-murmur}.'
-commands.activateMurmur.success=
+//[Reference] '^c:F2E200;activateMurmur ^c:FFFFFF;murmurCode'
+commands.activateMurmur.description=^c:F2E200;activateMurmur ^c:FFFFFF;murmurCode
+//[Reference] 'Successfully activated {0-murmur}.'
+commands.activateMurmur.success={0-murmur}の有効化完了。
 
 //[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)'
 commands.advanceTime.description=^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)
@@ -63,14 +63,14 @@ commands.changeMood.animalNotFound=動物を見ていません
 commands.changeMood.description=^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)
 //[Reference] 'Mood altered successfully'
 commands.changeMood.success=ムードの変更に成功しました
-//TODO Translate [Reference] '^c:F2E200;checkMail'
-commands.checkMail.description=
-//TODO Translate [Reference] '^c:F2E200;completeQuest ^c:FFFFFF;questCode villagerName/Code'
-commands.completeQuest.description=
-//TODO Translate [Reference] 'Quest does not exist'
-commands.completeQuest.noSuchQuest=
-//TODO Translate [Reference] 'Quest completed successfuly'
-commands.completeQuest.success=
+//[Reference] '^c:F2E200;checkMail'
+commands.checkMail.description=^c:F2E200;checkMail
+//[Reference] '^c:F2E200;completeQuest ^c:FFFFFF;questCode villagerName/Code'
+commands.completeQuest.description=^c:F2E200;completeQuest ^c:FFFFFF;questCode 村人の名前/コード
+//[Reference] 'Quest does not exist'
+commands.completeQuest.noSuchQuest=クエストがありません
+//[Reference] 'Quest completed successfuly'
+commands.completeQuest.success=クエストが無事完了しました
 //[Reference] '^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)'
 commands.creative.description=^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)
 //[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
@@ -79,10 +79,10 @@ commands.creative.success={0-user}のクリエイティブモードを一時的�
 commands.currentTime.description=^c:F2E200;currentTime
 //[Reference] 'The day is {0-day} and phase is {1:G2-phase} ({2-time}).'
 commands.currentTime.success=日付は{0-day}で、フェーズは{1:G2-phase}（{2-time}）です。
-//TODO Translate [Reference] '^c:F2E200;deactivateMurmur ^c:FFFFFF;'
-commands.deactivateMurmur.description=
-//TODO Translate [Reference] 'Successfully deactivated {0-murmur} if it existed.'
-commands.deactivateMurmur.success=
+//[Reference] '^c:F2E200;deactivateMurmur ^c:FFFFFF;'
+commands.deactivateMurmur.description=^c:F2E200;deactivateMurmur ^c:FFFFFF;
+//[Reference] 'Successfully deactivated {0-murmur} if it existed.'
+commands.deactivateMurmur.success={0-murmur}の無効化完了（存在する場合）。
 //[Reference] '^c:F2E200;demoMode ^c:FFFFFF;(optional)on(true/false)'
 commands.demoMode.description=^c:F2E200;demoMode ^c:FFFFFF;(optional)on(true/false)
 //[Reference] 'Switched server demo mode to {0-demoMode}'
@@ -125,12 +125,12 @@ commands.entityNotFound=エンティティが見つかりません
 commands.flyMode.description=^c:F2E200;fly ^c:FFFFFF;(optional)playerName (optional)startFlying(true/false)
 //[Reference] 'Switched flying mode to: {0-flymode}'
 commands.flyMode.success=飛行モードを{0-flymode}に切り替えました
-//TODO Translate [Reference] '^c:F2E200;forceAchievement ^c:FFFFFF;achievementCode'
-commands.forceAchievement.description=
-//TODO Translate [Reference] 'Missing achievement code.'
-commands.forceAchievement.missingParam=
-//TODO Translate [Reference] 'Achievement not found.'
-commands.forceAchievement.noSuchAchievement=
+//[Reference] '^c:F2E200;forceAchievement ^c:FFFFFF;achievementCode'
+commands.forceAchievement.description=^c:F2E200;forceAchievement ^c:FFFFFF;achievementCode
+//[Reference] 'Missing achievement code.'
+commands.forceAchievement.missingParam=アチーブメントコードがありません。
+//[Reference] 'Achievement not found.'
+commands.forceAchievement.noSuchAchievement=アチーブメントが見つかりません。
 //[Reference] '^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)playerName'
 commands.giveallrecipes.description=^c:F2E200;giveallrecipes^c:FFFFFF;（選択）プレイヤーの名前
 //[Reference] 'Done!'
@@ -259,9 +259,8 @@ commands.saveOutfit.description=^c:F2E200;saveOutfit ^c:FFFFFF;fileName
 commands.saveOutfit.success=キャラクターアウトプットファイルを{0-path}に保存しました
 //[Reference] '^c:F2E200;seed'
 commands.seed.description=^c:F2E200;seed
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Seed: {0-seed}, World Size: {1-worldSize}x'
-commands.seed.success=種：{0-seed}
+commands.seed.success=種：{0-seed}、ワールドのサイズ：{1-worldSize}x
 //[Reference] '^c:F2E200;creativeMode ^c:FFFFFF;(optional)on(true/false)'
 commands.serverCreative.description=^c:F2E200;creativeMode ^c:FFFFFF;(optional)on(true/false)
 //[Reference] 'Switched server creative mode to {0-creative} (persistent)'
@@ -301,12 +300,10 @@ commands.stealPetals.success={0-player}が{1-amount}ペタル盗みました
 commands.stealPetals.success.reset={0-player}はもはや泥棒ではありません。
 //[Reference] '{0-player} stole {1-amount} petals. Thief!'
 commands.stealPetals.success.thief={0-player}が{1-amount}ペタル盗みました。泥棒！
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;stopTime ^c:FFFFFF;Stops time'
-commands.stopTime.description=一時停止/再開の時間
-//[Validate] Delete this comment if or when the translation is accurate.
+commands.stopTime.description=^c:F2E200;stopTime ^c:FFFFFF;時間を止める
 //[Reference] 'Time Stopped'
-commands.stopTime.stop=一時停止した時間
+commands.stopTime.stop=時間を止めます
 commands.sun.description=
 //[Reference] 'Made it a sunny day.'
 commands.sun.success=晴れの日になりました。
@@ -336,12 +333,12 @@ commands.tileAt.notFound=タイルが見つかりませんでした
 commands.tileAt.success.false=Tile code: {0-tilecode} at {1-position} (compoundFiller: false, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})
 //[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
 commands.tileAt.success.true=Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})
-//TODO Translate [Reference] '^c:F2E200;toggleTimePassing ^c:FFFFFF;Toggles the passing of time'
-commands.toggleTimePassing.description=
-//TODO Translate [Reference] 'Time Resumed'
-commands.toggleTimePassing.resume=
-//TODO Translate [Reference] 'Time Stopped'
-commands.toggleTimePassing.stop=
+//[Reference] '^c:F2E200;toggleTimePassing ^c:FFFFFF;Toggles the passing of time'
+commands.toggleTimePassing.description=^c:F2E200;toggleTimePassing ^c:FFFFFF;時間の経過を切り替える
+//[Reference] 'Time Resumed'
+commands.toggleTimePassing.resume=時間を再開します
+//[Reference] 'Time Stopped'
+commands.toggleTimePassing.stop=時間を止めます
 commands.traceStart.description=
 //[Reference] 'Started tracing.'
 commands.traceStart.success=トレースを開始しました。
@@ -367,12 +364,13 @@ commands.unmute.failure={0-player}のミュートを解除できません：プ�
 commands.unmute.success={0-player}は再び話せるようになりました。
 //[Reference] 'Unrecognised command :'{0-command}''
 commands.unrecognised=コマンド'{0-command}'を認識できませんでした
-//TODO Translate [Reference] '^c:F2E200;updateReputation ^c:FFFFFF;villagerName/Code amount'
-commands.updateReputation.description=
-//TODO Translate [Reference] 'Reputation updated to {0-newAmount} for villager {1-villagerCode}'
-commands.updateReputation.success=
-//TODO Translate [Reference] 'Villager Entity not found'
-commands.villagerEntityNotFound=
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;updateReputation ^c:FFFFFF;villagerName/Code amount'
+commands.updateReputation.description=^c:F2E200;unmute ^c:FFFFFF;村人の名前/コード量
+//[Reference] 'Reputation updated to {0-newAmount} for villager {1-villagerCode}'
+commands.updateReputation.success=村人{1-villagerCode}用に{0-newAmount}へ評判を更新する
+//[Reference] 'Villager Entity not found'
+commands.villagerEntityNotFound=村人が存在しません
 //[Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
 commands.weather.description=^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)
 //[Reference] 'Unable to set weather: {0-weather}. Does not exist.'
