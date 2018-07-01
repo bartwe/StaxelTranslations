@@ -4,6 +4,10 @@ language=Français (Canada)
 
 //[Reference] 'Achievement unlocked: {0-achievement}!'
 achievements.achievementUnlocked={0-achievement} débloqué!
+//TODO Translate [Reference] 'Box Builder Settings'
+BoxPlacerSettings.title=
+//TODO Translate [Reference] 'Save'
+BuildToolSettings.accept=
 //[Reference] 'Buy:'
 catalogue.buy=Acheter à :
 //TODO Translate [Reference] 'Clear'
@@ -257,6 +261,8 @@ escapeMenu.mainMenu=Retour au menu principal
 escapeMenu.options=Paramètres
 //TODO Translate [Reference] 'Teleport Home'
 escapeMenu.returnHome=
+//TODO Translate [Reference] 'Face Extruder Settings'
+FaceExtruderSettings.title=
 
 //[Reference] 'It got away!'
 fishing.gotAway=Il s'est enfuit!
@@ -337,6 +343,8 @@ hintText.thiefThief=
 hintText.thiefWarning=
 //TODO Translate [Reference] 'true'
 language.validated=
+//TODO Translate [Reference] 'Line Builder Settings'
+LinePlacerSettings.title=
 //TODO Translate [Reference] 'Downloading bundle assets'
 loading.bundles=
 
@@ -406,6 +414,22 @@ options.audio.description=Modifiez les paramètres sonores
 options.auto=
 //TODO Translate [Reference] '(X)'
 options.backButton=
+//TODO Translate [Reference] 'Destructive Mode'
+options.boxtool.destructive=
+//TODO Translate [Reference] 'Determines whether or not the tool will destroy tiles in the way when creating a box'
+options.boxtool.destructive.description=
+//TODO Translate [Reference] 'Hollow Mode'
+options.boxtool.hollow=
+//TODO Translate [Reference] 'When On, the created box will be hollow inside'
+options.boxtool.hollow.description=
+//TODO Translate [Reference] 'Allow Gaps'
+options.faceextruder.allowgaps=
+//TODO Translate [Reference] 'Will extrude tiles even if there is a one tile gap from the main face'
+options.faceextruder.allowgaps.description=
+//TODO Translate [Reference] 'Destructive Mode'
+options.faceextruder.destructive=
+//TODO Translate [Reference] 'Determines whether or not the tool will destroy tiles in the way when extruding a face'
+options.faceextruder.destructive.description=
 //[Reference] 'Gameplay'
 options.gameplay=Jeu
 //TODO Translate [Reference] 'Mute Error Sounds'
@@ -584,6 +608,14 @@ options.keyBindings.pressToCancel=
 options.keyBindings.pressToRemove=
 //TODO Translate [Reference] 'Reset to Default Key Bindings'
 options.keyBindings.resetToDefault=
+//TODO Translate [Reference] 'Destructive Mode'
+options.linetool.destructive=
+//TODO Translate [Reference] 'Determines whether or not the tool will destroy tiles in the way when creating a line'
+options.linetool.destructive.description=
+//TODO Translate [Reference] 'Supported Lines'
+options.linetool.supported=
+//TODO Translate [Reference] 'Adds extra tiles between tiles to ensure the structure is supported. (Can mess up diagonals such as rooves of On)'
+options.linetool.supported.description=
 //[Reference] 'Misc'
 options.misc=Divers
 //[Reference] 'Reset'
@@ -596,6 +628,18 @@ options.misc.resetToDefault=Paramètres par défaut
 options.network=Réseau
 //[Reference] 'Preferences'
 options.network.preferences=Préférences
+//TODO Translate [Reference] 'Destructive Mode'
+options.spheretool.destructive=
+//TODO Translate [Reference] 'Determines whether or not the tool will destroy tiles in the way when creating a sphere'
+options.spheretool.destructive.description=
+//TODO Translate [Reference] 'Hollow Mode'
+options.spheretool.hollow=
+//TODO Translate [Reference] 'When On, the created sphere will be hollow inside'
+options.spheretool.hollow.description=
+//TODO Translate [Reference] 'Sphere Radius'
+options.spheretool.radius=
+//TODO Translate [Reference] 'The radius of the sphere to create'
+options.spheretool.radius.description=
 //[Reference] 'Video'
 options.video=Vidéo
 //[Reference] 'Set video options here'
@@ -723,6 +767,8 @@ singleplayer.storageLockFile=
 singleplayer.village=
 //TODO Translate [Reference] 'World Size'
 singleplayer.worldSize=
+//TODO Translate [Reference] 'Sphere Builder Settings'
+SpherePlacerSettings.title=
 //TODO Translate [Reference] 'Controller is available'
 startMenu.controllerReady=
 
@@ -2307,6 +2353,9 @@ staxel.item.crafting.BlackPetal.name=
 staxel.item.crafting.Blanket.description=
 //TODO Translate [Reference] 'Blanket'
 staxel.item.crafting.Blanket.name=
+staxel.item.crafting.BlueberryPopsicle.description=
+//TODO Translate [Reference] 'Blueberry Popsicle'
+staxel.item.crafting.BlueberryPopsicle.name=
 staxel.item.crafting.BluePetal.description=
 //TODO Translate [Reference] 'Blue Petal'
 staxel.item.crafting.BluePetal.name=
@@ -2343,6 +2392,24 @@ staxel.item.crafting.ChickenCoopFrame.name=
 staxel.item.crafting.Chips.description=
 //TODO Translate [Reference] 'Chips'
 staxel.item.crafting.Chips.name=
+staxel.item.crafting.ChocoBlueberryPopsicle.description=
+//TODO Translate [Reference] 'Choco Blueberry Popsicle'
+staxel.item.crafting.ChocoBlueberryPopsicle.name=
+staxel.item.crafting.ChocoGrapePopsicle.description=
+//TODO Translate [Reference] 'Choco Grape Popsicle'
+staxel.item.crafting.ChocoGrapePopsicle.name=
+staxel.item.crafting.ChocoLimePopsicle.description=
+//TODO Translate [Reference] 'Choco Lime Popsicle'
+staxel.item.crafting.ChocoLimePopsicle.name=
+staxel.item.crafting.ChocoMintPopsicle.description=
+//TODO Translate [Reference] 'Choco Mint Popsicle'
+staxel.item.crafting.ChocoMintPopsicle.name=
+staxel.item.crafting.ChocoOrangePopsicle.description=
+//TODO Translate [Reference] 'Choco Orange Popsicle'
+staxel.item.crafting.ChocoOrangePopsicle.name=
+staxel.item.crafting.ChocoStrawberryPopsicle.description=
+//TODO Translate [Reference] 'Choco Strawberry Popsicle'
+staxel.item.crafting.ChocoStrawberryPopsicle.name=
 staxel.item.crafting.Coffee.description=
 //TODO Translate [Reference] 'Coffee'
 staxel.item.crafting.Coffee.name=
@@ -2378,6 +2445,9 @@ staxel.item.crafting.GlassPane.name=
 staxel.item.crafting.Glue.description=
 //TODO Translate [Reference] 'Glue'
 staxel.item.crafting.Glue.name=
+staxel.item.crafting.GrapePopsicle.description=
+//TODO Translate [Reference] 'Grape Popsicle'
+staxel.item.crafting.GrapePopsicle.name=
 staxel.item.crafting.GreenLeaf.description=
 //TODO Translate [Reference] 'Green Leaf'
 staxel.item.crafting.GreenLeaf.name=
@@ -2417,6 +2487,9 @@ staxel.item.crafting.LightMeal.SeasonedSalmon.name=
 staxel.item.crafting.LightMeal.Sushi.description=
 //TODO Translate [Reference] 'Sushi'
 staxel.item.crafting.LightMeal.Sushi.name=
+staxel.item.crafting.LimePopsicle.description=
+//TODO Translate [Reference] 'Lime Popsicle'
+staxel.item.crafting.LimePopsicle.name=
 staxel.item.crafting.Lumber.description=
 //TODO Translate [Reference] 'Lumber'
 staxel.item.crafting.Lumber.name=
@@ -2429,6 +2502,9 @@ staxel.item.crafting.MangoPeachSmoothie.name=
 staxel.item.crafting.MetalBands.description=
 //TODO Translate [Reference] 'Metal Bands'
 staxel.item.crafting.MetalBands.name=
+staxel.item.crafting.MintPopsicle.description=
+//TODO Translate [Reference] 'Mint Popsicle'
+staxel.item.crafting.MintPopsicle.name=
 staxel.item.crafting.Mortar.description=
 //TODO Translate [Reference] 'Mortar'
 staxel.item.crafting.Mortar.name=
@@ -2438,6 +2514,9 @@ staxel.item.crafting.MushroomRisotto.name=
 staxel.item.crafting.Nails.description=
 //TODO Translate [Reference] 'Nails'
 staxel.item.crafting.Nails.name=
+staxel.item.crafting.OrangePopsicle.description=
+//TODO Translate [Reference] 'Orange Popsicle'
+staxel.item.crafting.OrangePopsicle.name=
 staxel.item.crafting.PancakeBatter.description=
 //TODO Translate [Reference] 'PancakeBatter'
 staxel.item.crafting.PancakeBatter.name=
@@ -2489,6 +2568,9 @@ staxel.item.crafting.SmallGear.name=
 staxel.item.crafting.StrawberryBlueberrySmoothie.description=
 //TODO Translate [Reference] 'StrawberryBlueberrySmoothie'
 staxel.item.crafting.StrawberryBlueberrySmoothie.name=
+staxel.item.crafting.StrawberryPopsicle.description=
+//TODO Translate [Reference] 'Strawberry Popsicle'
+staxel.item.crafting.StrawberryPopsicle.name=
 staxel.item.crafting.UnbakedBakedPotatoWithColdUnbakedCheese.description=
 //TODO Translate [Reference] 'UnbakedBakedPotatoWithColdUnbakedCheese'
 staxel.item.crafting.UnbakedBakedPotatoWithColdUnbakedCheese.name=
@@ -2986,15 +3068,35 @@ staxel.item.SoakedSponge.description=
 staxel.item.SoakedSponge.name=
 //TODO Translate [Reference] 'Sponge'
 staxel.item.Sponge.name=
+//TODO Translate [Reference] 'Click a tile to start, click another to end. Builds a box between the corners. Alt click for settings. (uses first tile as material)'
+staxel.item.tool.BoxPlacer.description=
+//TODO Translate [Reference] 'Box Builder'
+staxel.item.tool.BoxPlacer.name=
+//TODO Translate [Reference] 'Click a surface of connected same-type tiles to extrude the face in that direction. Alt click for settings'
+staxel.item.tool.FaceExtruder.description=
+//TODO Translate [Reference] 'Face Extruder'
+staxel.item.tool.FaceExtruder.name=
 staxel.item.tool.FlowerWatercan.description=
 //TODO Translate [Reference] 'Flower Watering Can'
 staxel.item.tool.FlowerWatercan.name=
+//TODO Translate [Reference] 'Click a tile to start, click another to end. Builds a line between. Alt click for settings. (uses first tile as material)'
+staxel.item.tool.LinePlacer.description=
+//TODO Translate [Reference] 'Line Builder'
+staxel.item.tool.LinePlacer.name=
 staxel.item.tool.Manure.description=
 //TODO Translate [Reference] 'Manure'
 staxel.item.tool.Manure.name=
+//TODO Translate [Reference] 'Click a tile to start, click another to end. First and last tile inclusive'
+staxel.item.tool.MeasuringTape.description=
+//TODO Translate [Reference] 'Measuring Tape'
+staxel.item.tool.MeasuringTape.name=
 staxel.item.tool.PumpkingScythe.description=
 //TODO Translate [Reference] 'Pumpking Scythe'
 staxel.item.tool.PumpkingScythe.name=
+//TODO Translate [Reference] 'Click a tile to place a sphere at it. Alt click for settings. (uses clicked tile as material)'
+staxel.item.tool.SpherePlacer.description=
+//TODO Translate [Reference] 'Sphere Builder'
+staxel.item.tool.SpherePlacer.name=
 staxel.item.tool.TaikoHammer.description=
 //TODO Translate [Reference] 'Taiko Hammer'
 staxel.item.tool.TaikoHammer.name=
@@ -3122,6 +3224,10 @@ staxel.nightTransition.PressToContinue=
 staxel.nightTransition.prev=
 //TODO Translate [Reference] 'This tile has already been tilled!'
 staxel.notifications.AlreadyHoed=
+//TODO Translate [Reference] 'Distance: {0} tiles'
+staxel.notifications.BuildingTools.MeasuredDistance=
+//TODO Translate [Reference] 'Measuring point one set'
+staxel.notifications.BuildingTools.MeasuringTapeOne=
 //TODO Translate [Reference] 'You can't break this tile.'
 staxel.notifications.CantBreak=
 //TODO Translate [Reference] 'Farm Fan has set aside this day to show you around the farm, you should do that before sleeping!'
@@ -3533,9 +3639,15 @@ staxel.tileObject.airship.RopeFenceTSection.name=
 staxel.tileObject.airship.WeatherVane.description=
 //TODO Translate [Reference] 'Weather Vane'
 staxel.tileObject.airship.WeatherVane.name=
+staxel.tileObject.beachset.BeachToys.description=
+//TODO Translate [Reference] 'Beach Toys'
+staxel.tileObject.beachset.BeachToys.name=
 staxel.tileObject.beachset.PalmTree.description=
 //TODO Translate [Reference] 'Palm Tree'
 staxel.tileObject.beachset.PalmTree.name=
+staxel.tileObject.beachset.SandCastle.description=
+//TODO Translate [Reference] 'Sand Castle'
+staxel.tileObject.beachset.SandCastle.name=
 staxel.tileObject.biomeDebris.ForestBox.description=
 //TODO Translate [Reference] 'Forest Box'
 staxel.tileObject.biomeDebris.ForestBox.name=
