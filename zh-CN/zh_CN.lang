@@ -4,6 +4,10 @@ language=简体中文
 
 //[Reference] 'Achievement unlocked: {0-achievement}!'
 achievements.achievementUnlocked=解锁成就：{0-achievement}！
+//TODO Translate [Reference] 'Box Builder Settings'
+BoxPlacerSettings.title=
+//TODO Translate [Reference] 'Save'
+BuildToolSettings.accept=
 //[Reference] 'Buy:'
 catalogue.buy=购买：
 //[Reference] 'Clear'
@@ -20,16 +24,16 @@ catalogue.performSale=出售
 catalogue.sell=出售：
 //[Reference] 'Total'
 catalogue.total=合计
-//TODO Translate [Reference] 'success'
-commands.debugGraphics.success=
+//[Reference] 'success'
+commands.debugGraphics.success=成功
 //[Reference] 'success'
 commands.mail.success=成功
-//TODO Translate [Reference] 'resume'
-commands.stopTime.resume=
+//[Reference] 'resume'
+commands.stopTime.resume=恢复
 //[Reference] 'success'
 commands.tripod.success=成功
-//TODO Translate [Reference] '<?>'
-controlHint.class.Missing=
+//[Reference] '<?>'
+controlHint.class.Missing=<?>
 
 //[Reference] 'Break'
 controlHint.verb.Break=破坏
@@ -83,8 +87,8 @@ controlHint.verb.default.Use=使用
 controlHint.verb.Dig=挖
 //[Reference] 'Fill'
 controlHint.verb.Fill=填
-//TODO Translate [Reference] 'Give'
-controlHint.verb.Give=
+//[Reference] 'Give'
+controlHint.verb.Give=交出
 //[Reference] 'Inspect'
 controlHint.verb.Inspect=检查
 //[Reference] 'Launch'
@@ -261,6 +265,8 @@ escapeMenu.mainMenu=回到主菜单
 escapeMenu.options=设置
 //[Reference] 'Teleport Home'
 escapeMenu.returnHome=传送回家
+//TODO Translate [Reference] 'Face Extruder Settings'
+FaceExtruderSettings.title=
 
 //[Reference] 'It got away!'
 fishing.gotAway=它逃掉了!
@@ -309,8 +315,8 @@ hintText.inspectedEntity={0-name}
 hintText.inventoryFull=物品栏已满
 //[Reference] 'Need at least {0-count} slots in inventory'
 hintText.inventorySpaceNeeded=物品栏中至少需要{0-count}个空位
-//TODO Translate [Reference] 'Your journal has been updated!'
-hintText.journalUpdate=
+//[Reference] 'Your journal has been updated!'
+hintText.journalUpdate=你的日志已更新！
 //[Reference] 'Kind: {0-itemCode}'
 hintText.kind=种类：{0-itemCode}
 //[Reference] 'The light will turn on after a few seconds'
@@ -341,6 +347,8 @@ hintText.thiefThief=小偷！你一段时间后或许会被人们原谅的。
 hintText.thiefWarning=偷窃会造成后果。
 //[Reference] 'true'
 language.validated=true
+//TODO Translate [Reference] 'Line Builder Settings'
+LinePlacerSettings.title=
 
 //[Reference] 'Downloading bundle assets'
 loading.bundles=下载游戏资源中
@@ -369,10 +377,10 @@ notifications.festivalCantStart=节日场地被重要物体覆盖，节日无法
 notifications.festivalEnded=节日结束了
 //[Reference] 'It looks like something is happening in the village!'
 notifications.festivalStarted=看来镇子里发生了什么事.
-//TODO Translate [Reference] 'The harvest festival has started!'
-notifications.harvestFestivalStarted=
-//TODO Translate [Reference] 'You can't break that during festivals.'
-notifications.unbreakableFestivalTotem=
+//[Reference] 'The harvest festival has started!'
+notifications.harvestFestivalStarted=丰收节已开始！
+//[Reference] 'You can't break that during festivals.'
+notifications.unbreakableFestivalTotem=你不能在节日期间破坏它。
 
 //[Reference] 'Options'
 options=设置
@@ -412,6 +420,22 @@ options.audio.description=用来修改音频设置
 options.auto=自动
 //[Reference] '(X)'
 options.backButton=（X）
+//TODO Translate [Reference] 'Destructive Mode'
+options.boxtool.destructive=
+//TODO Translate [Reference] 'Determines whether or not the tool will destroy tiles in the way when creating a box'
+options.boxtool.destructive.description=
+//TODO Translate [Reference] 'Hollow Mode'
+options.boxtool.hollow=
+//TODO Translate [Reference] 'When On, the created box will be hollow inside'
+options.boxtool.hollow.description=
+//TODO Translate [Reference] 'Allow Gaps'
+options.faceextruder.allowgaps=
+//TODO Translate [Reference] 'Will extrude tiles even if there is a one tile gap from the main face'
+options.faceextruder.allowgaps.description=
+//TODO Translate [Reference] 'Destructive Mode'
+options.faceextruder.destructive=
+//TODO Translate [Reference] 'Determines whether or not the tool will destroy tiles in the way when extruding a face'
+options.faceextruder.destructive.description=
 //[Reference] 'Gameplay'
 options.gameplay=游戏设置
 //[Reference] 'Mute Error Sounds'
@@ -440,8 +464,8 @@ options.gameplay.description=用来修改游戏设置
 options.gameplay.input=输入设置
 //[Reference] 'Enable Repeating'
 options.gameplay.input.enableRepeat=开启连发
-//TODO Translate [Reference] 'Controls'
-options.gameplay.keyBindings=
+//[Reference] 'Controls'
+options.gameplay.keyBindings=控制
 //[Reference] 'Keyboard'
 options.gameplay.keyboard=按键设置
 //[Reference] 'Mouse'
@@ -452,8 +476,8 @@ options.gameplay.mouse.flipWheelDirection=翻转滚轮方向
 options.gameplay.mouse.flipY=Y轴反转
 //[Reference] 'Mouse Velocity:'
 options.gameplay.mouse.mouseVelocity=鼠标灵敏度：
-//TODO Translate [Reference] 'Smoothing'
-options.gameplay.mouse.smoothingFactor=
+//[Reference] 'Smoothing'
+options.gameplay.mouse.smoothingFactor=平滑
 //[Reference] 'Other'
 options.gameplay.other=其他设置
 //[Reference] 'Active Achievement Tracker'
@@ -506,18 +530,18 @@ options.general.graphics.autoDetect=自动设置图像
 options.general.graphics.bloom=高光
 //[Reference] 'Borderless Window'
 options.general.graphics.borderless=无边框窗口
-//TODO Translate [Reference] 'Brightness'
-options.general.graphics.brightness=
+//[Reference] 'Brightness'
+options.general.graphics.brightness=亮度
 //[Reference] 'Camera Distance:'
 options.general.graphics.cameraDistance=镜头距离：
-//TODO Translate [Reference] 'Contrast'
-options.general.graphics.contrast=
+//[Reference] 'Contrast'
+options.general.graphics.contrast=对比度
 //[Reference] 'Field Of View:'
 options.general.graphics.fieldOfView=视野范围：
 //[Reference] 'Fullscreen'
 options.general.graphics.fullscreen=全屏化
-//TODO Translate [Reference] 'Gamma'
-options.general.graphics.gamma=
+//[Reference] 'Gamma'
+options.general.graphics.gamma=灰度系数
 //[Reference] 'Half Resolution'
 options.general.graphics.halfResolution=半分辨率
 //[Reference] 'High'
@@ -545,22 +569,22 @@ options.general.graphics.mode.windowed=窗口化
 options.general.graphics.MultiSampling=多重采样
 //[Reference] 'Reduced View Range'
 options.general.graphics.reducedViewRange=降低视野范围
-//TODO Translate [Reference] 'Reset Sliders'
-options.general.graphics.resetSliders=
-//TODO Translate [Reference] 'Saturation'
-options.general.graphics.saturation=
+//[Reference] 'Reset Sliders'
+options.general.graphics.resetSliders=重置滑动条
+//[Reference] 'Saturation'
+options.general.graphics.saturation=饱和度
 //[Reference] 'Shadows'
 options.general.graphics.shadows=阴影
-//TODO Translate [Reference] 'shoulder Height'
-options.general.graphics.shoulderHeight=
-//TODO Translate [Reference] 'shoulder Offset'
-options.general.graphics.shoulderOffset=
+//[Reference] 'shoulder Height'
+options.general.graphics.shoulderHeight=越肩视角竖直移动
+//[Reference] 'shoulder Offset'
+options.general.graphics.shoulderOffset=越肩视角水平移动
 //[Reference] 'Show Grid Cursor'
 options.general.graphics.showGridCursor=显示光标网格
-//TODO Translate [Reference] 'Sliders'
-options.general.graphics.sliders=
-//TODO Translate [Reference] 'Enabled Sliders'
-options.general.graphics.slidersEnabled=
+//[Reference] 'Sliders'
+options.general.graphics.sliders=滑动条
+//[Reference] 'Enabled Sliders'
+options.general.graphics.slidersEnabled=启用滑动条
 //[Reference] 'Super Low'
 options.general.graphics.superLow=超低
 //[Reference] 'Super Sampling'
@@ -575,22 +599,30 @@ options.general.graphics.ultra=超高
 options.general.graphics.WeatherParticles=阻止室内天气
 //[Reference] 'Language'
 options.general.language=语言设置
-//TODO Translate [Reference] 'Controller'
-options.keyBindings.controller=
-//TODO Translate [Reference] 'Gameplay'
-options.keyBindings.gameplay=
-//TODO Translate [Reference] 'Interface'
-options.keyBindings.interface=
-//TODO Translate [Reference] 'Keyboard/Mouse'
-options.keyBindings.keyboard=
-//TODO Translate [Reference] 'Press any key/button or'
-options.keyBindings.pressButton=
-//TODO Translate [Reference] 'press {0} to cancel key binding'
-options.keyBindings.pressToCancel=
-//TODO Translate [Reference] 'press {0} to remove the key binding'
-options.keyBindings.pressToRemove=
-//TODO Translate [Reference] 'Reset to Default Key Bindings'
-options.keyBindings.resetToDefault=
+//[Reference] 'Controller'
+options.keyBindings.controller=手柄
+//[Reference] 'Gameplay'
+options.keyBindings.gameplay=游戏设置
+//[Reference] 'Interface'
+options.keyBindings.interface=界面
+//[Reference] 'Keyboard/Mouse'
+options.keyBindings.keyboard=键盘/鼠标
+//[Reference] 'Press any key/button or'
+options.keyBindings.pressButton=按任意键/按钮或者
+//[Reference] 'press {0} to cancel key binding'
+options.keyBindings.pressToCancel=按{0}来取消键位设置
+//[Reference] 'press {0} to remove the key binding'
+options.keyBindings.pressToRemove=按{0}来移除键位设置
+//[Reference] 'Reset to Default Key Bindings'
+options.keyBindings.resetToDefault=重置回默认键位设置
+//TODO Translate [Reference] 'Destructive Mode'
+options.linetool.destructive=
+//TODO Translate [Reference] 'Determines whether or not the tool will destroy tiles in the way when creating a line'
+options.linetool.destructive.description=
+//TODO Translate [Reference] 'Supported Lines'
+options.linetool.supported=
+//TODO Translate [Reference] 'Adds extra tiles between tiles to ensure the structure is supported. (Can mess up diagonals such as rooves of On)'
+options.linetool.supported.description=
 //[Reference] 'Misc'
 options.misc=杂项
 //[Reference] 'Reset'
@@ -603,6 +635,18 @@ options.misc.resetToDefault=重置为默认设置
 options.network=网络设置
 //[Reference] 'Preferences'
 options.network.preferences=预设
+//TODO Translate [Reference] 'Destructive Mode'
+options.spheretool.destructive=
+//TODO Translate [Reference] 'Determines whether or not the tool will destroy tiles in the way when creating a sphere'
+options.spheretool.destructive.description=
+//TODO Translate [Reference] 'Hollow Mode'
+options.spheretool.hollow=
+//TODO Translate [Reference] 'When On, the created sphere will be hollow inside'
+options.spheretool.hollow.description=
+//TODO Translate [Reference] 'Sphere Radius'
+options.spheretool.radius=
+//TODO Translate [Reference] 'The radius of the sphere to create'
+options.spheretool.radius.description=
 //[Reference] 'Video'
 options.video=视频设置
 //[Reference] 'Set video options here'
@@ -684,14 +728,14 @@ shippingCatalogue.refund=你收到退款：{0-amount}花瓣币
 shippingCatalogue.viewOrders.description=在此处检查和取消等待状态下的订单
 //[Reference] 'You have claimed this shipping station!'
 shippingDock.Claimed=你获得了这个货运站的所有权！
-//TODO Translate [Reference] 'Advanced'
-singleplayer.advanced=
+//[Reference] 'Advanced'
+singleplayer.advanced=高级
 //[Reference] 'Copy from'
 singleplayer.baseOff=复制自
 //[Reference] 'Don't copy'
 singleplayer.baseOffCancel=请勿复制
-//TODO Translate [Reference] 'Basic'
-singleplayer.basic=
+//[Reference] 'Basic'
+singleplayer.basic=基础
 //[Reference] 'Cancel'
 singleplayer.cancel=取消
 //[Reference] 'Are you certain you want to delete this world?'
@@ -724,8 +768,8 @@ singleplayer.newWorld=新的世界
 singleplayer.playWithFriends=与朋友一起玩
 //[Reference] 'Name'
 singleplayer.serverName=名称
-//TODO Translate [Reference] 'Seed'
-singleplayer.serverSeed=
+//[Reference] 'Seed'
+singleplayer.serverSeed=种子
 
 //[Reference] 'Single Player'
 singleplayer.singleplayer=单人游戏
@@ -733,8 +777,10 @@ singleplayer.singleplayer=单人游戏
 singleplayer.storageLockFile=发现锁定文件，此储存正在使用中。
 //[Reference] 'Village'
 singleplayer.village=村庄
-//TODO Translate [Reference] 'World Size'
-singleplayer.worldSize=
+//[Reference] 'World Size'
+singleplayer.worldSize=世界大小
+//TODO Translate [Reference] 'Sphere Builder Settings'
+SpherePlacerSettings.title=
 //[Reference] 'Controller is available'
 startMenu.controllerReady=可以用手柄噢
 
@@ -751,49 +797,48 @@ startMenu.serverList=服务器列表
 //[Reference] 'Single Player'
 startMenu.singlePlayer=单人游戏
 staxel.accessories.characters.accessories.achievements.BeachSandals.description=
-//TODO Translate [Reference] 'Beach Sandals'
-staxel.accessories.characters.accessories.achievements.BeachSandals.name=
+//[Reference] 'Beach Sandals'
+staxel.accessories.characters.accessories.achievements.BeachSandals.name=沙滩凉鞋
 staxel.accessories.characters.accessories.achievements.BeeHat.description=
-//TODO Translate [Reference] 'Bee Hat'
-staxel.accessories.characters.accessories.achievements.BeeHat.name=
+//[Reference] 'Bee Hat'
+staxel.accessories.characters.accessories.achievements.BeeHat.name=蜜蜂帽
 staxel.accessories.characters.accessories.achievements.ChefHat.description=
-//TODO Translate [Reference] 'Chef Hat'
-staxel.accessories.characters.accessories.achievements.ChefHat.name=
+//[Reference] 'Chef Hat'
+staxel.accessories.characters.accessories.achievements.ChefHat.name=厨师帽
 staxel.accessories.characters.accessories.achievements.ConstructionHat.description=
-//TODO Translate [Reference] 'Construction Hat'
-staxel.accessories.characters.accessories.achievements.ConstructionHat.name=
+//[Reference] 'Construction Hat'
+staxel.accessories.characters.accessories.achievements.ConstructionHat.name=工地帽
 staxel.accessories.characters.accessories.achievements.EggHat.description=
-//TODO Translate [Reference] 'Egg Hat'
-staxel.accessories.characters.accessories.achievements.EggHat.name=
+//[Reference] 'Egg Hat'
+staxel.accessories.characters.accessories.achievements.EggHat.name=鸡蛋帽
 staxel.accessories.characters.accessories.achievements.FishingHat.description=
-//TODO Translate [Reference] 'Fishing Hat'
-staxel.accessories.characters.accessories.achievements.FishingHat.name=
+//[Reference] 'Fishing Hat'
+staxel.accessories.characters.accessories.achievements.FishingHat.name=垂钓帽
 staxel.accessories.characters.accessories.achievements.GrassSkirt.description=
-//TODO Translate [Reference] 'Grass Skirt'
-staxel.accessories.characters.accessories.achievements.GrassSkirt.name=
+//[Reference] 'Grass Skirt'
+staxel.accessories.characters.accessories.achievements.GrassSkirt.name=草裙
 staxel.accessories.characters.accessories.achievements.LumberJackShirt.description=
-//TODO Translate [Reference] 'Lumber Jack Shirt'
-staxel.accessories.characters.accessories.achievements.LumberJackShirt.name=
+//[Reference] 'Lumber Jack Shirt'
+staxel.accessories.characters.accessories.achievements.LumberJackShirt.name=伐木工人衬衫
 staxel.accessories.characters.accessories.achievements.MilkmanHat.description=
-//TODO Translate [Reference] 'Milkman Hat'
-staxel.accessories.characters.accessories.achievements.MilkmanHat.name=
+//[Reference] 'Milkman Hat'
+staxel.accessories.characters.accessories.achievements.MilkmanHat.name=牛奶工帽
 staxel.accessories.characters.accessories.achievements.MiningHelmet.description=
-//TODO Translate [Reference] 'Mining Helmet'
-staxel.accessories.characters.accessories.achievements.MiningHelmet.name=
+//[Reference] 'Mining Helmet'
+staxel.accessories.characters.accessories.achievements.MiningHelmet.name=采矿头盔
 staxel.accessories.characters.accessories.achievements.MushroomHat.description=
-//TODO Translate [Reference] 'Mushroom Hat'
-staxel.accessories.characters.accessories.achievements.MushroomHat.name=
+//[Reference] 'Mushroom Hat'
+staxel.accessories.characters.accessories.achievements.MushroomHat.name=蘑菇帽
 staxel.accessories.characters.accessories.achievements.StrawFarmerHat.description=
-//TODO Translate [Reference] 'Straw Farmer Hat'
-staxel.accessories.characters.accessories.achievements.StrawFarmerHat.name=
+//[Reference] 'Straw Farmer Hat'
+staxel.accessories.characters.accessories.achievements.StrawFarmerHat.name=稻草农夫帽
 staxel.accessories.characters.accessories.achievements.WoolJumper.description=
-//TODO Translate [Reference] 'Wool Jumper'
-staxel.accessories.characters.accessories.achievements.WoolJumper.name=
+//[Reference] 'Wool Jumper'
+staxel.accessories.characters.accessories.achievements.WoolJumper.name=羊毛毛衣
 staxel.accessories.characters.accessories.animalhats.FrogHat_paletted.description=
 //[Reference] 'Frog Hat'
 staxel.accessories.characters.accessories.animalhats.FrogHat_paletted.name=青蛙帽
 staxel.accessories.characters.accessories.animalhats.UnicornHat_paletted.description=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Unicorn Hat'
 staxel.accessories.characters.accessories.animalhats.UnicornHat_paletted.name=独角兽帽
 staxel.accessories.characters.accessories.festival.FlowerCrown.description=
@@ -803,8 +848,8 @@ staxel.accessories.characters.accessories.festival.KabutoHelmet.description=
 //[Reference] 'Kabuto Helmet'
 staxel.accessories.characters.accessories.festival.KabutoHelmet.name=药师头盔
 staxel.accessories.characters.accessories.generic.cooking.BakingHat.description=
-//TODO Translate [Reference] 'Baking Hat'
-staxel.accessories.characters.accessories.generic.cooking.BakingHat.name=
+//[Reference] 'Baking Hat'
+staxel.accessories.characters.accessories.generic.cooking.BakingHat.name=烘焙帽
 staxel.accessories.characters.accessories.halloween.PumpkingHat.description=
 
 //[Reference] 'Pumpking Hat'
@@ -847,8 +892,8 @@ staxel.accessories.fullBodyOutfits.villager.Cecile.description=
 //[Reference] 'Cecile'
 staxel.accessories.fullBodyOutfits.villager.Cecile.name=赛西尔
 staxel.accessories.fullBodyOutfits.villager.CecilesMonster.description=
-//TODO Translate [Reference] 'Ceciles Monster'
-staxel.accessories.fullBodyOutfits.villager.CecilesMonster.name=
+//[Reference] 'Ceciles Monster'
+staxel.accessories.fullBodyOutfits.villager.CecilesMonster.name=赛西尔的怪物
 staxel.accessories.fullBodyOutfits.villager.Cirahna.description=
 //[Reference] 'Cirahna'
 staxel.accessories.fullBodyOutfits.villager.Cirahna.name=茜拉娜
@@ -886,11 +931,11 @@ staxel.accessories.fullBodyOutfits.villager.MayorMax.description=
 //[Reference] 'Mayor Max'
 staxel.accessories.fullBodyOutfits.villager.MayorMax.name=麦克斯镇长
 staxel.accessories.fullBodyOutfits.villager.Prince.description=
-//TODO Translate [Reference] 'Prince'
-staxel.accessories.fullBodyOutfits.villager.Prince.name=
+//[Reference] 'Prince'
+staxel.accessories.fullBodyOutfits.villager.Prince.name=王子
 staxel.accessories.fullBodyOutfits.villager.Princess.description=
-//TODO Translate [Reference] 'Princess'
-staxel.accessories.fullBodyOutfits.villager.Princess.name=
+//[Reference] 'Princess'
+staxel.accessories.fullBodyOutfits.villager.Princess.name=公主
 staxel.accessories.fullBodyOutfits.villager.Riah.description=
 //[Reference] 'Riah'
 staxel.accessories.fullBodyOutfits.villager.Riah.name=瑞安
@@ -904,8 +949,8 @@ staxel.accessories.fullBodyOutfits.villager.Vorlen.description=
 //[Reference] 'Vorlen'
 staxel.accessories.fullBodyOutfits.villager.Vorlen.name=沃伦
 staxel.accessories.generic.cooking.BakingJacket.description=
-//TODO Translate [Reference] 'Baking Jacket'
-staxel.accessories.generic.cooking.BakingJacket.name=
+//[Reference] 'Baking Jacket'
+staxel.accessories.generic.cooking.BakingJacket.name=烘焙夹克
 staxel.accessories.helmets.mecha.Mecha_Classic.description=
 
 //[Reference] 'Mecha_Classic'
@@ -944,38 +989,38 @@ staxel.accessories.shorts.shortjeanspaletted.description=
 //[Reference] 'shortjeanspaletted'
 staxel.accessories.shorts.shortjeanspaletted.name=牛仔短裤
 staxel.accessories.villagers.Aliza.MechanicsHat.description=
-//TODO Translate [Reference] 'Mechanics Hat'
-staxel.accessories.villagers.Aliza.MechanicsHat.name=
+//[Reference] 'Mechanics Hat'
+staxel.accessories.villagers.Aliza.MechanicsHat.name=机械帽
 staxel.accessories.villagers.Cecile.ScientistGoggles.description=
-//TODO Translate [Reference] 'Scientist Goggles'
-staxel.accessories.villagers.Cecile.ScientistGoggles.name=
+//[Reference] 'Scientist Goggles'
+staxel.accessories.villagers.Cecile.ScientistGoggles.name=科学家护目镜
 staxel.accessories.villagers.Cirahna.WitchHat.description=
-//TODO Translate [Reference] 'Witch Hat'
-staxel.accessories.villagers.Cirahna.WitchHat.name=
+//[Reference] 'Witch Hat'
+staxel.accessories.villagers.Cirahna.WitchHat.name=女巫帽
 staxel.accessories.villagers.Emilia.CupcakeHat.description=
-//TODO Translate [Reference] 'Cupcake Hat'
-staxel.accessories.villagers.Emilia.CupcakeHat.name=
+//[Reference] 'Cupcake Hat'
+staxel.accessories.villagers.Emilia.CupcakeHat.name=纸杯蛋糕帽
 staxel.accessories.villagers.FarmFan.CowHat.description=
-//TODO Translate [Reference] 'Cow Hat'
-staxel.accessories.villagers.FarmFan.CowHat.name=
+//[Reference] 'Cow Hat'
+staxel.accessories.villagers.FarmFan.CowHat.name=奶牛帽
 staxel.accessories.villagers.Max.TopHat.description=
-//TODO Translate [Reference] 'Top Hat'
-staxel.accessories.villagers.Max.TopHat.name=
+//[Reference] 'Top Hat'
+staxel.accessories.villagers.Max.TopHat.name=大礼帽
 staxel.accessories.villagers.Oscar.PolicemanHat.description=
-//TODO Translate [Reference] 'Policeman Hat'
-staxel.accessories.villagers.Oscar.PolicemanHat.name=
+//[Reference] 'Policeman Hat'
+staxel.accessories.villagers.Oscar.PolicemanHat.name=警察帽
 staxel.accessories.villagers.Riah.FishHat.description=
-//TODO Translate [Reference] 'Fish Hat'
-staxel.accessories.villagers.Riah.FishHat.name=
+//[Reference] 'Fish Hat'
+staxel.accessories.villagers.Riah.FishHat.name=鱼帽
 staxel.accessories.villagers.Rosemary.BunnyHat.description=
-//TODO Translate [Reference] 'Bunny Hat'
-staxel.accessories.villagers.Rosemary.BunnyHat.name=
+//[Reference] 'Bunny Hat'
+staxel.accessories.villagers.Rosemary.BunnyHat.name=兔子帽
 staxel.accessories.villagers.Rowan.CoffeeCupHat.description=
-//TODO Translate [Reference] 'Coffee Cup Hat'
-staxel.accessories.villagers.Rowan.CoffeeCupHat.name=
+//[Reference] 'Coffee Cup Hat'
+staxel.accessories.villagers.Rowan.CoffeeCupHat.name=咖啡杯帽
 staxel.accessories.villagers.Vorlen.FossilHat.description=
-//TODO Translate [Reference] 'Fossil Hat'
-staxel.accessories.villagers.Vorlen.FossilHat.name=
+//[Reference] 'Fossil Hat'
+staxel.accessories.villagers.Vorlen.FossilHat.name=化石帽
 
 //[Reference] 'None'
 staxel.accessory.none=无
@@ -1024,6 +1069,10 @@ staxel.bush.GoldenberryBush.name=灯笼果灌木种子
 staxel.bush.RaspberryBush.description=一棵会长出美味红莓的灌木。不当季时也能存活。
 //[Reference] 'Raspberry Bush Seed'
 staxel.bush.RaspberryBush.name=红莓灌木种子
+//TODO Translate [Reference] 'abstract'
+staxel.category.abstract=
+//TODO Translate [Reference] 'accessories'
+staxel.category.accessories=
 //[Reference] 'acorn'
 staxel.category.acorn=橡子
 //[Reference] 'animal Crate'
@@ -1046,26 +1095,30 @@ staxel.category.baked=烘烤的
 staxel.category.band=环带
 //[Reference] 'batter'
 staxel.category.batter=面糊
-//TODO Translate [Reference] 'bean'
-staxel.category.bean=
+//[Reference] 'bean'
+staxel.category.bean=豆子
 //[Reference] 'berry'
 staxel.category.berry=浆果
 //[Reference] 'Blackberry Pie Stand'
 staxel.category.BlackberryPieStand=黑莓派小摊
 //[Reference] 'Blueberry Pie Stand'
 staxel.category.BlueberryPieStand=蓝莓派小摊
+//TODO Translate [Reference] 'bobble'
+staxel.category.bobble=
 //[Reference] 'boil'
 staxel.category.boil=煮
 //[Reference] 'boiled'
 staxel.category.boiled=煮过的
 //[Reference] 'bottle'
 staxel.category.bottle=瓶子
-//TODO Translate [Reference] 'bug Display'
-staxel.category.bugDisplay=
+//[Reference] 'bug Display'
+staxel.category.bugDisplay=昆虫展柜
 //[Reference] 'butterfly'
 staxel.category.butterfly=蝴蝶
 //[Reference] 'Campfire Large'
 staxel.category.CampfireLarge=大号营火
+//TODO Translate [Reference] 'candles'
+staxel.category.candles=
 //[Reference] 'capture'
 staxel.category.capture=捕获
 //[Reference] 'carpentry'
@@ -1080,6 +1133,8 @@ staxel.category.carving=雕刻中
 staxel.category.case=展台
 //[Reference] 'cave'
 staxel.category.cave=洞穴
+//TODO Translate [Reference] 'Cecile'
+staxel.category.Cecile=
 //[Reference] 'Cherry Pie Stand'
 staxel.category.CherryPieStand=樱桃派小摊
 //[Reference] 'Chocolate Cake Stand'
@@ -1090,8 +1145,8 @@ staxel.category.cicada=蝉
 staxel.category.cirahna=茜拉娜
 //[Reference] 'Cloth'
 staxel.category.cloth=布料
-//TODO Translate [Reference] 'coffeebean'
-staxel.category.coffeebean=
+//[Reference] 'coffeebean'
+staxel.category.coffeebean=咖啡豆
 //[Reference] 'color'
 staxel.category.color=颜色
 //[Reference] 'combine'
@@ -1104,38 +1159,46 @@ staxel.category.construction=建筑
 staxel.category.cooked=已烹调
 //[Reference] 'coral'
 staxel.category.coral=珊瑚
-//TODO Translate [Reference] 'cotton'
-staxel.category.cotton=
+//[Reference] 'cotton'
+staxel.category.cotton=棉花
 //[Reference] 'creaturebud'
 staxel.category.creaturebud=萌芽
 //[Reference] 'Cube'
 staxel.category.cube=方块
+//TODO Translate [Reference] 'cubic'
+staxel.category.cubic=
 //[Reference] 'dinosaur'
 staxel.category.dinosaur=恐龙
 //[Reference] 'doorTest'
 staxel.category.doorTest=进厂检验
 //[Reference] 'Dragon Fruit Pie Stand'
 staxel.category.DragonFruitPieStand=火龙果派小摊
-//TODO Translate [Reference] 'dreamcatcher'
-staxel.category.dreamcatcher=
+//[Reference] 'dreamcatcher'
+staxel.category.dreamcatcher=捕梦网
 //[Reference] 'dryer'
 staxel.category.dryer=烘干机
 //[Reference] 'drying'
 staxel.category.drying=烘干中
 //[Reference] 'dye'
 staxel.category.dye=染料
+//TODO Translate [Reference] 'fancy'
+staxel.category.fancy=
+//TODO Translate [Reference] 'farmer'
+staxel.category.farmer=
 //[Reference] 'farming'
 staxel.category.farming=耕作
 //[Reference] 'fertilizer'
 staxel.category.fertilizer=肥料
 //[Reference] 'fey'
 staxel.category.fey=精灵
-//TODO Translate [Reference] 'fin'
-staxel.category.fin=
+//TODO Translate [Reference] 'filling'
+staxel.category.filling=
+//[Reference] 'fin'
+staxel.category.fin=鳍
 //[Reference] 'fine'
 staxel.category.fine=好的
-//TODO Translate [Reference] 'fish Display'
-staxel.category.fishDisplay=
+//[Reference] 'fish Display'
+staxel.category.fishDisplay=鱼类展柜
 //[Reference] 'fly'
 staxel.category.fly=苍蝇
 //[Reference] 'fossil'
@@ -1149,8 +1212,8 @@ staxel.category.fryable=可炸的
 
 //[Reference] 'gazebo'
 staxel.category.gazebo=露台
-//TODO Translate [Reference] 'gear'
-staxel.category.gear=
+//[Reference] 'gear'
+staxel.category.gear=齿轮
 //[Reference] 'Golden Pumpkin'
 staxel.category.GoldenPumpkin=黄金南瓜
 //[Reference] 'Golden Strawberry'
@@ -1159,6 +1222,8 @@ staxel.category.GoldenStrawberry=黄金草莓
 staxel.category.GoldenWatermelon=黄金西瓜
 //[Reference] 'hanging'
 staxel.category.hanging=幔帐
+//TODO Translate [Reference] 'harvest'
+staxel.category.harvest=
 //[Reference] 'hay'
 staxel.category.hay=干草
 //[Reference] 'herb'
@@ -1169,8 +1234,8 @@ staxel.category.hinge=合页
 staxel.category.ice=冰
 //[Reference] 'icecream'
 staxel.category.icecream=冰淇淋
-//TODO Translate [Reference] 'incense'
-staxel.category.incense=
+//[Reference] 'incense'
+staxel.category.incense=香
 //[Reference] 'iron'
 //[Reference] 'iron'
 staxel.category.iron=铁
@@ -1179,14 +1244,18 @@ staxel.category.iron=铁
 staxel.category.japanese=日本
 //[Reference] 'jelly'
 staxel.category.jelly=果冻
+//TODO Translate [Reference] 'judge'
+staxel.category.judge=
+//TODO Translate [Reference] 'judging'
+staxel.category.judging=
 //[Reference] 'kennel'
 staxel.category.kennel=犬舍
 //[Reference] 'Knob'
 staxel.category.Knob=把手
-//TODO Translate [Reference] 'large Display'
-staxel.category.largeDisplay=
-//TODO Translate [Reference] 'Large Fish Display'
-staxel.category.largeFishDisplay=
+//[Reference] 'large Display'
+staxel.category.largeDisplay=大型展柜
+//[Reference] 'Large Fish Display'
+staxel.category.largeFishDisplay=大型鱼类展柜
 //[Reference] 'latch'
 staxel.category.latch=门闩
 //[Reference] 'laundry'
@@ -1203,20 +1272,26 @@ staxel.category.LightGreen=浅绿色
 staxel.category.LimePieStand=青柠派小摊
 //[Reference] 'lumber'
 staxel.category.lumber=木材
-//TODO Translate [Reference] 'lure'
-staxel.category.lure=
-//TODO Translate [Reference] 'machine'
-staxel.category.machine=
-//TODO Translate [Reference] 'mainspring'
-staxel.category.mainspring=
+//[Reference] 'lure'
+staxel.category.lure=饵
+//[Reference] 'machine'
+staxel.category.machine=机器
+//[Reference] 'mainspring'
+staxel.category.mainspring=主发条
+//TODO Translate [Reference] 'making'
+staxel.category.making=
 //[Reference] 'manure'
 staxel.category.manure=粪肥
 //[Reference] 'masonry'
 staxel.category.masonry=石工
+//TODO Translate [Reference] 'Max'
+staxel.category.Max=
 //[Reference] 'meat'
 staxel.category.meat=肉类
-//TODO Translate [Reference] 'mermaid'
-staxel.category.mermaid=
+//[Reference] 'mermaid'
+staxel.category.mermaid=人鱼
+//TODO Translate [Reference] 'microwave'
+staxel.category.microwave=
 //[Reference] 'mine'
 staxel.category.mine=矿藏
 //[Reference] 'mix'
@@ -1238,30 +1313,40 @@ staxel.category.OrangePieStand=甜橙派小摊
 
 //[Reference] 'order'
 staxel.category.order=订单
-//TODO Translate [Reference] 'oscar Quest Trash'
-staxel.category.oscarQuestTrash=
+//[Reference] 'oscar Quest Trash'
+staxel.category.oscarQuestTrash=奥斯卡任务垃圾
 //[Reference] 'painting'
 staxel.category.painting=画作
-//TODO Translate [Reference] 'pallet'
-staxel.category.pallet=
+//[Reference] 'pallet'
+staxel.category.pallet=货板
 //[Reference] 'palm'
 staxel.category.palm=棕榈树
 //[Reference] 'pancakes'
 staxel.category.pancakes=煎饼
 //[Reference] 'pane'
 staxel.category.pane=窗格
+//TODO Translate [Reference] 'pans'
+staxel.category.pans=
+//TODO Translate [Reference] 'pastry'
+staxel.category.pastry=
 //[Reference] 'patisserie'
 staxel.category.patisserie=法式糕点店
 //[Reference] 'Peach Pie Stand'
 staxel.category.PeachPieStand=桃子派小摊
-//TODO Translate [Reference] 'pinball'
-staxel.category.pinball=
+//[Reference] 'pinball'
+staxel.category.pinball=弹珠台
+//TODO Translate [Reference] 'pizza'
+staxel.category.pizza=
 //[Reference] 'Plain Cake Stand'
 staxel.category.PlainCakeStand=普通蛋糕小摊
 //[Reference] 'platform'
 staxel.category.platform=平台
-//TODO Translate [Reference] 'playpen'
-staxel.category.playpen=
+//[Reference] 'playpen'
+staxel.category.playpen=游戏围栏
+//TODO Translate [Reference] 'plushie'
+staxel.category.plushie=
+//TODO Translate [Reference] 'plushy'
+staxel.category.plushy=
 //[Reference] 'polisher'
 staxel.category.polisher=磨光机
 //[Reference] 'poop'
@@ -1270,16 +1355,30 @@ staxel.category.poop=船舳
 staxel.category.popcorn=爆米花
 //[Reference] 'porridge'
 staxel.category.porridge=粥
-//TODO Translate [Reference] 'rabbit'
-staxel.category.rabbit=
+//TODO Translate [Reference] 'potion'
+staxel.category.potion=
+//TODO Translate [Reference] 'potions'
+staxel.category.potions=
+//TODO Translate [Reference] 'powerful'
+staxel.category.powerful=
+//TODO Translate [Reference] 'prize'
+staxel.category.prize=
+//[Reference] 'rabbit'
+staxel.category.rabbit=兔子
 //[Reference] 'rack'
 staxel.category.rack=架
-//TODO Translate [Reference] 'Raw Wood'
-staxel.category.rawWood=
+//TODO Translate [Reference] 'range'
+staxel.category.range=
+//[Reference] 'Raw Wood'
+staxel.category.rawWood=原木
+//TODO Translate [Reference] 'refridgerator'
+staxel.category.refridgerator=
+//TODO Translate [Reference] 'restaurant'
+staxel.category.restaurant=
 //[Reference] 'rice'
 staxel.category.rice=米
-//TODO Translate [Reference] 'sack'
-staxel.category.sack=
+//[Reference] 'sack'
+staxel.category.sack=麻袋
 //[Reference] 'salad'
 staxel.category.salad=沙拉
 //[Reference] 'sawing'
@@ -1288,12 +1387,14 @@ staxel.category.sawing=锯切
 staxel.category.scaffold=脚手架
 //[Reference] 'scaffolding'
 staxel.category.scaffolding=脚手架
-//TODO Translate [Reference] 'science'
-staxel.category.science=
+//[Reference] 'science'
+staxel.category.science=科学
+//TODO Translate [Reference] 'scientific'
+staxel.category.scientific=
 //[Reference] 'sea'
 staxel.category.sea=大海
-//TODO Translate [Reference] 'seafood'
-staxel.category.seafood=
+//[Reference] 'seafood'
+staxel.category.seafood=海鲜
 //[Reference] 'sheared'
 staxel.category.sheared=剪切
 //[Reference] 'sheet'
@@ -1302,26 +1403,28 @@ staxel.category.sheet=纸张
 staxel.category.shell=壳
 //[Reference] 'shingles'
 staxel.category.shingles=板瓦
-//TODO Translate [Reference] 'ship'
-staxel.category.ship=
+//[Reference] 'ship'
+staxel.category.ship=船
 //[Reference] 'shrimp'
 staxel.category.shrimp=虾
 //[Reference] 'shrine'
 staxel.category.shrine=圣地
-//TODO Translate [Reference] 'Small Bug Display'
-staxel.category.smallBugDisplay=
-//TODO Translate [Reference] 'small Display'
-staxel.category.smallDisplay=
-//TODO Translate [Reference] 'Small Fish Display'
-staxel.category.smallFishDisplay=
+//TODO Translate [Reference] 'slimy'
+staxel.category.slimy=
+//[Reference] 'Small Bug Display'
+staxel.category.smallBugDisplay=小型昆虫展柜
+//[Reference] 'small Display'
+staxel.category.smallDisplay=小型展柜
+//[Reference] 'Small Fish Display'
+staxel.category.smallFishDisplay=小型鱼类展柜
 //[Reference] 'smoothie'
 staxel.category.smoothie=奶昔
-//TODO Translate [Reference] 'snack'
-staxel.category.snack=
+//[Reference] 'snack'
+staxel.category.snack=零食
 //[Reference] 'snowdust'
 staxel.category.snowdust=雪尘
-//TODO Translate [Reference] 'sponge'
-staxel.category.sponge=
+//[Reference] 'sponge'
+staxel.category.sponge=海绵
 //[Reference] 'standalone'
 staxel.category.standalone=单独的
 //[Reference] 'star'
@@ -1334,40 +1437,42 @@ staxel.category.StrawberryPieStand=草莓派小摊
 staxel.category.sun=太阳
 //[Reference] 'Sunflower'
 staxel.category.Sunflower=向日葵
-//TODO Translate [Reference] 'sushi'
-staxel.category.sushi=
+//[Reference] 'sushi'
+staxel.category.sushi=寿司
 //[Reference] 'tackle'
 staxel.category.tackle=滑车
 //[Reference] 'throne'
 staxel.category.throne=王座
-//TODO Translate [Reference] 'tractor'
-staxel.category.tractor=
+//[Reference] 'tractor'
+staxel.category.tractor=拖拉机
 //[Reference] 'unbaked'
 staxel.category.unbaked=未烘焙的
 //[Reference] 'upside down straight roof'
 staxel.category.upside down straight roof=倒置式直屋面
 //[Reference] 'varnish'
 staxel.category.varnish=装饰
+//TODO Translate [Reference] 'vase'
+staxel.category.vase=
 //[Reference] 'Vegetable Pie Stand'
 staxel.category.VegetablePieStand=蔬菜派小摊
-//TODO Translate [Reference] 'wand'
-staxel.category.wand=
+//[Reference] 'wand'
+staxel.category.wand=魔杖
 //[Reference] 'washer'
 staxel.category.washer=洗衣机
 //[Reference] 'washing'
 staxel.category.washing=清洗
-//TODO Translate [Reference] 'wedding'
-staxel.category.wedding=
-//TODO Translate [Reference] 'wire'
-staxel.category.wire=
+//[Reference] 'wedding'
+staxel.category.wedding=婚礼
+//[Reference] 'wire'
+staxel.category.wire=电线
 //[Reference] '???'
 staxel.collections.unknown=？？？
 
 staxel.core.Compound.description=
 //[Reference] 'Compound'
 staxel.core.Compound.name=合成
-//TODO Translate [Reference] 'Airship Parts'
-staxel.crafting.recipes.AirshipParts.name=
+//[Reference] 'Airship Parts'
+staxel.crafting.recipes.AirshipParts.name=飞船零件
 staxel.crafting.recipes.Apiary.description=
 //[Reference] 'Apiary'
 staxel.crafting.recipes.Apiary.name=蜂房
@@ -1435,16 +1540,17 @@ staxel.crafting.recipes.BrownWoodBlock.name=棕色原木
 staxel.crafting.recipes.Butter.description=
 //[Reference] 'Butter'
 staxel.crafting.recipes.Butter.name=黄油
-//TODO Translate [Reference] 'Cake Cheese'
-staxel.crafting.recipes.CakeCheese.name=
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Cheesecake'
+staxel.crafting.recipes.CakeCheese.name=奶酪蛋糕
 staxel.crafting.recipes.CandyCorn.description=
 //[Reference] 'Candy Corn'
 staxel.crafting.recipes.CandyCorn.name=玉米糖
 staxel.crafting.recipes.CaptureCrate.description=
 //[Reference] 'CaptureCrate'
 staxel.crafting.recipes.CaptureCrate.name=采集箱
-//TODO Translate [Reference] 'Cauldron'
-staxel.crafting.recipes.Cauldron.name=
+//[Reference] 'Cauldron'
+staxel.crafting.recipes.Cauldron.name=坩埚
 staxel.crafting.recipes.ChickenCoop.description=
 //[Reference] 'ChickenCoop'
 staxel.crafting.recipes.ChickenCoop.name=鸡舍
@@ -1455,13 +1561,11 @@ staxel.crafting.recipes.Chips.description=
 //[Reference] 'Chips'
 staxel.crafting.recipes.Chips.name=芯片
 staxel.crafting.recipes.ClassicBrickBlock.description=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Classic Brick Block'
-staxel.crafting.recipes.ClassicBrickBlock.name=普通砖块
+staxel.crafting.recipes.ClassicBrickBlock.name=经典砖方块
 staxel.crafting.recipes.ClassicWoodBlock.description=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Classic Wood Block'
-staxel.crafting.recipes.ClassicWoodBlock.name=普通原木
+staxel.crafting.recipes.ClassicWoodBlock.name=经典木头方块
 staxel.crafting.recipes.CobbleStonePath.description=
 //[Reference] 'Cobble Stone Path'
 staxel.crafting.recipes.CobbleStonePath.name=鹅卵石路
@@ -1469,11 +1573,10 @@ staxel.crafting.recipes.CoffeeTable.description=
 //[Reference] 'CoffeeTable'
 staxel.crafting.recipes.CoffeeTable.name=咖啡桌
 staxel.crafting.recipes.CombineFruitSalad.description=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Fruit Salad'
 staxel.crafting.recipes.CombineFruitSalad.name=水果沙拉
-//TODO Translate [Reference] 'Communications Rod'
-staxel.crafting.recipes.CommunicationsRod.name=
+//[Reference] 'Communications Rod'
+staxel.crafting.recipes.CommunicationsRod.name=通讯天线杆
 staxel.crafting.recipes.Crate.description=
 //[Reference] 'Crate'
 staxel.crafting.recipes.Crate.name=制造
@@ -1492,12 +1595,11 @@ staxel.crafting.recipes.CreamStoneWall.name=奶油色石头墙
 staxel.crafting.recipes.CreamWoodBlock.description=
 //[Reference] 'Cream Wood Block'
 staxel.crafting.recipes.CreamWoodBlock.name=奶油色木头方块
-//TODO Translate [Reference] 'Dark Petal Core'
-staxel.crafting.recipes.DarkPetalCore.name=
+//[Reference] 'Dark Petal Core'
+staxel.crafting.recipes.DarkPetalCore.name=暗色花瓣核心
 staxel.crafting.recipes.DarkWoodBlock.description=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Dark Wood Block'
-staxel.crafting.recipes.DarkWoodBlock.name=深色木方块
+staxel.crafting.recipes.DarkWoodBlock.name=暗色木头方块
 //[Reference] 'Just the frame of a door. You can craft this into a working door.'
 staxel.crafting.recipes.DoorFrame.description=只是一个门的框架.你可以把它做成工作门.
 //[Reference] 'Door Frame'
@@ -1535,45 +1637,43 @@ staxel.crafting.recipes.GreyWoodBlock.name=灰色木头方块
 staxel.crafting.recipes.JackOLantern.description=
 //[Reference] 'Jack O' Lantern'
 staxel.crafting.recipes.JackOLantern.name=杰克南瓜灯
-//TODO Translate [Reference] 'Large Gear'
-staxel.crafting.recipes.LargeGear.name=
+//[Reference] 'Large Gear'
+staxel.crafting.recipes.LargeGear.name=大齿轮
 staxel.crafting.recipes.lightMeal.BoiledEgg.description=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Boiled Egg'
-staxel.crafting.recipes.lightMeal.BoiledEgg.name=水煮蛋
+staxel.crafting.recipes.lightMeal.BoiledEgg.name=煮蛋
 staxel.crafting.recipes.Lumber.description=
 //[Reference] 'Lumber'
 staxel.crafting.recipes.Lumber.name=木材
-//TODO Translate [Reference] 'Magicless Wand'
-staxel.crafting.recipes.MagiclessWand.name=
-//TODO Translate [Reference] 'Magic Mainspring'
-staxel.crafting.recipes.MagicMainspring.name=
+//[Reference] 'Magicless Wand'
+staxel.crafting.recipes.MagiclessWand.name=没有魔法的魔杖
+//[Reference] 'Magic Mainspring'
+staxel.crafting.recipes.MagicMainspring.name=魔法主发条
 staxel.crafting.recipes.MakeSyrup.description=
 //[Reference] 'Syrup'
 staxel.crafting.recipes.MakeSyrup.name=糖浆
 staxel.crafting.recipes.MangoPeachSmoothie.description=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Mango Peach Smoothie'
-staxel.crafting.recipes.MangoPeachSmoothie.name=芒果蜜子冰沙
+staxel.crafting.recipes.MangoPeachSmoothie.name=芒果桃子奶昔
 staxel.crafting.recipes.Manure.description=
 //[Reference] 'Manure'
 staxel.crafting.recipes.Manure.name=粪肥
-//TODO Translate [Reference] 'Mortar Sacks'
-staxel.crafting.recipes.MortarSacks.name=
-//TODO Translate [Reference] 'Mug O Sap'
-staxel.crafting.recipes.MugOSap.name=
-//TODO Translate [Reference] 'Mushroom Chair'
-staxel.crafting.recipes.mushroomFurniture.MushroomChair.name=
-//TODO Translate [Reference] 'Mushroom Double Bed'
-staxel.crafting.recipes.mushroomFurniture.MushroomDoubleBed.name=
-//TODO Translate [Reference] 'Mushroom Dresser'
-staxel.crafting.recipes.mushroomFurniture.MushroomDresser.name=
-//TODO Translate [Reference] 'Mushroom Lamp'
-staxel.crafting.recipes.mushroomFurniture.MushroomLamp.name=
-//TODO Translate [Reference] 'Mushroom Sofa'
-staxel.crafting.recipes.mushroomFurniture.MushroomSofa.name=
-//TODO Translate [Reference] 'Mushroom Table'
-staxel.crafting.recipes.mushroomFurniture.MushroomTable.name=
+//[Reference] 'Mortar Sacks'
+staxel.crafting.recipes.MortarSacks.name=砂浆袋
+//[Reference] 'Mug O Sap'
+staxel.crafting.recipes.MugOSap.name=元气饮料
+//[Reference] 'Mushroom Chair'
+staxel.crafting.recipes.mushroomFurniture.MushroomChair.name=蘑菇椅子
+//[Reference] 'Mushroom Double Bed'
+staxel.crafting.recipes.mushroomFurniture.MushroomDoubleBed.name=蘑菇双人床
+//[Reference] 'Mushroom Dresser'
+staxel.crafting.recipes.mushroomFurniture.MushroomDresser.name=蘑菇梳妆台
+//[Reference] 'Mushroom Lamp'
+staxel.crafting.recipes.mushroomFurniture.MushroomLamp.name=蘑菇灯
+//[Reference] 'Mushroom Sofa'
+staxel.crafting.recipes.mushroomFurniture.MushroomSofa.name=蘑菇沙发
+//[Reference] 'Mushroom Table'
+staxel.crafting.recipes.mushroomFurniture.MushroomTable.name=蘑菇桌子
 staxel.crafting.recipes.MushroomRisotto.description=
 //[Reference] 'Mushroom Risotto'
 staxel.crafting.recipes.MushroomRisotto.name=蘑菇意大利烩饭
@@ -1589,18 +1689,18 @@ staxel.crafting.recipes.OrangeStone.name=橙色石头
 staxel.crafting.recipes.OrangeWoodBlock.description=
 //[Reference] 'Orange Wood Block'
 staxel.crafting.recipes.OrangeWoodBlock.name=橙色木头方块
-//TODO Translate [Reference] 'Pallet Stack'
-staxel.crafting.recipes.PalletStack.name=
+//[Reference] 'Pallet Stack'
+staxel.crafting.recipes.PalletStack.name=货板堆
 staxel.crafting.recipes.Pancakes.description=
 //[Reference] 'Pancakes'
 staxel.crafting.recipes.Pancakes.name=烙饼
-//TODO Translate [Reference] 'Petal Wand Core'
-staxel.crafting.recipes.PetalWandCore.name=
+//[Reference] 'Petal Wand Core'
+staxel.crafting.recipes.PetalWandCore.name=花瓣魔杖核心
 staxel.crafting.recipes.PetFood.description=
 //[Reference] 'Pet Food'
 staxel.crafting.recipes.PetFood.name=宠物食品
-//TODO Translate [Reference] 'Pet Store Shelf'
-staxel.crafting.recipes.PetStoreShelf.name=
+//[Reference] 'Pet Store Shelf'
+staxel.crafting.recipes.PetStoreShelf.name=宠物商店架子
 staxel.crafting.recipes.Pickets.description=
 //[Reference] 'Pickets'
 staxel.crafting.recipes.Pickets.name=木栅栏
@@ -1632,9 +1732,8 @@ staxel.crafting.recipes.PurpleWoodBlock.description=
 //[Reference] 'Purple Wood Block'
 staxel.crafting.recipes.PurpleWoodBlock.name=紫色木头方块
 staxel.crafting.recipes.RanchDoorFrame.description=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Ranch Doorframe'
-staxel.crafting.recipes.RanchDoorFrame.name=牧场门框
+staxel.crafting.recipes.RanchDoorFrame.name=大牧场门框
 staxel.crafting.recipes.RanchStairs.description=
 //[Reference] 'RanchStairs'
 staxel.crafting.recipes.RanchStairs.name=牧场台阶
@@ -1642,17 +1741,14 @@ staxel.crafting.recipes.RanchWindow.description=
 //[Reference] 'RanchWindow'
 staxel.crafting.recipes.RanchWindow.name=牧场窗户
 staxel.crafting.recipes.RanchWindowBroken.description=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Broken Ranch Window'
-staxel.crafting.recipes.RanchWindowBroken.name=破败的牧场窗户
+staxel.crafting.recipes.RanchWindowBroken.name=坏掉的大牧场窗户
 staxel.crafting.recipes.RanchWindowLarge.description=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Large Ranch Window'
-staxel.crafting.recipes.RanchWindowLarge.name=大型牧场窗户
+staxel.crafting.recipes.RanchWindowLarge.name=大型大牧场窗户
 staxel.crafting.recipes.RaspberryBlackberrySmoothie.description=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Blackberry & Raspberry Smoothie'
-staxel.crafting.recipes.RaspberryBlackberrySmoothie.name=树莓黑莓冰沙
+staxel.crafting.recipes.RaspberryBlackberrySmoothie.name=黑莓红莓奶昔
 staxel.crafting.recipes.RedBrick.description=
 //[Reference] 'Red Brick'
 staxel.crafting.recipes.RedBrick.name=红色砖
@@ -1671,14 +1767,14 @@ staxel.crafting.recipes.Rock1.name=岩石1
 staxel.crafting.recipes.RopeFence.description=
 //[Reference] 'RopeFence'
 staxel.crafting.recipes.RopeFence.name=绳围栏
-//TODO Translate [Reference] 'Runic Gear'
-staxel.crafting.recipes.RunicGear.name=
-//TODO Translate [Reference] 'Science Machine Large'
-staxel.crafting.recipes.ScienceMachineLarge.name=
-//TODO Translate [Reference] 'Science Machine Small'
-staxel.crafting.recipes.ScienceMachineSmall.name=
-//TODO Translate [Reference] 'Science Machine Tall'
-staxel.crafting.recipes.ScienceMachineTall.name=
+//[Reference] 'Runic Gear'
+staxel.crafting.recipes.RunicGear.name=神秘齿轮
+//[Reference] 'Science Machine Large'
+staxel.crafting.recipes.ScienceMachineLarge.name=科学机器（大）
+//[Reference] 'Science Machine Small'
+staxel.crafting.recipes.ScienceMachineSmall.name=科学机器（小）
+//[Reference] 'Science Machine Tall'
+staxel.crafting.recipes.ScienceMachineTall.name=科学机器（高）
 staxel.crafting.recipes.ScrambledEgg.description=
 //[Reference] 'Scrambled Egg'
 staxel.crafting.recipes.ScrambledEgg.name=炒蛋
@@ -1692,28 +1788,23 @@ staxel.crafting.recipes.ShrimpFriedRice.description=
 //[Reference] 'Shrimp Fried Rice'
 staxel.crafting.recipes.ShrimpFriedRice.name=虾仁炒饭
 staxel.crafting.recipes.SimpleBookCase.description=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Simple Bookcase'
-staxel.crafting.recipes.SimpleBookCase.name=简单书柜
+staxel.crafting.recipes.SimpleBookCase.name=简易书架
 staxel.crafting.recipes.SimpleChestOfDrawers.description=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Simple Chest of Drawers'
-staxel.crafting.recipes.SimpleChestOfDrawers.name=简单五斗柜
+staxel.crafting.recipes.SimpleChestOfDrawers.name=简易五斗柜
 staxel.crafting.recipes.SimpleWardrobe.description=
 //[Reference] 'SimpleWardrobe'
 staxel.crafting.recipes.SimpleWardrobe.name=简单衣柜
 staxel.crafting.recipes.SimpleWardrobeSingle.description=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Simple Single Wardrobe'
-staxel.crafting.recipes.SimpleWardrobeSingle.name=简单单衣柜
+staxel.crafting.recipes.SimpleWardrobeSingle.name=简易单人衣柜
 staxel.crafting.recipes.SmallCrate.description=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Small Crate'
-staxel.crafting.recipes.SmallCrate.name=小木箱
-//TODO Translate [Reference] 'Small Gear'
-staxel.crafting.recipes.SmallGear.name=
+staxel.crafting.recipes.SmallCrate.name=小板条箱
+//[Reference] 'Small Gear'
+staxel.crafting.recipes.SmallGear.name=小齿轮
 staxel.crafting.recipes.SoupCabbage.description=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Cabbage Soup'
 staxel.crafting.recipes.SoupCabbage.name=卷心菜汤
 staxel.crafting.recipes.StraightWoodenFence.description=
@@ -1732,13 +1823,13 @@ staxel.crafting.recipes.ToffeeApple.description=
 //[Reference] 'Toffee Apple'
 staxel.crafting.recipes.ToffeeApple.name=太妃糖苹果
 staxel.crafting.recipes.TreeSapling.description=
-//TODO Translate [Reference] 'Tree Sapling'
-staxel.crafting.recipes.TreeSapling.name=
+//[Reference] 'Tree Sapling'
+staxel.crafting.recipes.TreeSapling.name=小树苗
 staxel.crafting.recipes.Trough.description=
 //[Reference] 'Trough'
 staxel.crafting.recipes.Trough.name=水槽
-//TODO Translate [Reference] 'Weather Vane'
-staxel.crafting.recipes.WeatherVane.name=
+//[Reference] 'Weather Vane'
+staxel.crafting.recipes.WeatherVane.name=风向标
 staxel.crafting.recipes.WhiteStone.description=
 //[Reference] 'White Stone'
 staxel.crafting.recipes.WhiteStone.name=白色石头
@@ -1769,14 +1860,14 @@ staxel.crafting.recipes.YellowWoodBlock.name=黄色木头方块
 staxel.crafting.recipes.Yoghurt.description=
 //[Reference] 'Yoghurt'
 staxel.crafting.recipes.Yoghurt.name=酸奶
-//TODO Translate [Reference] '{0-name} Recipe'
-staxel.crafting.type.Cooking=
-//TODO Translate [Reference] '{0-name} Blueprint'
-staxel.crafting.type.Crafting=
-//TODO Translate [Reference] 'Recipe for making {0-name}'
-staxel.crafting.type.desc.Cooking=
-//TODO Translate [Reference] 'Blueprint for making {0-name}'
-staxel.crafting.type.desc.Crafting=
+//[Reference] '{0-name} Recipe'
+staxel.crafting.type.Cooking={0-name}配方
+//[Reference] '{0-name} Blueprint'
+staxel.crafting.type.Crafting={0-name}设计图
+//[Reference] 'Recipe for making {0-name}'
+staxel.crafting.type.desc.Cooking=制作{0-name}的配方
+//[Reference] 'Blueprint for making {0-name}'
+staxel.crafting.type.desc.Crafting=制作{0-name}的设计图
 
 //[Reference] 'A brightly coloured beet.'
 staxel.crop.Beet.description=一棵色彩鲜艳的甜菜。
@@ -1794,8 +1885,8 @@ staxel.crop.CatTurnip.description=
 //[Reference] 'Cat Turnip'
 staxel.crop.CatTurnip.name=猫芜菁
 staxel.crop.CoffeeBean.description=
-//TODO Translate [Reference] 'Coffee Bean'
-staxel.crop.CoffeeBean.name=
+//[Reference] 'Coffee Bean'
+staxel.crop.CoffeeBean.name=咖啡豆
 //[Reference] 'Delicious yellow corn.'
 staxel.crop.Corn.description=美味的黄玉米。
 //[Reference] 'Corn Seed'
@@ -1809,8 +1900,8 @@ staxel.crop.Eggplant.description=很有光泽的茄子。
 //[Reference] 'Eggplant Seed'
 staxel.crop.Eggplant.name=茄子种子
 staxel.crop.GiantMushroom.description=
-//TODO Translate [Reference] 'Giant Mushroom'
-staxel.crop.GiantMushroom.name=
+//[Reference] 'Giant Mushroom'
+staxel.crop.GiantMushroom.name=巨型蘑菇
 //[Reference] 'How strange, this beet is solid gold!'
 staxel.crop.GoldenBeet.description=真奇怪，这颗甜菜是纯金的！
 //[Reference] 'Golden Beet Seed'
@@ -1823,8 +1914,8 @@ staxel.crop.GoldenCarrot.description=噢，天啊，这个胡萝卜是纯金的�
 //[Reference] 'Golden Carrot Seed'
 staxel.crop.GoldenCarrot.name=黄金胡萝卜种子
 staxel.crop.GoldenCoffeeBean.description=
-//TODO Translate [Reference] 'Golden Coffee Bean'
-staxel.crop.GoldenCoffeeBean.name=
+//[Reference] 'Golden Coffee Bean'
+staxel.crop.GoldenCoffeeBean.name=黄金咖啡豆
 //[Reference] 'This corn is made of gold! Best make sure no kernels fall off!'
 staxel.crop.GoldenCorn.description=这颗玉米是用金子做的！最好确保它的谷粒别掉下来！
 //[Reference] 'Golden Corn Seed'
@@ -2045,8 +2136,8 @@ staxel.gameLogicalButton.Esc=Esc键
 staxel.gameLogicalButton.Forward=向前
 //[Reference] 'Inventory'
 staxel.gameLogicalButton.Inventory=物品栏
-//TODO Translate [Reference] 'Journal'
-staxel.gameLogicalButton.Journal=
+//[Reference] 'Journal'
+staxel.gameLogicalButton.Journal=日志
 //[Reference] 'Jump'
 staxel.gameLogicalButton.Jump=跳跃
 //[Reference] 'Left'
@@ -2087,8 +2178,8 @@ staxel.gameLogicalButton.Slot9=栏位 9
 staxel.gameLogicalButton.Slot10=栏位 10
 //[Reference] 'Sneak'
 staxel.gameLogicalButton.Sneak=潜行
-//TODO Translate [Reference] 'Swap Camera Mode'
-staxel.gameLogicalButton.SwapCameraMode=
+//[Reference] 'Swap Camera Mode'
+staxel.gameLogicalButton.SwapCameraMode=切换摄像模式
 //[Reference] 'Switch Item'
 staxel.gameLogicalButton.SwitchItem=切换物品
 //[Reference] 'A'
@@ -2154,14 +2245,14 @@ staxel.gatherable.HermitShell.description=
 //[Reference] 'Hermit Shell'
 staxel.gatherable.HermitShell.name=寄居蟹
 staxel.gatherable.PawShell.description=
-//TODO Translate [Reference] 'Paw Shell'
-staxel.gatherable.PawShell.name=
+//[Reference] 'Paw Shell'
+staxel.gatherable.PawShell.name=爪形贝
 staxel.gatherable.PearlShell.description=
 //[Reference] 'Pearl Shell'
 staxel.gatherable.PearlShell.name=珍珠贝
 staxel.gatherable.RareMushroom.description=
-//TODO Translate [Reference] 'Rare Mushroom'
-staxel.gatherable.RareMushroom.name=
+//[Reference] 'Rare Mushroom'
+staxel.gatherable.RareMushroom.name=稀有蘑菇
 staxel.gatherable.RedCoral.description=
 //[Reference] 'Red Coral'
 staxel.gatherable.RedCoral.name=红珊瑚
@@ -2189,64 +2280,64 @@ staxel.gatherable.WhiteMushrooms.description=广泛使用于多种菜肴之中�
 //[Reference] 'White Mushrooms'
 staxel.gatherable.WhiteMushrooms.name=白蘑菇
 staxel.gatherable.Wildberry.description=
-//TODO Translate [Reference] 'Wildberry'
-staxel.gatherable.Wildberry.name=
-//TODO Translate [Reference] 'Interface Letters'
-staxel.inputMappingModality.InterfaceLetters=
-//TODO Translate [Reference] 'Main Down'
-staxel.inputMappingModality.MainDown=
-//TODO Translate [Reference] 'Main Up'
-staxel.inputMappingModality.MainUp=
-//TODO Translate [Reference] 'None'
-staxel.inputMappingModality.None=
-//TODO Translate [Reference] 'No Shift Control Alt'
-staxel.inputMappingModality.NoShiftControlAlt=
-//TODO Translate [Reference] 'Accept'
-staxel.interfaceLogicalButton.Accept=
-//TODO Translate [Reference] 'Back'
-staxel.interfaceLogicalButton.Back=
-//TODO Translate [Reference] 'Down'
-staxel.interfaceLogicalButton.Down=
-//TODO Translate [Reference] 'Enter'
-staxel.interfaceLogicalButton.Enter=
-//TODO Translate [Reference] 'Left'
-staxel.interfaceLogicalButton.Left=
-//TODO Translate [Reference] 'Next'
-staxel.interfaceLogicalButton.Next=
-//TODO Translate [Reference] 'Next Tab'
-staxel.interfaceLogicalButton.NextTab=
-//TODO Translate [Reference] 'Previous'
-staxel.interfaceLogicalButton.Previous=
-//TODO Translate [Reference] 'Previous Tab'
-staxel.interfaceLogicalButton.PreviousTab=
-//TODO Translate [Reference] 'Reset'
-staxel.interfaceLogicalButton.Reset=
-//TODO Translate [Reference] 'Right'
-staxel.interfaceLogicalButton.Right=
-//TODO Translate [Reference] 'Scroll Down'
-staxel.interfaceLogicalButton.ScrollDown=
-//TODO Translate [Reference] 'Scroll Left'
-staxel.interfaceLogicalButton.ScrollLeft=
-//TODO Translate [Reference] 'Scroll Right'
-staxel.interfaceLogicalButton.ScrollRight=
-//TODO Translate [Reference] 'Scroll Up'
-staxel.interfaceLogicalButton.ScrollUp=
-//TODO Translate [Reference] 'Tab1'
-staxel.interfaceLogicalButton.Tab1=
-//TODO Translate [Reference] 'Tab2'
-staxel.interfaceLogicalButton.Tab2=
-//TODO Translate [Reference] 'Tab3'
-staxel.interfaceLogicalButton.Tab3=
-//TODO Translate [Reference] 'Tab4'
-staxel.interfaceLogicalButton.Tab4=
-//TODO Translate [Reference] 'Tab5'
-staxel.interfaceLogicalButton.Tab5=
-//TODO Translate [Reference] 'Tab Down'
-staxel.interfaceLogicalButton.TabDown=
-//TODO Translate [Reference] 'Tab Up'
-staxel.interfaceLogicalButton.TabUp=
-//TODO Translate [Reference] 'Up'
-staxel.interfaceLogicalButton.Up=
+//[Reference] 'Wildberry'
+staxel.gatherable.Wildberry.name=野莓
+//[Reference] 'Interface Letters'
+staxel.inputMappingModality.InterfaceLetters=界面字母
+//[Reference] 'Main Down'
+staxel.inputMappingModality.MainDown=主要动作下
+//[Reference] 'Main Up'
+staxel.inputMappingModality.MainUp=主要动作上
+//[Reference] 'None'
+staxel.inputMappingModality.None=无
+//[Reference] 'No Shift Control Alt'
+staxel.inputMappingModality.NoShiftControlAlt=无Shift Ctrl Alt键
+//[Reference] 'Accept'
+staxel.interfaceLogicalButton.Accept=接受
+//[Reference] 'Back'
+staxel.interfaceLogicalButton.Back=返回
+//[Reference] 'Down'
+staxel.interfaceLogicalButton.Down=下
+//[Reference] 'Enter'
+staxel.interfaceLogicalButton.Enter=回车
+//[Reference] 'Left'
+staxel.interfaceLogicalButton.Left=左
+//[Reference] 'Next'
+staxel.interfaceLogicalButton.Next=下一项
+//[Reference] 'Next Tab'
+staxel.interfaceLogicalButton.NextTab=下一标签
+//[Reference] 'Previous'
+staxel.interfaceLogicalButton.Previous=上一项
+//[Reference] 'Previous Tab'
+staxel.interfaceLogicalButton.PreviousTab=上一标签
+//[Reference] 'Reset'
+staxel.interfaceLogicalButton.Reset=重置
+//[Reference] 'Right'
+staxel.interfaceLogicalButton.Right=右
+//[Reference] 'Scroll Down'
+staxel.interfaceLogicalButton.ScrollDown=向下滚动
+//[Reference] 'Scroll Left'
+staxel.interfaceLogicalButton.ScrollLeft=向左滚动
+//[Reference] 'Scroll Right'
+staxel.interfaceLogicalButton.ScrollRight=向右滚动
+//[Reference] 'Scroll Up'
+staxel.interfaceLogicalButton.ScrollUp=向上滚动
+//[Reference] 'Tab1'
+staxel.interfaceLogicalButton.Tab1=第1页
+//[Reference] 'Tab2'
+staxel.interfaceLogicalButton.Tab2=第2页
+//[Reference] 'Tab3'
+staxel.interfaceLogicalButton.Tab3=第3页
+//[Reference] 'Tab4'
+staxel.interfaceLogicalButton.Tab4=第4页
+//[Reference] 'Tab5'
+staxel.interfaceLogicalButton.Tab5=第5页
+//[Reference] 'Tab Down'
+staxel.interfaceLogicalButton.TabDown=下一页
+//[Reference] 'Tab Up'
+staxel.interfaceLogicalButton.TabUp=上一页
+//[Reference] 'Up'
+staxel.interfaceLogicalButton.Up=上
 staxel.item.buildingTools.Export.description=
 //[Reference] 'Export'
 staxel.item.buildingTools.Export.name=导出
@@ -2292,8 +2383,11 @@ staxel.item.crafting.BlackPetal.description=
 //[Reference] 'Black Petal'
 staxel.item.crafting.BlackPetal.name=黑色花瓣
 staxel.item.crafting.Blanket.description=
-//TODO Translate [Reference] 'Blanket'
-staxel.item.crafting.Blanket.name=
+//[Reference] 'Blanket'
+staxel.item.crafting.Blanket.name=毛毯
+staxel.item.crafting.BlueberryPopsicle.description=
+//TODO Translate [Reference] 'Blueberry Popsicle'
+staxel.item.crafting.BlueberryPopsicle.name=
 staxel.item.crafting.BluePetal.description=
 //[Reference] 'Blue Petal'
 staxel.item.crafting.BluePetal.name=蓝色花瓣
@@ -2307,14 +2401,14 @@ staxel.item.crafting.CakeBatter.description=
 //[Reference] 'CakeBatter'
 staxel.item.crafting.CakeBatter.name=蛋糕糊
 staxel.item.crafting.CakeCheese.description=
-//TODO Translate [Reference] 'Cake Cheese'
-staxel.item.crafting.CakeCheese.name=
+//[Reference] 'Cake Cheese'
+staxel.item.crafting.CakeCheese.name=奶酪蛋糕
 staxel.item.crafting.CakeCheeseBatter.description=
-//TODO Translate [Reference] 'Cake Cheese Batter'
-staxel.item.crafting.CakeCheeseBatter.name=
+//[Reference] 'Cake Cheese Batter'
+staxel.item.crafting.CakeCheeseBatter.name=奶酪蛋糕面糊
 staxel.item.crafting.CakeRods.description=
-//TODO Translate [Reference] 'Cake Rods'
-staxel.item.crafting.CakeRods.name=
+//[Reference] 'Cake Rods'
+staxel.item.crafting.CakeRods.name=蛋糕杆
 staxel.item.crafting.CaptureCrateDoor.description=
 //[Reference] 'CaptureCrateDoor'
 staxel.item.crafting.CaptureCrateDoor.name=捕捉箱的门
@@ -2330,29 +2424,47 @@ staxel.item.crafting.ChickenCoopFrame.name=鸡舍框架
 staxel.item.crafting.Chips.description=
 //[Reference] 'Chips'
 staxel.item.crafting.Chips.name=芯片
+staxel.item.crafting.ChocoBlueberryPopsicle.description=
+//TODO Translate [Reference] 'Choco Blueberry Popsicle'
+staxel.item.crafting.ChocoBlueberryPopsicle.name=
+staxel.item.crafting.ChocoGrapePopsicle.description=
+//TODO Translate [Reference] 'Choco Grape Popsicle'
+staxel.item.crafting.ChocoGrapePopsicle.name=
+staxel.item.crafting.ChocoLimePopsicle.description=
+//TODO Translate [Reference] 'Choco Lime Popsicle'
+staxel.item.crafting.ChocoLimePopsicle.name=
+staxel.item.crafting.ChocoMintPopsicle.description=
+//TODO Translate [Reference] 'Choco Mint Popsicle'
+staxel.item.crafting.ChocoMintPopsicle.name=
+staxel.item.crafting.ChocoOrangePopsicle.description=
+//TODO Translate [Reference] 'Choco Orange Popsicle'
+staxel.item.crafting.ChocoOrangePopsicle.name=
+staxel.item.crafting.ChocoStrawberryPopsicle.description=
+//TODO Translate [Reference] 'Choco Strawberry Popsicle'
+staxel.item.crafting.ChocoStrawberryPopsicle.name=
 staxel.item.crafting.Coffee.description=
-//TODO Translate [Reference] 'Coffee'
-staxel.item.crafting.Coffee.name=
+//[Reference] 'Coffee'
+staxel.item.crafting.Coffee.name=咖啡
 staxel.item.crafting.DoubleBedBase.description=
-//TODO Translate [Reference] 'Double Bed Base'
-staxel.item.crafting.DoubleBedBase.name=
+//[Reference] 'Double Bed Base'
+staxel.item.crafting.DoubleBedBase.name=双人床底板
 staxel.item.crafting.DoubleBedFrame.description=
-//TODO Translate [Reference] 'Double Bed Frame'
-staxel.item.crafting.DoubleBedFrame.name=
+//[Reference] 'Double Bed Frame'
+staxel.item.crafting.DoubleBedFrame.name=双人床框
 staxel.item.crafting.EggFriedRice.description=
 //[Reference] 'Egg Fried Rice'
 staxel.item.crafting.EggFriedRice.name=蛋炒饭
 staxel.item.crafting.FineLumber.description=
 //[Reference] 'FineLumber'
 staxel.item.crafting.FineLumber.name=优质木材
-//TODO Translate [Reference] 'A mix of various fish. There's basically no reason to ever do this. Taste at your own peril.'
-staxel.item.crafting.FishMixAlpha.description=
-//TODO Translate [Reference] 'Fish Mix α'
-staxel.item.crafting.FishMixAlpha.name=
-//TODO Translate [Reference] 'This stuff smells even worse than the last batch. Why did you even make it?'
-staxel.item.crafting.FishMixBeta.description=
-//TODO Translate [Reference] 'Fish Mix β'
-staxel.item.crafting.FishMixBeta.name=
+//[Reference] 'A mix of various fish. There's basically no reason to ever do this. Taste at your own peril.'
+staxel.item.crafting.FishMixAlpha.description=一种混合鱼肉，做这种东西基本上是多此一举。一旦品尝，后果自负。
+//[Reference] 'Fish Mix α'
+staxel.item.crafting.FishMixAlpha.name=混合鱼肉α
+//[Reference] 'This stuff smells even worse than the last batch. Why did you even make it?'
+staxel.item.crafting.FishMixBeta.description=这东西比上次的还难闻，你为什么要做这种东西？
+//[Reference] 'Fish Mix β'
+staxel.item.crafting.FishMixBeta.name=混合鱼肉β
 staxel.item.crafting.FriedMushrooms.description=
 //[Reference] 'Assorted Fried Mushrooms'
 staxel.item.crafting.FriedMushrooms.name=什锦炸蘑菇
@@ -2365,6 +2477,9 @@ staxel.item.crafting.GlassPane.name=玻璃板
 staxel.item.crafting.Glue.description=
 //[Reference] 'Glue'
 staxel.item.crafting.Glue.name=胶水
+staxel.item.crafting.GrapePopsicle.description=
+//TODO Translate [Reference] 'Grape Popsicle'
+staxel.item.crafting.GrapePopsicle.name=
 staxel.item.crafting.GreenLeaf.description=
 //[Reference] 'Green Leaf'
 staxel.item.crafting.GreenLeaf.name=绿色叶子
@@ -2378,8 +2493,8 @@ staxel.item.crafting.Knob.description=
 //[Reference] 'Knob'
 staxel.item.crafting.Knob.name=旋钮
 staxel.item.crafting.LargeGear.description=
-//TODO Translate [Reference] 'Large Gear'
-staxel.item.crafting.LargeGear.name=
+//[Reference] 'Large Gear'
+staxel.item.crafting.LargeGear.name=大齿轮
 staxel.item.crafting.LargeWoodenFrame.description=
 //[Reference] 'Large Wooden Frame'
 staxel.item.crafting.LargeWoodenFrame.name=大木框
@@ -2404,18 +2519,24 @@ staxel.item.crafting.LightMeal.SeasonedSalmon.name=调味三文鱼
 staxel.item.crafting.LightMeal.Sushi.description=
 //[Reference] 'Sushi'
 staxel.item.crafting.LightMeal.Sushi.name=寿司
+staxel.item.crafting.LimePopsicle.description=
+//TODO Translate [Reference] 'Lime Popsicle'
+staxel.item.crafting.LimePopsicle.name=
 staxel.item.crafting.Lumber.description=
 //[Reference] 'Lumber'
 staxel.item.crafting.Lumber.name=木材
 staxel.item.crafting.MagicMainspring.description=
-//TODO Translate [Reference] 'Magic Mainspring'
-staxel.item.crafting.MagicMainspring.name=
+//[Reference] 'Magic Mainspring'
+staxel.item.crafting.MagicMainspring.name=魔法主发条
 staxel.item.crafting.MangoPeachSmoothie.description=
 //[Reference] 'MangoPeachSmoothie'
 staxel.item.crafting.MangoPeachSmoothie.name=芒果桃子冰沙
 staxel.item.crafting.MetalBands.description=
 //[Reference] 'Metal Bands'
 staxel.item.crafting.MetalBands.name=金属乐队
+staxel.item.crafting.MintPopsicle.description=
+//TODO Translate [Reference] 'Mint Popsicle'
+staxel.item.crafting.MintPopsicle.name=
 staxel.item.crafting.Mortar.description=
 //[Reference] 'Mortar'
 staxel.item.crafting.Mortar.name=臼
@@ -2425,6 +2546,9 @@ staxel.item.crafting.MushroomRisotto.name=蘑菇意大利烩饭
 staxel.item.crafting.Nails.description=
 //[Reference] 'Nails'
 staxel.item.crafting.Nails.name=钉子
+staxel.item.crafting.OrangePopsicle.description=
+//TODO Translate [Reference] 'Orange Popsicle'
+staxel.item.crafting.OrangePopsicle.name=
 staxel.item.crafting.PancakeBatter.description=
 //[Reference] 'PancakeBatter'
 staxel.item.crafting.PancakeBatter.name=煎饼面糊
@@ -2453,11 +2577,11 @@ staxel.item.crafting.Rope.description=
 //[Reference] 'Rope'
 staxel.item.crafting.Rope.name=绳子
 staxel.item.crafting.RunicGear.description=
-//TODO Translate [Reference] 'Runic Gear'
-staxel.item.crafting.RunicGear.name=
+//[Reference] 'Runic Gear'
+staxel.item.crafting.RunicGear.name=神秘齿轮
 staxel.item.crafting.SackCloth.description=
-//TODO Translate [Reference] 'Sack Cloth'
-staxel.item.crafting.SackCloth.name=
+//[Reference] 'Sack Cloth'
+staxel.item.crafting.SackCloth.name=麻袋布
 staxel.item.crafting.ScrambledEgg.description=
 //[Reference] 'Scrambled Egg'
 staxel.item.crafting.ScrambledEgg.name=炒蛋
@@ -2471,11 +2595,14 @@ staxel.item.crafting.ShrimpFriedRice.description=
 //[Reference] 'Shrimp Fried Rice'
 staxel.item.crafting.ShrimpFriedRice.name=虾仁炒饭
 staxel.item.crafting.SmallGear.description=
-//TODO Translate [Reference] 'Small Gear'
-staxel.item.crafting.SmallGear.name=
+//[Reference] 'Small Gear'
+staxel.item.crafting.SmallGear.name=小齿轮
 staxel.item.crafting.StrawberryBlueberrySmoothie.description=
 //[Reference] 'StrawberryBlueberrySmoothie'
 staxel.item.crafting.StrawberryBlueberrySmoothie.name=草莓蓝莓奶昔
+staxel.item.crafting.StrawberryPopsicle.description=
+//TODO Translate [Reference] 'Strawberry Popsicle'
+staxel.item.crafting.StrawberryPopsicle.name=
 staxel.item.crafting.UnbakedBakedPotatoWithColdUnbakedCheese.description=
 //[Reference] 'UnbakedBakedPotatoWithColdUnbakedCheese'
 staxel.item.crafting.UnbakedBakedPotatoWithColdUnbakedCheese.name=未烤的冷奶酪焗马铃薯
@@ -2491,10 +2618,10 @@ staxel.item.crafting.Varnish.name=装饰
 staxel.item.crafting.WhitePetal.description=
 //[Reference] 'White Petal'
 staxel.item.crafting.WhitePetal.name=白色花瓣
-//TODO Translate [Reference] 'It's electrifying!'
-staxel.item.crafting.Wire.description=
-//TODO Translate [Reference] 'Wire'
-staxel.item.crafting.Wire.name=
+//[Reference] 'It's electrifying!'
+staxel.item.crafting.Wire.description=像触电般让人兴奋！
+//[Reference] 'Wire'
+staxel.item.crafting.Wire.name=电线
 staxel.item.crafting.WoodShingles.description=
 //[Reference] 'WoodShingles'
 staxel.item.crafting.WoodShingles.name=木瓦片
@@ -2505,14 +2632,14 @@ staxel.item.crops.CatTurnip.description=
 //[Reference] 'Cat Turnip'
 staxel.item.crops.CatTurnip.name=猫芜菁
 staxel.item.crops.CoffeeBean.description=
-//TODO Translate [Reference] 'Coffee Bean'
-staxel.item.crops.CoffeeBean.name=
+//[Reference] 'Coffee Bean'
+staxel.item.crops.CoffeeBean.name=咖啡豆
 staxel.item.crops.GoldenCabbage.description=
 //[Reference] 'Golden Cabbage'
 staxel.item.crops.GoldenCabbage.name=黄金卷心菜
 staxel.item.crops.GoldenCoffeeBean.description=
-//TODO Translate [Reference] 'Golden Coffee Bean'
-staxel.item.crops.GoldenCoffeeBean.name=
+//[Reference] 'Golden Coffee Bean'
+staxel.item.crops.GoldenCoffeeBean.name=黄金咖啡豆
 staxel.item.crops.GoldenPumpkin.description=
 //[Reference] 'Golden Pumpkin'
 staxel.item.crops.GoldenPumpkin.name=黄金南瓜
@@ -2526,8 +2653,8 @@ staxel.item.crops.Sunflower.description=
 //[Reference] 'Sunflower'
 staxel.item.crops.Sunflower.name=向日葵
 staxel.item.DarkPetalCore.description=
-//TODO Translate [Reference] 'Dark Petal Core'
-staxel.item.DarkPetalCore.name=
+//[Reference] 'Dark Petal Core'
+staxel.item.DarkPetalCore.name=暗色花瓣核心
 staxel.item.debug.Export.description=
 //[Reference] 'Export'
 staxel.item.debug.Export.name=出口
@@ -2535,10 +2662,10 @@ staxel.item.debug.Export.name=出口
 staxel.item.DogLetter.description=罗恩让你运送这个。看来他在这上面画了根骨头？
 //[Reference] 'Letter to Farm Fan'
 staxel.item.DogLetter.name=给农场粉丝的信
-//TODO Translate [Reference] 'Soaks up water (stackable)'
-staxel.item.DrySponge.description=
-//TODO Translate [Reference] 'Dry Sponge'
-staxel.item.DrySponge.name=
+//[Reference] 'Soaks up water (stackable)'
+staxel.item.DrySponge.description=能够吸水（可堆叠）
+//[Reference] 'Dry Sponge'
+staxel.item.DrySponge.name=干海绵
 staxel.item.festival.CandyCorn.description=
 //[Reference] 'Candy Corn'
 staxel.item.festival.CandyCorn.name=玉米糖
@@ -2685,14 +2812,14 @@ staxel.item.gatherable.PurpleButterfly.description=
 //[Reference] 'Purple Butterfly'
 staxel.item.gatherable.PurpleButterfly.name=紫蝴蝶
 staxel.item.gatherable.quest.LostFishingTools.description=
-//TODO Translate [Reference] 'Lost Fishing Tools'
-staxel.item.gatherable.quest.LostFishingTools.name=
+//[Reference] 'Lost Fishing Tools'
+staxel.item.gatherable.quest.LostFishingTools.name=丢失的渔具
 staxel.item.gatherable.RainbowTrout.description=
 //[Reference] 'Rainbow Trout'
 staxel.item.gatherable.RainbowTrout.name=虹鳟鱼
 staxel.item.gatherable.RareMushroom.description=
-//TODO Translate [Reference] 'Rare Mushroom'
-staxel.item.gatherable.RareMushroom.name=
+//[Reference] 'Rare Mushroom'
+staxel.item.gatherable.RareMushroom.name=稀有蘑菇
 staxel.item.gatherable.RedDragonfly.description=
 //[Reference] 'Red Dragonfly'
 staxel.item.gatherable.RedDragonfly.name=红蜻蜓
@@ -2741,8 +2868,8 @@ staxel.item.gatherable.WhiteButterfly.description=
 //[Reference] 'WhiteButterfly'
 staxel.item.gatherable.WhiteButterfly.name=白蝴蝶
 staxel.item.gatherable.Wildberry.description=
-//TODO Translate [Reference] 'Wildberry'
-staxel.item.gatherable.Wildberry.name=
+//[Reference] 'Wildberry'
+staxel.item.gatherable.Wildberry.name=野莓
 staxel.item.gatherable.WillOTheWisp.description=
 //[Reference] 'Will-o'-the-wisp'
 staxel.item.gatherable.WillOTheWisp.name=鬼火
@@ -2755,9 +2882,15 @@ staxel.item.gatherable.YellowPerch.name=黄鲈
 staxel.item.gatherable.ZebraButterfly.description=
 //[Reference] 'Zebra Butterfly'
 staxel.item.gatherable.ZebraButterfly.name=斑马纹蝶
+staxel.item.generic.BlueBook.description=
+//TODO Translate [Reference] 'Blue Book'
+staxel.item.generic.BlueBook.name=
+staxel.item.generic.YellowBook.description=
+//TODO Translate [Reference] 'Yellow Book'
+staxel.item.generic.YellowBook.name=
 staxel.item.LightPetalCore.description=
-//TODO Translate [Reference] 'Light Petal Core'
-staxel.item.LightPetalCore.name=
+//[Reference] 'Light Petal Core'
+staxel.item.LightPetalCore.name=浅色花瓣核心
 //[Reference] 'Who knows what you might find if you polish this old relic!'
 staxel.item.museum.Fossil.description=如果打磨这个古老遗物，谁知道你能发现什么！
 //[Reference] 'Unpolished Fossil'
@@ -2767,205 +2900,205 @@ staxel.item.NoteToRowan.description=一张写给罗恩的便条。也许最好�
 //[Reference] 'Note To Rowan'
 staxel.item.NoteToRowan.name=给罗恩的便条
 staxel.item.PetalWandCore.description=
-//TODO Translate [Reference] 'Petal Wand Core'
-staxel.item.PetalWandCore.name=
+//[Reference] 'Petal Wand Core'
+staxel.item.PetalWandCore.name=花瓣魔杖核心
 staxel.item.quest.Aliza.AirshipParts.description=
-//TODO Translate [Reference] 'Airship Parts'
-staxel.item.quest.Aliza.AirshipParts.name=
+//[Reference] 'Airship Parts'
+staxel.item.quest.Aliza.AirshipParts.name=飞船零件
 staxel.item.quest.Aliza.IllegibleAirshipBlueprint.description=
-//TODO Translate [Reference] 'Illegible Airship Blueprint'
-staxel.item.quest.Aliza.IllegibleAirshipBlueprint.name=
+//[Reference] 'Illegible Airship Blueprint'
+staxel.item.quest.Aliza.IllegibleAirshipBlueprint.name=字迹模糊的飞船设计图
 staxel.item.quest.Aliza.NewAirshipBlueprint.description=
-//TODO Translate [Reference] 'Airship Blueprint'
-staxel.item.quest.Aliza.NewAirshipBlueprint.name=
+//[Reference] 'Airship Blueprint'
+staxel.item.quest.Aliza.NewAirshipBlueprint.name=飞船设计图
 staxel.item.quest.Aliza.NewAirshipBlueprintAnnotated.description=
-//TODO Translate [Reference] 'Annotated Airship Blueprint'
-staxel.item.quest.Aliza.NewAirshipBlueprintAnnotated.name=
+//[Reference] 'Annotated Airship Blueprint'
+staxel.item.quest.Aliza.NewAirshipBlueprintAnnotated.name=带有注解的飞船设计图
 staxel.item.quest.CaithWitchLocket.description=
-//TODO Translate [Reference] 'Cirahna's Mother's Locket'
-staxel.item.quest.CaithWitchLocket.name=
+//[Reference] 'Cirahna's Mother's Locket'
+staxel.item.quest.CaithWitchLocket.name=茜拉娜妈妈的纪念盒吊坠
 staxel.item.quest.CapturedMonster.description=
-//TODO Translate [Reference] 'Captured Monster'
-staxel.item.quest.CapturedMonster.name=
+//[Reference] 'Captured Monster'
+staxel.item.quest.CapturedMonster.name=被捕捉的怪物
 staxel.item.quest.Cecile.LeifLetter.description=
-//TODO Translate [Reference] 'Leif Letter'
-staxel.item.quest.Cecile.LeifLetter.name=
+//[Reference] 'Leif Letter'
+staxel.item.quest.Cecile.LeifLetter.name=雷夫的信
 staxel.item.quest.CoffeeBrewer.description=
-//TODO Translate [Reference] 'Coffee Brewer'
-staxel.item.quest.CoffeeBrewer.name=
+//[Reference] 'Coffee Brewer'
+staxel.item.quest.CoffeeBrewer.name=咖啡机
 staxel.item.quest.CraftedWitchWand.description=
-//TODO Translate [Reference] 'Magicless Wand'
-staxel.item.quest.CraftedWitchWand.name=
-//TODO Translate [Reference] 'It just says 'Farm Fan' in big letters.'
-staxel.item.quest.DecoratedChocolateCake.description=
-//TODO Translate [Reference] 'Decorated Chocolate Cake'
-staxel.item.quest.DecoratedChocolateCake.name=
-//TODO Translate [Reference] 'This bracelet signifies a unique bond. Gift it to the villager you want to make your roomie!'
-staxel.item.quest.FriendshipBracelet.description=
-//TODO Translate [Reference] 'Friendship Bracelet'
-staxel.item.quest.FriendshipBracelet.name=
+//[Reference] 'Magicless Wand'
+staxel.item.quest.CraftedWitchWand.name=没有魔法的魔杖
+//[Reference] 'It just says 'Farm Fan' in big letters.'
+staxel.item.quest.DecoratedChocolateCake.description=上面用大写字母写着“农场粉丝”。
+//[Reference] 'Decorated Chocolate Cake'
+staxel.item.quest.DecoratedChocolateCake.name=巧克力装饰蛋糕
+//[Reference] 'This bracelet signifies a unique bond. Gift it to the villager you want to make your roomie!'
+staxel.item.quest.FriendshipBracelet.description=这条手链象征着一种独特的关系，把它送给你想要作为室友的村民！
+//[Reference] 'Friendship Bracelet'
+staxel.item.quest.FriendshipBracelet.name=友谊手链
 staxel.item.quest.GameDesignBook.description=
-//TODO Translate [Reference] 'Beginner's Game Design Book'
-staxel.item.quest.GameDesignBook.name=
+//[Reference] 'Beginner's Game Design Book'
+staxel.item.quest.GameDesignBook.name=初学者的游戏设计书
 staxel.item.quest.GiftPackage.description=
-//TODO Translate [Reference] 'Gift Packages'
-staxel.item.quest.GiftPackage.name=
+//[Reference] 'Gift Packages'
+staxel.item.quest.GiftPackage.name=礼包
 staxel.item.quest.GildedRod.description=
-//TODO Translate [Reference] 'Gilded Fishing Rod'
-staxel.item.quest.GildedRod.name=
-//TODO Translate [Reference] 'A cute forest bunny'
-staxel.item.quest.Hazel.description=
-//TODO Translate [Reference] 'Hazel'
-staxel.item.quest.Hazel.name=
+//[Reference] 'Gilded Fishing Rod'
+staxel.item.quest.GildedRod.name=镀金鱼竿
+//[Reference] 'A cute forest bunny'
+staxel.item.quest.Hazel.description=一只可爱的森林兔
+//[Reference] 'Hazel'
+staxel.item.quest.Hazel.name=黑兹尔
 staxel.item.quest.InsuranceCertificate.description=
-//TODO Translate [Reference] 'Insurance Certificate'
-staxel.item.quest.InsuranceCertificate.name=
+//[Reference] 'Insurance Certificate'
+staxel.item.quest.InsuranceCertificate.name=保险凭证
 staxel.item.quest.LegendaryFarmerBook.description=
-//TODO Translate [Reference] 'Legendary Farmers Book'
-staxel.item.quest.LegendaryFarmerBook.name=
+//[Reference] 'Legendary Farmers Book'
+staxel.item.quest.LegendaryFarmerBook.name=传奇农夫之书
 staxel.item.quest.LeifGift.description=
-//TODO Translate [Reference] 'Leif Gift'
-staxel.item.quest.LeifGift.name=
+//[Reference] 'Leif Gift'
+staxel.item.quest.LeifGift.name=雷夫的礼物
 staxel.item.quest.MachineDescription.description=
-//TODO Translate [Reference] 'Machine Description'
-staxel.item.quest.MachineDescription.name=
-//TODO Translate [Reference] 'A Terrorfyingly boring Cell.'
-staxel.item.quest.MachinePartCell.description=
-//TODO Translate [Reference] 'Machine Cell'
-staxel.item.quest.MachinePartCell.name=
-//TODO Translate [Reference] 'What does it do? Few know, and fewer care.'
-staxel.item.quest.MachinePartSapper.description=
-//TODO Translate [Reference] 'Machine Sapper'
-staxel.item.quest.MachinePartSapper.name=
-//TODO Translate [Reference] 'Data has never been displayed better.'
-staxel.item.quest.MachinePartScreen.description=
-//TODO Translate [Reference] 'Machine Screen'
-staxel.item.quest.MachinePartScreen.name=
-//TODO Translate [Reference] 'This ultra-strong coffee has a similar colour and consistency to machine oil. The aroma is slightly concerning.'
-staxel.item.quest.OrderForAliza.description=
-//TODO Translate [Reference] 'Order For Aliza'
-staxel.item.quest.OrderForAliza.name=
-//TODO Translate [Reference] 'A very particular meal that comes with a mug o' sap. Even the food itself reeks of the stuff!'
-staxel.item.quest.OrderForFarmFan.description=
-//TODO Translate [Reference] 'Order For Farm Fan'
-staxel.item.quest.OrderForFarmFan.name=
-//TODO Translate [Reference] 'A rather simply prepared fish fillet. It might as well be raw.'
-staxel.item.quest.OrderForRiah.description=
-//TODO Translate [Reference] 'Order For Riah'
-staxel.item.quest.OrderForRiah.name=
+//[Reference] 'Machine Description'
+staxel.item.quest.MachineDescription.name=机器描述
+//[Reference] 'A Terrorfyingly boring Cell.'
+staxel.item.quest.MachinePartCell.description=可怕又无趣的单元。
+//[Reference] 'Machine Cell'
+staxel.item.quest.MachinePartCell.name=机器单元
+//[Reference] 'What does it do? Few know, and fewer care.'
+staxel.item.quest.MachinePartSapper.description=它是做什么用的？没有人知道，更没有人在乎。
+//[Reference] 'Machine Sapper'
+staxel.item.quest.MachinePartSapper.name=机器钻头
+//[Reference] 'Data has never been displayed better.'
+staxel.item.quest.MachinePartScreen.description=没有什么比这能更好的显示数据了。
+//[Reference] 'Machine Screen'
+staxel.item.quest.MachinePartScreen.name=机器屏幕
+//[Reference] 'This ultra-strong coffee has a similar colour and consistency to machine oil. The aroma is slightly concerning.'
+staxel.item.quest.OrderForAliza.description=这种超浓咖啡具有与机油类似的颜色与粘稠度，气味并不重要。
+//[Reference] 'Order For Aliza'
+staxel.item.quest.OrderForAliza.name=爱丽哲的订单
+//[Reference] 'A very particular meal that comes with a mug o' sap. Even the food itself reeks of the stuff!'
+staxel.item.quest.OrderForFarmFan.description=一种非常特别的食物，配上一杯元气饮料。食物本身居然散发着一股臭味！
+//[Reference] 'Order For Farm Fan'
+staxel.item.quest.OrderForFarmFan.name=农场粉丝的订单
+//[Reference] 'A rather simply prepared fish fillet. It might as well be raw.'
+staxel.item.quest.OrderForRiah.description=简单烹饪的鱼排，看起来好像是生的。
+//[Reference] 'Order For Riah'
+staxel.item.quest.OrderForRiah.name=瑞安的订单
 staxel.item.quest.Oscar.AluaLetter.description=
-//TODO Translate [Reference] 'Alua Letter'
-staxel.item.quest.Oscar.AluaLetter.name=
+//[Reference] 'Alua Letter'
+staxel.item.quest.Oscar.AluaLetter.name=奥拉的信
 staxel.item.quest.Oscar.LetterOfChallenge.description=
-//TODO Translate [Reference] 'Letter Of Challenge'
-staxel.item.quest.Oscar.LetterOfChallenge.name=
+//[Reference] 'Letter Of Challenge'
+staxel.item.quest.Oscar.LetterOfChallenge.name=挑战书
 staxel.item.quest.Oscar.RubbishCoveredFanmail.description=
-//TODO Translate [Reference] 'Rubbish Covered Fanmail'
-staxel.item.quest.Oscar.RubbishCoveredFanmail.name=
+//[Reference] 'Rubbish Covered Fanmail'
+staxel.item.quest.Oscar.RubbishCoveredFanmail.name=被垃圾覆盖的粉丝信
 staxel.item.quest.Oscar.TrashFairyDust.description=
-//TODO Translate [Reference] 'Fairy Dust'
-staxel.item.quest.Oscar.TrashFairyDust.name=
+//[Reference] 'Fairy Dust'
+staxel.item.quest.Oscar.TrashFairyDust.name=精灵之尘
 staxel.item.quest.Oscar.VandalNoteToMax.description=
-//TODO Translate [Reference] 'Vandal Note'
-staxel.item.quest.Oscar.VandalNoteToMax.name=
-//TODO Translate [Reference] 'It really wouldn't be appropriate to peek inside this.'
-staxel.item.quest.PrinceLetter.description=
-//TODO Translate [Reference] 'Prince's Letter'
-staxel.item.quest.PrinceLetter.name=
-//TODO Translate [Reference] 'It really wouldn't be appropriate to peek inside this.'
-staxel.item.quest.PrinceLetterDoctored.description=
-//TODO Translate [Reference] 'Doctored Prince's Letter'
-staxel.item.quest.PrinceLetterDoctored.name=
-//TODO Translate [Reference] 'It really wouldn't be appropriate to peek inside this.'
-staxel.item.quest.PrincessLetter.description=
-//TODO Translate [Reference] 'Princess' Letter'
-staxel.item.quest.PrincessLetter.name=
-//TODO Translate [Reference] 'It really wouldn't be appropriate to peek inside this.'
-staxel.item.quest.PrincessLetterDoctored.description=
-//TODO Translate [Reference] 'Doctored Princess' Letter'
-staxel.item.quest.PrincessLetterDoctored.name=
-//TODO Translate [Reference] 'A note to Riah detailing the location of her missing sibling.'
-staxel.item.quest.Riah.BestFriendLetterFromCirahna.description=
-//TODO Translate [Reference] 'Note to Riah'
-staxel.item.quest.Riah.BestFriendLetterFromCirahna.name=
-//TODO Translate [Reference] 'The blue letter in this bottle isn't addressed to you. You shouldn't peek!'
-staxel.item.quest.Riah.BlueLetterBottle.description=
-//TODO Translate [Reference] 'Letter in a Bottle (Blue)'
-staxel.item.quest.Riah.BlueLetterBottle.name=
-//TODO Translate [Reference] 'Salvaged from the stomach of M'yah, the Staxel Horror, this brooch is still a little slimy.'
-staxel.item.quest.Riah.Brooch.description=
-//TODO Translate [Reference] 'Riah's Brooch'
-staxel.item.quest.Riah.Brooch.name=
-//TODO Translate [Reference] 'The grey letter in this bottle isn't addressed to you. You shouldn't peek!'
-staxel.item.quest.Riah.GreyLetterBottle.description=
-//TODO Translate [Reference] 'Letter in a Bottle (Grey)'
-staxel.item.quest.Riah.GreyLetterBottle.name=
-//TODO Translate [Reference] 'A message in a bottle with a hook stuck in it. Could this be...?'
-staxel.item.quest.Riah.HookedBottle.description=
-//TODO Translate [Reference] 'Hooked Bottle'
-staxel.item.quest.Riah.HookedBottle.name=
-//TODO Translate [Reference] 'Riah wanted you to deliver this to Max.'
-staxel.item.quest.Riah.LetterToMax.description=
-//TODO Translate [Reference] 'Letter To Max'
-staxel.item.quest.Riah.LetterToMax.name=
-//TODO Translate [Reference] 'The legendary Staxel Horror. Riah claims it ate the brooch she needs. Better get it back to her before you go crazy or something.'
-staxel.item.quest.Riah.Myah.description=
-//TODO Translate [Reference] 'M'yah'
-staxel.item.quest.Riah.Myah.name=
-//TODO Translate [Reference] 'Cirahna wanted you to deliver this to Riah. A master calligrapher would envy the handwriting.'
-staxel.item.quest.Riah.NoteFromCirahna.description=
-//TODO Translate [Reference] 'Note From Cirahna'
-staxel.item.quest.Riah.NoteFromCirahna.name=
-//TODO Translate [Reference] 'Riah asked you to take this note to Cirahna. The handwriting is atrocious.'
-staxel.item.quest.Riah.NoteToCirahna.description=
-//TODO Translate [Reference] 'Note To Cirahna'
-staxel.item.quest.Riah.NoteToCirahna.name=
-//TODO Translate [Reference] 'The red letter in this bottle isn't addressed to you. You shouldn't peek!'
-staxel.item.quest.Riah.RedLetterBottle.description=
-//TODO Translate [Reference] 'Letter in a Bottle (Red)'
-staxel.item.quest.Riah.RedLetterBottle.name=
+//[Reference] 'Vandal Note'
+staxel.item.quest.Oscar.VandalNoteToMax.name=破坏者的便条
+//[Reference] 'It really wouldn't be appropriate to peek inside this.'
+staxel.item.quest.PrinceLetter.description=真的不该偷看上面的内容。
+//[Reference] 'Prince's Letter'
+staxel.item.quest.PrinceLetter.name=王子的信
+//[Reference] 'It really wouldn't be appropriate to peek inside this.'
+staxel.item.quest.PrinceLetterDoctored.description=真的不该偷看上面的内容。
+//[Reference] 'Doctored Prince's Letter'
+staxel.item.quest.PrinceLetterDoctored.name=修复好的王子的信
+//[Reference] 'It really wouldn't be appropriate to peek inside this.'
+staxel.item.quest.PrincessLetter.description=真的不该偷看上面的内容。
+//[Reference] 'Princess' Letter'
+staxel.item.quest.PrincessLetter.name=公主的信
+//[Reference] 'It really wouldn't be appropriate to peek inside this.'
+staxel.item.quest.PrincessLetterDoctored.description=真的不该偷看上面的内容。
+//[Reference] 'Doctored Princess' Letter'
+staxel.item.quest.PrincessLetterDoctored.name=修复好的公主的信
+//[Reference] 'A note to Riah detailing the location of her missing sibling.'
+staxel.item.quest.Riah.BestFriendLetterFromCirahna.description=写给瑞安的便条，上面详细描述了她失踪的姐妹的位置。
+//[Reference] 'Note to Riah'
+staxel.item.quest.Riah.BestFriendLetterFromCirahna.name=给瑞安的便条
+//[Reference] 'The blue letter in this bottle isn't addressed to you. You shouldn't peek!'
+staxel.item.quest.Riah.BlueLetterBottle.description=瓶中的蓝色信件不是写给你的，你不该偷看！
+//[Reference] 'Letter in a Bottle (Blue)'
+staxel.item.quest.Riah.BlueLetterBottle.name=漂流瓶（蓝色）
+//[Reference] 'Salvaged from the stomach of M'yah, the Staxel Horror, this brooch is still a little slimy.'
+staxel.item.quest.Riah.Brooch.description=从Staxel的恐怖生物米亚的胃中取出来的，这枚胸针仍然有点黏糊糊的。
+//[Reference] 'Riah's Brooch'
+staxel.item.quest.Riah.Brooch.name=瑞安的胸针
+//[Reference] 'The grey letter in this bottle isn't addressed to you. You shouldn't peek!'
+staxel.item.quest.Riah.GreyLetterBottle.description=瓶中的灰色信件不是写给你的，你不该偷看！
+//[Reference] 'Letter in a Bottle (Grey)'
+staxel.item.quest.Riah.GreyLetterBottle.name=漂流瓶（灰色）
+//[Reference] 'A message in a bottle with a hook stuck in it. Could this be...?'
+staxel.item.quest.Riah.HookedBottle.description=一封放在被钩住的瓶子里面的信，这会是……？
+//[Reference] 'Hooked Bottle'
+staxel.item.quest.Riah.HookedBottle.name=被钩住的瓶子
+//[Reference] 'Riah wanted you to deliver this to Max.'
+staxel.item.quest.Riah.LetterToMax.description=瑞安想让你把这封信送给麦克斯。
+//[Reference] 'Letter To Max'
+staxel.item.quest.Riah.LetterToMax.name=给麦克斯的信
+//[Reference] 'The legendary Staxel Horror. Riah claims it ate the brooch she needs. Better get it back to her before you go crazy or something.'
+staxel.item.quest.Riah.Myah.description=Staxel传说中的恐怖生物。瑞安宣称它吃掉了她需要的胸针，在你发疯什么的之前最好把胸针给她找回来。
+//[Reference] 'M'yah'
+staxel.item.quest.Riah.Myah.name=米亚
+//[Reference] 'Cirahna wanted you to deliver this to Riah. A master calligrapher would envy the handwriting.'
+staxel.item.quest.Riah.NoteFromCirahna.description=茜拉娜想让你把这个便条送给瑞安。书法大师也会羡慕她的字迹。
+//[Reference] 'Note From Cirahna'
+staxel.item.quest.Riah.NoteFromCirahna.name=来自茜拉娜的便条
+//[Reference] 'Riah asked you to take this note to Cirahna. The handwriting is atrocious.'
+staxel.item.quest.Riah.NoteToCirahna.description=瑞安让你把这个便条带给茜拉娜，上面的字迹歪歪扭扭的。
+//[Reference] 'Note To Cirahna'
+staxel.item.quest.Riah.NoteToCirahna.name=给茜拉娜的便条
+//[Reference] 'The red letter in this bottle isn't addressed to you. You shouldn't peek!'
+staxel.item.quest.Riah.RedLetterBottle.description=瓶中的红色信件不是写给你的，你不该偷看！
+//[Reference] 'Letter in a Bottle (Red)'
+staxel.item.quest.Riah.RedLetterBottle.name=漂流瓶（红色）
 staxel.item.quest.Riah.RiahsBottledLetter.description=
-//TODO Translate [Reference] 'Riahs Bottled Letter'
-staxel.item.quest.Riah.RiahsBottledLetter.name=
+//[Reference] 'Riahs Bottled Letter'
+staxel.item.quest.Riah.RiahsBottledLetter.name=瑞安的漂流瓶
 staxel.item.quest.RobotParts.description=
-//TODO Translate [Reference] 'Robot Parts'
-staxel.item.quest.RobotParts.name=
+//[Reference] 'Robot Parts'
+staxel.item.quest.RobotParts.name=机器人零件
 staxel.item.quest.SapToken.description=
-//TODO Translate [Reference] 'Sap Token'
-staxel.item.quest.SapToken.name=
+//[Reference] 'Sap Token'
+staxel.item.quest.SapToken.name=元气饮料代币
 staxel.item.quest.SciencePermit.description=
-//TODO Translate [Reference] 'Science Permit'
-staxel.item.quest.SciencePermit.name=
+//[Reference] 'Science Permit'
+staxel.item.quest.SciencePermit.name=科学许可
 staxel.item.quest.SecretIngredient.description=
-//TODO Translate [Reference] 'Secret Ingredient'
-staxel.item.quest.SecretIngredient.name=
-//TODO Translate [Reference] 'The poor thing. Take it to Rosemary.'
-staxel.item.quest.StrayCat.description=
-//TODO Translate [Reference] 'Stray Cat'
-staxel.item.quest.StrayCat.name=
-//TODO Translate [Reference] 'It cannot be identified'
-staxel.item.quest.UnidentifiableMedicine.description=
-//TODO Translate [Reference] 'Unidentifiable Medicine'
-staxel.item.quest.UnidentifiableMedicine.name=
+//[Reference] 'Secret Ingredient'
+staxel.item.quest.SecretIngredient.name=秘密原料
+//[Reference] 'The poor thing. Take it to Rosemary.'
+staxel.item.quest.StrayCat.description=可怜的小家伙，把它带给罗斯玛丽。
+//[Reference] 'Stray Cat'
+staxel.item.quest.StrayCat.name=流浪猫
+//[Reference] 'It cannot be identified'
+staxel.item.quest.UnidentifiableMedicine.description=无法辨认出来是什么
+//[Reference] 'Unidentifiable Medicine'
+staxel.item.quest.UnidentifiableMedicine.name=无法辨认的药品
 staxel.item.quest.Vorlen.MundaneTransformationPotion.description=
-//TODO Translate [Reference] 'Mundane Transformation Potion'
-staxel.item.quest.Vorlen.MundaneTransformationPotion.name=
+//[Reference] 'Mundane Transformation Potion'
+staxel.item.quest.Vorlen.MundaneTransformationPotion.name=普通的变形药水
 staxel.item.quest.Vorlen.RainbowButterfly.description=
-//TODO Translate [Reference] 'Rainbow Butterfly'
-staxel.item.quest.Vorlen.RainbowButterfly.name=
+//[Reference] 'Rainbow Butterfly'
+staxel.item.quest.Vorlen.RainbowButterfly.name=彩虹蝴蝶
 staxel.item.quest.Vorlen.TransformationPotion.description=
-//TODO Translate [Reference] 'Transformation Potion'
-staxel.item.quest.Vorlen.TransformationPotion.name=
-//TODO Translate [Reference] 'One might consider describing this as 'abstract art'. Even that may be a stretch.'
-staxel.item.quest.WeddingGift.description=
-//TODO Translate [Reference] 'Wedding Gift'
-staxel.item.quest.WeddingGift.name=
+//[Reference] 'Transformation Potion'
+staxel.item.quest.Vorlen.TransformationPotion.name=变形药水
+//[Reference] 'One might consider describing this as 'abstract art'. Even that may be a stretch.'
+staxel.item.quest.WeddingGift.description=人们可能会将其描述为“抽象艺术”，不过即使这么说也算是夸张了。
+//[Reference] 'Wedding Gift'
+staxel.item.quest.WeddingGift.name=结婚礼物
 staxel.item.quest.WeddingRings.description=
-//TODO Translate [Reference] 'Wedding Rings'
-staxel.item.quest.WeddingRings.name=
+//[Reference] 'Wedding Rings'
+staxel.item.quest.WeddingRings.name=结婚戒指
 staxel.item.quest.WitchHat.description=
-//TODO Translate [Reference] 'Witch Hat'
-staxel.item.quest.WitchHat.name=
+//[Reference] 'Witch Hat'
+staxel.item.quest.WitchHat.name=女巫帽
 //[Reference] 'Rowan asked you to deliver this to Leif'
 staxel.item.RowansOrder.description=罗恩让你把它交给雷夫。
 //[Reference] 'Rowan's Order'
@@ -2975,35 +3108,63 @@ staxel.item.RowansParcel.description=一些闻起来不太对劲的东西……�
 //[Reference] 'Rowan's Parcel'
 staxel.item.RowansParcel.name=罗恩的包裹
 staxel.item.SoakedSponge.description=
-//TODO Translate [Reference] 'Soaked Sponge'
-staxel.item.SoakedSponge.name=
+//[Reference] 'Soaked Sponge'
+staxel.item.SoakedSponge.name=浸水的海绵
+//TODO Translate [Reference] 'Sponge'
+staxel.item.Sponge.name=
+//TODO Translate [Reference] 'Click a tile to start, click another to end. Builds a box between the corners. Alt click for settings. (uses first tile as material)'
+staxel.item.tool.BoxPlacer.description=
+//TODO Translate [Reference] 'Box Builder'
+staxel.item.tool.BoxPlacer.name=
+//TODO Translate [Reference] 'Click a surface of connected same-type tiles to extrude the face in that direction. Alt click for settings'
+staxel.item.tool.FaceExtruder.description=
+//TODO Translate [Reference] 'Face Extruder'
+staxel.item.tool.FaceExtruder.name=
 staxel.item.tool.FlowerWatercan.description=
 //[Reference] 'Flower Watering Can'
 staxel.item.tool.FlowerWatercan.name=花朵洒水壶
+//TODO Translate [Reference] 'Click a tile to start, click another to end. Builds a line between. Alt click for settings. (uses first tile as material)'
+staxel.item.tool.LinePlacer.description=
+//TODO Translate [Reference] 'Line Builder'
+staxel.item.tool.LinePlacer.name=
 staxel.item.tool.Manure.description=
 //[Reference] 'Manure'
 staxel.item.tool.Manure.name=粪肥
+//TODO Translate [Reference] 'Click a tile to start, click another to end. First and last tile inclusive'
+staxel.item.tool.MeasuringTape.description=
+//TODO Translate [Reference] 'Measuring Tape'
+staxel.item.tool.MeasuringTape.name=
 staxel.item.tool.PumpkingScythe.description=
 //[Reference] 'Pumpking Scythe'
 staxel.item.tool.PumpkingScythe.name=南瓜镰刀
+//TODO Translate [Reference] 'Click a tile to place a sphere at it. Alt click for settings. (uses clicked tile as material)'
+staxel.item.tool.SpherePlacer.description=
+//TODO Translate [Reference] 'Sphere Builder'
+staxel.item.tool.SpherePlacer.name=
 staxel.item.tool.TaikoHammer.description=
 //[Reference] 'Taiko Hammer'
 staxel.item.tool.TaikoHammer.name=太鼓锤
+staxel.item.tool.WaterSquirterGreen.description=
+//TODO Translate [Reference] 'Green Water Squirter'
+staxel.item.tool.WaterSquirterGreen.name=
+staxel.item.tool.WaterSquirterPink.description=
+//TODO Translate [Reference] 'Pink Water Squirter'
+staxel.item.tool.WaterSquirterPink.name=
 staxel.item.tool.WitchWand.description=
-//TODO Translate [Reference] 'Magic Wand'
-staxel.item.tool.WitchWand.name=
-//TODO Translate [Reference] '^c:1486b0;$playername;^c:pop;!\n\nI couldn't help overhearing your conversation with ^c:1486b0;Rosemary^c:pop; yesterday (sorry, I wasn't listening on purpose, I swear). See, I was around these parts back then and I swear something wasn't quite right about the whole thing...\n\nMaybe it would be worth having a little wander around the village and seeing if anyone else can remember anything?\n\n^c:1486b0;Farm Fan^c:pop;'
-staxel.mail.FarmFanEavesdrop.body=
-//TODO Translate [Reference] 'Rosemary'
-staxel.mail.FarmFanEavesdrop.subject=
-//TODO Translate [Reference] 'Best Friend'
-staxel.mainQuest.Rosemary.BestFriend=
-//TODO Translate [Reference] 'Food for the Soul'
-staxel.mainQuest.Rowan.BestFriend=
-//TODO Translate [Reference] 'Elixir of Life'
-staxel.mainQuest.Rowan.Friend=
-//TODO Translate [Reference] 'Nectar of the Gods'
-staxel.mainQuest.Rowan.Liked=
+//[Reference] 'Magic Wand'
+staxel.item.tool.WitchWand.name=魔法魔杖
+//[Reference] '^c:1486b0;$playername;^c:pop;!\n\nI couldn't help overhearing your conversation with ^c:1486b0;Rosemary^c:pop; yesterday (sorry, I wasn't listening on purpose, I swear). See, I was around these parts back then and I swear something wasn't quite right about the whole thing...\n\nMaybe it would be worth having a little wander around the village and seeing if anyone else can remember anything?\n\n^c:1486b0;Farm Fan^c:pop;'
+staxel.mail.FarmFanEavesdrop.body=^c:1486b0;$playername;^c:pop;！\n\n我昨天无意中听到了你和^c:1486b0;罗斯玛丽^c:pop;的对话（抱歉，我不是故意的，我发誓）。你知道，那时候我就在这附近，我发誓整件事情有些不对劲儿……\n\n也许你应该到村庄里四处逛逛，看看有没有人能记起什么事情？\n\n^c:1486b0;农场粉丝^c:pop;
+//[Reference] 'Rosemary'
+staxel.mail.FarmFanEavesdrop.subject=罗斯玛丽
+//[Reference] 'Best Friend'
+staxel.mainQuest.Rosemary.BestFriend=最好的朋友
+//[Reference] 'Food for the Soul'
+staxel.mainQuest.Rowan.BestFriend=精神食粮
+//[Reference] 'Elixir of Life'
+staxel.mainQuest.Rowan.Friend=灵丹妙药
+//[Reference] 'Nectar of the Gods'
+staxel.mainQuest.Rowan.Liked=诸神的琼浆
 //[Reference] 'Brick'
 staxel.merchant.Brick.name=布里克
 //[Reference] 'Buttons'
@@ -3051,18 +3212,17 @@ staxel.merchants.carts.PetMerchant.name=宠物商人购物车
 staxel.merchants.SellBox.description=
 //[Reference] 'Sell Box'
 staxel.merchants.SellBox.name=售货箱
-//TODO Translate [Reference] 'Left'
-staxel.mouseAxis.Left=
-//TODO Translate [Reference] 'Middle'
-staxel.mouseAxis.Middle=
-//TODO Translate [Reference] 'Right'
-staxel.mouseAxis.Right=
+//[Reference] 'Left'
+staxel.mouseAxis.Left=左
+//[Reference] 'Middle'
+staxel.mouseAxis.Middle=中
+//[Reference] 'Right'
+staxel.mouseAxis.Right=右
 
 //[Reference] 'Tip: Scythe grass or flowers to get mixed seeds'
 staxel.nightTransition.Line1=提示：收割花草可以获得混合种子
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Tip: Press shift or the left stick to move stacks on shelves or in the inventory'
-staxel.nightTransition.Line2=提示：按住Shift键可以使部分物品栏操作更加快速
+staxel.nightTransition.Line2=小提示：按Shift键或左摇杆来移动架子上或者库存中的物品
 //[Reference] 'Tip: The seed maker has a chance of giving golden seeds'
 staxel.nightTransition.Line3=提示：种子制造机有一定几率可以让你获得黄金种子
 //[Reference] 'Tip: You can craft capture crates to move your animals around'
@@ -3114,6 +3274,10 @@ staxel.nightTransition.prev=上一页
 //[Reference] 'This tile has already been tilled!'
 //[Reference] 'This tile has already been tilled!'
 staxel.notifications.AlreadyHoed=这块地已经翻过了！
+//TODO Translate [Reference] 'Distance: {0} tiles'
+staxel.notifications.BuildingTools.MeasuredDistance=
+//TODO Translate [Reference] 'Measuring point one set'
+staxel.notifications.BuildingTools.MeasuringTapeOne=
 //[Reference] 'You can't break this tile.'
 staxel.notifications.CantBreak=你不能破坏此方砖。
 //[Reference] 'Farm Fan has set aside this day to show you around the farm, you should do that before sleeping!'
@@ -3204,6 +3368,8 @@ staxel.notifications.WrongTool.Verb.Harvest=收获
 staxel.notifications.WrongTool.Verb.Pickup=拿
 //[Reference] 'pull'
 staxel.notifications.WrongTool.Verb.Pull=拉
+//TODO Translate [Reference] 'Soak'
+staxel.notifications.WrongTool.Verb.Soak=
 //[Reference] 'sweep'
 staxel.notifications.WrongTool.Verb.Sweep=扫
 //[Reference] 'till'
@@ -3240,25 +3406,25 @@ staxel.pets.Dog.name=狗
 
 //[Reference] '{0-pet} has brought you a gift!'
 staxel.pets.GiftReceived={0-pet}给你带来一份礼物！
-//TODO Translate [Reference] 'Rabbit'
-staxel.pets.Rabbit.name=
-//TODO Translate [Reference] 'Rosemary Rabbit'
-staxel.pets.RosemaryRabbit.name=
+//[Reference] 'Rabbit'
+staxel.pets.Rabbit.name=兔子
+//[Reference] 'Rosemary Rabbit'
+staxel.pets.RosemaryRabbit.name=罗斯玛丽的兔子
 staxel.plant.crop.CatTurnip.description=
 //[Reference] 'Cat Turnip'
 staxel.plant.crop.CatTurnip.name=猫芜菁
 staxel.plant.crop.CoffeeBean.description=
-//TODO Translate [Reference] 'Coffee Bean'
-staxel.plant.crop.CoffeeBean.name=
+//[Reference] 'Coffee Bean'
+staxel.plant.crop.CoffeeBean.name=咖啡豆
 staxel.plant.crop.GiantMushroom.description=
-//TODO Translate [Reference] 'Giant Mushroom'
-staxel.plant.crop.GiantMushroom.name=
+//[Reference] 'Giant Mushroom'
+staxel.plant.crop.GiantMushroom.name=巨型蘑菇
 staxel.plant.crop.GoldenCabbage.description=
 //[Reference] 'Golden Cabbage'
 staxel.plant.crop.GoldenCabbage.name=黄金卷心菜
 staxel.plant.crop.GoldenCoffeeBean.description=
-//TODO Translate [Reference] 'Golden Coffee Bean'
-staxel.plant.crop.GoldenCoffeeBean.name=
+//[Reference] 'Golden Coffee Bean'
+staxel.plant.crop.GoldenCoffeeBean.name=黄金咖啡豆
 staxel.plant.crop.GoldenPumpkin.description=
 //[Reference] 'Golden Pumpkin'
 staxel.plant.crop.GoldenPumpkin.name=黄金南瓜
@@ -3278,11 +3444,11 @@ staxel.plant.gatherable.Creaturebud.description=
 //[Reference] 'Creaturebud'
 staxel.plant.gatherable.Creaturebud.name=生物胞芽
 staxel.plant.gatherable.PawShell.description=
-//TODO Translate [Reference] 'Paw Shell'
-staxel.plant.gatherable.PawShell.name=
+//[Reference] 'Paw Shell'
+staxel.plant.gatherable.PawShell.name=爪形贝
 staxel.plant.gatherable.RareMushroom.description=
-//TODO Translate [Reference] 'Rare Mushroom'
-staxel.plant.gatherable.RareMushroom.name=
+//[Reference] 'Rare Mushroom'
+staxel.plant.gatherable.RareMushroom.name=稀有蘑菇
 staxel.plant.gatherable.Seaweed.description=
 //[Reference] 'Seaweed'
 staxel.plant.gatherable.Seaweed.name=海藻
@@ -3293,17 +3459,17 @@ staxel.plant.gatherable.StarJelly.description=
 //[Reference] 'Star Jelly'
 staxel.plant.gatherable.StarJelly.name=星果冻
 staxel.plant.gatherable.Wildberry.description=
-//TODO Translate [Reference] 'Wildberry'
-staxel.plant.gatherable.Wildberry.name=
+//[Reference] 'Wildberry'
+staxel.plant.gatherable.Wildberry.name=野莓
 staxel.plant.quest.RainbowButterfly.description=
-//TODO Translate [Reference] 'Rainbow Butterfly'
-staxel.plant.quest.RainbowButterfly.name=
+//[Reference] 'Rainbow Butterfly'
+staxel.plant.quest.RainbowButterfly.name=彩虹蝴蝶
 staxel.plant.quest.RainbowButterfly.tile.description=
-//TODO Translate [Reference] 'tile'
-staxel.plant.quest.RainbowButterfly.tile.name=
+//[Reference] 'tile'
+staxel.plant.quest.RainbowButterfly.tile.name=方砖
 staxel.plant.tree.BasicNaturalTree.description=
-//TODO Translate [Reference] 'Basic Natural Tree'
-staxel.plant.tree.BasicNaturalTree.name=
+//[Reference] 'Basic Natural Tree'
+staxel.plant.tree.BasicNaturalTree.name=基础自然树
 
 //[Reference] 'Free in Creative'
 staxel.priceTag.freeInCreative=创造模式下免费
@@ -3515,14 +3681,14 @@ staxel.tile.water.IceWater.description=
 //[Reference] 'Ice Water'
 staxel.tile.water.IceWater.name=冰水
 staxel.tileObject.achievements.GoldenFarmerStatue.description=
-//TODO Translate [Reference] 'Golden Farmer Statue'
-staxel.tileObject.achievements.GoldenFarmerStatue.name=
+//[Reference] 'Golden Farmer Statue'
+staxel.tileObject.achievements.GoldenFarmerStatue.name=黄金农夫雕像
 staxel.tileObject.achievements.MiningLantern.description=
-//TODO Translate [Reference] 'Mining Lantern'
-staxel.tileObject.achievements.MiningLantern.name=
+//[Reference] 'Mining Lantern'
+staxel.tileObject.achievements.MiningLantern.name=采矿灯
 staxel.tileObject.airship.CommunicationsRod.description=
-//TODO Translate [Reference] 'Communications Rod'
-staxel.tileObject.airship.CommunicationsRod.name=
+//[Reference] 'Communications Rod'
+staxel.tileObject.airship.CommunicationsRod.name=通讯天线杆
 staxel.tileObject.airship.RopeFenceCross.description=
 //[Reference] 'Rope Fence'
 staxel.tileObject.airship.RopeFenceCross.name=绳子围栏
@@ -3530,11 +3696,17 @@ staxel.tileObject.airship.RopeFenceTSection.description=
 //[Reference] 'Rope Fence'
 staxel.tileObject.airship.RopeFenceTSection.name=绳子围栏
 staxel.tileObject.airship.WeatherVane.description=
-//TODO Translate [Reference] 'Weather Vane'
-staxel.tileObject.airship.WeatherVane.name=
+//[Reference] 'Weather Vane'
+staxel.tileObject.airship.WeatherVane.name=风向标
+staxel.tileObject.beachset.BeachToys.description=
+//TODO Translate [Reference] 'Beach Toys'
+staxel.tileObject.beachset.BeachToys.name=
 staxel.tileObject.beachset.PalmTree.description=
 //[Reference] 'Palm Tree'
 staxel.tileObject.beachset.PalmTree.name=棕榈树
+staxel.tileObject.beachset.SandCastle.description=
+//TODO Translate [Reference] 'Sand Castle'
+staxel.tileObject.beachset.SandCastle.name=
 staxel.tileObject.biomeDebris.ForestBox.description=
 //[Reference] 'Forest Box'
 staxel.tileObject.biomeDebris.ForestBox.name=森林箱子
@@ -3595,18 +3767,21 @@ staxel.tileObject.biomeDebris.LongMeadowGrass.4.Summer.name=夏季
 staxel.tileObject.biomeDebris.LongMeadowGrass.4.Winter.description=
 //[Reference] 'Winter'
 staxel.tileObject.biomeDebris.LongMeadowGrass.4.Winter.name=冬季
+staxel.tileObject.bobbleheads.AlizaBobblehead.description=
+//TODO Translate [Reference] 'Aliza Bobblehead'
+staxel.tileObject.bobbleheads.AlizaBobblehead.name=
 staxel.tileObject.bobbleheads.BadgerBobbleHead.description=
 //[Reference] 'Badger Bobble Head'
 staxel.tileObject.bobbleheads.BadgerBobbleHead.name=獾摇头娃娃
 staxel.tileObject.bobbleheads.CaithWitchBobbleHead.description=
-//TODO Translate [Reference] 'Cirahna Bobblehead'
-staxel.tileObject.bobbleheads.CaithWitchBobbleHead.name=
+//[Reference] 'Cirahna Bobblehead'
+staxel.tileObject.bobbleheads.CaithWitchBobbleHead.name=茜拉娜摇头娃娃
 staxel.tileObject.bobbleheads.CecileBobbleHead.description=
-//TODO Translate [Reference] 'Cecile Bobble Head'
-staxel.tileObject.bobbleheads.CecileBobbleHead.name=
+//[Reference] 'Cecile Bobble Head'
+staxel.tileObject.bobbleheads.CecileBobbleHead.name=赛西尔摇头娃娃
 staxel.tileObject.bobbleheads.CursedCuratorBobblehead.description=
-//TODO Translate [Reference] 'Cursed Curator Bobblehead'
-staxel.tileObject.bobbleheads.CursedCuratorBobblehead.name=
+//[Reference] 'Cursed Curator Bobblehead'
+staxel.tileObject.bobbleheads.CursedCuratorBobblehead.name=被诅咒的馆长摇头娃娃
 staxel.tileObject.bobbleheads.CurtisBobbleHead.description=
 //[Reference] 'Curtis Bobble Head'
 staxel.tileObject.bobbleheads.CurtisBobbleHead.name=柯蒂斯摇头娃娃
@@ -3614,8 +3789,8 @@ staxel.tileObject.bobbleheads.DeamonHunterBobbleHead.description=
 //[Reference] 'Deamon Hunter Bobble Head'
 staxel.tileObject.bobbleheads.DeamonHunterBobbleHead.name=恶魔猎手摇头娃娃
 staxel.tileObject.bobbleheads.EmiliaBobbleHead.description=
-//TODO Translate [Reference] 'Emilia Bobble Head'
-staxel.tileObject.bobbleheads.EmiliaBobbleHead.name=
+//[Reference] 'Emilia Bobble Head'
+staxel.tileObject.bobbleheads.EmiliaBobbleHead.name=伊米莉亚摇头娃娃
 //[Reference] 'The one and only!'
 staxel.tileObject.bobbleheads.FarmFanBobblehead.description=独一无二！
 //[Reference] 'Farm Fan Bobblehead'
@@ -3624,8 +3799,11 @@ staxel.tileObject.bobbleheads.LambdaBobbleHead.description=
 //[Reference] 'Lambda Bobble Head'
 staxel.tileObject.bobbleheads.LambdaBobbleHead.name=兰布达摇头娃娃
 staxel.tileObject.bobbleheads.OscarBobbleHead.description=
-//TODO Translate [Reference] 'Oscar Bobble Head'
-staxel.tileObject.bobbleheads.OscarBobbleHead.name=
+//[Reference] 'Oscar Bobble Head'
+staxel.tileObject.bobbleheads.OscarBobbleHead.name=奥斯卡摇头娃娃
+staxel.tileObject.bobbleheads.RiahBobbleHead.description=
+//TODO Translate [Reference] 'Riah Bobble Head'
+staxel.tileObject.bobbleheads.RiahBobbleHead.name=
 staxel.tileObject.bobbleheads.ThomasBobbleHead.description=
 //[Reference] 'Thomas Bobble Head'
 staxel.tileObject.bobbleheads.ThomasBobbleHead.name=托马斯摇头娃娃
@@ -3633,11 +3811,11 @@ staxel.tileObject.bobbleheads.WintersBobbleHead.description=
 //[Reference] 'Winters Bobble Head'
 staxel.tileObject.bobbleheads.WintersBobbleHead.name=温特斯摇头娃娃
 staxel.tileObject.buildingStore.MortarSacks.description=
-//TODO Translate [Reference] 'Mortar Sacks'
-staxel.tileObject.buildingStore.MortarSacks.name=
+//[Reference] 'Mortar Sacks'
+staxel.tileObject.buildingStore.MortarSacks.name=砂浆袋
 staxel.tileObject.buildingStore.PalletStack.description=
-//TODO Translate [Reference] 'Pallet Stack'
-staxel.tileObject.buildingStore.PalletStack.name=
+//[Reference] 'Pallet Stack'
+staxel.tileObject.buildingStore.PalletStack.name=货板堆
 staxel.tileObject.campingset.SittingLog.description=
 //[Reference] 'Sitting Log'
 staxel.tileObject.campingset.SittingLog.name=原木坐墩
@@ -3655,8 +3833,8 @@ staxel.tileObject.crafting.MasonryStation.description=
 //[Reference] 'Construction Station'
 staxel.tileObject.crafting.MasonryStation.name=建造台
 staxel.tileObject.crafting.Pillow.description=
-//TODO Translate [Reference] 'Pillow'
-staxel.tileObject.crafting.Pillow.name=
+//[Reference] 'Pillow'
+staxel.tileObject.crafting.Pillow.name=枕头
 staxel.tileObject.crafting.TilingStation.description=
 //[Reference] 'Tiling Station'
 staxel.tileObject.crafting.TilingStation.name=铺砖台
@@ -3779,6 +3957,15 @@ staxel.tileObject.festival.feymasquerade.SmallPinkDaisyTable.name=精灵小型�
 staxel.tileObject.festival.feymasquerade.SmallRoseTable.description=
 //[Reference] 'Small Rose Fey Table'
 staxel.tileObject.festival.feymasquerade.SmallRoseTable.name=精灵小型玫瑰色桌子
+staxel.tileObject.festival.feymasquerade.WallLamp.description=
+//TODO Translate [Reference] 'Wall Lamp'
+staxel.tileObject.festival.feymasquerade.WallLamp.name=
+staxel.tileObject.festival.FeyTreasureBox.description=
+//TODO Translate [Reference] 'Fey Treasure Box'
+staxel.tileObject.festival.FeyTreasureBox.name=
+staxel.tileObject.festival.FeyTreasureBoxUsed.description=
+//TODO Translate [Reference] 'Fey Treasure Box Used'
+staxel.tileObject.festival.FeyTreasureBoxUsed.name=
 staxel.tileObject.festival.NekoShrine.description=
 //[Reference] 'Small Shrine'
 staxel.tileObject.festival.NekoShrine.name=小型神殿
@@ -3880,8 +4067,8 @@ staxel.tileObject.gatherable.OrchidMantis.description=
 //[Reference] 'Orchid Mantis'
 staxel.tileObject.gatherable.OrchidMantis.name=兰花螳螂
 staxel.tileObject.gatherable.PawShell.description=
-//TODO Translate [Reference] 'Paw Shell'
-staxel.tileObject.gatherable.PawShell.name=
+//[Reference] 'Paw Shell'
+staxel.tileObject.gatherable.PawShell.name=爪形贝
 staxel.tileObject.gatherable.PearlShell.description=
 //[Reference] 'Pearl Shell'
 staxel.tileObject.gatherable.PearlShell.name=珍珠贝
@@ -3925,11 +4112,11 @@ staxel.tileObject.gatherable.ZebraButterfly.description=
 //[Reference] 'Zebra Butterfly'
 staxel.tileObject.gatherable.ZebraButterfly.name=斑马纹蝶
 staxel.tileObject.magic.Cauldron.description=
-//TODO Translate [Reference] 'Cauldron'
-staxel.tileObject.magic.Cauldron.name=
+//[Reference] 'Cauldron'
+staxel.tileObject.magic.Cauldron.name=坩埚
 staxel.tileObject.magic.GiantMushroom.description=
-//TODO Translate [Reference] 'Giant Mushroom'
-staxel.tileObject.magic.GiantMushroom.name=
+//[Reference] 'Giant Mushroom'
+staxel.tileObject.magic.GiantMushroom.name=巨型蘑菇
 staxel.tileObject.mines.CeilingMushroomBlue1.description=
 //[Reference] 'Ceiling Mushroom Blue1'
 staxel.tileObject.mines.CeilingMushroomBlue1.name=蓝色天花板蘑菇1
@@ -3976,13 +4163,11 @@ staxel.tileObject.mines.MineralCart.description=
 //[Reference] 'Mineral Cart'
 staxel.tileObject.mines.MineralCart.name=矿车
 staxel.tileObject.mines.MineralCartCoal1.description=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Mineral Cart with Coal'
-staxel.tileObject.mines.MineralCartCoal1.name=煤矿车1
+staxel.tileObject.mines.MineralCartCoal1.name=装有煤矿的矿车
 staxel.tileObject.mines.MineralCartCoal2.description=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Tipped Mineral Cart'
-staxel.tileObject.mines.MineralCartCoal2.name=煤矿车2
+staxel.tileObject.mines.MineralCartCoal2.name=倒翻的矿车
 staxel.tileObject.mines.MushroomBlue1.description=
 //[Reference] 'Mushroom Blue1'
 staxel.tileObject.mines.MushroomBlue1.name=蓝色蘑菇1
@@ -4102,8 +4287,8 @@ staxel.tileObject.museum.fossils.StegosaurusUpperBody.description=
 //[Reference] 'Stegosaurus Upper Body'
 staxel.tileObject.museum.fossils.StegosaurusUpperBody.name=剑龙上半身
 staxel.tileObject.museum.fossils.TractorFossil.description=
-//TODO Translate [Reference] 'Tractor Fossil'
-staxel.tileObject.museum.fossils.TractorFossil.name=
+//[Reference] 'Tractor Fossil'
+staxel.tileObject.museum.fossils.TractorFossil.name=拖拉机化石
 staxel.tileObject.museum.fossils.TrexBody.description=
 //[Reference] 'T-Rex Body'
 staxel.tileObject.museum.fossils.TrexBody.name=霸王龙身体
@@ -4188,8 +4373,8 @@ staxel.tileObject.museum.SmallFishDisplayWhite.description=
 //[Reference] 'Small White Fish Display'
 staxel.tileObject.museum.SmallFishDisplayWhite.name=小型白色鱼类展柜
 staxel.tileObject.office.DeskClockStatic.description=
-//TODO Translate [Reference] 'Desk Clock Static'
-staxel.tileObject.office.DeskClockStatic.name=
+//[Reference] 'Desk Clock Static'
+staxel.tileObject.office.DeskClockStatic.name=静态座钟
 staxel.tileObject.office.OfficeCounter.NoDock.description=
 //[Reference] 'Office Counter (No Docks)'
 staxel.tileObject.office.OfficeCounter.NoDock.name=办公柜台（不可放置物品）
@@ -4197,8 +4382,8 @@ staxel.tileObject.office.OfficeDesk.NoDock.description=
 //[Reference] 'Office Desk (No Docks)'
 staxel.tileObject.office.OfficeDesk.NoDock.name=办公桌（不可放置物品）
 staxel.tileObject.office.WallClock.description=
-//TODO Translate [Reference] 'Wall Clock'
-staxel.tileObject.office.WallClock.name=
+//[Reference] 'Wall Clock'
+staxel.tileObject.office.WallClock.name=挂钟
 staxel.tileObject.patisserie.ApplePieStand.description=
 //[Reference] 'Apple Pie Stand'
 staxel.tileObject.patisserie.ApplePieStand.name=苹果派
@@ -4209,8 +4394,8 @@ staxel.tileObject.patisserie.BlueberryPieStand.description=
 //[Reference] 'Blueberry Pie Stand'
 staxel.tileObject.patisserie.BlueberryPieStand.name=蓝莓派小摊
 staxel.tileObject.patisserie.CakeIcingMachine.description=
-//TODO Translate [Reference] 'Cake Icing Machine'
-staxel.tileObject.patisserie.CakeIcingMachine.name=
+//[Reference] 'Cake Icing Machine'
+staxel.tileObject.patisserie.CakeIcingMachine.name=蛋糕糖霜机
 staxel.tileObject.patisserie.CarrotCakeStand.description=
 //[Reference] 'Carrot Cake Stand'
 staxel.tileObject.patisserie.CarrotCakeStand.name=胡萝卜蛋糕小摊
@@ -4224,8 +4409,8 @@ staxel.tileObject.patisserie.DragonFruitPieStand.description=
 //[Reference] 'Dragon Fruit Pie Stand'
 staxel.tileObject.patisserie.DragonFruitPieStand.name=火龙果派小摊
 staxel.tileObject.patisserie.JamMakingMachine.description=
-//TODO Translate [Reference] 'Jam Making Machine'
-staxel.tileObject.patisserie.JamMakingMachine.name=
+//[Reference] 'Jam Making Machine'
+staxel.tileObject.patisserie.JamMakingMachine.name=果酱制作机
 staxel.tileObject.patisserie.LemonPieStand.description=
 //[Reference] 'Lemon Pie Stand'
 staxel.tileObject.patisserie.LemonPieStand.name=柠檬派小摊
@@ -4236,8 +4421,8 @@ staxel.tileObject.patisserie.OrangePieStand.description=
 //[Reference] 'Orange Pie Stand'
 staxel.tileObject.patisserie.OrangePieStand.name=甜橙派小摊
 staxel.tileObject.patisserie.PastryFillingMachine.description=
-//TODO Translate [Reference] 'Pastry Filling Machine'
-staxel.tileObject.patisserie.PastryFillingMachine.name=
+//[Reference] 'Pastry Filling Machine'
+staxel.tileObject.patisserie.PastryFillingMachine.name=点心灌装机
 staxel.tileObject.patisserie.PatisserieDisplayLeft.description=
 //[Reference] 'Patisserie Display Left'
 staxel.tileObject.patisserie.PatisserieDisplayLeft.name=法式糕点店展示左
@@ -4266,162 +4451,162 @@ staxel.tileObject.patisserie.VegetablePieStand.description=
 //[Reference] 'Vegetable Pie Stand'
 staxel.tileObject.patisserie.VegetablePieStand.name=蔬菜派小摊
 staxel.tileObject.patisserie.WeddingCakeCarrot.description=
-//TODO Translate [Reference] 'Wedding Cake Carrot'
-staxel.tileObject.patisserie.WeddingCakeCarrot.name=
+//[Reference] 'Wedding Cake Carrot'
+staxel.tileObject.patisserie.WeddingCakeCarrot.name=婚礼蛋糕胡萝卜
 staxel.tileObject.pets.RabbitHouse.description=
-//TODO Translate [Reference] 'Rabbit House'
-staxel.tileObject.pets.RabbitHouse.name=
+//[Reference] 'Rabbit House'
+staxel.tileObject.pets.RabbitHouse.name=兔屋
 staxel.tileObject.petShop.CatTree.description=
-//TODO Translate [Reference] 'Cat Tree'
-staxel.tileObject.petShop.CatTree.name=
+//[Reference] 'Cat Tree'
+staxel.tileObject.petShop.CatTree.name=猫爬架
 staxel.tileObject.petShop.PetMedicine.description=
-//TODO Translate [Reference] 'Pet Medicine'
-staxel.tileObject.petShop.PetMedicine.name=
+//[Reference] 'Pet Medicine'
+staxel.tileObject.petShop.PetMedicine.name=宠物药品
 staxel.tileObject.petShop.PetShopAccessories.description=
-//TODO Translate [Reference] 'Petshop Accessories'
-staxel.tileObject.petShop.PetShopAccessories.name=
+//[Reference] 'Petshop Accessories'
+staxel.tileObject.petShop.PetShopAccessories.name=宠物店装饰
 staxel.tileObject.petShop.PetshopDisplay.description=
-//TODO Translate [Reference] 'Petshop Display'
-staxel.tileObject.petShop.PetshopDisplay.name=
+//[Reference] 'Petshop Display'
+staxel.tileObject.petShop.PetshopDisplay.name=宠物店展柜
 staxel.tileObject.petShop.PetshopPoster.description=
-//TODO Translate [Reference] 'Petshop Poster'
-staxel.tileObject.petShop.PetshopPoster.name=
+//[Reference] 'Petshop Poster'
+staxel.tileObject.petShop.PetshopPoster.name=宠物店海报
 staxel.tileObject.postbox.StandardPostbox.description=
 //[Reference] 'Standard Postbox'
 staxel.tileObject.postbox.StandardPostbox.name=标准邮箱
 staxel.tileObject.potionShop.HerbRack.description=
-//TODO Translate [Reference] 'Herb Rack'
-staxel.tileObject.potionShop.HerbRack.name=
+//[Reference] 'Herb Rack'
+staxel.tileObject.potionShop.HerbRack.name=药草架
 staxel.tileObject.potionShop.MagicPotions.description=
-//TODO Translate [Reference] 'Magic Potions'
-staxel.tileObject.potionShop.MagicPotions.name=
+//[Reference] 'Magic Potions'
+staxel.tileObject.potionShop.MagicPotions.name=魔法药水
 staxel.tileObject.potionShop.MushroomBasket.description=
-//TODO Translate [Reference] 'Mushroom Basket'
-staxel.tileObject.potionShop.MushroomBasket.name=
+//[Reference] 'Mushroom Basket'
+staxel.tileObject.potionShop.MushroomBasket.name=蘑菇篮子
 staxel.tileObject.potionShop.PotionShelf.description=
-//TODO Translate [Reference] 'Potion Shelf'
-staxel.tileObject.potionShop.PotionShelf.name=
+//[Reference] 'Potion Shelf'
+staxel.tileObject.potionShop.PotionShelf.name=药水架
 staxel.tileObject.quest.Cecile.broken.microwave.description=
-//TODO Translate [Reference] 'Broken Microwave'
-staxel.tileObject.quest.Cecile.broken.microwave.name=
+//[Reference] 'Broken Microwave'
+staxel.tileObject.quest.Cecile.broken.microwave.name=损坏的微波炉
 staxel.tileObject.quest.Cecile.ScienceMachineLarge.description=
-//TODO Translate [Reference] 'Science Machine Large'
-staxel.tileObject.quest.Cecile.ScienceMachineLarge.name=
+//[Reference] 'Science Machine Large'
+staxel.tileObject.quest.Cecile.ScienceMachineLarge.name=科学机器（大）
 staxel.tileObject.quest.Cecile.ScienceMachineSmall.description=
-//TODO Translate [Reference] 'Science Machine Small'
-staxel.tileObject.quest.Cecile.ScienceMachineSmall.name=
+//[Reference] 'Science Machine Small'
+staxel.tileObject.quest.Cecile.ScienceMachineSmall.name=科学机器（小）
 staxel.tileObject.quest.Cecile.ScienceMachineTall.description=
-//TODO Translate [Reference] 'Science Machine Tall'
-staxel.tileObject.quest.Cecile.ScienceMachineTall.name=
+//[Reference] 'Science Machine Tall'
+staxel.tileObject.quest.Cecile.ScienceMachineTall.name=科学机器（高）
 staxel.tileObject.quest.Cecile.scientific.microwave.description=
-//TODO Translate [Reference] 'Microwave'
-staxel.tileObject.quest.Cecile.scientific.microwave.name=
+//[Reference] 'Microwave'
+staxel.tileObject.quest.Cecile.scientific.microwave.name=微波炉
 staxel.tileObject.quest.FarmFan.FarmPoster.description=
-//TODO Translate [Reference] 'Farm Poster'
-staxel.tileObject.quest.FarmFan.FarmPoster.name=
+//[Reference] 'Farm Poster'
+staxel.tileObject.quest.FarmFan.FarmPoster.name=农场海报
 staxel.tileObject.quest.FarmFan.TractorBed.description=
-//TODO Translate [Reference] 'Tractor Bed'
-staxel.tileObject.quest.FarmFan.TractorBed.name=
+//[Reference] 'Tractor Bed'
+staxel.tileObject.quest.FarmFan.TractorBed.name=拖拉机床
 staxel.tileObject.quest.Max.harvestfestival.banner.description=
-//TODO Translate [Reference] 'Harvest Festival Banner'
-staxel.tileObject.quest.Max.harvestfestival.banner.name=
+//[Reference] 'Harvest Festival Banner'
+staxel.tileObject.quest.Max.harvestfestival.banner.name=丰收节横幅
 staxel.tileObject.quest.Max.harvestfestival.decoration.description=
-//TODO Translate [Reference] 'Harvest Festival Decoration'
-staxel.tileObject.quest.Max.harvestfestival.decoration.name=
+//[Reference] 'Harvest Festival Decoration'
+staxel.tileObject.quest.Max.harvestfestival.decoration.name=丰收节装饰
 staxel.tileObject.quest.Max.harvestfestival.golden.turnip.description=
-//TODO Translate [Reference] 'Golden Turnip'
-staxel.tileObject.quest.Max.harvestfestival.golden.turnip.name=
+//[Reference] 'Golden Turnip'
+staxel.tileObject.quest.Max.harvestfestival.golden.turnip.name=黄金芜菁
 staxel.tileObject.quest.Max.harvestfestival.judge.table.description=
-//TODO Translate [Reference] 'Harvest Festival Judge Table'
-staxel.tileObject.quest.Max.harvestfestival.judge.table.name=
+//[Reference] 'Harvest Festival Judge Table'
+staxel.tileObject.quest.Max.harvestfestival.judge.table.name=丰收节评判表
 staxel.tileObject.quest.Max.harvestfestival.plushie.prize.description=
-//TODO Translate [Reference] 'Harvest Festival Plushie'
-staxel.tileObject.quest.Max.harvestfestival.plushie.prize.name=
+//[Reference] 'Harvest Festival Plushie'
+staxel.tileObject.quest.Max.harvestfestival.plushie.prize.name=丰收节毛绒玩具
 staxel.tileObject.quest.Max.harvestfestival.totem.description=
-//TODO Translate [Reference] 'Harvest Festival Sign'
-staxel.tileObject.quest.Max.harvestfestival.totem.name=
+//[Reference] 'Harvest Festival Sign'
+staxel.tileObject.quest.Max.harvestfestival.totem.name=丰收节指示牌
 staxel.tileObject.quest.Max.harvestfestival.turnip.bobblehead.description=
-//TODO Translate [Reference] 'Turnip Bobblehead'
-staxel.tileObject.quest.Max.harvestfestival.turnip.bobblehead.name=
+//[Reference] 'Turnip Bobblehead'
+staxel.tileObject.quest.Max.harvestfestival.turnip.bobblehead.name=芜菁摇头娃娃
 staxel.tileObject.quest.Oscar.DefacedOscarCampaignSign.description=
-//TODO Translate [Reference] 'Defaced Oscar Campaign Sign'
-staxel.tileObject.quest.Oscar.DefacedOscarCampaignSign.name=
+//[Reference] 'Defaced Oscar Campaign Sign'
+staxel.tileObject.quest.Oscar.DefacedOscarCampaignSign.name=损坏的奥斯卡竞选布告板
 staxel.tileObject.quest.Oscar.FairyDustRippedRubbishBag.description=
-//TODO Translate [Reference] 'Ripped Rubbish Bag (Fairy Dust)'
-staxel.tileObject.quest.Oscar.FairyDustRippedRubbishBag.name=
+//[Reference] 'Ripped Rubbish Bag (Fairy Dust)'
+staxel.tileObject.quest.Oscar.FairyDustRippedRubbishBag.name=撕碎的垃圾袋（精灵之尘）
 staxel.tileObject.quest.Oscar.OscarCampaignSign.description=
-//TODO Translate [Reference] 'Oscar Campaign Sign'
-staxel.tileObject.quest.Oscar.OscarCampaignSign.name=
+//[Reference] 'Oscar Campaign Sign'
+staxel.tileObject.quest.Oscar.OscarCampaignSign.name=奥斯卡竞选布告板
 staxel.tileObject.quest.Oscar.PlasticBag.description=
-//TODO Translate [Reference] 'Plastic Bag'
-staxel.tileObject.quest.Oscar.PlasticBag.name=
+//[Reference] 'Plastic Bag'
+staxel.tileObject.quest.Oscar.PlasticBag.name=塑料袋
 staxel.tileObject.quest.Oscar.RippedRubbishBag.description=
-//TODO Translate [Reference] 'Ripped Rubbish Bag'
-staxel.tileObject.quest.Oscar.RippedRubbishBag.name=
+//[Reference] 'Ripped Rubbish Bag'
+staxel.tileObject.quest.Oscar.RippedRubbishBag.name=撕碎的垃圾袋
 staxel.tileObject.quest.Oscar.SmashedBottle.description=
-//TODO Translate [Reference] 'Smashed Bottle'
-staxel.tileObject.quest.Oscar.SmashedBottle.name=
+//[Reference] 'Smashed Bottle'
+staxel.tileObject.quest.Oscar.SmashedBottle.name=被打碎的瓶子
 staxel.tileObject.quest.Oscar.TrashStatue.description=
-//TODO Translate [Reference] 'Trash Statue'
-staxel.tileObject.quest.Oscar.TrashStatue.name=
-//TODO Translate [Reference] 'A magic dream catcher made out of butterflies.'
-staxel.tileObject.quest.Riah.ButterflyDreamcatcher.description=
-//TODO Translate [Reference] 'Butterfly Dream Catcher'
-staxel.tileObject.quest.Riah.ButterflyDreamcatcher.name=
-//TODO Translate [Reference] 'This incense stick is so pungent you suspect it might summon eldritch creatures when lit.'
-staxel.tileObject.quest.Riah.IncenseLure.description=
-//TODO Translate [Reference] 'Incense Lure'
-staxel.tileObject.quest.Riah.IncenseLure.name=
-//TODO Translate [Reference] 'It's a complete mystery how something so beautiful was made by boiling such horrendous ingredients together.'
-staxel.tileObject.quest.Riah.MermaidFin.description=
-//TODO Translate [Reference] 'Mermaid Tail'
-staxel.tileObject.quest.Riah.MermaidFin.name=
-//TODO Translate [Reference] 'These things are always a bit of a mystery. How did it fit?'
-staxel.tileObject.quest.Riah.ShipInABottle.description=
-//TODO Translate [Reference] 'Ship In A Bottle'
-staxel.tileObject.quest.Riah.ShipInABottle.name=
+//[Reference] 'Trash Statue'
+staxel.tileObject.quest.Oscar.TrashStatue.name=垃圾雕像
+//[Reference] 'A magic dream catcher made out of butterflies.'
+staxel.tileObject.quest.Riah.ButterflyDreamcatcher.description=一个由蝴蝶制成的魔法捕梦网。
+//[Reference] 'Butterfly Dream Catcher'
+staxel.tileObject.quest.Riah.ButterflyDreamcatcher.name=蝴蝶捕梦网
+//[Reference] 'This incense stick is so pungent you suspect it might summon eldritch creatures when lit.'
+staxel.tileObject.quest.Riah.IncenseLure.description=这支香的味道如此刺鼻，你怀疑它在点燃的时候可能会召唤出可怕的生物。
+//[Reference] 'Incense Lure'
+staxel.tileObject.quest.Riah.IncenseLure.name=香饵
+//[Reference] 'It's a complete mystery how something so beautiful was made by boiling such horrendous ingredients together.'
+staxel.tileObject.quest.Riah.MermaidFin.description=把如此可怕的原料煮在一起，居然能够做出如此美丽的东西，这真是一个谜。
+//[Reference] 'Mermaid Tail'
+staxel.tileObject.quest.Riah.MermaidFin.name=人鱼尾巴
+//[Reference] 'These things are always a bit of a mystery. How did it fit?'
+staxel.tileObject.quest.Riah.ShipInABottle.description=这些东西总是有一点神秘，它是怎么放进去的？
+//[Reference] 'Ship In A Bottle'
+staxel.tileObject.quest.Riah.ShipInABottle.name=瓶中船
 staxel.tileObject.restaurant.FancyBottle.description=
-//TODO Translate [Reference] 'Fancy Bottle'
-staxel.tileObject.restaurant.FancyBottle.name=
+//[Reference] 'Fancy Bottle'
+staxel.tileObject.restaurant.FancyBottle.name=别致瓶子
 staxel.tileObject.restaurant.FancyCandles.description=
-//TODO Translate [Reference] 'Fancy Candles'
-staxel.tileObject.restaurant.FancyCandles.name=
+//[Reference] 'Fancy Candles'
+staxel.tileObject.restaurant.FancyCandles.name=别致蜡烛
 staxel.tileObject.restaurant.FancyChair.description=
-//TODO Translate [Reference] 'Fancy Chair'
-staxel.tileObject.restaurant.FancyChair.name=
+//[Reference] 'Fancy Chair'
+staxel.tileObject.restaurant.FancyChair.name=别致椅子
 staxel.tileObject.restaurant.FancyFlowerVase.description=
-//TODO Translate [Reference] 'Fancy Flower Vase'
-staxel.tileObject.restaurant.FancyFlowerVase.name=
+//[Reference] 'Fancy Flower Vase'
+staxel.tileObject.restaurant.FancyFlowerVase.name=别致花瓶
 staxel.tileObject.restaurant.FancyTable.description=
-//TODO Translate [Reference] 'Fancy Table'
-staxel.tileObject.restaurant.FancyTable.name=
+//[Reference] 'Fancy Table'
+staxel.tileObject.restaurant.FancyTable.name=别致桌子
 staxel.tileObject.restaurant.FancyTableSmall.description=
-//TODO Translate [Reference] 'Fancy Table Small'
-staxel.tileObject.restaurant.FancyTableSmall.name=
+//[Reference] 'Fancy Table Small'
+staxel.tileObject.restaurant.FancyTableSmall.name=别致桌子小
 staxel.tileObject.restaurant.GrapeJuice.description=
-//TODO Translate [Reference] 'Grape Juice'
-staxel.tileObject.restaurant.GrapeJuice.name=
+//[Reference] 'Grape Juice'
+staxel.tileObject.restaurant.GrapeJuice.name=葡萄汁
 staxel.tileObject.restaurant.HangingPans.description=
-//TODO Translate [Reference] 'Hanging Pans'
-staxel.tileObject.restaurant.HangingPans.name=
+//[Reference] 'Hanging Pans'
+staxel.tileObject.restaurant.HangingPans.name=悬挂平底锅
 staxel.tileObject.restaurant.HangingRestaurantLight.description=
-//TODO Translate [Reference] 'Hanging Restaurant Light'
-staxel.tileObject.restaurant.HangingRestaurantLight.name=
+//[Reference] 'Hanging Restaurant Light'
+staxel.tileObject.restaurant.HangingRestaurantLight.name=悬挂餐厅灯
 staxel.tileObject.restaurant.JuiceRack.description=
-//TODO Translate [Reference] 'Juice Rack'
-staxel.tileObject.restaurant.JuiceRack.name=
+//[Reference] 'Juice Rack'
+staxel.tileObject.restaurant.JuiceRack.name=果汁架
 staxel.tileObject.restaurant.PizzaOven.description=
-//TODO Translate [Reference] 'Pizza Oven'
-staxel.tileObject.restaurant.PizzaOven.name=
+//[Reference] 'Pizza Oven'
+staxel.tileObject.restaurant.PizzaOven.name=披萨烤炉
 staxel.tileObject.restaurant.PowerfulRefridgerator.description=
-//TODO Translate [Reference] 'Powerful Refridgerator'
-staxel.tileObject.restaurant.PowerfulRefridgerator.name=
+//[Reference] 'Powerful Refridgerator'
+staxel.tileObject.restaurant.PowerfulRefridgerator.name=强力冰箱
 staxel.tileObject.restaurant.RangeOven.description=
-//TODO Translate [Reference] 'Range Oven'
-staxel.tileObject.restaurant.RangeOven.name=
+//[Reference] 'Range Oven'
+staxel.tileObject.restaurant.RangeOven.name=多功能烤箱
 staxel.tileObject.restaurant.SaltAndPepperMills.description=
-//TODO Translate [Reference] 'Salt And Pepper Mills'
-staxel.tileObject.restaurant.SaltAndPepperMills.name=
+//[Reference] 'Salt And Pepper Mills'
+staxel.tileObject.restaurant.SaltAndPepperMills.name=胡椒和盐手磨
 staxel.tileObject.roofing.black.Black_Flat.description=
 //[Reference] 'Black_Flat'
 staxel.tileObject.roofing.black.Black_Flat.name=Black_Flat
@@ -4687,11 +4872,11 @@ staxel.tileObject.serverVillage.KitchenCounter.NoDock.description=这个厨房�
 //[Reference] 'Simply Stylish Kitchen Counter (No Docks)'
 staxel.tileObject.serverVillage.KitchenCounter.NoDock.name=简易时尚厨房柜台（不可放置物品）
 staxel.tileObject.serverVillage.PatisserieBakingStation.description=
-//TODO Translate [Reference] 'Patisserie Baking Station'
-staxel.tileObject.serverVillage.PatisserieBakingStation.name=
+//[Reference] 'Patisserie Baking Station'
+staxel.tileObject.serverVillage.PatisserieBakingStation.name=法式糕点烘烤台
 staxel.tileObject.serverVillage.PatisserieMixingStation.description=
-//TODO Translate [Reference] 'Patisserie Mixing Station'
-staxel.tileObject.serverVillage.PatisserieMixingStation.name=
+//[Reference] 'Patisserie Mixing Station'
+staxel.tileObject.serverVillage.PatisserieMixingStation.name=法式糕点搅拌台
 staxel.tileObject.serverVillage.RanchWindowSmall.description=
 //[Reference] 'Ranch Window Small'
 staxel.tileObject.serverVillage.RanchWindowSmall.name=小牧场窗户
@@ -4702,34 +4887,34 @@ staxel.tileObject.shop.Awning.description=
 //[Reference] 'Awning'
 staxel.tileObject.shop.Awning.name=遮阳篷
 staxel.tileObject.shop.BlackPlaypen.description=
-//TODO Translate [Reference] 'Black Playpen'
-staxel.tileObject.shop.BlackPlaypen.name=
+//[Reference] 'Black Playpen'
+staxel.tileObject.shop.BlackPlaypen.name=黑色游戏围栏
 staxel.tileObject.shop.MarketCube.description=
 //[Reference] 'Market Cube'
 staxel.tileObject.shop.MarketCube.name=市场装饰方块
 staxel.tileObject.shop.MarketCubePole.description=
 //[Reference] 'Market Cube Pole'
 staxel.tileObject.shop.MarketCubePole.name=市场方块杆
-//TODO Translate [Reference] 'A place for pets to play!'
-staxel.tileObject.shop.PetPlaypen.description=
-//TODO Translate [Reference] 'Pet Playpen'
-staxel.tileObject.shop.PetPlaypen.name=
+//[Reference] 'A place for pets to play!'
+staxel.tileObject.shop.PetPlaypen.description=一个供宠物玩耍的地方！
+//[Reference] 'Pet Playpen'
+staxel.tileObject.shop.PetPlaypen.name=宠物游戏围栏
 staxel.tileObject.shop.PetshopShelfLeft.description=
-//TODO Translate [Reference] 'Petshop Shelf Left'
-staxel.tileObject.shop.PetshopShelfLeft.name=
+//[Reference] 'Petshop Shelf Left'
+staxel.tileObject.shop.PetshopShelfLeft.name=宠物店架子左
 staxel.tileObject.shop.PetshopShelfMiddle.description=
-//TODO Translate [Reference] 'Petshop Shelf Middle'
-staxel.tileObject.shop.PetshopShelfMiddle.name=
+//[Reference] 'Petshop Shelf Middle'
+staxel.tileObject.shop.PetshopShelfMiddle.name=宠物店架子中
 staxel.tileObject.shop.PetshopShelfRight.description=
-//TODO Translate [Reference] 'Petshop Shelf Right'
-staxel.tileObject.shop.PetshopShelfRight.name=
-//TODO Translate [Reference] 'Sells pet store things'
-staxel.tileObject.shop.PetStoreShelf.description=
-//TODO Translate [Reference] 'Pet Store Shelf'
-staxel.tileObject.shop.PetStoreShelf.name=
+//[Reference] 'Petshop Shelf Right'
+staxel.tileObject.shop.PetshopShelfRight.name=宠物店架子右
+//[Reference] 'Sells pet store things'
+staxel.tileObject.shop.PetStoreShelf.description=售卖宠物商店物品
+//[Reference] 'Pet Store Shelf'
+staxel.tileObject.shop.PetStoreShelf.name=宠物商店架子
 staxel.tileObject.shop.RainbowPlaypen.description=
-//TODO Translate [Reference] 'Rainbow Playpen'
-staxel.tileObject.shop.RainbowPlaypen.name=
+//[Reference] 'Rainbow Playpen'
+staxel.tileObject.shop.RainbowPlaypen.name=彩虹游戏围栏
 staxel.tileObject.shop.ShopCounterNormal.description=
 
 //[Reference] 'Shop Counter Normal'
@@ -4748,11 +4933,11 @@ staxel.tileObject.shop.ShopWindow4.description=
 //[Reference] 'Shop Window4'
 staxel.tileObject.shop.ShopWindow4.name=商店窗户4
 staxel.tileObject.tavern.PinballMachine.description=
-//TODO Translate [Reference] 'Pinball Machine'
-staxel.tileObject.tavern.PinballMachine.name=
+//[Reference] 'Pinball Machine'
+staxel.tileObject.tavern.PinballMachine.name=弹珠台
 staxel.tileObject.tavern.TavernMenuSign.description=
-//TODO Translate [Reference] 'Tavern Menu Sign'
-staxel.tileObject.tavern.TavernMenuSign.name=
+//[Reference] 'Tavern Menu Sign'
+staxel.tileObject.tavern.TavernMenuSign.name=酒馆菜单指示牌
 //[Reference] 'From the 'Contemporary Furniture Set' - A sleek, modern desk with plenty of work space.'
 staxel.tileObject.themedfurniture.contemporary.ContemporaryDesk.NoDock.description=来自“现代家具组”——一张整洁而现代的办公桌，工作空间充足。
 //[Reference] 'Contemporary Desk (No Docks)'
@@ -4762,53 +4947,53 @@ staxel.tileObject.themedfurniture.contemporary.contemporarySideTable.NoDock.desc
 //[Reference] 'Contemporary Side Table (No Docks)'
 staxel.tileObject.themedfurniture.contemporary.contemporarySideTable.NoDock.name=现代小桌（不可放置物品）
 staxel.tileObject.themedfurniture.farm.FarmArmchair.description=
-//TODO Translate [Reference] 'Farm Armchair'
-staxel.tileObject.themedfurniture.farm.FarmArmchair.name=
+//[Reference] 'Farm Armchair'
+staxel.tileObject.themedfurniture.farm.FarmArmchair.name=农场扶手椅
 staxel.tileObject.themedfurniture.farm.FarmChair.description=
-//TODO Translate [Reference] 'Farm Chair'
-staxel.tileObject.themedfurniture.farm.FarmChair.name=
+//[Reference] 'Farm Chair'
+staxel.tileObject.themedfurniture.farm.FarmChair.name=农场椅子
 staxel.tileObject.themedfurniture.farm.FarmDoubleBed.description=
-//TODO Translate [Reference] 'Farm Double Bed'
-staxel.tileObject.themedfurniture.farm.FarmDoubleBed.name=
+//[Reference] 'Farm Double Bed'
+staxel.tileObject.themedfurniture.farm.FarmDoubleBed.name=农场双人床
 staxel.tileObject.themedfurniture.farm.FarmDresser.description=
-//TODO Translate [Reference] 'Farm Dresser'
-staxel.tileObject.themedfurniture.farm.FarmDresser.name=
+//[Reference] 'Farm Dresser'
+staxel.tileObject.themedfurniture.farm.FarmDresser.name=农场梳妆台
 staxel.tileObject.themedfurniture.farm.FarmLamp.description=
-//TODO Translate [Reference] 'Farm Lamp'
-staxel.tileObject.themedfurniture.farm.FarmLamp.name=
+//[Reference] 'Farm Lamp'
+staxel.tileObject.themedfurniture.farm.FarmLamp.name=农场灯
 staxel.tileObject.themedfurniture.farm.FarmSofa.description=
-//TODO Translate [Reference] 'Farm Sofa'
-staxel.tileObject.themedfurniture.farm.FarmSofa.name=
+//[Reference] 'Farm Sofa'
+staxel.tileObject.themedfurniture.farm.FarmSofa.name=农场沙发
 staxel.tileObject.themedfurniture.farm.FarmTable.description=
-//TODO Translate [Reference] 'Farm Table'
-staxel.tileObject.themedfurniture.farm.FarmTable.name=
+//[Reference] 'Farm Table'
+staxel.tileObject.themedfurniture.farm.FarmTable.name=农场桌子
 staxel.tileObject.themedfurniture.minimalist.MinimalistDesk.NoDock.description=
 //[Reference] 'Minimalist Desk (No Docks)'
 staxel.tileObject.themedfurniture.minimalist.MinimalistDesk.NoDock.name=极简主义办公桌（不可放置物品）
 staxel.tileObject.themedfurniture.mushroom.MushroomArmchair.description=
-//TODO Translate [Reference] 'Mushroom Armchair'
-staxel.tileObject.themedfurniture.mushroom.MushroomArmchair.name=
+//[Reference] 'Mushroom Armchair'
+staxel.tileObject.themedfurniture.mushroom.MushroomArmchair.name=蘑菇扶手椅
 staxel.tileObject.themedfurniture.mushroom.MushroomChair.description=
-//TODO Translate [Reference] 'Mushroom Chair'
-staxel.tileObject.themedfurniture.mushroom.MushroomChair.name=
+//[Reference] 'Mushroom Chair'
+staxel.tileObject.themedfurniture.mushroom.MushroomChair.name=蘑菇椅子
 staxel.tileObject.themedfurniture.mushroom.MushroomDoubleBed.description=
-//TODO Translate [Reference] 'Mushroom Double Bed'
-staxel.tileObject.themedfurniture.mushroom.MushroomDoubleBed.name=
+//[Reference] 'Mushroom Double Bed'
+staxel.tileObject.themedfurniture.mushroom.MushroomDoubleBed.name=蘑菇双人床
 staxel.tileObject.themedfurniture.mushroom.MushroomDresser.description=
-//TODO Translate [Reference] 'Mushroom Dresser'
-staxel.tileObject.themedfurniture.mushroom.MushroomDresser.name=
+//[Reference] 'Mushroom Dresser'
+staxel.tileObject.themedfurniture.mushroom.MushroomDresser.name=蘑菇梳妆台
 staxel.tileObject.themedfurniture.mushroom.MushroomLamp.description=
-//TODO Translate [Reference] 'Mushroom Lamp'
-staxel.tileObject.themedfurniture.mushroom.MushroomLamp.name=
+//[Reference] 'Mushroom Lamp'
+staxel.tileObject.themedfurniture.mushroom.MushroomLamp.name=蘑菇灯
 staxel.tileObject.themedfurniture.mushroom.MushroomSingleBed.description=
-//TODO Translate [Reference] 'Mushroom Single Bed'
-staxel.tileObject.themedfurniture.mushroom.MushroomSingleBed.name=
+//[Reference] 'Mushroom Single Bed'
+staxel.tileObject.themedfurniture.mushroom.MushroomSingleBed.name=蘑菇单人床
 staxel.tileObject.themedfurniture.mushroom.MushroomSofa.description=
-//TODO Translate [Reference] 'Mushroom Sofa'
-staxel.tileObject.themedfurniture.mushroom.MushroomSofa.name=
+//[Reference] 'Mushroom Sofa'
+staxel.tileObject.themedfurniture.mushroom.MushroomSofa.name=蘑菇沙发
 staxel.tileObject.themedfurniture.mushroom.MushroomTable.description=
-//TODO Translate [Reference] 'Mushroom Table'
-staxel.tileObject.themedfurniture.mushroom.MushroomTable.name=
+//[Reference] 'Mushroom Table'
+staxel.tileObject.themedfurniture.mushroom.MushroomTable.name=蘑菇桌子
 staxel.tileObject.themedfurniture.pet.PawArmChair.description=
 //[Reference] 'Paw Arm Chair'
 staxel.tileObject.themedfurniture.pet.PawArmChair.name=爪子扶手椅
@@ -5041,11 +5226,11 @@ staxel.tileObject.totems.AlizaMailbox.description=
 //[Reference] 'Aliza's Postbox'
 staxel.tileObject.totems.AlizaMailbox.name=爱丽哲的邮箱
 staxel.tileObject.totems.CaithWitch.description=
-//TODO Translate [Reference] 'Cirahna's Postbox'
-staxel.tileObject.totems.CaithWitch.name=
+//[Reference] 'Cirahna's Postbox'
+staxel.tileObject.totems.CaithWitch.name=茜拉娜的邮箱
 staxel.tileObject.totems.FarmFanMailbox.description=
-//TODO Translate [Reference] 'Farm Fan Mailbox'
-staxel.tileObject.totems.FarmFanMailbox.name=
+//[Reference] 'Farm Fan Mailbox'
+staxel.tileObject.totems.FarmFanMailbox.name=农场粉丝邮箱
 staxel.tileObject.totems.festival.feyMasquerade.FeyRoom101.description=
 //[Reference] 'Fey Room 101'
 staxel.tileObject.totems.festival.feyMasquerade.FeyRoom101.name=精灵房间101
@@ -5080,26 +5265,26 @@ staxel.tileObject.totems.festival.SnowdustShrine.description=
 //[Reference] 'Snowdust Shrine'
 staxel.tileObject.totems.festival.SnowdustShrine.name=雪尘神殿
 staxel.tileObject.totems.GothMushroom.description=
-//TODO Translate [Reference] 'Fungi's Postbox'
-staxel.tileObject.totems.GothMushroom.name=
-//TODO Translate [Reference] 'Did Riah draw these markings? That's a little unsettling.'
-staxel.tileObject.totems.MyahLure.description=
-//TODO Translate [Reference] 'M'yah's Summoning Circle'
-staxel.tileObject.totems.MyahLure.name=
-//TODO Translate [Reference] 'A great place to window shop.'
-staxel.tileObject.totems.PetStoreSign.description=
-//TODO Translate [Reference] 'Pet Store Sign'
-staxel.tileObject.totems.PetStoreSign.name=
-//TODO Translate [Reference] 'Use this to designate your home so your roomie can move in!'
-staxel.tileObject.totems.PlayerHome.description=
-//TODO Translate [Reference] 'Farmhouse Signpost'
-staxel.tileObject.totems.PlayerHome.name=
+//[Reference] 'Fungi's Postbox'
+staxel.tileObject.totems.GothMushroom.name=丰吉的邮箱
+//[Reference] 'Did Riah draw these markings? That's a little unsettling.'
+staxel.tileObject.totems.MyahLure.description=这些标记是瑞安画的吗？有点让人不安。
+//[Reference] 'M'yah's Summoning Circle'
+staxel.tileObject.totems.MyahLure.name=米亚的召唤法阵
+//[Reference] 'A great place to window shop.'
+staxel.tileObject.totems.PetStoreSign.description=只逛不买的好地方。
+//[Reference] 'Pet Store Sign'
+staxel.tileObject.totems.PetStoreSign.name=宠物商店指示牌
+//[Reference] 'Use this to designate your home so your roomie can move in!'
+staxel.tileObject.totems.PlayerHome.description=用这个标出你的家，这样你的室友就可以搬进去了！
+//[Reference] 'Farmhouse Signpost'
+staxel.tileObject.totems.PlayerHome.name=农舍指示牌
 staxel.tileObject.totems.quest.StoneResourceSign.description=
-//TODO Translate [Reference] 'Stone Resource Sign'
-staxel.tileObject.totems.quest.StoneResourceSign.name=
+//[Reference] 'Stone Resource Sign'
+staxel.tileObject.totems.quest.StoneResourceSign.name=石材资源指示牌
 staxel.tileObject.totems.quest.TreeResourceSign.description=
-//TODO Translate [Reference] 'Tree Resource Sign'
-staxel.tileObject.totems.quest.TreeResourceSign.name=
+//[Reference] 'Tree Resource Sign'
+staxel.tileObject.totems.quest.TreeResourceSign.name=林木资源指示牌
 staxel.tileObject.totems.RiahMailbox.description=
 
 //[Reference] 'Riah's Postbox'
@@ -5111,8 +5296,8 @@ staxel.tileObject.totems.workplace.BuildingStoreSign.description=
 //[Reference] 'Building Store Sign'
 staxel.tileObject.totems.workplace.BuildingStoreSign.name=建筑商店指示牌
 staxel.tileObject.totems.workplace.CommunicationsTowerSign.description=
-//TODO Translate [Reference] 'Communications Tower Sign'
-staxel.tileObject.totems.workplace.CommunicationsTowerSign.name=
+//[Reference] 'Communications Tower Sign'
+staxel.tileObject.totems.workplace.CommunicationsTowerSign.name=通讯塔指示牌
 staxel.tileObject.totems.workplace.FestivalSquare.description=
 //[Reference] 'Festival Square'
 staxel.tileObject.totems.workplace.FestivalSquare.name=节日广场
@@ -5163,14 +5348,17 @@ staxel.tileObject.villagers.AlizaSpawner.description=
 //[Reference] 'Aliza Spawner'
 staxel.tileObject.villagers.AlizaSpawner.name=爱丽哲生成器
 staxel.tileObject.villagers.AluaSpawner.description=
-//TODO Translate [Reference] 'Alua Spawner'
-staxel.tileObject.villagers.AluaSpawner.name=
+//[Reference] 'Alua Spawner'
+staxel.tileObject.villagers.AluaSpawner.name=奥拉生成器
+staxel.tileObject.villagers.BoisterousTourist.description=
+//TODO Translate [Reference] 'Boisterous Tourist'
+staxel.tileObject.villagers.BoisterousTourist.name=
 staxel.tileObject.villagers.ButterflySpawner.description=
-//TODO Translate [Reference] 'Butterfly Spawner'
-staxel.tileObject.villagers.ButterflySpawner.name=
+//[Reference] 'Butterfly Spawner'
+staxel.tileObject.villagers.ButterflySpawner.name=蝴蝶生成器
 staxel.tileObject.villagers.CecilesMonsterSpawner.description=
-//TODO Translate [Reference] 'Ceciles Monster Spawner'
-staxel.tileObject.villagers.CecilesMonsterSpawner.name=
+//[Reference] 'Ceciles Monster Spawner'
+staxel.tileObject.villagers.CecilesMonsterSpawner.name=赛西尔的怪物生成器
 staxel.tileObject.villagers.CirahnaSpawner.description=
 //[Reference] 'Cirahna Spawner'
 staxel.tileObject.villagers.CirahnaSpawner.name=茜拉娜生成器
@@ -5184,53 +5372,62 @@ staxel.tileObject.villagers.festival.NotRiahSpawner.description=
 //[Reference] 'Not Riah Spawner'
 staxel.tileObject.villagers.festival.NotRiahSpawner.name=不是瑞安生成器
 staxel.tileObject.villagers.PrinceSpawner.description=
-//TODO Translate [Reference] 'Prince Spawner'
-staxel.tileObject.villagers.PrinceSpawner.name=
+//[Reference] 'Prince Spawner'
+staxel.tileObject.villagers.PrinceSpawner.name=王子生成器
 staxel.tileObject.villagers.PrincessSpawner.description=
-//TODO Translate [Reference] 'Princess Spawner'
-staxel.tileObject.villagers.PrincessSpawner.name=
+//[Reference] 'Princess Spawner'
+staxel.tileObject.villagers.PrincessSpawner.name=公主生成器
+staxel.tileObject.villagers.QuietTourist.description=
+//TODO Translate [Reference] 'Quiet Tourist'
+staxel.tileObject.villagers.QuietTourist.name=
 staxel.tileObject.villagers.rewards.Aliza.AlizasWrench.description=
-//TODO Translate [Reference] 'Aliza's Wrench'
-staxel.tileObject.villagers.rewards.Aliza.AlizasWrench.name=
+//[Reference] 'Aliza's Wrench'
+staxel.tileObject.villagers.rewards.Aliza.AlizasWrench.name=爱丽哲的扳手
 staxel.tileObject.villagers.rewards.Cecile.CecilesMicrowave.description=
-//TODO Translate [Reference] 'Cecile's Microwave'
-staxel.tileObject.villagers.rewards.Cecile.CecilesMicrowave.name=
+//[Reference] 'Cecile's Microwave'
+staxel.tileObject.villagers.rewards.Cecile.CecilesMicrowave.name=赛西尔的微波炉
 staxel.tileObject.villagers.rewards.Cirahna.CirahnasMagicBook.description=
-//TODO Translate [Reference] 'Cirahna's Magic Book'
-staxel.tileObject.villagers.rewards.Cirahna.CirahnasMagicBook.name=
+//[Reference] 'Cirahna's Magic Book'
+staxel.tileObject.villagers.rewards.Cirahna.CirahnasMagicBook.name=茜拉娜的魔法书
 staxel.tileObject.villagers.rewards.Emilia.EmiliasWoodenSpoon.description=
-//TODO Translate [Reference] 'Emilia's Wooden Spoon'
-staxel.tileObject.villagers.rewards.Emilia.EmiliasWoodenSpoon.name=
+//[Reference] 'Emilia's Wooden Spoon'
+staxel.tileObject.villagers.rewards.Emilia.EmiliasWoodenSpoon.name=伊米莉亚的木制勺子
 staxel.tileObject.villagers.rewards.FarmFan.chickenplushy.description=
-//TODO Translate [Reference] 'Farm Fan's Chicken Plushy'
-staxel.tileObject.villagers.rewards.FarmFan.chickenplushy.name=
+//[Reference] 'Farm Fan's Chicken Plushy'
+staxel.tileObject.villagers.rewards.FarmFan.chickenplushy.name=农场粉丝的小鸡毛绒玩具
 staxel.tileObject.villagers.rewards.FarmFan.CowPlushy.description=
-//TODO Translate [Reference] 'Farm Fan's Cow Plushy'
-staxel.tileObject.villagers.rewards.FarmFan.CowPlushy.name=
+//[Reference] 'Farm Fan's Cow Plushy'
+staxel.tileObject.villagers.rewards.FarmFan.CowPlushy.name=农场粉丝的奶牛毛绒玩具
+staxel.tileObject.villagers.rewards.Max.CommemorativePlaque.description=
+//TODO Translate [Reference] 'Commemorative Plaque'
+staxel.tileObject.villagers.rewards.Max.CommemorativePlaque.name=
 staxel.tileObject.villagers.rewards.Max.MaxsCityKey.description=
-//TODO Translate [Reference] 'Max's City Key'
-staxel.tileObject.villagers.rewards.Max.MaxsCityKey.name=
+//[Reference] 'Max's City Key'
+staxel.tileObject.villagers.rewards.Max.MaxsCityKey.name=麦克斯的城镇钥匙
 staxel.tileObject.villagers.rewards.Oscar.OscarsPoliceBadge.description=
-//TODO Translate [Reference] 'Oscar's Police Badge'
-staxel.tileObject.villagers.rewards.Oscar.OscarsPoliceBadge.name=
+//[Reference] 'Oscar's Police Badge'
+staxel.tileObject.villagers.rewards.Oscar.OscarsPoliceBadge.name=奥斯卡的警徽
 staxel.tileObject.villagers.rewards.Riah.RiahsLuckyYarn.description=
-//TODO Translate [Reference] 'Riah's Lucky Yarn'
-staxel.tileObject.villagers.rewards.Riah.RiahsLuckyYarn.name=
+//[Reference] 'Riah's Lucky Yarn'
+staxel.tileObject.villagers.rewards.Riah.RiahsLuckyYarn.name=瑞安的幸运纱线
 staxel.tileObject.villagers.rewards.Rosemary.RosemarysMusicBox.description=
-//TODO Translate [Reference] 'Rosemary's Music Box'
-staxel.tileObject.villagers.rewards.Rosemary.RosemarysMusicBox.name=
+//[Reference] 'Rosemary's Music Box'
+staxel.tileObject.villagers.rewards.Rosemary.RosemarysMusicBox.name=罗斯玛丽的音乐盒
 staxel.tileObject.villagers.rewards.Rowan.RowansMug.description=
-//TODO Translate [Reference] 'Rowan's Mug'
-staxel.tileObject.villagers.rewards.Rowan.RowansMug.name=
+//[Reference] 'Rowan's Mug'
+staxel.tileObject.villagers.rewards.Rowan.RowansMug.name=罗恩的马克杯
 staxel.tileObject.villagers.rewards.Vorlen.VorlensPocketWatch.description=
-//TODO Translate [Reference] 'Vorlen's Pocket Watch'
-staxel.tileObject.villagers.rewards.Vorlen.VorlensPocketWatch.name=
+//[Reference] 'Vorlen's Pocket Watch'
+staxel.tileObject.villagers.rewards.Vorlen.VorlensPocketWatch.name=沃伦的怀表
 staxel.tileObject.villagers.RiahSpawner.description=
 //[Reference] 'Riah Spawner'
 staxel.tileObject.villagers.RiahSpawner.name=瑞安生成器
+staxel.tileObject.villagers.SmartTourist.description=
+//TODO Translate [Reference] 'Smart Tourist'
+staxel.tileObject.villagers.SmartTourist.name=
 staxel.tileObject.villagers.TrashFairySpawner.description=
-//TODO Translate [Reference] 'Trash Fairy Spawner'
-staxel.tileObject.villagers.TrashFairySpawner.name=
+//[Reference] 'Trash Fairy Spawner'
+staxel.tileObject.villagers.TrashFairySpawner.name=垃圾精灵生成器
 //[Reference] 'This strange creature seems to be fluttering around rather frantically. Perhaps you should place it on the ground.'
 staxel.tileObject.villagers.VorlenSpawner.description=这个奇怪的生物似乎在周围疯狂的飞来飞去，也许你应该把它放到地上。
 //[Reference] 'Mysterious Butterfly'
@@ -5249,16 +5446,16 @@ staxel.totem.Barn.name=畜棚
 staxel.totem.BuildingInvalidated=这个建筑还未完成
 //[Reference] 'Cecile's Home'
 staxel.totem.CecileHome=赛西尔的家
-//TODO Translate [Reference] 'Communications Tower'
-staxel.totem.CommunicationsTower=
+//[Reference] 'Communications Tower'
+staxel.totem.CommunicationsTower=通讯塔
 //[Reference] 'Emilia's Home'
 staxel.totem.EmiliaHome=伊米莉亚的家
 //[Reference] 'Eris' Home'
 staxel.totem.ErisHome=艾丽斯的家
-//TODO Translate [Reference] 'Farm Fan Home'
-staxel.totem.FarmFanHome=
-//TODO Translate [Reference] 'Home sweet home'
-staxel.totem.Farmhouse=
+//[Reference] 'Farm Fan Home'
+staxel.totem.FarmFanHome=农场粉丝的家
+//[Reference] 'Home sweet home'
+staxel.totem.Farmhouse=甜蜜之家
 //[Reference] 'Fey Room 101'
 staxel.totem.festival.feymasquerade.FeyRoom101=精灵房间101
 //[Reference] 'Fey Room 104'
@@ -5285,16 +5482,26 @@ staxel.totem.festival.SnowdustShrine=雪尘神殿
 staxel.totem.FestivalTotem=警告：节日大门区域被周期性覆盖！
 //[Reference] 'Furnishing requirements complete!'
 staxel.totem.FurnitureComplete=所需家具齐全!
-//TODO Translate [Reference] '(Currently overlapping)'
-staxel.totem.isOverlapping=
+//TODO Translate [Reference] 'Goth Mushroom'
+staxel.totem.GothMushroom=
+//[Reference] '(Currently overlapping)'
+staxel.totem.isOverlapping=（目前重叠）
 //[Reference] 'Jamie's Home'
 staxel.totem.JamieHome=杰米的家
+//TODO Translate [Reference] 'Max Statue A'
+staxel.totem.MaxStatueA=
+//TODO Translate [Reference] 'Max Statue B'
+staxel.totem.MaxStatueB=
+//TODO Translate [Reference] 'Max Statue C'
+staxel.totem.MaxStatueC=
+//TODO Translate [Reference] 'Max Statue D'
+staxel.totem.MaxStatueD=
 //[Reference] 'Maximilian's Home'
 staxel.totem.MayorMaxHome=马克西米利安的家
 //[Reference] '({0-count} missing)'
 staxel.totem.missingItem=（{0-count}缺失）
-//TODO Translate [Reference] 'Must not overlap'
-staxel.totem.noOverlap=
+//[Reference] 'Must not overlap'
+staxel.totem.noOverlap=不可重叠
 //[Reference] 'Oscar's Home'
 staxel.totem.OscarHome=奥斯卡的家
 //[Reference] 'Updating...'
@@ -5308,16 +5515,18 @@ staxel.totem.RiahHome=瑞安的家
 staxel.totem.roofMissing=（缺失）
 //[Reference] 'Rosemary's Home'
 staxel.totem.RosemaryHome=罗斯玛丽的家
-//TODO Translate [Reference] 'Stone Resource'
-staxel.totem.StoneResource=
+//TODO Translate [Reference] 'Small Festival Grounds'
+staxel.totem.SmallFestivalGrounds=
+//[Reference] 'Stone Resource'
+staxel.totem.StoneResource=石材资源
 //[Reference] 'Test'
 staxel.totem.Test.name=测试
 //[Reference] 'Building requirement added!'
 staxel.totem.TileAdded=增加建筑需求
 //[Reference] 'Building requirement removed!'
 staxel.totem.TileRemoved=减少建筑需求
-//TODO Translate [Reference] 'Tree Resource'
-staxel.totem.TreeResource=
+//[Reference] 'Tree Resource'
+staxel.totem.TreeResource=林木资源
 //[Reference] 'Building Store'
 staxel.totem.workplace.BuildingStore=建筑商店
 //[Reference] 'Festival Square'
@@ -5328,12 +5537,12 @@ staxel.totem.workplace.FishingSpot=钓点
 staxel.totem.workplace.GroceryStore=杂货店
 //[Reference] 'Museum'
 staxel.totem.workplace.Museum=博物馆
-//TODO Translate [Reference] 'Myah Lure'
-staxel.totem.workplace.MyahLure=
+//[Reference] 'Myah Lure'
+staxel.totem.workplace.MyahLure=米亚诱饵
 //[Reference] 'Patisserie'
 staxel.totem.workplace.Patisserie=法式糕点店
-//TODO Translate [Reference] 'Pet Store'
-staxel.totem.workplace.PetStore=
+//[Reference] 'Pet Store'
+staxel.totem.workplace.PetStore=宠物商店
 //[Reference] 'Tavern'
 staxel.totem.workplace.Tavern=酒馆
 //[Reference] 'Town Hall'
@@ -5357,8 +5566,8 @@ staxel.tree.BananaTree.description=这棵树可以长出美味的香蕉。夏季
 //[Reference] 'Banana Tree Seed'
 staxel.tree.BananaTree.name=香蕉树种子
 staxel.tree.BasicNaturalTree.description=
-//TODO Translate [Reference] 'Basic Natural Tree'
-staxel.tree.BasicNaturalTree.name=
+//[Reference] 'Basic Natural Tree'
+staxel.tree.BasicNaturalTree.name=基础自然树
 //[Reference] 'This tree grows sweet sweet cherries. Fruits in Autumn.'
 staxel.tree.CherryTree.description=这棵树可以长出超级甜的樱桃。秋季水果。
 //[Reference] 'Cherry Tree Seed'
@@ -5408,18 +5617,22 @@ staxel.tree.TangerineTree.description=这棵树上能长出橘子，而不是橙
 //[Reference] 'Tangerine Tree'
 staxel.tree.TangerineTree.name=橘子树
 staxel.village.dialogue.ForestBunnyGiveItem.=
-//TODO Translate [Reference] '...'
-staxel.village.dialogue.ForestBunnyGiveItem.line:10000101=
+//[Reference] '...'
+staxel.village.dialogue.ForestBunnyGiveItem.line:10000101=……
 //[Reference] '{0-name} has left the village.'
 staxel.village.villagerLeftTown={0-name}离开了村庄。
 //[Reference] 'Aliza'
 staxel.villager.Aliza.name=爱丽哲
+//TODO Translate [Reference] 'Alua'
+staxel.villager.Alua.name=
 //[Reference] 'Ami'
 staxel.villager.Ami.name=艾米
 //TODO Translate [Reference] 'Boisterous Tourist'
-staxel.villager.BoisterousTourist.name=
-//TODO Translate [Reference] 'Butterfly'
-staxel.villager.Butterfly.name=
+staxel.villager.Boisterous Tourist.name=
+//[Reference] 'Boisterous Tourist'
+staxel.villager.BoisterousTourist.name=喧闹的游客
+//[Reference] 'Butterfly'
+staxel.villager.Butterfly.name=蝴蝶
 //[Reference] 'Caren'
 staxel.villager.Caren.name=卡伦
 //[Reference] 'Cecile'
@@ -5436,8 +5649,8 @@ staxel.villager.Eris.name=艾丽斯
 staxel.villager.FarmFan.name=农场粉丝
 //[Reference] 'Fey Queen'
 staxel.villager.FeyQueen.name=精灵王后
-//TODO Translate [Reference] 'Hazel'
-staxel.villager.Hazel.name=
+//[Reference] 'Hazel'
+staxel.villager.Hazel.name=黑兹尔
 //[Reference] 'Jamie'
 staxel.villager.Jamie.name=杰米
 //[Reference] 'Leif'
@@ -5450,8 +5663,12 @@ staxel.villager.MaybeRiah.name=瑞安！
 staxel.villager.NotRiah.name=瑞安？
 //[Reference] 'Oscar'
 staxel.villager.Oscar.name=奥斯卡
+//[Reference] 'Reserved Tourist'
+staxel.villager.QuietTourist.name=拘谨的游客
+//TODO Translate [Reference] 'Rainbow Butterfly'
+staxel.villager.Rainbow Butterfly.name=
 //TODO Translate [Reference] 'Reserved Tourist'
-staxel.villager.QuietTourist.name=
+staxel.villager.Reserved Tourist.name=
 //[Reference] 'Riah'
 staxel.villager.Riah.name=瑞安
 //[Reference] 'Rosemary'
@@ -5459,9 +5676,11 @@ staxel.villager.Rosemary.name=罗斯玛丽
 //[Reference] 'Rowan'
 staxel.villager.Rowan.name=罗恩
 //TODO Translate [Reference] 'Smart Tourist'
-staxel.villager.SmartTourist.name=
-//TODO Translate [Reference] 'Stray Cat'
-staxel.villager.Stray Cat.name=
+staxel.villager.Smart Tourist.name=
+//[Reference] 'Smart Tourist'
+staxel.villager.SmartTourist.name=聪明的游客
+//[Reference] 'Stray Cat'
+staxel.villager.Stray Cat.name=流浪猫
 //[Reference] 'Vorlen'
 staxel.villager.Vorlen.name=沃伦
 staxel.weed.Weed1.description=

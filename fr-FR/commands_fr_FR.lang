@@ -1,9 +1,9 @@
 ﻿language.code=fr-FR
 language=Français
-//TODO Translate [Reference] '^c:F2E200;activateMurmur ^c:FFFFFF;murmurCode'
-commands.activateMurmur.description=
-//TODO Translate [Reference] 'Successfully activated {0-murmur}.'
-commands.activateMurmur.success=
+//[Reference] '^c:F2E200;activateMurmur ^c:FFFFFF;murmurCode'
+commands.activateMurmur.description=^c:F2E200;activateMurmur ^c:FFFFFF;murmurCode
+//[Reference] 'Successfully activated {0-murmur}.'
+commands.activateMurmur.success=Activation réussie {0-murmur}.
 
 //[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)'
 commands.advanceTime.description=advanceTime montant(0.0-1.0)
@@ -63,14 +63,14 @@ commands.changeMood.animalNotFound=N'est pas en train de regarder un animal
 commands.changeMood.description=^c:F2E200;changeMood ^c:FFFFFF;augmenter/diminuer(true/false)
 //[Reference] 'Mood altered successfully'
 commands.changeMood.success=Humeur changée avec succès
-//TODO Translate [Reference] '^c:F2E200;checkMail'
-commands.checkMail.description=
-//TODO Translate [Reference] '^c:F2E200;completeQuest ^c:FFFFFF;questCode villagerName/Code'
-commands.completeQuest.description=
-//TODO Translate [Reference] 'Quest does not exist'
-commands.completeQuest.noSuchQuest=
-//TODO Translate [Reference] 'Quest completed successfuly'
-commands.completeQuest.success=
+//[Reference] '^c:F2E200;checkMail'
+commands.checkMail.description=^c:F2E200;checkMail
+//[Reference] '^c:F2E200;completeQuest ^c:FFFFFF;questCode villagerName/Code'
+commands.completeQuest.description=^c:F2E200;completeQuest ^c:FFFFFF;questCode Nom/Code villageois
+//[Reference] 'Quest does not exist'
+commands.completeQuest.noSuchQuest=Quête inexistante
+//[Reference] 'Quest completed successfuly'
+commands.completeQuest.success=Quête réussie
 //[Reference] '^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)'
 commands.creative.description=creative (facultatif)nomDuJoueur (facultatif)startCreativeMode(true/false)
 //[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
@@ -79,10 +79,10 @@ commands.creative.success=Le mode créatif du joueur {0-user} a été temporaire
 commands.currentTime.description=^c:F2E200;currentTime
 //[Reference] 'The day is {0-day} and phase is {1:G2-phase} ({2-time}).'
 commands.currentTime.success=Jour actuel : {0-day} - Phase actuelle : {1:G2-phase} ({2-time}).
-//TODO Translate [Reference] '^c:F2E200;deactivateMurmur ^c:FFFFFF;'
-commands.deactivateMurmur.description=
-//TODO Translate [Reference] 'Successfully deactivated {0-murmur} if it existed.'
-commands.deactivateMurmur.success=
+//[Reference] '^c:F2E200;deactivateMurmur ^c:FFFFFF;'
+commands.deactivateMurmur.description=^c:F2E200;deactivateMurmur ^c:FFFFFF;
+//[Reference] 'Successfully deactivated {0-murmur} if it existed.'
+commands.deactivateMurmur.success=S'il existait, le {0-murmur} a été désactivé.
 //[Reference] '^c:F2E200;demoMode ^c:FFFFFF;(optional)on(true/false)'
 commands.demoMode.description=demoMode (facultatif)on(true/false)
 //[Reference] 'Switched server demo mode to {0-demoMode}'
@@ -125,12 +125,12 @@ commands.entityNotFound=Entité non trouvée
 commands.flyMode.description=fly (facultatif)playerName (facultatif)startFlying(true/false)
 //[Reference] 'Switched flying mode to: {0-flymode}'
 commands.flyMode.success=La valeur du mode vol a été modifiée en : {0-flymode}
-//TODO Translate [Reference] '^c:F2E200;forceAchievement ^c:FFFFFF;achievementCode'
-commands.forceAchievement.description=
-//TODO Translate [Reference] 'Missing achievement code.'
-commands.forceAchievement.missingParam=
-//TODO Translate [Reference] 'Achievement not found.'
-commands.forceAchievement.noSuchAchievement=
+//[Reference] '^c:F2E200;forceAchievement ^c:FFFFFF;achievementCode'
+commands.forceAchievement.description=^c:F2E200;forceAchievement ^c:FFFFFF;achievementCode
+//[Reference] 'Missing achievement code.'
+commands.forceAchievement.missingParam=Code de succès manquant.
+//[Reference] 'Achievement not found.'
+commands.forceAchievement.noSuchAchievement=Succès introuvable.
 //[Reference] '^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)playerName'
 commands.giveallrecipes.description=^c:F2E200;giveallrecipes ^c:FFFFFF;(facultatif)NomJoueur
 //[Reference] 'Done!'
@@ -260,9 +260,8 @@ commands.saveOutfit.description=saveOutfit nomFichier
 commands.saveOutfit.success=Tenue du personnage sauvegardée à {0-path}
 //[Reference] '^c:F2E200;seed'
 commands.seed.description=^c:F2E200;seed
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Seed: {0-seed}, World Size: {1-worldSize}x'
-commands.seed.success=Graine : {0-seed}
+commands.seed.success=Graine : {0-seed}, Taille du monde : {1-worldSize}x
 //[Reference] '^c:F2E200;creativeMode ^c:FFFFFF;(optional)on(true/false)'
 commands.serverCreative.description=creativeMode (optionel)on(true/false)
 //[Reference] 'Switched server creative mode to {0-creative} (persistent)'
@@ -302,12 +301,10 @@ commands.stealPetals.success={0-player} à volé {1-amount} pétals
 commands.stealPetals.success.reset={0-player} n'est plus un voleur désormais.
 //[Reference] '{0-player} stole {1-amount} petals. Thief!'
 commands.stealPetals.success.thief={0-player} a volé {1-amount} pétals. Voleur !
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;stopTime ^c:FFFFFF;Stops time'
-commands.stopTime.description=Arrêter/redémarrer le temps
-//[Validate] Delete this comment if or when the translation is accurate.
+commands.stopTime.description=^c:F2E200;stopTime ^c:FFFFFF;Arrête le temps
 //[Reference] 'Time Stopped'
-commands.stopTime.stop=Temps arrêté
+commands.stopTime.stop=Le temps s'est arrêté
 commands.sun.description=
 //TODO No reference?
 //[Reference] 'Made it a sunny day.'
@@ -339,12 +336,12 @@ commands.tileAt.notFound=Tile introuvable
 commands.tileAt.success.false=Code de carreau : {0-tilecode} à {1-position} (compoundFiller: faux, rotation : {2-rotation}, alt : {3-alt}, morceau : {4-chunk})
 //[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
 commands.tileAt.success.true=Code de carreau : {0-tilecode} à {1-position} (compoundFiller: vrai, rotation : {2-rotation}, alt : {3-alt}, morceau : {4-chunk})
-//TODO Translate [Reference] '^c:F2E200;toggleTimePassing ^c:FFFFFF;Toggles the passing of time'
-commands.toggleTimePassing.description=
-//TODO Translate [Reference] 'Time Resumed'
-commands.toggleTimePassing.resume=
-//TODO Translate [Reference] 'Time Stopped'
-commands.toggleTimePassing.stop=
+//[Reference] '^c:F2E200;toggleTimePassing ^c:FFFFFF;Toggles the passing of time'
+commands.toggleTimePassing.description=^c:F2E200;toggleTimePassing ^c:FFFFFF;Permet de contrôler le temps qui passe
+//[Reference] 'Time Resumed'
+commands.toggleTimePassing.resume=Le temps a repris
+//[Reference] 'Time Stopped'
+commands.toggleTimePassing.stop=Le temps s'est arrêté
 //TODO Quite a few with no references.
 commands.traceStart.description=
 //[Reference] 'Started tracing.'
@@ -371,12 +368,13 @@ commands.unmute.failure=Impossible de rendre la voix au joueur {0-player} : le j
 commands.unmute.success=Le joueur {0-player} peut à nouveau parler.
 //[Reference] 'Unrecognised command :'{0-command}''
 commands.unrecognised=Commande non reconnue : «{0-command} »
-//TODO Translate [Reference] '^c:F2E200;unmute ^c:FFFFFF;villagerName/Code amount'
-commands.updateReputation.description=
-//TODO Translate [Reference] 'Reputation updated to {0-newAmount} for villager {1-villagerCode}'
-commands.updateReputation.success=
-//TODO Translate [Reference] 'Villager Entity not found'
-commands.villagerEntityNotFound=
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;updateReputation ^c:FFFFFF;villagerName/Code amount'
+commands.updateReputation.description=^c:F2E200;unmute ^c:FFFFFF; Nom du villageois/valeur du code
+//[Reference] 'Reputation updated to {0-newAmount} for villager {1-villagerCode}'
+commands.updateReputation.success=La réputation du villageois {1-villagerCode} est désormais de {0-newAmount}.
+//[Reference] 'Villager Entity not found'
+commands.villagerEntityNotFound=Villageois introuvable
 //[Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
 commands.weather.description=^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)
 //[Reference] 'Unable to set weather: {0-weather}. Does not exist.'
