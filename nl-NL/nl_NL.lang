@@ -266,7 +266,7 @@ escapeMenu.mainMenu=Ga naar Hoofdmenu
 escapeMenu.options=Opties
 //[Reference] 'Teleport Home'
 escapeMenu.returnHome=Terug naar huis
-//TODO Translate [Reference] 'Face Extruder Settings'
+//[Reference] 'Face Extruder Settings'
 FaceExtruderSettings.title=Vlak Verdrijver Instellingen
 
 //[Reference] 'It got away!'
@@ -429,11 +429,11 @@ options.boxtool.hollow=Holle Modus
 options.boxtool.hollow.description=Wanneer Aan, zal de gemaakte box hol zijn van binnen
 //[Reference] 'Allow Gaps'
 options.faceextruder.allowgaps=Gaten Toestaan
-//TODO Translate [Reference] 'Will extrude tiles even if there is a one tile gap from the main face'
+//[Reference] 'Will extrude tiles even if there is a one tile gap from the main face'
 options.faceextruder.allowgaps.description=Zal tegels verdrijven zelfs als er een enkele tegel onderbreking is ten opzichte van het hoofdoppervlak
 //[Reference] 'Destructive Mode'
 options.faceextruder.destructive=Destructieve Modus
-//TODO Translate [Reference] 'Determines whether or not the tool will destroy tiles in the way when extruding a face'
+//[Reference] 'Determines whether or not the tool will destroy tiles in the way when extruding a face'
 options.faceextruder.destructive.description=Bepaalt of het werktuig tegels vernietigt die in de weg liggen tijdens het verdrijven van tegels op basis van het hoofdoppervlak
 //[Reference] 'Gameplay'
 options.gameplay=Spelplezier
@@ -998,6 +998,15 @@ staxel.accessories.shirts.tartanshirts.TartanShirt.name=Ruitjeshemd
 staxel.accessories.shorts.shortjeanspaletted.description=
 //[Reference] 'shortjeanspaletted'
 staxel.accessories.shorts.shortjeanspaletted.name=kortejeansstuds
+staxel.accessories.skirts.Skirt.1.description=
+//TODO Translate [Reference] 'Skirt'
+staxel.accessories.skirts.Skirt.1.name=
+staxel.accessories.skirts.Skirt.2.description=
+//TODO Translate [Reference] 'Skirt'
+staxel.accessories.skirts.Skirt.2.name=
+staxel.accessories.skirts.Skirt.3.description=
+//TODO Translate [Reference] 'Skirt'
+staxel.accessories.skirts.Skirt.3.name=
 staxel.accessories.swimsuits.Swimsuit.1.description=
 //[Reference] '1'
 staxel.accessories.swimsuits.Swimsuit.1.name=1
@@ -1376,6 +1385,7 @@ staxel.category.petal=bloemblaadje
 //[Reference] 'pinball'
 staxel.category.pinball=flipper
 //Reference] 'pizza'
+//[Reference] 'pizza'
 staxel.category.pizza=pizza
 //[Reference] 'Plain Cake Stand'
 staxel.category.PlainCakeStand=Gewone Taart Plateau
@@ -1501,6 +1511,8 @@ staxel.category.varnish=lak
 staxel.category.vase=vaas
 //[Reference] 'Vegetable Pie Stand'
 staxel.category.VegetablePieStand=Groetentaart Plateau
+//TODO Translate [Reference] 'vial'
+staxel.category.vial=
 //[Reference] 'wand'
 staxel.category.wand=toverstaf
 //[Reference] 'washer'
@@ -3026,15 +3038,18 @@ staxel.item.quest.MachinePartScreen.description=Data werd nog nooit beter weerge
 staxel.item.quest.MachinePartScreen.name=Machinescherm
 //[Reference] 'This ultra-strong coffee has a similar colour and consistency to machine oil. The aroma is slightly concerning.'
 staxel.item.quest.OrderForAliza.description=Deze ultra-sterke koffie heeft een gelijkaardige kleur en consistentie als machine-olie. Het aroma is wat verontrustend.
-//[Reference] 'Order For Aliza'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Ultra-strong coffee'
 staxel.item.quest.OrderForAliza.name=Bestelling Voor Aliza
 //[Reference] 'A very particular meal that comes with a mug o' sap. Even the food itself reeks of the stuff!'
 staxel.item.quest.OrderForFarmFan.description=Een uitzonderlijke maaltijd in combinatie met een Boomstamsap. Het eten ruikt ook naar het spul!
-//[Reference] 'Order For Farm Fan'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Meal o' Sap'
 staxel.item.quest.OrderForFarmFan.name=Bestelling Voor Farm Fan
 //[Reference] 'A rather simply prepared fish fillet. It might as well be raw.'
 staxel.item.quest.OrderForRiah.description=Een eenvoudig bereide visfilet. Bijna rauw.
-//[Reference] 'Order For Riah'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Almost-raw fish fillet'
 staxel.item.quest.OrderForRiah.name=Bestelling Voor Riah
 staxel.item.quest.Oscar.AluaLetter.description=
 //[Reference] 'Alua Letter'
@@ -3166,9 +3181,9 @@ staxel.item.Sponge.name=Spons
 staxel.item.tool.BoxPlacer.description=Klik op een tegel om te starten, klik een andere om te eindigen. Bouwt een bos tussen de hoeken. Alt-klik voor instellingen. (gebruikt eerste tegel als materiaal)
 //[Reference] 'Box Builder'
 staxel.item.tool.BoxPlacer.name=Box Bouwer
-//TODO Translate [Reference] 'Click a surface of connected same-type tiles to extrude the face in that direction. Alt click for settings'
+//[Reference] 'Click a surface of connected same-type tiles to extrude the face in that direction. Alt click for settings'
 staxel.item.tool.FaceExtruder.description=Klik op een hoofdoppervlak van verbonden tegels van hetzelfde type om tegels achter het oppervlak in die richting te verdrijven. Alt-klik voor instellingen '
-//TODO Translate [Reference] 'Face Extruder'
+//[Reference] 'Face Extruder'
 staxel.item.tool.FaceExtruder.name=Vlak Verdrijver
 staxel.item.tool.FlowerWatercan.description=
 //[Reference] 'Flower Watering Can'
@@ -3840,7 +3855,7 @@ staxel.tileObject.bobbleheads.OscarBobbleHead.description=
 //[Reference] 'Oscar Bobble Head'
 staxel.tileObject.bobbleheads.OscarBobbleHead.name=Oscar Wiebelkop
 staxel.tileObject.bobbleheads.RiahBobbleHead.description=
-//[Reference] 'Riah Bobble Head'
+//TODO Translate [Reference] 'Riah Bobble Head'
 staxel.tileObject.bobbleheads.RiahBobbleHead.name=
 staxel.tileObject.bobbleheads.RosemaryBobbleHead.description=Riah Wiebelkop
 //[Reference] 'Rosemary Bobblehead'
