@@ -4,12 +4,12 @@ language=Deutsch
 
 //[Reference] 'Achievement unlocked: {0-achievement}!'
 achievements.achievementUnlocked=Erfolg freigeschaltet: {0-achievement}!
-//TODO Translate [Reference] 'Alua'
-Alua=
-//TODO Translate [Reference] 'Box Builder Settings'
-BoxPlacerSettings.title=
-//TODO Translate [Reference] 'Save'
-BuildToolSettings.accept=
+//[Reference] 'Alua'
+Alua=Alua
+//[Reference] 'Box Builder Settings'
+BoxPlacerSettings.title=Box Erbauer Einstellungen
+//[Reference] 'Save'
+BuildToolSettings.accept=Speichern
 //[Reference] 'Buy:'
 catalogue.buy=Kaufen:
 //[Reference] 'Clear'
@@ -266,7 +266,7 @@ escapeMenu.options=Optionen
 //[Reference] 'Teleport Home'
 escapeMenu.returnHome=Nach Hause
 //TODO Translate [Reference] 'Face Extruder Settings'
-FaceExtruderSettings.title=
+FaceExtruderSettings.title=Oberflächen Extruder Einstellungen
 
 //[Reference] 'It got away!'
 fishing.gotAway=Er ist entkommen!
@@ -347,8 +347,8 @@ hintText.thiefThief=Dieb! Dir wird nach einer Weile vergeben.
 hintText.thiefWarning=Stehlen hat Konsequenzen.
 //[Reference] 'true'
 language.validated=true
-//TODO Translate [Reference] 'Line Builder Settings'
-LinePlacerSettings.title=
+//[Reference] 'Line Builder Settings'
+LinePlacerSettings.title=Linien Erbauer
 
 //[Reference] 'Downloading bundle assets'
 loading.bundles=Paket mit Assets wird herunterladen
@@ -420,22 +420,22 @@ options.audio.description=Ändere hier die Audio-Optionen
 options.auto=Auto
 //[Reference] '(X)'
 options.backButton=(X)
-//TODO Translate [Reference] 'Destructive Mode'
-options.boxtool.destructive=
-//TODO Translate [Reference] 'Determines whether or not the tool will destroy tiles in the way when creating a box'
-options.boxtool.destructive.description=
-//TODO Translate [Reference] 'Hollow Mode'
-options.boxtool.hollow=
-//TODO Translate [Reference] 'When On, the created box will be hollow inside'
-options.boxtool.hollow.description=
-//TODO Translate [Reference] 'Allow Gaps'
-options.faceextruder.allowgaps=
-//TODO Translate [Reference] 'Will extrude tiles even if there is a one tile gap from the main face'
-options.faceextruder.allowgaps.description=
-//TODO Translate [Reference] 'Destructive Mode'
-options.faceextruder.destructive=
-//TODO Translate [Reference] 'Determines whether or not the tool will destroy tiles in the way when extruding a face'
-options.faceextruder.destructive.description=
+//[Reference] 'Destructive Mode'
+options.boxtool.destructive=Abbau Modus
+//[Reference] 'Determines whether or not the tool will destroy tiles in the way when creating a box'
+options.boxtool.destructive.description=Entscheidet, ob das Werkzeug Objekte, die im Weg sind, zerstört, wenn man eine Box erschafft
+//[Reference] 'Hollow Mode'
+options.boxtool.hollow=Hohl Modus
+//[Reference] 'When On, the created box will be hollow inside'
+options.boxtool.hollow.description=Wenn aktiviert, wird die erschaffene Box innen hohl sein
+//[Reference] 'Allow Gaps'
+options.faceextruder.allowgaps=Erlaube Lücken
+//[Reference] 'Will extrude tiles even if there is a one tile gap from the main face'
+options.faceextruder.allowgaps.description=Wird die Objekte extruden auch sich wenn eine 1 Tile große Lücke in der Oberfläche befindet.
+//[Reference] 'Destructive Mode'
+options.faceextruder.destructive=Abbau Modus
+//[Reference] 'Determines whether or not the tool will destroy tiles in the way when extruding a face'
+options.faceextruder.destructive.description=Entscheidet, ob das Werkzeug Objekte, die im Weg sind, zerstört, wenn man eine Oberfläche erweitert
 //[Reference] 'Gameplay'
 options.gameplay=Spiel
 //[Reference] 'Mute Error Sounds'
@@ -3213,16 +3213,16 @@ staxel.item.RowansParcel.name=Rowans Paket
 staxel.item.SoakedSponge.description=
 //[Reference] 'Soaked Sponge'
 staxel.item.SoakedSponge.name=Nasser Schwamm
-//TODO Translate [Reference] 'Sponge'
-staxel.item.Sponge.name=
-//TODO Translate [Reference] 'Click a tile to start, click another to end. Builds a box between the corners. Alt click for settings. (uses first tile as material)'
-staxel.item.tool.BoxPlacer.description=
-//TODO Translate [Reference] 'Box Builder'
-staxel.item.tool.BoxPlacer.name=
-//TODO Translate [Reference] 'Click a surface of connected same-type tiles to extrude the face in that direction. Alt click for settings'
-staxel.item.tool.FaceExtruder.description=
-//TODO Translate [Reference] 'Face Extruder'
-staxel.item.tool.FaceExtruder.name=
+//[Reference] 'Sponge'
+staxel.item.Sponge.name=Schwamm
+//[Reference] 'Click a tile to start, click another to end. Builds a box between the corners. Alt click for settings. (uses first tile as material)'
+staxel.item.tool.BoxPlacer.description=Klicke auf eine Fliese/ein Objekt um zu starten, dann klicke ans andere Ende. Baut eine Box zwischen den Ecken. Alt Klick für Einstellungen
+//[Reference] 'Box Builder'
+staxel.item.tool.BoxPlacer.name=Box Erbauer
+//[Reference] 'Click a surface of connected same-type tiles to extrude the face in that direction. Alt click for settings'
+staxel.item.tool.FaceExtruder.description=Klicke auf eine Oberfläche die mit den selben Fliesen verbunden ist, um die Oberfläche in diese Richtung zu Erweitern. Alt Klick für Einstellungen
+//[Reference] 'Face Extruder'
+staxel.item.tool.FaceExtruder.name=Oberflächen Extruder
 staxel.item.tool.FlowerWatercan.description=
 //[Reference] 'Flower Watering Can'
 staxel.item.tool.FlowerWatercan.name=Blumengießkanne
