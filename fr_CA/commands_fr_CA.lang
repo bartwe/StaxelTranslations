@@ -1,5 +1,9 @@
-language.code=fr_CA
+﻿language.code=fr_CA
 language=Français (Canada)
+//TODO Translate [Reference] '^c:F2E200;activateMurmur ^c:FFFFFF;murmurCode'
+commands.activateMurmur.description=
+//TODO Translate [Reference] 'Successfully activated {0-murmur}.'
+commands.activateMurmur.success=
 
 //TODO Translate [Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)'
 commands.advanceTime.description=
@@ -59,6 +63,14 @@ commands.changeMood.animalNotFound=
 commands.changeMood.description=
 //TODO Translate [Reference] 'Mood altered successfully'
 commands.changeMood.success=
+//TODO Translate [Reference] '^c:F2E200;checkMail'
+commands.checkMail.description=
+//TODO Translate [Reference] '^c:F2E200;completeQuest ^c:FFFFFF;questCode villagerName/Code'
+commands.completeQuest.description=
+//TODO Translate [Reference] 'Quest does not exist'
+commands.completeQuest.noSuchQuest=
+//TODO Translate [Reference] 'Quest completed successfuly'
+commands.completeQuest.success=
 //TODO Translate [Reference] '^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)'
 commands.creative.description=
 //TODO Translate [Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
@@ -67,6 +79,10 @@ commands.creative.success=
 commands.currentTime.description=
 //[Reference] 'The day is {0-day} and phase is {1:G2-phase} ({2-time}).'
 commands.currentTime.success=Jour actuel : {0-day} - Phase actuelle : {1:G2-phase}.
+//TODO Translate [Reference] '^c:F2E200;deactivateMurmur ^c:FFFFFF;'
+commands.deactivateMurmur.description=
+//TODO Translate [Reference] 'Successfully deactivated {0-murmur} if it existed.'
+commands.deactivateMurmur.success=
 //TODO Translate [Reference] '^c:F2E200;demoMode ^c:FFFFFF;(optional)on(true/false)'
 commands.demoMode.description=
 //TODO Translate [Reference] 'Switched server demo mode to {0-demoMode}'
@@ -109,6 +125,12 @@ commands.entityNotFound=
 commands.flyMode.description=fly (facultatif)playerName (facultatif)startFlying(true/false)
 //[Reference] 'Switched flying mode to: {0-flymode}'
 commands.flyMode.success=La valeur du mode vol a été modifiée en : {0-flymode}
+//TODO Translate [Reference] '^c:F2E200;forceAchievement ^c:FFFFFF;achievementCode'
+commands.forceAchievement.description=
+//TODO Translate [Reference] 'Missing achievement code.'
+commands.forceAchievement.missingParam=
+//TODO Translate [Reference] 'Achievement not found.'
+commands.forceAchievement.noSuchAchievement=
 //TODO Translate [Reference] '^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)playerName'
 commands.giveallrecipes.description=
 //TODO Translate [Reference] 'Done!'
@@ -237,7 +259,7 @@ commands.saveOutfit.description=
 commands.saveOutfit.success=
 //TODO Translate [Reference] '^c:F2E200;seed'
 commands.seed.description=
-//TODO Translate [Reference] 'Seed: {0-seed}'
+//TODO Translate [Reference] 'Seed: {0-seed}, World Size: {1-worldSize}x'
 commands.seed.success=
 //TODO Translate [Reference] '^c:F2E200;creativeMode ^c:FFFFFF;(optional)on(true/false)'
 commands.serverCreative.description=
@@ -278,6 +300,10 @@ commands.stealPetals.success=
 commands.stealPetals.success.reset=
 //TODO Translate [Reference] '{0-player} stole {1-amount} petals. Thief!'
 commands.stealPetals.success.thief=
+//TODO Translate [Reference] '^c:F2E200;stopTime ^c:FFFFFF;Stops time'
+commands.stopTime.description=
+//TODO Translate [Reference] 'Time Stopped'
+commands.stopTime.stop=
 commands.sun.description=
 //TODO Translate [Reference] 'Made it a sunny day.'
 commands.sun.success=
@@ -307,6 +333,12 @@ commands.tileAt.notFound=Tile introuvable
 commands.tileAt.success.false=
 //TODO Translate [Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
 commands.tileAt.success.true=
+//TODO Translate [Reference] '^c:F2E200;toggleTimePassing ^c:FFFFFF;Toggles the passing of time'
+commands.toggleTimePassing.description=
+//TODO Translate [Reference] 'Time Resumed'
+commands.toggleTimePassing.resume=
+//TODO Translate [Reference] 'Time Stopped'
+commands.toggleTimePassing.stop=
 commands.traceStart.description=
 //TODO Translate [Reference] 'Started tracing.'
 commands.traceStart.success=
@@ -332,6 +364,12 @@ commands.unmute.failure=
 commands.unmute.success=
 //[Reference] 'Unrecognised command :'{0-command}''
 commands.unrecognised=Commande non reconnue : «{0-command} »
+//TODO Translate [Reference] '^c:F2E200;updateReputation ^c:FFFFFF;villagerName/Code amount'
+commands.updateReputation.description=
+//TODO Translate [Reference] 'Reputation updated to {0-newAmount} for villager {1-villagerCode}'
+commands.updateReputation.success=
+//TODO Translate [Reference] 'Villager Entity not found'
+commands.villagerEntityNotFound=
 //TODO Translate [Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
 commands.weather.description=
 //TODO Translate [Reference] 'Unable to set weather: {0-weather}. Does not exist.'

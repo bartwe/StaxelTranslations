@@ -1,7 +1,9 @@
-//[Reference] 'en-GB'
-language.code=zh-CN
-//[Reference] 'English'
+﻿language.code=zh-CN
 language=简体中文
+//[Reference] '^c:F2E200;activateMurmur ^c:FFFFFF;murmurCode'
+commands.activateMurmur.description=^c:F2E200;activateMurmur ^c:FFFFFF;murmurCode
+//[Reference] 'Successfully activated {0-murmur}.'
+commands.activateMurmur.success=已成功激活{0-murmur}。
 
 //[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)'
 commands.advanceTime.description=^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)
@@ -45,22 +47,30 @@ commands.cameraSave.success=已将玩家视角储存至：{0-filename}
 commands.cameraStop.description=^c:F2E200;cameraStop
 //[Reference] 'Stopped camera mode'
 commands.cameraStop.success=摄影模式已停止
-//TODO Translate [Reference] '^c:F2E200;catchableDetails ^c:FFFFFF;(optional)location({0,0,0})'
-commands.catchableDetails.description=
-//TODO Translate [Reference] 'Failed to parse location {0-location}'
-commands.catchableDetails.failParse=
-//TODO Translate [Reference] 'Tile not found'
-commands.catchableDetails.notFound=
-//TODO Translate [Reference] 'Catchable entity does not exist: {0-details}'
-commands.catchableDetails.success.false=
-//TODO Translate [Reference] 'Catchable entity exists: {0-details}'
-commands.catchableDetails.success.true=
+//[Reference] '^c:F2E200;catchableDetails ^c:FFFFFF;(optional)location({0,0,0})'
+commands.catchableDetails.description=^c:F2E200;catchableDetails ^c:FFFFFF;(可选)地点({0,0,0})
+//[Reference] 'Failed to parse location {0-location}'
+commands.catchableDetails.failParse=无法分析位置{0-location}
+//[Reference] 'Tile not found'
+commands.catchableDetails.notFound=方块未找到
+//[Reference] 'Catchable entity does not exist: {0-details}'
+commands.catchableDetails.success.false=可捕捉实体不存在：{0-details}
+//[Reference] 'Catchable entity exists: {0-details}'
+commands.catchableDetails.success.true=存在可捕捉实体：{0-details}
 //[Reference] 'Not looking at an animal'
 commands.changeMood.animalNotFound=没找到要观看的动物
 //[Reference] '^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)'
 commands.changeMood.description=^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)
 //[Reference] 'Mood altered successfully'
 commands.changeMood.success=情绪成功改变
+//[Reference] '^c:F2E200;checkMail'
+commands.checkMail.description=^c:F2E200;checkMail
+//[Reference] '^c:F2E200;completeQuest ^c:FFFFFF;questCode villagerName/Code'
+commands.completeQuest.description=^c:F2E200;completeQuest ^c:FFFFFF;questCode 村民姓名/代码
+//[Reference] 'Quest does not exist'
+commands.completeQuest.noSuchQuest=任务不存在
+//[Reference] 'Quest completed successfuly'
+commands.completeQuest.success=已成功完成任务
 //[Reference] '^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)'
 commands.creative.description=^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)
 //[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
@@ -69,6 +79,10 @@ commands.creative.success=暂时为{0-user}将创造者模式切换为{1-creativ
 commands.currentTime.description=^c:F2E200;currentTime
 //[Reference] 'The day is {0-day} and phase is {1:G2-phase} ({2-time}).'
 commands.currentTime.success=日期为{0-day}，时段为{1:G2-phase}（{2-time}）。
+//[Reference] '^c:F2E200;deactivateMurmur ^c:FFFFFF;'
+commands.deactivateMurmur.description=^c:F2E200;deactivateMurmur ^c:FFFFFF;
+//[Reference] 'Successfully deactivated {0-murmur} if it existed.'
+commands.deactivateMurmur.success=如果{0-murmur}存在，已成功停用。
 //[Reference] '^c:F2E200;demoMode ^c:FFFFFF;(optional)on(true/false)'
 commands.demoMode.description=^c:F2E200;demoMode ^c:FFFFFF;(optional)on(true/false)
 //[Reference] 'Switched server demo mode to {0-demoMode}'
@@ -77,24 +91,24 @@ commands.demoMode.success=切换服务器演示模式到{0-demoMode}
 commands.describeItem.description=^c:F2E200;describeitem ^c:FFFFFF;(optional)playerName
 //[Reference] 'Item description: {0-itemDesc}'
 commands.describeItem.success=物品描述：{0-itemDesc}
-//TODO Translate [Reference] '^c:F2E200;ditto ^c:FFFFFF;(optional)playerName villagernpcCode'
-commands.ditto.description=
-//TODO Translate [Reference] 'Player {0-playerName} does not have enough inventory space for all npc clothing items'
-commands.ditto.notEnoughSpace=
-//TODO Translate [Reference] 'Player {0-playerName} disguised successfully'
-commands.ditto.success=
+//[Reference] '^c:F2E200;ditto ^c:FFFFFF;(optional)playerName villagernpcCode'
+commands.ditto.description=^c:F2E200;ditto ^c:FFFFFF;(可选)玩家姓名 村民NPC代码
+//[Reference] 'Player {0-playerName} does not have enough inventory space for all npc clothing items'
+commands.ditto.notEnoughSpace=玩家{0-playerName}没有足够的物品栏空间存放所有的NPC服装道具
+//[Reference] 'Player {0-playerName} disguised successfully'
+commands.ditto.success=玩家{0-playerName}已成功伪装
 //[Reference] '^c:F2E200;doemote ^c:FFFFFF;emoteName (optional)useLookatEntity(true/false)'
 commands.doemote.description=^c:F2E200;doemote ^c:FFFFFF;emoteName (optional)useLookatEntity(true/false)
 //[Reference] '^c:F2E200;emote ^c:FFFFFF;emoteName'
 commands.emote.description=^c:F2E200;emote ^c:FFFFFF;emoteName
 //[Reference] 'No such emote {0-emote}'
 commands.emote.noSuchEmote=无对应表情{0-emote}
-//TODO Translate [Reference] '^c:F2E200;enablecheats^c:FFFFFF;'
-commands.enablecheats.description=
-//TODO Translate [Reference] 'Failed to enable cheats.'
-commands.enablecheats.failure=
-//TODO Translate [Reference] 'Cheats have been enabled.'
-commands.enablecheats.success=
+//[Reference] '^c:F2E200;enablecheats^c:FFFFFF;'
+commands.enablecheats.description=^c:F2E200;开启作弊^c:FFFFFF;
+//[Reference] 'Failed to enable cheats.'
+commands.enablecheats.failure=开启作弊失败。
+//[Reference] 'Cheats have been enabled.'
+commands.enablecheats.success=开启作弊成功。
 //[Reference] '^c:F2E200;entityInfo ^c:FFFFFF;entityID'
 commands.entityInfo.description=^c:F2E200;entityInfo ^c:FFFFFF;entityID
 //[Reference] 'You need to include an EntityID!'
@@ -111,9 +125,14 @@ commands.entityNotFound=实体未找到
 commands.flyMode.description=^c:F2E200;fly ^c:FFFFFF;(optional)playerName (optional)startFlying(true/false)
 //[Reference] 'Switched flying mode to: {0-flymode}'
 commands.flyMode.success=切换飞行模式到：{0-flymode}
-//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;forceAchievement ^c:FFFFFF;achievementCode'
+commands.forceAchievement.description=^c:F2E200;forceAchievement ^c:FFFFFF;achievementCode
+//[Reference] 'Missing achievement code.'
+commands.forceAchievement.missingParam=成就代码缺失。
+//[Reference] 'Achievement not found.'
+commands.forceAchievement.noSuchAchievement=成就未找到。
 //[Reference] '^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)playerName'
-commands.giveallrecipes.description=^c:F2E200;Give all recipes ^c:FFFFFF;(optional)playerName
+commands.giveallrecipes.description=^c:F2E200;giveallrecipes ^c:FFFFFF;(可选)玩家姓名
 //[Reference] 'Done!'
 commands.giveallrecipes.success=完成！
 //[Reference] '^c:F2E200;givepetals ^c:FFFFFF;playerName amount'
@@ -180,8 +199,8 @@ commands.op.description=^c:F2E200;op ^c:FFFFFF;playerName
 commands.op.failure=无法晋升{0-player}。
 //[Reference] '{0-player} has been promoted.'
 commands.op.success={0-player}已被晋升。
-//TODO Translate [Reference] 'Player {0-player} not found.'
-commands.op.userNotFound=
+//[Reference] 'Player {0-player} not found.'
+commands.op.userNotFound=玩家{0-player}未找到。
 //[Reference] '^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime'
 commands.pe.description=^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime
 //[Reference] '^c:F2E200;plantgrowth'
@@ -240,8 +259,8 @@ commands.saveOutfit.description=^c:F2E200;saveOutfit ^c:FFFFFF;fileName
 commands.saveOutfit.success=角色套装文件保存至{0-path}
 //[Reference] '^c:F2E200;seed'
 commands.seed.description=^c:F2E200;seed
-//[Reference] 'Seed: {0-seed}'
-commands.seed.success=种子：{0-seed}
+//[Reference] 'Seed: {0-seed}, World Size: {1-worldSize}x'
+commands.seed.success=种子：{0-seed}，世界大小：{1-worldSize}x
 //[Reference] '^c:F2E200;creativeMode ^c:FFFFFF;(optional)on(true/false)'
 commands.serverCreative.description=^c:F2E200;creativeMode ^c:FFFFFF;(optional)on(true/false)
 //[Reference] 'Switched server creative mode to {0-creative} (persistent)'
@@ -249,28 +268,24 @@ commands.serverCreative.success=切换服务器创造者模式至{0-creative}（
 commands.snow.description=
 //[Reference] 'Made it a snowy day.'
 commands.snow.success=制造雪天。
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;spawncoins ^c:FFFFFF;(optional)playerName petalAmount'
-commands.spawnCoins.description=^c:F2E200;spawncoins ^c:FFFFFF;playerName petalAmount
+commands.spawnCoins.description=^c:F2E200;spawncoins ^c:FFFFFF;(可选)玩家姓名 花瓣币数量
 //[Reference] 'Spawned {0-amount} petals in coins for {1-player}'
 commands.spawnCoins.success=为{1-player}以生成{0-amount}花瓣币
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;spawnitem ^c:FFFFFF;(optional)playerName item(kind/specification{})'
-commands.spawnItem.description=^c:F2E200;spawnitem ^c:FFFFFF;playerName item(kind/specification{})
+commands.spawnItem.description=^c:F2E200;spawnitem ^c:FFFFFF;(可选)玩家姓名 物品(种类/规格{})
 //[Reference] 'Item not found.'
 commands.spawnItem.notFound=物品未找到。
 //[Reference] 'Spawn item successful.'
 commands.spawnItem.success=产出物品成功。
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;spawnmaterial ^c:FFFFFF;(optional)playerName materialCode'
-commands.spawnMaterial.description=^c:F2E200;spawnmaterial ^c:FFFFFF;playerName materialCode
+commands.spawnMaterial.description=^c:F2E200;spawnmaterial ^c:FFFFFF;(可选)玩家姓名 材料代码
 //[Reference] 'Material kind not found.'
 commands.spawnMaterial.notFound=材料种类未找到。
 //[Reference] 'Spawn material successful'
 commands.spawnMaterial.success=产出材料成功
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;spawntile ^c:FFFFFF;(optional)playerName tileCode'
-commands.spawnTile.description=^c:F2E200;spawntile ^c:FFFFFF;playerName tileCode
+commands.spawnTile.description=^c:F2E200;spawntile ^c:FFFFFF;(可选)玩家姓名 方砖代码
 //[Reference] 'Tile kind not found.'
 commands.spawnTile.notFound=方砖种类未找到。
 //[Reference] 'Spawn tile successful.'
@@ -285,6 +300,10 @@ commands.stealPetals.success={0-player}偷走{1-amount}花瓣币
 commands.stealPetals.success.reset={0-player}不再是小偷。
 //[Reference] '{0-player} stole {1-amount} petals. Thief!'
 commands.stealPetals.success.thief={0-player}偷走{1-amount}花瓣币。小偷！
+//[Reference] '^c:F2E200;stopTime ^c:FFFFFF;Stops time'
+commands.stopTime.description=^c:F2E200;stopTime ^c:FFFFFF;停止时间
+//[Reference] 'Time Stopped'
+commands.stopTime.stop=时间已停止
 commands.sun.description=
 //[Reference] 'Made it a sunny day.'
 commands.sun.success=制造晴天。
@@ -314,6 +333,12 @@ commands.tileAt.notFound=方块未找到
 commands.tileAt.success.false=方块代码：{0-tilecode}在{1-position}（复合填充：假，翻转：{2-rotation}，转换{3-alt}，组块：{4-chunk}）
 //[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
 commands.tileAt.success.true=方块代码：{0-tilecode}在{1-position}（复合填充：真，翻转：{2-rotation}，转换{3-alt}，组块：{4-chunk}）
+//[Reference] '^c:F2E200;toggleTimePassing ^c:FFFFFF;Toggles the passing of time'
+commands.toggleTimePassing.description=^c:F2E200;toggleTimePassing ^c:FFFFFF;切换时间流逝
+//[Reference] 'Time Resumed'
+commands.toggleTimePassing.resume=时间已恢复
+//[Reference] 'Time Stopped'
+commands.toggleTimePassing.stop=时间已停止
 commands.traceStart.description=
 //[Reference] 'Started tracing.'
 commands.traceStart.success=开始追踪。
@@ -339,6 +364,13 @@ commands.unmute.failure=无法对{0-player}解除禁言：玩家未被禁言。
 commands.unmute.success={0-player}重新获得说话能力。
 //[Reference] 'Unrecognised command :'{0-command}''
 commands.unrecognised=未辨认命令：'{0-command}'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;updateReputation ^c:FFFFFF;villagerName/Code amount'
+commands.updateReputation.description=^c:F2E200;unmute ^c:FFFFFF;村民姓名/代码量
+//[Reference] 'Reputation updated to {0-newAmount} for villager {1-villagerCode}'
+commands.updateReputation.success=村民{1-villagerCode}的声望已更新为{0-newAmount}
+//[Reference] 'Villager Entity not found'
+commands.villagerEntityNotFound=村民实体未找到
 //[Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
 commands.weather.description=^c:F2E200;weather ^c:FFFFFF;输入　(Sun, Rain, Snow, Storm 或天气代码)
 //[Reference] 'Unable to set weather: {0-weather}. Does not exist.'

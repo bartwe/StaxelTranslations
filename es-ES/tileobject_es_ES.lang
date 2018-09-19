@@ -1,5 +1,8 @@
-language.code=es-ES
+﻿language.code=es-ES
 language=Español
+staxel.plant.quest.GaintTurnip.tile.description=
+//[Reference] 'Gaint Turnip'
+staxel.plant.quest.GaintTurnip.tile.name=Nabo gigante
 staxel.tileObject.airship.RopeFenceCorner.description=
 //[Reference] 'Rope Fence'
 staxel.tileObject.airship.RopeFenceCorner.name=Valla de cuerda
@@ -171,6 +174,9 @@ staxel.tileObject.bobbleheads.JenBobbleHead.name=Muñeco cabezón de Jen
 staxel.tileObject.bobbleheads.JoeBobbleHead.description=
 //[Reference] 'Joe Bobblehead'
 staxel.tileObject.bobbleheads.JoeBobbleHead.name=Muñeco cabezón de Joe
+staxel.tileObject.bobbleheads.MayorBobbleHead.description=
+//[Reference] 'Mayor Bobblehead'
+staxel.tileObject.bobbleheads.MayorBobbleHead.name=Muñeco cabezón del alcalde
 staxel.tileObject.bobbleheads.MoocowBobbleHead.description=
 //[Reference] 'Moocow Bobblehead'
 staxel.tileObject.bobbleheads.MoocowBobbleHead.name=Muñeco cabezón de Moocow
@@ -408,6 +414,18 @@ staxel.tileObject.fairyVillage.GlowingMushroom3.name=Champiñón brillante
 staxel.tileObject.fairyVillage.TulipRose.description=¡Una impresionante flor muy poco común!
 //[Reference] 'Red Tulip Rose'
 staxel.tileObject.fairyVillage.TulipRose.name=Rosipán rojo
+//TODO Translate [Reference] 'A sprinkler that covers 3 tiles away from the center!'
+staxel.tileObject.farm.LargeSprinkler.description=
+//TODO Translate [Reference] 'Large Sprinkler'
+staxel.tileObject.farm.LargeSprinkler.name=
+//TODO Translate [Reference] 'A sprinkler that covers 1 tiles away from the center!'
+staxel.tileObject.farm.SmallSprinkler.description=
+//TODO Translate [Reference] 'Small Sprinkler'
+staxel.tileObject.farm.SmallSprinkler.name=
+//TODO Translate [Reference] 'A sprinkler that covers 2 tiles away from the center!'
+staxel.tileObject.farm.Sprinkler.description=
+//TODO Translate [Reference] 'Sprinkler'
+staxel.tileObject.farm.Sprinkler.name=
 //[Reference] 'An adorable little creature that lays delicious eggs.'
 staxel.tileObject.farmAnimals.Chicken.description=Una adorable criaturita que pone huevos riquísimos.
 //[Reference] 'Chicken in a Crate'
@@ -527,6 +545,9 @@ staxel.tileObject.modded.minecart_coal-tipped.name=Vagoneta
 staxel.tileObject.modded.minecart_empty.description=Eliminar
 //[Reference] 'Minecart'
 staxel.tileObject.modded.minecart_empty.name=Vagoneta
+staxel.tileObject.museum.painting.RainbowButterfly.description=
+//[Reference] 'Rainbow Butterfly Painting'
+staxel.tileObject.museum.painting.RainbowButterfly.name=Cuadro de mariposa arcoíris
 staxel.tileObject.office.Computer.description=
 //[Reference] 'Computer'
 staxel.tileObject.office.Computer.name=Ordenador
@@ -566,6 +587,21 @@ staxel.tileObject.pets.PetHouse.name=Casa para mascotas
 staxel.tileObject.presents.TradeCrate.description=
 //[Reference] 'Trading Crate'
 staxel.tileObject.presents.TradeCrate.name=Caja de trueque
+staxel.tileObject.quest.Max.abstract.statue.description=
+//[Reference] 'Abstract Statue'
+staxel.tileObject.quest.Max.abstract.statue.name=Estatua abstracta
+staxel.tileObject.quest.Max.cubic.statue.description=
+//[Reference] 'Cubic Statue'
+staxel.tileObject.quest.Max.cubic.statue.name=Estatua cúbica
+staxel.tileObject.quest.Max.farmer.statue.description=
+//[Reference] 'Farmer Statue'
+staxel.tileObject.quest.Max.farmer.statue.name=Estatua de granjero
+staxel.tileObject.quest.Max.MaxFestivalFlyer.description=
+//[Reference] 'Max Festival Flyer'
+staxel.tileObject.quest.Max.MaxFestivalFlyer.name=Cartel del festival de Max
+staxel.tileObject.quest.Max.slimy.statue.description=
+//[Reference] 'Slimy Statue'
+staxel.tileObject.quest.Max.slimy.statue.name=Estatua de blandiblub
 //[Reference] 'Thick, sturdy railing with an old feel to it.'
 staxel.tileObject.retrotest.dungeon_railing.description=Una baranda robusta con un aire antiguo.
 //[Reference] 'Straight Dungeon Railing'
@@ -867,7 +903,8 @@ staxel.tileObject.serverVillage.Bed.double.red.description=Una cama doble muy c�
 staxel.tileObject.serverVillage.Bed.double.red.name=Cama doble simple roja
 //[Reference] 'A comfortable, well made, single bed.'
 staxel.tileObject.serverVillage.Bed.single.black.description=Una cama individual muy cómoda de alta calidad.
-//[Reference] 'Simply Red Single Bed'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Simply Black Single Bed'
 staxel.tileObject.serverVillage.Bed.single.black.name=Cama individual simple roja
 //[Reference] 'A comfortable, well made, single bed.'
 staxel.tileObject.serverVillage.Bed.single.blue.description=Una cama individual muy cómoda de alta calidad.
@@ -1681,7 +1718,6 @@ staxel.tileObject.serverVillage.stalagmite.name=Estalagmita
 staxel.tileObject.serverVillage.Streetlamp.description=Ilumina las calles colocando varias farolas en fila.
 //[Reference] 'Street Lamp'
 staxel.tileObject.serverVillage.Streetlamp.name=Farola
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Produces fine lumber at the expense of mother nature.'
 staxel.tileObject.serverVillage.TableSaw.description=Produce maderos de calidad a costa de la madre naturaleza.
 //[Reference] 'Table Saw'
@@ -1881,7 +1917,8 @@ staxel.tileObject.themedfurniture.bathroom.ClawfootBathtub.description=
 //[Reference] 'Clawfoot Bathtub'
 staxel.tileObject.themedfurniture.bathroom.ClawfootBathtub.name=Bañera
 staxel.tileObject.themedfurniture.bathroom.Sink.description=
-//[Reference] 'Sink'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Bathroom Sink'
 staxel.tileObject.themedfurniture.bathroom.Sink.name=Lavabo
 staxel.tileObject.themedfurniture.bathroom.Toilet.description=
 //[Reference] 'Toilet'
@@ -2017,7 +2054,6 @@ staxel.tileObject.themedfurniture.contemporary.contemporarySideTable.name=Mesita
 staxel.tileObject.themedfurniture.contemporary.ContemporarySingleBed.description=Del "Conjunto de muebles modernos". Una cama individual muy moderna con un diseño combinado.
 //[Reference] 'Contemporary Single Bed'
 staxel.tileObject.themedfurniture.contemporary.ContemporarySingleBed.name=Cama individual moderna
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'From the 'Contemporary Furniture Set' - A comfy modern sofa for the studio apartment.'
 staxel.tileObject.themedfurniture.contemporary.contemporarySofa.description=Del "Conjunto de muebles modernos". Un sofá moderno y cómodo, ideal para un despacho.
 //[Reference] 'Contemporary Sofa'
@@ -2094,7 +2130,6 @@ staxel.tileObject.themedfurniture.groovy.GroovyStool.name=Taburete Buen rollito
 staxel.tileObject.themedfurniture.groovy.GroovyTable.description=Del "Conjunto de muebles Buen rollito". Una mesa cuadrada con un mantel lleno de color.
 //[Reference] 'Groovy Table'
 staxel.tileObject.themedfurniture.groovy.GroovyTable.name=Mesa Buen rollito
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'From the 'Groovy Furniture Set' - A wardrobe with two doors, no drawers and no limits.'
 staxel.tileObject.themedfurniture.groovy.GroovyWardrobe.description=Del "Conjunto de muebles Buen rollito". Un armario con dos puertas, sin cajones y sin límites.
 //[Reference] 'Groovy Wardrobe'
@@ -2328,6 +2363,21 @@ staxel.tileObject.totems.OscarMailbox.name=Buzón de Oscar
 staxel.tileObject.totems.PatisserieSign.description=
 //[Reference] 'Patisserie Sign'
 staxel.tileObject.totems.PatisserieSign.name=Cartel de la pastelería
+staxel.tileObject.totems.quest.MaxStatuePlaqueA.description=
+//[Reference] 'Abstract Statue Plaque'
+staxel.tileObject.totems.quest.MaxStatuePlaqueA.name=Placa de estatua abstracta
+staxel.tileObject.totems.quest.MaxStatuePlaqueB.description=
+//[Reference] 'Cubic Statue Plaque'
+staxel.tileObject.totems.quest.MaxStatuePlaqueB.name=Placa de estatua cúbica
+staxel.tileObject.totems.quest.MaxStatuePlaqueC.description=
+//[Reference] 'Slimy Statue Plaque'
+staxel.tileObject.totems.quest.MaxStatuePlaqueC.name=Placa de estatua de blandiblub
+staxel.tileObject.totems.quest.MaxStatuePlaqueD.description=
+//[Reference] 'Farmer Statue Plaque'
+staxel.tileObject.totems.quest.MaxStatuePlaqueD.name=Placa de estatua de granjero
+staxel.tileObject.totems.quest.SmallFestivalGroundsSign.description=
+//[Reference] 'Small Festival Grounds Sign'
+staxel.tileObject.totems.quest.SmallFestivalGroundsSign.name=Letrero pequeño del festival
 staxel.tileObject.totems.RosemaryMailbox.description=
 //[Reference] 'Rosemary's Postbox'
 staxel.tileObject.totems.RosemaryMailbox.name=Buzón de Rosemary

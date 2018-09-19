@@ -1,13 +1,10 @@
-//[Reference] 'en-GB'
-language.code=zh-CN
-//[Reference] 'English'
+﻿language.code=zh-CN
 language=简体中文
 //[Reference] 'You're a new face - we don't get many of those around here!'
 staxel.village.dialogue.Tutorial.line:10000100=你是新面孔哦——我们这很少有新人的呢！
 
-//[Validate] Delete this comment if or when the translation is accurate.
-//[Reference] 'You must be ^c:1486b0;{0-playername}^c:pop;.'
-staxel.village.dialogue.Tutorial.line:10000201=你一定是^c:1486b0;{0-playername}^c:pop;吧。
+//[Reference] 'You must be {0-playername}.'
+staxel.village.dialogue.Tutorial.line:10000201=你一定是{0-playername}。
 //[Reference] 'On behalf of all of us here in ^c:1486b0;Staxel^c:pop;, welcome!'
 staxel.village.dialogue.Tutorial.line:10000250=我代表^c:1486b0;Staxel^c:pop;的所有人，欢迎你！
 //[Reference] 'I'm ^c:1486b0;{0-name}^c:pop; by the way!'
@@ -199,9 +196,8 @@ staxel.village.dialogue.Tutorial.line:10006900=对了，你的宠物很快就会
 staxel.village.dialogue.Tutorial.line:10006974=唔？你是谁呢？
 //[Reference] 'I think it might be a good idea to stock up on some ^c:d03e37;pet food^c:pop; when you can.'
 staxel.village.dialogue.Tutorial.line:10007000=我觉得多储存一些^c:d03e37;宠物食品^c:pop;或许不错。
-//[Validate] Delete this comment if or when the translation is accurate.
-//[Reference] '^c:1486b0;{0-playername}^c:pop; you say?'
-staxel.village.dialogue.Tutorial.line:10007074=^c:1486b0;{0-playername}^c:pop;你说呢？
+//[Reference] '{0-playername} you say?'
+staxel.village.dialogue.Tutorial.line:10007074={0-playername}，你说？
 //[Reference] 'The ^c:1486b0;supermarket^c:pop; sells many of the things you need for everyday life.'
 staxel.village.dialogue.Tutorial.line:10007100=^c:1486b0;超市^c:pop;会出售你日常生活会用到的各种物品。
 //[Reference] 'Let me see... doesn't look like you're on my list!'
@@ -218,7 +214,6 @@ staxel.village.dialogue.Tutorial.line:10007374=欢迎来我们的村庄！希望
 staxel.village.dialogue.Tutorial.line:10007378=……
 //[Reference] 'Still here?'
 staxel.village.dialogue.Tutorial.line:10007382=还在吗？
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Well I guess I could give you a small welcome package...'
 staxel.village.dialogue.Tutorial.line:10007386=我想我应该给你一份小小的见面礼……
 //[Reference] 'Just don't go telling anyone about this...'
@@ -265,8 +260,7 @@ staxel.village.dialogue.Tutorial.line:10009200=祝你好运！
 staxel.village.dialogue.Tutorial.line:10009300=看起来你好像还没有收获作物呢。
 //[Reference] 'Pour ^c:d03e37;Magic Water^c:pop; on crop. Pick crop. Easy!'
 staxel.village.dialogue.Tutorial.line:10009400=把^c:d03e37;魔法之水^c:pop;倒在作物上。然后收获作物。很简单的！
-//[Validate] Delete this comment if or when the translation is accurate.
-//[Reference] 'Hi ^c:1486b0;{0-playername}^c:pop;!'
+//[Reference] 'Hi {0-playername}!'
 staxel.village.dialogue.Tutorial.line:10009500=嗨，{0-playername}！
 //[Reference] 'It looks like you've achieved some interesting new feats!'
 staxel.village.dialogue.Tutorial.line:10009600=看起来你好像达成了一些有趣的新成就哦！
@@ -330,21 +324,329 @@ staxel.village.dialogue.Tutorial.line:10012400=没有，才不感兴趣呢。
 staxel.village.dialogue.Tutorial.line:10012500=那你来这儿是干什么的？
 //[Reference] 'Come back when you're ready to grovel!'
 staxel.village.dialogue.Tutorial.line:10012600=等你准备好求我了你再回来吧！
-//TODO Translate [Reference] 'I'm already a licensed farmer.'
-staxel.village.dialogue.Tutorial.line:10012700=
-//TODO Translate [Reference] 'Oh, really? That's encouraging!'
-staxel.village.dialogue.Tutorial.line:10012800=
-//TODO Translate [Reference] 'You'll need a ^w:i;local^w:clear; license, but I see you already have your ^c:d03e37;Farm Registration Letter^c:pop; prepared for that!'
-staxel.village.dialogue.Tutorial.line:10012900=
-//TODO Translate [Reference] 'Don't forget to run it over to ^c:1486b0;Max^c:pop; at the ^c:1486b0;town hall^c:pop;!'
-staxel.village.dialogue.Tutorial.line:10013000=
-//TODO Translate [Reference] 'There's still a barn waiting to be built!'
-staxel.village.dialogue.Tutorial.line:10013100=
-//TODO Translate [Reference] 'Oh, right, I have a pet for you too! Which one did you want?'
-staxel.village.dialogue.Tutorial.line:10013200=
-//TODO Translate [Reference] 'I'll take the cat!'
-staxel.village.dialogue.Tutorial.line:10013300=
-//TODO Translate [Reference] 'I'll take the dog!'
-staxel.village.dialogue.Tutorial.line:10013400=
-//TODO Translate [Reference] 'There you go! Good luck with the farm!'
-staxel.village.dialogue.Tutorial.line:10013500=
+//[Reference] 'I'm already a licensed farmer.'
+staxel.village.dialogue.Tutorial.line:10012700=我已经是一个有许可的农夫了。
+//[Reference] 'Oh, really? That's encouraging!'
+staxel.village.dialogue.Tutorial.line:10012800=噢，真的吗？真是让人欣喜！
+//[Reference] 'You'll need a ^w:i;local^w:clear; license, but I see you already have your ^c:d03e37;Farm Registration Letter^c:pop; prepared for that!'
+staxel.village.dialogue.Tutorial.line:10012900=你需要一个^w:i;许可证^w:clear;，但我看到你已经有了办理需要的^c:d03e37;农场注册信^c:pop;！
+//[Reference] 'Don't forget to run it over to ^c:1486b0;Max^c:pop; at the ^c:1486b0;town hall^c:pop;!'
+staxel.village.dialogue.Tutorial.line:10013000=别忘了把它拿给^c:1486b0;小镇大厅^c:pop;的^c:1486b0;麦克斯^c:pop;！
+//[Reference] 'There's still a barn waiting to be built!'
+staxel.village.dialogue.Tutorial.line:10013100=还有一个畜棚需要搭建呢！
+//[Reference] 'Oh, right, I have a pet for you too! Which one did you want?'
+staxel.village.dialogue.Tutorial.line:10013200=哦对了，我也为你准备了一只宠物！你想要哪只？
+//[Reference] 'I'll take the cat!'
+staxel.village.dialogue.Tutorial.line:10013300=我选择猫！
+//[Reference] 'I'll take the dog!'
+staxel.village.dialogue.Tutorial.line:10013400=我选择狗！
+//[Reference] 'There you go! Good luck with the farm!'
+staxel.village.dialogue.Tutorial.line:10013500=给你！祝你好运！
+//[Reference] '^c:1486b0;Butterflies^c:pop;? I'm really more into the farming side of things...'
+staxel.village.dialogue.Tutorial.line:10013600=^c:1486b0;蝴蝶^c:pop;？我更喜欢农场相关的东西……
+//[Reference] 'But I guess I've seen ^c:1486b0;blue butterflies^c:pop;, ^c:1486b0;pink butterflies^c:pop;...'
+staxel.village.dialogue.Tutorial.line:10013700=不过我想我已经见过了^c:1486b0;蓝色蝴蝶^c:pop;，^c:1486b0;粉色蝴蝶^c:pop;……
+//[Reference] '^c:1486b0;Purple butterflies^c:pop;, ^c:1486b0;white butterflies^c:pop;...oh, ^c:1486b0;yellow butterflies^c:pop; too.'
+staxel.village.dialogue.Tutorial.line:10013800=^c:1486b0;紫色蝴蝶^c:pop;，^c:1486b0;白色蝴蝶^c:pop;，……噢，还有^c:1486b0;黄色蝴蝶^c:pop;。
+//[Reference] 'Does that answer your question?'
+staxel.village.dialogue.Tutorial.line:10013900=这能回答你的问题吗？
+//[Reference] '^c:1486b0;Rowan's^c:pop; looking for a part-time helper, is he?'
+staxel.village.dialogue.Tutorial.line:10014000=^c:1486b0;罗恩^c:pop;正在找兼职助手，是吗？
+//[Reference] 'Do you think he'd let me drink as much ^c:d03e37;sap^c:pop; as I want on the job?'
+staxel.village.dialogue.Tutorial.line:10014100=你觉得他能让我在上班的时候随便喝^c:d03e37;元气饮料^c:pop;吗？
+//[Reference] 'Tell him I'm on board if he will!'
+staxel.village.dialogue.Tutorial.line:10014200=告诉他如果可以的话，我就愿意去！
+//[Reference] 'Oh, I remember this. I think I gave ^c:1486b0;Oscar^c:pop; this ^c:d03e37;broom^c:pop; for one of his birthdays...'
+staxel.village.dialogue.Tutorial.line:10014300=噢，我记得这个，这把^c:d03e37;扫帚^c:pop;是在^c:1486b0;奥斯卡^c:pop;生日的时候我送给他的。
+//[Reference] 'I see he's managed to make you into his lackey!'
+staxel.village.dialogue.Tutorial.line:10014400=我看他把你变成了他的跟班！
+//[Reference] 'I was hoping to do that first...'
+staxel.village.dialogue.Tutorial.line:10014500=我本想先这么做的……
+//[Reference] 'Here to participate in the harvest festival? Let me just give you a quick rundown of the rules!'
+staxel.village.dialogue.Tutorial.line:10014600=是来参加丰收节的？让我来简单给你介绍一下规则！
+//[Reference] 'This is a produce-growing competition! Bring in the best of your crops and win a prize!'
+staxel.village.dialogue.Tutorial.line:10014700=这是一个种植竞赛！带来你最好的作物来赢取大奖！
+//[Reference] 'If you're lucky, you might find yourself the grand prize winner!'
+staxel.village.dialogue.Tutorial.line:10014800=如果幸运的话，你也许会获得特等奖！
+//[Reference] 'How nice! You win a {0-reward}!'
+staxel.village.dialogue.Tutorial.line:10014900=太棒了，你赢得了{0-reward}！
+//[Reference] 'I've seen better...but it's not a bad specimen. Here's a {0-reward} for your efforts!'
+staxel.village.dialogue.Tutorial.line:10015000=我见过更好的……不过这个样本也还不错。收下{0-reward}，用来奖励你的努力！
+//[Reference] 'Hey, so want me to let you in on a little secret?'
+staxel.village.dialogue.Tutorial.line:10015100=嘿，想知道一个小秘密吗？
+//[Reference] 'I've been so excited about this amazing new crop I discovered, but I haven't been able to get away...'
+staxel.village.dialogue.Tutorial.line:10015200=我发现了一种让我激动万分的新作物，但是我现在还不能休假……
+//[Reference] 'I wanted to take part in the contest, not handle it!'
+staxel.village.dialogue.Tutorial.line:10015300=我也想要参加比赛，而不是组织比赛！
+//[Reference] 'But maybe you can do it for me instead? I just want to see the crop win!'
+staxel.village.dialogue.Tutorial.line:10015400=不过也许你可以代替我去参加比赛？我只想看到这种作物获胜！
+//[Reference] 'If you plant these ^c:1486b0;seeds^c:pop;, I guarantee you'll get a crop that no one can beat!'
+staxel.village.dialogue.Tutorial.line:10015500=如果你把这些^c:1486b0;种子^c:pop;种下去，我保证你可以获得无人能比的好作物！
+//[Reference] 'You'll never have seen anything like it before!'
+staxel.village.dialogue.Tutorial.line:10015600=你以前绝对没有见过这样的东西！
+//[Reference] 'Wow! Now that is one massive ^c:1486b0;turnip^c:pop;!'
+staxel.village.dialogue.Tutorial.line:10015700=哇哦！真是一个巨大的^c:1486b0;芜菁^c:pop;！
+//[Reference] 'I don't think I've ever seen anything this impressive before in my life!'
+staxel.village.dialogue.Tutorial.line:10015800=我以前从来没有见过这样让人印象深刻的东西！
+//[Reference] 'Whoever came up with this crop must have been a true genius, I'm sure!'
+staxel.village.dialogue.Tutorial.line:10015900=能种出这种作物的人一定是天才，我确定！
+//[Reference] 'That ^c:1486b0;voucher^c:pop; entitles you to the grand prize. No one is going to beat that!'
+staxel.village.dialogue.Tutorial.line:10016000=那个^c:1486b0;凭证^c:pop;可以让你获得特等奖，没有人可以打败你！
+//[Reference] 'Take it over to ^c:1486b0;{0-max}^c:pop;—he wanted to keep an eye on that one himself!'
+staxel.village.dialogue.Tutorial.line:10016100=把它带给^c:1486b0;{0-max}^c:pop;——他想要自己盯着点！
+//[Reference] 'Hey there, ^c:1486b0;{0-playername}^c:pop;!'
+staxel.village.dialogue.Tutorial.line:10016200=你好啊，^c:1486b0;{0-playername}^c:pop;！
+//[Reference] 'How's it going down at the farm? Pretty good I hope?'
+staxel.village.dialogue.Tutorial.line:10016300=农场最近怎么样？我想应该还不错？
+//[Reference] 'You moving in there has been a little bit of a problem for me after all...'
+staxel.village.dialogue.Tutorial.line:10016400=你搬到那里还是给我带来了一点小麻烦……
+//[Reference] 'Oh, not that I mean to accuse you or anything...I was technically just squatting after all.'
+staxel.village.dialogue.Tutorial.line:10016500=噢，我不是要指责你什么的……毕竟我其实就是无家可归。
+//[Reference] 'But it does mean I don't really have anywhere to live right now.'
+staxel.village.dialogue.Tutorial.line:10016600=但这不是说我现在没有地方住。
+//[Reference] 'The ^c:1486b0;tavern^c:pop; is okay, but it does get a bit crowded with ^c:1486b0;Leif^c:pop; around at night.'
+staxel.village.dialogue.Tutorial.line:10016700=^c:1486b0;酒馆^c:pop;还不错，不过^c:1486b0;雷夫^c:pop;晚上在那里让这个地方变得拥挤了一些。
+//[Reference] 'And I get the feeling ^c:1486b0;Rowan^c:pop; doesn't likely leaving me unattended in his establishment...'
+staxel.village.dialogue.Tutorial.line:10016800=而且我感觉^c:1486b0;罗恩^c:pop;不太可能让我就这么干坐在他的餐厅里……
+//[Reference] 'So what do you say? Feeling up to building me a house?'
+staxel.village.dialogue.Tutorial.line:10016900=你觉得呢？想要给我盖一栋房子吗？
+//[Reference] 'This ^c:d03e37;mailbox^c:pop; will designate the house as being mine once it's complete!'
+staxel.village.dialogue.Tutorial.line:10017000=等^c:d03e37;邮箱^c:pop;装好了，它就能表明这个房子是我的了！
+//[Reference] 'I hope I can count on you!'
+staxel.village.dialogue.Tutorial.line:10017100=我希望你能够帮助我！
+//[Reference] 'Still working on my house I hope?'
+staxel.village.dialogue.Tutorial.line:10017200=还在帮我建房子吗？
+//[Reference] 'Alternatively I can just move back in at your place? No?'
+staxel.village.dialogue.Tutorial.line:10017300=或者我可以搬到你住的地方？不行？
+//[Reference] 'Nice, ^c:1486b0;{0-playername}^c:pop;! Very nice!'
+staxel.village.dialogue.Tutorial.line:10017400=真棒，^c:1486b0;{0-playername}^c:pop;！太棒了！
+//[Reference] 'Now I won't have to sleep in the ^c:1486b0;tavern^c:pop; with one eye open any more!'
+staxel.village.dialogue.Tutorial.line:10017500=现在不需要再战战兢兢的睡在^c:1486b0;酒馆^c:pop;里了！
+//[Reference] 'This is just a little reward to congratulate you on a job well done.'
+staxel.village.dialogue.Tutorial.line:10017600=给你这个，作为你顺利完成任务的奖励。
+//[Reference] 'Thanks for all your help!'
+staxel.village.dialogue.Tutorial.line:10017700=谢谢你的帮助！
+//[Reference] 'Hey, ^c:1486b0;{0-playername}^c:pop;, how's the farm?'
+staxel.village.dialogue.Tutorial.line:10017800=嘿，^c:1486b0;{0-playername}^c:pop;，农场怎么样了？
+//[Reference] 'I'm still trying to get properly settled in to my new home.'
+staxel.village.dialogue.Tutorial.line:10017900=我还在努力在新家安顿下来。
+//[Reference] 'It's just...I think I'm too used to sleeping with all the farm memorabilia around...'
+staxel.village.dialogue.Tutorial.line:10018000=只是……我想我太习惯睡在农场纪念品旁边了……
+//[Reference] 'It's surprisingly hard to fall asleep without them!'
+staxel.village.dialogue.Tutorial.line:10018100=没有它们我居然睡不着了！
+//[Reference] 'Maybe you could help me by tracking down some old bits and pieces around the island?'
+staxel.village.dialogue.Tutorial.line:10018200=也许你可以帮我在岛上找一些旧的农场物品？
+//[Reference] 'Just a few things that are very collectable, you know?'
+staxel.village.dialogue.Tutorial.line:10018300=找一些有收藏价值的就好，你明白吗？
+//[Reference] 'I'd settle for a ^c:d03e37;star jelly^c:pop;, a ^c:d03e37;fossilised slime^c:pop;, and a ^c:d03e37;paw shell^c:pop;.'
+staxel.village.dialogue.Tutorial.line:10018400=一个^c:d03e37;星果冻^c:pop;，一个^c:d03e37;史莱姆化石^c:pop;，还有一个^c:d03e37;爪形贝^c:pop;就可以了。
+//[Reference] 'Do you think you can manage that?'
+staxel.village.dialogue.Tutorial.line:10018500=你觉得你可以做到吗？
+//[Reference] 'Nice! This is a really good start!'
+staxel.village.dialogue.Tutorial.line:10018600=漂亮！这是一个很好的开始！
+//[Reference] 'I hope you're all warmed up now because the next ones are going to be a bit tougher!'
+staxel.village.dialogue.Tutorial.line:10018700=我希望你已经做好准备了，因为下一个会更麻烦些！
+//[Reference] 'A long time ago, there was an ^c:d03e37;old tractor^c:pop; that got stuck in a ditch somewhere around here.'
+staxel.village.dialogue.Tutorial.line:10018800=很久以前，有一台^c:d03e37;旧拖拉机^c:pop;陷进了这附近的一个沟里。
+//[Reference] 'I think if you went mining a few ^c:d03e37;fossil rocks^c:pop; you might be able to come across some parts of it.'
+staxel.village.dialogue.Tutorial.line:10018900=我想如果你去挖掘一些^c:d03e37;化石^c:pop;，也许可以找到一些它的零件。
+//[Reference] 'I think a ^c:d03e37;star jelly^c:pop;, a ^c:d03e37;fossilised slime^c:pop;, and a ^c:d03e37;paw shell^c:pop; would help me feel a bit more at home.'
+staxel.village.dialogue.Tutorial.line:10019000=我想一个^c:d03e37;星果冻^c:pop;，一个^c:d03e37;史莱姆化石^c:pop;，还有一个^c:d03e37;爪形贝^c:pop;就能让我更自在一些。
+//[Reference] 'Think you can get all of those?'
+staxel.village.dialogue.Tutorial.line:10019100=你可以帮我把这些东西找来吗？
+//[Reference] 'Oooh, yes! This is a wonderful piece of memorabilia!'
+staxel.village.dialogue.Tutorial.line:10019200=噢，没错！这是一个很棒的纪念品！
+//[Reference] 'While you were out digging that up, I remembered something else.'
+staxel.village.dialogue.Tutorial.line:10019300=在你把它挖出来的时候，我想起了另外一件事情。
+//[Reference] 'There were some ^c:d03e37;old tools^c:pop; the previous owner used to use a lot.'
+staxel.village.dialogue.Tutorial.line:10019400=有一些^c:d03e37;旧工具^c:pop;，它们的前主人经常使用它们。
+//[Reference] 'I think he lost some of them in one of the ^c:1486b0;lakes^c:pop;. Maybe you could fish them up?'
+staxel.village.dialogue.Tutorial.line:10019500=我想他把一些工具丢在了一个^c:1486b0;湖^c:pop;里。你能把它们钓出来吗？
+//[Reference] 'Any luck find parts of that ^c:d03e37;old tractor^c:pop;?'
+staxel.village.dialogue.Tutorial.line:10019600=找到^c:d03e37;旧拖拉机^c:pop;的零件了吗？
+//[Reference] 'I imagine you might be able to dig them up by mining a few ^c:d03e37;fossil rocks^c:pop;.'
+staxel.village.dialogue.Tutorial.line:10019700=我想你如果你挖掘一些^c:d03e37;化石^c:pop;，也许可以找到一些。
+//[Reference] 'Yes, these are the ones I remember!'
+staxel.village.dialogue.Tutorial.line:10019800=没错，这就是我记忆中的东西！
+//[Reference] 'A bit rusty maybe, but they're definitely very collectable!'
+staxel.village.dialogue.Tutorial.line:10019900=也许有些生锈了，但是它们的确非常有收藏价值！
+//[Reference] 'Now, there's just one last thing... It might be the most important thing too...'
+staxel.village.dialogue.Tutorial.line:10020000=现在，还有最后一件事情……这也是最重要的事情……
+//[Reference] 'There's a limited-time online auction running for some really rare pieces of memorabilia...'
+staxel.village.dialogue.Tutorial.line:10020100=有一个限时线上拍卖会在卖一些十分稀有的纪念品……
+//[Reference] 'Items that belonged to legendary farmers who changed the world!'
+staxel.village.dialogue.Tutorial.line:10020200=都是些属于改变世界的传奇农夫的东西！
+//[Reference] 'The trouble is...they're a bit expensive...'
+staxel.village.dialogue.Tutorial.line:10020300=问题是……它们有一些昂贵……
+//[Reference] 'Do you think you could put together ^c:d03e37;{0-currency}10,000,000^c:pop; over the next two days?'
+staxel.village.dialogue.Tutorial.line:10020400=你觉得你可以在两天之内凑齐^c:d03e37;{0-currency}10,000,000^c:pop;吗？
+//[Reference] 'I understand if you can't, but still...'
+staxel.village.dialogue.Tutorial.line:10020500=如果不能的话我也可以理解，不过……
+//[Reference] 'Did you manage to fish up any of the ^c:d03e37;old tools^c:pop;?'
+staxel.village.dialogue.Tutorial.line:10020600=你钓到什么^c:d03e37;旧工具^c:pop;了吗？
+//[Reference] 'I know they fell into one of the ^c:1486b0;lakes^c:pop; around here.'
+staxel.village.dialogue.Tutorial.line:10020700=我知道它们掉进了这附近的^c:1486b0;湖^c:pop;里面。
+//[Reference] 'There's still time left, ^c:1486b0;{0-playername}^c:pop;!'
+staxel.village.dialogue.Tutorial.line:10020800=还有时间，^c:1486b0;{0-playername}^c:pop;！
+//[Reference] 'You can still gather the money!'
+staxel.village.dialogue.Tutorial.line:10020900=你还可以凑到钱！
+//[Reference] 'Well...it looks like we couldn't raise the money in time...'
+staxel.village.dialogue.Tutorial.line:10021000=好吧……看来我们没办法及时凑到钱……
+//[Reference] 'But...that's okay I suppose. I heard ^c:1486b0;Max^c:pop; was the one who actually won it...'
+staxel.village.dialogue.Tutorial.line:10021100=不过……我想也没关系，我听说是^c:1486b0;麦克斯^c:pop;最后得到了它……
+//[Reference] 'So perhaps we could still try reasoning with him?'
+staxel.village.dialogue.Tutorial.line:10021200=也许我们可以试着跟他讲讲道理？
+//[Reference] 'He wouldn't say anything about it?'
+staxel.village.dialogue.Tutorial.line:10021300=他什么也不肯说？
+//[Reference] 'Oh well...'
+staxel.village.dialogue.Tutorial.line:10021400=好吧……
+//[Reference] 'I suppose I'll keep looking for other things...'
+staxel.village.dialogue.Tutorial.line:10021500=我想我会继续找其他东西的……
+//[Reference] 'Thanks for helping me out so far though!'
+staxel.village.dialogue.Tutorial.line:10021600=谢谢你一直以来的帮助！
+//[Reference] 'Hi, ^c:1486b0;{0-playername}^c:pop;...'
+staxel.village.dialogue.Tutorial.line:10021700=嗨，^c:1486b0;{0-playername}^c:pop;……
+//[Reference] 'I think ^c:1486b0;Max^c:pop; said he wanted to see you whenever you're free...'
+staxel.village.dialogue.Tutorial.line:10021800=^c:1486b0;麦克斯^c:pop;说他想在你有空的时候见见你……
+//[Reference] '^c:1486b0;Max^c:pop; told me to send you over if you came on by.'
+staxel.village.dialogue.Tutorial.line:10021900=^c:1486b0;麦克斯^c:pop;告诉我如果你来这里的话，让我带你过去 。
+//[Reference] 'Hmm? ^c:1486b0;{0-playername}^c:pop;? My birthday?'
+staxel.village.dialogue.Tutorial.line:10022000=嗯？^c:1486b0;{0-playername}^c:pop;？我的生日？
+//[Reference] 'Oh...I suppose that is coming up, isn't it?'
+staxel.village.dialogue.Tutorial.line:10022100=我……我想已经都准备好了，对吗？
+//[Reference] 'You want to give everything to me now? Well I'm not about to say no!'
+staxel.village.dialogue.Tutorial.line:10022200=你现在想把所有的东西都给我？我当然不会拒绝！
+//[Reference] 'Oh! I've been searching for a copy of this book for years! Where did you find it?'
+staxel.village.dialogue.Tutorial.line:10022300=噢！我已经找这本书很多年了！你在哪里找到的？
+//[Reference] 'Oh oh! And is this that item ^c:1486b0;Max^c:pop; won on auction? He bought it for me?'
+staxel.village.dialogue.Tutorial.line:10022400=噢，噢！这是^c:1486b0;麦克斯^c:pop;竞拍买下的东西？他是给我买的？
+//[Reference] 'You baked the ^c:d03e37;cake^c:pop;, you say? I'm sure it will be delicious!'
+staxel.village.dialogue.Tutorial.line:10022500=你说你烤了^c:d03e37;蛋糕^c:pop;？我相信一定会很美味的！
+//[Reference] 'Although...it looks like you didn't quite know what name to put on the cake...'
+staxel.village.dialogue.Tutorial.line:10022600=虽然……看起来你好像不知道该在上面写什么名字……
+//[Reference] 'Thank you, ^c:1486b0;{0-playername}^c:pop;! People don't usually want to celebrate my birthday...'
+staxel.village.dialogue.Tutorial.line:10022700=谢谢你，^c:1486b0;{0-playername}^c:pop;！人们通常不愿意庆祝我的生日……
+//[Reference] 'Could you pass on my thanks to ^c:1486b0;Max^c:pop; as well?'
+staxel.village.dialogue.Tutorial.line:10022800=你能向^c:1486b0;麦克斯^c:pop;转达我的谢意吗？
+//[Reference] 'I think I want to keep admiring my presents...'
+staxel.village.dialogue.Tutorial.line:10022900=我想要继续欣赏我的礼物……
+//[Reference] 'Hi, ^c:1486b0;{0-playername}^c:pop;!'
+staxel.village.dialogue.Tutorial.line:10023000=你好，^c:1486b0;{0-playername}^c:pop;！
+//[Reference] 'I've been keeping an eye on your progress and it looks like you've really settled in.'
+staxel.village.dialogue.Tutorial.line:10023100=我一直在观察你的进展，看起来你已经安顿好了。
+//[Reference] 'This is a wonderful island, right? Do you think you're ready for the ultimate test?'
+staxel.village.dialogue.Tutorial.line:10023200=真是一座奇妙的岛屿，对吧？你准备好参加终极测试了吗？
+//[Reference] 'At some point, everyone has to go through this to prove just how much they know about the island!'
+staxel.village.dialogue.Tutorial.line:10023300=某种程度上说，每个人都要参加这个测验以证明他们对于岛屿的了解！
+//[Reference] 'Before you arrived, I hid ^c:d03e37;13 bobbleheads^c:pop; around the village!'
+staxel.village.dialogue.Tutorial.line:10023400=在你来之前，我在村庄周围藏了^c:d03e37;13个摇头娃娃^c:pop;！
+//[Reference] 'If you can find them all and show them to me, I'll acknowledge that you know the village like the back of your hand.'
+staxel.village.dialogue.Tutorial.line:10023500=如果你能把它们全部找到，并且拿来给我，我就承认你对村庄了如指掌。
+//[Reference] 'It doesn't matter what order you bring them in, just head out and find them!'
+staxel.village.dialogue.Tutorial.line:10023600=寻找的顺序不重要，只要把它们都找出来就好！
+//[Reference] 'He talked a lot about landscape and terrain, especially beaches.'
+staxel.village.dialogue.Tutorial.line:10023700=他说了好多关于地形地貌的事情，尤其是沙滩。
+//[Reference] 'Maybe he was a painter?'
+staxel.village.dialogue.Tutorial.line:10023800=也许他是一个画家？
+//[Reference] 'I'd love to get her to design me a furniture set someday!'
+staxel.village.dialogue.Tutorial.line:10023900=我很愿意让她以后为我设计一套家具！
+//[Reference] 'Custom made is always the best!'
+staxel.village.dialogue.Tutorial.line:10024000=定制永远是最棒的！
+//[Reference] 'Before I met this one, I was a little less sarcastic...'
+staxel.village.dialogue.Tutorial.line:10024100=在遇到这个人之前，我还没有这么喜欢讽刺……
+//[Reference] 'I wonder what that means?'
+staxel.village.dialogue.Tutorial.line:10024200=我想知道那是什么意思？
+//[Reference] 'I see him running around everywhere!'
+staxel.village.dialogue.Tutorial.line:10024300=我看到他到处跑来跑去的！
+//[Reference] 'I think he puts out newsletters and things like that a lot too.'
+staxel.village.dialogue.Tutorial.line:10024400=我想他还经常发布新闻之类的东西。
+//[Reference] 'He's an artist! I think everyone in the village likes wearing his branded clothes.'
+staxel.village.dialogue.Tutorial.line:10024500=他是一个艺术家！我想村庄里的每个人都喜欢穿他的牌子的衣服。
+//[Reference] 'If memory serves, he makes lots of really cool music!'
+staxel.village.dialogue.Tutorial.line:10024600=如果我没记错的话，他制作了很多很酷的音乐！
+//[Reference] 'Maybe we can get him to come play a live concert or something?'
+staxel.village.dialogue.Tutorial.line:10024700=也许我们可以让他开一场现场音乐会什么的？
+//[Reference] 'He's the one who makes everything around here work. Literally everything.'
+staxel.village.dialogue.Tutorial.line:10024800=他是让这里的一切运转起来的人，真的是一切。
+//[Reference] 'He works a lot with sounds. They really make games come alive!'
+staxel.village.dialogue.Tutorial.line:10024900=他是处理声音的，音效让游戏变得更生动！
+//[Reference] 'He claims to exist only when you're not looking...'
+staxel.village.dialogue.Tutorial.line:10025000=他宣称只在你没有注意的时候存在……
+//[Reference] 'But I'm absolutely sure I've seen him around a few times...'
+staxel.village.dialogue.Tutorial.line:10025100=不过我确定我在这附近看到过他好几次……
+//[Reference] 'Hmm...'
+staxel.village.dialogue.Tutorial.line:10025200=唔……
+//[Reference] 'Something about this ^c:d03e37;bobblehead^c:pop; seems missing...'
+staxel.village.dialogue.Tutorial.line:10025300=这个^c:d03e37;摇头娃娃^c:pop;好像缺少了什么东西……
+//[Reference] 'I heard he invented the ^c:d03e37;sprinkler^c:pop;?'
+staxel.village.dialogue.Tutorial.line:10025400=我听说他发明了^c:d03e37;洒水器^c:pop;？
+//[Reference] 'We could definitely use more of those around here!'
+staxel.village.dialogue.Tutorial.line:10025500=我们可以在这里多使用一些！
+//[Reference] 'He's the architect who built all the houses in the village!'
+staxel.village.dialogue.Tutorial.line:10025600=他是建造了村庄里面所有房子的建筑师！
+//[Reference] 'Nothing has fallen down yet!'
+staxel.village.dialogue.Tutorial.line:10025700=到现在还没有房屋倒塌过！
+//[Reference] 'He does a lot of work in marketing!'
+staxel.village.dialogue.Tutorial.line:10025800=他做了很多推广宣传的工作！
+//[Reference] 'Maybe he could help getting more visitors interested in our festivals?'
+staxel.village.dialogue.Tutorial.line:10025900=也许他可以帮忙吸引更多对于节日感兴趣的游客？
+//[Reference] 'Oh, you found another ^c:d03e37;bobblehead^c:pop;?'
+staxel.village.dialogue.Tutorial.line:10026000=噢，你又找到了一个^c:d03e37;摇头娃娃^c:pop;？
+//[Reference] 'Let me see!'
+staxel.village.dialogue.Tutorial.line:10026100=让我看看！
+//[Reference] 'Ahh, I remember this one...'
+staxel.village.dialogue.Tutorial.line:10026200=啊，我记得这个……
+//[Reference] 'So I think that just leaves ^c:d03e37;{0-remainingBobbleheads} bobbleheads^c:pop; to go!'
+staxel.village.dialogue.Tutorial.line:10026300=我想就只剩下^c:d03e37;{0-remainingBobbleheads}摇头娃娃^c:pop;了！
+//[Reference] 'Oh, I think that's all of them!'
+staxel.village.dialogue.Tutorial.line:10026400=噢，我想你把它们都找到了！
+//[Reference] 'Wow. I didn't think you'd actually manage to find them all!'
+staxel.village.dialogue.Tutorial.line:10026500=哇哦，我没想到你真的把它们都找到了！
+//[Reference] 'Even I forgot where I put most of them...'
+staxel.village.dialogue.Tutorial.line:10026600=很多连我自己都忘记藏在哪里了……
+//[Reference] 'I suppose that means you're the one who knows this village the best!'
+staxel.village.dialogue.Tutorial.line:10026700=我想这意味着你是最了解这个村庄的人！
+//[Reference] 'You've definitely come a long way since you first got here.'
+staxel.village.dialogue.Tutorial.line:10026800=从你来到里开始，你真的进步了很多。
+//[Reference] 'I still remember the day you arrived...showing you the ropes.'
+staxel.village.dialogue.Tutorial.line:10026900=我还记得你刚来的那天……给你看那些绳子。
+//[Reference] 'Who knew you'd surpass me this quickly?'
+staxel.village.dialogue.Tutorial.line:10027000=谁能想到你这么快就超过我了呢？
+//[Reference] 'I still remember the day you arrived...when you told me you were already a licensed farmer.'
+staxel.village.dialogue.Tutorial.line:10027100=我还记得你刚来的那天……你告诉我你已经是一个有许可证的农夫了。
+//[Reference] 'It was exciting to have another expert around!'
+staxel.village.dialogue.Tutorial.line:10027200=那时我很高兴这里又多了一个专家！
+//[Reference] 'If you're ever lonely on that farm, just know that I'd still love to live there!'
+staxel.village.dialogue.Tutorial.line:10027300=如果你在农场里感到孤单，记住我愿意陪你住在这里！
+//[Reference] 'You can ask me any time!'
+staxel.village.dialogue.Tutorial.line:10027400=你可以随时来找我！
+//TODO Translate [Reference] '{0-harvest0}'
+staxel.village.dialogue.Tutorial.line:10027500=
+//TODO Translate [Reference] '{0-harvest1}'
+staxel.village.dialogue.Tutorial.line:10027600=
+//TODO Translate [Reference] 'Leave'
+staxel.village.dialogue.Tutorial.line:10027700=
+//TODO Translate [Reference] '{0-harvest0}'
+staxel.village.dialogue.Tutorial.line:10027800=
+//TODO Translate [Reference] 'Leave'
+staxel.village.dialogue.Tutorial.line:10027900=
+//TODO Translate [Reference] '{0-harvest0}'
+staxel.village.dialogue.Tutorial.line:10028000=
+//TODO Translate [Reference] '{0-harvest1}'
+staxel.village.dialogue.Tutorial.line:10028100=
+//TODO Translate [Reference] '{0-harvest2}'
+staxel.village.dialogue.Tutorial.line:10028200=
+//TODO Translate [Reference] 'Leave'
+staxel.village.dialogue.Tutorial.line:10028300=
+//TODO Translate [Reference] '{0-harvest0}'
+staxel.village.dialogue.Tutorial.line:10028400=
+//TODO Translate [Reference] '{0-harvest1}'
+staxel.village.dialogue.Tutorial.line:10028500=
+//TODO Translate [Reference] '{0-harvest2}'
+staxel.village.dialogue.Tutorial.line:10028600=
+//TODO Translate [Reference] '{0-harvest3}'
+staxel.village.dialogue.Tutorial.line:10028700=
+//TODO Translate [Reference] 'Leave'
+staxel.village.dialogue.Tutorial.line:10028800=
+//TODO Translate [Reference] 'Leave'
+staxel.village.dialogue.Tutorial.line:10028900=

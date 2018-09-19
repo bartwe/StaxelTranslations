@@ -1,7 +1,8 @@
-//[Reference] 'en-GB'
-language.code=de-DE
-//[Reference] 'English'
+﻿language.code=de-DE
 language=Deutsch
+staxel.plant.quest.GaintTurnip.tile.description=
+//[Reference] 'Gaint Turnip'
+staxel.plant.quest.GaintTurnip.tile.name=Riesige Steckrübe
 
 staxel.tileObject.airship.RopeFenceCorner.description=
 //[Reference] 'Rope Fence'
@@ -175,6 +176,9 @@ staxel.tileObject.bobbleheads.JenBobbleHead.name=Jen-Wackelkopf
 staxel.tileObject.bobbleheads.JoeBobbleHead.description=
 //[Reference] 'Joe Bobblehead'
 staxel.tileObject.bobbleheads.JoeBobbleHead.name=Joe-Wackelkopf
+staxel.tileObject.bobbleheads.MayorBobbleHead.description=
+//[Reference] 'Mayor Bobblehead'
+staxel.tileObject.bobbleheads.MayorBobbleHead.name=Bürgermeister-Wackelkopf
 staxel.tileObject.bobbleheads.MoocowBobbleHead.description=
 //[Reference] 'Moocow Bobblehead'
 staxel.tileObject.bobbleheads.MoocowBobbleHead.name=Moocow-Wackelkopf
@@ -182,9 +186,8 @@ staxel.tileObject.bobbleheads.PigBobbleHead.description=
 //[Reference] 'Pig Bobblehead'
 staxel.tileObject.bobbleheads.PigBobbleHead.name=Schweine-Wackelkopf
 staxel.tileObject.bobbleheads.RazzBobbleHead.description=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Razzleberry Bobblehead'
-staxel.tileObject.bobbleheads.RazzBobbleHead.name=Razzelberry-Wackelkopf
+staxel.tileObject.bobbleheads.RazzBobbleHead.name=Razzleberry-Wackelkopf
 staxel.tileObject.bobbleheads.SheepBobbleHead.description=
 //[Reference] 'Sheep Bobblehead'
 staxel.tileObject.bobbleheads.SheepBobbleHead.name=Schaf-Wackelkopf
@@ -414,6 +417,18 @@ staxel.tileObject.fairyVillage.GlowingMushroom3.name=Leuchtender Pilz
 staxel.tileObject.fairyVillage.TulipRose.description=Eine atemberaubende, ungewöhnliche Blume!
 //[Reference] 'Red Tulip Rose'
 staxel.tileObject.fairyVillage.TulipRose.name=Rote Tulpenrose
+//TODO Translate [Reference] 'A sprinkler that covers 3 tiles away from the center!'
+staxel.tileObject.farm.LargeSprinkler.description=
+//TODO Translate [Reference] 'Large Sprinkler'
+staxel.tileObject.farm.LargeSprinkler.name=
+//TODO Translate [Reference] 'A sprinkler that covers 1 tiles away from the center!'
+staxel.tileObject.farm.SmallSprinkler.description=
+//TODO Translate [Reference] 'Small Sprinkler'
+staxel.tileObject.farm.SmallSprinkler.name=
+//TODO Translate [Reference] 'A sprinkler that covers 2 tiles away from the center!'
+staxel.tileObject.farm.Sprinkler.description=
+//TODO Translate [Reference] 'Sprinkler'
+staxel.tileObject.farm.Sprinkler.name=
 //[Reference] 'An adorable little creature that lays delicious eggs.'
 staxel.tileObject.farmAnimals.Chicken.description=Ein niedliches kleines Wesen, das köstliche Eier legt.
 //[Reference] 'Chicken in a Crate'
@@ -534,6 +549,9 @@ staxel.tileObject.modded.minecart_coal-tipped.name=Förderwagen
 staxel.tileObject.modded.minecart_empty.description=Zu entfernen
 //[Reference] 'Minecart'
 staxel.tileObject.modded.minecart_empty.name=Förderwagen
+staxel.tileObject.museum.painting.RainbowButterfly.description=
+//[Reference] 'Rainbow Butterfly Painting'
+staxel.tileObject.museum.painting.RainbowButterfly.name=Gemälde mit Regenbogenschmetterling
 staxel.tileObject.office.Computer.description=
 //[Reference] 'Computer'
 staxel.tileObject.office.Computer.name=Computer
@@ -573,6 +591,21 @@ staxel.tileObject.pets.PetHouse.name=Tierhütte
 staxel.tileObject.presents.TradeCrate.description=
 //[Reference] 'Trading Crate'
 staxel.tileObject.presents.TradeCrate.name=Handelskiste
+staxel.tileObject.quest.Max.abstract.statue.description=
+//[Reference] 'Abstract Statue'
+staxel.tileObject.quest.Max.abstract.statue.name=Abstrakte Statue
+staxel.tileObject.quest.Max.cubic.statue.description=
+//[Reference] 'Cubic Statue'
+staxel.tileObject.quest.Max.cubic.statue.name=Kubische Statue
+staxel.tileObject.quest.Max.farmer.statue.description=
+//[Reference] 'Farmer Statue'
+staxel.tileObject.quest.Max.farmer.statue.name=Farmer-Statue
+staxel.tileObject.quest.Max.MaxFestivalFlyer.description=
+//[Reference] 'Max Festival Flyer'
+staxel.tileObject.quest.Max.MaxFestivalFlyer.name=Max‘ Festival-Flyer
+staxel.tileObject.quest.Max.slimy.statue.description=
+//[Reference] 'Slimy Statue'
+staxel.tileObject.quest.Max.slimy.statue.name=Schleimige Statue
 //[Reference] 'Thick, sturdy railing with an old feel to it.'
 staxel.tileObject.retrotest.dungeon_railing.description=Dickes, stabiles Geländer, das alt aussieht.
 //[Reference] 'Straight Dungeon Railing'
@@ -874,7 +907,8 @@ staxel.tileObject.serverVillage.Bed.double.red.description=Ein gemütliches, gut
 staxel.tileObject.serverVillage.Bed.double.red.name=Einfaches rotes Doppelbett
 //[Reference] 'A comfortable, well made, single bed.'
 staxel.tileObject.serverVillage.Bed.single.black.description=Ein gemütliches, gut gefertigtes Einzelbett.
-//[Reference] 'Simply Red Single Bed'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Simply Black Single Bed'
 staxel.tileObject.serverVillage.Bed.single.black.name=Einfaches rotes Einzelbett
 //[Reference] 'A comfortable, well made, single bed.'
 staxel.tileObject.serverVillage.Bed.single.blue.description=Ein gemütliches, gut gefertigtes Einzelbett.
@@ -1888,7 +1922,8 @@ staxel.tileObject.themedfurniture.bathroom.ClawfootBathtub.description=
 //[Reference] 'Clawfoot Bathtub'
 staxel.tileObject.themedfurniture.bathroom.ClawfootBathtub.name=Badewanne mit Klauenfüßen
 staxel.tileObject.themedfurniture.bathroom.Sink.description=
-//[Reference] 'Sink'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Bathroom Sink'
 staxel.tileObject.themedfurniture.bathroom.Sink.name=Waschbecken
 staxel.tileObject.themedfurniture.bathroom.Toilet.description=
 //[Reference] 'Toilet'
@@ -2264,7 +2299,6 @@ staxel.tileObject.themedfurniture.victorian.VictorianCoffeeTable.description=
 //[Reference] 'Victorian Coffee Table'
 staxel.tileObject.themedfurniture.victorian.VictorianCoffeeTable.name=Viktorianischer Couchtisch
 staxel.tileObject.themedfurniture.victorian.VictorianCredenza.description=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Victorian Credenza'
 staxel.tileObject.themedfurniture.victorian.VictorianCredenza.name=Viktorianisches Buffet
 staxel.tileObject.themedfurniture.victorian.VictorianDesk.description=
@@ -2334,6 +2368,21 @@ staxel.tileObject.totems.OscarMailbox.name=Oscars Briefkasten
 staxel.tileObject.totems.PatisserieSign.description=
 //[Reference] 'Patisserie Sign'
 staxel.tileObject.totems.PatisserieSign.name=Patisserie-Schild
+staxel.tileObject.totems.quest.MaxStatuePlaqueA.description=
+//[Reference] 'Abstract Statue Plaque'
+staxel.tileObject.totems.quest.MaxStatuePlaqueA.name=Plakette für abstrakte Statue
+staxel.tileObject.totems.quest.MaxStatuePlaqueB.description=
+//[Reference] 'Cubic Statue Plaque'
+staxel.tileObject.totems.quest.MaxStatuePlaqueB.name=Plakette für kubische Statue
+staxel.tileObject.totems.quest.MaxStatuePlaqueC.description=
+//[Reference] 'Slimy Statue Plaque'
+staxel.tileObject.totems.quest.MaxStatuePlaqueC.name=Plakette für schleimige Statue
+staxel.tileObject.totems.quest.MaxStatuePlaqueD.description=
+//[Reference] 'Farmer Statue Plaque'
+staxel.tileObject.totems.quest.MaxStatuePlaqueD.name=Plakette für Farmer-Statue
+staxel.tileObject.totems.quest.SmallFestivalGroundsSign.description=
+//[Reference] 'Small Festival Grounds Sign'
+staxel.tileObject.totems.quest.SmallFestivalGroundsSign.name=Schild für kleinen Festivalplatz
 staxel.tileObject.totems.RosemaryMailbox.description=
 //[Reference] 'Rosemary's Postbox'
 staxel.tileObject.totems.RosemaryMailbox.name=Rosemarys Briefkasten

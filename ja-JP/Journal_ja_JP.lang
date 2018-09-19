@@ -1,44 +1,108 @@
-//[Reference] 'en-GB'
-language.code=ja-JP
-//[Reference] 'English'
+﻿language.code=ja-JP
 language=日本語
-//TODO Translate [Reference] 'Delivery quest'
-staxel.dailyQuest.DeliveryQuest=
-//TODO Translate [Reference] 'Fetch quest'
-staxel.dailyQuest.FetchQuest=
-//TODO Translate [Reference] 'Lost item quest'
-staxel.dailyQuest.LostItemQuest=
-//TODO Translate [Reference] 'Expires on the {0-day} of {1-season}.'
-staxel.journal.dailyQuest.Expiry=
-//TODO Translate [Reference] 'There's nothing here right now.'
-staxel.journal.noQuests=
-//TODO Translate [Reference] 'Building 101'
-staxel.mainQuest.BuildABarn=
-//TODO Translate [Reference] 'Maybe sorbet?'
-staxel.mainQuest.CirahnaHelp=
-//TODO Translate [Reference] 'An ancient evil?'
-staxel.mainQuest.CirahnaIntro=
-//TODO Translate [Reference] 'Let them eat fish'
-staxel.mainQuest.FishingSpot=
-//TODO Translate [Reference] 'Fixing up the barn'
-staxel.mainQuest.MaxBarn=
-//TODO Translate [Reference] 'Dawn at the museum'
-staxel.mainQuest.MuseumConstruction=
-//TODO Translate [Reference] 'Sweet dreams'
-staxel.mainQuest.Patisserie=
-//TODO Translate [Reference] 'Rowan's parcel'
-staxel.mainQuest.RowansParcel=
-//TODO Translate [Reference] 'Starting out'
-staxel.mainQuest.Tutorial=
-//TODO Translate [Reference] 'Professor Cecile'
-staxel.totem.CecileHome.quest=
-//TODO Translate [Reference] 'A sweeter village'
-staxel.totem.EmiliaHome.quest=
-//TODO Translate [Reference] 'A new challenger'
-staxel.totem.ErisHome.quest=
-//TODO Translate [Reference] 'Expanding the collection'
-staxel.totem.JamieHome.quest=
-//TODO Translate [Reference] 'Spring cleaning'
-staxel.totem.OscarHome.quest=
-//TODO Translate [Reference] 'By any other name'
-staxel.totem.RosemaryHome.quest=
+//[Reference] 'Delivery quest'
+staxel.dailyQuest.DeliveryQuest=配達クエスト
+//[Reference] 'Fetch quest'
+staxel.dailyQuest.FetchQuest=調達クエスト
+//[Reference] 'Lost item quest'
+staxel.dailyQuest.LostItemQuest=落とし物クエスト
+//[Reference] 'Expires on the {0-day} of {1-season}.'
+staxel.journal.dailyQuest.Expiry={1-season}の{0-day}まで有効。
+//[Reference] 'There's nothing here right now.'
+staxel.journal.noQuests=ここには今何もない。
+//[Reference] 'It's Just Business'
+staxel.mainQuest.Aliza.BestFriends=たかが仕事
+//[Reference] 'Sustainable Building'
+staxel.mainQuest.Aliza.Friends=頑丈な建物
+//[Reference] 'Friendly Competition'
+staxel.mainQuest.Aliza.Liked=切磋琢磨
+//[Reference] 'Building 101'
+staxel.mainQuest.BuildABarn=建物101
+//[Reference] 'It's a monster!'
+staxel.mainQuest.Cecile.BestFriends=モンスターだ！
+//[Reference] 'It's a pinch!'
+staxel.mainQuest.Cecile.Friends=ピンチ！
+//[Reference] 'It's a lab!'
+staxel.mainQuest.Cecile.Liked=研究室！
+//[Reference] 'Bring in a Fungi'
+staxel.mainQuest.Cirahna.BringInAFungi=キノコの調達
+//[Reference] 'Forest Witch'
+staxel.mainQuest.Cirahna.ForestWitch=森の魔女
+//[Reference] 'The Hundred Farmer'
+staxel.mainQuest.Cirahna.TheHundredFarmer=100歳の農家
+//[Reference] 'Maybe sorbet?'
+staxel.mainQuest.CirahnaHelp=じゃあシャーベット？
+//[Reference] 'An ancient evil?'
+staxel.mainQuest.CirahnaIntro=古代の悪魔？
+//[Reference] 'Princess Bride'
+staxel.mainQuest.Emilia.BestFriends=プリンセスブライド
+//[Reference] 'The Royal Wedding'
+staxel.mainQuest.Emilia.Friends=ロイヤルウェディング
+//[Reference] 'The Apprentice'
+staxel.mainQuest.Emilia.Liked=見習い
+//[Reference] 'Building Dream Homes'
+staxel.mainQuest.FarmFan.Acquaintance=夢のマイホーム
+//[Reference] 'The Master'
+staxel.mainQuest.FarmFan.BestFriends=マスター
+//[Reference] 'Surprise!'
+staxel.mainQuest.FarmFan.Friends=サプライズ！
+//[Reference] 'It's not junk!'
+staxel.mainQuest.FarmFan.Liked=がらくたなんかじゃない！
+//[Reference] 'Let them eat fish'
+staxel.mainQuest.FishingSpot=みんなに魚を食べさせよう
+//[Reference] 'It's Called Art'
+staxel.mainQuest.Max.BestFriend=いわゆるアート
+//[Reference] 'Bountiful Harvest'
+staxel.mainQuest.Max.Friend=大豊作
+//[Reference] 'Funding Round'
+staxel.mainQuest.Max.Liked=先行投資
+//[Reference] 'Fixing up the barn'
+staxel.mainQuest.MaxBarn=納屋の修理
+//[Reference] 'Dawn at the museum'
+staxel.mainQuest.MuseumConstruction=博物館での夜明け
+//[Reference] 'All Cleaned Up'
+staxel.mainQuest.Oscar.AllCleanedUp=清掃完了
+//[Reference] 'Fight The Power'
+staxel.mainQuest.Oscar.FightThePower=権力と戦え
+//[Reference] 'Junk Artist'
+staxel.mainQuest.Oscar.JunkArtist=ジャンクアーティスト
+//[Reference] 'Junk Queen'
+staxel.mainQuest.Oscar.JunkQueen=ジャンククイーン
+//[Reference] 'Sweet dreams'
+staxel.mainQuest.Patisserie=良い夢を
+//[Reference] 'Hooked'
+staxel.mainQuest.Riah.Acquaintance=釣り針
+//[Reference] 'The Call of M'yah'
+staxel.mainQuest.Riah.BestFriend=ムンニャの呼び声
+//[Reference] 'Lost'
+staxel.mainQuest.Riah.Friend=失くし物
+//[Reference] 'Three Green Bottles'
+staxel.mainQuest.Riah.Liked=3本の緑色のビン
+//[Reference] 'Pet Store'
+staxel.mainQuest.Rosemary.Acquaintance=ペットショップ
+//[Reference] 'Pet Problems'
+staxel.mainQuest.Rosemary.Friend=ペットの問題
+//[Reference] 'Pet Rescue'
+staxel.mainQuest.Rosemary.Liked=ペット救出
+//[Reference] 'Rowan's parcel'
+staxel.mainQuest.RowansParcel=ローワンの小包
+//[Reference] 'Starting out'
+staxel.mainQuest.Tutorial=出発
+//[Reference] 'Rainbow Butterfly'
+staxel.mainQuest.Vorlen.BestFriend=虹色の蝶
+//[Reference] 'Lepidopterist'
+staxel.mainQuest.Vorlen.Friend=蝶の研究家
+//[Reference] 'Collector'
+staxel.mainQuest.Vorlen.Liked=コレクター
+//[Reference] 'Professor Cecile'
+staxel.totem.CecileHome.quest=セシル博士
+//[Reference] 'A sweeter village'
+staxel.totem.EmiliaHome.quest=心地よい村
+//[Reference] 'A new challenger'
+staxel.totem.ErisHome.quest=新たな挑戦者
+//[Reference] 'Expanding the collection'
+staxel.totem.JamieHome.quest=コレクションの拡大
+//[Reference] 'Spring cleaning'
+staxel.totem.OscarHome.quest=春の大掃除
+//[Reference] 'By any other name'
+staxel.totem.RosemaryHome.quest=その他の名前で

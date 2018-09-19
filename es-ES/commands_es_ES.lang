@@ -1,5 +1,9 @@
-language.code=es-ES
+﻿language.code=es-ES
 language=Español
+//[Reference] '^c:F2E200;activateMurmur ^c:FFFFFF;murmurCode'
+commands.activateMurmur.description=^c:F2E200;activateMurmur ^c:FFFFFF;murmurCode
+//[Reference] 'Successfully activated {0-murmur}.'
+commands.activateMurmur.success=Se ha activado {0-murmur}.
 
 
 //[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)'
@@ -44,22 +48,30 @@ commands.cameraSave.success=Cámara del jugador guardada en el archivo: {0-filen
 commands.cameraStop.description=^c:F2E200;Detener cámara
 //[Reference] 'Stopped camera mode'
 commands.cameraStop.success=Detener modo cámara
-//TODO Translate [Reference] '^c:F2E200;catchableDetails ^c:FFFFFF;(optional)location({0,0,0})'
-commands.catchableDetails.description=
-//TODO Translate [Reference] 'Failed to parse location {0-location}'
-commands.catchableDetails.failParse=
-//TODO Translate [Reference] 'Tile not found'
-commands.catchableDetails.notFound=
-//TODO Translate [Reference] 'Catchable entity does not exist: {0-details}'
-commands.catchableDetails.success.false=
-//TODO Translate [Reference] 'Catchable entity exists: {0-details}'
-commands.catchableDetails.success.true=
+//[Reference] '^c:F2E200;catchableDetails ^c:FFFFFF;(optional)location({0,0,0})'
+commands.catchableDetails.description=^c:F2E200;catchableDetails ^c:FFFFFF;(opcional)ubicación({0,0,0})
+//[Reference] 'Failed to parse location {0-location}'
+commands.catchableDetails.failParse=No se ha podido analizar la ubicación {0-location}
+//[Reference] 'Tile not found'
+commands.catchableDetails.notFound=Baldosa no encontrada
+//[Reference] 'Catchable entity does not exist: {0-details}'
+commands.catchableDetails.success.false=No existe el sujeto capturable: {0-details}
+//[Reference] 'Catchable entity exists: {0-details}'
+commands.catchableDetails.success.true=Existe el sujeto capturable: {0-details}
 //[Reference] 'Not looking at an animal'
 commands.changeMood.animalNotFound=No mirar a un animal
 //[Reference] '^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)'
 commands.changeMood.description=^c:F2E200;changeMood ^c:FFFFFF;aumentar/reducir(true/false)
 //[Reference] 'Mood altered successfully'
 commands.changeMood.success=Se ha modificado el estado de ánimo correctamente
+//[Reference] '^c:F2E200;checkMail'
+commands.checkMail.description=^c:F2E200;checkMail
+//[Reference] '^c:F2E200;completeQuest ^c:FFFFFF;questCode villagerName/Code'
+commands.completeQuest.description=^c:F2E200;completeQuest ^c:FFFFFF;questCode Nombre/Código del aldeano
+//[Reference] 'Quest does not exist'
+commands.completeQuest.noSuchQuest=No existe la misión.
+//[Reference] 'Quest completed successfuly'
+commands.completeQuest.success=La misión se ha completado con éxito.
 //[Reference] '^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)'
 commands.creative.description=^c:F2E200;creative ^c:FFFFFF;(opcional)Nombre del jugador(opcional)Iniciar modo creativo(true/false)
 //[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
@@ -68,6 +80,10 @@ commands.creative.success=Se ha cambiado temporalmente el modo creativo de {0-us
 commands.currentTime.description=^c:F2E200;currentTime
 //[Reference] 'The day is {0-day} and phase is {1:G2-phase} ({2-time}).'
 commands.currentTime.success=El día es {0-day} y la fase es {1:G2-phase} ({2-time}).
+//[Reference] '^c:F2E200;deactivateMurmur ^c:FFFFFF;'
+commands.deactivateMurmur.description=^c:F2E200;deactivateMurmur ^c:FFFFFF;
+//[Reference] 'Successfully deactivated {0-murmur} if it existed.'
+commands.deactivateMurmur.success=Se ha desactivado {0-murmur} si existía.
 //[Reference] '^c:F2E200;demoMode ^c:FFFFFF;(optional)on(true/false)'
 commands.demoMode.description=^c:F2E200;demoMode ^c:FFFFFF;(opcional)activado(true/false)
 //[Reference] 'Switched server demo mode to {0-demoMode}'
@@ -110,6 +126,12 @@ commands.entityNotFound=Entidad no encontrada
 commands.flyMode.description=^c:F2E200;fly ^c:FFFFFF;(opcional)Nombre del jugador (opcional)Iniciar vuelo(true/false)
 //[Reference] 'Switched flying mode to: {0-flymode}'
 commands.flyMode.success=Cambiar modo vuelo a: {0-flymode}
+//[Reference] '^c:F2E200;forceAchievement ^c:FFFFFF;achievementCode'
+commands.forceAchievement.description=^c:F2E200;forceAchievement ^c:FFFFFF;achievementCode
+//[Reference] 'Missing achievement code.'
+commands.forceAchievement.missingParam=Falta el código del logro.
+//[Reference] 'Achievement not found.'
+commands.forceAchievement.noSuchAchievement=Logro no encontrado.
 //[Reference] '^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)playerName'
 commands.giveallrecipes.description=^c:F2E200;giveallrecipes ^c:FFFFFF;(opcional)Nombre del jugador
 //[Reference] 'Done!'
@@ -238,8 +260,8 @@ commands.saveOutfit.description=^c:F2E200;saveOutfit ^c:FFFFFF;Nombre de archivo
 commands.saveOutfit.success=Archivo de atuendo de personaje guardado en {0-path}
 //[Reference] '^c:F2E200;seed'
 commands.seed.description=^c:F2E200;semilla
-//[Reference] 'Seed: {0-seed}'
-commands.seed.success=Semilla: {0-seed}
+//[Reference] 'Seed: {0-seed}, World Size: {1-worldSize}x'
+commands.seed.success=Semilla: {0-seed}; Tamaño del mundo: x{1-worldSize}
 //[Reference] '^c:F2E200;creativeMode ^c:FFFFFF;(optional)on(true/false)'
 commands.serverCreative.description=^c:F2E200;creativeMode ^c:FFFFFF;(opcional)activado(true/false)
 //[Reference] 'Switched server creative mode to {0-creative} (persistent)'
@@ -279,6 +301,10 @@ commands.stealPetals.success={0-player} ha robado {1-amount} pétalos
 commands.stealPetals.success.reset={0-player} ya no es un delincuente.
 //[Reference] '{0-player} stole {1-amount} petals. Thief!'
 commands.stealPetals.success.thief={0-player} ha robado {1-amount} pétalos. ¡Delincuente!
+//[Reference] '^c:F2E200;stopTime ^c:FFFFFF;Stops time'
+commands.stopTime.description=^c:F2E200;stopTime ^c:FFFFFF;Para el tiempo
+//[Reference] 'Time Stopped'
+commands.stopTime.stop=Tiempo detenido
 commands.sun.description=
 //[Reference] 'Made it a sunny day.'
 commands.sun.success=Has definido un día soleado.
@@ -308,6 +334,12 @@ commands.tileAt.notFound=Baldosa no encontrada
 commands.tileAt.success.false=Código de baldosa: {0-tilecode} en {1-position} (Relleno compuesto: falso, rotación: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})
 //[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
 commands.tileAt.success.true=Código de baldosa: {0-tilecode} en {1-position} (Relleno compuesto: verdadero, rotación: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})
+//[Reference] '^c:F2E200;toggleTimePassing ^c:FFFFFF;Toggles the passing of time'
+commands.toggleTimePassing.description=^c:F2E200;toggleTimePassing ^c:FFFFFF;Altera el paso del tiempo
+//[Reference] 'Time Resumed'
+commands.toggleTimePassing.resume=Tiempo reanudado
+//[Reference] 'Time Stopped'
+commands.toggleTimePassing.stop=Tiempo detenido
 
 commands.traceStart.description=
 //[Reference] 'Started tracing.'
@@ -334,6 +366,13 @@ commands.unmute.failure=No se ha podido anular el silencio de {0-player}: el jug
 commands.unmute.success={0-player} puede hablar de nuevo.
 //[Reference] 'Unrecognised command :'{0-command}''
 commands.unrecognised=Comando no reconocido: '{0-command}'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;updateReputation ^c:FFFFFF;villagerName/Code amount'
+commands.updateReputation.description=^c:F2E200;updateReputation ^c:FFFFFF;Nombre/Código del aldeano Cantidad
+//[Reference] 'Reputation updated to {0-newAmount} for villager {1-villagerCode}'
+commands.updateReputation.success=Se ha actualizado la reputación del aldeano {1-villagerCode} a {0-newAmount}.
+//[Reference] 'Villager Entity not found'
+commands.villagerEntityNotFound=No se ha encontrado al aldeano
 //[Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
 commands.weather.description=^c:F2E200;weather ^c:FFFFFF;Tipo (Sun, Rain, Snow, Storm or weather code.)
 //[Reference] 'Unable to set weather: {0-weather}. Does not exist.'

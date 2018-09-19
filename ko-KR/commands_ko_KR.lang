@@ -1,5 +1,9 @@
-language.code=ko-KR
+﻿language.code=ko-KR
 language=한국어
+//TODO Translate [Reference] '^c:F2E200;activateMurmur ^c:FFFFFF;murmurCode'
+commands.activateMurmur.description=
+//TODO Translate [Reference] 'Successfully activated {0-murmur}.'
+commands.activateMurmur.success=
 
 //[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)'
 commands.advanceTime.description=^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)
@@ -59,6 +63,14 @@ commands.changeMood.animalNotFound=Not looking at an animal
 commands.changeMood.description=^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)
 //[Reference] 'Mood altered successfully'
 commands.changeMood.success=Mood altered successfully
+//TODO Translate [Reference] '^c:F2E200;checkMail'
+commands.checkMail.description=
+//TODO Translate [Reference] '^c:F2E200;completeQuest ^c:FFFFFF;questCode villagerName/Code'
+commands.completeQuest.description=
+//TODO Translate [Reference] 'Quest does not exist'
+commands.completeQuest.noSuchQuest=
+//TODO Translate [Reference] 'Quest completed successfuly'
+commands.completeQuest.success=
 //[Reference] '^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)'
 commands.creative.description=^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)
 //[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
@@ -67,6 +79,10 @@ commands.creative.success=Temporarily switched creative mode for {0-user} to {1-
 commands.currentTime.description=^c:F2E200;currentTime
 //[Reference] 'The day is {0-day} and phase is {1:G2-phase} ({2-time}).'
 commands.currentTime.success=The day is {0-day} and phase is {1:G2-phase} ({2-time}).
+//TODO Translate [Reference] '^c:F2E200;deactivateMurmur ^c:FFFFFF;'
+commands.deactivateMurmur.description=
+//TODO Translate [Reference] 'Successfully deactivated {0-murmur} if it existed.'
+commands.deactivateMurmur.success=
 //[Reference] '^c:F2E200;demoMode ^c:FFFFFF;(optional)on(true/false)'
 commands.demoMode.description=^c:F2E200;demoMode ^c:FFFFFF;(optional)on(true/false)
 //[Reference] 'Switched server demo mode to {0-demoMode}'
@@ -109,6 +125,12 @@ commands.entityNotFound=Entity not found
 commands.flyMode.description=^c:F2E200;fly ^c:FFFFFF;(optional)playerName (optional)startFlying(true/false)
 //[Reference] 'Switched flying mode to: {0-flymode}'
 commands.flyMode.success=Switched flying mode to: {0-flymode}
+//TODO Translate [Reference] '^c:F2E200;forceAchievement ^c:FFFFFF;achievementCode'
+commands.forceAchievement.description=
+//TODO Translate [Reference] 'Missing achievement code.'
+commands.forceAchievement.missingParam=
+//TODO Translate [Reference] 'Achievement not found.'
+commands.forceAchievement.noSuchAchievement=
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)playerName'
 commands.giveallrecipes.description=^c:F2E200;Give all recipes ^c:FFFFFF;(optional)playerName
@@ -238,7 +260,8 @@ commands.saveOutfit.description=^c:F2E200;saveOutfit ^c:FFFFFF;fileName
 commands.saveOutfit.success=Character outfit file saved at {0-path}
 //[Reference] '^c:F2E200;seed'
 commands.seed.description=^c:F2E200;seed
-//[Reference] 'Seed: {0-seed}'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Seed: {0-seed}, World Size: {1-worldSize}x'
 commands.seed.success=Seed: {0-seed}
 //[Reference] '^c:F2E200;creativeMode ^c:FFFFFF;(optional)on(true/false)'
 commands.serverCreative.description=^c:F2E200;creativeMode ^c:FFFFFF;(optional)on(true/false)
@@ -279,6 +302,12 @@ commands.stealPetals.success={0-player} stole {1-amount} petals
 commands.stealPetals.success.reset={0-player} is no longer a thief.
 //[Reference] '{0-player} stole {1-amount} petals. Thief!'
 commands.stealPetals.success.thief={0-player} stole {1-amount} petals. Thief!
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;stopTime ^c:FFFFFF;Stops time'
+commands.stopTime.description=^c:F2E200;stopTime
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Time Stopped'
+commands.stopTime.stop=Time stopped
 commands.sun.description=
 //[Reference] 'Made it a sunny day.'
 commands.sun.success=Made it a sunny day.
@@ -308,6 +337,12 @@ commands.tileAt.notFound=Tile not found
 commands.tileAt.success.false=Tile code: {0-tilecode} at {1-position} (compoundFiller: false, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})
 //[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
 commands.tileAt.success.true=Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})
+//TODO Translate [Reference] '^c:F2E200;toggleTimePassing ^c:FFFFFF;Toggles the passing of time'
+commands.toggleTimePassing.description=
+//TODO Translate [Reference] 'Time Resumed'
+commands.toggleTimePassing.resume=
+//TODO Translate [Reference] 'Time Stopped'
+commands.toggleTimePassing.stop=
 commands.traceStart.description=
 //[Reference] 'Started tracing.'
 commands.traceStart.success=Started tracing.
@@ -333,6 +368,12 @@ commands.unmute.failure=Unable to unmute {0-player}: player is not muted.
 commands.unmute.success={0-player} has regained the ability to speak.
 //[Reference] 'Unrecognised command :'{0-command}''
 commands.unrecognised=Unrecognised command :'{0-command}'
+//TODO Translate [Reference] '^c:F2E200;updateReputation ^c:FFFFFF;villagerName/Code amount'
+commands.updateReputation.description=
+//TODO Translate [Reference] 'Reputation updated to {0-newAmount} for villager {1-villagerCode}'
+commands.updateReputation.success=
+//TODO Translate [Reference] 'Villager Entity not found'
+commands.villagerEntityNotFound=
 //[Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
 commands.weather.description=^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)
 //[Reference] 'Unable to set weather: {0-weather}. Does not exist.'

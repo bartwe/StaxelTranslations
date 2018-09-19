@@ -1,5 +1,9 @@
-language.code=ru-RU
+﻿language.code=ru-RU
 language=Русский
+//[Reference] '^c:F2E200;activateMurmur ^c:FFFFFF;murmurCode'
+commands.activateMurmur.description=^c:F2E200;activateMurmur ^c:FFFFFF;murmurCode
+//[Reference] 'Successfully activated {0-murmur}.'
+commands.activateMurmur.success=Успешно активировано: {0-murmur}.
 //[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)'
 commands.advanceTime.description=^c:F2E200;advanceTime ^c:FFFFFF;величина(0.0–1.0)
 //[Reference] 'Enter a float by which to advance time. 1.0 is a full day'
@@ -42,22 +46,30 @@ commands.cameraSave.success=Сохранение камеры игрока в ф
 commands.cameraStop.description=^c:F2E200;cameraStop
 //[Reference] 'Stopped camera mode'
 commands.cameraStop.success=Режим остановки камеры
-//TODO Translate [Reference] '^c:F2E200;catchableDetails ^c:FFFFFF;(optional)location({0,0,0})'
-commands.catchableDetails.description=
-//TODO Translate [Reference] 'Failed to parse location {0-location}'
-commands.catchableDetails.failParse=
-//TODO Translate [Reference] 'Tile not found'
-commands.catchableDetails.notFound=
-//TODO Translate [Reference] 'Catchable entity does not exist: {0-details}'
-commands.catchableDetails.success.false=
-//TODO Translate [Reference] 'Catchable entity exists: {0-details}'
-commands.catchableDetails.success.true=
+//[Reference] '^c:F2E200;catchableDetails ^c:FFFFFF;(optional)location({0,0,0})'
+commands.catchableDetails.description=^c:F2E200;catchableDetails ^c:FFFFFF;(необязат.)место({0,0,0})
+//[Reference] 'Failed to parse location {0-location}'
+commands.catchableDetails.failParse=Ошибка анализа месторасположения: {0-location}
+//[Reference] 'Tile not found'
+commands.catchableDetails.notFound=Ячейка не найдена
+//[Reference] 'Catchable entity does not exist: {0-details}'
+commands.catchableDetails.success.false=Объект для поимки не существует: {0-details}
+//[Reference] 'Catchable entity exists: {0-details}'
+commands.catchableDetails.success.true=Объект для поимки существует: {0-details}
 //[Reference] 'Not looking at an animal'
 commands.changeMood.animalNotFound=Нет фокуса на животном
 //[Reference] '^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)'
 commands.changeMood.description=^c:F2E200;changeMood ^c:FFFFFF;увеличить/уменьшить(true/false)
 //[Reference] 'Mood altered successfully'
 commands.changeMood.success=Настроение изменено успешно
+//[Reference] '^c:F2E200;checkMail'
+commands.checkMail.description=^c:F2E200;checkMail
+//[Reference] '^c:F2E200;completeQuest ^c:FFFFFF;questCode villagerName/Code'
+commands.completeQuest.description=^c:F2E200;completeQuest ^c:FFFFFF;questCode имяжителя/код
+//[Reference] 'Quest does not exist'
+commands.completeQuest.noSuchQuest=Задания не существует
+//[Reference] 'Quest completed successfuly'
+commands.completeQuest.success=Задание успешно завершено
 //[Reference] '^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)'
 commands.creative.description=^c:F2E200;creative ^c:FFFFFF;(optional)имя игрока (optional)startCreativeMode(true/false)
 //[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
@@ -66,6 +78,10 @@ commands.creative.success=Временная смена творческого �
 commands.currentTime.description=^c:F2E200;currentTime
 //[Reference] 'The day is {0-day} and phase is {1:G2-phase} ({2-time}).'
 commands.currentTime.success=День — {0-day}, время суток — {1:G2-phase} ({2-time}).
+//[Reference] '^c:F2E200;deactivateMurmur ^c:FFFFFF;'
+commands.deactivateMurmur.description=^c:F2E200;deactivateMurmur ^c:FFFFFF;
+//[Reference] 'Successfully deactivated {0-murmur} if it existed.'
+commands.deactivateMurmur.success=Успешная деактивация: {0-murmur} (при наличии).
 //[Reference] '^c:F2E200;demoMode ^c:FFFFFF;(optional)on(true/false)'
 commands.demoMode.description=^c:F2E200;demoMode ^c:FFFFFF;(optional)вкл.(true/false)
 //[Reference] 'Switched server demo mode to {0-demoMode}'
@@ -108,6 +124,12 @@ commands.entityNotFound=Объект не найден
 commands.flyMode.description=^c:F2E200;fly ^c:FFFFFF;(optional)имя игрока (optional)startFlying(true/false)
 //[Reference] 'Switched flying mode to: {0-flymode}'
 commands.flyMode.success=Переключение режима полета: {0-flymode}
+//[Reference] '^c:F2E200;forceAchievement ^c:FFFFFF;achievementCode'
+commands.forceAchievement.description=^c:F2E200;forceAchievement ^c:FFFFFF;achievementCode
+//[Reference] 'Missing achievement code.'
+commands.forceAchievement.missingParam=Отсутствует код достижения.
+//[Reference] 'Achievement not found.'
+commands.forceAchievement.noSuchAchievement=Достижение не найдено.
 //[Reference] '^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)playerName'
 commands.giveallrecipes.description=^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)имя игрока
 //[Reference] 'Done!'
@@ -236,8 +258,8 @@ commands.saveOutfit.description=^c:F2E200;saveOutfit ^c:FFFFFF;название 
 commands.saveOutfit.success=Одежда персонажа сохранена в файл {0-path}
 //[Reference] '^c:F2E200;seed'
 commands.seed.description=^c:F2E200;seed
-//[Reference] 'Seed: {0-seed}'
-commands.seed.success=Семечко: {0-seed}
+//[Reference] 'Seed: {0-seed}, World Size: {1-worldSize}x'
+commands.seed.success=Начальное значение: {0-seed}. Размер мира: {1-worldSize}x
 //[Reference] '^c:F2E200;creativeMode ^c:FFFFFF;(optional)on(true/false)'
 commands.serverCreative.description=^c:F2E200;creativeMode ^c:FFFFFF;(optional)вкл.(true/false)
 //[Reference] 'Switched server creative mode to {0-creative} (persistent)'
@@ -277,6 +299,10 @@ commands.stealPetals.success={0-player} крадет лепестки: {1-amount
 commands.stealPetals.success.reset={0-player} больше не является вором.
 //[Reference] '{0-player} stole {1-amount} petals. Thief!'
 commands.stealPetals.success.thief={0-player} крадет лепестки: {1-amount}. Воришка!
+//[Reference] '^c:F2E200;stopTime ^c:FFFFFF;Stops time'
+commands.stopTime.description=^c:F2E200;stopTime ^c:FFFFFF;Останавливает время
+//[Reference] 'Time Stopped'
+commands.stopTime.stop=Время остановлено
 commands.sun.description=
 //[Reference] 'Made it a sunny day.'
 commands.sun.success=Смена погоды на солнечную.
@@ -306,6 +332,12 @@ commands.tileAt.notFound=Ячейка не найдена
 commands.tileAt.success.false=Код ячейки: {0-tilecode} в месте — {1-position} (compoundFiller: false, поворот: {2-rotation}, высота: {3-alt}, фрагмент: {4-chunk})
 //[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
 commands.tileAt.success.true=Код ячейки: {0-tilecode} в месте — {1-position} (compoundFiller: true, поворот: {2-rotation}, высота: {3-alt}, фрагмент: {4-chunk})
+//[Reference] '^c:F2E200;toggleTimePassing ^c:FFFFFF;Toggles the passing of time'
+commands.toggleTimePassing.description=^c:F2E200;toggleTimePassing ^c:FFFFFF;Возобновляет течение времени
+//[Reference] 'Time Resumed'
+commands.toggleTimePassing.resume=Время пошло
+//[Reference] 'Time Stopped'
+commands.toggleTimePassing.stop=Время остановлено
 commands.traceStart.description=
 //[Reference] 'Started tracing.'
 commands.traceStart.success=Построение началось.
@@ -331,6 +363,13 @@ commands.unmute.failure=Невозможно включить звук игро�
 commands.unmute.success={0-player} снова может разговаривать.
 //[Reference] 'Unrecognised command :'{0-command}''
 commands.unrecognised=Неизвестная команда: «{0-command}»
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;updateReputation ^c:FFFFFF;villagerName/Code amount'
+commands.updateReputation.description=^c:F2E200;unmute ^c:FFFFFF;имяжителя/число кода
+//[Reference] 'Reputation updated to {0-newAmount} for villager {1-villagerCode}'
+commands.updateReputation.success=Изменение репутации до {0-newAmount} для персонажа: {1-villagerCode}
+//[Reference] 'Villager Entity not found'
+commands.villagerEntityNotFound=Житель деревни не найден
 //[Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
 commands.weather.description=^c:F2E200;weather ^c:FFFFFF;тип (Sun, Rain, Snow, Storm or weather code.)
 //[Reference] 'Unable to set weather: {0-weather}. Does not exist.'

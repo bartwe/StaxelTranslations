@@ -1,15 +1,13 @@
-language.code=es-ES
+﻿language.code=es-ES
 language=Español
 //[Reference] 'Oh, don't think I've seen you around here before!'
 staxel.village.dialogue.Barkeep.line:10000100=¡Creo que no nos conocemos!
 //[Reference] 'New in town eh?'
 staxel.village.dialogue.Barkeep.line:10000200=Acabas de llegar, ¿verdad?
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '{0-playername}!'
-staxel.village.dialogue.Barkeep.line:10000210=¡^c:1486b0;{0-playername}^c:pop;!
-//[Validate] Delete this comment if or when the translation is accurate.
+staxel.village.dialogue.Barkeep.line:10000210=¡{0-playername}!
 //[Reference] 'Good to see you {0-playername}.'
-staxel.village.dialogue.Barkeep.line:10000211=Me alegro de verte, ^c:1486b0;{0-playername}^c:pop;.
+staxel.village.dialogue.Barkeep.line:10000211=Me alegro de verte, {0-playername}.
 //[Reference] 'What can I do for you today?'
 staxel.village.dialogue.Barkeep.line:10000220=¿Qué se te ofrece?
 //[Reference] 'Let's chat!'
@@ -20,10 +18,16 @@ staxel.village.dialogue.Barkeep.line:10000255=¿Algún rumor interesante?
 staxel.village.dialogue.Barkeep.line:10000260=Me muero de sed.
 //[Reference] 'Nothing really.'
 staxel.village.dialogue.Barkeep.line:10000265=Nada, la verdad.
+//[Reference] 'I'd like to buy some of your secret ingredient.'
+staxel.village.dialogue.Barkeep.line:10000266=Quiero tu ingrediente secreto.
+//[Reference] 'I'm hungry.'
+staxel.village.dialogue.Barkeep.line:10000267=Tengo hambre.
 //[Reference] 'I'm sure you'll fit right in.'
 staxel.village.dialogue.Barkeep.line:10000300=Estoy seguro de que te adaptarás enseguida.
 //[Reference] 'Here, this is on the house!'
 staxel.village.dialogue.Barkeep.line:10000400=¡Toma esto! ¡Invita la casa!
+//[Reference] 'Could we have a chat, {0-playername}?'
+staxel.village.dialogue.Barkeep.line:10000410=¿Podemos charlar, {0-playername}?
 //[Reference] 'Think of it as our welcome to the town.'
 staxel.village.dialogue.Barkeep.line:10000500=Considéralo un regalo de bienvenida.
 //[Reference] 'I hope to see you around here every now and again.'
@@ -60,6 +64,8 @@ staxel.village.dialogue.Barkeep.line:10003100=A ^c:1486b0;{0-quest_giver_2}^c:po
 staxel.village.dialogue.Barkeep.line:10003200=¿Qué vas a tomar?
 //[Reference] 'A Mug o' Sap! ({0-currency}{1-sap})'
 staxel.village.dialogue.Barkeep.line:10003300=¡Una jarra de savia! ({0-currency}{1-sap})
+//[Reference] 'A cup of Joe! ({0-currency}{1-coffee}).'
+staxel.village.dialogue.Barkeep.line:10003310=¡Una taza de Joe! ({1-coffee} {0-currency}).
 //[Reference] 'Never mind.'
 staxel.village.dialogue.Barkeep.line:10003600=Déjalo.
 //[Reference] 'One ^c:d03e37;Mug o' Sap^c:pop; coming right up!'
@@ -135,11 +141,294 @@ staxel.village.dialogue.Barkeep.line:10007900=¡Por las tardes suele estar más 
 staxel.village.dialogue.Barkeep.line:10008000=¡Pero no te quedes hasta muy tarde!
 //[Reference] 'It's good to get back to your bed and sleep the night away.'
 staxel.village.dialogue.Barkeep.line:10008100=Hay que irse pronto a la cama para disfrutar de un sueño reparador.
-//TODO Translate [Reference] 'Mmm, there have been quite a few concerning mutterings recently...'
-staxel.village.dialogue.Barkeep.line:10008200=
-//TODO Translate [Reference] 'It's hard to give them credence, but with so many reports you start to wonder...'
-staxel.village.dialogue.Barkeep.line:10008300=
-//TODO Translate [Reference] 'The rumour goes that some ancient creature has taken up residence in the forest nearby.'
-staxel.village.dialogue.Barkeep.line:10008400=
-//TODO Translate [Reference] 'I'd go check it out myself, but then who would watch this place?'
-staxel.village.dialogue.Barkeep.line:10008500=
+//[Reference] 'Mmm, there have been quite a few concerning mutterings recently...'
+staxel.village.dialogue.Barkeep.line:10008200=Verás, últimamente circulan algunos rumores inquietantes...
+//[Reference] 'It's hard to give them credence, but with so many reports you start to wonder...'
+staxel.village.dialogue.Barkeep.line:10008300=Cuesta creérselos, pero hay tanta gente que dice lo mismo que uno empieza a dudar...
+//[Reference] 'The rumour goes that some ancient creature has taken up residence in the forest nearby.'
+staxel.village.dialogue.Barkeep.line:10008400=Al parecer, una criatura ancestral se ha instalado en el bosque.
+//[Reference] 'I'd go check it out myself, but then who would watch this place?'
+staxel.village.dialogue.Barkeep.line:10008500=No me importaría acercarme a comprobarlo, pero ¿cómo voy a dejar sola la taberna?
+//[Reference] 'Looking for information on ^c:1486b0;Rosemary's^c:pop; childhood, eh?'
+staxel.village.dialogue.Barkeep.line:10008600=¿Que quieres saber más sobre la infancia de ^c:1486b0;Rosemary^c:pop;?
+//[Reference] 'I've heard my fair share of rumours and there definitely was something up with that whole thing.'
+staxel.village.dialogue.Barkeep.line:10008700=He oído muchas cosas al respecto, si te digo la verdad. Lo único que tengo claro es que la historia no es tan simple como parece...
+//[Reference] 'Don't think even lonely rabbits usually die quite that fast...but I could be wrong there.'
+staxel.village.dialogue.Barkeep.line:10008800=Dudo que los conejos que se sienten solos mueran así de repente... Aunque qué voy a saber yo.
+//[Reference] 'I'm a tavern keeper, not a farmer!'
+staxel.village.dialogue.Barkeep.line:10008900=¡Soy tabernero, no granjero!
+//[Reference] 'But you know who would know something? ^c:1486b0;Leif^c:pop; would remember.'
+staxel.village.dialogue.Barkeep.line:10009000=¿Pero sabes quién podría saber más? ^c:1486b0;Leif^c:pop;. Él seguramente lo recuerde mejor.
+//[Reference] 'The man's got a memory a mnemonist would envy!'
+staxel.village.dialogue.Barkeep.line:10009100=¡Ese hombre tiene una memoria prodigiosa! ¡Digna de un mnemonista!
+//[Reference] 'Oh, sorry. That's my word of the day!'
+staxel.village.dialogue.Barkeep.line:10009200=Ay, perdona. ¡Esa era mi palabra del día!
+//[Reference] 'A rabbit...? We don't serve rabbit here...'
+staxel.village.dialogue.Barkeep.line:10009300=¿Conejo?... No servimos conejo en la taberna...
+//[Reference] 'Oh! You meant for ^c:1486b0;Rosemary^c:pop;?'
+staxel.village.dialogue.Barkeep.line:10009400=¡Ah! ¿Para ^c:1486b0;Rosemary^c:pop;, dices?
+//[Reference] 'Well why didn't you say so sooner?'
+staxel.village.dialogue.Barkeep.line:10009500=¿Y por qué no lo has dicho antes?
+//[Reference] 'Normally I'd tell you I have a friend whose aunt's son's babysitter's barber had one for sale...'
+staxel.village.dialogue.Barkeep.line:10009600=Normalmente, te diría que el barbero de la canguro del hijo de la tía de un amigo vende uno...
+//[Reference] 'But not at the moment, I'm afraid.'
+staxel.village.dialogue.Barkeep.line:10009700=Pero me temo que no es el caso.
+//[Reference] 'Although...'
+staxel.village.dialogue.Barkeep.line:10009800=Aunque...
+//[Reference] 'I did see a rather lonely looking rabbit out in the woodlands...'
+staxel.village.dialogue.Barkeep.line:10009900=Me suena haber visto un conejo por el bosque...
+//[Reference] 'Could be worth going to check it out...'
+staxel.village.dialogue.Barkeep.line:10010000=Podrías ir a echar un vistazo...
+//[Reference] 'Don't forget to take ^c:d03e37;carrots^c:pop; with you! It might be worth giving it a few!'
+staxel.village.dialogue.Barkeep.line:10010100=¡No olvides llevarte un par de ^c:d03e37;zanahorias^c:pop;! A los conejos les gustan, ¿no?
+//[Reference] 'Good timing as always, ^c:1486b0;{0-playername}^c:pop;!'
+staxel.village.dialogue.Barkeep.line:10010110=¡Llegas justo a tiempo, ^c:1486b0;{0-playername}^c:pop;!
+//[Reference] 'Now that our ^c:d03e37;sap^c:pop; supply is no longer under threat, I've had time to worry about other things.'
+staxel.village.dialogue.Barkeep.line:10010120=Ahora que nuestro suministro de ^c:d03e37;savia^c:pop; ya no está en peligro, he podido atender otras cuestiones.
+//[Reference] 'My brother and I...long ago, we had a dream. A dream that never quite came to fruition...'
+staxel.village.dialogue.Barkeep.line:10010130=Hace tiempo, mi hermano y yo teníamos un sueño... Un sueño que nunca se cumplió...
+//[Reference] 'But the other day, I was digging through some old boxes when I came across a certain recipe.'
+staxel.village.dialogue.Barkeep.line:10010140=Pero el otro día, estaba registrando unas cajas antiguas y me encontré con una receta muy especial.
+//[Reference] 'Just a few notes he'd jotted down in the margin of a far more important document.'
+staxel.village.dialogue.Barkeep.line:10010150=No son más que un par de notas que apuntó en el margen de un documento mucho más importante.
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'It reminds me though...of what we'd planned so many years ago. I think it might be time to try again!'
+staxel.village.dialogue.Barkeep.line:10010160=Me recordó a una idea que tuvimos hace años... ¡Creo que ha llegado el momento de darle otra oportunidad!
+//[Reference] 'There's one small issue though, and it's one I can't deal with while minding the ^c:1486b0;tavern^c:pop;.'
+staxel.village.dialogue.Barkeep.line:10010170=Pero hay un pequeño problema... y no puedo resolverlo si me tengo que hacer cargo de la ^c:1486b0;taberna^c:pop; también.
+//[Reference] 'We're missing some critical equipment!'
+staxel.village.dialogue.Barkeep.line:10010180=¡Nos falta algo imprescindible!
+//[Reference] 'This is a description of the machine we need, right down to the exact specifications.'
+staxel.village.dialogue.Barkeep.line:10010190=Esta es una descripción de la máquina que necesitamos, junto con las especificaciones.
+//[Reference] 'Could you go talk to the ^c:1486b0;Murmurs^c:pop; around the ^c:1486b0;square^c:pop; and see if they can find one?'
+staxel.village.dialogue.Barkeep.line:10010200=¿Podrías ir a la ^c:1486b0;plaza^c:pop; a hablar con los ^c:1486b0;murmuradores^c:pop;? Quizá ellos puedan ayudarte.
+//[Reference] 'It would be a huge help!'
+staxel.village.dialogue.Barkeep.line:10010210=¡Me harías un gran favor!
+//[Reference] '^c:1486b0;{0-playername}^c:pop;! What brings you around these parts?'
+staxel.village.dialogue.Barkeep.line:10010400=¡^c:1486b0;{0-playername}^c:pop;! ¿Qué te trae por estos lares?
+//[Reference] 'Truth is, I was just thinking about you. Not in a bad way though, mind!'
+staxel.village.dialogue.Barkeep.line:10010500=Justo estaba pensando en ti. ¡No pienses mal!
+//[Reference] 'See, I've been thinking that maybe I could consider teaching you my secret ^c:d03e37;sap^c:pop; recipe...'
+staxel.village.dialogue.Barkeep.line:10010600=He estado dándole vueltas y tal vez te enseñe mi receta secreta para preparar ^c:d03e37;savia^c:pop;...
+//[Reference] 'But only if you can do something for me in return!'
+staxel.village.dialogue.Barkeep.line:10010700=¡Pero solo si me haces un favor!
+//[Reference] 'See, I'm having some trouble making the stuff myself at the moment...'
+staxel.village.dialogue.Barkeep.line:10010800=Ahora mismo, ni yo mismo puedo preparar...
+//[Reference] 'Years ago, we had ^c:d03e37;apiaries^c:pop; all over the island and I had a nice, steady supply of ^c:d03e37;honey^c:pop;.'
+staxel.village.dialogue.Barkeep.line:10010900=Hace años, había ^c:d03e37;colmenares^c:pop; por toda la isla y gozábamos de un buen suministro de ^c:d03e37;miel^c:pop;.
+//[Reference] 'Eventually they disappeared and no one bothered to take over the work, but my stockpile held out.'
+staxel.village.dialogue.Barkeep.line:10011000=Al final, acabaron desapareciendo y nadie se preocupó de retomar el trabajo. Por suerte, disponía de una buena reserva.
+//[Reference] 'But now it's starting to run low... I'm not sure how much more ^c:d03e37;sap^c:pop; I can make!'
+staxel.village.dialogue.Barkeep.line:10011100=Pero ahora esa reserva está casi vacía... ¡No sé para cuánta ^c:d03e37;savia^c:pop; me dará!
+//[Reference] 'I'm a bit too old to take up beekeeping again at this point...'
+staxel.village.dialogue.Barkeep.line:10011200=Ya estoy mayor para ponerme el traje de apicultor...
+//[Reference] 'I'd hate to import the low-quality stuff from other islands too...'
+staxel.village.dialogue.Barkeep.line:10011300=Y detesto importar productos de baja calidad de otras islas...
+//[Reference] 'Bring me some of your own ^c:d03e37;honey^c:pop;, two ^c:d03e37;wildberries^c:pop;, and a three ^c:d03e37;raw wood^c:pop; and we'll talk more!'
+staxel.village.dialogue.Barkeep.line:10011400=¡Tráeme ^c:d03e37;miel^c:pop; de tu propia cosecha, dos ^c:d03e37;bayas silvestres^c:pop; y tres unidades de ^c:d03e37;madera^c:pop;!
+//[Reference] 'How about you set up your own ^c:d03e37;apiary^c:pop;?'
+staxel.village.dialogue.Barkeep.line:10011500=¿Por qué no instalas un ^c:d03e37;colmenar^c:pop; en tu granja?
+//[Reference] 'You just need to buy the ^c:d03e37;apiary^c:pop; itself and then find a ^c:d03e37;queen bee^c:pop;!'
+staxel.village.dialogue.Barkeep.line:10011510=¡Solo tienes que comprar un ^c:d03e37;colmenar^c:pop; y, a continuación, buscar una ^c:d03e37;abeja reina^c:pop;!
+//[Reference] 'Bring me some of your own ^c:d03e37;honey^c:pop;, two ^c:d03e37;wildberries^c:pop;, and a three ^c:d03e37;raw wood^c:pop; and we'll talk more!'
+staxel.village.dialogue.Barkeep.line:10011520=¡Tráeme ^c:d03e37;miel^c:pop; de tu propia cosecha, dos ^c:d03e37;bayas silvestres^c:pop; y tres unidades de ^c:d03e37;madera^c:pop;!
+//[Reference] 'You need to set up an ^c:d03e37;apiary^c:pop; and get it working.'
+staxel.village.dialogue.Barkeep.line:10011700=Primero tienes que instalar un ^c:d03e37;colmenar^c:pop; y conseguir que funcione.
+//[Reference] 'Then bring me some of your own ^c:d03e37;honey^c:pop;, two ^c:d03e37;wildberries^c:pop;, and three ^c:d03e37;raw wood^c:pop; and we'll talk more!'
+staxel.village.dialogue.Barkeep.line:10011800=¡Después, tráeme ^c:d03e37;miel^c:pop; de tu propia cosecha, dos ^c:d03e37;bayas silvestres^c:pop; y tres unidades de ^c:d03e37;madera^c:pop;!
+//[Reference] 'I can smell the ^c:d03e37;honey^c:pop; already, ^c:1486b0;{0-playername}^c:pop;!'
+staxel.village.dialogue.Barkeep.line:10011900=¡Ya puedo oler la ^c:d03e37;miel^c:pop;, ^c:1486b0;{0-playername}^c:pop;!
+//[Reference] 'And it's the island's speciality too! Nowhere else has bees quite like ours!'
+staxel.village.dialogue.Barkeep.line:10012000=¡Además, es la especialidad de la isla! ¡No encontrarás abejas como las nuestras en ninguna parte!
+//[Reference] 'Now, let me just deal with these. Look the other way please!'
+staxel.village.dialogue.Barkeep.line:10012100=Yo me encargo de esta parte. ¡Mira para otro lado!
+//[Reference] '...'
+staxel.village.dialogue.Barkeep.line:10012200=...
+//[Reference] 'Here it is! The ^c:d03e37;secret ingredient^c:pop; for making ^c:d03e37;sap^c:pop;!'
+staxel.village.dialogue.Barkeep.line:10012300=¡Listo! ¡El ^c:d03e37;ingrediente secreto^c:pop; para preparar ^c:d03e37;savia^c:pop;!
+//[Reference] 'Now if you just mix up that recipe, you can make your own ^c:d03e37;sap^c:pop; whenever you want!'
+staxel.village.dialogue.Barkeep.line:10012400=¡Ahora solo tienes que mezclar esa receta y podrás elaborar tu propia ^c:d03e37;savia^c:pop; siempre que quieras!
+//[Reference] 'Bear in mind that I'm not going to teach you how to make the ^c:d03e37;secret ingredient^c:pop; though...'
+staxel.village.dialogue.Barkeep.line:10012500=Eso sí, no puedo enseñarte a preparar el ^c:d03e37;ingrediente secreto^c:pop;...
+//[Reference] 'You'll have to come to me whenever you want to buy that!'
+staxel.village.dialogue.Barkeep.line:10012600=¡Tendrás que venir a verme para conseguirlo!
+//[Reference] 'This is just a little something extra as thanks for keeping me in business!'
+staxel.village.dialogue.Barkeep.line:10012700=¡Acepta esto como agradecimiento por ayudarme con el negocio!
+//[Reference] 'I don't know what ^c:1486b0;Farm Fan^c:pop; would've done if we'd run out of ^c:d03e37;sap^c:pop;...'
+staxel.village.dialogue.Barkeep.line:10012800=No sé qué hubiese sido de ^c:1486b0;Farm Fan^c:pop; si nos hubiésemos quedado sin ^c:d03e37;savia^c:pop;...
+//[Reference] 'Sure thing!'
+staxel.village.dialogue.Barkeep.line:10012900=¡Por supuesto!
+//[Reference] 'I gave you a description of the machine needed.'
+staxel.village.dialogue.Barkeep.line:10013000=Tienes la descripción de la máquina que necesito.
+//[Reference] 'If you could get one from a ^c:1486b0;Murmur^c:pop; that would be fantastic!'
+staxel.village.dialogue.Barkeep.line:10013100=¡Sería estupendo si pudieses conseguir una de algún ^c:1486b0;murmurador^c:pop;!
+//[Reference] 'Oh! Perfect! This is exactly what I was looking for!'
+staxel.village.dialogue.Barkeep.line:10013200=¡Ah! ¡Perfecto! ¡Es justo lo que buscaba!
+//[Reference] 'These were a lot scarcer back in my day...'
+staxel.village.dialogue.Barkeep.line:10013300=En mis tiempos, estas eran un artículo casi de lujo...
+//[Reference] 'Now we just need to...'
+staxel.village.dialogue.Barkeep.line:10013400=Ahora solo tenemos que...
+//[Reference] 'Oh...'
+staxel.village.dialogue.Barkeep.line:10013500=Vaya...
+//[Reference] 'How how foolish of me! What good is a ^c:d03e37;coffee brewer^c:pop; without ^c:d03e37;coffee beans^c:pop;?'
+staxel.village.dialogue.Barkeep.line:10013600=¡Qué tonto! ¿Para qué quiero una ^c:d03e37;cafetera^c:pop; si no tengo ^c:d03e37;granos de café^c:pop;?
+//[Reference] '^c:1486b0;{0-playername}^c:pop;, would you mind running back to that  ^c:1486b0;square^c:pop; for me?'
+staxel.village.dialogue.Barkeep.line:10013700=^c:1486b0;{0-playername}^c:pop;, ¿te importaría volver a la ^c:1486b0;plaza^c:pop;?
+//[Reference] 'I'm sure one of the ^c:1486b0;Murmurs^c:pop; sells ^c:d03e37;coffee beans^c:pop;, right?'
+staxel.village.dialogue.Barkeep.line:10013800=Seguro que los ^c:1486b0;murmuradores^c:pop; tendrán ^c:d03e37;granos de café^c:pop; para vender.
+//[Reference] 'Actually...what if we could convince them to import ^c:d03e37;coffee plant seeds^c:pop; instead?'
+staxel.village.dialogue.Barkeep.line:10013900=De hecho, podrías tratar de convencerlos para que importen ^c:d03e37;semillas de cafeto^c:pop;. ¿Qué te parece?
+//[Reference] 'That way we could grow the ^c:d03e37;coffee beans^c:pop; ourselves! Or yourself I suppose!'
+staxel.village.dialogue.Barkeep.line:10014000=¡Así podríamos cosechar nuestros propios ^c:d03e37;granos de café^c:pop;! ¡Bueno, los cosecharías tú!
+//[Reference] 'Yes, let's do that instead!'
+staxel.village.dialogue.Barkeep.line:10014100=¡Sí, es una idea mucho mejor!
+//[Reference] 'Let me know when you have some ^c:d03e37;coffee beans^c:pop; in hand!'
+staxel.village.dialogue.Barkeep.line:10014200=¡Avísame cuando consigas ^c:d03e37;granos de café^c:pop;!
+//[Reference] 'You're probably going to want to grow them from ^c:d03e37;coffee plant seeds^c:pop;.'
+staxel.village.dialogue.Barkeep.line:10014300=Primero tendrás que plantar ^c:d03e37;semillas de cafeto^c:pop;.
+//[Reference] 'Talk to the ^c:1486b0;Murmurs^c:pop; first to see if you can get them imported.'
+staxel.village.dialogue.Barkeep.line:10014400=Habla con los ^c:1486b0;murmuradores^c:pop;. Tal vez puedan importar.
+//[Reference] 'What's that I can smell, ^c:1486b0;{0-playername}^c:pop;?'
+staxel.village.dialogue.Barkeep.line:10014500=¿Qué es ese olorcito tan rico, ^c:1486b0;{0-playername}^c:pop;?
+//[Reference] 'Could those be the finest of ^c:d03e37;coffee beans^c:pop;?'
+staxel.village.dialogue.Barkeep.line:10014600=¿Me has traído ^c:d03e37;granos de café^c:pop;?
+//[Reference] 'But these are amazing! I've never seen such perfect specimens! You grew them yourself?'
+staxel.village.dialogue.Barkeep.line:10014700=¡Increíble! ¡Nunca había visto unos ejemplares tan perfectos! ¿Son de cosecha propia?
+//[Reference] '^c:1486b0;{0-playername}^c:pop;, I suspect this is going to be the beginning of a wonderful partnership!'
+staxel.village.dialogue.Barkeep.line:10014800=¡^c:1486b0;{0-playername}^c:pop;, este es el principio de una bonita alianza comercial!
+//[Reference] 'Now I can hardly take these free of charge...'
+staxel.village.dialogue.Barkeep.line:10014900=Pero no puedo aceptarlas por mi cara bonita...
+//[Reference] 'I hope this will be sufficient to pay for an initial shipment of the ^c:d03e37;coffee beans^c:pop;.'
+staxel.village.dialogue.Barkeep.line:10015000=Espero que esto sea suficiente para pagar el primer envío de ^c:d03e37;granos de café^c:pop;.
+//[Reference] 'Come by any time if you want to try the end product!'
+staxel.village.dialogue.Barkeep.line:10015100=¡Vuelve cuando quieras probar el resultado!
+//[Reference] 'One hot fresh ^c:d03e37;Coffee^c:pop;, here you go!'
+staxel.village.dialogue.Barkeep.line:10015200=¡Un ^c:d03e37;cafecito^c:pop; recién hecho! ¡Aquí tienes!
+//[Reference] '^c:1486b0;{0-playername}^c:pop;, I think it's time I tell you about the plan that never was.'
+staxel.village.dialogue.Barkeep.line:10015300=^c:1486b0;{0-playername}^c:pop;, creo que ha llegado el momento de hablarte del plan que nunca fue.
+//[Reference] 'See, when I first came to the island, it wasn't to set up a ^c:1486b0;tavern^c:pop;...'
+staxel.village.dialogue.Barkeep.line:10015400=Cuando me mudé a la isla, la intención no era abrir una ^c:1486b0;taberna^c:pop;...
+//[Reference] 'Our dream was to build a classy establishment, serving trendy meals alongside our ^c:d03e37;sap^c:pop;.'
+staxel.village.dialogue.Barkeep.line:10015500=Nuestro sueño era construir un local con mucho estilo, donde servir comida gourmet acompañada de nuestra ^c:d03e37;savia^c:pop;.
+//[Reference] 'But that didn't exactly do well out here...'
+staxel.village.dialogue.Barkeep.line:10015600=Pero no nos fue muy bien...
+//[Reference] 'If it wasn't for ^c:1486b0;Farm Fan^c:pop;, even the ^c:1486b0;tavern^c:pop; would probably have gone under by now!'
+staxel.village.dialogue.Barkeep.line:10015700=¡De no ser por ^c:1486b0;Farm Fan^c:pop;, incluso la ^c:1486b0;taberna^c:pop; hubiese chapado hace ya mucho!
+//[Reference] 'But it's time to change that. We're going to expand the ^c:1486b0;tavern^c:pop;!'
+staxel.village.dialogue.Barkeep.line:10015800=Pero es hora de cambiarlo. ¡Vamos a ampliar la ^c:1486b0;taberna^c:pop;!
+//[Reference] 'This should be everything you need to get started!'
+staxel.village.dialogue.Barkeep.line:10015900=¡Con esto bastará para empezar!
+//[Reference] 'I hope I can count on you to help me see this through to the end!'
+staxel.village.dialogue.Barkeep.line:10016000=¡Espero poder contar contigo para llevar a cabo este proyecto!
+//[Reference] 'It's so beautiful I could almost cry, ^c:1486b0;{0-playername}^c:pop;...'
+staxel.village.dialogue.Barkeep.line:10016100=Es tan bonito que me dan ganas de llorar, ^c:1486b0;{0-playername}^c:pop;...
+//[Reference] 'Now there's just one little problem we need to sort out and we can open the kitchens!'
+staxel.village.dialogue.Barkeep.line:10016200=¡Queda un asuntillo más por resolver y ya podremos abrir las cocinas!
+//[Reference] 'See, I can't manage a kitchen, look after the counter, and deliver orders all by myself...'
+staxel.village.dialogue.Barkeep.line:10016300=Como comprenderás, yo solo no puedo hacerme cargo de la cocina, atender en la barra y entregar pedidos...
+//[Reference] 'I need you to help my find someone who can work here part-time...'
+staxel.village.dialogue.Barkeep.line:10016400=Necesito que me ayudes a encontrar a alguien para trabajar a media jornada...
+//[Reference] 'Could you run around the villagers and see if any of them is willing?'
+staxel.village.dialogue.Barkeep.line:10016500=¿Podrías ir a hablar con los vecinos? Quizá alguno de ellos esté interesado...
+//[Reference] 'Maybe start with ^c:1486b0;Leif^c:pop; and ^c:1486b0;Farm Fan^c:pop; since they're here most of the time anyway!'
+staxel.village.dialogue.Barkeep.line:10016600=Ve a ver a ^c:1486b0;Leif^c:pop; y a ^c:1486b0;Farm Fan^c:pop;; ¡son los que pasan más tiempo aquí!
+//[Reference] 'Just a little more and we'll finally be able to open up our kitchens!'
+staxel.village.dialogue.Barkeep.line:10016700=¡Un poco más y podremos inaugurar las cocinas!
+//[Reference] 'All you need to do is expand the ^c:1486b0;tavern^c:pop;!'
+staxel.village.dialogue.Barkeep.line:10016800=¡Solo tienes que ampliar la ^c:1486b0;taberna^c:pop;!
+//[Reference] 'Did you speak with ^c:1486b0;Leif^c:pop; and ^c:1486b0;Farm Fan^c:pop;?'
+staxel.village.dialogue.Barkeep.line:10016900=¿Has hablado ya con ^c:1486b0;Leif^c:pop; y ^c:1486b0;Farm Fan^c:pop;?
+//[Reference] 'One of them might be willing to work here part-time.'
+staxel.village.dialogue.Barkeep.line:10017000=Puede que uno de ellos esté interesado en trabajar aquí a media jornada.
+//[Reference] 'So a no on both counts, eh?'
+staxel.village.dialogue.Barkeep.line:10017100=Vaya, los dos han dicho que no...
+//[Reference] 'Well that does put us in a bit of a bind...'
+staxel.village.dialogue.Barkeep.line:10017200=Eso complica un poquito las cosas...
+//[Reference] 'How about you? Would you be interested in doing a bit of part-time work?'
+staxel.village.dialogue.Barkeep.line:10017400=Oye, ¿y tú qué? ¿Te interesaría trabajar a media jornada?
+//[Reference] 'Not every day, mind. Just when necessary.'
+staxel.village.dialogue.Barkeep.line:10017500=No sería todos los días tampoco, solo cuando hiciese falta.
+//[Reference] 'I'd love to!'
+staxel.village.dialogue.Barkeep.line:10017600=¡Me encantaría!
+//[Reference] 'Maybe some other time.'
+staxel.village.dialogue.Barkeep.line:10017700=Quizá en otro momento.
+//[Reference] 'I'm happy to hear you're so enthusiastic about the position!'
+staxel.village.dialogue.Barkeep.line:10017800=¡Así se habla! ¡Me gusta tu entusiasmo!
+//[Reference] 'We even already have two orders waiting!'
+staxel.village.dialogue.Barkeep.line:10017900=¡Ya tenemos dos pedidos esperando!
+//[Reference] 'This is the first order. Description's on the item itself.'
+staxel.village.dialogue.Barkeep.line:10018000=Este es el primero. La descripción está en el propio objeto.
+//[Reference] 'You just need to give it to them directly!'
+staxel.village.dialogue.Barkeep.line:10018100=¡Solo tienes que entregarlo!
+//[Reference] 'Ah, I understand. Do let me know if you change your mind.'
+staxel.village.dialogue.Barkeep.line:10018400=Ah, bueno. Avísame si cambias de opinión.
+//[Reference] 'Ah, this again?'
+staxel.village.dialogue.Barkeep.line:10018500=¿Otra vez?
+//[Reference] 'That ^c:1486b0;Oscar^c:pop; really does get a bit too riled up...'
+staxel.village.dialogue.Barkeep.line:10018600=El viejo ^c:1486b0;Oscar^c:pop; se viene arriba con este tema...
+//[Reference] 'But I suppose I won't say no to a free ^c:d03e37;broom^c:pop;!'
+staxel.village.dialogue.Barkeep.line:10018700=¡Pero no puedo decir que no a una ^c:d03e37;escoba^c:pop; gratis!
+//[Reference] 'You just need to hand over the order to the person the description best fits.'
+staxel.village.dialogue.Barkeep.line:10018800=Solo tienes que hacer llegar el pedido a la persona que encaje mejor con la descripción.
+//[Reference] 'Just give it to them directly!'
+staxel.village.dialogue.Barkeep.line:10018900=¡Entrégaselo directamente!
+//[Reference] 'You delivered to the wrong person?'
+staxel.village.dialogue.Barkeep.line:10019000=¿Se lo has entregado a otra persona?
+//[Reference] 'You need to pay better attention to the description, ^c:1486b0;{0-playername}^c:pop;!'
+staxel.village.dialogue.Barkeep.line:10019100=¡Fíjate bien en la descripción, ^c:1486b0;{0-playername}^c:pop;!
+//[Reference] '^c:1486b0;{0-playername}^c:pop;! What a nice surprise!'
+staxel.village.dialogue.Barkeep.line:10019200=¡^c:1486b0;{0-playername}^c:pop;! ¡Qué agradable sorpresa!
+//[Reference] 'You delivered to the wrong person?'
+staxel.village.dialogue.Barkeep.line:10019201=¿Se lo has entregado a otra persona?
+//[Reference] 'You can assure ^c:1486b0;Max^c:pop; that I'm well stocked on ^c:1486b0;sap^c:pop;.'
+staxel.village.dialogue.Barkeep.line:10019300=Puedes asegurarle a ^c:1486b0;Max^c:pop; que tenemos una buena reserva de ^c:1486b0;savia^c:pop;.
+//[Reference] 'You need to pay better attention to the description, ^c:1486b0;{0-playername}^c:pop;!'
+staxel.village.dialogue.Barkeep.line:10019301=¡Fíjate bien en la descripción, ^c:1486b0;{0-playername}^c:pop;!
+//[Reference] 'Always have to keep the reserves up to cope with ^c:1486b0;Farm Fan^c:pop;, you know?'
+staxel.village.dialogue.Barkeep.line:10019400=Siempre hay que estar bien abastecidos para hacer frente a la demanda de ^c:1486b0;Farm Fan^c:pop;...
+//[Reference] 'You delivered to the wrong person?'
+staxel.village.dialogue.Barkeep.line:10019401=¿Se lo has entregado a otra persona?
+//[Reference] 'You need to pay better attention to the description, ^c:1486b0;{0-playername}^c:pop;!'
+staxel.village.dialogue.Barkeep.line:10019500=¡Fíjate bien en la descripción, ^c:1486b0;{0-playername}^c:pop;!
+//[Reference] 'You managed to deliver the first order? Good work!'
+staxel.village.dialogue.Barkeep.line:10019600=¿Ya has entregado el primer pedido? ¡Bien hecho!
+//[Reference] 'We need to get these fulfilled as soon as possible so I won't waste any time.'
+staxel.village.dialogue.Barkeep.line:10019700=Tenemos que completar los encargos lo antes posible. No hay tiempo que perder.
+//[Reference] 'You know the drill now, let's get this one delivered!'
+staxel.village.dialogue.Barkeep.line:10019800=¡Ya sabes cómo funciona! ¡Manos a la obra!
+//[Reference] 'No problems I take it? Very good! Two down, only one to go.'
+staxel.village.dialogue.Barkeep.line:10019900=¿Todo bien? ¡Perfecto! Dos entregados, queda uno.
+//[Reference] 'You're doing great so far! There's a nice bonus waiting!'
+staxel.village.dialogue.Barkeep.line:10020000=¡Lo estás haciendo muy bien! ¡Ah, hay un pequeño extra esperándote!
+//[Reference] 'Ahh...that's a relief! No more orders left today.'
+staxel.village.dialogue.Barkeep.line:10020100=Ah... ¡Qué alivio! Se acabaron los pedidos por hoy.
+//[Reference] 'You performed fantastically, ^c:1486b0;{0-playername}^c:pop;!'
+staxel.village.dialogue.Barkeep.line:10020200=¡Has hecho un gran trabajo, ^c:1486b0;{0-playername}^c:pop;!
+//[Reference] 'Here's your payment for today, plus a little bonus for doing such a great job.'
+staxel.village.dialogue.Barkeep.line:10020300=Esta es tu paga del día, más un pequeño extra por el buen desempeño.
+//[Reference] 'I'm not sure how to express my thanks for all you've done...'
+staxel.village.dialogue.Barkeep.line:10020400=No sé cómo agradecerte todo lo que has hecho por mí...
+//[Reference] 'My dream...my brother's dream...it's finally becoming a reality.'
+staxel.village.dialogue.Barkeep.line:10020500=Mi sueño... El sueño de mi hermano... se está cumpliendo al fin.
+//[Reference] 'Together, we'll make this place a classy restaurant yet!'
+staxel.village.dialogue.Barkeep.line:10020600=¡Juntos, convertiremos este lugar en un restaurante con clase!
+//[Reference] '^c:1486b0;Farm Fan's^c:pop; birthday gift?'
+staxel.village.dialogue.Barkeep.line:10020700=¿El regalo de cumpleaños de ^c:1486b0;Farm Fan^c:pop;?
+//[Reference] 'Oh! I completely forgot.'
+staxel.village.dialogue.Barkeep.line:10020800=¡Ay, lo había olvidado por completo!
+//[Reference] 'But...I know exactly what she would want from me anyway...'
+staxel.village.dialogue.Barkeep.line:10020900=Pero... Sé exactamente qué quiere de mí...
+//[Reference] 'I'm not sure what anyone else got her, but I know she's going to like mine best!'
+staxel.village.dialogue.Barkeep.line:10021000=¡No sé qué le habrá comprado el resto, pero seguro que prefiere mi regalo!
+//[Reference] 'What'll it be?'
+staxel.village.dialogue.Barkeep.line:10021100=¿Qué te pongo?
+//[Reference] 'Baked Potato with Cheese({0-currency}{1-potato}).'
+staxel.village.dialogue.Barkeep.line:10021200=Patata asada con queso ({1-potato} {0-currency})
+//[Reference] 'Mushroom Risotto ({0-currency}{1-risotto})'
+staxel.village.dialogue.Barkeep.line:10021300=Risotto de champiñones ({1-risotto} {0-currency})
+//[Reference] 'Never mind.'
+staxel.village.dialogue.Barkeep.line:10021400=Déjalo.
+//[Reference] '^c:d03e37;Baked Potato with Cheese^c:pop;, my favourite! Here you go!'
+staxel.village.dialogue.Barkeep.line:10021500=¡^c:d03e37;Patata asada con queso^c:pop;, mi favorita! ¡Aquí tienes!
+//[Reference] 'Ah, one of our specialties.'
+staxel.village.dialogue.Barkeep.line:10021600=¡Ah, una de nuestras especialidades!
