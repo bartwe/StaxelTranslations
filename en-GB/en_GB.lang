@@ -127,11 +127,16 @@ dayNight.hintNightTransition=You're starting to feel sleepy...
 debug.MissingNotification=MissingNotification: {0-notificationCode}
 
 error.back=Back
-
 error.badVersion=Bad Version
 error.serverFull=Server Full
 error.serverOffline=The Staxel.net server appears to be offline. Please try again later.
 error.sorry=SORRY!
+error.startGame.gameRunning=Cannot start a local private server for single player mode.{0-newLine}Is another copy of the game still running?{1-newLine}
+error.startGame.localTcp=Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.
+error.startGame.notLoggedIn=Not logged in.
+error.startGame.quickNoConnect=Game failed to start a local private server for single player mode. Server closed quickly before client could connect.
+error.startGame.timeout=Game failed to start a local private server for single player mode. Timeout on trying to connect with local server.
+error.startGame.veryQuickNoConnect=Game failed to start a local private server for single player mode. Server closed very quickly before client could connect.
 escapemenu.cancel=Cancel
 escapemenu.confirmExit=Are you sure you want to exit to desktop? Progress is saved automatically.
 escapemenu.exit=Exit
