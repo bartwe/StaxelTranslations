@@ -244,18 +244,18 @@ error.serverFull=Server voll
 error.serverOffline=Der Staxel.net-Server scheint offline zu sein. Bitte probiere es später noch einmal.
 //[Reference] 'SORRY!'
 error.sorry=ENTSCHULDIGUNG!
-//TODO Translate [Reference] 'Cannot start a local private server for single player mode.{0-newLine}Is another copy of the game still running?{1-newLine}'
-error.startGame.gameRunning=
-//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.'
-error.startGame.localTcp=
-//TODO Translate [Reference] 'Not logged in.'
-error.startGame.notLoggedIn=
-//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed quickly before client could connect.'
-error.startGame.quickNoConnect=
-//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Timeout on trying to connect with local server.'
-error.startGame.timeout=
-//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed very quickly before client could connect.'
-error.startGame.veryQuickNoConnect=
+//[Reference] 'Cannot start a local private server for single player mode.{0-newLine}Is another copy of the game still running?{1-newLine}'
+error.startGame.gameRunning=Kann keinen lokalen privaten Server im Einzelspieler starten.{0-newLine}Ist eine andere Kopie des Spiels am laufen?{1-newLine}
+//[Reference] 'Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.'
+error.startGame.localTcp=Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten.{0-newLine}Der Server schloss sich bevor der Client eine lokale TCP Verbindung aufbauen konnte.{1-newLine}
+//[Reference] 'Not logged in.'
+error.startGame.notLoggedIn=Nicht eingeloggt
+//[Reference] 'Game failed to start a local private server for single player mode. Server closed quickly before client could connect.'
+error.startGame.quickNoConnect=Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten.{0-newLine}Der Server schloss schnell, bevor der Client sich verbinden konnte.{1-newLine}
+//[Reference] 'Game failed to start a local private server for single player mode. Timeout on trying to connect with local server.'
+error.startGame.timeout=Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten. Timout während man versucht zum lokalen Server zu verbinden.
+//[Reference] 'Game failed to start a local private server for single player mode. Server closed very quickly before client could connect.'
+error.startGame.veryQuickNoConnect==Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten.{0-newLine}Der Server schloss sehr schnell, bevor der Client sich verbinden konnte.{1-newLine}
 //[Reference] 'Cancel'
 escapemenu.cancel=Abbrechen
 //[Reference] 'Are you sure you want to exit to desktop? Progress is saved automatically.'
@@ -1005,14 +1005,14 @@ staxel.accessories.helmets.mecha.Mecha_XYellow.description=
 //[Reference] 'Mecha_XYellow'
 staxel.accessories.helmets.mecha.Mecha_XYellow.name=Mecha_XYellow
 staxel.accessories.pants.jeans.description=
-//TODO Translate [Reference] 'jeans'
-staxel.accessories.pants.jeans.name=
+//[Reference] 'jeans'
+staxel.accessories.pants.jeans.name=Jeans
 staxel.accessories.pants.supershort.description=
 //TODO Translate [Reference] 'supershort'
 staxel.accessories.pants.supershort.name=
 staxel.accessories.pants.tracksuit.description=
-//TODO Translate [Reference] 'tracksuit'
-staxel.accessories.pants.tracksuit.name=
+//[Reference] 'tracksuit'
+staxel.accessories.pants.tracksuit.name=Trainingsanzug
 staxel.accessories.shirts.colouredhoodie.ColouredHoodie.description=
 //[Reference] 'Coloured Hoodie'
 staxel.accessories.shirts.colouredhoodie.ColouredHoodie.name=Farbiger Hoodie
@@ -3392,8 +3392,8 @@ staxel.nightTransition.Line22=Tipp: Streichel dein Haustier jeden Tag, damit es 
 staxel.nightTransition.Line23=Tipp: Seeds setzten und Items aufheben kann man öfter machen, wenn man den Knopf gedrückt hält
 //[Reference] 'Next'
 staxel.nightTransition.next=Nächstes
-//TODO Translate [Reference] 'Wake Up'
-staxel.nightTransition.PressContinueButton=
+//[Reference] 'Wake Up'
+staxel.nightTransition.PressContinueButton=Aufwachen
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Click '{0-button}' or press '{1-key}' to continue...'
 staxel.nightTransition.PressToContinue=Weiter mit {0-key}
@@ -5071,11 +5071,11 @@ staxel.tileObject.shop.ShopWindow4.description=
 //[Reference] 'Shop Window4'
 staxel.tileObject.shop.ShopWindow4.name=Schaufenster 4
 staxel.tileObject.sign.LargeWoodenSign.description=
-//TODO Translate [Reference] 'Large Wooden Sign'
-staxel.tileObject.sign.LargeWoodenSign.name=
+//[Reference] 'Large Wooden Sign'
+staxel.tileObject.sign.LargeWoodenSign.name=Großes Holzschild
 staxel.tileObject.sign.SmallWoodenSign.description=
-//TODO Translate [Reference] 'Small Wooden Sign'
-staxel.tileObject.sign.SmallWoodenSign.name=
+//[Reference] 'Small Wooden Sign'
+staxel.tileObject.sign.SmallWoodenSign.name=Schmales Holzschild
 staxel.tileObject.tavern.PinballMachine.description=
 //[Reference] 'Pinball Machine'
 staxel.tileObject.tavern.PinballMachine.name=Flipper
