@@ -4,12 +4,12 @@ language=Deutsch
 
 //[Reference] 'Achievement unlocked: {0-achievement}!'
 achievements.achievementUnlocked=Erfolg freigeschaltet: {0-achievement}!
-//TODO Translate [Reference] 'Alua'
-Alua=
-//TODO Translate [Reference] 'Box Builder Settings'
-BoxPlacerSettings.title=
-//TODO Translate [Reference] 'Save'
-BuildToolSettings.accept=
+//[Reference] 'Alua'
+Alua=Alua
+//[Reference] 'Box Builder Settings'
+BoxPlacerSettings.title=Box Erbauer Einstellungen
+//[Reference] 'Save'
+BuildToolSettings.accept=Fertig
 //[Reference] 'Buy:'
 catalogue.buy=Kaufen:
 //[Reference] 'Clear'
@@ -265,8 +265,8 @@ escapeMenu.mainMenu=Zum Hauptmenü
 escapeMenu.options=Optionen
 //[Reference] 'Teleport Home'
 escapeMenu.returnHome=Nach Hause
-//TODO Translate [Reference] 'Face Extruder Settings'
-FaceExtruderSettings.title=
+//[Reference] 'Face Extruder Settings'
+FaceExtruderSettings.title=Oberflächen Extruder Einstellungen
 
 //[Reference] 'It got away!'
 fishing.gotAway=Er ist entkommen!
@@ -347,8 +347,8 @@ hintText.thiefThief=Dieb! Dir wird nach einer Weile vergeben.
 hintText.thiefWarning=Stehlen hat Konsequenzen.
 //[Reference] 'true'
 language.validated=true
-//TODO Translate [Reference] 'Line Builder Settings'
-LinePlacerSettings.title=
+//[Reference] 'Line Builder Settings'
+LinePlacerSettings.title=Linien Erbauer
 
 //[Reference] 'Downloading bundle assets'
 loading.bundles=Paket mit Assets wird herunterladen
@@ -420,22 +420,22 @@ options.audio.description=Ändere hier die Audio-Optionen
 options.auto=Auto
 //[Reference] '(X)'
 options.backButton=(X)
-//TODO Translate [Reference] 'Destructive Mode'
-options.boxtool.destructive=
-//TODO Translate [Reference] 'Determines whether or not the tool will destroy tiles in the way when creating a box'
-options.boxtool.destructive.description=
-//TODO Translate [Reference] 'Hollow Mode'
-options.boxtool.hollow=
-//TODO Translate [Reference] 'When On, the created box will be hollow inside'
-options.boxtool.hollow.description=
-//TODO Translate [Reference] 'Allow Gaps'
-options.faceextruder.allowgaps=
-//TODO Translate [Reference] 'Will extrude tiles even if there is a one tile gap from the main face'
-options.faceextruder.allowgaps.description=
-//TODO Translate [Reference] 'Destructive Mode'
-options.faceextruder.destructive=
-//TODO Translate [Reference] 'Determines whether or not the tool will destroy tiles in the way when extruding a face'
-options.faceextruder.destructive.description=
+//[Reference] 'Destructive Mode'
+options.boxtool.destructive=Abbau Modus
+//[Reference] 'Determines whether or not the tool will destroy tiles in the way when creating a box'
+options.boxtool.destructive.description=Entscheidet, ob das Werkzeug Objekte, die im Weg sind, zerstört, wenn man eine Box erschafft
+//[Reference] 'Hollow Mode'
+options.boxtool.hollow=Hohl Modus
+//[Reference] 'When On, the created box will be hollow inside'
+options.boxtool.hollow.description=Wenn aktiviert, wird die erschaffene Box innen hohl sein
+//[Reference] 'Allow Gaps'
+options.faceextruder.allowgaps=Erlaube Lücken
+//[Reference] 'Will extrude tiles even if there is a one tile gap from the main face'
+options.faceextruder.allowgaps.description=Wird die Objekte extruden auch wenn sich eine 1 Tile große Lücke in der Oberfläche befindet.
+//[Reference] 'Destructive Mode'
+options.faceextruder.destructive=Abbau Modus
+//[Reference] 'Determines whether or not the tool will destroy tiles in the way when extruding a face'
+options.faceextruder.destructive.description=Entscheidet, ob das Werkzeug Objekte, die im Weg sind, zerstört, wenn man eine Oberfläche erweitert
 //[Reference] 'Gameplay'
 options.gameplay=Spiel
 //[Reference] 'Mute Error Sounds'
@@ -617,14 +617,14 @@ options.keyBindings.pressToCancel=drücke {0}, um die Tastenbelegung abzubrechen
 options.keyBindings.pressToRemove=drücke {0}, um die Tastenbelegung zu entfernen
 //[Reference] 'Reset to Default Key Bindings'
 options.keyBindings.resetToDefault=Standard-Tastenbelegung wiederherstellen
-//TODO Translate [Reference] 'Destructive Mode'
-options.linetool.destructive=
-//TODO Translate [Reference] 'Determines whether or not the tool will destroy tiles in the way when creating a line'
-options.linetool.destructive.description=
-//TODO Translate [Reference] 'Supported Lines'
-options.linetool.supported=
-//TODO Translate [Reference] 'Adds extra tiles between tiles to ensure the structure is supported. (Can mess up diagonals such as rooves of On)'
-options.linetool.supported.description=
+//[Reference] 'Destructive Mode'
+options.linetool.destructive=Abbau Modus
+//[Reference] 'Determines whether or not the tool will destroy tiles in the way when creating a line'
+options.linetool.destructive.description=Entscheidet, ob das Werkzeug Objekte, die im Weg sind, zerstört, wenn man eine Linie erschaffen will
+//[Reference] 'Supported Lines'
+options.linetool.supported=Unterstützte Linien
+//[Reference] 'Adds extra tiles between tiles to ensure the structure is supported. (Can mess up diagonals such as rooves of On)'
+options.linetool.supported.description=Fügt extra Fliesen hinzu um sicherzustellen, dass die Struktur unterstützt wird. (Kann aber bei Diagonalen wie Dächer schiefgehen)
 //[Reference] 'Misc'
 options.misc=Sonstiges
 //[Reference] 'Reset'
@@ -637,18 +637,18 @@ options.misc.resetToDefault=Standard wiederherstellen
 options.network=Netzwerk
 //[Reference] 'Preferences'
 options.network.preferences=Einstellungen
-//TODO Translate [Reference] 'Destructive Mode'
-options.spheretool.destructive=
-//TODO Translate [Reference] 'Determines whether or not the tool will destroy tiles in the way when creating a sphere'
-options.spheretool.destructive.description=
-//TODO Translate [Reference] 'Hollow Mode'
-options.spheretool.hollow=
-//TODO Translate [Reference] 'When On, the created sphere will be hollow inside'
-options.spheretool.hollow.description=
-//TODO Translate [Reference] 'Sphere Radius'
-options.spheretool.radius=
-//TODO Translate [Reference] 'The radius of the sphere to create'
-options.spheretool.radius.description=
+//[Reference] 'Destructive Mode'
+options.spheretool.destructive=Abbau Modus
+//[Reference] 'Determines whether or not the tool will destroy tiles in the way when creating a sphere'
+options.spheretool.destructive.description=Entscheidet, ob das Werkzeug Objekte, die im Weg sind, zerstört, wenn man eine Sphäre erschaffen will
+//[Reference] 'Hollow Mode'
+options.spheretool.hollow=Hohl Modus
+//[Reference] 'When On, the created sphere will be hollow inside'
+options.spheretool.hollow.description=Wenn aktiviert, wird die erschaffene Sphäre innen hohl sein
+//[Reference] 'Sphere Radius'
+options.spheretool.radius=Sphären Radius
+//[Reference] 'The radius of the sphere to create'
+options.spheretool.radius.description=Der Radius der zu erschaffenden Sphäre
 //[Reference] 'Video'
 options.video=Video
 //[Reference] 'Set video options here'
@@ -775,15 +775,14 @@ singleplayer.serverSeed=Samen
 
 //[Reference] 'Single Player'
 singleplayer.singleplayer=Einzelspieler
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'World is currently opened. Can't change settings.'
-singleplayer.storageLockFile=Speicher wird genutzt, Lock-Datei wurde entdeckt.
+singleplayer.storageLockFile=Die Welt ist gerade geöffnet. Kann keine Einstellungen ändern.
 //[Reference] 'Village'
 singleplayer.village=Dorf
 //[Reference] 'World Size'
 singleplayer.worldSize=Weltgröße
-//TODO Translate [Reference] 'Sphere Builder Settings'
-SpherePlacerSettings.title=
+//[Reference] 'Sphere Builder Settings'
+SpherePlacerSettings.title=Sphären Bauer Einstellungen
 //[Reference] 'Controller is available'
 startMenu.controllerReady=Controller verfügbar
 
@@ -3213,37 +3212,37 @@ staxel.item.RowansParcel.name=Rowans Paket
 staxel.item.SoakedSponge.description=
 //[Reference] 'Soaked Sponge'
 staxel.item.SoakedSponge.name=Nasser Schwamm
-//TODO Translate [Reference] 'Sponge'
-staxel.item.Sponge.name=
-//TODO Translate [Reference] 'Click a tile to start, click another to end. Builds a box between the corners. Alt click for settings. (uses first tile as material)'
-staxel.item.tool.BoxPlacer.description=
-//TODO Translate [Reference] 'Box Builder'
-staxel.item.tool.BoxPlacer.name=
-//TODO Translate [Reference] 'Click a surface of connected same-type tiles to extrude the face in that direction. Alt click for settings'
-staxel.item.tool.FaceExtruder.description=
-//TODO Translate [Reference] 'Face Extruder'
-staxel.item.tool.FaceExtruder.name=
+//[Reference] 'Sponge'
+staxel.item.Sponge.name=Schwamm
+//[Reference] 'Click a tile to start, click another to end. Builds a box between the corners. Alt click for settings. (uses first tile as material)'
+staxel.item.tool.BoxPlacer.description=Klicke auf ein Objekt um zu starten, klicke auf ein anderes um zu beenden. Erschafft eine Box zwischen den Ecken. Alt Klick für Einstellungen. (Benutzt erstes Objekt als Material)
+//[Reference] 'Box Builder'
+staxel.item.tool.BoxPlacer.name=Box Erbauer
+//[Reference] 'Click a surface of connected same-type tiles to extrude the face in that direction. Alt click for settings'
+staxel.item.tool.FaceExtruder.description=Klicke auf eine Oberfläche die mit den selben Fliesen verbunden ist, um die Oberfläche in diese Richtung zu Erweitern. Alt Klick für Einstellungen.
+//[Reference] 'Face Extruder'
+staxel.item.tool.FaceExtruder.name=Oberflächen Extruder
 staxel.item.tool.FlowerWatercan.description=
 //[Reference] 'Flower Watering Can'
 staxel.item.tool.FlowerWatercan.name=Blumengießkanne
-//TODO Translate [Reference] 'Click a tile to start, click another to end. Builds a line between. Alt click for settings. (uses first tile as material)'
-staxel.item.tool.LinePlacer.description=
-//TODO Translate [Reference] 'Line Builder'
-staxel.item.tool.LinePlacer.name=
+//[Reference] 'Click a tile to start, click another to end. Builds a line between. Alt click for settings. (uses first tile as material)'
+staxel.item.tool.LinePlacer.description=Klicke auf ein Objekt um zu starten, klicke auf ein anderes um zu beenden. Erschafft eine Linie dazwischen. Alt Klick für Einstellungen. (Benutzt erstes Objekt als Material)
+//[Reference] 'Line Builder'
+staxel.item.tool.LinePlacer.name=Linien Erbauer
 staxel.item.tool.Manure.description=
 //[Reference] 'Manure'
 staxel.item.tool.Manure.name=Dung
-//TODO Translate [Reference] 'Click a tile to start, click another to end. First and last tile inclusive'
-staxel.item.tool.MeasuringTape.description=
-//TODO Translate [Reference] 'Measuring Tape'
-staxel.item.tool.MeasuringTape.name=
+//[Reference] 'Click a tile to start, click another to end. First and last tile inclusive'
+staxel.item.tool.MeasuringTape.description=Klicke auf ein Objekt um zu starten, klicke auf ein anderes um zu beenden. Erstes und letztes Objekt werden mitberechnet
+//[Reference] 'Measuring Tape'
+staxel.item.tool.MeasuringTape.name=Metermaß
 staxel.item.tool.PumpkingScythe.description=
 //[Reference] 'Pumpking Scythe'
 staxel.item.tool.PumpkingScythe.name=Pumpking-Sense
-//TODO Translate [Reference] 'Click a tile to place a sphere at it. Alt click for settings. (uses clicked tile as material)'
-staxel.item.tool.SpherePlacer.description=
-//TODO Translate [Reference] 'Sphere Builder'
-staxel.item.tool.SpherePlacer.name=
+//[Reference] 'Click a tile to place a sphere at it. Alt click for settings. (uses clicked tile as material)'
+staxel.item.tool.SpherePlacer.description=Klicke auf ein Objekt um eine Sphäre darauf zu erschaffen. Alt Klick für Einstellungen. (Benutzt das angeklickte Objekt als Material)
+//[Reference] 'Sphere Builder'
+staxel.item.tool.SpherePlacer.name=Sphären Erbauer
 staxel.item.tool.TaikoHammer.description=
 //[Reference] 'Taiko Hammer'
 staxel.item.tool.TaikoHammer.name=Taiko-Schlägel
@@ -3282,8 +3281,8 @@ staxel.merchant.Melissa.name=Melissa
 staxel.merchant.Morgan.name=Morgan
 //[Reference] 'Not enough money'
 staxel.merchant.NotEnoughMoney=Nicht genug Geld
-//TODO Translate [Reference] 'That isn't worth anything at the moment.'
-staxel.merchant.novalue=
+//[Reference] 'That isn't worth anything at the moment.'
+staxel.merchant.novalue=Das ist momentan überhaupt nichts wert.
 //[Reference] 'Paid {0-amount} petals!'
 staxel.merchant.paid={0-amount} Blütenblätter bezahlt!
 //[Reference] 'Received {0-amount} petals!'
