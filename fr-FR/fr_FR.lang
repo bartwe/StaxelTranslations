@@ -241,6 +241,18 @@ error.serverFull=Serveur plein
 error.serverOffline=Le serveur Staxel.net est hors-ligne. Veuillez réessayer plus tard.
 //[Reference] 'SORRY!'
 error.sorry=DÉSOLÉ !
+//TODO Translate [Reference] 'Cannot start a local private server for single player mode.{0-newLine}Is another copy of the game still running?{1-newLine}'
+error.startGame.gameRunning=
+//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.'
+error.startGame.localTcp=
+//TODO Translate [Reference] 'Not logged in.'
+error.startGame.notLoggedIn=
+//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed quickly before client could connect.'
+error.startGame.quickNoConnect=
+//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Timeout on trying to connect with local server.'
+error.startGame.timeout=
+//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed very quickly before client could connect.'
+error.startGame.veryQuickNoConnect=
 //[Reference] 'Cancel'
 escapemenu.cancel=Annuler
 //[Reference] 'Are you sure you want to exit to desktop? Progress is saved automatically.'
@@ -593,6 +605,8 @@ options.general.graphics.ultra=Ultra
 options.general.graphics.WeatherParticles=Empêche les particules météo en intérieur
 //[Reference] 'Language'
 options.general.language=Langue
+//TODO Translate [Reference] 'The {0-binding} control is not available for {1-logicalType} bindings.'
+options.keyBindings.bindingLocked=
 //[Reference] 'Controller'
 options.keyBindings.controller=Manette
 //[Reference] 'Gameplay'
@@ -975,6 +989,15 @@ staxel.accessories.helmets.mecha.Mecha_Red.name=Mecha Rouge
 staxel.accessories.helmets.mecha.Mecha_XYellow.description=Casque Mecha Jaune
 //[Reference] 'Mecha_XYellow'
 staxel.accessories.helmets.mecha.Mecha_XYellow.name=Mecha Jaune
+staxel.accessories.pants.jeans.description=
+//TODO Translate [Reference] 'jeans'
+staxel.accessories.pants.jeans.name=
+staxel.accessories.pants.supershort.description=
+//TODO Translate [Reference] 'supershort'
+staxel.accessories.pants.supershort.name=
+staxel.accessories.pants.tracksuit.description=
+//TODO Translate [Reference] 'tracksuit'
+staxel.accessories.pants.tracksuit.name=
 staxel.accessories.shirts.colouredhoodie.ColouredHoodie.description=Pour ne pas être repéré dans les fleurs
 //[Reference] 'Coloured Hoodie'
 staxel.accessories.shirts.colouredhoodie.ColouredHoodie.name=Sweat à capuche coloré
@@ -3331,7 +3354,10 @@ staxel.nightTransition.Line22=Astuce : Assurez vous de câliner vos animaux chaq
 staxel.nightTransition.Line23=Astuce : Vous pouvez garder le bouton enfoncé pour planter des graines ou ramasser les objets
 //[Reference] 'Next'
 staxel.nightTransition.next=Suivant
-//[Reference] 'Press {0-key} to continue...'
+//TODO Translate [Reference] 'Wake Up'
+staxel.nightTransition.PressContinueButton=
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Click '{0-button}' or press '{1-key}' to continue...'
 staxel.nightTransition.PressToContinue=Appuyez sur {0-key} pour continuer...
 //[Reference] 'Prev'
 staxel.nightTransition.prev=Précédent
@@ -4992,6 +5018,12 @@ staxel.tileObject.shop.ShopWindow3.name=Vitrine
 staxel.tileObject.shop.ShopWindow4.description=Vitrine
 //[Reference] 'Shop Window4'
 staxel.tileObject.shop.ShopWindow4.name=Vitrine
+staxel.tileObject.sign.LargeWoodenSign.description=
+//TODO Translate [Reference] 'Large Wooden Sign'
+staxel.tileObject.sign.LargeWoodenSign.name=
+staxel.tileObject.sign.SmallWoodenSign.description=
+//TODO Translate [Reference] 'Small Wooden Sign'
+staxel.tileObject.sign.SmallWoodenSign.name=
 staxel.tileObject.tavern.PinballMachine.description=
 //[Reference] 'Pinball Machine'
 staxel.tileObject.tavern.PinballMachine.name=Flipper
