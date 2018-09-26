@@ -247,6 +247,18 @@ error.serverFull=サーバーが満杯です
 error.serverOffline=Staxel.netはオフラインのようです。しばらくしてからもう一度お試しください。
 //[Reference] 'SORRY!'
 error.sorry=申し訳ございません。
+//TODO Translate [Reference] 'Cannot start a local private server for single player mode.{0-newLine}Is another copy of the game still running?{1-newLine}'
+error.startGame.gameRunning=
+//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.'
+error.startGame.localTcp=
+//TODO Translate [Reference] 'Not logged in.'
+error.startGame.notLoggedIn=
+//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed quickly before client could connect.'
+error.startGame.quickNoConnect=
+//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Timeout on trying to connect with local server.'
+error.startGame.timeout=
+//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed very quickly before client could connect.'
+error.startGame.veryQuickNoConnect=
 //[Reference] 'Cancel'
 escapemenu.cancel=キャンセル
 //[Reference] 'Are you sure you want to exit to desktop? Progress is saved automatically.'
@@ -605,6 +617,8 @@ options.general.graphics.ultra=ウルトラ
 options.general.graphics.WeatherParticles=室内の天気を無効にする
 //[Reference] 'Language'
 options.general.language=言語
+//TODO Translate [Reference] 'The {0-binding} control is not available for {1-logicalType} bindings.'
+options.keyBindings.bindingLocked=
 //[Reference] 'Controller'
 options.keyBindings.controller=コントローラー
 //[Reference] 'Gameplay'
@@ -994,6 +1008,15 @@ staxel.accessories.helmets.mecha.Mecha_Red.name=メカレッド
 staxel.accessories.helmets.mecha.Mecha_XYellow.description=
 //[Reference] 'Mecha_XYellow'
 staxel.accessories.helmets.mecha.Mecha_XYellow.name=メカXイエロー
+staxel.accessories.pants.jeans.description=
+//TODO Translate [Reference] 'jeans'
+staxel.accessories.pants.jeans.name=
+staxel.accessories.pants.supershort.description=
+//TODO Translate [Reference] 'supershort'
+staxel.accessories.pants.supershort.name=
+staxel.accessories.pants.tracksuit.description=
+//TODO Translate [Reference] 'tracksuit'
+staxel.accessories.pants.tracksuit.name=
 staxel.accessories.shirts.colouredhoodie.ColouredHoodie.description=
 //[Reference] 'Coloured Hoodie'
 staxel.accessories.shirts.colouredhoodie.ColouredHoodie.name=カラーパーカー
@@ -3372,7 +3395,10 @@ staxel.nightTransition.Line22=ヒント：動物の機嫌を損ねたくない�
 staxel.nightTransition.Line23=ヒント：ボタンを押し続けると、連続して種をまいたりアイテムを拾ったりできます。
 //[Reference] 'Next'
 staxel.nightTransition.next=次へ
-//[Reference] 'Press {0-key} to continue...'
+//TODO Translate [Reference] 'Wake Up'
+staxel.nightTransition.PressContinueButton=
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Click '{0-button}' or press '{1-key}' to continue...'
 staxel.nightTransition.PressToContinue={0-key}を押してください...
 //[Reference] 'Prev'
 staxel.nightTransition.prev=前へ
@@ -5049,6 +5075,12 @@ staxel.tileObject.shop.ShopWindow3.name=ショーウィンドウ3
 staxel.tileObject.shop.ShopWindow4.description=
 //[Reference] 'Shop Window4'
 staxel.tileObject.shop.ShopWindow4.name=ショーウィンドウ4
+staxel.tileObject.sign.LargeWoodenSign.description=
+//TODO Translate [Reference] 'Large Wooden Sign'
+staxel.tileObject.sign.LargeWoodenSign.name=
+staxel.tileObject.sign.SmallWoodenSign.description=
+//TODO Translate [Reference] 'Small Wooden Sign'
+staxel.tileObject.sign.SmallWoodenSign.name=
 staxel.tileObject.tavern.PinballMachine.description=
 //[Reference] 'Pinball Machine'
 staxel.tileObject.tavern.PinballMachine.name=ピンボールマシン

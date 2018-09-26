@@ -252,6 +252,18 @@ error.serverFull=
 error.serverOffline=Staxel.net伺服器似乎處於離線狀態，請稍後再試。
 //[Reference] 'SORRY!'
 error.sorry=抱歉！
+//TODO Translate [Reference] 'Cannot start a local private server for single player mode.{0-newLine}Is another copy of the game still running?{1-newLine}'
+error.startGame.gameRunning=
+//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.'
+error.startGame.localTcp=
+//TODO Translate [Reference] 'Not logged in.'
+error.startGame.notLoggedIn=
+//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed quickly before client could connect.'
+error.startGame.quickNoConnect=
+//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Timeout on trying to connect with local server.'
+error.startGame.timeout=
+//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed very quickly before client could connect.'
+error.startGame.veryQuickNoConnect=
 //[Reference] 'Cancel'
 escapemenu.cancel=取消
 //[Reference] 'Are you sure you want to exit to desktop? Progress is saved automatically.'
@@ -610,6 +622,8 @@ options.general.graphics.ultra=超高
 options.general.graphics.WeatherParticles=阻止室內天氣
 //[Reference] 'Language'
 options.general.language=語言
+//TODO Translate [Reference] 'The {0-binding} control is not available for {1-logicalType} bindings.'
+options.keyBindings.bindingLocked=
 //TODO Translate [Reference] 'Controller'
 options.keyBindings.controller=
 //TODO Translate [Reference] 'Gameplay'
@@ -1006,6 +1020,15 @@ staxel.accessories.helmets.mecha.Mecha_Red.name=機甲_紅
 staxel.accessories.helmets.mecha.Mecha_XYellow.description=
 //[Reference] 'Mecha_XYellow'
 staxel.accessories.helmets.mecha.Mecha_XYellow.name=機甲_X黃
+staxel.accessories.pants.jeans.description=
+//TODO Translate [Reference] 'jeans'
+staxel.accessories.pants.jeans.name=
+staxel.accessories.pants.supershort.description=
+//TODO Translate [Reference] 'supershort'
+staxel.accessories.pants.supershort.name=
+staxel.accessories.pants.tracksuit.description=
+//TODO Translate [Reference] 'tracksuit'
+staxel.accessories.pants.tracksuit.name=
 staxel.accessories.shirts.colouredhoodie.ColouredHoodie.description=
 //TODO Translate [Reference] 'Coloured Hoodie'
 staxel.accessories.shirts.colouredhoodie.ColouredHoodie.name=
@@ -3454,8 +3477,11 @@ staxel.nightTransition.Line22=
 staxel.nightTransition.Line23=
 //[Reference] 'Next'
 staxel.nightTransition.next=下一頁
+//TODO Translate [Reference] 'Wake Up'
+staxel.nightTransition.PressContinueButton=
 //[Reference] 'Press {0-key} to continue...'
-//[Reference] 'Press {0-key} to continue...'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Click '{0-button}' or press '{1-key}' to continue...'
 staxel.nightTransition.PressToContinue=按下{0-key}繼續……
 //[Reference] 'Prev'
 staxel.nightTransition.prev=上一頁
@@ -5203,6 +5229,12 @@ staxel.tileObject.shop.ShopWindow4.description=
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Shop Window4'
 staxel.tileObject.shop.ShopWindow4.name=商店窗戶4
+staxel.tileObject.sign.LargeWoodenSign.description=
+//TODO Translate [Reference] 'Large Wooden Sign'
+staxel.tileObject.sign.LargeWoodenSign.name=
+staxel.tileObject.sign.SmallWoodenSign.description=
+//TODO Translate [Reference] 'Small Wooden Sign'
+staxel.tileObject.sign.SmallWoodenSign.name=
 staxel.tileObject.tavern.PinballMachine.description=
 //TODO Translate [Reference] 'Pinball Machine'
 staxel.tileObject.tavern.PinballMachine.name=
