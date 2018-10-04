@@ -244,18 +244,18 @@ error.serverFull=Server voll
 error.serverOffline=Der Staxel.net-Server scheint offline zu sein. Bitte probiere es später noch einmal.
 //[Reference] 'SORRY!'
 error.sorry=ENTSCHULDIGUNG!
-//TODO Translate [Reference] 'Cannot start a local private server for single player mode.{0-newLine}Is another copy of the game still running?{1-newLine}'
-error.startGame.gameRunning=
-//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.'
-error.startGame.localTcp=
-//TODO Translate [Reference] 'Not logged in.'
-error.startGame.notLoggedIn=
-//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed quickly before client could connect.'
-error.startGame.quickNoConnect=
-//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Timeout on trying to connect with local server.'
-error.startGame.timeout=
-//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed very quickly before client could connect.'
-error.startGame.veryQuickNoConnect=
+//[Reference] 'Cannot start a local private server for single player mode.{0-newLine}Is another copy of the game still running?{1-newLine}'
+error.startGame.gameRunning=Kann keinen lokalen privaten Server im Einzelspieler starten.{0-newLine}Ist eine andere Kopie des Spiels am laufen?{1-newLine}
+//[Reference] 'Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.'
+error.startGame.localTcp=Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten.{0-newLine}Der Server schloss sich bevor der Client eine lokale TCP Verbindung aufbauen konnte.{1-newLine}
+//[Reference] 'Not logged in.'
+error.startGame.notLoggedIn=Nicht eingeloggt
+//[Reference] 'Game failed to start a local private server for single player mode. Server closed quickly before client could connect.'
+error.startGame.quickNoConnect=Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten.{0-newLine}Der Server schloss schnell, bevor der Client sich verbinden konnte.{1-newLine}
+//[Reference] 'Game failed to start a local private server for single player mode. Timeout on trying to connect with local server.'
+error.startGame.timeout=Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten. Timout während man versucht zum lokalen Server zu verbinden.
+//[Reference] 'Game failed to start a local private server for single player mode. Server closed very quickly before client could connect.'
+error.startGame.veryQuickNoConnect==Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten.{0-newLine}Der Server schloss sehr schnell, bevor der Client sich verbinden konnte.{1-newLine}
 //[Reference] 'Cancel'
 escapemenu.cancel=Abbrechen
 //[Reference] 'Are you sure you want to exit to desktop? Progress is saved automatically.'
@@ -494,8 +494,8 @@ options.gameplay.mouse.smoothingFactor=Glätten
 options.gameplay.other=Anderes
 //[Reference] 'Active Achievement Tracker'
 options.gameplay.other.activeAchievement=Aktiver Achievement-Tracker
-//TODO Translate [Reference] 'Auto Pickup Items'
-options.gameplay.other.autoPickupItems=
+//[Reference] 'Auto Pickup Items'
+options.gameplay.other.autoPickupItems=Automatisch Items Aufheben
 //[Reference] 'Text Speed:'
 options.gameplay.other.ChatSpeed=Textgeschwindigkeit:
 //[Reference] 'Chat Timestamps'
@@ -905,11 +905,11 @@ staxel.accessories.fullBodyOutfits.villager.Aliza.description=
 //[Reference] 'Aliza'
 staxel.accessories.fullBodyOutfits.villager.Aliza.name=Aliza
 staxel.accessories.fullBodyOutfits.villager.Alua.description=
-//TODO Translate [Reference] 'Alua'
-staxel.accessories.fullBodyOutfits.villager.Alua.name=
+//[Reference] 'Alua'
+staxel.accessories.fullBodyOutfits.villager.Alua.name=Alua
 staxel.accessories.fullBodyOutfits.villager.BoisterousTourist.description=
-//TODO Translate [Reference] 'Boisterous Tourist'
-staxel.accessories.fullBodyOutfits.villager.BoisterousTourist.name=
+//[Reference] 'Boisterous Tourist'
+staxel.accessories.fullBodyOutfits.villager.BoisterousTourist.name=Übermütiger Tourist
 staxel.accessories.fullBodyOutfits.villager.Cecile.description=
 //[Reference] 'Cecile'
 staxel.accessories.fullBodyOutfits.villager.Cecile.name=Cecile
@@ -959,8 +959,8 @@ staxel.accessories.fullBodyOutfits.villager.Princess.description=
 //[Reference] 'Princess'
 staxel.accessories.fullBodyOutfits.villager.Princess.name=Prinzessin
 staxel.accessories.fullBodyOutfits.villager.RainbowButterfly.description=
-//TODO Translate [Reference] 'Rainbow Butterfly'
-staxel.accessories.fullBodyOutfits.villager.RainbowButterfly.name=
+//[Reference] 'Rainbow Butterfly'
+staxel.accessories.fullBodyOutfits.villager.RainbowButterfly.name=Regenbogenschmetterling
 staxel.accessories.fullBodyOutfits.villager.Riah.description=
 //[Reference] 'Riah'
 staxel.accessories.fullBodyOutfits.villager.Riah.name=Riah
@@ -971,14 +971,14 @@ staxel.accessories.fullBodyOutfits.villager.Rowan.description=
 //[Reference] 'Rowan'
 staxel.accessories.fullBodyOutfits.villager.Rowan.name=Rowan
 staxel.accessories.fullBodyOutfits.villager.ShyTourist.description=
-//TODO Translate [Reference] 'Shy Tourist'
-staxel.accessories.fullBodyOutfits.villager.ShyTourist.name=
+//[Reference] 'Shy Tourist'
+staxel.accessories.fullBodyOutfits.villager.ShyTourist.name=Schüchterner Tourist
 staxel.accessories.fullBodyOutfits.villager.SmartTourist.description=
-//TODO Translate [Reference] 'Smart Tourist'
-staxel.accessories.fullBodyOutfits.villager.SmartTourist.name=
+//[Reference] 'Smart Tourist'
+staxel.accessories.fullBodyOutfits.villager.SmartTourist.name=Cleverer Tourist
 staxel.accessories.fullBodyOutfits.villager.TrashFairy.description=
-//TODO Translate [Reference] 'Trash Fairy'
-staxel.accessories.fullBodyOutfits.villager.TrashFairy.name=
+//[Reference] 'Trash Fairy'
+staxel.accessories.fullBodyOutfits.villager.TrashFairy.name=Müllfee
 staxel.accessories.fullBodyOutfits.villager.Vorlen.description=
 //[Reference] 'Vorlen'
 staxel.accessories.fullBodyOutfits.villager.Vorlen.name=Vorlen
@@ -1005,14 +1005,14 @@ staxel.accessories.helmets.mecha.Mecha_XYellow.description=
 //[Reference] 'Mecha_XYellow'
 staxel.accessories.helmets.mecha.Mecha_XYellow.name=Mecha_XYellow
 staxel.accessories.pants.jeans.description=
-//TODO Translate [Reference] 'jeans'
-staxel.accessories.pants.jeans.name=
+//[Reference] 'jeans'
+staxel.accessories.pants.jeans.name=Jeans
 staxel.accessories.pants.supershort.description=
 //TODO Translate [Reference] 'supershort'
 staxel.accessories.pants.supershort.name=
 staxel.accessories.pants.tracksuit.description=
-//TODO Translate [Reference] 'tracksuit'
-staxel.accessories.pants.tracksuit.name=
+//[Reference] 'tracksuit'
+staxel.accessories.pants.tracksuit.name=Trainingsanzug
 staxel.accessories.shirts.colouredhoodie.ColouredHoodie.description=
 //[Reference] 'Coloured Hoodie'
 staxel.accessories.shirts.colouredhoodie.ColouredHoodie.name=Farbiger Hoodie
@@ -1029,29 +1029,29 @@ staxel.accessories.shirts.tartanshirts.TartanShirt.description=
 //[Reference] 'Tartan Shirt'
 staxel.accessories.shirts.tartanshirts.TartanShirt.name=Kariertes Shirt
 staxel.accessories.shorts.BermudaShorts.description=
-//TODO Translate [Reference] 'Bermuda Shorts'
-staxel.accessories.shorts.BermudaShorts.name=
+//[Reference] 'Bermuda Shorts'
+staxel.accessories.shorts.BermudaShorts.name=Bermuda Hosen
 staxel.accessories.shorts.shortjeanspaletted.description=
 //[Reference] 'shortjeanspaletted'
 staxel.accessories.shorts.shortjeanspaletted.name=Kurze Jeans
 staxel.accessories.skirts.MiniSkirt.description=
-//TODO Translate [Reference] 'Mini Skirt'
-staxel.accessories.skirts.MiniSkirt.name=
+//[Reference] 'Mini Skirt'
+staxel.accessories.skirts.MiniSkirt.name=Minirock
 staxel.accessories.skirts.Skirt.1.description=
-//TODO Translate [Reference] 'Skirt'
-staxel.accessories.skirts.Skirt.1.name=
+//[Reference] 'Skirt'
+staxel.accessories.skirts.Skirt.1.name=Rock
 staxel.accessories.skirts.Skirt.2.description=
-//TODO Translate [Reference] 'Skirt'
-staxel.accessories.skirts.Skirt.2.name=
+//[Reference] 'Skirt'
+staxel.accessories.skirts.Skirt.2.name=Rock
 staxel.accessories.skirts.Skirt.3.description=
-//TODO Translate [Reference] 'Skirt'
-staxel.accessories.skirts.Skirt.3.name=
+//[Reference] 'Skirt'
+staxel.accessories.skirts.Skirt.3.name=Rock
 staxel.accessories.skirts.Skirt.description=
-//TODO Translate [Reference] 'Skirt'
-staxel.accessories.skirts.Skirt.name=
+//[Reference] 'Skirt'
+staxel.accessories.skirts.Skirt.name=Rock
 staxel.accessories.skirts.SkirtLongRuffles.description=
-//TODO Translate [Reference] 'Skirt Long Ruffles'
-staxel.accessories.skirts.SkirtLongRuffles.name=
+//[Reference] 'Skirt Long Ruffles'
+staxel.accessories.skirts.SkirtLongRuffles.name=Rock Lange Rüschen
 staxel.accessories.swimsuits.Swimsuit.1.description=
 //TODO Translate [Reference] '1'
 staxel.accessories.swimsuits.Swimsuit.1.name=
@@ -1139,14 +1139,14 @@ staxel.bush.GoldenberryBush.name=Kapstachelbeerbuschsamen
 staxel.bush.RaspberryBush.description=Ein Busch, an dem leckere Himbeeren wachsen. Überlebt außerhalb der Saison.
 //[Reference] 'Raspberry Bush Seed'
 staxel.bush.RaspberryBush.name=Himbeerbuschsamen
-//TODO Translate [Reference] 'abstract'
-staxel.category.abstract=
-//TODO Translate [Reference] 'accessories'
-staxel.category.accessories=
+//[Reference] 'abstract'
+staxel.category.abstract=abstrakt
+//[Reference] 'accessories'
+staxel.category.accessories=Zubehör
 //[Reference] 'acorn'
 staxel.category.acorn=Eichel
-//TODO Translate [Reference] 'amber'
-staxel.category.amber=
+//[Reference] 'amber'
+staxel.category.amber=Bernstein
 //[Reference] 'animal Crate'
 staxel.category.animalCrate=Tierkiste
 //[Reference] 'Apple Pie Stand'
@@ -1175,8 +1175,8 @@ staxel.category.berry=Beere
 staxel.category.BlackberryPieStand=Brombeerkuchen-Stand
 //[Reference] 'Blueberry Pie Stand'
 staxel.category.BlueberryPieStand=Blaubeerkuchen-Stand
-//TODO Translate [Reference] 'bobble'
-staxel.category.bobble=
+//[Reference] 'bobble'
+staxel.category.bobble=Wackel
 //[Reference] 'boil'
 staxel.category.boil=kochen
 //[Reference] 'boiled'
@@ -1189,8 +1189,8 @@ staxel.category.bugDisplay=Vitrine für Käfer
 staxel.category.butterfly=Schmetterling
 //[Reference] 'Campfire Large'
 staxel.category.CampfireLarge=Großes Lagerfeuer
-//TODO Translate [Reference] 'candles'
-staxel.category.candles=
+//[Reference] 'candles'
+staxel.category.candles=Kerzen
 //[Reference] 'capture'
 staxel.category.capture=fangen
 //[Reference] 'carpentry'
@@ -1203,28 +1203,28 @@ staxel.category.carve=schnitzen
 staxel.category.carving=Schnitzen
 //[Reference] 'case'
 staxel.category.case=verbergen
-//TODO Translate [Reference] 'castle'
-staxel.category.castle=
+//[Reference] 'castle'
+staxel.category.castle=Schloss
 //[Reference] 'cave'
 staxel.category.cave=aushöhlen
-//TODO Translate [Reference] 'Cecile'
-staxel.category.Cecile=
+//[Reference] 'Cecile'
+staxel.category.Cecile=Cecile
 //[Reference] 'Cherry Pie Stand'
 staxel.category.CherryPieStand=Kirschkuchen-Stand
-//TODO Translate [Reference] 'chocoblueberry'
-staxel.category.chocoblueberry=
-//TODO Translate [Reference] 'chocogrape'
-staxel.category.chocogrape=
+//[Reference] 'chocoblueberry'
+staxel.category.chocoblueberry=Schokoblaubeere
+//[Reference] 'chocogrape'
+staxel.category.chocogrape=Schokotraube
 //[Reference] 'Chocolate Cake Stand'
 staxel.category.ChocolateCakeStand=Schokokuchen-Stand
-//TODO Translate [Reference] 'chocolime'
-staxel.category.chocolime=
-//TODO Translate [Reference] 'chocomint'
-staxel.category.chocomint=
-//TODO Translate [Reference] 'chocoorange'
-staxel.category.chocoorange=
-//TODO Translate [Reference] 'chocostrawberry'
-staxel.category.chocostrawberry=
+//[Reference] 'chocolime'
+staxel.category.chocolime=Schokolimette
+//[Reference] 'chocomint'
+staxel.category.chocomint=Schokominze
+//[Reference] 'chocoorange'
+staxel.category.chocoorange=Schokoorange
+//[Reference] 'chocostrawberry'
+staxel.category.chocostrawberry=Schokoerdbeere
 //[Reference] 'cicada'
 staxel.category.cicada=Zikade
 //[Reference] 'cirahna'
@@ -1251,8 +1251,8 @@ staxel.category.cotton=Baumwolle
 staxel.category.creaturebud=Tierknospe
 //[Reference] 'Cube'
 staxel.category.cube=Würfel
-//TODO Translate [Reference] 'cubic'
-staxel.category.cubic=
+//[Reference] 'cubic'
+staxel.category.cubic=würfelig
 //[Reference] 'dinosaur'
 staxel.category.dinosaur=Dinosaurier
 //[Reference] 'doorTest'
@@ -1267,18 +1267,18 @@ staxel.category.dryer=Trockner
 staxel.category.drying=trocknen
 //[Reference] 'dye'
 staxel.category.dye=Färbemittel
-//TODO Translate [Reference] 'fancy'
-staxel.category.fancy=
-//TODO Translate [Reference] 'farmer'
-staxel.category.farmer=
+//[Reference] 'fancy'
+staxel.category.fancy=schick
+//[Reference] 'farmer'
+staxel.category.farmer=Farmer
 //[Reference] 'farming'
 staxel.category.farming=Landwirtschaft
 //[Reference] 'fertilizer'
 staxel.category.fertilizer=Dünger
 //[Reference] 'fey'
 staxel.category.fey=Fee
-//TODO Translate [Reference] 'filling'
-staxel.category.filling=
+//[Reference] 'filling'
+staxel.category.filling=füllen
 //[Reference] 'fin'
 staxel.category.fin=Flosse
 //[Reference] 'fine'
@@ -1306,12 +1306,12 @@ staxel.category.GoldenPumpkin=Goldener Kürbis
 staxel.category.GoldenStrawberry=Goldene Erdbeere
 //[Reference] 'Golden Watermelon'
 staxel.category.GoldenWatermelon=Goldene Wassermelone
-//TODO Translate [Reference] 'grape'
-staxel.category.grape=
+//[Reference] 'grape'
+staxel.category.grape=Traube
 //[Reference] 'hanging'
 staxel.category.hanging=Hängen
-//TODO Translate [Reference] 'harvest'
-staxel.category.harvest=
+//[Reference] 'harvest'
+staxel.category.harvest=Ernten
 //[Reference] 'hay'
 staxel.category.hay=Heu
 //[Reference] 'herb'
@@ -1331,10 +1331,10 @@ staxel.category.iron=Eisen
 staxel.category.japanese=Japanisch
 //[Reference] 'jelly'
 staxel.category.jelly=Gelee
-//TODO Translate [Reference] 'judge'
-staxel.category.judge=
-//TODO Translate [Reference] 'judging'
-staxel.category.judging=
+//[Reference] 'judge'
+staxel.category.judge=Richter
+//[Reference] 'judging'
+staxel.category.judging=richten
 //[Reference] 'kennel'
 staxel.category.kennel=Hundehütte
 //[Reference] 'Knob'
@@ -1365,26 +1365,26 @@ staxel.category.lure=Köder
 staxel.category.machine=Maschine
 //[Reference] 'mainspring'
 staxel.category.mainspring=Antriebsfeder
-//TODO Translate [Reference] 'making'
-staxel.category.making=
+//[Reference] 'making'
+staxel.category.making=machen
 //[Reference] 'manure'
 staxel.category.manure=Dung
 //[Reference] 'masonry'
 staxel.category.masonry=Mauerwerk
-//TODO Translate [Reference] 'Max'
-staxel.category.Max=
+//[Reference] 'Max'
+staxel.category.Max=Max
 //[Reference] 'meat'
 staxel.category.meat=Fleisch
 //[Reference] 'mermaid'
 staxel.category.mermaid=Meerjungfrau
-//TODO Translate [Reference] 'microwave'
-staxel.category.microwave=
-//TODO Translate [Reference] 'mill'
-staxel.category.mill=
+//[Reference] 'microwave'
+staxel.category.microwave=Mikrowelle
+//[Reference] 'mill'
+staxel.category.mill=Mühle
 //[Reference] 'mine'
 staxel.category.mine=Mine
-//TODO Translate [Reference] 'mint'
-staxel.category.mint=
+//[Reference] 'mint'
+staxel.category.mint=Minze
 //[Reference] 'mix'
 staxel.category.mix=mischen
 //[Reference] 'mortar'
@@ -1406,8 +1406,8 @@ staxel.category.OrangePieStand=Orangenkuchen-Stand
 staxel.category.order=Bestellung
 //[Reference] 'oscar Quest Trash'
 staxel.category.oscarQuestTrash=Müll für Oscars Aufgabe
-//TODO Translate [Reference] 'pail'
-staxel.category.pail=
+//[Reference] 'pail'
+staxel.category.pail=Bleich
 //[Reference] 'painting'
 staxel.category.painting=Gemälde
 //[Reference] 'pallet'
@@ -1418,62 +1418,62 @@ staxel.category.palm=Palme
 staxel.category.pancakes=Pfannkuchen
 //[Reference] 'pane'
 staxel.category.pane=Scheibe
-//TODO Translate [Reference] 'pans'
-staxel.category.pans=
-//TODO Translate [Reference] 'pastry'
-staxel.category.pastry=
+//[Reference] 'pans'
+staxel.category.pans=schwenken
+//[Reference] 'pastry'
+staxel.category.pastry=Gebäck
 //[Reference] 'patisserie'
 staxel.category.patisserie=Konditorei
 //[Reference] 'Peach Pie Stand'
 staxel.category.PeachPieStand=Pfirsichkuchen-Stand
-//TODO Translate [Reference] 'pepper'
-staxel.category.pepper=
-//TODO Translate [Reference] 'petal'
-staxel.category.petal=
+//[Reference] 'pepper'
+staxel.category.pepper=Pfeffer
+//[Reference] 'petal'
+staxel.category.petal=Blütenblatt
 //[Reference] 'pinball'
 staxel.category.pinball=Flipper
-//TODO Translate [Reference] 'pizza'
-staxel.category.pizza=
+//[Reference] 'pizza'
+staxel.category.pizza=Pizza
 //[Reference] 'Plain Cake Stand'
 staxel.category.PlainCakeStand=Kuchenstand
 //[Reference] 'platform'
 staxel.category.platform=Plattform
 //[Reference] 'playpen'
 staxel.category.playpen=Laufstall
-//TODO Translate [Reference] 'plushie'
-staxel.category.plushie=
-//TODO Translate [Reference] 'plushy'
-staxel.category.plushy=
+//[Reference] 'plushie'
+staxel.category.plushie=Plüschtier
+//[Reference] 'plushy'
+staxel.category.plushy=Plüschig
 //[Reference] 'polisher'
 staxel.category.polisher=Polierer
 //[Reference] 'poop'
 staxel.category.poop=Kot
 //[Reference] 'popcorn'
 staxel.category.popcorn=Popkorn
-//TODO Translate [Reference] 'popsicle'
-staxel.category.popsicle=
+//[Reference] 'popsicle'
+staxel.category.popsicle=Eis
 //[Reference] 'porridge'
 staxel.category.porridge=Haferbrei
-//TODO Translate [Reference] 'potion'
-staxel.category.potion=
-//TODO Translate [Reference] 'potions'
-staxel.category.potions=
-//TODO Translate [Reference] 'powerful'
-staxel.category.powerful=
-//TODO Translate [Reference] 'prize'
-staxel.category.prize=
+//[Reference] 'potion'
+staxel.category.potion=Trank
+//[Reference] 'potions'
+staxel.category.potions=Tränke
+//[Reference] 'powerful'
+staxel.category.powerful=stark
+//[Reference] 'prize'
+staxel.category.prize=Preis
 //[Reference] 'rabbit'
 staxel.category.rabbit=Kaninchen
 //[Reference] 'rack'
 staxel.category.rack=Gestell
-//TODO Translate [Reference] 'range'
-staxel.category.range=
+//[Reference] 'range'
+staxel.category.range=Weite
 //[Reference] 'Raw Wood'
 staxel.category.rawWood=Rohholz
 //TODO Translate [Reference] 'refridgerator'
 staxel.category.refridgerator=
-//TODO Translate [Reference] 'restaurant'
-staxel.category.restaurant=
+//[Reference] 'restaurant'
+staxel.category.restaurant=Restaurant
 //[Reference] 'rice'
 staxel.category.rice=Reis
 //[Reference] 'sack'
@@ -1488,8 +1488,8 @@ staxel.category.scaffold=Gerüst
 staxel.category.scaffolding=Gerüst
 //[Reference] 'science'
 staxel.category.science=Wissenschaft
-//TODO Translate [Reference] 'scientific'
-staxel.category.scientific=
+//[Reference] 'scientific'
+staxel.category.scientific=wissenschaftlich
 //[Reference] 'sea'
 staxel.category.sea=Meer
 //[Reference] 'seafood'
@@ -1504,16 +1504,16 @@ staxel.category.shell=Muschel
 staxel.category.shingles=Ziegel
 //[Reference] 'ship'
 staxel.category.ship=Schiff
-//TODO Translate [Reference] 'shovel'
-staxel.category.shovel=
+//[Reference] 'shovel'
+staxel.category.shovel=Schaufel
 //[Reference] 'shrimp'
 staxel.category.shrimp=Garnele
 //[Reference] 'shrine'
 staxel.category.shrine=Schrein
-//TODO Translate [Reference] 'slime'
-staxel.category.slime=
-//TODO Translate [Reference] 'slimy'
-staxel.category.slimy=
+//[Reference] 'slime'
+staxel.category.slime=Schleim
+//[Reference] 'slimy'
+staxel.category.slimy=schleimig
 //[Reference] 'Small Bug Display'
 staxel.category.smallBugDisplay=Kleine Vitrine für Käfer
 //[Reference] 'small Display'
@@ -1554,12 +1554,12 @@ staxel.category.unbaked=ungebacken
 staxel.category.upside down straight roof=auf den Kopf gestelltes gerades Dach
 //[Reference] 'varnish'
 staxel.category.varnish=Lack
-//TODO Translate [Reference] 'vase'
-staxel.category.vase=
+//[Reference] 'vase'
+staxel.category.vase=Vase
 //[Reference] 'Vegetable Pie Stand'
 staxel.category.VegetablePieStand=Gemüsekuchen-Stand
-//TODO Translate [Reference] 'vial'
-staxel.category.vial=
+//[Reference] 'vial'
+staxel.category.vial=Phiole
 //[Reference] 'wand'
 staxel.category.wand=Stab
 //[Reference] 'washer'
@@ -2241,8 +2241,8 @@ staxel.gameLogicalButton.Esc=Esc
 staxel.gameLogicalButton.Forward=Vorwärts
 //[Reference] 'Inventory'
 staxel.gameLogicalButton.Inventory=Inventar
-//TODO Translate [Reference] 'Inventory Direct'
-staxel.gameLogicalButton.InventoryDirect=
+//[Reference] 'Inventory Direct'
+staxel.gameLogicalButton.InventoryDirect=Direkt Inventar
 //[Reference] 'Journal'
 staxel.gameLogicalButton.Journal=Tagebuch
 //[Reference] 'Jump'
@@ -2493,8 +2493,8 @@ staxel.item.crafting.Blanket.description=
 //[Reference] 'Blanket'
 staxel.item.crafting.Blanket.name=Decke
 staxel.item.crafting.BlueberryPopsicle.description=
-//TODO Translate [Reference] 'Blueberry Popsicle'
-staxel.item.crafting.BlueberryPopsicle.name=
+//[Reference] 'Blueberry Popsicle'
+staxel.item.crafting.BlueberryPopsicle.name=Blaubeereis am Stiel
 staxel.item.crafting.BluePetal.description=
 //[Reference] 'Blue Petal'
 staxel.item.crafting.BluePetal.name=Blaues Blütenblatt
@@ -2532,23 +2532,23 @@ staxel.item.crafting.Chips.description=
 //[Reference] 'Chips'
 staxel.item.crafting.Chips.name=Chips
 staxel.item.crafting.ChocoBlueberryPopsicle.description=
-//TODO Translate [Reference] 'Choco Blueberry Popsicle'
-staxel.item.crafting.ChocoBlueberryPopsicle.name=
+//[Reference] 'Choco Blueberry Popsicle'
+staxel.item.crafting.ChocoBlueberryPopsicle.name=Schokoblaubeereis am Stiel
 staxel.item.crafting.ChocoGrapePopsicle.description=
-//TODO Translate [Reference] 'Choco Grape Popsicle'
-staxel.item.crafting.ChocoGrapePopsicle.name=
+//[Reference] 'Choco Grape Popsicle'
+staxel.item.crafting.ChocoGrapePopsicle.name=Schokotraubeneis am Stiel
 staxel.item.crafting.ChocoLimePopsicle.description=
-//TODO Translate [Reference] 'Choco Lime Popsicle'
-staxel.item.crafting.ChocoLimePopsicle.name=
+//[Reference] 'Choco Lime Popsicle'
+staxel.item.crafting.ChocoLimePopsicle.name=Schokolimetteneis am Stiel
 staxel.item.crafting.ChocoMintPopsicle.description=
-//TODO Translate [Reference] 'Choco Mint Popsicle'
-staxel.item.crafting.ChocoMintPopsicle.name=
+//[Reference] 'Choco Mint Popsicle'
+staxel.item.crafting.ChocoMintPopsicle.name=Schokominzeis am Stiel
 staxel.item.crafting.ChocoOrangePopsicle.description=
-//TODO Translate [Reference] 'Choco Orange Popsicle'
-staxel.item.crafting.ChocoOrangePopsicle.name=
+//[Reference] 'Choco Orange Popsicle'
+staxel.item.crafting.ChocoOrangePopsicle.name=Schokoorangeneis am Stiel
 staxel.item.crafting.ChocoStrawberryPopsicle.description=
-//TODO Translate [Reference] 'Choco Strawberry Popsicle'
-staxel.item.crafting.ChocoStrawberryPopsicle.name=
+//[Reference] 'Choco Strawberry Popsicle'
+staxel.item.crafting.ChocoStrawberryPopsicle.name=Schokoerdbeereis am Stiel
 staxel.item.crafting.Coffee.description=
 //[Reference] 'Coffee'
 staxel.item.crafting.Coffee.name=Kaffee
@@ -2585,8 +2585,8 @@ staxel.item.crafting.Glue.description=
 //[Reference] 'Glue'
 staxel.item.crafting.Glue.name=Kleber
 staxel.item.crafting.GrapePopsicle.description=
-//TODO Translate [Reference] 'Grape Popsicle'
-staxel.item.crafting.GrapePopsicle.name=
+//[Reference] 'Grape Popsicle'
+staxel.item.crafting.GrapePopsicle.name=Traubeneis am Stiel
 staxel.item.crafting.GreenLeaf.description=
 //[Reference] 'Green Leaf'
 staxel.item.crafting.GreenLeaf.name=Grünes Blatt
@@ -2627,8 +2627,8 @@ staxel.item.crafting.LightMeal.Sushi.description=
 //[Reference] 'Sushi'
 staxel.item.crafting.LightMeal.Sushi.name=Sushi
 staxel.item.crafting.LimePopsicle.description=
-//TODO Translate [Reference] 'Lime Popsicle'
-staxel.item.crafting.LimePopsicle.name=
+//[Reference] 'Lime Popsicle'
+staxel.item.crafting.LimePopsicle.name=Limetteneis am Stiel
 staxel.item.crafting.Lumber.description=
 //[Reference] 'Lumber'
 staxel.item.crafting.Lumber.name=Bauholz
@@ -2642,8 +2642,8 @@ staxel.item.crafting.MetalBands.description=
 //[Reference] 'Metal Bands'
 staxel.item.crafting.MetalBands.name=Metallband
 staxel.item.crafting.MintPopsicle.description=
-//TODO Translate [Reference] 'Mint Popsicle'
-staxel.item.crafting.MintPopsicle.name=
+//[Reference] 'Mint Popsicle'
+staxel.item.crafting.MintPopsicle.name=Minzeis am Stiel
 staxel.item.crafting.Mortar.description=
 //[Reference] 'Mortar'
 staxel.item.crafting.Mortar.name=Mörtel
@@ -2654,8 +2654,8 @@ staxel.item.crafting.Nails.description=
 //[Reference] 'Nails'
 staxel.item.crafting.Nails.name=Nägel
 staxel.item.crafting.OrangePopsicle.description=
-//TODO Translate [Reference] 'Orange Popsicle'
-staxel.item.crafting.OrangePopsicle.name=
+//[Reference] 'Orange Popsicle'
+staxel.item.crafting.OrangePopsicle.name=Orangeneis am Stiel
 staxel.item.crafting.PancakeBatter.description=
 //[Reference] 'PancakeBatter'
 staxel.item.crafting.PancakeBatter.name=Pfannkuchenteig
@@ -2708,8 +2708,8 @@ staxel.item.crafting.StrawberryBlueberrySmoothie.description=
 //[Reference] 'StrawberryBlueberrySmoothie'
 staxel.item.crafting.StrawberryBlueberrySmoothie.name=Erdbeer-Blaubeer-Smoothie
 staxel.item.crafting.StrawberryPopsicle.description=
-//TODO Translate [Reference] 'Strawberry Popsicle'
-staxel.item.crafting.StrawberryPopsicle.name=
+//[Reference] 'Strawberry Popsicle'
+staxel.item.crafting.StrawberryPopsicle.name=Erdbeereis am Stiel
 staxel.item.crafting.UnbakedBakedPotatoWithColdUnbakedCheese.description=
 //[Reference] 'UnbakedBakedPotatoWithColdUnbakedCheese'
 staxel.item.crafting.UnbakedBakedPotatoWithColdUnbakedCheese.name=Rohe Backkartoffel mit kaltem ungebackenem Käse
@@ -2723,20 +2723,20 @@ staxel.item.crafting.Varnish.description=
 //[Reference] 'Varnish'
 staxel.item.crafting.Varnish.name=Lack
 staxel.item.crafting.VialBlue.description=
-//TODO Translate [Reference] 'Blue Potion'
-staxel.item.crafting.VialBlue.name=
+//[Reference] 'Blue Potion'
+staxel.item.crafting.VialBlue.name=Blauer Trank
 staxel.item.crafting.VialGreen.description=
-//TODO Translate [Reference] 'Green Potion'
-staxel.item.crafting.VialGreen.name=
+//[Reference] 'Green Potion'
+staxel.item.crafting.VialGreen.name=Grüner Trank
 staxel.item.crafting.VialMixed.description=
-//TODO Translate [Reference] 'Mixed Potion'
-staxel.item.crafting.VialMixed.name=
+//[Reference] 'Mixed Potion'
+staxel.item.crafting.VialMixed.name=Gemixter Trank
 staxel.item.crafting.VialRed.description=
-//TODO Translate [Reference] 'Red Potion'
-staxel.item.crafting.VialRed.name=
+//[Reference] 'Red Potion'
+staxel.item.crafting.VialRed.name=Roter Trank
 staxel.item.crafting.VialYellow.description=
-//TODO Translate [Reference] 'Yellow Potion'
-staxel.item.crafting.VialYellow.name=
+//[Reference] 'Yellow Potion'
+staxel.item.crafting.VialYellow.name=Gelber Trank
 staxel.item.crafting.WhitePetal.description=
 //[Reference] 'White Petal'
 staxel.item.crafting.WhitePetal.name=Weißes Blütenblatt
@@ -3005,11 +3005,11 @@ staxel.item.gatherable.ZebraButterfly.description=
 //[Reference] 'Zebra Butterfly'
 staxel.item.gatherable.ZebraButterfly.name=Zebrafalter
 staxel.item.generic.BlueBook.description=
-//TODO Translate [Reference] 'Blue Book'
-staxel.item.generic.BlueBook.name=
+//[Reference] 'Blue Book'
+staxel.item.generic.BlueBook.name=Blaues Buch
 staxel.item.generic.YellowBook.description=
-//TODO Translate [Reference] 'Yellow Book'
-staxel.item.generic.YellowBook.name=
+//[Reference] 'Yellow Book'
+staxel.item.generic.YellowBook.name=Gelbes Buch
 staxel.item.LightPetalCore.description=
 //[Reference] 'Light Petal Core'
 staxel.item.LightPetalCore.name=Kern des hellen Blütenblatts
@@ -3270,11 +3270,11 @@ staxel.item.tool.TaikoHammer.description=
 //[Reference] 'Taiko Hammer'
 staxel.item.tool.TaikoHammer.name=Taiko-Schlägel
 staxel.item.tool.WaterSquirterGreen.description=
-//TODO Translate [Reference] 'Green Water Squirter'
-staxel.item.tool.WaterSquirterGreen.name=
+//[Reference] 'Green Water Squirter'
+staxel.item.tool.WaterSquirterGreen.name=Grüne Wasserspritzpistole
 staxel.item.tool.WaterSquirterPink.description=
-//TODO Translate [Reference] 'Pink Water Squirter'
-staxel.item.tool.WaterSquirterPink.name=
+//[Reference] 'Pink Water Squirter'
+staxel.item.tool.WaterSquirterPink.name=Rosa Wasserspritzpistole
 staxel.item.tool.WitchWand.description=
 //[Reference] 'Magic Wand'
 staxel.item.tool.WitchWand.name=Zauberstab
@@ -3392,8 +3392,8 @@ staxel.nightTransition.Line22=Tipp: Streichel dein Haustier jeden Tag, damit es 
 staxel.nightTransition.Line23=Tipp: Seeds setzten und Items aufheben kann man öfter machen, wenn man den Knopf gedrückt hält
 //[Reference] 'Next'
 staxel.nightTransition.next=Nächstes
-//TODO Translate [Reference] 'Wake Up'
-staxel.nightTransition.PressContinueButton=
+//[Reference] 'Wake Up'
+staxel.nightTransition.PressContinueButton=Aufwachen
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Click '{0-button}' or press '{1-key}' to continue...'
 staxel.nightTransition.PressToContinue=Weiter mit {0-key}
@@ -3401,10 +3401,10 @@ staxel.nightTransition.PressToContinue=Weiter mit {0-key}
 staxel.nightTransition.prev=Bevor
 //[Reference] 'This tile has already been tilled!'
 staxel.notifications.AlreadyHoed=Diese Fliese wurde bereits umgegraben!
-//TODO Translate [Reference] 'Distance: {0} tiles'
-staxel.notifications.BuildingTools.MeasuredDistance=
-//TODO Translate [Reference] 'Measuring point one set'
-staxel.notifications.BuildingTools.MeasuringTapeOne=
+//[Reference] 'Distance: {0} tiles'
+staxel.notifications.BuildingTools.MeasuredDistance=Distanz: {0} Fliesen
+//[Reference] 'Measuring point one set'
+staxel.notifications.BuildingTools.MeasuringTapeOne=Meßpunkt gesetzt
 //[Reference] 'You can't break this tile.'
 staxel.notifications.CantBreak=Du kannst diese Fliese nicht zerbrechen.
 //[Reference] 'Farm Fan has set aside this day to show you around the farm, you should do that before sleeping!'
@@ -3494,8 +3494,8 @@ staxel.notifications.WrongTool.Verb.Harvest=ernten
 staxel.notifications.WrongTool.Verb.Pickup=nehmen
 //[Reference] 'pull'
 staxel.notifications.WrongTool.Verb.Pull=ziehen
-//TODO Translate [Reference] 'Soak'
-staxel.notifications.WrongTool.Verb.Soak=
+//[Reference] 'Soak'
+staxel.notifications.WrongTool.Verb.Soak=einweichen
 //[Reference] 'sweep'
 staxel.notifications.WrongTool.Verb.Sweep=fegen
 //[Reference] 'till'
@@ -3641,8 +3641,8 @@ staxel.season.Summer=Sommer
 //[Reference] 'Winter'
 staxel.season.Winter=Winter
 staxel.serverVillage.TrashCan.description=
-//TODO Translate [Reference] 'Trash Can'
-staxel.serverVillage.TrashCan.name=
+//[Reference] 'Trash Can'
+staxel.serverVillage.TrashCan.name=Mülleimer
 
 //[Reference] 'Open your delivery before selling Items!'
 staxel.shipping.dock.openDeliveryBeforeSell=Öffne deine Bestellung, bevor du Gegenstände verkaufst!
@@ -3828,14 +3828,14 @@ staxel.tileObject.airship.WeatherVane.description=
 //[Reference] 'Weather Vane'
 staxel.tileObject.airship.WeatherVane.name=Wetterfahne
 staxel.tileObject.beachset.BeachToys.description=
-//TODO Translate [Reference] 'Beach Toys'
-staxel.tileObject.beachset.BeachToys.name=
+//[Reference] 'Beach Toys'
+staxel.tileObject.beachset.BeachToys.name=Strandspielzeuge
 staxel.tileObject.beachset.PalmTree.description=
 //[Reference] 'Palm Tree'
 staxel.tileObject.beachset.PalmTree.name=Palme
 staxel.tileObject.beachset.SandCastle.description=
-//TODO Translate [Reference] 'Sand Castle'
-staxel.tileObject.beachset.SandCastle.name=
+//[Reference] 'Sand Castle'
+staxel.tileObject.beachset.SandCastle.name=Sandburg
 staxel.tileObject.biomeDebris.ForestBox.description=
 //[Reference] 'Forest Box'
 staxel.tileObject.biomeDebris.ForestBox.name=Waldbox
@@ -3897,8 +3897,8 @@ staxel.tileObject.biomeDebris.LongMeadowGrass.4.Winter.description=
 //[Reference] 'Winter'
 staxel.tileObject.biomeDebris.LongMeadowGrass.4.Winter.name=Winter
 staxel.tileObject.bobbleheads.AlizaBobblehead.description=
-//TODO Translate [Reference] 'Aliza Bobblehead'
-staxel.tileObject.bobbleheads.AlizaBobblehead.name=
+//[Reference] 'Aliza Bobblehead'
+staxel.tileObject.bobbleheads.AlizaBobblehead.name=Aliza Wackelkopf
 staxel.tileObject.bobbleheads.BadgerBobbleHead.description=
 //[Reference] 'Badger Bobble Head'
 staxel.tileObject.bobbleheads.BadgerBobbleHead.name=Badger-Wackelkopf
@@ -3931,14 +3931,14 @@ staxel.tileObject.bobbleheads.OscarBobbleHead.description=
 //[Reference] 'Oscar Bobble Head'
 staxel.tileObject.bobbleheads.OscarBobbleHead.name=Oscar-Wackelkopf
 staxel.tileObject.bobbleheads.RiahBobbleHead.description=
-//TODO Translate [Reference] 'Riah Bobble Head'
-staxel.tileObject.bobbleheads.RiahBobbleHead.name=
+//[Reference] 'Riah Bobble Head'
+staxel.tileObject.bobbleheads.RiahBobbleHead.name=Riah Wackelkopf
 staxel.tileObject.bobbleheads.RosemaryBobbleHead.description=
-//TODO Translate [Reference] 'Rosemary Bobblehead'
-staxel.tileObject.bobbleheads.RosemaryBobbleHead.name=
+//[Reference] 'Rosemary Bobblehead'
+staxel.tileObject.bobbleheads.RosemaryBobbleHead.name=Rosemary Wackelkopf
 staxel.tileObject.bobbleheads.RowanBobblehead.description=
-//TODO Translate [Reference] 'Rowan Bobblehead'
-staxel.tileObject.bobbleheads.RowanBobblehead.name=
+//[Reference] 'Rowan Bobblehead'
+staxel.tileObject.bobbleheads.RowanBobblehead.name=Rowan Wackelkopf
 staxel.tileObject.bobbleheads.ThomasBobbleHead.description=
 //[Reference] 'Thomas Bobble Head'
 staxel.tileObject.bobbleheads.ThomasBobbleHead.name=Thomas-Wackelkopf
@@ -4093,14 +4093,14 @@ staxel.tileObject.festival.feymasquerade.SmallRoseTable.description=
 //[Reference] 'Small Rose Fey Table'
 staxel.tileObject.festival.feymasquerade.SmallRoseTable.name=Kleiner Rosenfeentisch
 staxel.tileObject.festival.feymasquerade.WallLamp.description=
-//TODO Translate [Reference] 'Wall Lamp'
-staxel.tileObject.festival.feymasquerade.WallLamp.name=
+//[Reference] 'Wall Lamp'
+staxel.tileObject.festival.feymasquerade.WallLamp.name=Mauerlampe
 staxel.tileObject.festival.FeyTreasureBox.description=
-//TODO Translate [Reference] 'Fey Treasure Box'
-staxel.tileObject.festival.FeyTreasureBox.name=
+//[Reference] 'Fey Treasure Box'
+staxel.tileObject.festival.FeyTreasureBox.name=Feen Schatzkiste
 staxel.tileObject.festival.FeyTreasureBoxUsed.description=
-//TODO Translate [Reference] 'Fey Treasure Box Used'
-staxel.tileObject.festival.FeyTreasureBoxUsed.name=
+//[Reference] 'Fey Treasure Box Used'
+staxel.tileObject.festival.FeyTreasureBoxUsed.name=Feen Schatzkiste benutzt
 staxel.tileObject.festival.NekoShrine.description=
 //[Reference] 'Small Shrine'
 staxel.tileObject.festival.NekoShrine.name=Kleiner Schrein
@@ -4986,8 +4986,8 @@ staxel.tileObject.serverVillage.ClockTowerFace.description=
 //[Reference] 'Clock Tower Face'
 staxel.tileObject.serverVillage.ClockTowerFace.name=Uhrenturm-Ziffernblatt
 staxel.tileObject.serverVillage.CobbleMoss.description=
-//TODO Translate [Reference] 'Cobble Moss'
-staxel.tileObject.serverVillage.CobbleMoss.name=
+//[Reference] 'Cobble Moss'
+staxel.tileObject.serverVillage.CobbleMoss.name=Bruchstein Moos
 //[Reference] 'A processing station for combining ingredients.'
 staxel.tileObject.serverVillage.CombiningStation.description=Eine Verarbeitungsstation zum Kombinieren von Einzelteilen.
 //[Reference] 'Combining Station'
@@ -5071,11 +5071,11 @@ staxel.tileObject.shop.ShopWindow4.description=
 //[Reference] 'Shop Window4'
 staxel.tileObject.shop.ShopWindow4.name=Schaufenster 4
 staxel.tileObject.sign.LargeWoodenSign.description=
-//TODO Translate [Reference] 'Large Wooden Sign'
-staxel.tileObject.sign.LargeWoodenSign.name=
+//[Reference] 'Large Wooden Sign'
+staxel.tileObject.sign.LargeWoodenSign.name=Großes Holzschild
 staxel.tileObject.sign.SmallWoodenSign.description=
-//TODO Translate [Reference] 'Small Wooden Sign'
-staxel.tileObject.sign.SmallWoodenSign.name=
+//[Reference] 'Small Wooden Sign'
+staxel.tileObject.sign.SmallWoodenSign.name=Schmales Holzschild
 staxel.tileObject.tavern.PinballMachine.description=
 //[Reference] 'Pinball Machine'
 staxel.tileObject.tavern.PinballMachine.name=Flipper
@@ -5495,8 +5495,8 @@ staxel.tileObject.villagers.AluaSpawner.description=
 //[Reference] 'Alua Spawner'
 staxel.tileObject.villagers.AluaSpawner.name=Alua-Beschwörer
 staxel.tileObject.villagers.BoisterousTourist.description=
-//TODO Translate [Reference] 'Boisterous Tourist'
-staxel.tileObject.villagers.BoisterousTourist.name=
+//[Reference] 'Boisterous Tourist'
+staxel.tileObject.villagers.BoisterousTourist.name=Übermütiger Tourist
 staxel.tileObject.villagers.ButterflySpawner.description=
 //[Reference] 'Butterfly Spawner'
 staxel.tileObject.villagers.ButterflySpawner.name=Schmetterling-Beschwörer
@@ -5522,8 +5522,8 @@ staxel.tileObject.villagers.PrincessSpawner.description=
 //[Reference] 'Princess Spawner'
 staxel.tileObject.villagers.PrincessSpawner.name=Prinzessin-Beschwörer
 staxel.tileObject.villagers.QuietTourist.description=
-//TODO Translate [Reference] 'Quiet Tourist'
-staxel.tileObject.villagers.QuietTourist.name=
+//[Reference] 'Quiet Tourist'
+staxel.tileObject.villagers.QuietTourist.name=Stiller Tourist
 staxel.tileObject.villagers.rewards.Aliza.AlizasWrench.description=
 //[Reference] 'Aliza's Wrench'
 staxel.tileObject.villagers.rewards.Aliza.AlizasWrench.name=Alizas Schraubenschlüssel
@@ -5543,8 +5543,8 @@ staxel.tileObject.villagers.rewards.FarmFan.CowPlushy.description=
 //[Reference] 'Farm Fan's Cow Plushy'
 staxel.tileObject.villagers.rewards.FarmFan.CowPlushy.name=Farm-Fans Kuhstofftier
 staxel.tileObject.villagers.rewards.Max.CommemorativePlaque.description=
-//TODO Translate [Reference] 'Commemorative Plaque'
-staxel.tileObject.villagers.rewards.Max.CommemorativePlaque.name=
+//[Reference] 'Commemorative Plaque'
+staxel.tileObject.villagers.rewards.Max.CommemorativePlaque.name=Gedenktafel
 staxel.tileObject.villagers.rewards.Max.MaxsCityKey.description=
 //[Reference] 'Max's City Key'
 staxel.tileObject.villagers.rewards.Max.MaxsCityKey.name=Max‘ Stadtschlüssel
@@ -5567,8 +5567,8 @@ staxel.tileObject.villagers.RiahSpawner.description=
 //[Reference] 'Riah Spawner'
 staxel.tileObject.villagers.RiahSpawner.name=Riah-Beschwörer
 staxel.tileObject.villagers.SmartTourist.description=
-//TODO Translate [Reference] 'Smart Tourist'
-staxel.tileObject.villagers.SmartTourist.name=
+//[Reference] 'Smart Tourist'
+staxel.tileObject.villagers.SmartTourist.name=Cleverer Tourist
 staxel.tileObject.villagers.TrashFairySpawner.description=
 //[Reference] 'Trash Fairy Spawner'
 staxel.tileObject.villagers.TrashFairySpawner.name=Müllfee-Beschwörer
@@ -5582,8 +5582,8 @@ staxel.totem.AirshipLanding=Luftschiffplatz
 staxel.totem.AlizaHome=Alizas Zuhause
 //[Reference] '{0-roof} (Any blocks)'
 staxel.totem.anyBlock={0-roof} (Beliebige Blöcke)
-//TODO Translate [Reference] 'Away from Village.'
-staxel.totem.awayFromTown=
+//[Reference] 'Away from Village.'
+staxel.totem.awayFromTown=Weg vom Dorf
 //[Reference] 'Simple Barn'
 staxel.totem.Barn=Einfache Scheune
 //[Reference] 'Barn'
@@ -5624,28 +5624,28 @@ staxel.totem.festival.feymasquerade.FeyRoom208=Feenzimmer 108
 staxel.totem.festival.feymasquerade.FeyThroneRoom=Feenthronsaal
 //[Reference] 'Snowdust Shrine'
 staxel.totem.festival.SnowdustShrine=Schneestaubschrein
-//TODO Translate [Reference] 'This overlaps a festival area. These are periodically overwritten!'
-staxel.totem.FestivalOverlapped=
+//[Reference] 'This overlaps a festival area. These are periodically overwritten!'
+staxel.totem.FestivalOverlapped=Das würde ein Festival-Areal überlappen. Diese sind periodisch überschrieben!
 //[Reference] 'Warning: Festival gate regions are periodically overwritten!'
 staxel.totem.FestivalTotem=Achtung: Bereiche rund um das Festivaltor werden regelmäßig überschrieben!
 //[Reference] 'Furnishing requirements complete!'
 staxel.totem.FurnitureComplete=Einrichtungsanforderung abgeschlossen!
-//TODO Translate [Reference] 'Goth Mushroom'
-staxel.totem.GothMushroom=
-//TODO Translate [Reference] '(Too Close)'
-staxel.totem.isNotAwayFromTown=
+//[Reference] 'Goth Mushroom'
+staxel.totem.GothMushroom=Goth Pilz
+//[Reference] '(Too Close)'
+staxel.totem.isNotAwayFromTown=(Zu Nah)
 //[Reference] '(Currently overlapping)'
 staxel.totem.isOverlapping=(Überlappt derzeit)
 //[Reference] 'Jamie's Home'
 staxel.totem.JamieHome=Jamies Haus
-//TODO Translate [Reference] 'Abstract Statue Plaque'
-staxel.totem.MaxStatueA=
-//TODO Translate [Reference] 'Cubic Statue Plaque'
-staxel.totem.MaxStatueB=
-//TODO Translate [Reference] 'Slime Statue Plaque'
-staxel.totem.MaxStatueC=
-//TODO Translate [Reference] 'Farmer Statue Plaque'
-staxel.totem.MaxStatueD=
+//[Reference] 'Abstract Statue Plaque'
+staxel.totem.MaxStatueA=Abstrakte Statuen Plakette
+//[Reference] 'Cubic Statue Plaque'
+staxel.totem.MaxStatueB=Würfel Statuen Plakette
+//[Reference] 'Slime Statue Plaque'
+staxel.totem.MaxStatueC=Schleim Statuen Plakette
+//[Reference] 'Farmer Statue Plaque'
+staxel.totem.MaxStatueD=Farm Statuen Plakette
 //[Reference] 'Maximilian's Home'
 staxel.totem.MayorMaxHome=Maximilians Haus
 //[Reference] '({0-count} missing)'
@@ -5665,8 +5665,8 @@ staxel.totem.RiahHome=Riahs Haus
 staxel.totem.roofMissing=(Fehlt)
 //[Reference] 'Rosemary's Home'
 staxel.totem.RosemaryHome=Rosemarys Haus
-//TODO Translate [Reference] 'Small Festival Grounds'
-staxel.totem.SmallFestivalGrounds=
+//[Reference] 'Small Festival Grounds'
+staxel.totem.SmallFestivalGrounds=Kleiner Festival Platz
 //[Reference] 'Stone Resource'
 staxel.totem.StoneResource=Steinmaterial
 //[Reference] 'Test'
@@ -5773,12 +5773,12 @@ staxel.village.dialogue.ForestBunnyGiveItem.line:10000101=…
 staxel.village.villagerLeftTown={0-name} hat das Dorf verlassen.
 //[Reference] 'Aliza'
 staxel.villager.Aliza.name=Aliza
-//TODO Translate [Reference] 'Alua'
-staxel.villager.Alua.name=
+//[Reference] 'Alua'
+staxel.villager.Alua.name=Alua
 //[Reference] 'Ami'
 staxel.villager.Ami.name=Ami
-//TODO Translate [Reference] 'Boisterous Tourist'
-staxel.villager.Boisterous Tourist.name=
+//[Reference] 'Boisterous Tourist'
+staxel.villager.Boisterous Tourist.name=Übermütiger Tourist
 //[Reference] 'Boisterous Tourist'
 staxel.villager.BoisterousTourist.name=Übermütiger Tourist
 //[Reference] 'Butterfly'
@@ -5787,8 +5787,8 @@ staxel.villager.Butterfly.name=Schmetterling
 staxel.villager.Caren.name=Caren
 //[Reference] 'Cecile'
 staxel.villager.Cecile.name=Cecile
-//TODO Translate [Reference] 'Cecile's Monster'
-staxel.villager.Cecile's Monster.name=
+//[Reference] 'Cecile's Monster'
+staxel.villager.Cecile's Monster.name=Ceciles Monster
 //[Reference] 'Cirahna'
 staxel.villager.Cirahna.name=Cirahna
 //[Reference] 'Riah?!?'
@@ -5815,14 +5815,14 @@ staxel.villager.MaybeRiah.name=Riah!
 staxel.villager.NotRiah.name=Riah?
 //[Reference] 'Oscar'
 staxel.villager.Oscar.name=Oscar
-//TODO Translate [Reference] 'Prince'
-staxel.villager.Prince.name=
-//TODO Translate [Reference] 'Princess'
-staxel.villager.Princess.name=
+//[Reference] 'Prince'
+staxel.villager.Prince.name=Prinz
+//[Reference] 'Princess'
+staxel.villager.Princess.name=Prinzessin
 //[Reference] 'Reserved Tourist'
 staxel.villager.QuietTourist.name=Zurückhaltender Tourist
-//TODO Translate [Reference] 'Rainbow Butterfly'
-staxel.villager.Rainbow Butterfly.name=
+//[Reference] 'Rainbow Butterfly'
+staxel.villager.Rainbow Butterfly.name=Regenbogenschmetterling
 //TODO Translate [Reference] 'Reserved Tourist'
 staxel.villager.Reserved Tourist.name=
 //[Reference] 'Riah'
@@ -5831,14 +5831,14 @@ staxel.villager.Riah.name=Riah
 staxel.villager.Rosemary.name=Rosemary
 //[Reference] 'Rowan'
 staxel.villager.Rowan.name=Rowan
-//TODO Translate [Reference] 'Smart Tourist'
-staxel.villager.Smart Tourist.name=
+//[Reference] 'Smart Tourist'
+staxel.villager.Smart Tourist.name=Cleverer Tourist
 //[Reference] 'Smart Tourist'
 staxel.villager.SmartTourist.name=Cleverer Tourist
 //[Reference] 'Stray Cat'
 staxel.villager.Stray Cat.name=Streunende Katze
-//TODO Translate [Reference] 'Trash Fairy'
-staxel.villager.Trash Fairy.name=
+//[Reference] 'Trash Fairy'
+staxel.villager.Trash Fairy.name=Müllfee
 //[Reference] 'Vorlen'
 staxel.villager.Vorlen.name=Vorlen
 staxel.weed.Weed1.description=
