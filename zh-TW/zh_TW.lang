@@ -252,18 +252,30 @@ error.serverFull=
 error.serverOffline=Staxel.net伺服器似乎處於離線狀態，請稍後再試。
 //[Reference] 'SORRY!'
 error.sorry=抱歉！
+//TODO Translate [Reference] 'You have been banned from this server.'
+error.startGame.banned=
 //TODO Translate [Reference] 'Cannot start a local private server for single player mode.{0-newLine}Is another copy of the game still running?{1-newLine}'
 error.startGame.gameRunning=
+//TODO Translate [Reference] 'Invalid credentials.'
+error.startGame.invalidCredential=
 //TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.'
 error.startGame.localTcp=
+//TODO Translate [Reference] 'Connection closed because a new connection was made by the same player.'
+error.startGame.muliLogin=
 //TODO Translate [Reference] 'Not logged in.'
 error.startGame.notLoggedIn=
+//TODO Translate [Reference] 'A premium account is required to play on this server.'
+error.startGame.premiumAccount=
 //TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed quickly before client could connect.'
 error.startGame.quickNoConnect=
+//TODO Translate [Reference] 'Server is set to allow only accounts with special attributes.'
+error.startGame.specialAttributes=
 //TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Timeout on trying to connect with local server.'
 error.startGame.timeout=
 //TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed very quickly before client could connect.'
 error.startGame.veryQuickNoConnect=
+//TODO Translate [Reference] 'Weak credentials not allowed by server.'
+error.startGame.weakCredential=
 //[Reference] 'Cancel'
 escapemenu.cancel=取消
 //[Reference] 'Are you sure you want to exit to desktop? Progress is saved automatically.'
@@ -419,7 +431,8 @@ options.admin.debug.EnableDebugKeys=啟用 Debug 鍵
 //[Reference] 'Fly Mode'
 options.admin.debug.flyMode=飛行模式
 
-//[Reference] 'Increased View Range'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Increased View Range (Experimental)'
 options.admin.debug.IncreasedViewRange=增加視野範圍
 //[Reference] 'Make a crashlog'
 options.admin.debug.makeCrashlog=產生一份程式崩潰日誌
@@ -1069,10 +1082,10 @@ staxel.accessories.skirts.SkirtLongRuffles.description=
 //TODO Translate [Reference] 'Skirt Long Ruffles'
 staxel.accessories.skirts.SkirtLongRuffles.name=
 staxel.accessories.swimsuits.Swimsuit.1.description=
-//TODO Translate [Reference] '1'
+//TODO Translate [Reference] 'Plain Swimsuit'
 staxel.accessories.swimsuits.Swimsuit.1.name=
 staxel.accessories.swimsuits.Swimsuit.2.description=
-//TODO Translate [Reference] '2'
+//TODO Translate [Reference] 'Stripy Swimsuit'
 staxel.accessories.swimsuits.Swimsuit.2.name=
 staxel.accessories.villagers.Aliza.MechanicsHat.description=
 //TODO Translate [Reference] 'Mechanics Hat'
@@ -3426,6 +3439,12 @@ staxel.mouseAxis.Left=
 staxel.mouseAxis.Middle=
 //TODO Translate [Reference] 'Right'
 staxel.mouseAxis.Right=
+//TODO Translate [Reference] 'Close'
+staxel.netIssuesPrompt.accept=
+//TODO Translate [Reference] 'The connection to the server seems to have a problem, this may be due to a number of issues. For the best experience we recommend fixing these issues before continuing to play. You can check our FAQ for further information on how to troubleshoot bad network conditions at www.playstaxel.com/networkissues.html'
+staxel.netIssuesPrompt.info=
+//TODO Translate [Reference] 'Network Issues Detected'
+staxel.netIssuesPrompt.title=
 
 //[Reference] 'Tip: Scythe grass or flowers to get mixed seeds'
 staxel.nightTransition.Line1=提示：收割花草可以獲得混合種子
@@ -3479,8 +3498,8 @@ staxel.nightTransition.Line23=
 staxel.nightTransition.next=下一頁
 //TODO Translate [Reference] 'Wake Up'
 staxel.nightTransition.PressContinueButton=
-//[Reference] 'Press {0-key} to continue...'
 //[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Click '{0-button}' or press '{1-key}' to continue...'
 //[Reference] 'Click '{0-button}' or press '{1-key}' to continue...'
 staxel.nightTransition.PressToContinue=按下{0-key}繼續……
 //[Reference] 'Prev'
@@ -3757,6 +3776,18 @@ staxel.shipping.orderSuccess={0-num} x {1-item}已經下單！它會連夜到達
 staxel.shipping.youHaveItems=物品已經運送到你的貨運站！
 //[Reference] 'There is money waiting at your shipping station'
 staxel.shipping.YouHaveMoney=你的貨運站裡有筆錢正在等待領取
+//TODO Translate [Reference] 'Save'
+staxel.signSettings.accept=
+//TODO Translate [Reference] 'Edit Sign'
+staxel.signSettings.title=
+//TODO Translate [Reference] 'Steal'
+staxel.stealPrompt.accept=
+//TODO Translate [Reference] 'Cancel'
+staxel.stealPrompt.decline=
+//TODO Translate [Reference] 'Are you sure you want to steal from this? There may be consequences!'
+staxel.stealPrompt.info=
+//TODO Translate [Reference] 'Steal From'
+staxel.stealPrompt.title=
 staxel.tile.grass.ForestGrassLayer.1.Autumn.description=
 //[Reference] 'Autumn'
 staxel.tile.grass.ForestGrassLayer.1.Autumn.name=秋季
