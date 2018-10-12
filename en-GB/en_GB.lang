@@ -131,12 +131,19 @@ error.badVersion=Bad Version
 error.serverFull=Server Full
 error.serverOffline=The Staxel.net server appears to be offline. Please try again later.
 error.sorry=SORRY!
+error.startGame.banned=You have been banned from this server.
 error.startGame.gameRunning=Cannot start a local private server for single player mode.{0-newLine}Is another copy of the game still running?{1-newLine}
+error.startGame.invalidCredential=Invalid credentials.
 error.startGame.localTcp=Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.
+error.startGame.muliLogin=Connection closed because a new connection was made by the same player.
 error.startGame.notLoggedIn=Not logged in.
+error.startGame.premiumAccount=A premium account is required to play on this server.
 error.startGame.quickNoConnect=Game failed to start a local private server for single player mode. Server closed quickly before client could connect.
+error.startGame.specialAttributes=Server is set to allow only accounts with special attributes.
 error.startGame.timeout=Game failed to start a local private server for single player mode. Timeout on trying to connect with local server.
 error.startGame.veryQuickNoConnect=Game failed to start a local private server for single player mode. Server closed very quickly before client could connect.
+error.startGame.weakCredential=Weak credentials not allowed by server.
+
 escapemenu.cancel=Cancel
 escapemenu.confirmExit=Are you sure you want to exit to desktop? Progress is saved automatically.
 escapemenu.exit=Exit
@@ -222,7 +229,7 @@ options.admin.debug.creativeMode=Creative Mode
 options.admin.debug.EnableDebugKeys=Enable Debug Keys
 options.admin.debug.flyMode=Fly Mode
 
-options.admin.debug.IncreasedViewRange=Increased View Range
+options.admin.debug.IncreasedViewRange=Increased View Range (Experimental)
 options.admin.debug.makeCrashlog=Make a crashlog
 options.admin.debug.noClipMode=No Clip Mode
 options.admin.debug.showNames=Show name tags
@@ -601,9 +608,9 @@ staxel.accessories.skirts.Skirt.name=Skirt
 staxel.accessories.skirts.SkirtLongRuffles.description=
 staxel.accessories.skirts.SkirtLongRuffles.name=Skirt Long Ruffles
 staxel.accessories.swimsuits.Swimsuit.1.description=
-staxel.accessories.swimsuits.Swimsuit.1.name=1
+staxel.accessories.swimsuits.Swimsuit.1.name=Plain Swimsuit
 staxel.accessories.swimsuits.Swimsuit.2.description=
-staxel.accessories.swimsuits.Swimsuit.2.name=2
+staxel.accessories.swimsuits.Swimsuit.2.name=Stripy Swimsuit
 staxel.accessories.villagers.Aliza.MechanicsHat.description=
 staxel.accessories.villagers.Aliza.MechanicsHat.name=Mechanics Hat
 staxel.accessories.villagers.Cecile.ScientistGoggles.description=
@@ -1971,6 +1978,10 @@ staxel.merchants.SellBox.name=Sell Box
 staxel.mouseAxis.Left=Left
 staxel.mouseAxis.Middle=Middle
 staxel.mouseAxis.Right=Right
+staxel.netIssuesPrompt.accept=Close
+staxel.netIssuesPrompt.info=The connection to the server seems to have a problem, this may be due to a number of issues. For the best experience we recommend fixing these issues before continuing to play. You can check our FAQ for further information on how to troubleshoot bad network conditions at www.playstaxel.com/networkissues.html
+
+staxel.netIssuesPrompt.title=Network Issues Detected
 
 staxel.nightTransition.Line1=Tip: Scythe grass or flowers to get mixed seeds
 staxel.nightTransition.Line2=Tip: Press shift or the left stick to move stacks on shelves or in the inventory
@@ -2148,6 +2159,14 @@ staxel.shipping.notOwned=You don't own this shipping station!
 staxel.shipping.orderSuccess={0-num}x {1-item} ordered! It will arrive overnight.
 staxel.shipping.youHaveItems=Items have been delivered to your shipping station!
 staxel.shipping.YouHaveMoney=There is money waiting at your shipping station
+staxel.signSettings.accept=Save
+
+staxel.signSettings.title=Edit Sign
+staxel.stealPrompt.accept=Steal
+staxel.stealPrompt.decline=Cancel
+staxel.stealPrompt.info=Are you sure you want to steal from this? There may be consequences!
+
+staxel.stealPrompt.title=Steal From
 staxel.tile.grass.ForestGrassLayer.1.Autumn.description=
 staxel.tile.grass.ForestGrassLayer.1.Autumn.name=Autumn
 staxel.tile.grass.ForestGrassLayer.1.Spring.description=

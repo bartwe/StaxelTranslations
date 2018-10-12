@@ -244,18 +244,30 @@ error.serverFull=Server voll
 error.serverOffline=Der Staxel.net-Server scheint offline zu sein. Bitte probiere es später noch einmal.
 //[Reference] 'SORRY!'
 error.sorry=ENTSCHULDIGUNG!
+//TODO Translate [Reference] 'You have been banned from this server.'
+error.startGame.banned=
 //[Reference] 'Cannot start a local private server for single player mode.{0-newLine}Is another copy of the game still running?{1-newLine}'
 error.startGame.gameRunning=Kann keinen lokalen privaten Server im Einzelspieler starten.{0-newLine}Ist eine andere Kopie des Spiels am laufen?{1-newLine}
+//TODO Translate [Reference] 'Invalid credentials.'
+error.startGame.invalidCredential=
 //[Reference] 'Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.'
 error.startGame.localTcp=Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten.{0-newLine}Der Server schloss sich bevor der Client eine lokale TCP Verbindung aufbauen konnte.{1-newLine}
+//TODO Translate [Reference] 'Connection closed because a new connection was made by the same player.'
+error.startGame.muliLogin=
 //[Reference] 'Not logged in.'
 error.startGame.notLoggedIn=Nicht eingeloggt
+//TODO Translate [Reference] 'A premium account is required to play on this server.'
+error.startGame.premiumAccount=
 //[Reference] 'Game failed to start a local private server for single player mode. Server closed quickly before client could connect.'
 error.startGame.quickNoConnect=Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten.{0-newLine}Der Server schloss schnell, bevor der Client sich verbinden konnte.{1-newLine}
+//TODO Translate [Reference] 'Server is set to allow only accounts with special attributes.'
+error.startGame.specialAttributes=
 //[Reference] 'Game failed to start a local private server for single player mode. Timeout on trying to connect with local server.'
 error.startGame.timeout=Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten. Timout während man versucht zum lokalen Server zu verbinden.
 //[Reference] 'Game failed to start a local private server for single player mode. Server closed very quickly before client could connect.'
 error.startGame.veryQuickNoConnect==Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten.{0-newLine}Der Server schloss sehr schnell, bevor der Client sich verbinden konnte.{1-newLine}
+//TODO Translate [Reference] 'Weak credentials not allowed by server.'
+error.startGame.weakCredential=
 //[Reference] 'Cancel'
 escapemenu.cancel=Abbrechen
 //[Reference] 'Are you sure you want to exit to desktop? Progress is saved automatically.'
@@ -410,7 +422,8 @@ options.admin.debug.EnableDebugKeys=Aktiviere Debug Tasten
 //[Reference] 'Fly Mode'
 options.admin.debug.flyMode=Flugmodus
 
-//[Reference] 'Increased View Range'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Increased View Range (Experimental)'
 options.admin.debug.IncreasedViewRange=Erweitertes Blickfeld
 //[Reference] 'Make a crashlog'
 options.admin.debug.makeCrashlog=Absturzbericht erstellen
@@ -1053,10 +1066,10 @@ staxel.accessories.skirts.SkirtLongRuffles.description=
 //[Reference] 'Skirt Long Ruffles'
 staxel.accessories.skirts.SkirtLongRuffles.name=Rock Lange Rüschen
 staxel.accessories.swimsuits.Swimsuit.1.description=
-//TODO Translate [Reference] '1'
+//TODO Translate [Reference] 'Plain Swimsuit'
 staxel.accessories.swimsuits.Swimsuit.1.name=
 staxel.accessories.swimsuits.Swimsuit.2.description=
-//TODO Translate [Reference] '2'
+//TODO Translate [Reference] 'Stripy Swimsuit'
 staxel.accessories.swimsuits.Swimsuit.2.name=
 staxel.accessories.villagers.Aliza.MechanicsHat.description=
 //[Reference] 'Mechanics Hat'
@@ -3345,6 +3358,12 @@ staxel.mouseAxis.Left=Links
 staxel.mouseAxis.Middle=Mitte
 //[Reference] 'Right'
 staxel.mouseAxis.Right=Rechts
+//TODO Translate [Reference] 'Close'
+staxel.netIssuesPrompt.accept=
+//TODO Translate [Reference] 'The connection to the server seems to have a problem, this may be due to a number of issues. For the best experience we recommend fixing these issues before continuing to play. You can check our FAQ for further information on how to troubleshoot bad network conditions at www.playstaxel.com/networkissues.html'
+staxel.netIssuesPrompt.info=
+//TODO Translate [Reference] 'Network Issues Detected'
+staxel.netIssuesPrompt.title=
 
 //[Reference] 'Tip: Scythe grass or flowers to get mixed seeds'
 staxel.nightTransition.Line1=Tipp: Mähe Gras oder Blumen, um gemischte Samen zu erhalten.
@@ -3667,6 +3686,18 @@ staxel.shipping.orderSuccess=Du hast Folgendes bestellt: {0-num}x {1-item}. Die 
 staxel.shipping.youHaveItems=Gegenstände wurden zu deiner Versandstation geliefert!
 //[Reference] 'There is money waiting at your shipping station'
 staxel.shipping.YouHaveMoney=Bei deiner Versandstation wartet Geld auf dich.
+//TODO Translate [Reference] 'Save'
+staxel.signSettings.accept=
+//TODO Translate [Reference] 'Edit Sign'
+staxel.signSettings.title=
+//TODO Translate [Reference] 'Steal'
+staxel.stealPrompt.accept=
+//TODO Translate [Reference] 'Cancel'
+staxel.stealPrompt.decline=
+//TODO Translate [Reference] 'Are you sure you want to steal from this? There may be consequences!'
+staxel.stealPrompt.info=
+//TODO Translate [Reference] 'Steal From'
+staxel.stealPrompt.title=
 staxel.tile.grass.ForestGrassLayer.1.Autumn.description=
 //[Reference] 'Autumn'
 staxel.tile.grass.ForestGrassLayer.1.Autumn.name=Herbst
