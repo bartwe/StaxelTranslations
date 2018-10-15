@@ -166,7 +166,7 @@ crafting.action.keyword.reap=Ernten
 //[Reference] 'Saw'
 crafting.action.keyword.saw=Säge
 //[Reference] 'Tile'
-crafting.action.keyword.tile=Fliese
+crafting.action.keyword.tile=Feld
 //[Reference] '{0-itemOne}, {1-itemTwo}'
 crafting.action.task.listedItems={0-itemOne}, {1-itemTwo}
 //[Reference] '{0-keyword} {1-listedItems} and {2-lastListedItem}'
@@ -456,7 +456,7 @@ options.boxtool.hollow.description=Wenn aktiviert, wird die erschaffene Box inne
 //[Reference] 'Allow Gaps'
 options.faceextruder.allowgaps=Erlaube Lücken
 //[Reference] 'Will extrude tiles even if there is a one tile gap from the main face'
-options.faceextruder.allowgaps.description=Wird die Objekte extruden auch wenn sich eine 1 Tile große Lücke in der Oberfläche befindet.
+options.faceextruder.allowgaps.description=Wird die Objekte extruden auch wenn sich eine 1 Feld große Lücke in der Oberfläche befindet.
 //[Reference] 'Destructive Mode'
 options.faceextruder.destructive=Abbau Modus
 //[Reference] 'Determines whether or not the tool will destroy tiles in the way when extruding a face'
@@ -651,7 +651,7 @@ options.linetool.destructive.description=Entscheidet, ob das Werkzeug Objekte, d
 //[Reference] 'Supported Lines'
 options.linetool.supported=Unterstützte Linien
 //[Reference] 'Adds extra tiles between tiles to ensure the structure is supported. (Can mess up diagonals such as rooves of On)'
-options.linetool.supported.description=Fügt extra Fliesen hinzu um sicherzustellen, dass die Struktur unterstützt wird. (Kann aber bei Diagonalen wie Dächer schiefgehen)
+options.linetool.supported.description=Fügt extra Felder hinzu um sicherzustellen, dass die Struktur unterstützt wird. (Kann aber bei Diagonalen wie Dächer schiefgehen)
 //[Reference] 'Misc'
 options.misc=Sonstiges
 //[Reference] 'Reset'
@@ -3255,7 +3255,7 @@ staxel.item.tool.BoxPlacer.description=Klicke auf ein Objekt um zu starten, klic
 //[Reference] 'Box Builder'
 staxel.item.tool.BoxPlacer.name=Box Erbauer
 //[Reference] 'Click a surface of connected same-type tiles to extrude the face in that direction. Alt click for settings'
-staxel.item.tool.FaceExtruder.description=Klicke auf eine Oberfläche die mit den selben Fliesen verbunden ist, um die Oberfläche in diese Richtung zu Erweitern. Alt Klick für Einstellungen.
+staxel.item.tool.FaceExtruder.description=Klicke auf eine Oberfläche die mit den selben Objekten verbunden ist, um die Oberfläche in diese Richtung zu Erweitern. Alt Klick für Einstellungen.
 //[Reference] 'Face Extruder'
 staxel.item.tool.FaceExtruder.name=Oberflächen Extruder
 staxel.item.tool.FlowerWatercan.description=
@@ -3419,13 +3419,13 @@ staxel.nightTransition.PressToContinue=Weiter mit {0-key}
 //[Reference] 'Prev'
 staxel.nightTransition.prev=Bevor
 //[Reference] 'This tile has already been tilled!'
-staxel.notifications.AlreadyHoed=Diese Fliese wurde bereits umgegraben!
+staxel.notifications.AlreadyHoed=Dieses Feld wurde bereits umgegraben!
 //[Reference] 'Distance: {0} tiles'
-staxel.notifications.BuildingTools.MeasuredDistance=Distanz: {0} Fliesen
+staxel.notifications.BuildingTools.MeasuredDistance=Distanz: {0} Felder
 //[Reference] 'Measuring point one set'
 staxel.notifications.BuildingTools.MeasuringTapeOne=Meßpunkt gesetzt
 //[Reference] 'You can't break this tile.'
-staxel.notifications.CantBreak=Du kannst diese Fliese nicht zerbrechen.
+staxel.notifications.CantBreak=Du kannst dieses Objekt nicht zerbrechen.
 //[Reference] 'Farm Fan has set aside this day to show you around the farm, you should do that before sleeping!'
 staxel.notifications.cantSleepTutorial=Farm Fan zeigt dir gerade die Farm... Das solltest du eher machen, als schlafen!
 //[Reference] 'Failed to Export area. Error message in server console.'
@@ -3611,7 +3611,7 @@ staxel.plant.quest.RainbowButterfly.description=
 staxel.plant.quest.RainbowButterfly.name=Regenbogenschmetterling
 staxel.plant.quest.RainbowButterfly.tile.description=
 //[Reference] 'tile'
-staxel.plant.quest.RainbowButterfly.tile.name=Fliese
+staxel.plant.quest.RainbowButterfly.tile.name=Objekt
 staxel.plant.tree.BasicNaturalTree.description=
 //[Reference] 'Basic Natural Tree'
 staxel.plant.tree.BasicNaturalTree.name=Einfacher natürlicher Baum
