@@ -251,7 +251,7 @@ error.startGame.gameRunning=Kann keinen lokalen privaten Server im Einzelspieler
 //[Reference] 'Invalid credentials.'
 error.startGame.invalidCredential=Ungültige Anmeldedaten.
 //[Reference] 'Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.'
-error.startGame.localTcp=Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten.{0-newLine}Der Server schloss sich bevor der Client eine lokale TCP Verbindung aufbauen konnte.{1-newLine}
+error.startGame.localTcp=Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten. Der Server schloss sich bevor der Client eine lokale TCP Verbindung aufbauen konnte.
 //[Reference] 'Connection closed because a new connection was made by the same player.'
 error.startGame.muliLogin=Verbindung geschlossen da eine neue Verbindung vom selben Spieler aufgebaut wurde.
 //[Reference] 'Not logged in.'
@@ -259,13 +259,13 @@ error.startGame.notLoggedIn=Nicht eingeloggt.
 //[Reference] 'A premium account is required to play on this server.'
 error.startGame.premiumAccount=Ein Premium Account ist vorrausgesetzt um auf diesem Server zu spielen.
 //[Reference] 'Game failed to start a local private server for single player mode. Server closed quickly before client could connect.'
-error.startGame.quickNoConnect=Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten.{0-newLine}Der Server schloss schnell, bevor der Client sich verbinden konnte.{1-newLine}
+error.startGame.quickNoConnect=Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten. Der Server schloss schnell, bevor der Client sich verbinden konnte.
 //[Reference] 'Server is set to allow only accounts with special attributes.'
 error.startGame.specialAttributes=Server erlaubt nur Accounts mit speziellen Eigenschaften/Attributen.
 //[Reference] 'Game failed to start a local private server for single player mode. Timeout on trying to connect with local server.'
 error.startGame.timeout=Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten. Timout während man versucht zum lokalen Server zu verbinden.
 //[Reference] 'Game failed to start a local private server for single player mode. Server closed very quickly before client could connect.'
-error.startGame.veryQuickNoConnect==Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten.{0-newLine}Der Server schloss sehr schnell, bevor der Client sich verbinden konnte.{1-newLine}
+error.startGame.veryQuickNoConnect==Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten. Der Server schloss sehr schnell, bevor der Client sich verbinden konnte.
 //[Reference] 'Weak credentials not allowed by server.'
 error.startGame.weakCredential=Schwache Anmeldedaten, nicht vom Server erlaubt.
 //[Reference] 'Cancel'
@@ -630,6 +630,8 @@ options.general.language=Sprache
 options.keyBindings.bindingLocked=Die {0-binding} Steuerung ist nicht für {1-logicalType} Tastenbelegungen.
 //[Reference] 'Controller'
 options.keyBindings.controller=Controller
+//TODO Translate [Reference] 'Control Scheme'
+options.keyBindings.controlScheme=
 //[Reference] 'Gameplay'
 options.keyBindings.gameplay=Spiel
 //[Reference] 'Interface'
@@ -3413,9 +3415,8 @@ staxel.nightTransition.Line23=Tipp: Seeds setzten und Items aufheben kann man ö
 staxel.nightTransition.next=Nächstes
 //[Reference] 'Wake Up'
 staxel.nightTransition.PressContinueButton=Aufwachen
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Click '{0-button}' or press '{1-key}' to continue...'
-staxel.nightTransition.PressToContinue=Weiter mit {0-key}
+staxel.nightTransition.PressToContinue=Klicke '{0-button}' oder drücke '{1-key}' um fortzufahren...
 //[Reference] 'Prev'
 staxel.nightTransition.prev=Bevor
 //[Reference] 'This tile has already been tilled!'
