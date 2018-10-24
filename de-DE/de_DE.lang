@@ -244,30 +244,30 @@ error.serverFull=Server voll
 error.serverOffline=Der Staxel.net-Server scheint offline zu sein. Bitte probiere es später noch einmal.
 //[Reference] 'SORRY!'
 error.sorry=ENTSCHULDIGUNG!
-//TODO Translate [Reference] 'You have been banned from this server.'
-error.startGame.banned=
+//[Reference] 'You have been banned from this server.'
+error.startGame.banned=Du wurdest vom Server gebannt ._.
 //[Reference] 'Cannot start a local private server for single player mode.{0-newLine}Is another copy of the game still running?{1-newLine}'
 error.startGame.gameRunning=Kann keinen lokalen privaten Server im Einzelspieler starten.{0-newLine}Ist eine andere Kopie des Spiels am laufen?{1-newLine}
-//TODO Translate [Reference] 'Invalid credentials.'
-error.startGame.invalidCredential=
+//[Reference] 'Invalid credentials.'
+error.startGame.invalidCredential=Ungültige Anmeldedaten.
 //[Reference] 'Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.'
-error.startGame.localTcp=Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten.{0-newLine}Der Server schloss sich bevor der Client eine lokale TCP Verbindung aufbauen konnte.{1-newLine}
-//TODO Translate [Reference] 'Connection closed because a new connection was made by the same player.'
-error.startGame.muliLogin=
+error.startGame.localTcp=Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten. Der Server schloss sich bevor der Client eine lokale TCP Verbindung aufbauen konnte.
+//[Reference] 'Connection closed because a new connection was made by the same player.'
+error.startGame.muliLogin=Verbindung geschlossen da eine neue Verbindung vom selben Spieler aufgebaut wurde.
 //[Reference] 'Not logged in.'
-error.startGame.notLoggedIn=Nicht eingeloggt
-//TODO Translate [Reference] 'A premium account is required to play on this server.'
-error.startGame.premiumAccount=
+error.startGame.notLoggedIn=Nicht eingeloggt.
+//[Reference] 'A premium account is required to play on this server.'
+error.startGame.premiumAccount=Ein Premium Account ist vorrausgesetzt um auf diesem Server zu spielen.
 //[Reference] 'Game failed to start a local private server for single player mode. Server closed quickly before client could connect.'
-error.startGame.quickNoConnect=Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten.{0-newLine}Der Server schloss schnell, bevor der Client sich verbinden konnte.{1-newLine}
-//TODO Translate [Reference] 'Server is set to allow only accounts with special attributes.'
-error.startGame.specialAttributes=
+error.startGame.quickNoConnect=Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten. Der Server schloss schnell, bevor der Client sich verbinden konnte.
+//[Reference] 'Server is set to allow only accounts with special attributes.'
+error.startGame.specialAttributes=Server erlaubt nur Accounts mit speziellen Eigenschaften/Attributen.
 //[Reference] 'Game failed to start a local private server for single player mode. Timeout on trying to connect with local server.'
 error.startGame.timeout=Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten. Timout während man versucht zum lokalen Server zu verbinden.
 //[Reference] 'Game failed to start a local private server for single player mode. Server closed very quickly before client could connect.'
-error.startGame.veryQuickNoConnect==Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten.{0-newLine}Der Server schloss sehr schnell, bevor der Client sich verbinden konnte.{1-newLine}
-//TODO Translate [Reference] 'Weak credentials not allowed by server.'
-error.startGame.weakCredential=
+error.startGame.veryQuickNoConnect==Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten. Der Server schloss sehr schnell, bevor der Client sich verbinden konnte.
+//[Reference] 'Weak credentials not allowed by server.'
+error.startGame.weakCredential=Schwache Anmeldedaten, nicht vom Server erlaubt.
 //[Reference] 'Cancel'
 escapemenu.cancel=Abbrechen
 //[Reference] 'Are you sure you want to exit to desktop? Progress is saved automatically.'
@@ -626,10 +626,12 @@ options.general.graphics.ultra=Ultra
 options.general.graphics.WeatherParticles=Wetter in Innenräumen aus
 //[Reference] 'Language'
 options.general.language=Sprache
-//TODO Translate [Reference] 'The {0-binding} control is not available for {1-logicalType} bindings.'
-options.keyBindings.bindingLocked=
+//[Reference] 'The {0-binding} control is not available for {1-logicalType} bindings.'
+options.keyBindings.bindingLocked=Die {0-binding} Steuerung ist nicht für {1-logicalType} Tastenbelegungen.
 //[Reference] 'Controller'
 options.keyBindings.controller=Controller
+//TODO Translate [Reference] 'Control Scheme'
+options.keyBindings.controlScheme=
 //[Reference] 'Gameplay'
 options.keyBindings.gameplay=Spiel
 //[Reference] 'Interface'
@@ -893,6 +895,24 @@ staxel.accessories.characters.accessories.hats.christmas.ReindeerAntlers.name=Re
 staxel.accessories.characters.accessories.hats.christmas.SantaHat.description=
 //[Reference] 'Santa Hat'
 staxel.accessories.characters.accessories.hats.christmas.SantaHat.name=Weihnachtsmütze
+staxel.accessories.characters.accessories.hats.Halloween.ChickenBoxHead.description=
+//TODO Translate [Reference] 'Chicken Box Head'
+staxel.accessories.characters.accessories.hats.Halloween.ChickenBoxHead.name=
+staxel.accessories.characters.accessories.hats.Halloween.FrankensteinBoxHead.description=
+//TODO Translate [Reference] 'Frankenstein Box Head'
+staxel.accessories.characters.accessories.hats.Halloween.FrankensteinBoxHead.name=
+staxel.accessories.characters.accessories.hats.Halloween.MurmurBoxHead.description=
+//TODO Translate [Reference] 'Murmur Box Head'
+staxel.accessories.characters.accessories.hats.Halloween.MurmurBoxHead.name=
+staxel.accessories.characters.accessories.hats.Halloween.SkeletonBoxHead.description=
+//TODO Translate [Reference] 'Skeleton Box Head'
+staxel.accessories.characters.accessories.hats.Halloween.SkeletonBoxHead.name=
+staxel.accessories.characters.accessories.hats.Halloween.VampireBoxHead.description=
+//TODO Translate [Reference] 'Vampire Box Head'
+staxel.accessories.characters.accessories.hats.Halloween.VampireBoxHead.name=
+staxel.accessories.characters.accessories.hats.Halloween.WerewolfBoxHead.description=
+//TODO Translate [Reference] 'Werewolf Box Head'
+staxel.accessories.characters.accessories.hats.Halloween.WerewolfBoxHead.name=
 staxel.accessories.characters.accessories.hats.pirate.Bandana.description=
 //[Reference] 'Bandana'
 staxel.accessories.characters.accessories.hats.pirate.Bandana.name=Bandana
@@ -1021,8 +1041,8 @@ staxel.accessories.pants.jeans.description=
 //[Reference] 'jeans'
 staxel.accessories.pants.jeans.name=Jeans
 staxel.accessories.pants.supershort.description=
-//TODO Translate [Reference] 'supershort'
-staxel.accessories.pants.supershort.name=
+//[Reference] 'supershort'
+staxel.accessories.pants.supershort.name=Supershorts
 staxel.accessories.pants.tracksuit.description=
 //[Reference] 'tracksuit'
 staxel.accessories.pants.tracksuit.name=Trainingsanzug
@@ -1066,11 +1086,11 @@ staxel.accessories.skirts.SkirtLongRuffles.description=
 //[Reference] 'Skirt Long Ruffles'
 staxel.accessories.skirts.SkirtLongRuffles.name=Rock Lange Rüschen
 staxel.accessories.swimsuits.Swimsuit.1.description=
-//TODO Translate [Reference] 'Plain Swimsuit'
-staxel.accessories.swimsuits.Swimsuit.1.name=
+//[Reference] 'Plain Swimsuit'
+staxel.accessories.swimsuits.Swimsuit.1.name=Einfacher Schwimmanzug
 staxel.accessories.swimsuits.Swimsuit.2.description=
-//TODO Translate [Reference] 'Stripy Swimsuit'
-staxel.accessories.swimsuits.Swimsuit.2.name=
+//[Reference] 'Stripy Swimsuit'
+staxel.accessories.swimsuits.Swimsuit.2.name=Gestreifter Schwimmanzug
 staxel.accessories.villagers.Aliza.MechanicsHat.description=
 //[Reference] 'Mechanics Hat'
 staxel.accessories.villagers.Aliza.MechanicsHat.name=Mechanikerhut
@@ -1483,8 +1503,8 @@ staxel.category.rack=Gestell
 staxel.category.range=Weite
 //[Reference] 'Raw Wood'
 staxel.category.rawWood=Rohholz
-//TODO Translate [Reference] 'refridgerator'
-staxel.category.refridgerator=
+//[Reference] 'refridgerator'
+staxel.category.refridgerator=Kühlschrank
 //[Reference] 'restaurant'
 staxel.category.restaurant=Restaurant
 //[Reference] 'rice'
@@ -1585,6 +1605,26 @@ staxel.category.wedding=Hochzeit
 staxel.category.wire=Kabel
 //[Reference] '???'
 staxel.collections.unknown=???
+//TODO Translate [Reference] 'Custom'
+staxel.controlScheme.custom=
+//TODO Translate [Reference] 'Your custom scheme.'
+staxel.controlScheme.custom.description=
+//TODO Translate [Reference] 'Default'
+staxel.controlScheme.default=
+//TODO Translate [Reference] 'Staxel default scheme.'
+staxel.controlScheme.default.description=
+//TODO Translate [Reference] 'Nintendo'
+staxel.controlScheme.nintendo=
+//TODO Translate [Reference] 'Swapped A&B and X&Y controller scheme.'
+staxel.controlScheme.nintendo.description=
+//TODO Translate [Reference] 'O-X Controller'
+staxel.controlScheme.psAsia=
+//TODO Translate [Reference] 'Swapped A(X) and B(O) controller scheme.'
+staxel.controlScheme.psAsia.description=
+//TODO Translate [Reference] 'Australian'
+staxel.controlScheme.straya=
+//TODO Translate [Reference] 'The right way up.'
+staxel.controlScheme.straya.description=
 
 staxel.core.Compound.description=
 //[Reference] 'Compound'
@@ -3358,12 +3398,12 @@ staxel.mouseAxis.Left=Links
 staxel.mouseAxis.Middle=Mitte
 //[Reference] 'Right'
 staxel.mouseAxis.Right=Rechts
-//TODO Translate [Reference] 'Close'
-staxel.netIssuesPrompt.accept=
-//TODO Translate [Reference] 'The connection to the server seems to have a problem, this may be due to a number of issues. For the best experience we recommend fixing these issues before continuing to play. You can check our FAQ for further information on how to troubleshoot bad network conditions at www.playstaxel.com/networkissues.html'
-staxel.netIssuesPrompt.info=
-//TODO Translate [Reference] 'Network Issues Detected'
-staxel.netIssuesPrompt.title=
+//[Reference] 'Close'
+staxel.netIssuesPrompt.accept=Geschlossen
+//[Reference] 'The connection to the server seems to have a problem, this may be due to a number of issues. For the best experience we recommend fixing these issues before continuing to play. You can check our FAQ for further information on how to troubleshoot bad network conditions at www.playstaxel.com/networkissues.html'
+staxel.netIssuesPrompt.info=Die Verbindung zum Server scheint ein Problem zu haben, das kann mehrere Ursachen haben. Um die beste Spielerfahrung zu haben empfehlen wir vor dem Weiterspielen diese Probleme zu beheben. Schau ins FAQ für mehr Informationen wie man mit schlechten Netzwerkkonditionen umgeht unter www.playstaxel.com/networkissues.html
+//[Reference] 'Network Issues Detected'
+staxel.netIssuesPrompt.title=Netzwerkprobleme erkannt
 
 //[Reference] 'Tip: Scythe grass or flowers to get mixed seeds'
 staxel.nightTransition.Line1=Tipp: Mähe Gras oder Blumen, um gemischte Samen zu erhalten.
@@ -3413,9 +3453,8 @@ staxel.nightTransition.Line23=Tipp: Seeds setzten und Items aufheben kann man ö
 staxel.nightTransition.next=Nächstes
 //[Reference] 'Wake Up'
 staxel.nightTransition.PressContinueButton=Aufwachen
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Click '{0-button}' or press '{1-key}' to continue...'
-staxel.nightTransition.PressToContinue=Weiter mit {0-key}
+staxel.nightTransition.PressToContinue=Klicke '{0-button}' oder drücke '{1-key}' um fortzufahren...
 //[Reference] 'Prev'
 staxel.nightTransition.prev=Bevor
 //[Reference] 'This tile has already been tilled!'
@@ -3686,18 +3725,18 @@ staxel.shipping.orderSuccess=Du hast Folgendes bestellt: {0-num}x {1-item}. Die 
 staxel.shipping.youHaveItems=Gegenstände wurden zu deiner Versandstation geliefert!
 //[Reference] 'There is money waiting at your shipping station'
 staxel.shipping.YouHaveMoney=Bei deiner Versandstation wartet Geld auf dich.
-//TODO Translate [Reference] 'Save'
-staxel.signSettings.accept=
-//TODO Translate [Reference] 'Edit Sign'
-staxel.signSettings.title=
-//TODO Translate [Reference] 'Steal'
-staxel.stealPrompt.accept=
-//TODO Translate [Reference] 'Cancel'
-staxel.stealPrompt.decline=
-//TODO Translate [Reference] 'Are you sure you want to steal from this? There may be consequences!'
-staxel.stealPrompt.info=
-//TODO Translate [Reference] 'Steal From'
-staxel.stealPrompt.title=
+//[Reference] 'Save'
+staxel.signSettings.accept=Speichern
+//[Reference] 'Edit Sign'
+staxel.signSettings.title=Schild editieren
+//[Reference] 'Steal'
+staxel.stealPrompt.accept=Stehlen
+//[Reference] 'Cancel'
+staxel.stealPrompt.decline=Abbrechen
+//[Reference] 'Are you sure you want to steal from this? There may be consequences!'
+staxel.stealPrompt.info=Bist du sicher, dass du hieraus stehlen möchtest? Das kann Konsequenzen haben!
+//[Reference] 'Steal From'
+staxel.stealPrompt.title=Stehle von
 staxel.tile.grass.ForestGrassLayer.1.Autumn.description=
 //[Reference] 'Autumn'
 staxel.tile.grass.ForestGrassLayer.1.Autumn.name=Herbst
@@ -4731,6 +4770,9 @@ staxel.tileObject.quest.Riah.MermaidFin.name=Meerjungfrauenschwanz
 staxel.tileObject.quest.Riah.ShipInABottle.description=Diese Objekte sind immer etwas geheimnisvoll. Wie ist es da nur hineingekommen?
 //[Reference] 'Ship In A Bottle'
 staxel.tileObject.quest.Riah.ShipInABottle.name=Buddelschiff
+staxel.tileObject.restaurant.CoffeeGrinder.description=
+//TODO Translate [Reference] 'Coffee Grinder'
+staxel.tileObject.restaurant.CoffeeGrinder.name=
 staxel.tileObject.restaurant.FancyBottle.description=
 //[Reference] 'Fancy Bottle'
 staxel.tileObject.restaurant.FancyBottle.name=Edle Flasche
@@ -5394,6 +5436,27 @@ staxel.tileObject.themedfurniture.ranch.RanchCoffeeTable.NoDock.name=Ranch-Couch
 staxel.tileObject.themedfurniture.ranch.RanchSideTable.NoDock.description=
 //[Reference] 'Ranch Side Table (No Docks)'
 staxel.tileObject.themedfurniture.ranch.RanchSideTable.NoDock.name=Ranch-Beistelltisch (keine Docks)
+staxel.tileObject.themedfurniture.spooky.Calaverita.description=
+//TODO Translate [Reference] 'Calaverita'
+staxel.tileObject.themedfurniture.spooky.Calaverita.name=
+staxel.tileObject.themedfurniture.spooky.Skull.description=
+//TODO Translate [Reference] 'Skull'
+staxel.tileObject.themedfurniture.spooky.Skull.name=
+staxel.tileObject.themedfurniture.spooky.SkullCandles.description=
+//TODO Translate [Reference] 'Skull Candles'
+staxel.tileObject.themedfurniture.spooky.SkullCandles.name=
+staxel.tileObject.themedfurniture.spooky.SpookyBed.description=
+//TODO Translate [Reference] 'Spooky Bed'
+staxel.tileObject.themedfurniture.spooky.SpookyBed.name=
+staxel.tileObject.themedfurniture.spooky.SpookyCandles.description=
+//TODO Translate [Reference] 'Spooky Candles'
+staxel.tileObject.themedfurniture.spooky.SpookyCandles.name=
+staxel.tileObject.themedfurniture.spooky.SpookyChair.description=
+//TODO Translate [Reference] 'Spooky Chair'
+staxel.tileObject.themedfurniture.spooky.SpookyChair.name=
+staxel.tileObject.themedfurniture.spooky.SpookyTable.description=
+//TODO Translate [Reference] 'Spooky Table'
+staxel.tileObject.themedfurniture.spooky.SpookyTable.name=
 staxel.tileObject.themedfurniture.victorian.VictorianSideTable.NoDock.description=
 //[Reference] 'Victorian Side Table (No Docks)'
 staxel.tileObject.themedfurniture.victorian.VictorianSideTable.NoDock.name=Viktorianischer Beistelltisch (keine Docks)
