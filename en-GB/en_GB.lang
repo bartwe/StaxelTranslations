@@ -134,6 +134,8 @@ error.serverFull=Server Full
 error.serverOffline=The Staxel.net server appears to be offline. Please try again later.
 error.sorry=SORRY!
 error.startGame.banned=You have been banned from this server.
+
+error.startGame.connectionClosed=Connection Closed
 error.startGame.gameRunning=Cannot start a local private server for single player mode.{0-newLine}Is another copy of the game still running?{1-newLine}
 error.startGame.invalidCredential=Invalid credentials.
 error.startGame.localTcp=Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.
@@ -1814,8 +1816,8 @@ staxel.item.gatherable.ZebraButterfly.description=
 staxel.item.gatherable.ZebraButterfly.name=Zebra Butterfly
 staxel.item.generic.BlueBook.description=
 staxel.item.generic.BlueBook.name=Blue Book
-staxel.item.generic.StarBits.name=Star Bits
 staxel.item.generic.StarBits.description=
+staxel.item.generic.StarBits.name=Star Bits
 staxel.item.generic.YellowBook.description=
 
 staxel.item.generic.YellowBook.name=Yellow Book
@@ -3654,5 +3656,3 @@ staxel.weed.Weed1.name=Weed
 version.developmentBuild=Staxel Development Build
 wardrobe.CantEquip=Can't equip this here!
 wardrobe.UseAWardrobe=Use a wardrobe to wear this
-
-error.startGame.connectionClosed=Connection Closed
