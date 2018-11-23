@@ -52,7 +52,7 @@ commands.catchableDetails.description=^c:F2E200;catchableDetails ^c:FFFFFF;(opti
 //[Reference] 'Failed to parse location {0-location}'
 commands.catchableDetails.failParse=Ort konnte nicht erfasst werden: {0-location}
 //[Reference] 'Tile not found'
-commands.catchableDetails.notFound=Fliese nicht gefunden
+commands.catchableDetails.notFound=Feld nicht gefunden
 //[Reference] 'Catchable entity does not exist: {0-details}'
 commands.catchableDetails.success.false=Fangbare Einheit existiert nicht: {0-details}
 //[Reference] 'Catchable entity exists: {0-details}'
@@ -284,12 +284,20 @@ commands.spawnMaterial.description=^c:F2E200;spawnmaterial ^c:FFFFFF;(optional)S
 commands.spawnMaterial.notFound=Material nicht gefunden.
 //[Reference] 'Spawn material successful'
 commands.spawnMaterial.success=Material erfolgreich erschaffen.
+//TODO Translate [Reference] '^c:F2E200;spawnStars ^c:FFFFFF;(optional)amount'
+commands.spawnStars.description=
+//TODO Translate [Reference] 'Failed to star bits item.'
+commands.spawnStars.failed=
+//TODO Translate [Reference] 'Star amount is not a valid positive number.'
+commands.spawnStars.invalidNumber=
+//TODO Translate [Reference] 'Spawn star success.'
+commands.spawnStars.success=
 //[Reference] '^c:F2E200;spawntile ^c:FFFFFF;(optional)playerName tileCode'
-commands.spawnTile.description=^c:F2E200;spawntile ^c:FFFFFF;(optional)Spielername Fliesencode
+commands.spawnTile.description=^c:F2E200;spawntile ^c:FFFFFF;(optional)Spielername Feldcode
 //[Reference] 'Tile kind not found.'
-commands.spawnTile.notFound=Fliese nicht gefunden.
+commands.spawnTile.notFound=Feld nicht gefunden.
 //[Reference] 'Spawn tile successful.'
-commands.spawnTile.success=Fliese erfolgreich erschaffen.
+commands.spawnTile.success=Feld erfolgreich erschaffen.
 //[Reference] '^c:F2E200;stealpetals ^c:FFFFFF;amount (optional)remove(true/false)'
 commands.stealPetals.description=^c:F2E200;stealpetals ^c:FFFFFF;amount (optional)remove(true/false)
 //[Reference] 'Reset must be true or false.'
@@ -328,11 +336,11 @@ commands.tileAt.description=^c:F2E200;tileAt ^c:FFFFFF;(optional)location({0,0,0
 //[Reference] 'Failed to parse position {0-position}'
 commands.tileAt.failParse=Position {0-position} konnte nicht erfasst werden
 //[Reference] 'Tile not found'
-commands.tileAt.notFound=Fliese nicht gefunden
+commands.tileAt.notFound=Feld nicht gefunden
 //[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: false, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
-commands.tileAt.success.false=Fliesencode: {0-tilecode} bei {1-position} (compoundFiller: false, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})
+commands.tileAt.success.false=Feldcode: {0-tilecode} bei {1-position} (compoundFiller: false, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})
 //[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
-commands.tileAt.success.true=Fliesencode: {0-tilecode} bei {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})
+commands.tileAt.success.true=Feldcode: {0-tilecode} bei {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})
 //[Reference] '^c:F2E200;toggleTimePassing ^c:FFFFFF;Toggles the passing of time'
 commands.toggleTimePassing.description=^c:F2E200;toggleTimePassing ^c:FFFFFF;Stoppt/setzt Zeitverlauf fort
 //[Reference] 'Time Resumed'
@@ -364,9 +372,8 @@ commands.unmute.failure=Stummschaltung von {0-player} konnte nicht aufgehoben we
 commands.unmute.success={0-player} kann nun wieder sprechen.
 //[Reference] 'Unrecognised command :'{0-command}''
 commands.unrecognised=Unbekannter Befehl: {0-command}
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;updateReputation ^c:FFFFFF;villagerName/Code amount'
-commands.updateReputation.description=^c:F2E200;unmute ^c:FFFFFF;DorfbewohnerName/Code Menge
+commands.updateReputation.description=^c:F2E200;UpdateReputation ^c:FFFFFF;DorfbewohnerName/Code Menge
 //[Reference] 'Reputation updated to {0-newAmount} for villager {1-villagerCode}'
 commands.updateReputation.success=Ansehen geändert auf {0-newAmount} für Dorfbewohner {1-villagerCode}
 //[Reference] 'Villager Entity not found'

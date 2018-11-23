@@ -217,10 +217,10 @@ credits.sledra.description=Sorgt dafür, dass das Team immer was zu tun hat.
 credits.solatrus.description=Er hat einige liebliche Soundtracks zu Staxel beigetragen.
 //[Reference] 'Special Thanks'
 credits.specialThanks=Besonderen Dank
-//TODO Translate [Reference] '13lueWolf, Alan-FGR, AlexRol, Androkai, Anguaji, ChelseaSaunders, DarkTomGames, Darkosto, DeamonHunter, Demanrisu, Elske, FasterThanLime, GeorgeV, Hevedy, Hogemaru, HumbleBundle, Imke, JassonMcMorris, JonOlick'
-credits.specialThanks.1.description=
-//TODO Translate [Reference] 'Leth, Lewis, MightyBorlaug, Notch, NoxyWoxy, Paniq, ProfMobius, Rho, RobTheSwan, RyanClark, Searge, Sledra, Sola3555, Solatrus, Spidersouris, TommasoChecchi, TynanSylvester, VirtualVel, W92Baj, Wout, Y2bcrazy'
-credits.specialThanks.2.description=
+//[Reference] '13lueWolf, Alan-FGR, AlexRol, Androkai, Anguaji, ChelseaSaunders, DarkTomGames, Darkosto, DeamonHunter, Demanrisu, Elske, FasterThanLime, GeorgeV, Hevedy, Hogemaru, HumbleBundle, Imke, JassonMcMorris, JonOlick'
+credits.specialThanks.1.description=13lueWolf, Alan-FGR, AlexRol, Androkai, Anguaji, ChelseaSaunders, DarkTomGames, Darkosto, DeamonHunter, Demanrisu, Elske, FasterThanLime, GeorgeV, Hevedy, Hogemaru, HumbleBundle, Imke, JassonMcMorris, JonOlick
+//[Reference] 'Leth, Lewis, MightyBorlaug, Notch, NoxyWoxy, Paniq, ProfMobius, Rho, RobTheSwan, RyanClark, Searge, Sledra, Sola3555, Solatrus, Spidersouris, TommasoChecchi, TynanSylvester, VirtualVel, W92Baj, Wout, Y2bcrazy'
+credits.specialThanks.2.description=Leth, Lewis, MightyBorlaug, Notch, NoxyWoxy, Paniq, ProfMobius, Rho, RobTheSwan, RyanClark, Searge, Sledra, Sola3555, Solatrus, Spidersouris, TommasoChecchi, TynanSylvester, VirtualVel, W92Baj, Wout, Y2bcrazy
 //[Reference] 'He is the artist. He has worked hard to produce all the in game models, and make the game as visually appealing as possible.'
 credits.steampunkstein.description=Er ist der Künstler. Er hat hart daran gearbeitet, alle Modelle im Spiel zu erstellen und das Spiel visuell so ansprechend wie möglich zu gestalten.
 //[Reference] 'He is the assistant producer, involved with the game design and generally has a finger in every pie.'
@@ -250,6 +250,8 @@ error.serverOffline=Der Staxel.net-Server scheint offline zu sein. Bitte probier
 error.sorry=ENTSCHULDIGUNG!
 //[Reference] 'You have been banned from this server.'
 error.startGame.banned=Du wurdest vom Server gebannt ._.
+//TODO Translate [Reference] 'Connection Closed'
+error.startGame.connectionClosed=
 //[Reference] 'Cannot start a local private server for single player mode.{0-newLine}Is another copy of the game still running?{1-newLine}'
 error.startGame.gameRunning=Kann keinen lokalen privaten Server im Einzelspieler starten.{0-newLine}Ist eine andere Kopie des Spiels am laufen?{1-newLine}
 //[Reference] 'Invalid credentials.'
@@ -293,8 +295,8 @@ escapeMenu.mainMenu=Zum Hauptmenü
 escapeMenu.options=Optionen
 //[Reference] 'Teleport Home'
 escapeMenu.returnHome=Nach Hause
-//TODO Translate [Reference] 'Staxel Net Address'
-escapeMenu.StaxelNet.Address=
+//[Reference] 'Staxel Net Address'
+escapeMenu.StaxelNet.Address=StaxelNet-Addresse
 //[Reference] 'Face Extruder Settings'
 FaceExtruderSettings.title=Oberflächen Extruder Einstellungen
 
@@ -428,9 +430,8 @@ options.admin.debug.EnableDebugKeys=Aktiviere Debug Tasten
 //[Reference] 'Fly Mode'
 options.admin.debug.flyMode=Flugmodus
 
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Increased View Range (Experimental)'
-options.admin.debug.IncreasedViewRange=Erweitertes Blickfeld
+options.admin.debug.IncreasedViewRange=Erweitertes Blickfeld (Experimentell)
 //[Reference] 'Make a crashlog'
 options.admin.debug.makeCrashlog=Absturzbericht erstellen
 //[Reference] 'No Clip Mode'
@@ -475,12 +476,12 @@ options.gameplay.audio.muteErrorSounds=Error Sounds stummschalten
 options.gameplay.controller=Controller
 //[Reference] 'Enable Controller Input'
 options.gameplay.controller.enableController=Controller aktivieren
-//TODO Translate [Reference] 'Flip Left X Axis'
-options.gameplay.controller.flipLeftX=
+//[Reference] 'Flip Left X Axis'
+options.gameplay.controller.flipLeftX=Linke X-Achse umkehren
 //[Reference] 'Flip Left Y Axis'
 options.gameplay.controller.flipLeftY=Linke Y-Achse umkehren
-//TODO Translate [Reference] 'Flip Right X Axis'
-options.gameplay.controller.flipRightX=
+//[Reference] 'Flip Right X Axis'
+options.gameplay.controller.flipRightX=Rechte X-Achse umkehren
 //[Reference] 'Flip Right Y Axis'
 options.gameplay.controller.flipRightY=Rechte Y-Achse umkehren
 //[Reference] 'Left Thumb Curve:'
@@ -507,8 +508,8 @@ options.gameplay.keyboard=Tastatur
 options.gameplay.mouse=Maus
 //[Reference] 'Flip Wheel Direction'
 options.gameplay.mouse.flipWheelDirection=Mausrad-Richtung umkehren
-//TODO Translate [Reference] 'Flip X Axis'
-options.gameplay.mouse.flipX=
+//[Reference] 'Flip X Axis'
+options.gameplay.mouse.flipX=X-Achse umkehren
 //[Reference] 'Flip Y Axis'
 options.gameplay.mouse.flipY=Y-Achse umkehren
 //[Reference] 'Mouse Velocity:'
@@ -540,10 +541,10 @@ options.gameplay.other.showCraftingKeywordTags=Bastel-Schlüsselwort-Tags
 options.gameplay.other.StepWiseUIScale=Benutzeroberfläche nicht strecken
 //[Reference] 'Prevent NPC Staring'
 options.gameplay.other.StopNPCStaring=Starren der NPCs unterbinden
-//TODO Translate [Reference] 'StaxelNet'
-options.gameplay.StaxelNet=
-//TODO Translate [Reference] 'Relay'
-options.gameplay.StaxelNet.Relay=
+//[Reference] 'StaxelNet'
+options.gameplay.StaxelNet=StaxelNet
+//[Reference] 'Relay'
+options.gameplay.StaxelNet.Relay=Relais
 //[Reference] 'UI'
 options.gameplay.ui=UI
 //[Reference] 'Fullscreen Resolution:'
@@ -646,8 +647,8 @@ options.general.language=Sprache
 options.keyBindings.bindingLocked=Die {0-binding} Steuerung ist nicht für {1-logicalType} Tastenbelegungen.
 //[Reference] 'Controller'
 options.keyBindings.controller=Controller
-//TODO Translate [Reference] 'Control Scheme'
-options.keyBindings.controlScheme=
+//[Reference] 'Control Scheme'
+options.keyBindings.controlScheme=Kontrollschema
 //[Reference] 'Gameplay'
 options.keyBindings.gameplay=Spiel
 //[Reference] 'Interface'
@@ -801,8 +802,8 @@ singleplayer.defaultWorldName=Meine Welt
 singleplayer.delete=Löschen
 //[Reference] 'Failed to delete world'
 singleplayer.failedToDeleteWorld=Welt konnte nicht gelöscht werden
-//TODO Translate [Reference] 'Starting Farms'
-singleplayer.farmCount=
+//[Reference] 'Starting Farms'
+singleplayer.farmCount=Start Farms
 //[Reference] 'Allow friend joins'
 singleplayer.friendJoin=Freunde beitreten lassen
 //[Reference] 'Launch'
@@ -822,8 +823,8 @@ singleplayer.serverSeed=Samen
 
 //[Reference] 'Single Player'
 singleplayer.singleplayer=Einzelspieler
-//TODO Translate [Reference] 'Use StaxelNet'
-singleplayer.StaxelNet=
+//[Reference] 'Use StaxelNet'
+singleplayer.StaxelNet=Benutze StaxelNet
 //[Reference] 'World is currently opened. Can't change settings.'
 singleplayer.storageLockFile=Die Welt ist gerade geöffnet. Kann keine Einstellungen ändern.
 //[Reference] 'Village'
@@ -916,23 +917,23 @@ staxel.accessories.characters.accessories.hats.christmas.SantaHat.description=
 //[Reference] 'Santa Hat'
 staxel.accessories.characters.accessories.hats.christmas.SantaHat.name=Weihnachtsmütze
 staxel.accessories.characters.accessories.hats.Halloween.ChickenBoxHead.description=
-//TODO Translate [Reference] 'Chicken Box Head'
-staxel.accessories.characters.accessories.hats.Halloween.ChickenBoxHead.name=
+//[Reference] 'Chicken Box Head'
+staxel.accessories.characters.accessories.hats.Halloween.ChickenBoxHead.name=Hühner Box Kopf
 staxel.accessories.characters.accessories.hats.Halloween.FrankensteinBoxHead.description=
-//TODO Translate [Reference] 'Frankenstein Box Head'
-staxel.accessories.characters.accessories.hats.Halloween.FrankensteinBoxHead.name=
+//[Reference] 'Frankenstein Box Head'
+staxel.accessories.characters.accessories.hats.Halloween.FrankensteinBoxHead.name=Frankenstein Box Kopf
 staxel.accessories.characters.accessories.hats.Halloween.MurmurBoxHead.description=
-//TODO Translate [Reference] 'Murmur Box Head'
-staxel.accessories.characters.accessories.hats.Halloween.MurmurBoxHead.name=
+//[Reference] 'Murmur Box Head'
+staxel.accessories.characters.accessories.hats.Halloween.MurmurBoxHead.name=Murmur Box Kopf
 staxel.accessories.characters.accessories.hats.Halloween.SkeletonBoxHead.description=
-//TODO Translate [Reference] 'Skeleton Box Head'
-staxel.accessories.characters.accessories.hats.Halloween.SkeletonBoxHead.name=
+//[Reference] 'Skeleton Box Head'
+staxel.accessories.characters.accessories.hats.Halloween.SkeletonBoxHead.name=Skelett Box Kopf
 staxel.accessories.characters.accessories.hats.Halloween.VampireBoxHead.description=
-//TODO Translate [Reference] 'Vampire Box Head'
-staxel.accessories.characters.accessories.hats.Halloween.VampireBoxHead.name=
+//[Reference] 'Vampire Box Head'
+staxel.accessories.characters.accessories.hats.Halloween.VampireBoxHead.name=Vampir Box Kopf
 staxel.accessories.characters.accessories.hats.Halloween.WerewolfBoxHead.description=
-//TODO Translate [Reference] 'Werewolf Box Head'
-staxel.accessories.characters.accessories.hats.Halloween.WerewolfBoxHead.name=
+//[Reference] 'Werewolf Box Head'
+staxel.accessories.characters.accessories.hats.Halloween.WerewolfBoxHead.name=Werwolf Box Kopf
 staxel.accessories.characters.accessories.hats.pirate.Bandana.description=
 //[Reference] 'Bandana'
 staxel.accessories.characters.accessories.hats.pirate.Bandana.name=Bandana
@@ -1625,26 +1626,27 @@ staxel.category.wedding=Hochzeit
 staxel.category.wire=Kabel
 //[Reference] '???'
 staxel.collections.unknown=???
-//TODO Translate [Reference] 'Alt Controller'
-staxel.controlScheme.altController=
-//TODO Translate [Reference] 'Swapped A&B and X&Y controller scheme.'
-staxel.controlScheme.altController.description=
-//TODO Translate [Reference] 'Custom'
-staxel.controlScheme.custom=
-//TODO Translate [Reference] 'Your custom scheme.'
-staxel.controlScheme.custom.description=
-//TODO Translate [Reference] 'Default'
-staxel.controlScheme.default=
-//TODO Translate [Reference] 'Staxel default scheme.'
-staxel.controlScheme.default.description=
-//TODO Translate [Reference] 'O-X Controller'
-staxel.controlScheme.psAsia=
-//TODO Translate [Reference] 'Swapped A(X) and B(O) controller scheme.'
-staxel.controlScheme.psAsia.description=
-//TODO Translate [Reference] 'Australian'
-staxel.controlScheme.straya=
-//TODO Translate [Reference] 'The right way up.'
-staxel.controlScheme.straya.description=
+
+//[Reference] 'Alt Controller'
+staxel.controlScheme.altController=Alt Controller
+//[Reference] 'Swapped A&B and X&Y controller scheme.'
+staxel.controlScheme.altController.description=Vertauschtes A&B und X&Y Controllerschema
+//[Reference] 'Custom'
+staxel.controlScheme.custom=Selbsterstellt
+//[Reference] 'Your custom scheme.'
+staxel.controlScheme.custom.description=Dein Selbsterstelltes Schema.
+//[Reference] 'Default'
+staxel.controlScheme.default=Standard
+//[Reference] 'Staxel default scheme.'
+staxel.controlScheme.default.description=Staxels Standard Schema.
+//[Reference] 'O-X Controller'
+staxel.controlScheme.psAsia=O-X Controller
+//[Reference] 'Swapped A(X) and B(O) controller scheme.'
+staxel.controlScheme.psAsia.description=Vertauschtes A(X) und B(O) Controllerschema
+//[Reference] 'Australian'
+staxel.controlScheme.straya=Australisch
+//[Reference] 'The right way up.'
+staxel.controlScheme.straya.description=Richtig herum.
 
 staxel.core.Compound.description=
 //[Reference] 'Compound'
@@ -1718,7 +1720,6 @@ staxel.crafting.recipes.BrownWoodBlock.name=Brauner Holzblock
 staxel.crafting.recipes.Butter.description=
 //[Reference] 'Butter'
 staxel.crafting.recipes.Butter.name=Butter
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Cheesecake'
 staxel.crafting.recipes.CakeCheese.name=Käsekuchen
 staxel.crafting.recipes.CandyCorn.description=
@@ -3080,6 +3081,9 @@ staxel.item.gatherable.ZebraButterfly.name=Zebrafalter
 staxel.item.generic.BlueBook.description=
 //[Reference] 'Blue Book'
 staxel.item.generic.BlueBook.name=Blaues Buch
+staxel.item.generic.StarBits.description=
+//TODO Translate [Reference] 'Star Bits'
+staxel.item.generic.StarBits.name=
 staxel.item.generic.YellowBook.description=
 //[Reference] 'Yellow Book'
 staxel.item.generic.YellowBook.name=Gelbes Buch
@@ -3171,19 +3175,16 @@ staxel.item.quest.MachinePartScreen.description=Daten wurden nie besser dargeste
 staxel.item.quest.MachinePartScreen.name=Maschinenbildschirm
 //[Reference] 'This ultra-strong coffee has a similar colour and consistency to machine oil. The aroma is slightly concerning.'
 staxel.item.quest.OrderForAliza.description=Dieser extrem starke Kaffee ähnelt in Bezug auf Farbe und Konsistenz Maschinenöl. Das Aroma ist leicht besorgniserregend.
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Ultra-strong coffee'
-staxel.item.quest.OrderForAliza.name=Bestellung für Aliza
+staxel.item.quest.OrderForAliza.name=Ultra-starker Kaffee
 //[Reference] 'A very particular meal that comes with a mug o' sap. Even the food itself reeks of the stuff!'
 staxel.item.quest.OrderForFarmFan.description=Eine sehr eigenartige Mahlzeit, begleitet von einem Becher Saft. Sogar das Essen riecht nach dem Zeug!
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Meal o' Sap'
-staxel.item.quest.OrderForFarmFan.name=Bestellung für Farm-Fan
+staxel.item.quest.OrderForFarmFan.name=Ordentliche Mahlzeit
 //[Reference] 'A rather simply prepared fish fillet. It might as well be raw.'
 staxel.item.quest.OrderForRiah.description=Ein einfach zubereitetes Fischfilet. Das könnte auch genauso gut roh sein.
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Almost-raw fish fillet'
-staxel.item.quest.OrderForRiah.name=Bestellung für Riah
+staxel.item.quest.OrderForRiah.name=Fast rohes Fischfilet
 staxel.item.quest.Oscar.AluaLetter.description=
 //[Reference] 'Alua Letter'
 staxel.item.quest.Oscar.AluaLetter.name=Aluas Brief
@@ -3677,12 +3678,12 @@ staxel.plant.tree.BasicNaturalTree.name=Einfacher natürlicher Baum
 
 //[Reference] 'Free in Creative'
 staxel.priceTag.freeInCreative=Frei im Kreativ-Modus
-//TODO Translate [Reference] 'California1'
-staxel.relays.Ca1=
-//TODO Translate [Reference] 'NewJersey1'
-staxel.relays.Nj1=
-//TODO Translate [Reference] 'London1'
-staxel.relays.Uk1=
+//[Reference] 'California1'
+staxel.relays.Ca1=Kalifornia1
+//[Reference] 'NewJersey1'
+staxel.relays.Nj1=New Jersey1
+//[Reference] 'London1'
+staxel.relays.Uk1=London1
 //[Reference] 'Autumn'
 staxel.season.Autumn=Herbst
 
@@ -3718,34 +3719,34 @@ staxel.season.date.14=14.
 staxel.season.date.15=15.
 //[Reference] '16th'
 staxel.season.date.16=16.
-//TODO Translate [Reference] '17th'
-staxel.season.date.17=
-//TODO Translate [Reference] '18th'
-staxel.season.date.18=
-//TODO Translate [Reference] '19th'
-staxel.season.date.19=
-//TODO Translate [Reference] '20th'
-staxel.season.date.20=
-//TODO Translate [Reference] '21st'
-staxel.season.date.21=
-//TODO Translate [Reference] '22nd'
-staxel.season.date.22=
-//TODO Translate [Reference] '23rd'
-staxel.season.date.23=
-//TODO Translate [Reference] '24th'
-staxel.season.date.24=
-//TODO Translate [Reference] '25th'
-staxel.season.date.25=
-//TODO Translate [Reference] '26th'
-staxel.season.date.26=
-//TODO Translate [Reference] '27th'
-staxel.season.date.27=
-//TODO Translate [Reference] '28th'
-staxel.season.date.28=
-//TODO Translate [Reference] '29th'
-staxel.season.date.29=
-//TODO Translate [Reference] '30th'
-staxel.season.date.30=
+//[Reference] '17th'
+staxel.season.date.17=17.
+//[Reference] '18th'
+staxel.season.date.18=18.
+//[Reference] '19th'
+staxel.season.date.19=19.
+//[Reference] '20th'
+staxel.season.date.20=20.
+//[Reference] '21st'
+staxel.season.date.21=21.
+//[Reference] '22nd'
+staxel.season.date.22=22.
+//[Reference] '23rd'
+staxel.season.date.23=23.
+//[Reference] '24th'
+staxel.season.date.24=24.
+//[Reference] '25th'
+staxel.season.date.25=25.
+//[Reference] '26th'
+staxel.season.date.26=26.
+//[Reference] '27th'
+staxel.season.date.27=27.
+//[Reference] '28th'
+staxel.season.date.28=28.
+//[Reference] '29th'
+staxel.season.date.29=29.
+//[Reference] '30th'
+staxel.season.date.30=30.
 //[Reference] 'Spring'
 staxel.season.Spring=Frühling
 //[Reference] 'Summer'
@@ -4825,8 +4826,8 @@ staxel.tileObject.quest.Riah.ShipInABottle.description=Diese Objekte sind immer 
 //[Reference] 'Ship In A Bottle'
 staxel.tileObject.quest.Riah.ShipInABottle.name=Buddelschiff
 staxel.tileObject.restaurant.CoffeeGrinder.description=
-//TODO Translate [Reference] 'Coffee Grinder'
-staxel.tileObject.restaurant.CoffeeGrinder.name=
+//[Reference] 'Coffee Grinder'
+staxel.tileObject.restaurant.CoffeeGrinder.name=Kaffeemühle
 staxel.tileObject.restaurant.FancyBottle.description=
 //[Reference] 'Fancy Bottle'
 staxel.tileObject.restaurant.FancyBottle.name=Edle Flasche
@@ -5491,26 +5492,26 @@ staxel.tileObject.themedfurniture.ranch.RanchSideTable.NoDock.description=
 //[Reference] 'Ranch Side Table (No Docks)'
 staxel.tileObject.themedfurniture.ranch.RanchSideTable.NoDock.name=Ranch-Beistelltisch (keine Docks)
 staxel.tileObject.themedfurniture.spooky.Calaverita.description=
-//TODO Translate [Reference] 'Calaverita'
-staxel.tileObject.themedfurniture.spooky.Calaverita.name=
+//[Reference] 'Calaverita'
+staxel.tileObject.themedfurniture.spooky.Calaverita.name=Calaverita
 staxel.tileObject.themedfurniture.spooky.Skull.description=
-//TODO Translate [Reference] 'Skull'
-staxel.tileObject.themedfurniture.spooky.Skull.name=
+//[Reference] 'Skull'
+staxel.tileObject.themedfurniture.spooky.Skull.name=Schädel
 staxel.tileObject.themedfurniture.spooky.SkullCandles.description=
-//TODO Translate [Reference] 'Skull Candles'
-staxel.tileObject.themedfurniture.spooky.SkullCandles.name=
+//[Reference] 'Skull Candles'
+staxel.tileObject.themedfurniture.spooky.SkullCandles.name=Schädelkerzen
 staxel.tileObject.themedfurniture.spooky.SpookyBed.description=
-//TODO Translate [Reference] 'Spooky Bed'
-staxel.tileObject.themedfurniture.spooky.SpookyBed.name=
+//[Reference] 'Spooky Bed'
+staxel.tileObject.themedfurniture.spooky.SpookyBed.name=Gruseliges Bett
 staxel.tileObject.themedfurniture.spooky.SpookyCandles.description=
-//TODO Translate [Reference] 'Spooky Candles'
-staxel.tileObject.themedfurniture.spooky.SpookyCandles.name=
+//[Reference] 'Spooky Candles'
+staxel.tileObject.themedfurniture.spooky.SpookyCandles.name=Gruselige Kerzen
 staxel.tileObject.themedfurniture.spooky.SpookyChair.description=
-//TODO Translate [Reference] 'Spooky Chair'
-staxel.tileObject.themedfurniture.spooky.SpookyChair.name=
+//[Reference] 'Spooky Chair'
+staxel.tileObject.themedfurniture.spooky.SpookyChair.name=Gruseliger Stuhl
 staxel.tileObject.themedfurniture.spooky.SpookyTable.description=
-//TODO Translate [Reference] 'Spooky Table'
-staxel.tileObject.themedfurniture.spooky.SpookyTable.name=
+//[Reference] 'Spooky Table'
+staxel.tileObject.themedfurniture.spooky.SpookyTable.name=Gruseliger Tisch
 staxel.tileObject.themedfurniture.victorian.VictorianSideTable.NoDock.description=
 //[Reference] 'Victorian Side Table (No Docks)'
 staxel.tileObject.themedfurniture.victorian.VictorianSideTable.NoDock.name=Viktorianischer Beistelltisch (keine Docks)
