@@ -108,6 +108,8 @@ controlHint.verb.Play=プレイ
 controlHint.verb.Pull=引っぱる
 //[Reference] 'Reap'
 controlHint.verb.Reap=刈り取る
+//TODO Translate [Reference] 'Refill'
+controlHint.verb.Refill=
 //[Reference] 'Rename'
 controlHint.verb.Rename=名前を変更する
 //[Reference] 'Reset'
@@ -531,6 +533,8 @@ options.gameplay.other.autoPickupItems=
 options.gameplay.other.ChatSpeed=テキストスピード：
 //[Reference] 'Chat Timestamps'
 options.gameplay.other.chatTimestamps=チャットのタイムスタンプ
+//TODO Translate [Reference] 'Fishing Timeout'
+options.gameplay.other.FishingTimeout=
 //[Reference] 'Left Handed Mode'
 options.gameplay.other.leftHandedMode=左利きモード
 //[Reference] 'Scale UI with resolution'
@@ -3110,6 +3114,10 @@ staxel.item.NoteToRowan.name=ローワン宛てのメモ
 staxel.item.PetalWandCore.description=
 //[Reference] 'Petal Wand Core'
 staxel.item.PetalWandCore.name=花びらの杖のコア
+//TODO Translate [Reference] 'At one point we knew what this item was... But we forgot.'
+staxel.item.Placeholder.description=
+//TODO Translate [Reference] 'Missing Item'
+staxel.item.Placeholder.name=
 staxel.item.quest.Aliza.AirshipParts.description=
 //[Reference] 'Airship Parts'
 staxel.item.quest.Aliza.AirshipParts.name=飛行船の部品
@@ -3546,6 +3554,8 @@ staxel.notifications.HoeFail=草または土の上でクワを使ってくださ
 staxel.notifications.milker.NotLookingAtMilkableAnimal=乳搾りできる動物を選びましょう
 //[Reference] 'New home position set!'
 staxel.notifications.newHomePosition=新たなホームポジションが設定されました！
+//TODO Translate [Reference] 'You are out of water.'
+staxel.notifications.outOfWater=
 //[Reference] 'This plant does not need to be watered.'
 staxel.notifications.plantDoesNotNeedWatering=この植物に水やりする必要はありません。
 //[Reference] 'This can only be planted in {0-season}!'
@@ -3563,7 +3573,8 @@ staxel.notifications.tooEarlyForSleep=就寝するには早すぎます！
 staxel.notifications.weatherAlreadyWatered=雨の日に作物に水やりする必要はありません！
 //[Reference] 'You don't need to water crops on snowy days!'
 staxel.notifications.weatherSnowyAlreadyWatered=雪の日に作物に水やりする必要はありません！
-//[Reference] 'You can only use manure on wilted plants'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'You can only use manure on wilted plants.'
 staxel.notifications.WrongManureUse=肥料はしおれた作物にのみ使えます
 //[Reference] 'This isn't the right tool'
 staxel.notifications.WrongTool=適切な道具ではありません
@@ -3601,6 +3612,8 @@ staxel.notifications.WrongToolUniversal.3=これを{3}/{4}/{5}には{0}、{1}、
 staxel.notifications.WrongToolUniversal.4=これを{4}/{5}/{6}/{7}には{0}、{1}、{2}、{3}のどれかが必要です。
 //[Reference] 'You need: {0}, {1}, {2}, {3}, or {4} to {5}/{6}/{7}/{8}/{9} this.'
 staxel.notifications.WrongToolUniversal.5=これを{5}/{6}/{7}/{8}/{9}には{0}、{1}、{2}、{3}、{4}のどれかが必要です。
+//TODO Translate [Reference] 'You can't refill the watering can on this tile.'
+staxel.notifications.WrongWateringCanUse=
 
 //[Reference] 'Chicken'
 staxel.personality.Chicken=ニワトリ

@@ -110,6 +110,8 @@ controlHint.verb.Play=Play
 controlHint.verb.Pull=뽑기
 //[Reference] 'Reap'
 controlHint.verb.Reap=베기
+//TODO Translate [Reference] 'Refill'
+controlHint.verb.Refill=
 //[Reference] 'Rename'
 controlHint.verb.Rename=Rename
 //[Reference] 'Reset'
@@ -537,6 +539,8 @@ options.gameplay.other.autoPickupItems=
 options.gameplay.other.ChatSpeed=
 //[Reference] 'Chat Timestamps'
 options.gameplay.other.chatTimestamps=채팅 시간 기록
+//TODO Translate [Reference] 'Fishing Timeout'
+options.gameplay.other.FishingTimeout=
 //[Reference] 'Left Handed Mode'
 options.gameplay.other.leftHandedMode=왼손잡이 시점 적용
 //[Reference] 'Scale UI with resolution'
@@ -3142,6 +3146,10 @@ staxel.item.NoteToRowan.name=Note To Rowan
 staxel.item.PetalWandCore.description=
 //TODO Translate [Reference] 'Petal Wand Core'
 staxel.item.PetalWandCore.name=
+//TODO Translate [Reference] 'At one point we knew what this item was... But we forgot.'
+staxel.item.Placeholder.description=
+//TODO Translate [Reference] 'Missing Item'
+staxel.item.Placeholder.name=
 staxel.item.quest.Aliza.AirshipParts.description=
 //TODO Translate [Reference] 'Airship Parts'
 staxel.item.quest.Aliza.AirshipParts.name=
@@ -3579,6 +3587,8 @@ staxel.notifications.HoeFail=Use the hoe on grass or dirt.
 staxel.notifications.milker.NotLookingAtMilkableAnimal=Try a milkable animal
 //[Reference] 'New home position set!'
 staxel.notifications.newHomePosition=New home position set!
+//TODO Translate [Reference] 'You are out of water.'
+staxel.notifications.outOfWater=
 //[Reference] 'This plant does not need to be watered.'
 staxel.notifications.plantDoesNotNeedWatering=This plant does not need to be watered.
 //[Reference] 'This can only be planted in {0-season}!'
@@ -3596,7 +3606,7 @@ staxel.notifications.tooEarlyForSleep=It's too early to sleep!
 staxel.notifications.weatherAlreadyWatered=You don't need to water crops on rainy days!
 //[Reference] 'You don't need to water crops on snowy days!'
 staxel.notifications.weatherSnowyAlreadyWatered=You don't need to water crops on snowy days!
-//TODO Translate [Reference] 'You can only use manure on wilted plants'
+//TODO Translate [Reference] 'You can only use manure on wilted plants.'
 staxel.notifications.WrongManureUse=
 //[Reference] 'This isn't the right tool'
 staxel.notifications.WrongTool=This isn't the right tool
@@ -3634,6 +3644,8 @@ staxel.notifications.WrongToolUniversal.3=You need: {0}, {1}, or {2} to {3}/{4}/
 staxel.notifications.WrongToolUniversal.4=You need: {0}, {1}, {2}, or {3} to {4}/{5}/{6}/{7} this.
 //[Reference] 'You need: {0}, {1}, {2}, {3}, or {4} to {5}/{6}/{7}/{8}/{9} this.'
 staxel.notifications.WrongToolUniversal.5=You need: {0}, {1}, {2}, {3}, or {4} to {5}/{6}/{7}/{8}/{9} this.
+//TODO Translate [Reference] 'You can't refill the watering can on this tile.'
+staxel.notifications.WrongWateringCanUse=
 
 //[Reference] 'Chicken'
 staxel.personality.Chicken=Chicken
