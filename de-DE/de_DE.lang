@@ -265,6 +265,8 @@ error.startGame.connectionClosed=Verbindung Geschlossen
 error.startGame.gameRunning=Kann keinen lokalen privaten Server im Einzelspieler starten.{0-newLine}Ist eine andere Kopie des Spiels am laufen?{1-newLine}
 //[Reference] 'Invalid credentials.'
 error.startGame.invalidCredential=Ungültige Anmeldedaten.
+//[Reference] 'Local game closed unexpectedly.'
+error.startGame.localGameUnexpected=Das Lokales Spiel wurde unerwartet geschlossen.
 //[Reference] 'Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.'
 error.startGame.localTcp=Das Spiel konnte keinen lokalen privaten Server im Einzelspieler starten. Der Server schloss sich bevor der Client eine lokale TCP Verbindung aufbauen konnte.
 //[Reference] 'Connection closed because a new connection was made by the same player.'
@@ -829,10 +831,10 @@ singleplayer.nameTooShort=Name zu kurz (mind. 3 Zeichen)
 singleplayer.newWorld=Neue Welt
 //[Reference] 'Play With Friends'
 singleplayer.playWithFriends=Mit Freunden spielen
-//TODO Translate [Reference] 'Rename'
-singleplayer.rename=
-//TODO Translate [Reference] 'Error while renaming world.'
-singleplayer.renameError=
+//[Reference] 'Rename'
+singleplayer.rename=Umbenennen
+//[Reference] 'Error while renaming world.'
+singleplayer.renameError=Fehler beim Umbenennen der Welt
 //[Reference] 'Name'
 singleplayer.serverName=Name
 //[Reference] 'Seed'
@@ -842,8 +844,8 @@ singleplayer.serverSeed=Samen
 singleplayer.singleplayer=Einzelspieler
 //[Reference] 'Use StaxelNet'
 singleplayer.StaxelNet=Benutze StaxelNet
-//TODO Translate [Reference] 'World has not yet been created.'
-singleplayer.storageDoesNotExist=
+//[Reference] 'World has not yet been created.'
+singleplayer.storageDoesNotExist=Die Welt wurde noch nicht erstellt.
 //[Reference] 'World is currently opened. Can't change settings.'
 singleplayer.storageLockFile=Die Welt ist gerade geöffnet. Kann keine Einstellungen ändern.
 //[Reference] 'Village'
@@ -1260,8 +1262,8 @@ staxel.category.bottle=Flasche
 staxel.category.bugDisplay=Vitrine für Käfer
 //[Reference] 'butterfly'
 staxel.category.butterfly=Schmetterling
-//TODO Translate [Reference] 'calaverita'
-staxel.category.calaverita=
+//[Reference] 'calaverita'
+staxel.category.calaverita=Calaverita
 //[Reference] 'Campfire Large'
 staxel.category.CampfireLarge=Großes Lagerfeuer
 //[Reference] 'candles'
@@ -1304,14 +1306,14 @@ staxel.category.chocostrawberry=Schokoerdbeere
 staxel.category.cicada=Zikade
 //[Reference] 'cirahna'
 staxel.category.cirahna=Cirahna
-//TODO Translate [Reference] 'cleaning'
-staxel.category.cleaning=
+//[Reference] 'cleaning'
+staxel.category.cleaning=Putzen
 //[Reference] 'Cloth'
 staxel.category.cloth=Stoff
 //[Reference] 'coffeebean'
 staxel.category.coffeebean=Kaffeebohne
-//TODO Translate [Reference] 'coffin'
-staxel.category.coffin=
+//[Reference] 'coffin'
+staxel.category.coffin=Sarg
 //[Reference] 'color'
 staxel.category.color=Farbe
 //[Reference] 'combine'
@@ -1387,10 +1389,10 @@ staxel.category.GoldenStrawberry=Goldene Erdbeere
 staxel.category.GoldenWatermelon=Goldene Wassermelone
 //[Reference] 'grape'
 staxel.category.grape=Traube
-//TODO Translate [Reference] 'grinder'
-staxel.category.grinder=
-//TODO Translate [Reference] 'halloween'
-staxel.category.halloween=
+//[Reference] 'grinder'
+staxel.category.grinder=Schleifer
+//[Reference] 'halloween'
+staxel.category.halloween=Halloween
 //[Reference] 'hanging'
 staxel.category.hanging=Hängen
 //[Reference] 'harvest'
@@ -1559,8 +1561,8 @@ staxel.category.refridgerator=Kühlschrank
 staxel.category.restaurant=Restaurant
 //[Reference] 'rice'
 staxel.category.rice=Reis
-//TODO Translate [Reference] 'rubbish'
-staxel.category.rubbish=
+//[Reference] 'rubbish'
+staxel.category.rubbish=Müll
 //[Reference] 'sack'
 staxel.category.sack=Sack
 //[Reference] 'salad'
@@ -1613,8 +1615,8 @@ staxel.category.snack=Snack
 staxel.category.snowdust=Schneestaub
 //[Reference] 'sponge'
 staxel.category.sponge=Schwamm
-//TODO Translate [Reference] 'spooky'
-staxel.category.spooky=
+//[Reference] 'spooky'
+staxel.category.spooky=Gruselig
 //[Reference] 'standalone'
 staxel.category.standalone=alleinstehend
 //[Reference] 'star'
@@ -5778,6 +5780,8 @@ staxel.totem.awayFromTown=Weg vom Dorf
 staxel.totem.Barn=Einfache Scheune
 //[Reference] 'Barn'
 staxel.totem.Barn.name=Scheune
+//[Reference] 'Totem is not breakable. Use the totem to change this.'
+staxel.totem.BreakableTotem=Das Totem ist nicht zerstörbar. Benutze das Totem um das zu ändern
 //[Reference] 'This building is no longer complete!'
 staxel.totem.BuildingInvalidated=Dieses Gebäude ist nicht mehr komplett!
 //[Reference] 'Cecile's Home'
@@ -5897,6 +5901,8 @@ staxel.totemInfo.tier=Stufe {0-level}
 staxel.totemInfo.tierRequirements=Stufe {0-level} – Voraussetzungen
 //[Reference] 'Toggle Region Display'
 staxel.totems.toggleboundary=Regionsanzeige ein-/ausschalten
+//[Reference] 'Toggle Breakable'
+staxel.totems.togglebreakable=Zerstörbar ein-/ausschalten
 //[Reference] 'This tree grows juicy, crunchy apples. Fruits in Autumn.'
 staxel.tree.AppleTree.description=An diesem Baum wachsen saftige, knackige Äpfel. Trägt im Herbst Früchte.
 //[Reference] 'Apple Tree Seed'
@@ -6013,8 +6019,8 @@ staxel.villager.Princess.name=Prinzessin
 staxel.villager.QuietTourist.name=Zurückhaltender Tourist
 //[Reference] 'Rainbow Butterfly'
 staxel.villager.Rainbow Butterfly.name=Regenbogenschmetterling
-//TODO Translate [Reference] 'Reserved Tourist'
-staxel.villager.Reserved Tourist.name=
+//[Reference] 'Reserved Tourist'
+staxel.villager.Reserved Tourist.name=Zurückhaltender Tourist
 //[Reference] 'Riah'
 staxel.villager.Riah.name=Riah
 //[Reference] 'Rosemary'
