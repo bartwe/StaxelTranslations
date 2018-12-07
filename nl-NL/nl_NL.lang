@@ -266,6 +266,8 @@ error.startGame.connectionClosed=
 error.startGame.gameRunning=
 //TODO Translate [Reference] 'Invalid credentials.'
 error.startGame.invalidCredential=
+//TODO Translate [Reference] 'Local game closed unexpectedly.'
+error.startGame.localGameUnexpected=
 //TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.'
 error.startGame.localTcp=
 //TODO Translate [Reference] 'Connection closed because a new connection was made by the same player.'
@@ -820,12 +822,13 @@ singleplayer.friendJoin=Toetreding van vrienden toestaan
 singleplayer.launch=Starten
 //[Reference] 'Storage with this name already exists'
 singleplayer.nameAlreadyExists=Opslag met deze naam bestaat al
-//[Reference] 'Name to short (min 3 characters)'
-singleplayer.nameTooShort=Naam te kort (minimaal 3 tekens)
-//TODO Translate [Reference] 'Name too long (max 16 characters)'
-singleplayer.nameTooLong=
 //TODO Translate [Reference] 'Name is invalid (contains invalid characters)'
 singleplayer.nameIsInvalid=
+//TODO Translate [Reference] 'Name too long (max 16 characters)'
+singleplayer.nameTooLong=
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Name too short (min 3 characters)'
+singleplayer.nameTooShort=Naam te kort (minimaal 3 tekens)
 //[Reference] 'New World'
 singleplayer.newWorld=Nieuwe Wereld
 //[Reference] 'Play With Friends'
@@ -5748,6 +5751,8 @@ staxel.totem.awayFromTown=Weg van het Dorp.
 staxel.totem.Barn=Eenvoudige Schuur
 //[Reference] 'Barn'
 staxel.totem.Barn.name=Schuur
+//TODO Translate [Reference] 'Totem is not breakable. Use the totem to change this.'
+staxel.totem.BreakableTotem=
 //[Reference] 'This building is no longer complete!'
 staxel.totem.BuildingInvalidated=Dit gebouw is niet langer compleet!
 //[Reference] 'Cecile's Home'
@@ -5866,6 +5871,8 @@ staxel.totemInfo.tier=Rang {0-level}
 staxel.totemInfo.tierRequirements=Rang {0-level}Basisvereisten
 //[Reference] 'Toggle Region Display'
 staxel.totems.toggleboundary=Wissel Gebieddisplay
+//TODO Translate [Reference] 'Toggle Breakable'
+staxel.totems.togglebreakable=
 //[Reference] 'This tree grows juicy, crunchy apples. Fruits in Autumn.'
 staxel.tree.AppleTree.description=Aan deze boom groeien sappige, knapperige appels. Draagt in de herfst.
 //[Reference] 'Apple Tree Seed'

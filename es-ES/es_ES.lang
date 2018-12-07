@@ -5,11 +5,11 @@ language=Español
 
 //[Reference] 'Achievement unlocked: {0-achievement}!'
 achievements.achievementUnlocked=¡Logro desbloqueado: {0-achievement}!
-//TODO Translate [Reference] 'Alua'
+//[Reference] 'Alua'
 Alua=Alua
-//TODO Translate [Reference] 'Box Builder Settings'
+//[Reference] 'Box Builder Settings'
 BoxPlacerSettings.title=Configuracíon de construcción de cubos
-//TODO Translate [Reference] 'Save'
+//[Reference] 'Save'
 BuildToolSettings.accept=Guardar
 //[Reference] 'Buy:'
 catalogue.buy=Comprar:
@@ -114,7 +114,7 @@ controlHint.verb.Play=Tocar
 controlHint.verb.Pull=Tirar
 //[Reference] 'Reap'
 controlHint.verb.Reap=Cosechar
-//TODO Translate [Reference] 'Refill'
+//[Reference] 'Refill'
 controlHint.verb.Refill=Rellenar
 //[Reference] 'Rename'
 controlHint.verb.Rename=Cambiar nombre
@@ -264,31 +264,33 @@ error.serverFull=Servidor lleno
 error.serverOffline=Parece que el servidor Staxel.net no está en línea. Inténtalo de nuevo más tarde.
 //[Reference] 'SORRY!'
 error.sorry=¡LO SENTIMOS!
-//TODO Translate [Reference] 'You have been banned from this server.'
+//[Reference] 'You have been banned from this server.'
 error.startGame.banned=Has sido bloqueado del servidor
-//TODO Translate [Reference] 'Connection Closed'
+//[Reference] 'Connection Closed'
 error.startGame.connectionClosed=Conexión finalizada
-//TODO Translate [Reference] 'Cannot start a local private server for single player mode.{0-newLine}Is another copy of the game still running?{1-newLine}'
+//[Reference] 'Cannot start a local private server for single player mode.{0-newLine}Is another copy of the game still running?{1-newLine}'
 error.startGame.gameRunning=No se pudo empezar un servidor privado local para el modo un jugador.{0-newLine}¿Hay otra copia del juego ejecutandose?{1-newLine}
-//TODO Translate [Reference] 'Invalid credentials.'
+//[Reference] 'Invalid credentials.'
 error.startGame.invalidCredential=Credenciales invalidas.
-//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.'
+//TODO Translate [Reference] 'Local game closed unexpectedly.'
+error.startGame.localGameUnexpected=
+//[Reference] 'Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.'
 error.startGame.localTcp=El juego fallo al arrancar un servidor privado local para el modo un jugador. El servidor se cerró antes de que el cliente pudiera hacer una conexión local tcp.
-//TODO Translate [Reference] 'Connection closed because a new connection was made by the same player.'
+//[Reference] 'Connection closed because a new connection was made by the same player.'
 error.startGame.muliLogin=Conexión finalizada debido a una nueva conexión realizada por el mismo jugador.
-//TODO Translate [Reference] 'Not logged in.'
+//[Reference] 'Not logged in.'
 error.startGame.notLoggedIn=No accedistes.
-//TODO Translate [Reference] 'A premium account is required to play on this server.'
+//[Reference] 'A premium account is required to play on this server.'
 error.startGame.premiumAccount=Es necesario una cuenta especial para jugar a este servidor.
-//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed quickly before client could connect.'
+//[Reference] 'Game failed to start a local private server for single player mode. Server closed quickly before client could connect.'
 error.startGame.quickNoConnect=El juego fallo al arrancar un servidor provado local para el modo un jugador. El servidor se cerró rápidamente antes de que el cliente se pudiera conectar.
-//TODO Translate [Reference] 'Server is set to allow only accounts with special attributes.'
+//[Reference] 'Server is set to allow only accounts with special attributes.'
 error.startGame.specialAttributes=El servidor está configurado para solo permitir cuentas con atributos especiales.
-//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Timeout on trying to connect with local server.'
+//[Reference] 'Game failed to start a local private server for single player mode. Timeout on trying to connect with local server.'
 error.startGame.timeout=El juego fallo al arrancar un servidor provado local para el modo un jugador. Tiempo de espera agotado al intentar conectarse al servidor local.
-//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed very quickly before client could connect.'
+//[Reference] 'Game failed to start a local private server for single player mode. Server closed very quickly before client could connect.'
 error.startGame.veryQuickNoConnect=El juego fallo al arrancar un servidor provado local para el modo un jugador. El servidor se cerró inmediatamente antes de que el cliente se pudiera conectar.
-//TODO Translate [Reference] 'Weak credentials not allowed by server.'
+//[Reference] 'Weak credentials not allowed by server.'
 error.startGame.weakCredential=Las credenciales debiles no están permitidas por el servidor.
 //[Reference] 'Cancel'
 escapemenu.cancel=Cancelar
@@ -314,9 +316,9 @@ escapeMenu.mainMenu=Menú principal
 escapeMenu.options=Opciones
 //[Reference] 'Teleport Home'
 escapeMenu.returnHome=Volver al último control
-//TODO Translate [Reference] 'Staxel Net Address'
+//[Reference] 'Staxel Net Address'
 escapeMenu.StaxelNet.Address=Dirección Staxel Net
-//TODO Translate [Reference] 'Face Extruder Settings'
+//[Reference] 'Face Extruder Settings'
 FaceExtruderSettings.title=Personalización de cara
 
 
@@ -400,7 +402,7 @@ hintText.thiefThief=¡Delincuente! Quizá puedas ganarte el perdón de la aldea.
 hintText.thiefWarning=Robar tiene sus consecuencias.
 //[Reference] 'true'
 language.validated=verdadero
-//TODO Translate [Reference] 'Line Builder Settings'
+//[Reference] 'Line Builder Settings'
 LinePlacerSettings.title=Configuracón de constructor de arista.
 
 //[Reference] 'Downloading bundle assets'
@@ -477,9 +479,9 @@ options.audio.description=Configura las opciones de audio
 options.auto=Automático
 //[Reference] '(X)'
 options.backButton=(X)
-//TODO Translate [Reference] 'Destructive Mode'
+//[Reference] 'Destructive Mode'
 options.boxtool.destructive=Modo Destructivo
-//TODO Translate [Reference] 'Determines whether or not the tool will destroy tiles in the way when creating a box'
+//[Reference] 'Determines whether or not the tool will destroy tiles in the way when creating a box'
 options.boxtool.destructive.description=Determina cuales herramientas podrán destruir baldosas cuando se crea una caja
 //TODO Translate [Reference] 'Hollow Mode'
 options.boxtool.hollow=
@@ -841,12 +843,13 @@ singleplayer.friendJoin=Permitir amigos
 singleplayer.launch=Iniciar
 //[Reference] 'Storage with this name already exists'
 singleplayer.nameAlreadyExists=Ya existe un mundo con este nombre.
-//[Reference] 'Name to short (min 3 characters)'
-singleplayer.nameTooShort=Nombre muy corto (mín. 3 caracteres)
-//TODO Translate [Reference] 'Name too long (max 16 characters)'
-singleplayer.nameTooLong=
 //TODO Translate [Reference] 'Name is invalid (contains invalid characters)'
 singleplayer.nameIsInvalid=
+//TODO Translate [Reference] 'Name too long (max 16 characters)'
+singleplayer.nameTooLong=
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Name too short (min 3 characters)'
+singleplayer.nameTooShort=Nombre muy corto (mín. 3 caracteres)
 //[Reference] 'New World'
 singleplayer.newWorld=Nuevo mundo
 //[Reference] 'Play With Friends'
@@ -5815,6 +5818,8 @@ staxel.totem.awayFromTown=
 staxel.totem.Barn=Establo simple
 //[Reference] 'Barn'
 staxel.totem.Barn.name=Establo
+//TODO Translate [Reference] 'Totem is not breakable. Use the totem to change this.'
+staxel.totem.BreakableTotem=
 //[Reference] 'This building is no longer complete!'
 staxel.totem.BuildingInvalidated=¡Esta construcción no está completa!
 //[Reference] 'Cecile's Home'
@@ -5934,6 +5939,8 @@ staxel.totemInfo.tier=Nivel {0-level}
 staxel.totemInfo.tierRequirements=Requisitos del nivel {0-level}
 //[Reference] 'Toggle Region Display'
 staxel.totems.toggleboundary=Mostrar área de construcción
+//TODO Translate [Reference] 'Toggle Breakable'
+staxel.totems.togglebreakable=
 //[Reference] 'This tree grows juicy, crunchy apples. Fruits in Autumn.'
 staxel.tree.AppleTree.description=Este árbol produce manzanas jugosas y crujientes. Da fruto en otoño.
 //[Reference] 'Apple Tree Seed'

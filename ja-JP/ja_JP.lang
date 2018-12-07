@@ -268,6 +268,8 @@ error.startGame.connectionClosed=
 error.startGame.gameRunning=
 //TODO Translate [Reference] 'Invalid credentials.'
 error.startGame.invalidCredential=
+//TODO Translate [Reference] 'Local game closed unexpectedly.'
+error.startGame.localGameUnexpected=
 //TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.'
 error.startGame.localTcp=
 //TODO Translate [Reference] 'Connection closed because a new connection was made by the same player.'
@@ -828,12 +830,13 @@ singleplayer.friendJoin=友達の参加を許可する
 singleplayer.launch=起動
 //[Reference] 'Storage with this name already exists'
 singleplayer.nameAlreadyExists=この名前のストレージはすでに存在しています
-//[Reference] 'Name to short (min 3 characters)'
-singleplayer.nameTooShort=名前が短すぎます（3文字以上にしてください）
-//TODO Translate [Reference] 'Name too long (max 16 characters)'
-singleplayer.nameTooLong=
 //TODO Translate [Reference] 'Name is invalid (contains invalid characters)'
 singleplayer.nameIsInvalid=
+//TODO Translate [Reference] 'Name too long (max 16 characters)'
+singleplayer.nameTooLong=
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Name too short (min 3 characters)'
+singleplayer.nameTooShort=名前が短すぎます（3文字以上にしてください）
 //[Reference] 'New World'
 singleplayer.newWorld=新規作成
 //[Reference] 'Play With Friends'
@@ -5795,6 +5798,8 @@ staxel.totem.awayFromTown=村から遠ざける。
 staxel.totem.Barn=質素な納屋
 //[Reference] 'Barn'
 staxel.totem.Barn.name=納屋
+//TODO Translate [Reference] 'Totem is not breakable. Use the totem to change this.'
+staxel.totem.BreakableTotem=
 //[Reference] 'This building is no longer complete!'
 staxel.totem.BuildingInvalidated=建物は不完全になった
 //[Reference] 'Cecile's Home'
@@ -5914,6 +5919,8 @@ staxel.totemInfo.tier=ティア{0-level}
 staxel.totemInfo.tierRequirements=ティア{0-level}の要件
 //[Reference] 'Toggle Region Display'
 staxel.totems.toggleboundary=領域表示の切り替え
+//TODO Translate [Reference] 'Toggle Breakable'
+staxel.totems.togglebreakable=
 //[Reference] 'This tree grows juicy, crunchy apples. Fruits in Autumn.'
 staxel.tree.AppleTree.description=この木には果汁たっぷりで歯ごたえの良いリンゴが実る。秋に収穫できる。
 //[Reference] 'Apple Tree Seed'
