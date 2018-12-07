@@ -271,7 +271,9 @@ error.startGame.connectionClosed=Conexión finalizada
 //[Reference] 'Cannot start a local private server for single player mode.{0-newLine}Is another copy of the game still running?{1-newLine}'
 error.startGame.gameRunning=No se pudo empezar un servidor privado local para el modo un jugador.{0-newLine}¿Hay otra copia del juego ejecutandose?{1-newLine}
 //[Reference] 'Invalid credentials.'
-error.startGame.invalidCredential=Credenciales invalidas.
+error.startGame.invalidCredential=Credenciales inválidas.
+//TODO Translate [Reference] 'Local game closed unexpectedly.'
+error.startGame.localGameUnexpected=El juego local se cerró inesperadamente.
 //[Reference] 'Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.'
 error.startGame.localTcp=El juego fallo al arrancar un servidor privado local para el modo un jugador. El servidor se cerró antes de que el cliente pudiera hacer una conexión local tcp.
 //[Reference] 'Connection closed because a new connection was made by the same player.'
@@ -289,7 +291,7 @@ error.startGame.timeout=El juego fallo al arrancar un servidor provado local par
 //[Reference] 'Game failed to start a local private server for single player mode. Server closed very quickly before client could connect.'
 error.startGame.veryQuickNoConnect=El juego fallo al arrancar un servidor provado local para el modo un jugador. El servidor se cerró inmediatamente antes de que el cliente se pudiera conectar.
 //[Reference] 'Weak credentials not allowed by server.'
-error.startGame.weakCredential=Las credenciales debiles no están permitidas por el servidor.
+error.startGame.weakCredential=Las credenciales débiles no están permitidas por el servidor.
 //[Reference] 'Cancel'
 escapemenu.cancel=Cancelar
 //[Reference] 'Are you sure you want to exit to desktop? Progress is saved automatically.'
@@ -1060,7 +1062,7 @@ staxel.accessories.fullBodyOutfits.villager.Princess.description=
 staxel.accessories.fullBodyOutfits.villager.Princess.name=Princesa
 staxel.accessories.fullBodyOutfits.villager.RainbowButterfly.description=
 //[Reference] 'Rainbow Butterfly'
-staxel.accessories.fullBodyOutfits.villager.RainbowButterfly.name=Mariposa arcoiris
+staxel.accessories.fullBodyOutfits.villager.RainbowButterfly.name=Mariposa arcoíris
 staxel.accessories.fullBodyOutfits.villager.Riah.description=
 //[Reference] 'Riah'
 staxel.accessories.fullBodyOutfits.villager.Riah.name=Riah
@@ -2682,27 +2684,27 @@ staxel.item.crafting.Chips.name=Patatas fritas
 staxel.item.crafting.ChocoBlueberryPopsicle.description=
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Choco Blueberry Popsicle'
-staxel.item.crafting.ChocoBlueberryPopsicle.name=Polo de choco arándano
+staxel.item.crafting.ChocoBlueberryPopsicle.name=Polo de chocoarándano
 staxel.item.crafting.ChocoGrapePopsicle.description=
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Choco Grape Popsicle'
-staxel.item.crafting.ChocoGrapePopsicle.name=Polo de choco uva
+staxel.item.crafting.ChocoGrapePopsicle.name=Polo de chocouva
 staxel.item.crafting.ChocoLimePopsicle.description=
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Choco Lime Popsicle'
-staxel.item.crafting.ChocoLimePopsicle.name=Polo de choco lima
+staxel.item.crafting.ChocoLimePopsicle.name=Polo de chocolima
 staxel.item.crafting.ChocoMintPopsicle.description=
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Choco Mint Popsicle'
-staxel.item.crafting.ChocoMintPopsicle.name=Polo de choco menta
+staxel.item.crafting.ChocoMintPopsicle.name=Polo de chocomenta
 staxel.item.crafting.ChocoOrangePopsicle.description=
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Choco Orange Popsicle'
-staxel.item.crafting.ChocoOrangePopsicle.name=Polo de choco naranja
+staxel.item.crafting.ChocoOrangePopsicle.name=Polo de choconaranja
 staxel.item.crafting.ChocoStrawberryPopsicle.description=
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Choco Strawberry Popsicle'
-staxel.item.crafting.ChocoStrawberryPopsicle.name=Polo de choco fresa
+staxel.item.crafting.ChocoStrawberryPopsicle.name=Polo de chocofresa
 staxel.item.crafting.Coffee.description=
 //[Reference] 'Coffee'
 staxel.item.crafting.Coffee.name=Café
@@ -2740,7 +2742,7 @@ staxel.item.crafting.Glue.description=
 staxel.item.crafting.Glue.name=Pegamento
 staxel.item.crafting.GrapePopsicle.description=
 //[Reference] 'Grape Popsicle'
-staxel.item.crafting.GrapePopsicle.name=Polo de Uva
+staxel.item.crafting.GrapePopsicle.name=Polo de uva
 staxel.item.crafting.GreenLeaf.description=
 //[Reference] 'Green Leaf'
 staxel.item.crafting.GreenLeaf.name=Hojas verdes
@@ -2782,7 +2784,7 @@ staxel.item.crafting.LightMeal.Sushi.description=
 staxel.item.crafting.LightMeal.Sushi.name=Sushi
 staxel.item.crafting.LimePopsicle.description=
 //[Reference] 'Lime Popsicle'
-staxel.item.crafting.LimePopsicle.name=Polo de Lima
+staxel.item.crafting.LimePopsicle.name=Polo de lima
 staxel.item.crafting.Lumber.description=
 //[Reference] 'Lumber'
 staxel.item.crafting.Lumber.name=Madero
@@ -2797,7 +2799,7 @@ staxel.item.crafting.MetalBands.description=
 staxel.item.crafting.MetalBands.name=Aros de metal
 staxel.item.crafting.MintPopsicle.description=
 //[Reference] 'Mint Popsicle'
-staxel.item.crafting.MintPopsicle.name=Polo de Menta
+staxel.item.crafting.MintPopsicle.name=Polo de menta
 staxel.item.crafting.Mortar.description=
 //[Reference] 'Mortar'
 staxel.item.crafting.Mortar.name=Cemento
@@ -2809,7 +2811,7 @@ staxel.item.crafting.Nails.description=
 staxel.item.crafting.Nails.name=Clavos
 staxel.item.crafting.OrangePopsicle.description=
 //[Reference] 'Orange Popsicle'
-staxel.item.crafting.OrangePopsicle.name=Polo de Naranja
+staxel.item.crafting.OrangePopsicle.name=Polo de naranja
 staxel.item.crafting.PancakeBatter.description=
 //[Reference] 'PancakeBatter'
 staxel.item.crafting.PancakeBatter.name=Masa de tortitas
@@ -2863,7 +2865,7 @@ staxel.item.crafting.StrawberryBlueberrySmoothie.description=
 staxel.item.crafting.StrawberryBlueberrySmoothie.name=Batido de fresa y arándanos
 staxel.item.crafting.StrawberryPopsicle.description=
 //[Reference] 'Strawberry Popsicle'
-staxel.item.crafting.StrawberryPopsicle.name=Polo de naranja
+staxel.item.crafting.StrawberryPopsicle.name=Polo de fresa
 staxel.item.crafting.UnbakedBakedPotatoWithColdUnbakedCheese.description=
 //[Reference] 'UnbakedBakedPotatoWithColdUnbakedCheese'
 staxel.item.crafting.UnbakedBakedPotatoWithColdUnbakedCheese.name=UnbakedBakedPotatoWithColdUnbakedCheese
@@ -3404,7 +3406,7 @@ staxel.item.SoakedSponge.description=
 //[Reference] 'Soaked Sponge'
 staxel.item.SoakedSponge.name=Esponja empapada
 //[Reference] 'Sponge'
-staxel.item.Sponge.name=Esponga
+staxel.item.Sponge.name=Esponja
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Click a tile to start, click another to end. Builds a box between the corners. Alt click for settings. (uses first tile as material)'
 staxel.item.tool.BoxPlacer.description=Click en una baldosa inical, click en otra final. Construye un cubo entre las esquinas. Click Alterno para configurar. (usa la primera baldosa como material)
@@ -3685,7 +3687,7 @@ staxel.notifications.WrongTool.Verb.Pickup=coger
 staxel.notifications.WrongTool.Verb.Pull=tirar
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Soak'
-staxel.notifications.WrongTool.Verb.Soak=mojar
+staxel.notifications.WrongTool.Verb.Soak=empapar
 //[Reference] 'sweep'
 staxel.notifications.WrongTool.Verb.Sweep=barrer
 //[Reference] 'till'
@@ -4069,7 +4071,7 @@ staxel.tileObject.airship.WeatherVane.description=
 staxel.tileObject.airship.WeatherVane.name=Veleta
 staxel.tileObject.beachset.BeachToys.description=
 //[Reference] 'Beach Toys'
-staxel.tileObject.beachset.BeachToys.name=Jugete de playa
+staxel.tileObject.beachset.BeachToys.name=Juguete de playa
 staxel.tileObject.beachset.PalmTree.description=
 //[Reference] 'Palm Tree'
 staxel.tileObject.beachset.PalmTree.name=Palmera
@@ -5818,7 +5820,7 @@ staxel.tileObject.villagers.rewards.FarmFan.CowPlushy.description=
 staxel.tileObject.villagers.rewards.FarmFan.CowPlushy.name=Vaca de peluche de Farm Fan
 staxel.tileObject.villagers.rewards.Max.CommemorativePlaque.description=
 //[Reference] 'Commemorative Plaque'
-staxel.tileObject.villagers.rewards.Max.CommemorativePlaque.name=Placa conmemoratica
+staxel.tileObject.villagers.rewards.Max.CommemorativePlaque.name=Placa conmemorativa
 staxel.tileObject.villagers.rewards.Max.MaxsCityKey.description=
 //[Reference] 'Max's City Key'
 staxel.tileObject.villagers.rewards.Max.MaxsCityKey.name=Llave de la ciudad de Max
@@ -6098,7 +6100,7 @@ staxel.villager.Princess.name=Princesa
 //[Reference] 'Reserved Tourist'
 staxel.villager.QuietTourist.name=Turista reservado
 //[Reference] 'Rainbow Butterfly'
-staxel.villager.Rainbow Butterfly.name=Mariposa arcoiris
+staxel.villager.Rainbow Butterfly.name=Mariposa arcoíris
 //[Reference] 'Reserved Tourist'
 staxel.villager.Reserved Tourist.name=Turista callado
 //[Reference] 'Riah'
