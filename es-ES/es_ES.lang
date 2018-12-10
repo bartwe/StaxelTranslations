@@ -1,4 +1,4 @@
-language.code=es-ES
+﻿language.code=es-ES
 language=Español
 =
 
@@ -272,7 +272,7 @@ error.startGame.connectionClosed=Conexión finalizada
 error.startGame.gameRunning=No se pudo empezar un servidor privado local para el modo un jugador.{0-newLine}¿Hay otra copia del juego ejecutandose?{1-newLine}
 //[Reference] 'Invalid credentials.'
 error.startGame.invalidCredential=Credenciales inválidas.
-//TODO Translate [Reference] 'Local game closed unexpectedly.'
+//[Reference] 'Local game closed unexpectedly.'
 error.startGame.localGameUnexpected=El juego local se cerró inesperadamente.
 //[Reference] 'Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.'
 error.startGame.localTcp=El juego fallo al arrancar un servidor privado local para el modo un jugador. El servidor se cerró antes de que el cliente pudiera hacer una conexión local tcp.
@@ -845,12 +845,13 @@ singleplayer.friendJoin=Permitir amigos
 singleplayer.launch=Iniciar
 //[Reference] 'Storage with this name already exists'
 singleplayer.nameAlreadyExists=Ya existe un mundo con este nombre.
-//[Reference] 'Name to short (min 3 characters)'
-singleplayer.nameTooShort=Nombre muy corto (mín. 3 caracteres)
-//[Reference] 'Name too long (max 16 characters)'
-singleplayer.nameTooLong=Nombre muy largo (máx. 16 caracteres)
 //[Reference] 'Name is invalid (contains invalid characters)'
 singleplayer.nameIsInvalid=El nombre es incorrecto (contiene caracteres inválidos)
+//[Reference] 'Name too long (max 16 characters)'
+singleplayer.nameTooLong=Nombre muy largo (máx. 16 caracteres)
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Name too short (min 3 characters)'
+singleplayer.nameTooShort=Nombre muy corto (mín. 3 caracteres)
 //[Reference] 'New World'
 singleplayer.newWorld=Nuevo mundo
 //[Reference] 'Play With Friends'
@@ -3190,7 +3191,6 @@ staxel.item.PetalWandCore.description=
 staxel.item.PetalWandCore.name=Núcleo de varita de pétalo
 //[Reference] 'At one point we knew what this item was... But we forgot.'
 staxel.item.Placeholder.description=Antes sabíamos lo que era este objeto... Pero lo olvidamos.
-At one point we knew what this item was... But we forgot.
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Missing Item'
 staxel.item.Placeholder.name=Objeto Perdido
@@ -3908,7 +3908,7 @@ staxel.stealPrompt.decline=Cancelar
 staxel.stealPrompt.info=¿Estás seguro que quieres robar esto? ¡Puede haber consecuencias!
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Steal From'
-staxel.stealPrompt.title= Robar 
+staxel.stealPrompt.title=Robar
 staxel.tile.grass.ForestGrassLayer.1.Autumn.description=
 //[Reference] 'Autumn'
 staxel.tile.grass.ForestGrassLayer.1.Autumn.name=Otoño
@@ -5324,7 +5324,7 @@ staxel.tileObject.shop.ShopWindow4.description=
 //[Reference] 'Shop Window4'
 staxel.tileObject.shop.ShopWindow4.name=Ventana de tienda 4
 staxel.tileObject.sign.LargeWoodenSign.description=
-// [Reference] 'Large Wooden Sign'
+//[Reference] 'Large Wooden Sign'
 staxel.tileObject.sign.LargeWoodenSign.name=Cartel grande
 staxel.tileObject.sign.SmallWoodenSign.description=
 //[Reference] 'Small Wooden Sign'
@@ -5865,6 +5865,8 @@ staxel.totem.awayFromTown=Lejos de la ciudad
 staxel.totem.Barn=Establo simple
 //[Reference] 'Barn'
 staxel.totem.Barn.name=Establo
+//TODO Translate [Reference] 'Totem is not breakable. Use the totem to change this.'
+staxel.totem.BreakableTotem=
 //[Reference] 'This building is no longer complete!'
 staxel.totem.BuildingInvalidated=¡Esta construcción no está completa!
 //[Reference] 'Cecile's Home'
@@ -5985,6 +5987,8 @@ staxel.totemInfo.tier=Nivel {0-level}
 staxel.totemInfo.tierRequirements=Requisitos del nivel {0-level}
 //[Reference] 'Toggle Region Display'
 staxel.totems.toggleboundary=Mostrar área de construcción
+//TODO Translate [Reference] 'Toggle Breakable'
+staxel.totems.togglebreakable=
 //[Reference] 'This tree grows juicy, crunchy apples. Fruits in Autumn.'
 staxel.tree.AppleTree.description=Este árbol produce manzanas jugosas y crujientes. Da fruto en otoño.
 //[Reference] 'Apple Tree Seed'
