@@ -225,6 +225,7 @@ multiplayerMenu.back=Back to main menu
 multiplayerMenu.joinServer=Join Server
 
 multiplayerMenu.playWithFriends=Play With Friends
+multiplayerMenu.playWithFriendsStandalone=Play With Friends
 multiplayerMenu.serverIP=Server Address:
 multiplayerMenu.serverList=Server List
 multiplayerMenu.serverPassword=Server Password (optional):
@@ -460,13 +461,12 @@ singleplayer.serverName=Name
 singleplayer.serverSeed=Seed
 singleplayer.singleplayer=Single Player
 singleplayer.StaxelNet=Use StaxelNet
+singleplayer.StaxelNetStandalone=Play With Friends (StaxelNet)
+singleplayer.staxelNetStandaloneWeakAuth=Not authenticated
 singleplayer.storageDoesNotExist=World has not yet been created.
 singleplayer.storageLockFile=World is currently opened. Can't change settings.
 singleplayer.village=Village
 singleplayer.worldSize=World Size
-singleplayer.staxelNetStandaloneWeakAuth=Not authenticated
-singleplayer.StaxelNetStandalone=Play With Friends (StaxelNet)
-multiplayerMenu.playWithFriendsStandalone=Play With Friends
 
 SpherePlacerSettings.title=Sphere Builder Settings
 
@@ -743,6 +743,7 @@ staxel.category.castle=castle
 staxel.category.cave=cave
 staxel.category.Cecile=Cecile
 staxel.category.CherryPieStand=Cherry Pie Stand
+staxel.category.chickenFeedingArea=Chicken Feeding Area
 staxel.category.chocoblueberry=chocoblueberry
 staxel.category.chocogrape=chocogrape
 staxel.category.ChocolateCakeStand=Chocolate Cake Stand
@@ -2024,8 +2025,8 @@ staxel.merchant.NotEnoughMoney=Not enough money
 staxel.merchant.novalue=That isn't worth anything at the moment.
 staxel.merchant.paid=Paid {0-amount} petals!
 staxel.merchant.received=Received {0-amount} petals!
-staxel.merchant.RequiresTotem= You need to build a {0-totem} before you can buy this!
-staxel.merchant.RequiresTotemTier= You need a tier {1-tier} {0-totem} before you can buy this!
+staxel.merchant.RequiresTotem=You need to build a {0-totem} before you can buy this!
+staxel.merchant.RequiresTotemTier=You need a tier {1-tier} {0-totem} before you can buy this!
 
 staxel.merchant.Rob.name=Rob
 
@@ -2107,6 +2108,7 @@ staxel.notifications.feeder.FeedAmount=There are {0}/{1} units of food
 staxel.notifications.feeder.FeederAlreadyFilled=There is already {0}/{1} units of food
 staxel.notifications.feeder.Filled=Filled with {0} units!
 staxel.notifications.HoeFail=Use the hoe on grass or dirt.
+staxel.notifications.itemUnlocked=Unlocked: {0-ItemName}
 staxel.notifications.milker.NotLookingAtMilkableAnimal=Try a milkable animal
 staxel.notifications.newHomePosition=New home position set!
 staxel.notifications.outOfWater=You are out of water.
@@ -2116,7 +2118,6 @@ staxel.notifications.season.WrongSeason.2=This can only be planted in {0-season}
 staxel.notifications.season.WrongSeason.3=This can only be planted in {0-season}, {1-season}, or {2-season}!
 staxel.notifications.shears.NotLookingAtShearableAnimal=Not looking at a shearable animal.
 staxel.notifications.tooEarlyForSleep=It's too early to sleep!
-staxel.notifications.itemUnlocked=Unlocked: {0-ItemName}
 staxel.notifications.weatherAlreadyWatered=You don't need to water crops on rainy days!
 staxel.notifications.weatherSnowyAlreadyWatered=You don't need to water crops on snowy days!
 staxel.notifications.WrongManureUse=You can only use manure on wilted plants.
@@ -2197,8 +2198,8 @@ staxel.priceTag.freeInCreative=Free in Creative
 
 staxel.relays.Ca1=California1
 staxel.relays.Nj1=NewJersey1
-staxel.relays.Uk1=London1
 staxel.relays.Sg1=Singapore1
+staxel.relays.Uk1=London1
 
 staxel.season.Autumn=Autumn
 
@@ -3410,6 +3411,9 @@ staxel.tileObject.totems.AlizaMailbox.description=
 staxel.tileObject.totems.AlizaMailbox.name=Aliza's Postbox
 staxel.tileObject.totems.CaithWitch.description=
 staxel.tileObject.totems.CaithWitch.name=Cirahna's Postbox
+staxel.tileObject.totems.CoopSign.description=Use this to denote a chicken coop
+
+staxel.tileObject.totems.CoopSign.name=Coop Sign
 staxel.tileObject.totems.FarmFanMailbox.description=
 staxel.tileObject.totems.FarmFanMailbox.name=Farm Fan Mailbox
 staxel.tileObject.totems.festival.feyMasquerade.FeyRoom101.description=
@@ -3557,6 +3561,8 @@ staxel.totem.Barn.name=Barn
 staxel.totem.BreakableTotem=Totem is not breakable. Use the totem to change this.
 staxel.totem.BuildingInvalidated=This building is no longer complete!
 staxel.totem.CecileHome=Cecile's Home
+staxel.totem.ChickenCoop=Chicken Coop
+staxel.totem.ChickenCoop.name=Chicken Coop
 staxel.totem.CommunicationsTower=Communications Tower
 staxel.totem.EmiliaHome=Emilia's Home
 staxel.totem.ErisHome=Eris' Home
@@ -3693,9 +3699,3 @@ staxel.weed.Weed1.name=Weed
 version.developmentBuild=Staxel Development Build
 wardrobe.CantEquip=Can't equip this here!
 wardrobe.UseAWardrobe=Use a wardrobe to wear this
-
-staxel.tileObject.totems.CoopSign.name=Coop Sign
-staxel.tileObject.totems.CoopSign.description=Use this to denote a chicken coop
-staxel.totem.ChickenCoop=Chicken Coop
-staxel.category.chickenFeedingArea=Chicken Feeding Area
-staxel.totem.ChickenCoop.name=Chicken Coop

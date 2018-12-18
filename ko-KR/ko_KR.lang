@@ -417,7 +417,10 @@ multiplayerMenu.back=돌아가기
 multiplayerMenu.joinServer=서버 참가
 //TODO Translate [Reference] 'Play With Friends'
 multiplayerMenu.playWithFriends=
-//[Reference] 'Server IP:'
+//TODO Translate [Reference] 'Play With Friends'
+multiplayerMenu.playWithFriendsStandalone=
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Server Address:'
 multiplayerMenu.serverIP=서버 주소 (IP):
 //[Reference] 'Server List'
 multiplayerMenu.serverList=서버 목록
@@ -866,6 +869,10 @@ singleplayer.serverSeed=
 singleplayer.singleplayer=혼자서 놀기
 //TODO Translate [Reference] 'Use StaxelNet'
 singleplayer.StaxelNet=
+//TODO Translate [Reference] 'Play With Friends (StaxelNet)'
+singleplayer.StaxelNetStandalone=
+//TODO Translate [Reference] 'Not authenticated'
+singleplayer.staxelNetStandaloneWeakAuth=
 //TODO Translate [Reference] 'World has not yet been created.'
 singleplayer.storageDoesNotExist=
 //Single Player
@@ -1321,6 +1328,8 @@ staxel.category.cave=cave
 staxel.category.Cecile=
 //[Reference] 'Cherry Pie Stand'
 staxel.category.CherryPieStand=Cherry Pie Stand
+//TODO Translate [Reference] 'Chicken Feeding Area'
+staxel.category.chickenFeedingArea=
 //TODO Translate [Reference] 'chocoblueberry'
 staxel.category.chocoblueberry=
 //TODO Translate [Reference] 'chocogrape'
@@ -3470,6 +3479,10 @@ staxel.merchant.novalue=
 staxel.merchant.paid=Paid {0-amount} petals!
 //[Reference] 'Received {0-amount} petals!'
 staxel.merchant.received=Received {0-amount} petals!
+//TODO Translate [Reference] 'You need to build a {0-totem} before you can buy this!'
+staxel.merchant.RequiresTotem=
+//TODO Translate [Reference] 'You need a tier {1-tier} {0-totem} before you can buy this!'
+staxel.merchant.RequiresTotemTier=
 
 //[Reference] 'Rob'
 staxel.merchant.Rob.name=Rob
@@ -3620,6 +3633,8 @@ staxel.notifications.feeder.FeederAlreadyFilled=
 staxel.notifications.feeder.Filled=Filled with {0} units!
 //[Reference] 'Use the hoe on grass or dirt.'
 staxel.notifications.HoeFail=Use the hoe on grass or dirt.
+//TODO Translate [Reference] 'Unlocked: {0-ItemName}'
+staxel.notifications.itemUnlocked=
 //[Reference] 'Try a milkable animal'
 staxel.notifications.milker.NotLookingAtMilkableAnimal=Try a milkable animal
 //[Reference] 'New home position set!'
@@ -3774,6 +3789,8 @@ staxel.priceTag.freeInCreative=Free in Creative
 staxel.relays.Ca1=
 //TODO Translate [Reference] 'NewJersey1'
 staxel.relays.Nj1=
+//TODO Translate [Reference] 'Singapore1'
+staxel.relays.Sg1=
 //TODO Translate [Reference] 'London1'
 staxel.relays.Uk1=
 //[Reference] 'Autumn'
@@ -5621,6 +5638,10 @@ staxel.tileObject.totems.AlizaMailbox.name=Aliza's Postbox
 staxel.tileObject.totems.CaithWitch.description=
 //TODO Translate [Reference] 'Cirahna's Postbox'
 staxel.tileObject.totems.CaithWitch.name=
+//TODO Translate [Reference] 'Use this to denote a chicken coop'
+staxel.tileObject.totems.CoopSign.description=
+//TODO Translate [Reference] 'Coop Sign'
+staxel.tileObject.totems.CoopSign.name=
 staxel.tileObject.totems.FarmFanMailbox.description=
 //TODO Translate [Reference] 'Farm Fan Mailbox'
 staxel.tileObject.totems.FarmFanMailbox.name=
@@ -5845,6 +5866,10 @@ staxel.totem.BreakableTotem=
 staxel.totem.BuildingInvalidated=This building is no longer complete!
 //[Reference] 'Cecile's Home'
 staxel.totem.CecileHome=Cecile's Home
+//TODO Translate [Reference] 'Chicken Coop'
+staxel.totem.ChickenCoop=
+//TODO Translate [Reference] 'Chicken Coop'
+staxel.totem.ChickenCoop.name=
 //TODO Translate [Reference] 'Communications Tower'
 staxel.totem.CommunicationsTower=
 //[Reference] 'Emilia's Home'

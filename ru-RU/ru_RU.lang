@@ -399,7 +399,10 @@ multiplayerMenu.back=В главное меню
 multiplayerMenu.joinServer=Присоединиться к серверу
 //[Reference] 'Play With Friends'
 multiplayerMenu.playWithFriends=Играть с друзьями
-//[Reference] 'Server IP:'
+//TODO Translate [Reference] 'Play With Friends'
+multiplayerMenu.playWithFriendsStandalone=
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Server Address:'
 multiplayerMenu.serverIP=Адрес сервера:
 //[Reference] 'Server List'
 multiplayerMenu.serverList=Список серверов
@@ -827,6 +830,10 @@ singleplayer.serverSeed=Семечко
 singleplayer.singleplayer=Одиночная игра
 //TODO Translate [Reference] 'Use StaxelNet'
 singleplayer.StaxelNet=
+//TODO Translate [Reference] 'Play With Friends (StaxelNet)'
+singleplayer.StaxelNetStandalone=
+//TODO Translate [Reference] 'Not authenticated'
+singleplayer.staxelNetStandaloneWeakAuth=
 //TODO Translate [Reference] 'World has not yet been created.'
 singleplayer.storageDoesNotExist=
 //[Validate] Delete this comment if or when the translation is accurate.
@@ -1266,6 +1273,8 @@ staxel.category.cave=пещера
 staxel.category.Cecile=
 //[Reference] 'Cherry Pie Stand'
 staxel.category.CherryPieStand=Подставка с вишневым пирогом
+//TODO Translate [Reference] 'Chicken Feeding Area'
+staxel.category.chickenFeedingArea=
 //TODO Translate [Reference] 'chocoblueberry'
 staxel.category.chocoblueberry=
 //TODO Translate [Reference] 'chocogrape'
@@ -3385,6 +3394,10 @@ staxel.merchant.novalue=
 staxel.merchant.paid=Потрачено лепестков: {0-amount}!
 //[Reference] 'Received {0-amount} petals!'
 staxel.merchant.received=Получено лепестков: {0-amount}!
+//TODO Translate [Reference] 'You need to build a {0-totem} before you can buy this!'
+staxel.merchant.RequiresTotem=
+//TODO Translate [Reference] 'You need a tier {1-tier} {0-totem} before you can buy this!'
+staxel.merchant.RequiresTotemTier=
 //[Reference] 'Rob'
 staxel.merchant.Rob.name=Роб
 //[Reference] 'Sell Box Default'
@@ -3531,6 +3544,8 @@ staxel.notifications.feeder.FeederAlreadyFilled=Количество корма:
 staxel.notifications.feeder.Filled=Насыпано корма: {0} ед.
 //[Reference] 'Use the hoe on grass or dirt.'
 staxel.notifications.HoeFail=Используй мотыгу на участке травы или земли.
+//TODO Translate [Reference] 'Unlocked: {0-ItemName}'
+staxel.notifications.itemUnlocked=
 //[Reference] 'Try a milkable animal'
 staxel.notifications.milker.NotLookingAtMilkableAnimal=Поищи животное, дающее молоко
 //[Reference] 'New home position set!'
@@ -3682,6 +3697,8 @@ staxel.priceTag.freeInCreative=Бесплатно в творческом реж
 staxel.relays.Ca1=
 //TODO Translate [Reference] 'NewJersey1'
 staxel.relays.Nj1=
+//TODO Translate [Reference] 'Singapore1'
+staxel.relays.Sg1=
 //TODO Translate [Reference] 'London1'
 staxel.relays.Uk1=
 //[Reference] 'Autumn'
@@ -5509,6 +5526,10 @@ staxel.tileObject.totems.AlizaMailbox.name=Почтовый ящик Элизы
 staxel.tileObject.totems.CaithWitch.description=
 //[Reference] 'Cirahna's Postbox'
 staxel.tileObject.totems.CaithWitch.name=Почтовый ящик Кирайны
+//TODO Translate [Reference] 'Use this to denote a chicken coop'
+staxel.tileObject.totems.CoopSign.description=
+//TODO Translate [Reference] 'Coop Sign'
+staxel.tileObject.totems.CoopSign.name=
 staxel.tileObject.totems.FarmFanMailbox.description=
 //[Reference] 'Farm Fan Mailbox'
 staxel.tileObject.totems.FarmFanMailbox.name=Почтовый ящик Милы Фармер
@@ -5729,6 +5750,10 @@ staxel.totem.BreakableTotem=
 staxel.totem.BuildingInvalidated=Теперь это здание не считается достроенным!
 //[Reference] 'Cecile's Home'
 staxel.totem.CecileHome=Дом Сесиль
+//TODO Translate [Reference] 'Chicken Coop'
+staxel.totem.ChickenCoop=
+//TODO Translate [Reference] 'Chicken Coop'
+staxel.totem.ChickenCoop.name=
 //[Reference] 'Communications Tower'
 staxel.totem.CommunicationsTower=Вышка связи
 //[Reference] 'Emilia's Home'
