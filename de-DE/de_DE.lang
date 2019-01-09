@@ -251,8 +251,8 @@ debug.MissingNotification=Fehlende Nachricht: {0-notificationCode}
 error.back=Zurück
 //[Reference] 'Bad Version'
 error.badVersion=Schlechte Version
-//TODO Translate [Reference] 'Failed to connect to server. Address: {0-address} ErrorMessage: {1-message}'
-error.failedToConnect=
+//[Reference] 'Failed to connect to server. Address: {0-address} ErrorMessage: {1-message}'
+error.failedToConnect=Verbinden zum Server gescheitert. Adresse: {0-address} ErrorNachricht: {1-message}
 //[Reference] 'Server Full'
 error.serverFull=Server voll
 //[Reference] 'The Staxel.net server appears to be offline. Please try again later.'
@@ -5864,8 +5864,8 @@ staxel.totem.FestivalTotem=Achtung: Bereiche rund um das Festivaltor werden rege
 staxel.totem.FurnitureComplete=Einrichtungsanforderung abgeschlossen!
 //[Reference] 'Goth Mushroom'
 staxel.totem.GothMushroom=Goth Pilz
-//TODO Translate [Reference] 'Tier'
-staxel.totem.info.tierNoun=
+//[Reference] 'Tier'
+staxel.totem.info.tierNoun=Stufe
 //[Reference] '(Too Close)'
 staxel.totem.isNotAwayFromTown=(Zu Nah)
 //[Reference] '(Currently overlapping)'
@@ -5911,8 +5911,8 @@ staxel.totem.TileAdded=Gebäudeanforderung hinzugefügt!
 staxel.totem.TileRemoved=Gebäudeanforderung entfernt!
 //[Reference] 'Tree Resource'
 staxel.totem.TreeResource=Baummaterial
-//[Reference] 'Area is protected by a totem. Use that totem to change this.'
-staxel.totem.UnbreakableTotemRegion=Das Gebiet ist von einem Totem geschützt. Benutze das Totem um dies zu ändern.
+//[Reference] 'Area is protected, check nearby postbox, sign, arch or totem.'
+staxel.totem.UnbreakableTotemRegion=Das Gebiet ist geschützt, prüfe eine nächstgelegene Postbox, ein Schild, Bogen oder totem.
 //[Reference] 'Building Store'
 staxel.totem.workplace.BuildingStore=Handwerkerladen
 //[Reference] 'Festival Square'
@@ -5941,12 +5941,10 @@ staxel.totemInfo.baseRequirements=Grundvoraussetzungen
 staxel.totemInfo.tier=Stufe {0-level}
 //[Reference] 'Tier {0-level} Requirements'
 staxel.totemInfo.tierRequirements=Stufe {0-level} – Voraussetzungen
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Show Region Display'
-staxel.totems.toggleboundary=Regionsanzeige ein-/ausschalten
-//[Validate] Delete this comment if or when the translation is accurate.
-//[Reference] 'Breakable'
-staxel.totems.togglebreakable=Zerstörbar ein-/ausschalten
+staxel.totems.toggleboundary=Zeige Regionsanzeige
+//[Reference] 'Disable Area Protection'
+staxel.totems.togglebreakable=Schalte Regionsschutz aus
 //[Reference] 'This tree grows juicy, crunchy apples. Fruits in Autumn.'
 staxel.tree.AppleTree.description=An diesem Baum wachsen saftige, knackige Äpfel. Trägt im Herbst Früchte.
 //[Reference] 'Apple Tree Seed'
