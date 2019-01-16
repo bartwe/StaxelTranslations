@@ -63,6 +63,10 @@ commands.changeMood.animalNotFound=Kein Tier im Blickfeld
 commands.changeMood.description=^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)
 //[Reference] 'Mood altered successfully'
 commands.changeMood.success=Laune erfolgreich geändert
+//[Reference] '^c:F2E200;changeNickname ^c:FFFFFF;nickname'
+commands.changeNickname.description=^c:F2E200;änderNickname ^c:FFFFFF;nickname
+//[Reference] 'Nickname changed to {0-newNickname}'
+commands.changeNickname.success=Nickname geändert zu {0-newNickname}
 //[Reference] '^c:F2E200;checkMail'
 commands.checkMail.description=^c:F2E200;checkMail
 //[Reference] '^c:F2E200;completeQuest ^c:FFFFFF;questCode villagerName/Code'
@@ -131,6 +135,10 @@ commands.forceAchievement.description=^c:F2E200;forceAchievement ^c:FFFFFF;achie
 commands.forceAchievement.missingParam=Errungenschaftscode fehlt.
 //[Reference] 'Achievement not found.'
 commands.forceAchievement.noSuchAchievement=Errungenschaft nicht gefunden.
+//[Reference] '^c:F2E200;getUsername ^c:FFFFFF;nickname'
+commands.getUsername.description=^c:F2E200;holBenutzername ^c:FFFFFF;nickname
+//[Reference] '{0-nickname}'s username is {1-username}'
+commands.getUsername.success={0-nickname}'s Benutzername ist {1-username}
 //[Reference] '^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)playerName'
 commands.giveallrecipes.description=^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)Spielername
 //[Reference] 'Done!'
