@@ -63,6 +63,10 @@ commands.changeMood.animalNotFound=Não há animais aqui
 commands.changeMood.description=^c:F2E200;changeMood ^c:FFFFFF;aumentar/reduzir(true/false)
 //[Reference] 'Mood altered successfully'
 commands.changeMood.success=Humor alterado com êxito
+//TODO Translate [Reference] '^c:F2E200;changeNickname ^c:FFFFFF;nickname'
+commands.changeNickname.description=
+//TODO Translate [Reference] 'Nickname changed to {0-newNickname}'
+commands.changeNickname.success=
 //[Reference] '^c:F2E200;checkMail'
 commands.checkMail.description=^c:F2E200;checkMail
 //[Reference] '^c:F2E200;completeQuest ^c:FFFFFF;questCode villagerName/Code'
@@ -132,6 +136,12 @@ commands.forceAchievement.description=^c:F2E200;forceAchievement ^c:FFFFFF;achie
 commands.forceAchievement.missingParam=Código de conquista ausente.
 //[Reference] 'Achievement not found.'
 commands.forceAchievement.noSuchAchievement=Conquista não encontrada.
+//TODO Translate [Reference] '^c:F2E200;getUsername ^c:FFFFFF;nickname'
+commands.getUsername.description=
+//TODO Translate [Reference] '{0-nickname}'s username is {1-username}.'
+commands.getUsername.success=
+//TODO Translate [Reference] 'Multiple people found with the nickname: {0-nickname}. They are; {1-usernamelist}.'
+commands.getUsername.successes=
 //[Reference] '^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)playerName'
 commands.giveallrecipes.description=^c:F2E200;giveallrecipes ^c:FFFFFF;(opcional)nome do jogador
 //[Reference] 'Done!'
@@ -192,6 +202,8 @@ commands.noClip.success=Modo noclip: {0-noclip}
 commands.noRights={0-user} não possui os direitos necessários para usar este comando
 //[Reference] 'No such player '{0-player}''
 commands.noSuchPlayer=Jogador "{0-player}" inexistente
+//TODO Translate [Reference] 'No such player with nickname '{0-player}'.'
+commands.noSuchPlayerNickname=
 //[Reference] 'Not a player entity.'
 commands.notAPlayer=Não é uma entidade de jogador.
 //[Reference] '^c:F2E200;op ^c:FFFFFF;playerName'

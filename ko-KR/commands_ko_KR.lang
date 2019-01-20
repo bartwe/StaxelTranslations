@@ -63,6 +63,10 @@ commands.changeMood.animalNotFound=Not looking at an animal
 commands.changeMood.description=^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)
 //[Reference] 'Mood altered successfully'
 commands.changeMood.success=Mood altered successfully
+//TODO Translate [Reference] '^c:F2E200;changeNickname ^c:FFFFFF;nickname'
+commands.changeNickname.description=
+//TODO Translate [Reference] 'Nickname changed to {0-newNickname}'
+commands.changeNickname.success=
 //TODO Translate [Reference] '^c:F2E200;checkMail'
 commands.checkMail.description=
 //TODO Translate [Reference] '^c:F2E200;completeQuest ^c:FFFFFF;questCode villagerName/Code'
@@ -131,6 +135,12 @@ commands.forceAchievement.description=
 commands.forceAchievement.missingParam=
 //TODO Translate [Reference] 'Achievement not found.'
 commands.forceAchievement.noSuchAchievement=
+//TODO Translate [Reference] '^c:F2E200;getUsername ^c:FFFFFF;nickname'
+commands.getUsername.description=
+//TODO Translate [Reference] '{0-nickname}'s username is {1-username}.'
+commands.getUsername.success=
+//TODO Translate [Reference] 'Multiple people found with the nickname: {0-nickname}. They are; {1-usernamelist}.'
+commands.getUsername.successes=
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)playerName'
 commands.giveallrecipes.description=^c:F2E200;Give all recipes ^c:FFFFFF;(optional)playerName
@@ -192,6 +202,8 @@ commands.noClip.success=Switched noclip mode to: {0-noclip}
 commands.noRights={0-user} does not have the correct rights to use this command
 //[Reference] 'No such player '{0-player}''
 commands.noSuchPlayer=No such player '{0-player}'
+//TODO Translate [Reference] 'No such player with nickname '{0-player}'.'
+commands.noSuchPlayerNickname=
 //[Reference] 'Not a player entity.'
 commands.notAPlayer=Not a player entity.
 //[Reference] '^c:F2E200;op ^c:FFFFFF;playerName'
