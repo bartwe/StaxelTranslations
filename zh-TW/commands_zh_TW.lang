@@ -154,6 +154,12 @@ commands.givePetals.description=^c:F2E200;givepetals ^c:FFFFFF;playerName amount
 commands.givePetals.invalidNumber=花瓣幣數量需為正數
 //[Reference] 'Gave {0-player} {1-amount} petals'
 commands.givePetals.success=給予{0-player}{1-amount}花瓣幣
+//TODO Translate [Reference] 'viaReactions argument must be true or false'
+commands.giveRecipeItems.badArg=
+//TODO Translate [Reference] '^c:F2E200;giveRecipeItems ^c:FFFFFF;recipeCode (optional)viaReactions(true/false)'
+commands.giveRecipeItems.description=
+//TODO Translate [Reference] 'Give recipe items successful'
+commands.giveRecipeItems.success=
 //[Reference] '^c:F2E200;? ^c:FFFFFF;(optional)commandName'
 commands.help.altDescription=^c:F2E200;? ^c:FFFFFF;(optional)commandName
 //[Reference] 'Command not found: '{0-command}''
@@ -228,6 +234,8 @@ commands.plantGrowth.description=^c:F2E200;plantgrowth
 commands.plantGrowth.noPlant=非植物。
 //[Reference] 'Plant {0-plant} at stage {1-stage}'
 commands.plantGrowth.success=植物{0-plant}在階段{1-stage}
+//TODO Translate [Reference] 'Player {0-player} currently cannot be teleported.'
+commands.playerCantBeTeleported=
 //[Reference] 'Player Entity not found'
 commands.playerEntityNotFound=玩家實體未找到
 //[Reference] '^c:F2E200;players'
