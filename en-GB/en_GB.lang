@@ -50,6 +50,7 @@ controlHint.verb.default.Harvest=Harvest
 controlHint.verb.default.Interact=Interact
 controlHint.verb.default.ManualRestart=Restart
 controlHint.verb.default.Memorise=Memorise
+controlHint.verb.default.Open=Open
 controlHint.verb.default.reDock=Replace
 controlHint.verb.default.Rotate=Rotate
 controlHint.verb.default.Stop=Stop
@@ -2175,11 +2176,10 @@ staxel.merchant.paid=Paid {0-amount} petals!
 staxel.merchant.received=Received {0-amount} petals!
 staxel.merchant.RequiresTotem=You need to build a {0-totem} before you can buy this!
 staxel.merchant.RequiresTotemTier=You need a tier {1-tier} {0-totem} before you can buy this!
-
 staxel.merchant.Rob.name=Rob
-
 staxel.merchant.SellBoxDefault=Sell Box Default
 staxel.merchant.StarBitsPaid=Paid {0-amount} Star Bits!
+staxel.merchant.OutOfLuckyItems=There are no more items to get!
 staxel.merchants.carts.BuildingMerchant.description=
 staxel.merchants.carts.BuildingMerchant.name=Building Merchant Cart
 staxel.merchants.carts.ClothingMerchant.description=
@@ -2280,6 +2280,7 @@ staxel.notifications.WrongTool.Verb.Dig=dig
 staxel.notifications.WrongTool.Verb.Harvest=harvest
 staxel.notifications.WrongTool.Verb.Pickup=take
 staxel.notifications.WrongTool.Verb.Pull=pull
+staxel.notifications.WrongTool.Verb.Remove=Remove
 staxel.notifications.WrongTool.Verb.Soak=Soak
 staxel.notifications.WrongTool.Verb.Sweep=sweep
 staxel.notifications.WrongTool.Verb.Till=till
@@ -3943,6 +3944,7 @@ staxel.totemInfo.tier=Tier {0-level}
 staxel.totemInfo.tierRequirements=Tier {0-level} Requirements
 staxel.totems.toggleboundary=Show Region Display
 staxel.totems.togglebreakable=Disable Area Protection
+staxel.transformation.AlreadyTransformed=You are already transformed! Wait for it to wear off.
 staxel.transformation.Transformed=You have been transformed!
 staxel.transformation.Untransformed=Transformation has worn off.
 staxel.tree.AppleTree.description=This tree grows juicy, crunchy apples. Fruits in Autumn.
@@ -4043,16 +4045,32 @@ staxel.accessories.villagers.Leif.LeafHat.name=Leaf Hat
 staxel.accessories.villagers.Leif.LeafHat.description=
 
 staxel.merchant.VIPFurniture.name=VIPFurniture [WIP]
-staxel.merchants.carts.VIPIslandBlocks.name=VIP Island Blocks [WIP]
-staxel.merchants.carts.VIPIslandBlocks.description=
 staxel.merchants.carts.VIPVillagerFurniture.name=VIP Villager Furniture [WIP]
 staxel.merchants.carts.VIPVillagerFurniture.description=
-staxel.tileObject.merchantTotem.VIPIslandBlocks.name=VIP Island Blocks [WIP]
-staxel.tileObject.merchantTotem.VIPIslandBlocks.description=
 staxel.tileObject.merchantTotem.VIPVillagerFurniture.name=VIP Villager Furniture [WIP]
 staxel.tileObject.merchantTotem.VIPVillagerFurniture.description=
+
+staxel.merchant.VIPIslandBlocks.name=VIP Island Blocks [WIP]
+staxel.merchants.carts.VIPIslandBlocks.name=VIP Island Blocks [WIP]
+staxel.merchants.carts.VIPIslandBlocks.description=
+staxel.tileObject.merchantTotem.VIPIslandBlocks.name=VIP Island Blocks [WIP]
+staxel.tileObject.merchantTotem.VIPIslandBlocks.description=
+
+staxel.merchant.VIPMisc.name=VIP Misc [WIP]
+staxel.merchants.carts.VIPMisc.name=VIP Misc [WIP]
+staxel.merchants.carts.VIPMisc.description=
+staxel.tileObject.merchantTotem.VIPMisc.name=VIP Misc [WIP]
+staxel.tileObject.merchantTotem.VIPMisc.description=
+
+staxel.merchants.carts.VIPMisc2.name=VIP Misc 2 [WIP]
+staxel.merchants.carts.VIPMisc2.description=
+staxel.merchant.VIPMisc2.name=VIP Misc 2 [WIP]
+staxel.tileObject.merchantTotem.VIPMisc2.name=VIP Misc 2 [WIP]
+staxel.tileObject.merchantTotem.VIPMisc2.description=
 
 staxel.tileObject.villager.LeifFriendTile.name=Leif Friend Tile [WIP]
 staxel.tileObject.villager.LeifFriendTile.description=
 staxel.tileObject.villager.MorelFriendTile.name=Morel Friend Tile [WIP]
 staxel.tileObject.villager.MorelFriendTile.description=
+
+Morel=Morel
