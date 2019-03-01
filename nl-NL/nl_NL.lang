@@ -78,6 +78,8 @@ controlHint.verb.default.Interact=Interacteren
 controlHint.verb.default.ManualRestart=Herstarten
 //[Reference] 'Memorise'
 controlHint.verb.default.Memorise=Onthouden
+//TODO Translate [Reference] 'Open'
+controlHint.verb.default.Open=
 //[Reference] 'Replace'
 controlHint.verb.default.reDock=Herplaatsen
 //[Reference] 'Rotate'
@@ -329,8 +331,10 @@ FaceExtruderSettings.title=Vlak Verlenger Instellingen
 fishing.gotAway=Hij is ontsnapt!
 //[Reference] 'Something is on the hook!'
 fishing.hooked=Je hebt iets aan de haak geslagen!
-//TODO Translate [Reference] 'Hold {0-button} to keep reeling...'
+//TODO Translate [Reference] 'Hold {0-button} {1-description} to keep reeling...'
 fishing.message.Reel=
+//TODO Translate [Reference] 'Mouse button'
+fishing.message.Reel.Mouse=
 //TODO Translate [Reference] 'Careful! You might snap the fishing line!'
 fishing.message.Release=
 //[Reference] 'There are no fish here'
@@ -421,6 +425,8 @@ loading.skip=Overslaan
 looting.loot=Plunderen uit
 //[Reference] 'Steal from'
 looting.stealFrom=Stelen uit
+//TODO Translate [Reference] 'Morel'
+Morel=
 
 //[Reference] 'Back to main menu'
 multiplayerMenu.back=Naar Hoofdmenu
@@ -571,6 +577,8 @@ options.gameplay.other.showClock=Toon Tijd
 options.gameplay.other.ShowConsole=Toon Invoerscherm
 //[Reference] 'Crafting Keyword Tags'
 options.gameplay.other.showCraftingKeywordTags=Laat Crafting Tags zien
+//TODO Translate [Reference] 'Always Show Wrong Tool Notifications'
+options.gameplay.other.showWrongToolNotifications=
 //[Reference] 'Don't stretch UI'
 options.gameplay.other.StepWiseUIScale=UI niet uitrekken
 //[Reference] 'Prevent NPC Staring'
@@ -1154,6 +1162,9 @@ staxel.accessories.pants.supershort.name=
 staxel.accessories.pants.tracksuit.description=
 //TODO Translate [Reference] 'tracksuit'
 staxel.accessories.pants.tracksuit.name=
+staxel.accessories.princessdresses.PrincessHeels.description=
+//TODO Translate [Reference] 'Princess Heels'
+staxel.accessories.princessdresses.PrincessHeels.name=
 staxel.accessories.shirts.colouredhoodie.ColouredHoodie.description=
 //[Reference] 'Coloured Hoodie'
 staxel.accessories.shirts.colouredhoodie.ColouredHoodie.name=Gekleurde Hoodie
@@ -2409,6 +2420,14 @@ staxel.docks.merchantStalls.MerchantShopLarge.description=
 staxel.docks.merchantStalls.MerchantShopLarge.name=Groot Koopman Kraam
 //TODO Translate [Reference] 'Bow'
 staxel.emote.Bow.name=
+//TODO Translate [Reference] 'Cough'
+staxel.emote.Cough.name=
+//TODO Translate [Reference] 'Defeated'
+staxel.emote.Defeated.name=
+//TODO Translate [Reference] 'Disappointed'
+staxel.emote.Disappointed.name=
+//TODO Translate [Reference] 'Fidget'
+staxel.emote.Fidget.name=
 staxel.emote.Inspect.begin.description=
 //[Reference] 'Inspect Emote'
 staxel.emote.Inspect.begin.name=Onderzoek Emote
@@ -2418,12 +2437,20 @@ staxel.emote.LookAround.name=Kijk Rond
 staxel.emote.No.description=
 //[Reference] 'No Emote'
 staxel.emote.No.name=Geen Emote
+//TODO Translate [Reference] 'Poke'
+staxel.emote.Poke.name=
+//TODO Translate [Reference] 'Satisfied'
+staxel.emote.Satisfied.name=
 staxel.emote.ScratchHead.description=
 //[Reference] 'Scratch Head'
 staxel.emote.ScratchHead.name=Hoofdkrabben
 staxel.emote.Search.begin.description=
 //[Reference] 'Search Emote'
 staxel.emote.Search.begin.name=Zoek Emote
+//TODO Translate [Reference] 'Startled'
+staxel.emote.Startled.name=
+//TODO Translate [Reference] 'Surprise'
+staxel.emote.Surprise.name=
 
 //[Reference] 'Use this to trigger the wave emote.'
 staxel.emote.Wave.description=Gebruik deze trigger om de zwaai emote te activeren.
@@ -3783,10 +3810,24 @@ staxel.item.tool.WaterSquirterPink.name=Roze Watersproeier
 staxel.item.tool.WitchWand.description=
 //[Reference] 'Magic Wand'
 staxel.item.tool.WitchWand.name=Magisch Toverstokje
+//TODO Translate [Reference] 'Claim Petals'
+staxel.mail.claimPetals=
 //[Reference] '^c:1486b0;$playername;^c:pop;!\n\nI couldn't help overhearing your conversation with ^c:1486b0;Rosemary^c:pop; yesterday (sorry, I wasn't listening on purpose, I swear). See, I was around these parts back then and I swear something wasn't quite right about the whole thing...\n\nMaybe it would be worth having a little wander around the village and seeing if anyone else can remember anything?\n\n^c:1486b0;Farm Fan^c:pop;'
 staxel.mail.FarmFanEavesdrop.body=^c:1486b0;$playername;^c:pop;!\n\nIk hoorde per ongeluk je gesprek met ^c:1486b0;Rosemary^c:pop; gisteren (sorry, ik zweer dat ik niet opzettelijk aan het luistervinken was). Nou, ik was toen hier in de buurt en er leek me iets niet helemaal pluis...\n\nMisschien levert het iets op als we even door het dorp wandelen en vragen of iemand anders zich nog iets kan herinneren?\n\n^c:1486b0;Farm Fan^c:pop;
 //[Reference] 'Rosemary'
 staxel.mail.FarmFanEavesdrop.subject=Rosemary
+//TODO Translate [Reference] 'Save Mail'
+staxel.mailCounter.accept=
+//TODO Translate [Reference] 'Message'
+staxel.mailCounter.body=
+//TODO Translate [Reference] 'Petals'
+staxel.mailCounter.petals=
+//TODO Translate [Reference] 'Recipient'
+staxel.mailCounter.recipient=
+//TODO Translate [Reference] 'Subject'
+staxel.mailCounter.subject=
+//TODO Translate [Reference] 'Write Mail'
+staxel.mailCounter.title=
 //[Reference] 'Best Friend'
 staxel.mainQuest.Rosemary.BestFriend=Beste Vriendin
 //[Reference] 'Food for the Soul'
@@ -3814,6 +3855,8 @@ staxel.merchant.NotEnoughMoney=Niet genoeg geld
 staxel.merchant.NotEnoughStarBits=
 //[Reference] 'That isn't worth anything at the moment.'
 staxel.merchant.novalue=Dat is momenteel niets waard.
+//TODO Translate [Reference] 'There are no more items to get!'
+staxel.merchant.OutOfLuckyItems=
 //[Reference] 'Paid {0-amount} petals!'
 staxel.merchant.paid={0-amount} bloemblaadjes betaald!
 //[Reference] 'Received {0-amount} petals!'
@@ -3830,6 +3873,12 @@ staxel.merchant.SellBoxDefault=Standaard Verkoopkist
 staxel.merchant.StarBitsPaid=
 //TODO Translate [Reference] 'VIPFurniture [WIP]'
 staxel.merchant.VIPFurniture.name=
+//TODO Translate [Reference] 'VIP Island Blocks [WIP]'
+staxel.merchant.VIPIslandBlocks.name=
+//TODO Translate [Reference] 'VIP Misc [WIP]'
+staxel.merchant.VIPMisc.name=
+//TODO Translate [Reference] 'VIP Misc 2 [WIP]'
+staxel.merchant.VIPMisc2.name=
 staxel.merchants.carts.BuildingMerchant.description=
 //[Reference] 'Building Merchant Cart'
 staxel.merchants.carts.BuildingMerchant.name=Koopman Kar met Bouwmateriaal
@@ -3853,6 +3902,12 @@ staxel.merchants.carts.PetMerchant.name=Koopman Kar met huisdieren
 staxel.merchants.carts.VIPIslandBlocks.description=
 //TODO Translate [Reference] 'VIP Island Blocks [WIP]'
 staxel.merchants.carts.VIPIslandBlocks.name=
+staxel.merchants.carts.VIPMisc.description=
+//TODO Translate [Reference] 'VIP Misc [WIP]'
+staxel.merchants.carts.VIPMisc.name=
+staxel.merchants.carts.VIPMisc2.description=
+//TODO Translate [Reference] 'VIP Misc 2 [WIP]'
+staxel.merchants.carts.VIPMisc2.name=
 staxel.merchants.carts.VIPVillagerFurniture.description=
 //TODO Translate [Reference] 'VIP Villager Furniture [WIP]'
 staxel.merchants.carts.VIPVillagerFurniture.name=
@@ -3935,6 +3990,12 @@ staxel.notifications.BuildingTools.MeasuringTapeOne=Meetpunt één vastgelegd
 staxel.notifications.CantBreak=Deze tegel is onbreekbaar.
 //TODO Translate [Reference] 'Cant open Locked Door'
 staxel.notifications.cantOpenLockedDoor=
+//TODO Translate [Reference] 'Couldn't put down a sellbox for this merchant.'
+staxel.notifications.CantPlaceMerchantSellBox=
+//TODO Translate [Reference] 'VIP Merchant couldn't land at the Airship Anchor. Area was obstructed.'
+staxel.notifications.CantPlaceVIPMerchant=
+//TODO Translate [Reference] 'Magical forces are preventing setting your home here.'
+staxel.notifications.CantSetHomeAtIsland=
 //[Reference] 'Farm Fan has set aside this day to show you around the farm, you should do that before sleeping!'
 staxel.notifications.cantSleepTutorial=Farm Fan heeft deze dag vrij genomen om je de boerderij te tonen, je zou dat moeten doen voor je gaat slapen!
 //[Reference] 'Failed to Export area. Error message in server console.'
@@ -3981,6 +4042,8 @@ staxel.notifications.feeder.FeederAlreadyFilled=Er zijn al {0}/{1} eenheden voed
 staxel.notifications.feeder.Filled=Gevuld met {0} eenheden!
 //[Reference] 'Use the hoe on grass or dirt.'
 staxel.notifications.HoeFail=Gebruik de schoffel bij gras en afval.
+//TODO Translate [Reference] 'Home position can only be set on the mainland'
+staxel.notifications.HomePositionNotSet=
 //TODO Translate [Reference] 'Unlocked: {0-ItemName}'
 staxel.notifications.itemUnlocked=
 //[Reference] 'Try a milkable animal'
@@ -3999,6 +4062,12 @@ staxel.notifications.season.WrongSeason.2=Dit kan je enkel planten in {0-season}
 staxel.notifications.season.WrongSeason.3=Dit kan je enkel planten in {0-season} of {2-season} of {1-season}!
 //[Reference] 'Not looking at a shearable animal.'
 staxel.notifications.shears.NotLookingAtShearableAnimal=Dit dier geeft geen wol
+//TODO Translate [Reference] 'You're really feeling tired. You should get some sleep.'
+staxel.notifications.status.Exhausted=
+//TODO Translate [Reference] 'You've collapsed. You lost {0-petal} petals on your way home.'
+staxel.notifications.status.ReturnedHome=
+//TODO Translate [Reference] 'You're feeling kinda sleepy...'
+staxel.notifications.status.Sleepy=
 //[Reference] 'It's too early to sleep!'
 staxel.notifications.tooEarlyForSleep=Het is te vroeg om te slapen!
 //[Reference] 'You don't need to water crops on rainy days!'
@@ -4026,6 +4095,8 @@ staxel.notifications.WrongTool.Verb.Harvest=oogst
 staxel.notifications.WrongTool.Verb.Pickup=neem
 //[Reference] 'pull'
 staxel.notifications.WrongTool.Verb.Pull=duw
+//TODO Translate [Reference] 'Remove'
+staxel.notifications.WrongTool.Verb.Remove=
 //[Reference] 'Soak'
 staxel.notifications.WrongTool.Verb.Soak=week
 //[Reference] 'sweep'
@@ -4968,9 +5039,30 @@ staxel.tileObject.magic.GiantMushroom.name=Reuzenpaddenstoel
 staxel.tileObject.magic.Starbit.description=
 //TODO Translate [Reference] 'Starbit'
 staxel.tileObject.magic.Starbit.name=
+staxel.tileObject.merchantTotem.BuildingMerchant.player.description=
+//TODO Translate [Reference] 'player'
+staxel.tileObject.merchantTotem.BuildingMerchant.player.name=
+staxel.tileObject.merchantTotem.ClothingMerchant.player.description=
+//TODO Translate [Reference] 'player'
+staxel.tileObject.merchantTotem.ClothingMerchant.player.name=
+staxel.tileObject.merchantTotem.FlowerMerchant.player.description=
+//TODO Translate [Reference] 'player'
+staxel.tileObject.merchantTotem.FlowerMerchant.player.name=
+staxel.tileObject.merchantTotem.FurnitureMerchant.player.description=
+//TODO Translate [Reference] 'player'
+staxel.tileObject.merchantTotem.FurnitureMerchant.player.name=
+staxel.tileObject.merchantTotem.PetMerchant.player.description=
+//TODO Translate [Reference] 'player'
+staxel.tileObject.merchantTotem.PetMerchant.player.name=
 staxel.tileObject.merchantTotem.VIPIslandBlocks.description=
 //TODO Translate [Reference] 'VIP Island Blocks [WIP]'
 staxel.tileObject.merchantTotem.VIPIslandBlocks.name=
+staxel.tileObject.merchantTotem.VIPMisc.description=
+//TODO Translate [Reference] 'VIP Misc [WIP]'
+staxel.tileObject.merchantTotem.VIPMisc.name=
+staxel.tileObject.merchantTotem.VIPMisc2.description=
+//TODO Translate [Reference] 'VIP Misc 2 [WIP]'
+staxel.tileObject.merchantTotem.VIPMisc2.name=
 staxel.tileObject.merchantTotem.VIPVillagerFurniture.description=
 //TODO Translate [Reference] 'VIP Villager Furniture [WIP]'
 staxel.tileObject.merchantTotem.VIPVillagerFurniture.name=
@@ -4998,6 +5090,15 @@ staxel.tileObject.mineIsland.Level2.Up.name=
 staxel.tileObject.mineIsland.Level3.Up.description=
 //TODO Translate [Reference] 'Up'
 staxel.tileObject.mineIsland.Level3.Up.name=
+staxel.tileObject.mineIsland.MineBox.description=
+//TODO Translate [Reference] 'Mine Box'
+staxel.tileObject.mineIsland.MineBox.name=
+staxel.tileObject.mineIsland.MineBoxUsed.description=
+//TODO Translate [Reference] 'Mine Box Used'
+staxel.tileObject.mineIsland.MineBoxUsed.name=
+staxel.tileObject.mineIsland.TrappedEscape.description=
+//TODO Translate [Reference] 'Trapped Escape'
+staxel.tileObject.mineIsland.TrappedEscape.name=
 staxel.tileObject.mines.CeilingMushroomBlue1.description=
 //[Reference] 'Ceiling Mushroom Blue1'
 staxel.tileObject.mines.CeilingMushroomBlue1.name=Plafond Paddenstoel Blauw1
@@ -5353,9 +5454,15 @@ staxel.tileObject.petShop.PetshopPoster.description=
 //[Reference] 'Petshop Poster'
 staxel.tileObject.petShop.PetshopPoster.name=Dierenwinkel Poster
 staxel.tileObject.portalFest.FairyIslandPortal.description=
+staxel.tileObject.portalFest.FairyIslandPortal.Exit.description=
+//TODO Translate [Reference] 'Exit'
+staxel.tileObject.portalFest.FairyIslandPortal.Exit.name=
 //TODO Translate [Reference] 'Fairy Island Portal'
 staxel.tileObject.portalFest.FairyIslandPortal.name=
 staxel.tileObject.portalFest.LumberIslandPortal.description=
+staxel.tileObject.portalFest.LumberIslandPortal.Exit.description=
+//TODO Translate [Reference] 'Exit'
+staxel.tileObject.portalFest.LumberIslandPortal.Exit.name=
 //TODO Translate [Reference] 'Lumber Island Portal'
 staxel.tileObject.portalFest.LumberIslandPortal.name=
 staxel.tileObject.postbox.StandardPostbox.description=
@@ -6221,9 +6328,15 @@ staxel.tileObject.themedfurniture.rainbow.YellowRainbowTable.name=Gele Regenboog
 staxel.tileObject.themedfurniture.ranch.RanchCoffeeTable.NoDock.description=
 //[Reference] 'Ranch Coffee Table (No Docks)'
 staxel.tileObject.themedfurniture.ranch.RanchCoffeeTable.NoDock.name=Ranch Koffietafel (Zonder Basisstations)
+staxel.tileObject.themedfurniture.ranch.RanchDoubleBed.NoDock.description=
+//TODO Translate [Reference] 'No Dock'
+staxel.tileObject.themedfurniture.ranch.RanchDoubleBed.NoDock.name=
 staxel.tileObject.themedfurniture.ranch.RanchSideTable.NoDock.description=
 //[Reference] 'Ranch Side Table (No Docks)'
 staxel.tileObject.themedfurniture.ranch.RanchSideTable.NoDock.name=Ranch Bijzettafel (Zonder Basisstations)
+staxel.tileObject.themedfurniture.ranch.RanchSingleBed.NoDock.description=
+//TODO Translate [Reference] 'No Dock'
+staxel.tileObject.themedfurniture.ranch.RanchSingleBed.NoDock.name=
 staxel.tileObject.themedfurniture.spooky.Calaverita.description=
 //TODO Translate [Reference] 'Calaverita'
 staxel.tileObject.themedfurniture.spooky.Calaverita.name=
@@ -6724,6 +6837,8 @@ staxel.totemInfo.tierRequirements=Rang {0-level}Basisvereisten
 staxel.totems.toggleboundary=Wissel Gebieddisplay
 //TODO Translate [Reference] 'Disable Area Protection'
 staxel.totems.togglebreakable=
+//TODO Translate [Reference] 'You are already transformed! Wait for it to wear off.'
+staxel.transformation.AlreadyTransformed=
 //TODO Translate [Reference] 'You have been transformed!'
 staxel.transformation.Transformed=
 //TODO Translate [Reference] 'Transformation has worn off.'
@@ -6787,6 +6902,8 @@ staxel.tree.PearTree.name=Peren Boom Zaad
 staxel.tree.TangerineTree.description=Aan deze boom groeien mandarijnen, geen sinaasappels. Draagt in de winter.
 //[Reference] 'Tangerine Tree'
 staxel.tree.TangerineTree.name=Mandarijn Boom Zaad
+//TODO Translate [Reference] 'Write Mail'
+staxel.verb.writemail=
 staxel.village.dialogue.ForestBunnyGiveItem.=
 //[Reference] '...'
 staxel.village.dialogue.ForestBunnyGiveItem.line:10000101=...

@@ -82,6 +82,8 @@ controlHint.verb.default.Interact=使う
 controlHint.verb.default.ManualRestart=リスタート
 //[Reference] 'Memorise'
 controlHint.verb.default.Memorise=覚える
+//TODO Translate [Reference] 'Open'
+controlHint.verb.default.Open=
 //[Reference] 'Replace'
 controlHint.verb.default.reDock=交換する
 //[Reference] 'Rotate'
@@ -331,8 +333,10 @@ FaceExtruderSettings.title=表面押し出し設定
 fishing.gotAway=逃げられた！
 //[Reference] 'Something is on the hook!'
 fishing.hooked=針に何かかかった！
-//TODO Translate [Reference] 'Hold {0-button} to keep reeling...'
+//TODO Translate [Reference] 'Hold {0-button} {1-description} to keep reeling...'
 fishing.message.Reel=
+//TODO Translate [Reference] 'Mouse button'
+fishing.message.Reel.Mouse=
 //TODO Translate [Reference] 'Careful! You might snap the fishing line!'
 fishing.message.Release=
 //[Reference] 'There are no fish here'
@@ -424,6 +428,8 @@ loading.skip=スキップ
 looting.loot=くすねる
 //[Reference] 'Steal from'
 looting.stealFrom=盗む
+//TODO Translate [Reference] 'Morel'
+Morel=
 
 //[Reference] 'Back to main menu'
 multiplayerMenu.back=タイトルに戻る
@@ -577,6 +583,8 @@ options.gameplay.other.showClock=時計を表示する
 options.gameplay.other.ShowConsole=コンソールウィンドウを表示する
 //[Reference] 'Crafting Keyword Tags'
 options.gameplay.other.showCraftingKeywordTags=キーワードタグの作成
+//TODO Translate [Reference] 'Always Show Wrong Tool Notifications'
+options.gameplay.other.showWrongToolNotifications=
 //[Reference] 'Don't stretch UI'
 options.gameplay.other.StepWiseUIScale=UIを引き伸ばさない
 //[Reference] 'Prevent NPC Staring'
@@ -1166,6 +1174,9 @@ staxel.accessories.pants.supershort.name=
 staxel.accessories.pants.tracksuit.description=
 //TODO Translate [Reference] 'tracksuit'
 staxel.accessories.pants.tracksuit.name=
+staxel.accessories.princessdresses.PrincessHeels.description=
+//TODO Translate [Reference] 'Princess Heels'
+staxel.accessories.princessdresses.PrincessHeels.name=
 staxel.accessories.shirts.colouredhoodie.ColouredHoodie.description=
 //[Reference] 'Coloured Hoodie'
 staxel.accessories.shirts.colouredhoodie.ColouredHoodie.name=カラーパーカー
@@ -2429,6 +2440,14 @@ staxel.docks.merchantStalls.MerchantShopLarge.description=
 staxel.docks.merchantStalls.MerchantShopLarge.name=大きな屋台
 //TODO Translate [Reference] 'Bow'
 staxel.emote.Bow.name=
+//TODO Translate [Reference] 'Cough'
+staxel.emote.Cough.name=
+//TODO Translate [Reference] 'Defeated'
+staxel.emote.Defeated.name=
+//TODO Translate [Reference] 'Disappointed'
+staxel.emote.Disappointed.name=
+//TODO Translate [Reference] 'Fidget'
+staxel.emote.Fidget.name=
 staxel.emote.Inspect.begin.description=
 //[Reference] 'Inspect Emote'
 staxel.emote.Inspect.begin.name=動作を確認する
@@ -2438,12 +2457,20 @@ staxel.emote.LookAround.name=周囲を見る
 staxel.emote.No.description=
 //[Reference] 'No Emote'
 staxel.emote.No.name=動作なし
+//TODO Translate [Reference] 'Poke'
+staxel.emote.Poke.name=
+//TODO Translate [Reference] 'Satisfied'
+staxel.emote.Satisfied.name=
 staxel.emote.ScratchHead.description=
 //[Reference] 'Scratch Head'
 staxel.emote.ScratchHead.name=頭をかく
 staxel.emote.Search.begin.description=
 //[Reference] 'Search Emote'
 staxel.emote.Search.begin.name=探す動作
+//TODO Translate [Reference] 'Startled'
+staxel.emote.Startled.name=
+//TODO Translate [Reference] 'Surprise'
+staxel.emote.Surprise.name=
 
 //[Reference] 'Use this to trigger the wave emote.'
 staxel.emote.Wave.description=これを使って手を振ろう。
@@ -3810,10 +3837,24 @@ staxel.item.tool.WaterSquirterPink.name=ピンクの水鉄砲
 staxel.item.tool.WitchWand.description=
 //[Reference] 'Magic Wand'
 staxel.item.tool.WitchWand.name=魔法の杖
+//TODO Translate [Reference] 'Claim Petals'
+staxel.mail.claimPetals=
 //[Reference] '^c:1486b0;$playername;^c:pop;!\n\nI couldn't help overhearing your conversation with ^c:1486b0;Rosemary^c:pop; yesterday (sorry, I wasn't listening on purpose, I swear). See, I was around these parts back then and I swear something wasn't quite right about the whole thing...\n\nMaybe it would be worth having a little wander around the village and seeing if anyone else can remember anything?\n\n^c:1486b0;Farm Fan^c:pop;'
 staxel.mail.FarmFanEavesdrop.body=^c:1486b0;$playername;^c:pop;！\n\n昨日あなたと^c:1486b0;ローズマリー^c:pop;の会話が偶然耳に入っちゃったの（ごめんね、わざとじゃないの、本当に）。今思い返せば、何か怪しかったのよね…\n\nちょっと村を回って、誰か何か覚えてないか聞いてみたらどうかな？\n\n^c:1486b0;ファームファン^c:pop;より
 //[Reference] 'Rosemary'
 staxel.mail.FarmFanEavesdrop.subject=ローズマリー
+//TODO Translate [Reference] 'Save Mail'
+staxel.mailCounter.accept=
+//TODO Translate [Reference] 'Message'
+staxel.mailCounter.body=
+//TODO Translate [Reference] 'Petals'
+staxel.mailCounter.petals=
+//TODO Translate [Reference] 'Recipient'
+staxel.mailCounter.recipient=
+//TODO Translate [Reference] 'Subject'
+staxel.mailCounter.subject=
+//TODO Translate [Reference] 'Write Mail'
+staxel.mailCounter.title=
 //[Reference] 'Best Friend'
 staxel.mainQuest.Rosemary.BestFriend=親友
 //[Reference] 'Food for the Soul'
@@ -3841,6 +3882,8 @@ staxel.merchant.NotEnoughMoney=お金が足りません
 staxel.merchant.NotEnoughStarBits=
 //TODO Translate [Reference] 'That isn't worth anything at the moment.'
 staxel.merchant.novalue=
+//TODO Translate [Reference] 'There are no more items to get!'
+staxel.merchant.OutOfLuckyItems=
 //[Reference] 'Paid {0-amount} petals!'
 staxel.merchant.paid={0-amount}ペタル支払いました！
 //[Reference] 'Received {0-amount} petals!'
@@ -3859,6 +3902,12 @@ staxel.merchant.SellBoxDefault=デフォルトの売却ボックス
 staxel.merchant.StarBitsPaid=
 //TODO Translate [Reference] 'VIPFurniture [WIP]'
 staxel.merchant.VIPFurniture.name=
+//TODO Translate [Reference] 'VIP Island Blocks [WIP]'
+staxel.merchant.VIPIslandBlocks.name=
+//TODO Translate [Reference] 'VIP Misc [WIP]'
+staxel.merchant.VIPMisc.name=
+//TODO Translate [Reference] 'VIP Misc 2 [WIP]'
+staxel.merchant.VIPMisc2.name=
 staxel.merchants.carts.BuildingMerchant.description=
 //[Reference] 'Building Merchant Cart'
 staxel.merchants.carts.BuildingMerchant.name=建材商人のカート
@@ -3882,6 +3931,12 @@ staxel.merchants.carts.PetMerchant.name=ペット商人のカート
 staxel.merchants.carts.VIPIslandBlocks.description=
 //TODO Translate [Reference] 'VIP Island Blocks [WIP]'
 staxel.merchants.carts.VIPIslandBlocks.name=
+staxel.merchants.carts.VIPMisc.description=
+//TODO Translate [Reference] 'VIP Misc [WIP]'
+staxel.merchants.carts.VIPMisc.name=
+staxel.merchants.carts.VIPMisc2.description=
+//TODO Translate [Reference] 'VIP Misc 2 [WIP]'
+staxel.merchants.carts.VIPMisc2.name=
 staxel.merchants.carts.VIPVillagerFurniture.description=
 //TODO Translate [Reference] 'VIP Villager Furniture [WIP]'
 staxel.merchants.carts.VIPVillagerFurniture.name=
@@ -3964,6 +4019,12 @@ staxel.notifications.BuildingTools.MeasuringTapeOne=計測点をセット
 staxel.notifications.CantBreak=このタイルを壊すことはできません。
 //TODO Translate [Reference] 'Cant open Locked Door'
 staxel.notifications.cantOpenLockedDoor=
+//TODO Translate [Reference] 'Couldn't put down a sellbox for this merchant.'
+staxel.notifications.CantPlaceMerchantSellBox=
+//TODO Translate [Reference] 'VIP Merchant couldn't land at the Airship Anchor. Area was obstructed.'
+staxel.notifications.CantPlaceVIPMerchant=
+//TODO Translate [Reference] 'Magical forces are preventing setting your home here.'
+staxel.notifications.CantSetHomeAtIsland=
 //[Reference] 'Farm Fan has set aside this day to show you around the farm, you should do that before sleeping!'
 staxel.notifications.cantSleepTutorial=ファームファンはこの日以外なら牧場を案内してくれます、寝る前にやっておきましょう！
 //[Reference] 'Failed to Export area. Error message in server console.'
@@ -4010,6 +4071,8 @@ staxel.notifications.feeder.FeederAlreadyFilled=エサが{0}/{1}個あります
 staxel.notifications.feeder.Filled={0}個入れました！
 //[Reference] 'Use the hoe on grass or dirt.'
 staxel.notifications.HoeFail=草または土の上でクワを使ってください。
+//TODO Translate [Reference] 'Home position can only be set on the mainland'
+staxel.notifications.HomePositionNotSet=
 //TODO Translate [Reference] 'Unlocked: {0-ItemName}'
 staxel.notifications.itemUnlocked=
 //[Reference] 'Try a milkable animal'
@@ -4028,6 +4091,12 @@ staxel.notifications.season.WrongSeason.2={0-season}か{1-season}にしか植え
 staxel.notifications.season.WrongSeason.3={0-season}、{1-season}、{2-season}にしか植えられません！
 //[Reference] 'Not looking at a shearable animal.'
 staxel.notifications.shears.NotLookingAtShearableAnimal=毛刈りできる動物ではありません。
+//TODO Translate [Reference] 'You're really feeling tired. You should get some sleep.'
+staxel.notifications.status.Exhausted=
+//TODO Translate [Reference] 'You've collapsed. You lost {0-petal} petals on your way home.'
+staxel.notifications.status.ReturnedHome=
+//TODO Translate [Reference] 'You're feeling kinda sleepy...'
+staxel.notifications.status.Sleepy=
 //[Reference] 'It's too early to sleep!'
 staxel.notifications.tooEarlyForSleep=就寝するには早すぎます！
 
@@ -4056,6 +4125,8 @@ staxel.notifications.WrongTool.Verb.Harvest=収穫する
 staxel.notifications.WrongTool.Verb.Pickup=取る
 //[Reference] 'pull'
 staxel.notifications.WrongTool.Verb.Pull=引っぱる
+//TODO Translate [Reference] 'Remove'
+staxel.notifications.WrongTool.Verb.Remove=
 //[Reference] 'Soak'
 staxel.notifications.WrongTool.Verb.Soak=浸す
 //[Reference] 'sweep'
@@ -5009,9 +5080,30 @@ staxel.tileObject.magic.GiantMushroom.name=巨大なキノコ
 staxel.tileObject.magic.Starbit.description=
 //TODO Translate [Reference] 'Starbit'
 staxel.tileObject.magic.Starbit.name=
+staxel.tileObject.merchantTotem.BuildingMerchant.player.description=
+//TODO Translate [Reference] 'player'
+staxel.tileObject.merchantTotem.BuildingMerchant.player.name=
+staxel.tileObject.merchantTotem.ClothingMerchant.player.description=
+//TODO Translate [Reference] 'player'
+staxel.tileObject.merchantTotem.ClothingMerchant.player.name=
+staxel.tileObject.merchantTotem.FlowerMerchant.player.description=
+//TODO Translate [Reference] 'player'
+staxel.tileObject.merchantTotem.FlowerMerchant.player.name=
+staxel.tileObject.merchantTotem.FurnitureMerchant.player.description=
+//TODO Translate [Reference] 'player'
+staxel.tileObject.merchantTotem.FurnitureMerchant.player.name=
+staxel.tileObject.merchantTotem.PetMerchant.player.description=
+//TODO Translate [Reference] 'player'
+staxel.tileObject.merchantTotem.PetMerchant.player.name=
 staxel.tileObject.merchantTotem.VIPIslandBlocks.description=
 //TODO Translate [Reference] 'VIP Island Blocks [WIP]'
 staxel.tileObject.merchantTotem.VIPIslandBlocks.name=
+staxel.tileObject.merchantTotem.VIPMisc.description=
+//TODO Translate [Reference] 'VIP Misc [WIP]'
+staxel.tileObject.merchantTotem.VIPMisc.name=
+staxel.tileObject.merchantTotem.VIPMisc2.description=
+//TODO Translate [Reference] 'VIP Misc 2 [WIP]'
+staxel.tileObject.merchantTotem.VIPMisc2.name=
 staxel.tileObject.merchantTotem.VIPVillagerFurniture.description=
 //TODO Translate [Reference] 'VIP Villager Furniture [WIP]'
 staxel.tileObject.merchantTotem.VIPVillagerFurniture.name=
@@ -5039,6 +5131,15 @@ staxel.tileObject.mineIsland.Level2.Up.name=
 staxel.tileObject.mineIsland.Level3.Up.description=
 //TODO Translate [Reference] 'Up'
 staxel.tileObject.mineIsland.Level3.Up.name=
+staxel.tileObject.mineIsland.MineBox.description=
+//TODO Translate [Reference] 'Mine Box'
+staxel.tileObject.mineIsland.MineBox.name=
+staxel.tileObject.mineIsland.MineBoxUsed.description=
+//TODO Translate [Reference] 'Mine Box Used'
+staxel.tileObject.mineIsland.MineBoxUsed.name=
+staxel.tileObject.mineIsland.TrappedEscape.description=
+//TODO Translate [Reference] 'Trapped Escape'
+staxel.tileObject.mineIsland.TrappedEscape.name=
 staxel.tileObject.mines.CeilingMushroomBlue1.description=
 //[Reference] 'Ceiling Mushroom Blue1'
 staxel.tileObject.mines.CeilingMushroomBlue1.name=天井キノコ 青1
@@ -5394,9 +5495,15 @@ staxel.tileObject.petShop.PetshopPoster.description=
 //[Reference] 'Petshop Poster'
 staxel.tileObject.petShop.PetshopPoster.name=ペットショップのポスター
 staxel.tileObject.portalFest.FairyIslandPortal.description=
+staxel.tileObject.portalFest.FairyIslandPortal.Exit.description=
+//TODO Translate [Reference] 'Exit'
+staxel.tileObject.portalFest.FairyIslandPortal.Exit.name=
 //TODO Translate [Reference] 'Fairy Island Portal'
 staxel.tileObject.portalFest.FairyIslandPortal.name=
 staxel.tileObject.portalFest.LumberIslandPortal.description=
+staxel.tileObject.portalFest.LumberIslandPortal.Exit.description=
+//TODO Translate [Reference] 'Exit'
+staxel.tileObject.portalFest.LumberIslandPortal.Exit.name=
 //TODO Translate [Reference] 'Lumber Island Portal'
 staxel.tileObject.portalFest.LumberIslandPortal.name=
 staxel.tileObject.postbox.StandardPostbox.description=
@@ -6266,9 +6373,15 @@ staxel.tileObject.themedfurniture.rainbow.YellowRainbowTable.name=黄色い虹�
 staxel.tileObject.themedfurniture.ranch.RanchCoffeeTable.NoDock.description=
 //[Reference] 'Ranch Coffee Table (No Docks)'
 staxel.tileObject.themedfurniture.ranch.RanchCoffeeTable.NoDock.name=牧場風コーヒーテーブル（収納不可）
+staxel.tileObject.themedfurniture.ranch.RanchDoubleBed.NoDock.description=
+//TODO Translate [Reference] 'No Dock'
+staxel.tileObject.themedfurniture.ranch.RanchDoubleBed.NoDock.name=
 staxel.tileObject.themedfurniture.ranch.RanchSideTable.NoDock.description=
 //[Reference] 'Ranch Side Table (No Docks)'
 staxel.tileObject.themedfurniture.ranch.RanchSideTable.NoDock.name=牧場風サイドテーブル（収納不可）
+staxel.tileObject.themedfurniture.ranch.RanchSingleBed.NoDock.description=
+//TODO Translate [Reference] 'No Dock'
+staxel.tileObject.themedfurniture.ranch.RanchSingleBed.NoDock.name=
 staxel.tileObject.themedfurniture.spooky.Calaverita.description=
 //TODO Translate [Reference] 'Calaverita'
 staxel.tileObject.themedfurniture.spooky.Calaverita.name=
@@ -6772,6 +6885,8 @@ staxel.totemInfo.tierRequirements=ティア{0-level}の要件
 staxel.totems.toggleboundary=領域表示の切り替え
 //TODO Translate [Reference] 'Disable Area Protection'
 staxel.totems.togglebreakable=
+//TODO Translate [Reference] 'You are already transformed! Wait for it to wear off.'
+staxel.transformation.AlreadyTransformed=
 //TODO Translate [Reference] 'You have been transformed!'
 staxel.transformation.Transformed=
 //TODO Translate [Reference] 'Transformation has worn off.'
@@ -6835,6 +6950,8 @@ staxel.tree.PearTree.name=ナシの木の種
 staxel.tree.TangerineTree.description=この木にはオレンジではなく、タンジェリンが実る。冬に収穫できる。
 //[Reference] 'Tangerine Tree'
 staxel.tree.TangerineTree.name=タンジェリンの木
+//TODO Translate [Reference] 'Write Mail'
+staxel.verb.writemail=
 staxel.village.dialogue.ForestBunnyGiveItem.=
 //[Reference] '...'
 staxel.village.dialogue.ForestBunnyGiveItem.line:10000101=…
