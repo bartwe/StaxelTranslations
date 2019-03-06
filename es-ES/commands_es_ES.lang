@@ -6,13 +6,15 @@ commands.activateMurmur.description=^c:F2E200;activateMurmur ^c:FFFFFF;murmurCod
 commands.activateMurmur.success=Se ha activado {0-murmur}.
 
 
-//[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0) (optional)showCalendarTime(true/false)'
 commands.advanceTime.description=^c:F2E200;advanceTime ^c:FFFFFF;cantidad(0.0-1.0)
 //[Reference] 'Enter a float by which to advance time. 1.0 is a full day'
 commands.advanceTime.enterFloat=Introduce una fluctuación para avanzar el tiempo. 1.0 representa un día completo
 //[Reference] 'failed: arg(1) must be a number. Floating points OK'
 commands.advanceTime.mustBeNumber=error: arg(1) debe ser un número. Puntos de fluctuación OK
-//[Reference] 'Advancing time by {0-time}...'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Advancing time by {0-time} ({1-dayphase1} -> {2-dayphase2})...'
 commands.advanceTime.success=Avanzando el tiempo {0-time}...
 //[Reference] '^c:F2E200;ban ^c:FFFFFF;playerName (optional)reason'
 commands.ban.description=^c:F2E200;ban ^c:FFFFFF;Nombre del jugador (opcional)motivo
@@ -80,7 +82,8 @@ commands.completeQuest.success=La misión se ha completado con éxito.
 commands.creative.description=^c:F2E200;creative ^c:FFFFFF;(opcional)Nombre del jugador(opcional)Iniciar modo creativo(true/false)
 //[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
 commands.creative.success=Se ha cambiado temporalmente el modo creativo de {0-user} a {1-creative}
-//[Reference] '^c:F2E200;currentTime'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;currentTime (optional)showCalendarTime(true/false)'
 commands.currentTime.description=^c:F2E200;currentTime
 //[Reference] 'The day is {0-day} and phase is {1:G2-phase} ({2-time}).'
 commands.currentTime.success=El día es {0-day} y la fase es {1:G2-phase} ({2-time}).
@@ -409,6 +412,8 @@ commands.updateReputation.description=^c:F2E200;updateReputation ^c:FFFFFF;Nombr
 commands.updateReputation.success=Se ha actualizado la reputación del aldeano {1-villagerCode} a {0-newAmount}.
 //[Reference] 'Villager Entity not found'
 commands.villagerEntityNotFound=No se ha encontrado al aldeano
+//TODO Translate [Reference] 'Villager not found'
+commands.villagerNotFound=
 //[Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
 commands.weather.description=^c:F2E200;weather ^c:FFFFFF;Tipo (Sun, Rain, Snow, Storm or weather code.)
 //[Reference] 'Unable to set weather: {0-weather}. Does not exist.'
