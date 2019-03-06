@@ -151,6 +151,12 @@ commands.givePetals.description=^c:F2E200;givepetals ^c:FFFFFF;プレイヤー�
 commands.givePetals.invalidNumber=ペタルの量は正数でなければなりません
 //[Reference] 'Gave {0-player} {1-amount} petals'
 commands.givePetals.success={0-player}に{1-amount}ペタル与えました
+//TODO Translate [Reference] 'viaReactions argument must be true or false'
+commands.giveRecipeItems.badArg=
+//TODO Translate [Reference] '^c:F2E200;giveRecipeItems ^c:FFFFFF;recipeCode (optional)viaReactions(true/false)'
+commands.giveRecipeItems.description=
+//TODO Translate [Reference] 'Give recipe items successful'
+commands.giveRecipeItems.success=
 //[Reference] '^c:F2E200;? ^c:FFFFFF;(optional)commandName'
 commands.help.altDescription=^c:F2E200;? ^c:FFFFFF;(任意)コマンド名
 //[Reference] 'Command not found: '{0-command}''
@@ -225,6 +231,8 @@ commands.plantGrowth.description=^c:F2E200;plantgrowth
 commands.plantGrowth.noPlant=植物ではありません。
 //[Reference] 'Plant {0-plant} at stage {1-stage}'
 commands.plantGrowth.success=植物{0-plant}はステージ{1-stage}です。
+//TODO Translate [Reference] 'Player {0-player} currently cannot be teleported.'
+commands.playerCantBeTeleported=
 //[Reference] 'Player Entity not found'
 commands.playerEntityNotFound=プレイヤーエンティティが見つかりませんでした
 //[Reference] '^c:F2E200;players'
@@ -258,6 +266,10 @@ commands.rain.success=雨の日になりました。
 commands.reload.description=^c:F2E200;reload
 //[Reference] 'Reload requested.'
 commands.reload.success=リロードをリクエストしました。
+//TODO Translate [Reference] '^c:F2E200;resetOffmap ^c:FFFFFF;offmapTemplateCode'
+commands.resetOffmap.description=
+//TODO Translate [Reference] 'Offmap reset complete.'
+commands.resetOffmap.success=
 //[Reference] '^c:F2E200;resetplayer'
 commands.resetPlayer.description=^c:F2E200;resetplayer
 //[Reference] 'Reset successful.'

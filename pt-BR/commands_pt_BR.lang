@@ -152,6 +152,12 @@ commands.givePetals.description=^c:F2E200;givepetals ^c:FFFFFF;nome do jogador q
 commands.givePetals.invalidNumber=A quantidade de pétalas deve ser um número positivo
 //[Reference] 'Gave {0-player} {1-amount} petals'
 commands.givePetals.success={1-amount} pétalas dadas a {0-player}
+//TODO Translate [Reference] 'viaReactions argument must be true or false'
+commands.giveRecipeItems.badArg=
+//TODO Translate [Reference] '^c:F2E200;giveRecipeItems ^c:FFFFFF;recipeCode (optional)viaReactions(true/false)'
+commands.giveRecipeItems.description=
+//TODO Translate [Reference] 'Give recipe items successful'
+commands.giveRecipeItems.success=
 //[Reference] '^c:F2E200;? ^c:FFFFFF;(optional)commandName'
 commands.help.altDescription=^c:F2E200;? ^c:FFFFFF;(opcional)nome do comando
 //[Reference] 'Command not found: '{0-command}''
@@ -226,6 +232,8 @@ commands.plantGrowth.description=^c:F2E200;plantgrowth
 commands.plantGrowth.noPlant=Não é uma planta.
 //[Reference] 'Plant {0-plant} at stage {1-stage}'
 commands.plantGrowth.success=Planta {0-plant} no estágio {1-stage}
+//TODO Translate [Reference] 'Player {0-player} currently cannot be teleported.'
+commands.playerCantBeTeleported=
 //[Reference] 'Player Entity not found'
 commands.playerEntityNotFound=Entidade de jogador não encontrada
 //[Reference] '^c:F2E200;players'
@@ -259,6 +267,10 @@ commands.rain.success=O dia ficou chuvoso.
 commands.reload.description=^c:F2E200;reload
 //[Reference] 'Reload requested.'
 commands.reload.success=Solicitação para recarregar.
+//TODO Translate [Reference] '^c:F2E200;resetOffmap ^c:FFFFFF;offmapTemplateCode'
+commands.resetOffmap.description=
+//TODO Translate [Reference] 'Offmap reset complete.'
+commands.resetOffmap.success=
 //[Reference] '^c:F2E200;resetplayer'
 commands.resetPlayer.description=^c:F2E200;resetplayer
 //[Reference] 'Reset successful.'
