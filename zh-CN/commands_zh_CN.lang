@@ -5,13 +5,15 @@ commands.activateMurmur.description=^c:F2E200;activateMurmur ^c:FFFFFF;murmurCod
 //[Reference] 'Successfully activated {0-murmur}.'
 commands.activateMurmur.success=已成功激活{0-murmur}。
 
-//[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0) (optional)showCalendarTime(true/false)'
 commands.advanceTime.description=^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)
 //[Reference] 'Enter a float by which to advance time. 1.0 is a full day'
 commands.advanceTime.enterFloat=输入一个浮点数来推进时间。1.0 为一整天
 //[Reference] 'failed: arg(1) must be a number. Floating points OK'
 commands.advanceTime.mustBeNumber=失败：变量（1）必须是为数字。浮点数可用
-//[Reference] 'Advancing time by {0-time}...'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Advancing time by {0-time} ({1-dayphase1} -> {2-dayphase2})...'
 commands.advanceTime.success=时间推进{0-time}……
 //[Reference] '^c:F2E200;ban ^c:FFFFFF;playerName (optional)reason'
 commands.ban.description=^c:F2E200;ban ^c:FFFFFF;playerName (optional)reason
@@ -79,7 +81,8 @@ commands.completeQuest.success=已成功完成任务
 commands.creative.description=^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)
 //[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
 commands.creative.success=暂时为{0-user}将创造者模式切换为{1-creative}
-//[Reference] '^c:F2E200;currentTime'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;currentTime (optional)showCalendarTime(true/false)'
 commands.currentTime.description=^c:F2E200;currentTime
 //[Reference] 'The day is {0-day} and phase is {1:G2-phase} ({2-time}).'
 commands.currentTime.success=日期为{0-day}，时段为{1:G2-phase}（{2-time}）。
@@ -407,6 +410,8 @@ commands.updateReputation.description=^c:F2E200;unmute ^c:FFFFFF;村民姓名/�
 commands.updateReputation.success=村民{1-villagerCode}的声望已更新为{0-newAmount}
 //[Reference] 'Villager Entity not found'
 commands.villagerEntityNotFound=村民实体未找到
+//TODO Translate [Reference] 'Villager not found'
+commands.villagerNotFound=
 //[Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
 commands.weather.description=^c:F2E200;weather ^c:FFFFFF;输入　(Sun, Rain, Snow, Storm 或天气代码)
 //[Reference] 'Unable to set weather: {0-weather}. Does not exist.'
