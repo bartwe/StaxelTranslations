@@ -5,13 +5,15 @@ commands.activateMurmur.description=
 //TODO Translate [Reference] 'Successfully activated {0-murmur}.'
 commands.activateMurmur.success=
 
-//[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0) (optional)showCalendarTime(true/false)'
 commands.advanceTime.description=avanceradTid antal(0.0-1.0)
 //[Reference] 'Enter a float by which to advance time. 1.0 is a full day'
 commands.advanceTime.enterFloat=Mata in en float flr att förskjuta tiden framåt. 1.0 motsvarar en hel dag
 //[Reference] 'failed: arg(1) must be a number. Floating points OK'
 commands.advanceTime.mustBeNumber=misslyckades: arg(1) måste vara ett nummer. Floating points OK
-//[Reference] 'Advancing time by {0-time}...'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Advancing time by {0-time} ({1-dayphase1} -> {2-dayphase2})...'
 commands.advanceTime.success=Förskjut tiden framåt med {0-time}...
 //TODO Translate [Reference] '^c:F2E200;ban ^c:FFFFFF;playerName (optional)reason'
 commands.ban.description=
@@ -79,7 +81,7 @@ commands.completeQuest.success=
 commands.creative.description=
 //TODO Translate [Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
 commands.creative.success=
-//TODO Translate [Reference] '^c:F2E200;currentTime'
+//TODO Translate [Reference] '^c:F2E200;currentTime (optional)showCalendarTime(true/false)'
 commands.currentTime.description=
 //TODO Translate [Reference] 'The day is {0-day} and phase is {1:G2-phase} ({2-time}).'
 commands.currentTime.success=
@@ -409,6 +411,8 @@ commands.updateReputation.description=
 commands.updateReputation.success=
 //TODO Translate [Reference] 'Villager Entity not found'
 commands.villagerEntityNotFound=
+//TODO Translate [Reference] 'Villager not found'
+commands.villagerNotFound=
 //TODO Translate [Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
 commands.weather.description=
 //TODO Translate [Reference] 'Unable to set weather: {0-weather}. Does not exist.'

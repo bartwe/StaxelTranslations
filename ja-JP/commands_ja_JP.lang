@@ -5,13 +5,15 @@ commands.activateMurmur.description=^c:F2E200;activateMurmur ^c:FFFFFF;マーマ
 //[Reference] 'Successfully activated {0-murmur}.'
 commands.activateMurmur.success={0-murmur}は正常に起動しました。
 
-//[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0) (optional)showCalendarTime(true/false)'
 commands.advanceTime.description=^c:F2E200;advanceTime ^c:FFFFFF;時間(0.0-1.0)
 //[Reference] 'Enter a float by which to advance time. 1.0 is a full day'
 commands.advanceTime.enterFloat=進める時間をfloat型で入力してください。1.0は1日です
 //[Reference] 'failed: arg(1) must be a number. Floating points OK'
 commands.advanceTime.mustBeNumber=失敗：arg(1)は数値である必要があります。浮動小数点OK
-//[Reference] 'Advancing time by {0-time}...'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Advancing time by {0-time} ({1-dayphase1} -> {2-dayphase2})...'
 commands.advanceTime.success=時間を{0-time}日進めています…
 //[Reference] '^c:F2E200;ban ^c:FFFFFF;playerName (optional)reason'
 commands.ban.description=^c:F2E200;ban ^c:FFFFFF;プレイヤー名 (任意)理由
@@ -79,7 +81,8 @@ commands.completeQuest.success=クエストが正常に完了
 commands.creative.description=^c:F2E200;creative ^c:FFFFFF;(任意)プレイヤー名 (任意)クリエイティブモード開始(true/false)
 //[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
 commands.creative.success={0-user}のクリエイティブモードを一時的に{1-creative}に変更しました
-//[Reference] '^c:F2E200;currentTime'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;currentTime (optional)showCalendarTime(true/false)'
 commands.currentTime.description=^c:F2E200;currentTime
 //[Reference] 'The day is {0-day} and phase is {1:G2-phase} ({2-time}).'
 commands.currentTime.success=今日は{0-day}日目で、時刻は{1:G2-phase} ({2-time})です。
@@ -406,6 +409,8 @@ commands.updateReputation.description=^c:F2E200;updateReputation ^c:FFFFFF;村�
 commands.updateReputation.success=村人{1-villagerCode}からの評判を{0-newAmount}に更新しました。
 //[Reference] 'Villager Entity not found'
 commands.villagerEntityNotFound=村人が見つかりません
+//TODO Translate [Reference] 'Villager not found'
+commands.villagerNotFound=
 //[Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
 commands.weather.description=^c:F2E200;weather ^c:FFFFFF;種類 (Sun, Rain, Snow, Storm または天気コード)
 //[Reference] 'Unable to set weather: {0-weather}. Does not exist.'

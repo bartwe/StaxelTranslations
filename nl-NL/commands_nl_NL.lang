@@ -5,13 +5,15 @@ commands.activateMurmur.description=^c:F2E200;activateMurmur ^c:FFFFFF;mompelCod
 //[Reference] 'Successfully activated {0-murmur}.'
 commands.activateMurmur.success=Succesvolle activatie van {0-murmur}.
 
-//[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0) (optional)showCalendarTime(true/false)'
 commands.advanceTime.description=^c:F2E200;advanceTime ^c:FFFFFF;hoeveelheid(0.0-1.0)
 //[Reference] 'Enter a float by which to advance time. 1.0 is a full day'
 commands.advanceTime.enterFloat=Ga vooruit in de tijd; 1.0 is een volledige dag
 //[Reference] 'failed: arg(1) must be a number. Floating points OK'
 commands.advanceTime.mustBeNumber=mislukt: arg(1) moet een getal zijn. Floats zijn toegestaan
-//[Reference] 'Advancing time by {0-time}...'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Advancing time by {0-time} ({1-dayphase1} -> {2-dayphase2})...'
 commands.advanceTime.success=In de tijd gesprongen met {0-time}...
 //[Reference] '^c:F2E200;ban ^c:FFFFFF;playerName (optional)reason'
 commands.ban.description=^c:F2E200;ban ^c:FFFFFF;spelerNaam (optioneel)reden
@@ -79,7 +81,8 @@ commands.completeQuest.success=Missie succesvol volbracht
 commands.creative.description=^c:F2E200;creative ^c:FFFFFF;(optioneel)spelerNaam (optioneel)startCreatieveModus(true/false)
 //[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
 commands.creative.success=Creative modus voor {0-user} tijdelijk geswitched naar {1-creative}
-//[Reference] '^c:F2E200;currentTime'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;currentTime (optional)showCalendarTime(true/false)'
 commands.currentTime.description=^c:F2E200;currentTime
 //[Reference] 'The day is {0-day} and phase is {1:G2-phase} ({2-time}).'
 commands.currentTime.success=De dag is {0-day}, de fase {1:G2-phase} ({2-time}).
@@ -408,6 +411,8 @@ commands.updateReputation.description=^c:F2E200;updateReputation ^c:FFFFFF;dorpe
 commands.updateReputation.success=Reputatie aangepast naar {0-newAmount} voor dorpeling {1-villagerCode}
 //[Reference] 'Villager Entity not found'
 commands.villagerEntityNotFound=Dorpeling entiteit niet gevonden
+//TODO Translate [Reference] 'Villager not found'
+commands.villagerNotFound=
 //[Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
 commands.weather.description=^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm of weer code.)
 //[Reference] 'Unable to set weather: {0-weather}. Does not exist.'

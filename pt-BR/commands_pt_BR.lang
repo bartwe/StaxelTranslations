@@ -5,13 +5,15 @@ commands.activateMurmur.description=^c:F2E200;activateMurmur ^c:FFFFFF;murmurCod
 //[Reference] 'Successfully activated {0-murmur}.'
 commands.activateMurmur.success={0-murmur} ativado com êxito.
 
-//[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0) (optional)showCalendarTime(true/false)'
 commands.advanceTime.description=^c:F2E200;advanceTime ^c:FFFFFF; quantidade (0.0-1.0)
 //[Reference] 'Enter a float by which to advance time. 1.0 is a full day'
 commands.advanceTime.enterFloat=Insira um número para avançar no tempo. 1.0 é um dia inteiro
 //[Reference] 'failed: arg(1) must be a number. Floating points OK'
 commands.advanceTime.mustBeNumber=falha: arg(1) deve ser um número. Números OK
-//[Reference] 'Advancing time by {0-time}...'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Advancing time by {0-time} ({1-dayphase1} -> {2-dayphase2})...'
 commands.advanceTime.success=Avançando o tempo em: {0-time}...
 //[Reference] '^c:F2E200;ban ^c:FFFFFF;playerName (optional)reason'
 commands.ban.description=^c:F2E200;ban ^c:FFFFFF;nome do jogador (opcional) motivo
@@ -80,7 +82,8 @@ commands.creative.description=^c:F2E200;creative ^c:FFFFFF;(opcional)nome do jog
 //[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
 commands.creative.success=Modo criativo temporariamente alterado para: {1-creative} para {0-user}
 
-//[Reference] '^c:F2E200;currentTime'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;currentTime (optional)showCalendarTime(true/false)'
 commands.currentTime.description=^c:F2E200;currentTime
 //[Reference] 'The day is {0-day} and phase is {1:G2-phase} ({2-time}).'
 commands.currentTime.success=O dia é {0-day} e a época é {1:G2-phase} ({2-time}).
@@ -408,6 +411,8 @@ commands.updateReputation.description=^c:F2E200;unmute ^c:FFFFFF;nome/código do
 commands.updateReputation.success=Reputação do habitante {1-villagerCode} atualizada para {0-newAmount}
 //[Reference] 'Villager Entity not found'
 commands.villagerEntityNotFound=Entidade de habitante não encontrada
+//TODO Translate [Reference] 'Villager not found'
+commands.villagerNotFound=
 //[Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
 commands.weather.description=^c:F2E200;weather ^c:FFFFFF;Tipo (Sun, Rain, Snow, Storm or weather code.)
 //[Reference] 'Unable to set weather: {0-weather}. Does not exist.'
