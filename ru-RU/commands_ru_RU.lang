@@ -4,13 +4,15 @@ language=Русский
 commands.activateMurmur.description=^c:F2E200;activateMurmur ^c:FFFFFF;murmurCode
 //[Reference] 'Successfully activated {0-murmur}.'
 commands.activateMurmur.success=Успешно активировано: {0-murmur}.
-//[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0) (optional)showCalendarTime(true/false)'
 commands.advanceTime.description=^c:F2E200;advanceTime ^c:FFFFFF;величина(0.0–1.0)
 //[Reference] 'Enter a float by which to advance time. 1.0 is a full day'
 commands.advanceTime.enterFloat=Введите значение, на которое ускорить время. 1.0 — целый день
 //[Reference] 'failed: arg(1) must be a number. Floating points OK'
 commands.advanceTime.mustBeNumber=ошибка: значение(1) должно быть числом. Значение принято
-//[Reference] 'Advancing time by {0-time}...'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Advancing time by {0-time} ({1-dayphase1} -> {2-dayphase2})...'
 commands.advanceTime.success=Время ускоряется на {0-time}...
 //[Reference] '^c:F2E200;ban ^c:FFFFFF;playerName (optional)reason'
 commands.ban.description=^c:F2E200;ban ^c:FFFFFF;имя игрока (optional)причина
@@ -78,7 +80,8 @@ commands.completeQuest.success=Задание успешно завершено
 commands.creative.description=^c:F2E200;creative ^c:FFFFFF;(optional)имя игрока (optional)startCreativeMode(true/false)
 //[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
 commands.creative.success=Временная смена творческого режима для игрока {0-user}: {1-creative}
-//[Reference] '^c:F2E200;currentTime'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;currentTime (optional)showCalendarTime(true/false)'
 commands.currentTime.description=^c:F2E200;currentTime
 //[Reference] 'The day is {0-day} and phase is {1:G2-phase} ({2-time}).'
 commands.currentTime.success=День — {0-day}, время суток — {1:G2-phase} ({2-time}).
@@ -406,6 +409,8 @@ commands.updateReputation.description=^c:F2E200;unmute ^c:FFFFFF;имяжите�
 commands.updateReputation.success=Изменение репутации до {0-newAmount} для персонажа: {1-villagerCode}
 //[Reference] 'Villager Entity not found'
 commands.villagerEntityNotFound=Житель деревни не найден
+//TODO Translate [Reference] 'Villager not found'
+commands.villagerNotFound=
 //[Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
 commands.weather.description=^c:F2E200;weather ^c:FFFFFF;тип (Sun, Rain, Snow, Storm or weather code.)
 //[Reference] 'Unable to set weather: {0-weather}. Does not exist.'

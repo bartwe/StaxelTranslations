@@ -5,13 +5,15 @@ commands.activateMurmur.description=^c:F2E200;activateMurmur ^c:FFFFFF;murmurCod
 //[Reference] 'Successfully activated {0-murmur}.'
 commands.activateMurmur.success={0-murmur} erfolgreich aktiviert.
 
-//[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0) (optional)showCalendarTime(true/false)'
 commands.advanceTime.description=^c:F2E200;advanceTime ^c:FFFFFF;Menge(0.0-1.0)
 //[Reference] 'Enter a float by which to advance time. 1.0 is a full day'
 commands.advanceTime.enterFloat=Gib eine float ein, um welche die Zeit vorgespult werden soll. 1.0 ist ein voller Tag.
 //[Reference] 'failed: arg(1) must be a number. Floating points OK'
 commands.advanceTime.mustBeNumber=Fehler: arg(1) muss eine Zahl sein. Floating-Punkte OK
-//[Reference] 'Advancing time by {0-time}...'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Advancing time by {0-time} ({1-dayphase1} -> {2-dayphase2})...'
 commands.advanceTime.success=Spule Zeit um {0-time} vor …
 //[Reference] '^c:F2E200;ban ^c:FFFFFF;playerName (optional)reason'
 commands.ban.description=^c:F2E200;ban ^c:FFFFFF;playerName (optional)reason
@@ -79,7 +81,8 @@ commands.completeQuest.success=Aufgabe erfolgreich abgeschlossen
 commands.creative.description=^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)
 //[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
 commands.creative.success=Vorübergehend den Kreativ-Modus für {0-user} zu {1-creative} geändert
-//[Reference] '^c:F2E200;currentTime'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;currentTime (optional)showCalendarTime(true/false)'
 commands.currentTime.description=^c:F2E200;currentTime
 //[Reference] 'The day is {0-day} and phase is {1:G2-phase} ({2-time}).'
 commands.currentTime.success=Es ist Tag {0-day} und die Phase ist {1:G2-phase} ({2-time}).
@@ -406,6 +409,8 @@ commands.updateReputation.description=^c:F2E200;UpdateReputation ^c:FFFFFF;Dorfb
 commands.updateReputation.success=Ansehen geändert auf {0-newAmount} für Dorfbewohner {1-villagerCode}
 //[Reference] 'Villager Entity not found'
 commands.villagerEntityNotFound=Dorfbewohner nicht gefunden
+//TODO Translate [Reference] 'Villager not found'
+commands.villagerNotFound=
 //[Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
 commands.weather.description=^c:F2E200;Wetter ^c:FFFFFF;Art (Sonne, Regen, Schnee, Sturm oder Wettercode)
 //[Reference] 'Unable to set weather: {0-weather}. Does not exist.'
