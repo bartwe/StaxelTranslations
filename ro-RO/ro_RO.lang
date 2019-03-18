@@ -281,6 +281,8 @@ error.startGame.connectionClosed=
 error.startGame.gameRunning=
 //TODO Translate [Reference] 'Invalid credentials.'
 error.startGame.invalidCredential=
+//TODO Translate [Reference] 'Unable to open a file needed for the server. Is another copy of this world still running?'
+error.startGame.ioexception=
 //TODO Translate [Reference] 'Local game closed unexpectedly.'
 error.startGame.localGameUnexpected=
 //TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.'
@@ -583,6 +585,8 @@ options.gameplay.other.showWrongToolNotifications=
 options.gameplay.other.StepWiseUIScale=
 //TODO Translate [Reference] 'Prevent NPC Staring'
 options.gameplay.other.StopNPCStaring=
+//TODO Translate [Reference] 'Player Speed'
+options.gameplay.other.WalkingSpeedMultiplier=
 //TODO Translate [Reference] 'StaxelNet'
 options.gameplay.StaxelNet=
 //TODO Translate [Reference] 'Relay'
@@ -1737,6 +1741,10 @@ staxel.category.Sunflower=
 staxel.category.sushi=
 //TODO Translate [Reference] 'tackle'
 staxel.category.tackle=
+//TODO Translate [Reference] 'teleport'
+staxel.category.teleport=
+//TODO Translate [Reference] 'teleporter'
+staxel.category.teleporter=
 //TODO Translate [Reference] 'throne'
 staxel.category.throne=
 //TODO Translate [Reference] 'tractor'
@@ -2967,6 +2975,9 @@ staxel.item.crafting.StrawberryBlueberrySmoothie.name=
 staxel.item.crafting.StrawberryPopsicle.description=
 //TODO Translate [Reference] 'Strawberry Popsicle'
 staxel.item.crafting.StrawberryPopsicle.name=
+staxel.item.crafting.ToolHandle.description=
+//TODO Translate [Reference] 'Tool Handle'
+staxel.item.crafting.ToolHandle.name=
 staxel.item.crafting.UnbakedBakedPotatoWithColdUnbakedCheese.description=
 //TODO Translate [Reference] 'UnbakedBakedPotatoWithColdUnbakedCheese'
 staxel.item.crafting.UnbakedBakedPotatoWithColdUnbakedCheese.name=
@@ -3414,6 +3425,9 @@ staxel.item.gatherable.ZebraButterfly.name=
 staxel.item.generic.BlueBook.description=
 //TODO Translate [Reference] 'Blue Book'
 staxel.item.generic.BlueBook.name=
+staxel.item.generic.ReturnRemote.description=
+//TODO Translate [Reference] 'Teleport Remote'
+staxel.item.generic.ReturnRemote.name=
 staxel.item.generic.StarBits.description=
 //TODO Translate [Reference] 'Star Bits'
 staxel.item.generic.StarBits.name=
@@ -4062,6 +4076,14 @@ staxel.notifications.status.ExhaustedRun=
 staxel.notifications.status.ReturnedHome=
 //TODO Translate [Reference] 'You're feeling kinda sleepy...'
 staxel.notifications.status.Sleepy=
+//TODO Translate [Reference] 'from'
+staxel.notifications.teleport.from=
+//TODO Translate [Reference] 'This item cannot remote teleport {0-fromorto} a quest area.'
+staxel.notifications.teleport.noQuestTeleport=
+//TODO Translate [Reference] 'You must be at an island to use this.'
+staxel.notifications.teleport.noTeleportAvailable=
+//TODO Translate [Reference] 'to'
+staxel.notifications.teleport.to=
 //TODO Translate [Reference] 'It's too early to sleep!'
 staxel.notifications.tooEarlyForSleep=
 //TODO Translate [Reference] 'You don't need to water crops on rainy days!'
@@ -4220,6 +4242,10 @@ staxel.plant.tree.BasicNaturalTree.description=
 staxel.plant.tree.BasicNaturalTree.name=
 //TODO Translate [Reference] 'Free in Creative'
 staxel.priceTag.freeInCreative=
+//TODO Translate [Reference] 'Refine by Grouping'
+staxel.recipeBook.refine=
+//TODO Translate [Reference] 'Search...'
+staxel.recipeBook.search=
 //TODO Translate [Reference] 'StaxelNet join failed, invalid claim.'
 staxel.relay.invalidClaim=
 //TODO Translate [Reference] 'StaxelNet join failed, address not found.'
@@ -5089,6 +5115,9 @@ staxel.tileObject.mineIsland.MineBox.name=
 staxel.tileObject.mineIsland.MineBoxUsed.description=
 //TODO Translate [Reference] 'Mine Box Used'
 staxel.tileObject.mineIsland.MineBoxUsed.name=
+staxel.tileObject.mineIsland.SurfaceExit.description=
+//TODO Translate [Reference] 'Mine Exit'
+staxel.tileObject.mineIsland.SurfaceExit.name=
 staxel.tileObject.mineIsland.TrappedEscape.description=
 //TODO Translate [Reference] 'Trapped Escape'
 staxel.tileObject.mineIsland.TrappedEscape.name=
@@ -6896,11 +6925,15 @@ staxel.tree.TangerineTree.description=
 staxel.tree.TangerineTree.name=
 //TODO Translate [Reference] 'Write Mail'
 staxel.verb.writemail=
+//TODO Translate [Reference] 'You've given enough gifts for today, the reputation won't got any higher until tomorrow.'
+staxel.village.cantIncreaseRep=
 staxel.village.dialogue.ForestBunnyGiveItem.=
 //TODO Translate [Reference] '...'
 staxel.village.dialogue.ForestBunnyGiveItem.line:10000101=
 //TODO Translate [Reference] 'Material Islands have been reset.'
 staxel.village.materialIslandsReset=
+//TODO Translate [Reference] 'You need to complete a quest before your repulation goes any higher with this villager.'
+staxel.village.questBlocksRep=
 //TODO Translate [Reference] '{0-name} has left the village.'
 staxel.village.villagerLeftTown=
 //TODO Translate [Reference] 'Aliza'
