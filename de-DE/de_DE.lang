@@ -282,6 +282,8 @@ error.startGame.connectionClosed=Verbindung Geschlossen
 error.startGame.gameRunning=Kann keinen lokalen privaten Server im Einzelspieler starten.{0-newLine}Ist eine andere Kopie des Spiels am laufen?{1-newLine}
 //[Reference] 'Invalid credentials.'
 error.startGame.invalidCredential=Ungültige Anmeldedaten.
+//TODO Translate [Reference] 'Unable to open a file needed for the server. Is another copy of this world still running?'
+error.startGame.ioexception=
 //[Reference] 'Local game closed unexpectedly.'
 error.startGame.localGameUnexpected=Das Lokales Spiel wurde unerwartet geschlossen.
 //[Reference] 'Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.'
@@ -4304,6 +4306,10 @@ staxel.plant.tree.BasicNaturalTree.name=Einfacher natürlicher Baum
 
 //[Reference] 'Free in Creative'
 staxel.priceTag.freeInCreative=Frei im Kreativ-Modus
+//TODO Translate [Reference] 'Refine by Grouping'
+staxel.recipeBook.refine=
+//TODO Translate [Reference] 'Search...'
+staxel.recipeBook.search=
 //[Reference] 'StaxelNet join failed, invalid claim.'
 staxel.relay.invalidClaim=Beitreten über StaxelNet gescheitert, invalider Antrag.
 //[Reference] 'StaxelNet join failed, address not found.'
@@ -5183,6 +5189,9 @@ staxel.tileObject.mineIsland.MineBox.name=
 staxel.tileObject.mineIsland.MineBoxUsed.description=
 //TODO Translate [Reference] 'Mine Box Used'
 staxel.tileObject.mineIsland.MineBoxUsed.name=
+staxel.tileObject.mineIsland.SurfaceExit.description=
+//TODO Translate [Reference] 'Mine Exit'
+staxel.tileObject.mineIsland.SurfaceExit.name=
 staxel.tileObject.mineIsland.TrappedEscape.description=
 //TODO Translate [Reference] 'Trapped Escape'
 staxel.tileObject.mineIsland.TrappedEscape.name=
