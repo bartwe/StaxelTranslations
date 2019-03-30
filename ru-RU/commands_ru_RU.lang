@@ -217,12 +217,17 @@ commands.noSuchPlayer=Игрок «{0-player}» не найден
 commands.noSuchPlayerNickname=
 //[Reference] 'Not a player entity.'
 commands.notAPlayer=Не является игроком.
-//[Reference] '^c:F2E200;op ^c:FFFFFF;playerName'
+//TODO Translate [Reference] 'To demote a player type "op <playername> demote" without quotes.'
+commands.op.demote=
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;op ^c:FFFFFF;playerName (optional)removePromotion("demote")'
 commands.op.description=^c:F2E200;op ^c:FFFFFF;имя игрока
 //[Reference] 'Unable to promote {0-player}.'
 commands.op.failure=Ошибка передачи прав игроку {0-player}.
 //[Reference] '{0-player} has been promoted.'
 commands.op.success=Игрок {0-player} получает права.
+//TODO Translate [Reference] '{0-player} has been demoted.'
+commands.op.success.demoted=
 //[Reference] 'Player {0-player} not found.'
 commands.op.userNotFound=Игрок {0-player} не найден.
 //[Reference] '^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime'
