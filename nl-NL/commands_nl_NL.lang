@@ -215,17 +215,16 @@ commands.noSuchPlayer=Speler '{0-player}' bestaat niet
 commands.noSuchPlayerNickname=Geen speler met bijnaam '{0-player}'.
 //[Reference] 'Not a player entity.'
 commands.notAPlayer=Dit is geen spelerentiteit.
-//TODO Translate [Reference] 'To demote a player type "op <playername> demote" without quotes.'
-commands.op.demote=
-//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'To demote a player type "op <playername> demote" without quotes.'
+commands.op.demote=Om een speler de degraderen typ "op <spelernaam> demote" zonder aanhalingstekens.
 //[Reference] '^c:F2E200;op ^c:FFFFFF;playerName (optional)removePromotion("demote")'
-commands.op.description=^c:F2E200;op ^c:FFFFFF;spelerNaam
+commands.op.description=^c:F2E200;op ^c:FFFFFF;playerName (optioneel)removePromotion("degradeer")
 //[Reference] 'Unable to promote {0-player}.'
 commands.op.failure=Niet in staat om {0-player} te promoveren.
 //[Reference] '{0-player} has been promoted.'
 commands.op.success={0-player} is gepromoveerd.
-//TODO Translate [Reference] '{0-player} has been demoted.'
-commands.op.success.demoted=
+//[Reference] '{0-player} has been demoted.'
+commands.op.success.demoted={0-player} is gedegradeerd.
 //[Reference] 'Player {0-player} not found.'
 commands.op.userNotFound=Speler {0-player} is niet gevonden.
 //[Reference] '^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime'
@@ -319,9 +318,8 @@ commands.spawnMaterial.notFound=Materiaalsoort niet gevonden.
 commands.spawnMaterial.success=Materiaal succesvol gegenereerd
 //[Reference] '^c:F2E200;spawnStars ^c:FFFFFF;(optional)amount'
 commands.spawnStars.description=^c:F2E200;spawnStars ^c:FFFFFF;(optional)amount
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Failed to spawn star bits item.'
-commands.spawnStars.failed=Sterrenstukjes item mislukt
+commands.spawnStars.failed=Verschijning van Sterrenstukjes-item mislukt.
 //[Reference] 'Star amount is not a valid positive number.'
 commands.spawnStars.invalidNumber=Hoeveelheid sterren is niet een geldig positief getal.
 //[Reference] 'Spawn star success.'
