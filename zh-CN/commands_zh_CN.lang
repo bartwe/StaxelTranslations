@@ -5,16 +5,14 @@ commands.activateMurmur.description=^c:F2E200;activateMurmur ^c:FFFFFF;murmurCod
 //[Reference] 'Successfully activated {0-murmur}.'
 commands.activateMurmur.success=已成功激活{0-murmur}。
 
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0) (optional)showCalendarTime(true/false)'
-commands.advanceTime.description=^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)
+commands.advanceTime.description=^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0) (optional)showCalendarTime(true/false)
 //[Reference] 'Enter a float by which to advance time. 1.0 is a full day'
 commands.advanceTime.enterFloat=输入一个浮点数来推进时间。1.0 为一整天
 //[Reference] 'failed: arg(1) must be a number. Floating points OK'
 commands.advanceTime.mustBeNumber=失败：变量（1）必须是为数字。浮点数可用
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Advancing time by {0-time} ({1-dayphase1} -> {2-dayphase2})...'
-commands.advanceTime.success=时间推进{0-time}……
+commands.advanceTime.success=时间推进{0-time}（{1-dayphase1} -> {2-dayphase2}）……
 //[Reference] '^c:F2E200;ban ^c:FFFFFF;playerName (optional)reason'
 commands.ban.description=^c:F2E200;ban ^c:FFFFFF;playerName (optional)reason
 //[Reference] 'Unable to ban {0-player}: player is an admin or already banned.'
@@ -65,10 +63,10 @@ commands.changeMood.animalNotFound=没找到要观看的动物
 commands.changeMood.description=^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)
 //[Reference] 'Mood altered successfully'
 commands.changeMood.success=情绪成功改变
-//TODO Translate [Reference] '^c:F2E200;changeNickname ^c:FFFFFF;nickname'
-commands.changeNickname.description=
-//TODO Translate [Reference] 'Nickname changed to {0-newNickname}'
-commands.changeNickname.success=
+//[Reference] '^c:F2E200;changeNickname ^c:FFFFFF;nickname'
+commands.changeNickname.description=^c:F2E200;changeNickname ^c:FFFFFF;nickname
+//[Reference] 'Nickname changed to {0-newNickname}'
+commands.changeNickname.success=昵称修改为{0-newNickname}
 //[Reference] '^c:F2E200;checkMail'
 commands.checkMail.description=^c:F2E200;checkMail
 //[Reference] '^c:F2E200;completeQuest ^c:FFFFFF;questCode villagerName/Code'
@@ -81,9 +79,8 @@ commands.completeQuest.success=已成功完成任务
 commands.creative.description=^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)
 //[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
 commands.creative.success=暂时为{0-user}将创造者模式切换为{1-creative}
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;currentTime (optional)showCalendarTime(true/false)'
-commands.currentTime.description=^c:F2E200;currentTime
+commands.currentTime.description=^c:F2E200;currentTime (optional)showCalendarTime(true/false)
 //[Reference] 'The day is {0-day} and phase is {1:G2-phase} ({2-time}).'
 commands.currentTime.success=日期为{0-day}，时段为{1:G2-phase}（{2-time}）。
 //[Reference] '^c:F2E200;deactivateMurmur ^c:FFFFFF;'
@@ -138,12 +135,12 @@ commands.forceAchievement.description=^c:F2E200;forceAchievement ^c:FFFFFF;achie
 commands.forceAchievement.missingParam=成就代码缺失。
 //[Reference] 'Achievement not found.'
 commands.forceAchievement.noSuchAchievement=成就未找到。
-//TODO Translate [Reference] '^c:F2E200;getUsername ^c:FFFFFF;nickname'
-commands.getUsername.description=
-//TODO Translate [Reference] '{0-nickname}'s username is {1-username}.'
-commands.getUsername.success=
-//TODO Translate [Reference] 'Multiple people found with the nickname: {0-nickname}. They are; {1-usernamelist}.'
-commands.getUsername.successes=
+//[Reference] '^c:F2E200;getUsername ^c:FFFFFF;nickname'
+commands.getUsername.description=^c:F2E200;getUsername ^c:FFFFFF;nickname
+//[Reference] '{0-nickname}'s username is {1-username}.'
+commands.getUsername.success={0-nickname}的用户名为{1-username}。
+//[Reference] 'Multiple people found with the nickname: {0-nickname}. They are; {1-usernamelist}.'
+commands.getUsername.successes=发现有多人使用昵称：{0-nickname}。他们是：{1-usernamelist}。
 //[Reference] '^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)playerName'
 commands.giveallrecipes.description=^c:F2E200;giveallrecipes ^c:FFFFFF;(可选)玩家姓名
 //[Reference] 'Done!'
@@ -154,12 +151,12 @@ commands.givePetals.description=^c:F2E200;givepetals ^c:FFFFFF;playerName amount
 commands.givePetals.invalidNumber=花瓣币数量需为正数
 //[Reference] 'Gave {0-player} {1-amount} petals'
 commands.givePetals.success=给予{0-player}{1-amount}花瓣币
-//TODO Translate [Reference] 'viaReactions argument must be true or false'
-commands.giveRecipeItems.badArg=
-//TODO Translate [Reference] '^c:F2E200;giveRecipeItems ^c:FFFFFF;recipeCode (optional)viaReactions(true/false)'
-commands.giveRecipeItems.description=
-//TODO Translate [Reference] 'Give recipe items successful'
-commands.giveRecipeItems.success=
+//[Reference] 'viaReactions argument must be true or false'
+commands.giveRecipeItems.badArg=viaReactions argument must be true or false
+//[Reference] '^c:F2E200;giveRecipeItems ^c:FFFFFF;recipeCode (optional)viaReactions(true/false)'
+commands.giveRecipeItems.description=^c:F2E200;giveRecipeItems ^c:FFFFFF;recipeCode (optional)viaReactions(true/false)
+//[Reference] 'Give recipe items successful'
+commands.giveRecipeItems.success=交出配方物品成功
 //[Reference] '^c:F2E200;? ^c:FFFFFF;(optional)commandName'
 commands.help.altDescription=^c:F2E200;? ^c:FFFFFF;(optional)commandName
 //[Reference] 'Command not found: '{0-command}''
@@ -188,10 +185,10 @@ commands.loadDesign.noSuchDesign=无对应设计代码{0-design}
 commands.loadDesign.noSuchFile=无对应文件{0-file}
 //[Reference] 'Design loaded successfully'
 commands.loadDesign.success=设计成功加载
-//TODO Translate [Reference] '^c:F2E200;magicTeleport ^c:FFFFFF;festivalCode'
-commands.magicTeleport.description=
-//TODO Translate [Reference] 'No such offmap template: {0-template}'
-commands.magicTeleport.template=
+//[Reference] '^c:F2E200;magicTeleport ^c:FFFFFF;festivalCode'
+commands.magicTeleport.description=^c:F2E200;magicTeleport ^c:FFFFFF;festivalCode
+//[Reference] 'No such offmap template: {0-template}'
+commands.magicTeleport.template=无对应地图外模板：{0-template}
 //[Reference] '^c:F2E200;model ^c:FFFFFF;(optional)playerName (optional)modelFileName'
 commands.model.description=^c:F2E200;model ^c:FFFFFF;(optional)playerName (optional)modelFileName
 //[Reference] 'Could not switch to character model '{0-model}' not found in assets.'
@@ -214,8 +211,8 @@ commands.noClip.success=切换穿墙模式至：{0-noclip}
 commands.noRights={0-user}无权使用此命令
 //[Reference] 'No such player '{0-player}''
 commands.noSuchPlayer=无对应玩家'{0-player}'
-//TODO Translate [Reference] 'No such player with nickname '{0-player}'.'
-commands.noSuchPlayerNickname=
+//[Reference] 'No such player with nickname '{0-player}'.'
+commands.noSuchPlayerNickname=无对应昵称为“{0-player}”的玩家。
 //[Reference] 'Not a player entity.'
 commands.notAPlayer=非玩家实体。
 //[Reference] '^c:F2E200;op ^c:FFFFFF;playerName'
@@ -234,8 +231,8 @@ commands.plantGrowth.description=^c:F2E200;plantgrowth
 commands.plantGrowth.noPlant=非植物。
 //[Reference] 'Plant {0-plant} at stage {1-stage}'
 commands.plantGrowth.success=植物{0-plant}在阶段{1-stage}
-//TODO Translate [Reference] 'Player {0-player} currently cannot be teleported.'
-commands.playerCantBeTeleported=
+//[Reference] 'Player {0-player} currently cannot be teleported.'
+commands.playerCantBeTeleported=玩家{0-player}当前无法被传送。
 //[Reference] 'Player Entity not found'
 commands.playerEntityNotFound=玩家实体未找到
 //[Reference] '^c:F2E200;players'
@@ -269,10 +266,10 @@ commands.rain.success=制造雨天。
 commands.reload.description=^c:F2E200;reload
 //[Reference] 'Reload requested.'
 commands.reload.success=已请求重新载入。
-//TODO Translate [Reference] '^c:F2E200;resetOffmap ^c:FFFFFF;offmapTemplateCode'
-commands.resetOffmap.description=
-//TODO Translate [Reference] 'Offmap reset complete.'
-commands.resetOffmap.success=
+//[Reference] '^c:F2E200;resetOffmap ^c:FFFFFF;offmapTemplateCode'
+commands.resetOffmap.description=^c:F2E200;resetOffmap ^c:FFFFFF;offmapTemplateCode
+//[Reference] 'Offmap reset complete.'
+commands.resetOffmap.success=地图外重置已完成。
 //[Reference] '^c:F2E200;resetplayer'
 commands.resetPlayer.description=^c:F2E200;resetplayer
 //[Reference] 'Reset successful.'
@@ -315,14 +312,14 @@ commands.spawnMaterial.description=^c:F2E200;spawnmaterial ^c:FFFFFF;(可选)玩
 commands.spawnMaterial.notFound=材料种类未找到。
 //[Reference] 'Spawn material successful'
 commands.spawnMaterial.success=产出材料成功
-//TODO Translate [Reference] '^c:F2E200;spawnStars ^c:FFFFFF;(optional)amount'
-commands.spawnStars.description=
-//TODO Translate [Reference] 'Failed to star bits item.'
-commands.spawnStars.failed=
-//TODO Translate [Reference] 'Star amount is not a valid positive number.'
-commands.spawnStars.invalidNumber=
-//TODO Translate [Reference] 'Spawn star success.'
-commands.spawnStars.success=
+//[Reference] '^c:F2E200;spawnStars ^c:FFFFFF;(optional)amount'
+commands.spawnStars.description=^c:F2E200;spawnStars ^c:FFFFFF;(optional)amount
+//[Reference] 'Failed to star bits item.'
+commands.spawnStars.failed=无法产出星星币物品。
+//[Reference] 'Star amount is not a valid positive number.'
+commands.spawnStars.invalidNumber=星星数量不是一个有效的正数。
+//[Reference] 'Spawn star success.'
+commands.spawnStars.success=产出星星成功。
 //[Reference] '^c:F2E200;spawntile ^c:FFFFFF;(optional)playerName tileCode'
 commands.spawnTile.description=^c:F2E200;spawntile ^c:FFFFFF;(可选)玩家姓名 方砖代码
 //[Reference] 'Tile kind not found.'
@@ -403,15 +400,14 @@ commands.unmute.failure=无法对{0-player}解除禁言：玩家未被禁言。
 commands.unmute.success={0-player}重新获得说话能力。
 //[Reference] 'Unrecognised command :'{0-command}''
 commands.unrecognised=未辨认命令：'{0-command}'
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;updateReputation ^c:FFFFFF;villagerName/Code amount'
-commands.updateReputation.description=^c:F2E200;unmute ^c:FFFFFF;村民姓名/代码量
+commands.updateReputation.description=^c:F2E200;updateReputation ^c:FFFFFF;villagerName/Code amount
 //[Reference] 'Reputation updated to {0-newAmount} for villager {1-villagerCode}'
 commands.updateReputation.success=村民{1-villagerCode}的声望已更新为{0-newAmount}
 //[Reference] 'Villager Entity not found'
 commands.villagerEntityNotFound=村民实体未找到
-//TODO Translate [Reference] 'Villager not found'
-commands.villagerNotFound=
+//[Reference] 'Villager not found'
+commands.villagerNotFound=未找到村民
 //[Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
 commands.weather.description=^c:F2E200;weather ^c:FFFFFF;输入　(Sun, Rain, Snow, Storm 或天气代码)
 //[Reference] 'Unable to set weather: {0-weather}. Does not exist.'

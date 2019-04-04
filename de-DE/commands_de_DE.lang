@@ -5,16 +5,14 @@ commands.activateMurmur.description=^c:F2E200;activateMurmur ^c:FFFFFF;murmurCod
 //[Reference] 'Successfully activated {0-murmur}.'
 commands.activateMurmur.success={0-murmur} erfolgreich aktiviert.
 
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0) (optional)showCalendarTime(true/false)'
-commands.advanceTime.description=^c:F2E200;advanceTime ^c:FFFFFF;Menge(0.0-1.0)
+commands.advanceTime.description=^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0) (optional)showCalendarTime(true/false)
 //[Reference] 'Enter a float by which to advance time. 1.0 is a full day'
 commands.advanceTime.enterFloat=Gib eine float ein, um welche die Zeit vorgespult werden soll. 1.0 ist ein voller Tag.
 //[Reference] 'failed: arg(1) must be a number. Floating points OK'
 commands.advanceTime.mustBeNumber=Fehler: arg(1) muss eine Zahl sein. Floating-Punkte OK
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Advancing time by {0-time} ({1-dayphase1} -> {2-dayphase2})...'
-commands.advanceTime.success=Spule Zeit um {0-time} vor …
+commands.advanceTime.success=Spule Zeit um {0-time} vor ({1-dayphase1} -> {2-dayphase2}) …
 //[Reference] '^c:F2E200;ban ^c:FFFFFF;playerName (optional)reason'
 commands.ban.description=^c:F2E200;ban ^c:FFFFFF;playerName (optional)reason
 //[Reference] 'Unable to ban {0-player}: player is an admin or already banned.'
@@ -81,9 +79,8 @@ commands.completeQuest.success=Aufgabe erfolgreich abgeschlossen
 commands.creative.description=^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)
 //[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
 commands.creative.success=Vorübergehend den Kreativ-Modus für {0-user} zu {1-creative} geändert
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;currentTime (optional)showCalendarTime(true/false)'
-commands.currentTime.description=^c:F2E200;currentTime
+commands.currentTime.description=^c:F2E200;currentTime (optional)showCalendarTime(true/false)
 //[Reference] 'The day is {0-day} and phase is {1:G2-phase} ({2-time}).'
 commands.currentTime.success=Es ist Tag {0-day} und die Phase ist {1:G2-phase} ({2-time}).
 //[Reference] '^c:F2E200;deactivateMurmur ^c:FFFFFF;'
@@ -154,12 +151,12 @@ commands.givePetals.description=^c:F2E200;givepetals ^c:FFFFFF;playerName amount
 commands.givePetals.invalidNumber=Blütenblätter-Anzahl muss positiv sein
 //[Reference] 'Gave {0-player} {1-amount} petals'
 commands.givePetals.success={0-player} {1-amount} Blütenblätter gegeben
-//TODO Translate [Reference] 'viaReactions argument must be true or false'
-commands.giveRecipeItems.badArg=
-//TODO Translate [Reference] '^c:F2E200;giveRecipeItems ^c:FFFFFF;recipeCode (optional)viaReactions(true/false)'
-commands.giveRecipeItems.description=
-//TODO Translate [Reference] 'Give recipe items successful'
-commands.giveRecipeItems.success=
+//[Reference] 'viaReactions argument must be true or false'
+commands.giveRecipeItems.badArg=viaReactions-Argument muss wahr oder falsch sein
+//[Reference] '^c:F2E200;giveRecipeItems ^c:FFFFFF;recipeCode (optional)viaReactions(true/false)'
+commands.giveRecipeItems.description=^c:F2E200;giveRecipeItems ^c:FFFFFF;recipeCode (optional)viaReactions(true/false)
+//[Reference] 'Give recipe items successful'
+commands.giveRecipeItems.success=Rezeptitems erfolgreich gegeben
 //[Reference] '^c:F2E200;? ^c:FFFFFF;(optional)commandName'
 commands.help.altDescription=^c:F2E200;? ^c:FFFFFF;(optional)commandName
 //[Reference] 'Command not found: '{0-command}''
@@ -234,8 +231,8 @@ commands.plantGrowth.description=^c:F2E200;plantgrowth
 commands.plantGrowth.noPlant=Keine Pflanze.
 //[Reference] 'Plant {0-plant} at stage {1-stage}'
 commands.plantGrowth.success=Pflanze {0-plant} im Stadium {1-stage}
-//TODO Translate [Reference] 'Player {0-player} currently cannot be teleported.'
-commands.playerCantBeTeleported=
+//[Reference] 'Player {0-player} currently cannot be teleported.'
+commands.playerCantBeTeleported=Spieler {0-player} kann zurzeit nicht teleportiert werden.
 //[Reference] 'Player Entity not found'
 commands.playerEntityNotFound=Spieler-Objekt nicht gefunden
 //[Reference] '^c:F2E200;players'
@@ -269,10 +266,10 @@ commands.rain.success=Es ist nun ein regnerischer Tag.
 commands.reload.description=^c:F2E200;reload
 //[Reference] 'Reload requested.'
 commands.reload.success=Neuladen angefragt.
-//TODO Translate [Reference] '^c:F2E200;resetOffmap ^c:FFFFFF;offmapTemplateCode'
-commands.resetOffmap.description=
-//TODO Translate [Reference] 'Offmap reset complete.'
-commands.resetOffmap.success=
+//[Reference] '^c:F2E200;resetOffmap ^c:FFFFFF;offmapTemplateCode'
+commands.resetOffmap.description=^c:F2E200;resetOffmap ^c:FFFFFF;offmapTemplateCode
+//[Reference] 'Offmap reset complete.'
+commands.resetOffmap.success=Offmaps wurden zurückgesetzt
 //[Reference] '^c:F2E200;resetplayer'
 commands.resetPlayer.description=^c:F2E200;resetplayer
 //[Reference] 'Reset successful.'
@@ -409,8 +406,8 @@ commands.updateReputation.description=^c:F2E200;UpdateReputation ^c:FFFFFF;Dorfb
 commands.updateReputation.success=Ansehen geändert auf {0-newAmount} für Dorfbewohner {1-villagerCode}
 //[Reference] 'Villager Entity not found'
 commands.villagerEntityNotFound=Dorfbewohner nicht gefunden
-//TODO Translate [Reference] 'Villager not found'
-commands.villagerNotFound=
+//[Reference] 'Villager not found'
+commands.villagerNotFound=Dorfbewohner nicht gefunden
 //[Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
 commands.weather.description=^c:F2E200;Wetter ^c:FFFFFF;Art (Sonne, Regen, Schnee, Sturm oder Wettercode)
 //[Reference] 'Unable to set weather: {0-weather}. Does not exist.'
