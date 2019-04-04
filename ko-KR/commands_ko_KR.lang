@@ -219,12 +219,17 @@ commands.noSuchPlayer=No such player '{0-player}'
 commands.noSuchPlayerNickname=
 //[Reference] 'Not a player entity.'
 commands.notAPlayer=Not a player entity.
-//[Reference] '^c:F2E200;op ^c:FFFFFF;playerName'
+//TODO Translate [Reference] 'To demote a player type "op <playername> demote" without quotes.'
+commands.op.demote=
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;op ^c:FFFFFF;playerName (optional)removePromotion("demote")'
 commands.op.description=^c:F2E200;op ^c:FFFFFF;playerName
 //[Reference] 'Unable to promote {0-player}.'
 commands.op.failure=Unable to promote {0-player}.
 //[Reference] '{0-player} has been promoted.'
 commands.op.success={0-player} has been promoted.
+//TODO Translate [Reference] '{0-player} has been demoted.'
+commands.op.success.demoted=
 //[Reference] 'Player {0-player} not found.'
 commands.op.userNotFound=Player {0-player} not found.
 //[Reference] '^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime'
@@ -319,7 +324,7 @@ commands.spawnMaterial.notFound=Material kind not found.
 commands.spawnMaterial.success=Spawn material successful
 //TODO Translate [Reference] '^c:F2E200;spawnStars ^c:FFFFFF;(optional)amount'
 commands.spawnStars.description=
-//TODO Translate [Reference] 'Failed to star bits item.'
+//TODO Translate [Reference] 'Failed to spawn star bits item.'
 commands.spawnStars.failed=
 //TODO Translate [Reference] 'Star amount is not a valid positive number.'
 commands.spawnStars.invalidNumber=

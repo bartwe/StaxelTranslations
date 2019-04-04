@@ -63,10 +63,10 @@ commands.changeMood.animalNotFound=Niet aan het kijken naar een dier
 commands.changeMood.description=^c:F2E200;changeMood ^c:FFFFFF;toenemen/afnemen(true/false)
 //[Reference] 'Mood altered successfully'
 commands.changeMood.success=Stemming succesvol aangepast
-//TODO Translate [Reference] '^c:F2E200;changeNickname ^c:FFFFFF;nickname'
-commands.changeNickname.description=
-//TODO Translate [Reference] 'Nickname changed to {0-newNickname}'
-commands.changeNickname.success=
+//[Reference] '^c:F2E200;changeNickname ^c:FFFFFF;nickname'
+commands.changeNickname.description=^c:F2E200;changeNickname ^c:FFFFFF;nickname
+//[Reference] 'Nickname changed to {0-newNickname}'
+commands.changeNickname.success=Bijnaam veranderd naar {0-newNickname}
 //[Reference] '^c:F2E200;checkMail'
 commands.checkMail.description=^c:F2E200;checkMail
 //[Reference] '^c:F2E200;completeQuest ^c:FFFFFF;questCode villagerName/Code'
@@ -135,12 +135,12 @@ commands.forceAchievement.description=^c:F2E200;forceAchievement ^c:FFFFFF;prest
 commands.forceAchievement.missingParam=Missende prestatie code.
 //[Reference] 'Achievement not found.'
 commands.forceAchievement.noSuchAchievement=Prestatie niet gevonden.
-//TODO Translate [Reference] '^c:F2E200;getUsername ^c:FFFFFF;nickname'
-commands.getUsername.description=
-//TODO Translate [Reference] '{0-nickname}'s username is {1-username}.'
-commands.getUsername.success=
-//TODO Translate [Reference] 'Multiple people found with the nickname: {0-nickname}. They are; {1-usernamelist}.'
-commands.getUsername.successes=
+//[Reference] '^c:F2E200;getUsername ^c:FFFFFF;nickname'
+commands.getUsername.description=^c:F2E200;getUsername ^c:FFFFFF;nickname
+//[Reference] '{0-nickname}'s username is {1-username}.'
+commands.getUsername.success={0-nickname}'s gebruikersnaam is {1-username}.
+//[Reference] 'Multiple people found with the nickname: {0-nickname}. They are; {1-usernamelist}.'
+commands.getUsername.successes=Meerdere mensen gevonden met de bijnaam: {0-nickname}. Dit zijn ; {1-usernamelist}.
 //[Reference] '^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)playerName'
 commands.giveallrecipes.description=^c:F2E200;giveallrecipes ^c:FFFFFF;(optioneel)spelerNaam
 //[Reference] 'Done!'
@@ -151,12 +151,12 @@ commands.givePetals.description=^c:F2E200;givepetals ^c:FFFFFF;spelerNaam hoevee
 commands.givePetals.invalidNumber=Bloemblaadjes hoeveelheid moet een positief getal zijn
 //[Reference] 'Gave {0-player} {1-amount} petals'
 commands.givePetals.success={1-amount} bloemblaadjes gegeven aan {0-player}
-//TODO Translate [Reference] 'viaReactions argument must be true or false'
-commands.giveRecipeItems.badArg=
-//TODO Translate [Reference] '^c:F2E200;giveRecipeItems ^c:FFFFFF;recipeCode (optional)viaReactions(true/false)'
-commands.giveRecipeItems.description=
-//TODO Translate [Reference] 'Give recipe items successful'
-commands.giveRecipeItems.success=
+//[Reference] 'viaReactions argument must be true or false'
+commands.giveRecipeItems.badArg=viaReactions argument moet zijn true of false
+//[Reference] '^c:F2E200;giveRecipeItems ^c:FFFFFF;recipeCode (optional)viaReactions(true/false)'
+commands.giveRecipeItems.description=^c:F2E200;giveRecipeItems ^c:FFFFFF;recipeCode (optioneel)viaReactions(true/false)
+//[Reference] 'Give recipe items successful'
+commands.giveRecipeItems.success=Geef receptonderdelen succesvol
 //[Reference] '^c:F2E200;? ^c:FFFFFF;(optional)commandName'
 commands.help.altDescription=^c:F2E200;? ^c:FFFFFF;(optioneel)commandoNaam
 //[Reference] 'Command not found: '{0-command}''
@@ -185,10 +185,10 @@ commands.loadDesign.noSuchDesign=Het ontwerp {0-design} bestaat niet
 commands.loadDesign.noSuchFile=Het bestand {0-file} bestaat niet
 //[Reference] 'Design loaded successfully'
 commands.loadDesign.success=Ontwerp succesvol geladen
-//TODO Translate [Reference] '^c:F2E200;magicTeleport ^c:FFFFFF;festivalCode'
-commands.magicTeleport.description=
-//TODO Translate [Reference] 'No such offmap template: {0-template}'
-commands.magicTeleport.template=
+//[Reference] '^c:F2E200;magicTeleport ^c:FFFFFF;festivalCode'
+commands.magicTeleport.description=^c:F2E200;magicTeleport ^c:FFFFFF;festivalCode
+//[Reference] 'No such offmap template: {0-template}'
+commands.magicTeleport.template=Er is niet zo'n offmap template: {0-template}
 //[Reference] '^c:F2E200;model ^c:FFFFFF;(optional)playerName (optional)modelFileName'
 commands.model.description=^c:F2E200;model ^c:FFFFFF;(optioneel)spelerNaam (optioneel)modelBestandNaam
 //[Reference] 'Could not switch to character model '{0-model}' not found in assets.'
@@ -211,16 +211,20 @@ commands.noClip.success=Switched noclip modus naar: {0-noclip}
 commands.noRights={0-user} heeft niet de juiste rechten om dit commando te gebruiken
 //[Reference] 'No such player '{0-player}''
 commands.noSuchPlayer=Speler '{0-player}' bestaat niet
-//TODO Translate [Reference] 'No such player with nickname '{0-player}'.'
-commands.noSuchPlayerNickname=
+//[Reference] 'No such player with nickname '{0-player}'.'
+commands.noSuchPlayerNickname=Geen speler met bijnaam '{0-player}'.
 //[Reference] 'Not a player entity.'
 commands.notAPlayer=Dit is geen spelerentiteit.
-//[Reference] '^c:F2E200;op ^c:FFFFFF;playerName'
-commands.op.description=^c:F2E200;op ^c:FFFFFF;spelerNaam
+//[Reference] 'To demote a player type "op <playername> demote" without quotes.'
+commands.op.demote=Om een speler de degraderen typ "op <spelernaam> demote" zonder aanhalingstekens.
+//[Reference] '^c:F2E200;op ^c:FFFFFF;playerName (optional)removePromotion("demote")'
+commands.op.description=^c:F2E200;op ^c:FFFFFF;playerName (optioneel)removePromotion("degradeer")
 //[Reference] 'Unable to promote {0-player}.'
 commands.op.failure=Niet in staat om {0-player} te promoveren.
 //[Reference] '{0-player} has been promoted.'
 commands.op.success={0-player} is gepromoveerd.
+//[Reference] '{0-player} has been demoted.'
+commands.op.success.demoted={0-player} is gedegradeerd.
 //[Reference] 'Player {0-player} not found.'
 commands.op.userNotFound=Speler {0-player} is niet gevonden.
 //[Reference] '^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime'
@@ -231,8 +235,8 @@ commands.plantGrowth.description=^c:F2E200;plantgrowth
 commands.plantGrowth.noPlant=Geen plant.
 //[Reference] 'Plant {0-plant} at stage {1-stage}'
 commands.plantGrowth.success=Plant {0-plant} in fase {1-stage}
-//TODO Translate [Reference] 'Player {0-player} currently cannot be teleported.'
-commands.playerCantBeTeleported=
+//[Reference] 'Player {0-player} currently cannot be teleported.'
+commands.playerCantBeTeleported=Speler {0-player} kan op dit moment niet worden geteleporteerd.
 //[Reference] 'Player Entity not found'
 commands.playerEntityNotFound=Spelerentiteit niet gevonden
 //[Reference] '^c:F2E200;players'
@@ -266,10 +270,10 @@ commands.rain.success=Een regenachtige dag gestart.
 commands.reload.description=^c:F2E200;reload
 //[Reference] 'Reload requested.'
 commands.reload.success=Herladen aangevraagd.
-//TODO Translate [Reference] '^c:F2E200;resetOffmap ^c:FFFFFF;offmapTemplateCode'
-commands.resetOffmap.description=
-//TODO Translate [Reference] 'Offmap reset complete.'
-commands.resetOffmap.success=
+//[Reference] '^c:F2E200;resetOffmap ^c:FFFFFF;offmapTemplateCode'
+commands.resetOffmap.description=^c:F2E200;resetOffmap ^c:FFFFFF;offmapTemplateCode
+//[Reference] 'Offmap reset complete.'
+commands.resetOffmap.success=Offmap reset compleet
 //[Reference] '^c:F2E200;resetplayer'
 commands.resetPlayer.description=^c:F2E200;resetplayer
 //[Reference] 'Reset successful.'
@@ -312,14 +316,14 @@ commands.spawnMaterial.description=^c:F2E200;spawnmaterial ^c:FFFFFF;(optioneel)
 commands.spawnMaterial.notFound=Materiaalsoort niet gevonden.
 //[Reference] 'Spawn material successful'
 commands.spawnMaterial.success=Materiaal succesvol gegenereerd
-//TODO Translate [Reference] '^c:F2E200;spawnStars ^c:FFFFFF;(optional)amount'
-commands.spawnStars.description=
-//TODO Translate [Reference] 'Failed to star bits item.'
-commands.spawnStars.failed=
-//TODO Translate [Reference] 'Star amount is not a valid positive number.'
-commands.spawnStars.invalidNumber=
-//TODO Translate [Reference] 'Spawn star success.'
-commands.spawnStars.success=
+//[Reference] '^c:F2E200;spawnStars ^c:FFFFFF;(optional)amount'
+commands.spawnStars.description=^c:F2E200;spawnStars ^c:FFFFFF;(optional)amount
+//[Reference] 'Failed to spawn star bits item.'
+commands.spawnStars.failed=Verschijning van Sterrenstukjes-item mislukt.
+//[Reference] 'Star amount is not a valid positive number.'
+commands.spawnStars.invalidNumber=Hoeveelheid sterren is niet een geldig positief getal.
+//[Reference] 'Spawn star success.'
+commands.spawnStars.success=Hercreatie ster succesvol
 //[Reference] '^c:F2E200;spawntile ^c:FFFFFF;(optional)playerName tileCode'
 commands.spawnTile.description=^c:F2E200;spawntile ^c:FFFFFF;(optioneel)spelerNaam tegelCode
 //[Reference] 'Tile kind not found.'
@@ -408,8 +412,8 @@ commands.updateReputation.description=^c:F2E200;updateReputation ^c:FFFFFF;dorpe
 commands.updateReputation.success=Reputatie aangepast naar {0-newAmount} voor dorpeling {1-villagerCode}
 //[Reference] 'Villager Entity not found'
 commands.villagerEntityNotFound=Dorpeling entiteit niet gevonden
-//TODO Translate [Reference] 'Villager not found'
-commands.villagerNotFound=
+//[Reference] 'Villager not found'
+commands.villagerNotFound='Dorpsbewoner niet gevonden'
 //[Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
 commands.weather.description=^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm of weer code.)
 //[Reference] 'Unable to set weather: {0-weather}. Does not exist.'
