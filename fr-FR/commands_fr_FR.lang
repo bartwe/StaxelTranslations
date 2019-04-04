@@ -216,12 +216,17 @@ commands.noSuchPlayer=Joueur « {0-player} » introuvable
 commands.noSuchPlayerNickname=Il n'y a aucun joueur dont le surnom est « {0-player} ».
 //[Reference] 'Not a player entity.'
 commands.notAPlayer=Ce n'est pas une entité de joueur.
-//[Reference] '^c:F2E200;op ^c:FFFFFF;playerName'
+//TODO Translate [Reference] 'To demote a player type "op <playername> demote" without quotes.'
+commands.op.demote=
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;op ^c:FFFFFF;playerName (optional)removePromotion("demote")'
 commands.op.description=^c:F2E200;op ^c:FFFFFF;NomJoueur
 //[Reference] 'Unable to promote {0-player}.'
 commands.op.failure=Incapable de promouvoir {0-player}
 //[Reference] '{0-player} has been promoted.'
 commands.op.success=le joueur {0-player} a été promu
+//TODO Translate [Reference] '{0-player} has been demoted.'
+commands.op.success.demoted=
 //[Reference] 'Player {0-player} not found.'
 commands.op.userNotFound=Le joueur {0-player} n'est pas là
 //[Reference] '^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime'
@@ -315,7 +320,8 @@ commands.spawnMaterial.notFound=Matériau introuvable.
 commands.spawnMaterial.success=Génération du matériau réussite.
 //[Reference] '^c:F2E200;spawnStars ^c:FFFFFF;(optional)amount'
 commands.spawnStars.description=^c:F2E200;spawnStars ^c:FFFFFF;(optional)amount
-//[Reference] 'Failed to star bits item.'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Failed to spawn star bits item.'
 commands.spawnStars.failed=Échec de l'apparition des Morcétoiles.
 //[Reference] 'Star amount is not a valid positive number.'
 commands.spawnStars.invalidNumber=Le nombre d'étoiles n'est pas un nombre positif.
