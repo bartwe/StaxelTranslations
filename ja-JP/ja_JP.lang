@@ -207,9 +207,8 @@ crafting.notifications.notACraft=これらのアイテムでは何も作れま�
 //[Reference] 'You don't have enough reagents anymore.'
 crafting.notifications.NotEnough=もう材料が足りません。
 
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'The recipe for {0-item} was just completed!'
-crafting.recipeComplete={0-item}が完成しました！
+crafting.recipeComplete={0-item}のレシピがいま完成しました！
 
 //[Reference] 'Helped out with the Staxel interface.'
 credits.13lueWolf.description=Staxelのインターフェイスを担当しました。
@@ -286,8 +285,8 @@ error.startGame.connectionClosed=接続が切断されました
 error.startGame.gameRunning=シングルプレイヤーモード用のローカルプライベートサーバーを起動できません。{0-newLine}同時に開いているゲームがあれば閉じてください。{1-newLine}
 //[Reference] 'Invalid credentials.'
 error.startGame.invalidCredential=無効なログイン情報です。
-//TODO Translate [Reference] 'Unable to open a file needed for the server. Is another copy of this world still running?'
-error.startGame.ioexception=
+//[Reference] 'Unable to open a file needed for the server. Is another copy of this world still running?'
+error.startGame.ioexception=サーバーに必要なファイルを開くことができません。この世界のほかのコピーがまだ実行中ですか？
 //[Reference] 'Local game closed unexpectedly.'
 error.startGame.localGameUnexpected=ローカルゲームが予期せず終了しました。
 //[Reference] 'Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.'
@@ -342,9 +341,8 @@ fishing.gotAway=逃げられた！
 fishing.hooked=針に何かかかった！
 //[Reference] 'Hold {0-button} {1-description} to keep reeling...'
 fishing.message.Reel={0-button}{1-description}を長押ししている間、リールを巻きます...
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'button'
-fishing.message.Reel.Mouse=マウスボタン
+fishing.message.Reel.Mouse=ボタン
 //[Reference] 'Careful! You might snap the fishing line!'
 fishing.message.Release=注意！釣り糸が切れるかもしれません！
 //[Reference] 'There are no fish here'
@@ -595,8 +593,8 @@ options.gameplay.other.showWrongToolNotifications=道具の選択を間違えて
 options.gameplay.other.StepWiseUIScale=UIを引き伸ばさない
 //[Reference] 'Prevent NPC Staring'
 options.gameplay.other.StopNPCStaring=NPCがこちらを向かないようにする
-//TODO Translate [Reference] 'Player Speed'
-options.gameplay.other.WalkingSpeedMultiplier=
+//[Reference] 'Player Speed'
+options.gameplay.other.WalkingSpeedMultiplier=プレイヤースピード
 //[Reference] 'StaxelNet'
 options.gameplay.StaxelNet=StaxelNet
 //[Reference] 'Relay'
@@ -725,9 +723,8 @@ options.linetool.destructive=破壊モード
 options.linetool.destructive.description=ライン作成時にタイルを壊すかどうかを決定します
 //[Reference] 'Supported Lines'
 options.linetool.supported=ライン補助
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Adds extra tiles between tiles to ensure the structure is supported. (Can mess up diagonal lines such as rooves if turned on)'
-options.linetool.supported.description=タイルの間に余分なタイルを追加して構造を補強します。(上の屋根など対角線が酷い状態になるかもしれません)
+options.linetool.supported.description=建造物がしっかりと支えられるよう、タイル間にさらにタイルを加えます。（オンにするとルーブのような対角線が崩れてしまうことがあります）
 //[Reference] 'Misc'
 options.misc=その他
 //[Reference] 'Reset'
@@ -871,18 +868,15 @@ singleplayer.farmCount=牧場をはじめる
 singleplayer.friendJoin=友達の参加を許可する
 //[Reference] 'Launch'
 singleplayer.launch=起動
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'A world with this name already exists.'
-singleplayer.nameAlreadyExists=この名前のストレージはすでに存在しています
+singleplayer.nameAlreadyExists=この名前の世界はすでに存在しています。
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'World name is invalid. Must not contain invalid characters (e.g. ?, : or %).'
-singleplayer.nameIsInvalid=名前が使えません（使えない文字が入っています）
-//[Validate] Delete this comment if or when the translation is accurate.
+singleplayer.nameIsInvalid=世界名が無効です。使えない文字（?など）、または失礼な表現が入っています。
 //[Reference] 'World name is too long. Must be under 16 characters.'
-singleplayer.nameTooLong=名前が長すぎます（16文字以内にしてください）
-//[Validate] Delete this comment if or when the translation is accurate.
+singleplayer.nameTooLong=世界名が長すぎます。16文字未満にしてください。
 //[Reference] 'World name is too short. Must be have 3 or more characters.'
-singleplayer.nameTooShort=名前が短すぎます（3文字以上にしてください）
+singleplayer.nameTooShort=世界名が短すぎます。3文字以上にしてください。
 //[Reference] 'New World'
 singleplayer.newWorld=新規作成
 //[Reference] 'Play With Friends'
@@ -1040,20 +1034,20 @@ staxel.accessories.explorer.Trousers.description=
 //[Reference] 'Explorer's Trousers'
 staxel.accessories.explorer.Trousers.name=冒険者のズボン
 staxel.accessories.fullBodyOutfits.FurnitureVIPMerchant.description=
-//TODO Translate [Reference] 'Furniture VIPMerchant'
-staxel.accessories.fullBodyOutfits.FurnitureVIPMerchant.name=
+//[Reference] 'Furniture VIPMerchant'
+staxel.accessories.fullBodyOutfits.FurnitureVIPMerchant.name=家具VIP商人
 staxel.accessories.fullBodyOutfits.IslandBlocksVIP.description=
-//TODO Translate [Reference] 'Island Blocks VIP'
-staxel.accessories.fullBodyOutfits.IslandBlocksVIP.name=
+//[Reference] 'Island Blocks VIP'
+staxel.accessories.fullBodyOutfits.IslandBlocksVIP.name=島ブロックのVIP
 staxel.accessories.fullBodyOutfits.MagicBoxMerchant.description=
-//TODO Translate [Reference] 'Magic Box Merchant'
-staxel.accessories.fullBodyOutfits.MagicBoxMerchant.name=
+//[Reference] 'Magic Box Merchant'
+staxel.accessories.fullBodyOutfits.MagicBoxMerchant.name=魔法ボックス商人
 staxel.accessories.fullBodyOutfits.transformation.Mushroom.description=
 //[Reference] 'Mushroom'
 staxel.accessories.fullBodyOutfits.transformation.Mushroom.name=キノコ
 staxel.accessories.fullBodyOutfits.TransformationMerchant.description=
-//TODO Translate [Reference] 'Transformation Merchant'
-staxel.accessories.fullBodyOutfits.TransformationMerchant.name=
+//[Reference] 'Transformation Merchant'
+staxel.accessories.fullBodyOutfits.TransformationMerchant.name=姿が変わる商人
 staxel.accessories.fullBodyOutfits.villager.Aliza.description=
 //[Reference] 'Aliza'
 staxel.accessories.fullBodyOutfits.villager.Aliza.name=アリザ
@@ -1061,8 +1055,8 @@ staxel.accessories.fullBodyOutfits.villager.Alua.description=
 //[Reference] 'Alua'
 staxel.accessories.fullBodyOutfits.villager.Alua.name=アルア
 staxel.accessories.fullBodyOutfits.villager.AndroidVillager.description=
-//TODO Translate [Reference] 'Android Villager'
-staxel.accessories.fullBodyOutfits.villager.AndroidVillager.name=
+//[Reference] 'Android Villager'
+staxel.accessories.fullBodyOutfits.villager.AndroidVillager.name=アンドロイドの村人
 staxel.accessories.fullBodyOutfits.villager.BoisterousTourist.description=
 //[Reference] 'Boisterous Tourist'
 staxel.accessories.fullBodyOutfits.villager.BoisterousTourist.name=騒がしい観光客
@@ -1100,8 +1094,8 @@ staxel.accessories.fullBodyOutfits.villager.festival.NotRiah.description=
 //[Reference] 'Not Riah'
 staxel.accessories.fullBodyOutfits.villager.festival.NotRiah.name=リアじゃない
 staxel.accessories.fullBodyOutfits.villager.GynoidVillager.description=
-//TODO Translate [Reference] 'Gynoid Villager'
-staxel.accessories.fullBodyOutfits.villager.GynoidVillager.name=
+//[Reference] 'Gynoid Villager'
+staxel.accessories.fullBodyOutfits.villager.GynoidVillager.name=ガイノイドの村人
 staxel.accessories.fullBodyOutfits.villager.Jamie.description=
 //[Reference] 'Jamie'
 staxel.accessories.fullBodyOutfits.villager.Jamie.name=ジェイミー
@@ -1169,8 +1163,8 @@ staxel.accessories.fullBodyOutfits.villager.SmartTourist.description=
 //[Reference] 'Smart Tourist'
 staxel.accessories.fullBodyOutfits.villager.SmartTourist.name=小粋な観光客
 staxel.accessories.fullBodyOutfits.villager.TalkativeAndroid.description=
-//TODO Translate [Reference] 'Talkative Android'
-staxel.accessories.fullBodyOutfits.villager.TalkativeAndroid.name=
+//[Reference] 'Talkative Android'
+staxel.accessories.fullBodyOutfits.villager.TalkativeAndroid.name=おしゃべりなアンドロイド
 staxel.accessories.fullBodyOutfits.villager.TrashFairy.description=
 //[Reference] 'Trash Fairy'
 staxel.accessories.fullBodyOutfits.villager.TrashFairy.name=ゴミ妖精
@@ -1355,12 +1349,12 @@ staxel.bush.GoldenberryBush.name=ゴールデンベリーの低木の種
 staxel.bush.RaspberryBush.description=おいしいラズベリーが育つ低木。どの季節でも育つ。
 //[Reference] 'Raspberry Bush Seed'
 staxel.bush.RaspberryBush.name=ラズベリーの低木の種
-//TODO Translate [Reference] 'Events'
-staxel.calendar.Events=
-//TODO Translate [Reference] 'No Events'
-staxel.calendar.NoEvent=
-//TODO Translate [Reference] 'Today'
-staxel.calendar.Today=
+//[Reference] 'Events'
+staxel.calendar.Events=イベント
+//[Reference] 'No Events'
+staxel.calendar.NoEvent=イベントなし
+//[Reference] 'Today'
+staxel.calendar.Today=今日
 //[Reference] 'abstract'
 staxel.category.abstract=抽象的
 //[Reference] 'accessories'
@@ -1417,8 +1411,8 @@ staxel.category.bugDisplay=虫のディスプレイ
 staxel.category.butterfly=蝶
 //[Reference] 'calaverita'
 staxel.category.calaverita=ガイコツ
-//TODO Translate [Reference] 'calendar'
-staxel.category.calendar=
+//[Reference] 'calendar'
+staxel.category.calendar=カレンダー
 //[Reference] 'Campfire Large'
 staxel.category.CampfireLarge=大きいキャンプファイヤー
 //[Reference] 'candles'
@@ -1725,7 +1719,6 @@ staxel.category.rack=ラック
 staxel.category.range=レンジ
 //[Reference] 'Raw Wood'
 staxel.category.rawWood=原木
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'refrigerator'
 staxel.category.refridgerator=冷蔵庫
 //[Reference] 'restaurant'
@@ -1806,10 +1799,10 @@ staxel.category.Sunflower=ヒマワリ
 staxel.category.sushi=寿司
 //[Reference] 'tackle'
 staxel.category.tackle=釣り具
-//TODO Translate [Reference] 'teleport'
-staxel.category.teleport=
-//TODO Translate [Reference] 'teleporter'
-staxel.category.teleporter=
+//[Reference] 'teleport'
+staxel.category.teleport=テレポート
+//[Reference] 'teleporter'
+staxel.category.teleporter=テレポーター
 //[Reference] 'throne'
 staxel.category.throne=玉座
 //[Reference] 'tractor'
@@ -1844,7 +1837,6 @@ staxel.characters.accessories.pants.StuddedPants.description=
 //[Reference] 'Studded Pants'
 staxel.characters.accessories.pants.StuddedPants.name=スタッズパンツ
 staxel.characters.accessories.rewards.JamieExecMask.description=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Executive Mask'
 staxel.characters.accessories.rewards.JamieExecMask.name=えらい人のマスク
 staxel.characters.accessories.shirts.jacket.StuddedJacket.description=
@@ -2560,16 +2552,16 @@ staxel.farmAnimal.Cow=牛
 staxel.farmAnimal.Pig=ブタ
 //[Reference] 'Sheep'
 staxel.farmAnimal.Sheep=ヒツジ
-//TODO Translate [Reference] 'Fey Masquerade'
-staxel.festivals.FeyMasquerade=
-//TODO Translate [Reference] 'Harvest Festival'
-staxel.festivals.HarvestFestival=
-//TODO Translate [Reference] 'Island Portals'
-staxel.festivals.MaterialIslands=
-//TODO Translate [Reference] 'Pumpking Feast'
-staxel.festivals.PumpkingFeast=
-//TODO Translate [Reference] 'Snowdust Faire'
-staxel.festivals.SnowdustFaire=
+//[Reference] 'Fey Masquerade'
+staxel.festivals.FeyMasquerade=フェイの仮装パーティー
+//[Reference] 'Harvest Festival'
+staxel.festivals.HarvestFestival=収穫祭
+//[Reference] 'Island Portals'
+staxel.festivals.MaterialIslands=島のポータル
+//[Reference] 'Pumpking Feast'
+staxel.festivals.PumpkingFeast=パンプキングの宴
+//[Reference] 'Snowdust Faire'
+staxel.festivals.SnowdustFaire=スノーダストフェア
 //[Reference] 'Alt'
 staxel.gameLogicalButton.Alt=Alt
 //[Reference] 'Backward'
@@ -3080,8 +3072,8 @@ staxel.item.crafting.StrawberryPopsicle.description=
 //[Reference] 'Strawberry Popsicle'
 staxel.item.crafting.StrawberryPopsicle.name=ストロベリーのアイスキャンディー
 staxel.item.crafting.ToolHandle.description=
-//TODO Translate [Reference] 'Tool Handle'
-staxel.item.crafting.ToolHandle.name=
+//[Reference] 'Tool Handle'
+staxel.item.crafting.ToolHandle.name=道具の柄
 staxel.item.crafting.UnbakedBakedPotatoWithColdUnbakedCheese.description=
 //[Reference] 'UnbakedBakedPotatoWithColdUnbakedCheese'
 staxel.item.crafting.UnbakedBakedPotatoWithColdUnbakedCheese.name=焼いてないベイクドポテトと冷たいチーズ
@@ -3226,68 +3218,68 @@ staxel.item.gatherable.EmperorButterfly.description=
 //[Reference] 'Emperor Butterfly'
 staxel.item.gatherable.EmperorButterfly.name=エンペラーバタフライ
 staxel.item.gatherable.fairy.FairyBeetle.description=
-//TODO Translate [Reference] 'Fairy Beetle'
-staxel.item.gatherable.fairy.FairyBeetle.name=
+//[Reference] 'Fairy Beetle'
+staxel.item.gatherable.fairy.FairyBeetle.name=フェアリーのカブトムシ
 staxel.item.gatherable.fairy.FairyDragonFly.description=
-//TODO Translate [Reference] 'Fairy Dragonfly'
-staxel.item.gatherable.fairy.FairyDragonFly.name=
+//[Reference] 'Fairy Dragonfly'
+staxel.item.gatherable.fairy.FairyDragonFly.name=フェアリーのトンボ
 staxel.item.gatherable.fairy.FairySpider.description=
-//TODO Translate [Reference] 'Fairy Spider'
-staxel.item.gatherable.fairy.FairySpider.name=
+//[Reference] 'Fairy Spider'
+staxel.item.gatherable.fairy.FairySpider.name=フェアリーのクモ
 staxel.item.gatherable.fairy.GlowWorm.description=
-//TODO Translate [Reference] 'Glow Worm'
-staxel.item.gatherable.fairy.GlowWorm.name=
+//[Reference] 'Glow Worm'
+staxel.item.gatherable.fairy.GlowWorm.name=ツチボタル
 staxel.item.gatherable.fairy.HeartButterfly.description=
-//TODO Translate [Reference] 'Heart Butterfly'
-staxel.item.gatherable.fairy.HeartButterfly.name=
+//[Reference] 'Heart Butterfly'
+staxel.item.gatherable.fairy.HeartButterfly.name=ハート型のチョウチョ
 staxel.item.gatherable.fairy.LunarMoth.description=
-//TODO Translate [Reference] 'Lunar Moth'
-staxel.item.gatherable.fairy.LunarMoth.name=
+//[Reference] 'Lunar Moth'
+staxel.item.gatherable.fairy.LunarMoth.name=オオミズアオ
 staxel.item.gatherable.fairy.PastelButterfly.description=
-//TODO Translate [Reference] 'Pastel Butterfly'
-staxel.item.gatherable.fairy.PastelButterfly.name=
+//[Reference] 'Pastel Butterfly'
+staxel.item.gatherable.fairy.PastelButterfly.name=パステル色のチョウチョ
 staxel.item.gatherable.fairy.RoseSnail.description=
-//TODO Translate [Reference] 'Rose Snail'
-staxel.item.gatherable.fairy.RoseSnail.name=
+//[Reference] 'Rose Snail'
+staxel.item.gatherable.fairy.RoseSnail.name=バラ色のカタツムリ
 staxel.item.gatherable.fairy.ScarabBeetle.description=
-//TODO Translate [Reference] 'Scarab Beetle'
-staxel.item.gatherable.fairy.ScarabBeetle.name=
+//[Reference] 'Scarab Beetle'
+staxel.item.gatherable.fairy.ScarabBeetle.name=コガネムシ
 staxel.item.gatherable.fairy.YellowLadybug.description=
-//TODO Translate [Reference] 'Yellow Ladybug'
-staxel.item.gatherable.fairy.YellowLadybug.name=
+//[Reference] 'Yellow Ladybug'
+staxel.item.gatherable.fairy.YellowLadybug.name=黄色のテントウムシ
 staxel.item.gatherable.Fairy.BalloonFish.description=
-//TODO Translate [Reference] 'Balloon Fish'
-staxel.item.gatherable.Fairy.BalloonFish.name=
+//[Reference] 'Balloon Fish'
+staxel.item.gatherable.Fairy.BalloonFish.name=フグ
 staxel.item.gatherable.Fairy.FairyAngler.description=
-//TODO Translate [Reference] 'Fairy Angler'
-staxel.item.gatherable.Fairy.FairyAngler.name=
+//[Reference] 'Fairy Angler'
+staxel.item.gatherable.Fairy.FairyAngler.name=フェアリーの釣り人
 staxel.item.gatherable.Fairy.FairyEel.description=
-//TODO Translate [Reference] 'Fairy Eel'
-staxel.item.gatherable.Fairy.FairyEel.name=
+//[Reference] 'Fairy Eel'
+staxel.item.gatherable.Fairy.FairyEel.name=フェアリーのウナギ
 staxel.item.gatherable.Fairy.FairyJellyfish.description=
-//TODO Translate [Reference] 'Fairy Jellyfish'
-staxel.item.gatherable.Fairy.FairyJellyfish.name=
+//[Reference] 'Fairy Jellyfish'
+staxel.item.gatherable.Fairy.FairyJellyfish.name=フェアリーのクラゲ
 staxel.item.gatherable.Fairy.FairyOctopus.description=
-//TODO Translate [Reference] 'Fairy Octopus'
-staxel.item.gatherable.Fairy.FairyOctopus.name=
+//[Reference] 'Fairy Octopus'
+staxel.item.gatherable.Fairy.FairyOctopus.name=フェアリーのタコ
 staxel.item.gatherable.Fairy.FlyingFish.description=
-//TODO Translate [Reference] 'Flying Fish'
-staxel.item.gatherable.Fairy.FlyingFish.name=
+//[Reference] 'Flying Fish'
+staxel.item.gatherable.Fairy.FlyingFish.name=トビウオ
 staxel.item.gatherable.Fairy.GiantGoldfish.description=
-//TODO Translate [Reference] 'Giant Goldfish'
-staxel.item.gatherable.Fairy.GiantGoldfish.name=
+//[Reference] 'Giant Goldfish'
+staxel.item.gatherable.Fairy.GiantGoldfish.name=巨大な金魚
 staxel.item.gatherable.Fairy.MiniatureDolphin.description=
-//TODO Translate [Reference] 'Miniature Dolphin'
-staxel.item.gatherable.Fairy.MiniatureDolphin.name=
+//[Reference] 'Miniature Dolphin'
+staxel.item.gatherable.Fairy.MiniatureDolphin.name=小型のイルカ
 staxel.item.gatherable.Fairy.Narwhal.description=
-//TODO Translate [Reference] 'Narwhal'
-staxel.item.gatherable.Fairy.Narwhal.name=
+//[Reference] 'Narwhal'
+staxel.item.gatherable.Fairy.Narwhal.name=イッカク
 staxel.item.gatherable.Fairy.SeaCucumber.description=
-//TODO Translate [Reference] 'Sea Cucumber'
-staxel.item.gatherable.Fairy.SeaCucumber.name=
+//[Reference] 'Sea Cucumber'
+staxel.item.gatherable.Fairy.SeaCucumber.name=ナマコ
 staxel.item.gatherable.Fairy.SeaSlug.description=
-//TODO Translate [Reference] 'Sea Slug'
-staxel.item.gatherable.Fairy.SeaSlug.name=
+//[Reference] 'Sea Slug'
+staxel.item.gatherable.Fairy.SeaSlug.name=ウミウシ
 staxel.item.gatherable.festival.Fairy.description=
 //[Reference] 'Fairy'
 staxel.item.gatherable.festival.Fairy.name=妖精
@@ -3460,59 +3452,59 @@ staxel.item.gatherable.Tadpole.description=
 //[Reference] 'Tadpole'
 staxel.item.gatherable.Tadpole.name=オタマジャクシ
 staxel.item.gatherable.tropical.BananaBeetle.description=
-//TODO Translate [Reference] 'Banana Beetle'
-staxel.item.gatherable.tropical.BananaBeetle.name=
+//[Reference] 'Banana Beetle'
+staxel.item.gatherable.tropical.BananaBeetle.name=バナナのカブトムシ
 staxel.item.gatherable.tropical.Centipede.description=
-//TODO Translate [Reference] 'Centipede'
-staxel.item.gatherable.tropical.Centipede.name=
+//[Reference] 'Centipede'
+staxel.item.gatherable.tropical.Centipede.name=ムカデ
 staxel.item.gatherable.tropical.GiantBeetle.description=
-//TODO Translate [Reference] 'Giant Beetle'
-staxel.item.gatherable.tropical.GiantBeetle.name=
+//[Reference] 'Giant Beetle'
+staxel.item.gatherable.tropical.GiantBeetle.name=巨大なカブトムシ
 staxel.item.gatherable.tropical.GoldenBeetle.description=
-//TODO Translate [Reference] 'Golden Beetle'
-staxel.item.gatherable.tropical.GoldenBeetle.name=
+//[Reference] 'Golden Beetle'
+staxel.item.gatherable.tropical.GoldenBeetle.name=黄金のカブトムシ
 staxel.item.gatherable.tropical.RoyalGreenButterfly.description=
-//TODO Translate [Reference] 'Royal Green Butterfly'
-staxel.item.gatherable.tropical.RoyalGreenButterfly.name=
+//[Reference] 'Royal Green Butterfly'
+staxel.item.gatherable.tropical.RoyalGreenButterfly.name=ロイヤルグリーンのチョウチョ
 staxel.item.gatherable.tropical.ShadowButterfly.description=
-//TODO Translate [Reference] 'Shadow Butterfly'
-staxel.item.gatherable.tropical.ShadowButterfly.name=
+//[Reference] 'Shadow Butterfly'
+staxel.item.gatherable.tropical.ShadowButterfly.name=影のチョウチョ
 staxel.item.gatherable.tropical.ShieldBeetle.description=
-//TODO Translate [Reference] 'Shield Beetle'
-staxel.item.gatherable.tropical.ShieldBeetle.name=
+//[Reference] 'Shield Beetle'
+staxel.item.gatherable.tropical.ShieldBeetle.name=カメムシ
 staxel.item.gatherable.tropical.TallBeetle.description=
-//TODO Translate [Reference] 'Tall Beetle'
-staxel.item.gatherable.tropical.TallBeetle.name=
+//[Reference] 'Tall Beetle'
+staxel.item.gatherable.tropical.TallBeetle.name=背高のカブトムシ
 staxel.item.gatherable.tropical.TropicalButterfly.description=
-//TODO Translate [Reference] 'Tropical Butterfly'
-staxel.item.gatherable.tropical.TropicalButterfly.name=
+//[Reference] 'Tropical Butterfly'
+staxel.item.gatherable.tropical.TropicalButterfly.name=熱帯のチョウチョ
 staxel.item.gatherable.tropical.TropicalLeafBug.description=
-//TODO Translate [Reference] 'Tropical Leaf Bug'
-staxel.item.gatherable.tropical.TropicalLeafBug.name=
+//[Reference] 'Tropical Leaf Bug'
+staxel.item.gatherable.tropical.TropicalLeafBug.name=熱帯のコノハムシ
 staxel.item.gatherable.Tropical.AngelFish.description=
-//TODO Translate [Reference] 'Angel Fish'
-staxel.item.gatherable.Tropical.AngelFish.name=
+//[Reference] 'Angel Fish'
+staxel.item.gatherable.Tropical.AngelFish.name=エンゼルフィッシュ
 staxel.item.gatherable.Tropical.Axolotl.description=
-//TODO Translate [Reference] 'Axolotl'
-staxel.item.gatherable.Tropical.Axolotl.name=
+//[Reference] 'Axolotl'
+staxel.item.gatherable.Tropical.Axolotl.name=アホロートル
 staxel.item.gatherable.Tropical.BlobFish.description=
-//TODO Translate [Reference] 'Blob Fish'
-staxel.item.gatherable.Tropical.BlobFish.name=
+//[Reference] 'Blob Fish'
+staxel.item.gatherable.Tropical.BlobFish.name=ブロブフィッシュ
 staxel.item.gatherable.Tropical.DartFish.description=
-//TODO Translate [Reference] 'Dart Fish'
-staxel.item.gatherable.Tropical.DartFish.name=
+//[Reference] 'Dart Fish'
+staxel.item.gatherable.Tropical.DartFish.name=クロユリハゼ
 staxel.item.gatherable.Tropical.GiantSquid.description=
-//TODO Translate [Reference] 'Giant Squid'
-staxel.item.gatherable.Tropical.GiantSquid.name=
+//[Reference] 'Giant Squid'
+staxel.item.gatherable.Tropical.GiantSquid.name=巨大なイカ
 staxel.item.gatherable.Tropical.MoorishIdol.description=
-//TODO Translate [Reference] 'Moorish Idol'
-staxel.item.gatherable.Tropical.MoorishIdol.name=
+//[Reference] 'Moorish Idol'
+staxel.item.gatherable.Tropical.MoorishIdol.name=ツノダシ
 staxel.item.gatherable.Tropical.TropicalMinnow.description=
-//TODO Translate [Reference] 'Tropical Minnow'
-staxel.item.gatherable.Tropical.TropicalMinnow.name=
+//[Reference] 'Tropical Minnow'
+staxel.item.gatherable.Tropical.TropicalMinnow.name=熱帯のミノウ
 staxel.item.gatherable.Tropical.ZebraFish.description=
-//TODO Translate [Reference] 'Zebra Fish'
-staxel.item.gatherable.Tropical.ZebraFish.name=
+//[Reference] 'Zebra Fish'
+staxel.item.gatherable.Tropical.ZebraFish.name=ゼブラフィッシュ
 staxel.item.gatherable.WhiteButterfly.description=
 //[Reference] 'White Butterfly'
 staxel.item.gatherable.WhiteButterfly.name=ホワイトバタフライ
@@ -3535,8 +3527,8 @@ staxel.item.generic.BlueBook.description=
 //[Reference] 'Blue Book'
 staxel.item.generic.BlueBook.name=青い本
 staxel.item.generic.ReturnRemote.description=
-//TODO Translate [Reference] 'Teleport Remote'
-staxel.item.generic.ReturnRemote.name=
+//[Reference] 'Teleport Remote'
+staxel.item.generic.ReturnRemote.name=リモートでテレポート
 staxel.item.generic.StarBits.description=
 //[Reference] 'Star Bits'
 staxel.item.generic.StarBits.name=スタービット
@@ -3599,8 +3591,8 @@ staxel.item.quest.Eris.CaveIslandTeleporter.description=
 //[Reference] 'Cave Island Teleporter'
 staxel.item.quest.Eris.CaveIslandTeleporter.name=洞窟島へのテレポーター
 staxel.item.quest.Eris.GlassSlipperTaken.description=
-//TODO Translate [Reference] 'Glass Slipper'
-staxel.item.quest.Eris.GlassSlipperTaken.name=
+//[Reference] 'Glass Slipper'
+staxel.item.quest.Eris.GlassSlipperTaken.name=ガラスの靴
 staxel.item.quest.Eris.PrincessTowerDoorKey.description=
 //[Reference] 'Princess Tower Door Key'
 staxel.item.quest.Eris.PrincessTowerDoorKey.name=お姫様の塔の扉のかぎ
@@ -4110,9 +4102,8 @@ staxel.notifications.BuildingTools.MeasuredDistance=距離：{0}タイル
 staxel.notifications.BuildingTools.MeasuringTapeOne=計測点をセット
 //[Reference] 'You can't break this tile.'
 staxel.notifications.CantBreak=このタイルを壊すことはできません。
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Can't open the door. It is locked.'
-staxel.notifications.cantOpenLockedDoor=カギのかかったドアは開けません
+staxel.notifications.cantOpenLockedDoor=ドアを開くことができません。ロックされています。
 //[Reference] 'Couldn't put down a sellbox for this merchant.'
 staxel.notifications.CantPlaceMerchantSellBox=商人に売却箱を渡せませんでした。
 //[Reference] 'VIP Merchant couldn't land at the Airship Anchor. Area was obstructed.'
@@ -4193,18 +4184,18 @@ staxel.notifications.status.Exhausted=体が疲れています。睡眠をとり
 staxel.notifications.status.ExhaustedRun=体が疲れて走れません。睡眠をとりましょう。
 //[Reference] 'You've collapsed. You lost {0-petal} petals on your way home.'
 staxel.notifications.status.ReturnedHome=力尽きました。帰り道で{0-petal}ペタルなくしました。
-//TODO Translate [Reference] 'You've collapsed. Though noone could take you home, so you still feel tired.'
-staxel.notifications.status.ReturnedHomeFailed=
+//[Reference] 'You've collapsed. Though noone could take you home, so you still feel tired.'
+staxel.notifications.status.ReturnedHomeFailed=力尽きました。ヌーンが家に送ることもできますが、あなたはまだ疲れています。
 //[Reference] 'You're feeling kinda sleepy...'
 staxel.notifications.status.Sleepy=なんだか眠いなぁ...
-//TODO Translate [Reference] 'from'
-staxel.notifications.teleport.from=
-//TODO Translate [Reference] 'This item cannot remote teleport {0-fromorto} a quest area.'
-staxel.notifications.teleport.noQuestTeleport=
-//TODO Translate [Reference] 'You must be at an island to use this.'
-staxel.notifications.teleport.noTeleportAvailable=
-//TODO Translate [Reference] 'to'
-staxel.notifications.teleport.to=
+//[Reference] 'from'
+staxel.notifications.teleport.from=移動元：
+//[Reference] 'This item cannot remote teleport {0-fromorto} a quest area.'
+staxel.notifications.teleport.noQuestTeleport=このアイテムは{0-fromorto}クエストエリアをリモートでテレポートすることができません。
+//[Reference] 'You must be at an island to use this.'
+staxel.notifications.teleport.noTeleportAvailable=これを使うには島にいることが必要です。
+//[Reference] 'to'
+staxel.notifications.teleport.to=移動先：
 //[Reference] 'It's too early to sleep!'
 staxel.notifications.tooEarlyForSleep=就寝するには早すぎます！
 
@@ -4367,10 +4358,10 @@ staxel.plant.tree.BasicNaturalTree.name=普通の自然の木
 
 //[Reference] 'Free in Creative'
 staxel.priceTag.freeInCreative=クリエイティブモードでは無料
-//TODO Translate [Reference] 'Refine by Grouping'
-staxel.recipeBook.refine=
-//TODO Translate [Reference] 'Search...'
-staxel.recipeBook.search=
+//[Reference] 'Refine by Grouping'
+staxel.recipeBook.refine=グループ化して絞り込む
+//[Reference] 'Search...'
+staxel.recipeBook.search=検索...
 //[Reference] 'StaxelNet join failed, invalid claim.'
 staxel.relay.invalidClaim=StaxelNetへの接続に失敗しました。無効なリクエストです。
 //[Reference] 'StaxelNet join failed, address not found.'
@@ -4483,8 +4474,8 @@ staxel.shipping.YouHaveMoney=配送ステーションにお金があります
 staxel.signSettings.accept=保存
 //[Reference] 'Edit Sign'
 staxel.signSettings.title=看板の編集
-//TODO Translate [Reference] 'This world was created on a considerably dated version of Staxel. It is recommended to start a new world for the best experience.'
-staxel.singleplayer.oldWorldWarning=
+//[Reference] 'This world was created on a considerably dated version of Staxel. It is recommended to start a new world for the best experience.'
+staxel.singleplayer.oldWorldWarning=この世界は非常に古いバージョンのStaxelで作成されています。最高のエクスペリエンスをお楽しみいただけるよう、新しい世界を始めることをお勧めします。
 //[Reference] 'Steal'
 staxel.stealPrompt.accept=盗む
 //[Reference] 'Cancel'
@@ -4750,8 +4741,8 @@ staxel.tileObject.bobbleheads.AlizaBobblehead.description=
 //[Reference] 'Aliza Bobblehead'
 staxel.tileObject.bobbleheads.AlizaBobblehead.name=アリザのボブルヘッド
 staxel.tileObject.bobbleheads.ArcadiaxBobbleHead.description=
-//TODO Translate [Reference] 'Arcadiax Bobble Head'
-staxel.tileObject.bobbleheads.ArcadiaxBobbleHead.name=
+//[Reference] 'Arcadiax Bobble Head'
+staxel.tileObject.bobbleheads.ArcadiaxBobbleHead.name=アーカディアクスのボブルヘッド
 staxel.tileObject.bobbleheads.BadgerBobbleHead.description=
 //[Reference] 'Badger Bobble Head'
 staxel.tileObject.bobbleheads.BadgerBobbleHead.name=バジャーのボブルヘッド
@@ -4878,13 +4869,11 @@ staxel.tileObject.door.DoorBlue.description=
 //[Reference] 'Blue Door'
 staxel.tileObject.door.DoorBlue.name=青いドア
 staxel.tileObject.door.DoorCastle.description=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Castle Door'
 staxel.tileObject.door.DoorCastle.name=城の扉
 staxel.tileObject.door.DoorCastleShut.description=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Closed Castle Door'
-staxel.tileObject.door.DoorCastleShut.name=城の扉（封鎖）
+staxel.tileObject.door.DoorCastleShut.name=閉じられた城の扉
 staxel.tileObject.door.DoorGreen.description=
 //[Reference] 'Green Door'
 staxel.tileObject.door.DoorGreen.name=緑色のドア
@@ -5030,35 +5019,35 @@ staxel.tileObject.gatherable.EmperorButterfly.description=
 //[Reference] 'Emperor Butterfly'
 staxel.tileObject.gatherable.EmperorButterfly.name=エンペラーバタフライ
 staxel.tileObject.gatherable.fairy.FairyBeetle.description=
-//TODO Translate [Reference] 'Fairy Beetle'
-staxel.tileObject.gatherable.fairy.FairyBeetle.name=
+//[Reference] 'Fairy Beetle'
+staxel.tileObject.gatherable.fairy.FairyBeetle.name=フェアリーのカブトムシ
 staxel.tileObject.gatherable.fairy.FairyDragonFly.description=
-//TODO Translate [Reference] 'Fairy Dragonfly'
-staxel.tileObject.gatherable.fairy.FairyDragonFly.name=
+//[Reference] 'Fairy Dragonfly'
+staxel.tileObject.gatherable.fairy.FairyDragonFly.name=フェアリーのトンボ
 staxel.tileObject.gatherable.fairy.FairySpider.description=
-//TODO Translate [Reference] 'Fairy Spider'
-staxel.tileObject.gatherable.fairy.FairySpider.name=
+//[Reference] 'Fairy Spider'
+staxel.tileObject.gatherable.fairy.FairySpider.name=フェアリーのクモ
 staxel.tileObject.gatherable.fairy.GlowWorm.description=
-//TODO Translate [Reference] 'Glow Worm'
-staxel.tileObject.gatherable.fairy.GlowWorm.name=
+//[Reference] 'Glow Worm'
+staxel.tileObject.gatherable.fairy.GlowWorm.name=ツチボタル
 staxel.tileObject.gatherable.fairy.HeartButterfly.description=
-//TODO Translate [Reference] 'Heart Butterfly'
-staxel.tileObject.gatherable.fairy.HeartButterfly.name=
+//[Reference] 'Heart Butterfly'
+staxel.tileObject.gatherable.fairy.HeartButterfly.name=ハート型のチョウチョ
 staxel.tileObject.gatherable.fairy.LunarMoth.description=
-//TODO Translate [Reference] 'Lunar Moth'
-staxel.tileObject.gatherable.fairy.LunarMoth.name=
+//[Reference] 'Lunar Moth'
+staxel.tileObject.gatherable.fairy.LunarMoth.name=オオミズアオ
 staxel.tileObject.gatherable.fairy.PastelButterfly.description=
-//TODO Translate [Reference] 'Pastel Butterfly'
-staxel.tileObject.gatherable.fairy.PastelButterfly.name=
+//[Reference] 'Pastel Butterfly'
+staxel.tileObject.gatherable.fairy.PastelButterfly.name=パステル色のチョウチョ
 staxel.tileObject.gatherable.fairy.RoseSnail.description=
-//TODO Translate [Reference] 'Rose Snail'
-staxel.tileObject.gatherable.fairy.RoseSnail.name=
+//[Reference] 'Rose Snail'
+staxel.tileObject.gatherable.fairy.RoseSnail.name=バラ色のカタツムリ
 staxel.tileObject.gatherable.fairy.ScarabBeetle.description=
-//TODO Translate [Reference] 'Scarab Beetle'
-staxel.tileObject.gatherable.fairy.ScarabBeetle.name=
+//[Reference] 'Scarab Beetle'
+staxel.tileObject.gatherable.fairy.ScarabBeetle.name=コガネムシ
 staxel.tileObject.gatherable.fairy.YellowLadybug.description=
-//TODO Translate [Reference] 'Yellow Ladybug'
-staxel.tileObject.gatherable.fairy.YellowLadybug.name=
+//[Reference] 'Yellow Ladybug'
+staxel.tileObject.gatherable.fairy.YellowLadybug.name=黄色のテントウムシ
 staxel.tileObject.gatherable.festival.Fairy.description=
 //[Reference] 'Fairy'
 staxel.tileObject.gatherable.festival.Fairy.name=妖精
@@ -5144,35 +5133,35 @@ staxel.tileObject.gatherable.SwirlyShell.description=
 //[Reference] 'Swirly Shell'
 staxel.tileObject.gatherable.SwirlyShell.name=巻貝
 staxel.tileObject.gatherable.tropical.BananaBeetle.description=
-//TODO Translate [Reference] 'Banana Beetle'
-staxel.tileObject.gatherable.tropical.BananaBeetle.name=
+//[Reference] 'Banana Beetle'
+staxel.tileObject.gatherable.tropical.BananaBeetle.name=バナナのカブトムシ
 staxel.tileObject.gatherable.tropical.Centipede.description=
-//TODO Translate [Reference] 'Centipede'
-staxel.tileObject.gatherable.tropical.Centipede.name=
+//[Reference] 'Centipede'
+staxel.tileObject.gatherable.tropical.Centipede.name=ムカデ
 staxel.tileObject.gatherable.tropical.GiantBeetle.description=
-//TODO Translate [Reference] 'Giant Beetle'
-staxel.tileObject.gatherable.tropical.GiantBeetle.name=
+//[Reference] 'Giant Beetle'
+staxel.tileObject.gatherable.tropical.GiantBeetle.name=巨大なカブトムシ
 staxel.tileObject.gatherable.tropical.GoldenBeetle.description=
-//TODO Translate [Reference] 'Golden Beetle'
-staxel.tileObject.gatherable.tropical.GoldenBeetle.name=
+//[Reference] 'Golden Beetle'
+staxel.tileObject.gatherable.tropical.GoldenBeetle.name=黄金のカブトムシ
 staxel.tileObject.gatherable.tropical.RoyalGreenButterfly.description=
-//TODO Translate [Reference] 'Royal Green Butterfly'
-staxel.tileObject.gatherable.tropical.RoyalGreenButterfly.name=
+//[Reference] 'Royal Green Butterfly'
+staxel.tileObject.gatherable.tropical.RoyalGreenButterfly.name=ロイヤルグリーンのチョウチョ
 staxel.tileObject.gatherable.tropical.ShadowButterfly.description=
-//TODO Translate [Reference] 'Shadow Butterfly'
-staxel.tileObject.gatherable.tropical.ShadowButterfly.name=
+//[Reference] 'Shadow Butterfly'
+staxel.tileObject.gatherable.tropical.ShadowButterfly.name=影のチョウチョ
 staxel.tileObject.gatherable.tropical.ShieldBeetle.description=
-//TODO Translate [Reference] 'Shield Beetle'
-staxel.tileObject.gatherable.tropical.ShieldBeetle.name=
+//[Reference] 'Shield Beetle'
+staxel.tileObject.gatherable.tropical.ShieldBeetle.name=カメムシ
 staxel.tileObject.gatherable.tropical.TallBeetle.description=
-//TODO Translate [Reference] 'Tall Beetle'
-staxel.tileObject.gatherable.tropical.TallBeetle.name=
+//[Reference] 'Tall Beetle'
+staxel.tileObject.gatherable.tropical.TallBeetle.name=背高のカブトムシ
 staxel.tileObject.gatherable.tropical.TropicalButterfly.description=
-//TODO Translate [Reference] 'Tropical Butterfly'
-staxel.tileObject.gatherable.tropical.TropicalButterfly.name=
+//[Reference] 'Tropical Butterfly'
+staxel.tileObject.gatherable.tropical.TropicalButterfly.name=熱帯のチョウチョ
 staxel.tileObject.gatherable.tropical.TropicalLeafBug.description=
-//TODO Translate [Reference] 'Tropical Leaf Bug'
-staxel.tileObject.gatherable.tropical.TropicalLeafBug.name=
+//[Reference] 'Tropical Leaf Bug'
+staxel.tileObject.gatherable.tropical.TropicalLeafBug.name=熱帯のコノハムシ
 staxel.tileObject.gatherable.WhiteButterfly.description=
 //[Reference] 'White Butterfly'
 staxel.tileObject.gatherable.WhiteButterfly.name=ホワイトバタフライ
@@ -5258,8 +5247,8 @@ staxel.tileObject.mineIsland.MineBoxUsed.description=
 //[Reference] 'Mine Box Used'
 staxel.tileObject.mineIsland.MineBoxUsed.name=炭坑ボックス（使用済み）
 staxel.tileObject.mineIsland.SurfaceExit.description=
-//TODO Translate [Reference] 'Mine Exit'
-staxel.tileObject.mineIsland.SurfaceExit.name=
+//[Reference] 'Mine Exit'
+staxel.tileObject.mineIsland.SurfaceExit.name=炭坑の出口
 staxel.tileObject.mineIsland.TrappedEscape.description=
 //[Reference] 'Trapped Escape'
 staxel.tileObject.mineIsland.TrappedEscape.name=出口（罠あり）
@@ -7079,15 +7068,16 @@ staxel.tree.TangerineTree.description=この木にはオレンジではなく、
 staxel.tree.TangerineTree.name=タンジェリンの木
 //[Reference] 'Write Mail'
 staxel.verb.writemail=手紙を書く
-//TODO Translate [Reference] 'You've given enough gifts for today, the reputation won't got any higher until tomorrow.'
-staxel.village.cantIncreaseRep=
+//[Reference] 'You've given enough gifts for today, the reputation won't got any higher until tomorrow.'
+staxel.village.cantIncreaseRep=今日さしあげるプレゼントはこれくらいにしておきましょう。評判がもっと高くなることは明日までありません。
 staxel.village.dialogue.ForestBunnyGiveItem.=
 //[Reference] '...'
 staxel.village.dialogue.ForestBunnyGiveItem.line:10000101=…
 //[Reference] 'Material Islands have been reset.'
 staxel.village.materialIslandsReset=素材島がリセットされました。
-//TODO Translate [Reference] 'You need to complete a quest before your reputation goes any higher with this villager.'
-staxel.village.questBlocksRep=
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'You need to complete a quest before your reputation goes any higher with this villager.'
+staxel.village.questBlocksRep=この村人によるあなたの評判がもっと高くなる前に、クエストを完了させる必要があります。
 //[Reference] '{0-name} has left the village.'
 staxel.village.villagerLeftTown={0-name}が村を離れました。
 //[Reference] 'Aliza'
