@@ -164,6 +164,8 @@ controllerHints.materialPick=물건을 빨리 꺼내는 방법
 controllerHints.movement=움직이는 방법
 //[Reference] 'Place and Rotate'
 controllerHints.placeAndRotate=물건을 놓고 회전시키는 방법
+//TODO Translate [Reference] '{0-recipeKeyword} ({1-number}x)'
+crafting.action.active.multiple=
 //[Reference] 'Assemble'
 crafting.action.keyword.assemble=Assemble
 //[Reference] 'Bake'
@@ -196,6 +198,8 @@ crafting.action.keyword.saw=Saw
 crafting.action.keyword.tile=Tile
 //[Reference] '{0-itemOne}, {1-itemTwo}'
 crafting.action.task.listedItems={0-itemOne}, {1-itemTwo}
+//TODO Translate [Reference] '({1-number}x) {0-recipeTask}'
+crafting.action.task.makeMultiple=
 //[Reference] '{0-keyword} {1-listedItems} and {2-lastListedItem}'
 crafting.action.task.multiItem={0-keyword} {1-listedItems} and {2-lastListedItem}
 //[Reference] '{0-count}x {1-item}'
@@ -517,6 +521,10 @@ options.boxtool.destructive.description=
 options.boxtool.hollow=
 //TODO Translate [Reference] 'When On, the created box will be hollow inside'
 options.boxtool.hollow.description=
+//TODO Translate [Reference] 'Randomise Tiles'
+options.buildTool.random=
+//TODO Translate [Reference] 'Determines if each block placed will randomise their look. Otherwise copy the first tile exactly.'
+options.buildTool.random.description=
 //TODO Translate [Reference] 'Allow Gaps'
 options.faceextruder.allowgaps=
 //TODO Translate [Reference] 'Will extrude tiles even if there is a one tile gap from the main face'
@@ -1845,6 +1853,8 @@ staxel.category.smallFishDisplay=
 staxel.category.smoothie=smoothie
 //TODO Translate [Reference] 'snack'
 staxel.category.snack=
+//TODO Translate [Reference] 'Snail'
+staxel.category.snail=
 //[Reference] 'snowdust'
 staxel.category.snowdust=snowdust
 //TODO Translate [Reference] 'Special Mushroom'

@@ -161,6 +161,8 @@ controllerHints.materialPick=快速选择材料
 controllerHints.movement=移动
 //[Reference] 'Place and Rotate'
 controllerHints.placeAndRotate=放置和旋转
+//TODO Translate [Reference] '{0-recipeKeyword} ({1-number}x)'
+crafting.action.active.multiple=
 //[Reference] 'Assemble'
 crafting.action.keyword.assemble=组装
 //[Reference] 'Bake'
@@ -193,6 +195,8 @@ crafting.action.keyword.saw=锯
 crafting.action.keyword.tile=方砖
 //[Reference] '{0-itemOne}, {1-itemTwo}'
 crafting.action.task.listedItems={0-itemOne}、{1-itemTwo}
+//TODO Translate [Reference] '({1-number}x) {0-recipeTask}'
+crafting.action.task.makeMultiple=
 //[Reference] '{0-keyword} {1-listedItems} and {2-lastListedItem}'
 crafting.action.task.multiItem={0-keyword} {1-listedItems}和{2-lastListedItem}
 //[Reference] '{0-count}x {1-item}'
@@ -506,6 +510,10 @@ options.boxtool.destructive.description=决定在创建箱盒的过程中，工�
 options.boxtool.hollow=中空模式
 //[Reference] 'When On, the created box will be hollow inside'
 options.boxtool.hollow.description=开启时，创造出的箱盒是中空的
+//TODO Translate [Reference] 'Randomise Tiles'
+options.buildTool.random=
+//TODO Translate [Reference] 'Determines if each block placed will randomise their look. Otherwise copy the first tile exactly.'
+options.buildTool.random.description=
 //[Reference] 'Allow Gaps'
 options.faceextruder.allowgaps=允许缝隙
 //[Reference] 'Will extrude tiles even if there is a one tile gap from the main face'
@@ -1813,6 +1821,8 @@ staxel.category.smallFishDisplay=小型鱼类展柜
 staxel.category.smoothie=奶昔
 //[Reference] 'snack'
 staxel.category.snack=零食
+//TODO Translate [Reference] 'Snail'
+staxel.category.snail=
 //[Reference] 'snowdust'
 staxel.category.snowdust=雪尘
 //[Reference] 'Special Mushroom'
