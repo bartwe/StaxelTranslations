@@ -1,31 +1,32 @@
 ﻿language.code=ru-RU
 language=Русский
+
 //[Reference] '^c:F2E200;activateMurmur ^c:FFFFFF;murmurCode'
 commands.activateMurmur.description=^c:F2E200;activateMurmur ^c:FFFFFF;murmurCode
 //[Reference] 'Successfully activated {0-murmur}.'
 commands.activateMurmur.success=Успешно активировано: {0-murmur}.
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0) (optional)showCalendarTime(true/false)'
-commands.advanceTime.description=^c:F2E200;advanceTime ^c:FFFFFF;величина(0.0–1.0)
+commands.advanceTime.description=^c:F2E200;advanceTime ^c:FFFFFF;величина(0.0–1.0) (опционально)showCalendarTime(true/false)
 //[Reference] 'Enter a float by which to advance time. 1.0 is a full day'
 commands.advanceTime.enterFloat=Введите значение, на которое ускорить время. 1.0 — целый день
 //[Reference] 'failed: arg(1) must be a number. Floating points OK'
-commands.advanceTime.mustBeNumber=ошибка: значение(1) должно быть числом. Значение принято
+commands.advanceTime.mustBeNumber=ошибка: значение(1) должно быть числом с плавающей точкой.
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Advancing time by {0-time} ({1-dayphase1} -> {2-dayphase2})...'
-commands.advanceTime.success=Время ускоряется на {0-time}...
+commands.advanceTime.success=Время изменено на {0-time} ({1-dayphase1} -> {2-dayphase2})...
 //[Reference] '^c:F2E200;ban ^c:FFFFFF;playerName (optional)reason'
-commands.ban.description=^c:F2E200;ban ^c:FFFFFF;имя игрока (optional)причина
+commands.ban.description=^c:F2E200;ban ^c:FFFFFF;ИмяИгрока (опционально)причина
 //[Reference] 'Unable to ban {0-player}: player is an admin or already banned.'
-commands.ban.failure=Ошибка блокировки: игрок {0-player} — администратор или уже заблокирован.
+commands.ban.failure=Ошибка: игрок {0-player} администратор или уже забанен.
 //[Reference] '{0-player} has been banned from the server.'
-commands.ban.success=Игрок {0-player} заблокирован на сервере.
+commands.ban.success=Игрок {0-player} забанен на сервере.
 //[Reference] '^c:F2E200;bla'
 commands.bla.description=^c:F2E200;bla
 //[Reference] 'Moved to a new location in debug region: {0-region}'
 commands.bla.success=Переход в новую зону в области отладки: {0-region}
 //[Reference] '^c:F2E200;cameraCapture'
 commands.cameraCapture.description=^c:F2E200;cameraCapture
+//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Captured player camera'
 commands.cameraCapture.success=Захваченная камера игрока
 //[Reference] '^c:F2E200;cameraCapture ^c:FFFFFF;savedCameraFilePath'
@@ -33,7 +34,7 @@ commands.cameraLoad.description=^c:F2E200;cameraCapture ^c:FFFFFF;сохране
 //[Reference] 'Loaded player camera from file: {0-filename}'
 commands.cameraLoad.success=Загрузка камеры игрока из файла: {0-filename}
 //[Reference] '^c:F2E200;cameraPlay ^c:FFFFFF;(optional)duration(0.0-1.0) (optional)loop(true/false) (optional)savedCameraFilePath'
-commands.cameraPlay.description=^c:F2E200;cameraPlay ^c:FFFFFF;(optional)длительность(0.0-1.0) (optional)цикл(true/false) (optional)сохранение файла камеры
+commands.cameraPlay.description=^c:F2E200;cameraPlay ^c:FFFFFF;(опционально)duration(0.0-1.0)(длительность) (опционально)loop(true/false)(повтор) (опционально)ПутьКФайлуСохранения
 //[Reference] 'Playing back player camera'
 commands.cameraPlay.success=Обратная перемотка камеры игрока
 //[Reference] '^c:F2E200;cameraReset'
@@ -41,15 +42,15 @@ commands.cameraReset.description=^c:F2E200;cameraReset
 //[Reference] 'Reset player camera'
 commands.cameraReset.success=Сброс камеры игрока
 //[Reference] '^c:F2E200;cameraSave ^c:FFFFFF;cameraSaveFilePath'
-commands.cameraSave.description=^c:F2E200;cameraSave ^c:FFFFFF;cameraSaveFilePath
+commands.cameraSave.description=^c:F2E200;cameraSave ^c:FFFFFF;ПутьКФайлуСохранения
 //[Reference] 'Saved player camera to file: {0-filename}'
 commands.cameraSave.success=Сохранение камеры игрока в файл: {0-filename}
 //[Reference] '^c:F2E200;cameraStop'
 commands.cameraStop.description=^c:F2E200;cameraStop
 //[Reference] 'Stopped camera mode'
-commands.cameraStop.success=Режим остановки камеры
+commands.cameraStop.success=Остановка режима камеры
 //[Reference] '^c:F2E200;catchableDetails ^c:FFFFFF;(optional)location({0,0,0})'
-commands.catchableDetails.description=^c:F2E200;catchableDetails ^c:FFFFFF;(необязат.)место({0,0,0})
+commands.catchableDetails.description=^c:F2E200;catchableDetails ^c:FFFFFF;(опционально)location({0,0,0})(положение)
 //[Reference] 'Failed to parse location {0-location}'
 commands.catchableDetails.failParse=Ошибка анализа месторасположения: {0-location}
 //[Reference] 'Tile not found'
@@ -61,28 +62,28 @@ commands.catchableDetails.success.true=Объект для поимки суще
 //[Reference] 'Not looking at an animal'
 commands.changeMood.animalNotFound=Нет фокуса на животном
 //[Reference] '^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)'
-commands.changeMood.description=^c:F2E200;changeMood ^c:FFFFFF;увеличить/уменьшить(true/false)
+commands.changeMood.description=^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false) (Настроение увеличить/уменьшить(есть/отсутствует)
 //[Reference] 'Mood altered successfully'
 commands.changeMood.success=Настроение изменено успешно
-//TODO Translate [Reference] '^c:F2E200;changeNickname ^c:FFFFFF;nickname'
+//[Reference] '^c:F2E200;changeNickname ^c:FFFFFF;НовыйНик'
 commands.changeNickname.description=
-//TODO Translate [Reference] 'Nickname changed to {0-newNickname}'
-commands.changeNickname.success=
+//[Reference] 'Nickname changed to {0-newNickname}'
+commands.changeNickname.success=Ник изменен на {0-newNickname}
 //[Reference] '^c:F2E200;checkMail'
 commands.checkMail.description=^c:F2E200;checkMail
 //[Reference] '^c:F2E200;completeQuest ^c:FFFFFF;questCode villagerName/Code'
-commands.completeQuest.description=^c:F2E200;completeQuest ^c:FFFFFF;questCode имяжителя/код
+commands.completeQuest.description=^c:F2E200;completeQuest ^c:FFFFFF;кодКвеста ИмяЖителя/код
 //[Reference] 'Quest does not exist'
-commands.completeQuest.noSuchQuest=Задания не существует
+commands.completeQuest.noSuchQuest=Такого задания не существует
 //[Reference] 'Quest completed successfuly'
 commands.completeQuest.success=Задание успешно завершено
 //[Reference] '^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)'
-commands.creative.description=^c:F2E200;creative ^c:FFFFFF;(optional)имя игрока (optional)startCreativeMode(true/false)
+commands.creative.description=^c:F2E200;creative ^c:FFFFFF;(опционально)ИмяИгрока (опционально)startCreativeMode(true/false)(НачатьКреативныйРежим (да/нет))
 //[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
-commands.creative.success=Временная смена творческого режима для игрока {0-user}: {1-creative}
+commands.creative.success=Временно установлен творческий режим для игрока {0-user}: {1-creative}
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;currentTime (optional)showCalendarTime(true/false)'
-commands.currentTime.description=^c:F2E200;currentTime
+commands.currentTime.description=^c:F2E200;currentTime (опционально)showCalendarTime(true/false) (ТекущееВремя показатьКалендарноеВремя(да/нет))
 //[Reference] 'The day is {0-day} and phase is {1:G2-phase} ({2-time}).'
 commands.currentTime.success=День — {0-day}, время суток — {1:G2-phase} ({2-time}).
 //[Reference] '^c:F2E200;deactivateMurmur ^c:FFFFFF;'
@@ -90,23 +91,23 @@ commands.deactivateMurmur.description=^c:F2E200;deactivateMurmur ^c:FFFFFF;
 //[Reference] 'Successfully deactivated {0-murmur} if it existed.'
 commands.deactivateMurmur.success=Успешная деактивация: {0-murmur} (при наличии).
 //[Reference] '^c:F2E200;demoMode ^c:FFFFFF;(optional)on(true/false)'
-commands.demoMode.description=^c:F2E200;demoMode ^c:FFFFFF;(optional)вкл.(true/false)
+commands.demoMode.description=^c:F2E200;demoMode ^c:FFFFFF;(опционально)on(true/false)
 //[Reference] 'Switched server demo mode to {0-demoMode}'
-commands.demoMode.success=Переключение демонстр. режима сервера: {0-demoMode}
+commands.demoMode.success=Переключен демо режим на {0-demoMode}
 //[Reference] '^c:F2E200;describeitem ^c:FFFFFF;(optional)playerName'
-commands.describeItem.description=^c:F2E200;describeitem ^c:FFFFFF;(optional)имя игрока
+commands.describeItem.description=^c:F2E200;describeitem ^c:FFFFFF;(опционально)НикИгрока
 //[Reference] 'Item description: {0-itemDesc}'
 commands.describeItem.success=Описание предмета: {0-itemDesc}
 //[Reference] '^c:F2E200;ditto ^c:FFFFFF;(optional)playerName villagernpcCode'
-commands.ditto.description=^c:F2E200;ditto ^c:FFFFFF;(optional)имя игрока код НИП
+commands.ditto.description=^c:F2E200;ditto ^c:FFFFFF;(опционально)ИмяИгрока кодНИП
 //[Reference] 'Player {0-playerName} does not have enough inventory space for all npc clothing items'
 commands.ditto.notEnoughSpace=В инвентаре игрока {0-playerName} недостаточно свободного места для всех предметов одежды НИП
 //[Reference] 'Player {0-playerName} disguised successfully'
 commands.ditto.success=Игрок {0-playerName} успешно переодевается
 //[Reference] '^c:F2E200;doemote ^c:FFFFFF;emoteName (optional)useLookatEntity(true/false)'
-commands.doemote.description=^c:F2E200;doemote ^c:FFFFFF;название эмоции (optional)useLookatEntity(true/false)
+commands.doemote.description=^c:F2E200;doemote ^c:FFFFFF;НазваниеЭмоции (опционально)useLookatEntity(true/false)
 //[Reference] '^c:F2E200;emote ^c:FFFFFF;emoteName'
-commands.emote.description=^c:F2E200;emote ^c:FFFFFF;название эмоции
+commands.emote.description=^c:F2E200;emote ^c:FFFFFF;НазваниеЭмоции
 //[Reference] 'No such emote {0-emote}'
 commands.emote.noSuchEmote=Такой эмоции не существует: {0-emote}
 //[Reference] '^c:F2E200;enablecheats^c:FFFFFF;'
@@ -116,7 +117,7 @@ commands.enablecheats.failure=Ошибка разрешения читов.
 //[Reference] 'Cheats have been enabled.'
 commands.enablecheats.success=Читы включены.
 //[Reference] '^c:F2E200;entityInfo ^c:FFFFFF;entityID'
-commands.entityInfo.description=^c:F2E200;entityInfo ^c:FFFFFF;код объекта
+commands.entityInfo.description=^c:F2E200;entityInfo ^c:FFFFFF;КодОбъекта
 //[Reference] 'You need to include an EntityID!'
 commands.entityInfo.entityNumber=Необходимо ввести код объекта!
 //[Reference] 'Invalid EntityID!'
@@ -128,232 +129,243 @@ commands.entityInfo.success=Данные объекта: {0-data}
 //[Reference] 'Entity not found'
 commands.entityNotFound=Объект не найден
 //[Reference] '^c:F2E200;fly ^c:FFFFFF;(optional)playerName (optional)startFlying(true/false)'
-commands.flyMode.description=^c:F2E200;fly ^c:FFFFFF;(optional)имя игрока (optional)startFlying(true/false)
+commands.flyMode.description=^c:F2E200;fly ^c:FFFFFF;(опционально)ИмяИгрока (опционально)startFlying(true/false)(начатьЛетать(да/нет))
 //[Reference] 'Switched flying mode to: {0-flymode}'
-commands.flyMode.success=Переключение режима полета: {0-flymode}
+commands.flyMode.success=Переключен режима полета: {0-flymode}
 //[Reference] '^c:F2E200;forceAchievement ^c:FFFFFF;achievementCode'
-commands.forceAchievement.description=^c:F2E200;forceAchievement ^c:FFFFFF;achievementCode
+commands.forceAchievement.description=^c:F2E200;forceAchievement ^c:FFFFFF;КодДостижения
 //[Reference] 'Missing achievement code.'
 commands.forceAchievement.missingParam=Отсутствует код достижения.
 //[Reference] 'Achievement not found.'
 commands.forceAchievement.noSuchAchievement=Достижение не найдено.
-//TODO Translate [Reference] '^c:F2E200;getUsername ^c:FFFFFF;nickname'
-commands.getUsername.description=
-//TODO Translate [Reference] '{0-nickname}'s username is {1-username}.'
-commands.getUsername.success=
-//TODO Translate [Reference] 'Multiple people found with the nickname: {0-nickname}. They are; {1-usernamelist}.'
-commands.getUsername.successes=
+//[Reference] '^c:F2E200;getUsername ^c:FFFFFF;nickname'
+commands.getUsername.description=^c:F2E200;getUsername ^c:FFFFFF;Ник
+//[Reference] '{0-nickname}'s username is {1-username}.'
+commands.getUsername.success=Имя игрока с ником {0-nickname} - {1-username}.
+//[Reference] 'Multiple people found with the nickname: {0-nickname}. They are; {1-usernamelist}.'
+commands.getUsername.successes='Найдено несколько игроков с ником {0-nickname}. Список имен: {1-usernamelist}.
 //[Reference] '^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)playerName'
-commands.giveallrecipes.description=^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)имя игрока
+commands.giveallrecipes.description=^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)ИмяИгрока
 //[Reference] 'Done!'
 commands.giveallrecipes.success=Выполнено!
 //[Reference] '^c:F2E200;givepetals ^c:FFFFFF;playerName amount'
-commands.givePetals.description=^c:F2E200;givepetals ^c:FFFFFF;количество: имя игрока
+commands.givePetals.description=^c:F2E200;givepetals ^c:FFFFFF;ИмяИгрока Количество
 //[Reference] 'Petal amount needs to be a positive number'
-commands.givePetals.invalidNumber=Количество лепестков должны быть положительным числом
+commands.givePetals.invalidNumber=Количество лепестков должно быть положительным числом
 //[Reference] 'Gave {0-player} {1-amount} petals'
 commands.givePetals.success=Игрок {0-player} получает лепестки: {1-amount}
-//TODO Translate [Reference] 'viaReactions argument must be true or false'
-commands.giveRecipeItems.badArg=
-//TODO Translate [Reference] '^c:F2E200;giveRecipeItems ^c:FFFFFF;recipeCode (optional)viaReactions(true/false)'
-commands.giveRecipeItems.description=
-//TODO Translate [Reference] 'Give recipe items successful'
-commands.giveRecipeItems.success=
+//[Reference] 'viaReactions argument must be true or false'
+commands.giveRecipeItems.badArg=аргумент viaReactions должен быть бинарным true(да) или false(нет)
+//[Reference] '^c:F2E200;giveRecipeItems ^c:FFFFFF;recipeCode (optional)viaReactions(true/false)'
+commands.giveRecipeItems.description=^c:F2E200;giveRecipeItems ^c:FFFFFF;КодРецепта (опционально)viaReactions(true/false)
+//[Reference] 'Give recipe items successful'
+commands.giveRecipeItems.success=Команда получения рецепта выполнена успешно
 //[Reference] '^c:F2E200;? ^c:FFFFFF;(optional)commandName'
-commands.help.altDescription=^c:F2E200;? ^c:FFFFFF;(optional)название команды
+commands.help.altDescription=^c:F2E200;? ^c:FFFFFF;(опционально)Команда (вызов справки по выбранной команде)
 //[Reference] 'Command not found: '{0-command}''
 commands.help.commandNotFound=Команда не найдена: «{0-command}»
 //[Reference] '^c:F2E200;help ^c:FFFFFF;(optional)commandName'
-commands.help.description=^c:F2E200;help ^c:FFFFFF;(optional)название команды
+commands.help.description=^c:F2E200;help ^c:FFFFFF;(опционально)Команда (вызов справки по выбранной команде)
 //[Reference] 'Command list (() brackets denote possible values):'
 commands.help.success=Список команд (() в скобках указывается возможное значение):
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] ?
 commands.inspect.description=
 //[Reference] 'Inspection success.'
 commands.inspect.success=Проверка завершилась успешно.
 //[Reference] 'invalid args'
-commands.invalidArgs=ошибка переменных
+commands.invalidArgs=Ошибочные аргументы
 //[Reference] '^c:F2E200;kick ^c:FFFFFF;playerName'
-commands.kick.description=^c:F2E200;kick ^c:FFFFFF;имя игрока
+commands.kick.description=^c:F2E200;kick ^c:FFFFFF;ИмяИгрока
 //[Reference] 'Unable to kick {0-player}: player is an admin or not online.'
-commands.kick.failure=Ошибка исключения игрока: {0-player} — администратор или не в сети.
+commands.kick.failure=Ошибка выброса из игры, игрок {0-player} администратор или не в сети.
 //[Reference] '{0-player} has been ejected from the server.'
-commands.kick.success=Игрок {0-player} был удален из сервера.
+commands.kick.success=Игрок {0-player} был выдворен из сервера.
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] ?
 commands.loadDesign.description=
 //[Reference] 'loadDesign requires a filename/design code'
-commands.loadDesign.needFileName=loadDesign требует имя файла/код проекта
+commands.loadDesign.needFileName=Команда loadDesign требует параметр ИмяФайла/КодДизайна
 //[Reference] 'No such design {0-design}'
-commands.loadDesign.noSuchDesign=Проект не найден: {0-design}
+commands.loadDesign.noSuchDesign=Дизайн не найден: {0-design}
 //[Reference] 'No such file {0-file}'
 commands.loadDesign.noSuchFile=Файл не найден: {0-file}
 //[Reference] 'Design loaded successfully'
-commands.loadDesign.success=Проект успешно загружен
-//TODO Translate [Reference] '^c:F2E200;magicTeleport ^c:FFFFFF;festivalCode'
-commands.magicTeleport.description=
-//TODO Translate [Reference] 'No such offmap template: {0-template}'
-commands.magicTeleport.template=
-//TODO Translate [Reference] '^c:F2E200;magicTeleportReturn^c:FFFFFF;'
-commands.magicTeleportReturn.description=
+commands.loadDesign.success=Дизайн успешно загружен
+//[Reference] '^c:F2E200;magicTeleport ^c:FFFFFF;festivalCode'
+commands.magicTeleport.description=^c:F2E200;magicTeleport ^c:FFFFFF;festivalCode
+//[Reference] 'No such offmap template: {0-template}'
+commands.magicTeleport.template=Нет такого шаблона карты: {0-template}
+//[Reference] '^c:F2E200;magicTeleportReturn^c:FFFFFF;'
+commands.magicTeleportReturn.description=^c:F2E200;magicTeleportReturn^c:FFFFFF;
 //[Reference] '^c:F2E200;model ^c:FFFFFF;(optional)playerName (optional)modelFileName'
-commands.model.description=^c:F2E200;model ^c:FFFFFF;(optional)имя игрока (optional)modelFileName
+commands.model.description=^c:F2E200;model ^c:FFFFFF;(опционально)ИмяИгрока (опционально)ИмяФайлаМодели
 //[Reference] 'Could not switch to character model '{0-model}' not found in assets.'
-commands.model.notFound=Нельзя сменить модель персонажа на «{0-model}», не найдена в ресурсах.
+commands.model.notFound=Нельзя сменить модель персонажа на «{0-model}», не найдено в ресурсах.
 //[Reference] 'Switched character model to: {0-model}'
-commands.model.success=Смена модели персонажа: {0-model}
+commands.model.success=Сменена модель персонажа на {0-model}
 //[Reference] '^c:F2E200;mute ^c:FFFFFF;playerName (optional[default 60])lengthInMinutes'
-commands.mute.description=^c:F2E200;mute ^c:FFFFFF;имя игрока (optional[default 60])lengthInMinutes
+commands.mute.description=^c:F2E200;mute ^c:FFFFFF;ИмяИгрока (опционально[по умолчанию 60])ВремяМинут
 //[Reference] 'Unable to mute {0-player}: player is an admin.'
-commands.mute.failure=Ошибка блокировки звука игрока: {0-player} — администратор.
+commands.mute.failure=Ошибка мута, игрок {0-player} администратор.
 //[Reference] 'Invalid time (should be in whole minutes)'
-commands.mute.invalidTime=Некорректное время (необходимо ввести полные минуты)
+commands.mute.invalidTime=Некорректное время (необходимо ввести число целых минут)
 //[Reference] '{0-player} has been silenced.'
-commands.mute.success=Звук игрока {0-player} был отключен.
+commands.mute.success=Игрок {0-player} замолк.
 //[Reference] '^c:F2E200;noclip ^c:FFFFFF;(optional)playerName (optional)startNoclip(true/false)'
-commands.noClip.description=^c:F2E200;noclip ^c:FFFFFF;(optional)имя игрока (optional)startNoclip(true/false)
+commands.noClip.description=^c:F2E200;noclip ^c:FFFFFF;(опционально)ИмяИгрока (опционально)startNoclip(true/false)
 //[Reference] 'Switched noclip mode to: {0-noclip}'
-commands.noClip.success=Смена режима камеры без ограничений: {0-noclip}
+commands.noClip.success=Сменен режим неосязаемости на {0-noclip}
 //[Reference] '{0-user} does not have the correct rights to use this command'
 commands.noRights={0-user} не владеет необходимыми правами для использования этой команды
 //[Reference] 'No such player '{0-player}''
 commands.noSuchPlayer=Игрок «{0-player}» не найден
-//TODO Translate [Reference] 'No such player with nickname '{0-player}'.'
-commands.noSuchPlayerNickname=
+//[Reference] 'No such player with nickname '{0-player}'.'
+commands.noSuchPlayerNickname=Нет игроков с ником «{0-player}».
 //[Reference] 'Not a player entity.'
 commands.notAPlayer=Не является игроком.
-//TODO Translate [Reference] 'To demote a player type "op <playername> demote" without quotes.'
-commands.op.demote=
-//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'To demote a player type "op <playername> demote" without quotes.'
+commands.op.demote=Для разжалования игрока введите "op <ИмяИгрока> demote" без кавычек.
 //[Reference] '^c:F2E200;op ^c:FFFFFF;playerName (optional)removePromotion("demote")'
-commands.op.description=^c:F2E200;op ^c:FFFFFF;имя игрока
+commands.op.description=^c:F2E200;op ^c:FFFFFF;ИмяИгрока (опционально)removePromotion("demote")
 //[Reference] 'Unable to promote {0-player}.'
-commands.op.failure=Ошибка передачи прав игроку {0-player}.
+commands.op.failure=Ошибка повышения прав игроку {0-player}.
 //[Reference] '{0-player} has been promoted.'
-commands.op.success=Игрок {0-player} получает права.
-//TODO Translate [Reference] '{0-player} has been demoted.'
-commands.op.success.demoted=
+commands.op.success=Игрок {0-player} получил права администратора.
+//[Reference] '{0-player} has been demoted.'
+commands.op.success.demoted=Игрок {0-player} был разжалован.
 //[Reference] 'Player {0-player} not found.'
 commands.op.userNotFound=Игрок {0-player} не найден.
 //[Reference] '^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime'
-commands.pe.description=^c:F2E200;pe ^c:FFFFFF;выражение псевдонима (optional)отображ. время
+commands.pe.description=^c:F2E200;pe ^c:FFFFFF;КодЖестикуляции (опционально)ВремяОтображения
 //[Reference] '^c:F2E200;plantgrowth'
 commands.plantGrowth.description=^c:F2E200;plantgrowth
 //[Reference] 'Not a plant.'
 commands.plantGrowth.noPlant=Не является растением.
 //[Reference] 'Plant {0-plant} at stage {1-stage}'
 commands.plantGrowth.success=Растение {0-plant} теперь на стадии: {1-stage}
-//TODO Translate [Reference] 'Player {0-player} currently cannot be teleported.'
-commands.playerCantBeTeleported=
+//[Reference] 'Player {0-player} currently cannot be teleported.'
+commands.playerCantBeTeleported=Игрок {0-player} сейчас не может быть телепортирован.
 //[Reference] 'Player Entity not found'
 commands.playerEntityNotFound=Игрок не найден
 //[Reference] '^c:F2E200;players'
-commands.players.description=^c:F2E200;players
+commands.players.description=^c:F2E200;players (команда выдает список игроков на сервере)
 //[Reference] 'Players: {0-playerlist}'
 commands.players.success=Игроки: {0-playerlist}
 //[Reference] '^c:F2E200;playExpression ^c:FFFFFF;expressionCode (optional)displayTime'
-commands.playExpression.description=^c:F2E200;playExpression ^c:FFFFFF;код выражения (optional)отображ. время
+commands.playExpression.description=^c:F2E200;playExpression ^c:FFFFFF;КодЖестикуляции (опционально)ВремяОтображения
 //[Reference] 'Aliases:'
-commands.playExpression.list=Псевдонимы:
+commands.playExpression.list=Жестикуляции:
 //[Reference] 'Expression not found {0-expression}'
-commands.playExpression.noExpression=Выражение не найдено: {0-expression}
+commands.playExpression.noExpression=Жестикуляция не найдена: {0-expression}
 //[Reference] 'Expression played successfully'
-commands.playExpression.success=Выражение успешно воспроизведено
+commands.playExpression.success=Жесты успешно воспроизведены
 //[Reference] '^c:F2E200;position ^c:FFFFFF;(optional)playerName'
-commands.position.description=^c:F2E200;position ^c:FFFFFF;(optional)имя игрока
+commands.position.description=^c:F2E200;position ^c:FFFFFF;(опционально)ИмяИгрока
 //[Reference] 'Failed to find player'
 commands.position.failed=Игрок не найден
 //[Reference] 'Position: {0-position}, Heading: {1-heading}'
-commands.position.success=Положение: {0-position}, заголовок: {1-heading}
+commands.position.success=Положение: {0-position}, Положение головы: {1-heading}
 //[Reference] '^c:F2E200;qs ^c:FFFFFF;(optional)startFlying(true/false)'
-commands.quickStart.altDescription=^c:F2E200;qs ^c:FFFFFF;(optional)startFlying(true/false)
+commands.quickStart.altDescription=^c:F2E200;qs ^c:FFFFFF;(опционально)startFlying(true/false)
 //[Reference] '^c:F2E200;quickStart ^c:FFFFFF;(optional)startFlying(true/false)'
-commands.quickStart.description=^c:F2E200;quickStart ^c:FFFFFF;(optional)startFlying(true/false)
+commands.quickStart.description=^c:F2E200;quickStart ^c:FFFFFF;(опционально)startFlying(true/false)
 //[Reference] 'Quick start success. Switched flying mode to: {0-flymode}'
-commands.quickStart.success=Быстрый запуск выполнен. Переключение режима полета: {0-flymode}
+commands.quickStart.success=Быстрый запуск выполнен. Переключен режим полета на {0-flymode}
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] ?
 commands.rain.description=
 //[Reference] 'Made it a rainy day.'
-commands.rain.success=Смена погоды на дождливую.
+commands.rain.success=Погода изменена на дождливую.
 //[Reference] '^c:F2E200;reload'
 commands.reload.description=^c:F2E200;reload
 //[Reference] 'Reload requested.'
 commands.reload.success=Запрос на перезагрузку.
-//TODO Translate [Reference] '^c:F2E200;resetOffmap ^c:FFFFFF;offmapTemplateCode'
-commands.resetOffmap.description=
-//TODO Translate [Reference] 'Offmap reset complete.'
-commands.resetOffmap.success=
+//[Reference] '^c:F2E200;resetOffmap ^c:FFFFFF;offmapTemplateCode'
+commands.resetOffmap.description=^c:F2E200;resetOffmap ^c:FFFFFF;КодКарты
+//[Reference] 'Offmap reset complete.'
+commands.resetOffmap.success=Сброс карты выполнен.
 //[Reference] '^c:F2E200;resetplayer'
 commands.resetPlayer.description=^c:F2E200;resetplayer
 //[Reference] 'Reset successful.'
 commands.resetPlayer.success=Сброс выполнен.
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] ?
 commands.returnhome.description=
 //[Reference] '^c:F2E200;saveDesign ^c:FFFFFF;fileName'
-commands.saveDesign.description=^c:F2E200;saveDesign ^c:FFFFFF;название файла
+commands.saveDesign.description=^c:F2E200;saveDesign ^c:FFFFFF;ИмяФайла
 //[Reference] 'A filename is required to save a design'
-commands.saveDesign.needFileName=Для сохранения проекта необходимо ввести имя файла
+commands.saveDesign.needFileName=Для сохранения дизайна необходимо ввести имя файла
 //[Reference] 'Character design file saved at {0-path}'
-commands.saveDesign.success=Внешний вид персонажа сохранен в файл {0-path}
+commands.saveDesign.success=Дизайн персонажа сохранен в файл {0-path}
 //[Reference] '^c:F2E200;saveOutfit ^c:FFFFFF;fileName'
-commands.saveOutfit.description=^c:F2E200;saveOutfit ^c:FFFFFF;название файла
+commands.saveOutfit.description=^c:F2E200;saveOutfit ^c:FFFFFF;ИмяФайла
 //[Reference] 'Character outfit file saved at {0-path}'
-commands.saveOutfit.success=Одежда персонажа сохранена в файл {0-path}
+commands.saveOutfit.success=Набор одежды персонажа сохранен в файл {0-path}
 //[Reference] '^c:F2E200;seed'
 commands.seed.description=^c:F2E200;seed
 //[Reference] 'Seed: {0-seed}, World Size: {1-worldSize}x'
-commands.seed.success=Начальное значение: {0-seed}. Размер мира: {1-worldSize}x
+commands.seed.success=Зерно: {0-seed}. Размер мира: {1-worldSize}x
 //[Reference] '^c:F2E200;creativeMode ^c:FFFFFF;(optional)on(true/false)'
-commands.serverCreative.description=^c:F2E200;creativeMode ^c:FFFFFF;(optional)вкл.(true/false)
+commands.serverCreative.description=^c:F2E200;creativeMode ^c:FFFFFF;(опционально)on(true/false)
 //[Reference] 'Switched server creative mode to {0-creative} (persistent)'
 commands.serverCreative.success=Смена творческого режима сервера: {0-creative} (постоянно)
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] ?
 commands.snow.description=
 //[Reference] 'Made it a snowy day.'
-commands.snow.success=Смена погоды на снежную.
+commands.snow.success=Погода изменена на снежную.
 //[Reference] '^c:F2E200;spawncoins ^c:FFFFFF;(optional)playerName petalAmount'
-commands.spawnCoins.description=^c:F2E200;spawncoins ^c:FFFFFF;(optional)имя игрока количество лепестков
+commands.spawnCoins.description=^c:F2E200;spawncoins ^c:FFFFFF;(опционально)ИмяИгрока КоличествоЛепестков
 //[Reference] 'Spawned {0-amount} petals in coins for {1-player}'
-commands.spawnCoins.success={1-player} получает лепестки ({0-amount})
+commands.spawnCoins.success={1-player} получил {0-amount} лепестков 
 //[Reference] '^c:F2E200;spawnitem ^c:FFFFFF;(optional)playerName item(kind/specification{})'
-commands.spawnItem.description=^c:F2E200;spawnitem ^c:FFFFFF;(optional)имя игрока предмет(kind/specification{})
+commands.spawnItem.description=^c:F2E200;spawnitem ^c:FFFFFF;(опционально)ИмяИгрока предмет(тип/спецификации{})
 //[Reference] 'Item not found.'
 commands.spawnItem.notFound=Предмет не найден.
 //[Reference] 'Spawn item successful.'
-commands.spawnItem.success=Предмет появился в игре.
+commands.spawnItem.success=Предмет создан.
 //[Reference] '^c:F2E200;spawnmaterial ^c:FFFFFF;(optional)playerName materialCode'
-commands.spawnMaterial.description=^c:F2E200;spawnmaterial ^c:FFFFFF;(optional)имя игрока код материала
+commands.spawnMaterial.description=^c:F2E200;spawnmaterial ^c:FFFFFF;(опционально)ИмяИгрока КодМатериала
 //[Reference] 'Material kind not found.'
 commands.spawnMaterial.notFound=Материал такого типа не найден.
 //[Reference] 'Spawn material successful'
-commands.spawnMaterial.success=Материал появился в игре.
-//TODO Translate [Reference] '^c:F2E200;spawnStars ^c:FFFFFF;(optional)amount'
-commands.spawnStars.description=
-//TODO Translate [Reference] 'Failed to spawn star bits item.'
-commands.spawnStars.failed=
-//TODO Translate [Reference] 'Star amount is not a valid positive number.'
-commands.spawnStars.invalidNumber=
-//TODO Translate [Reference] 'Spawn star success.'
-commands.spawnStars.success=
+commands.spawnMaterial.success=Материал создан.
+//[Reference] '^c:F2E200;spawnStars ^c:FFFFFF;(optional)amount'
+commands.spawnStars.description=^c:F2E200;spawnStars ^c:FFFFFF;(опционально)количество
+//[Reference] 'Failed to spawn star bits item.'
+commands.spawnStars.failed=Не удалось создать кусочки звезды.
+//[Reference] 'Star amount is not a valid positive number.'
+commands.spawnStars.invalidNumber=Количество должно быть целым положительным числом.
+//[Reference] 'Spawn star success.'
+commands.spawnStars.success=Кусочки звезд созданы.
 //[Reference] '^c:F2E200;spawntile ^c:FFFFFF;(optional)playerName tileCode'
-commands.spawnTile.description=^c:F2E200;spawntile ^c:FFFFFF;(optional)имя игрока код ячейки
+commands.spawnTile.description=^c:F2E200;spawntile ^c:FFFFFF;(optional)ИмяИгрока КодЯчейки
 //[Reference] 'Tile kind not found.'
 commands.spawnTile.notFound=Ячейка такого типа не найдена.
 //[Reference] 'Spawn tile successful.'
-commands.spawnTile.success=Ячейка появляется в игре.
+commands.spawnTile.success=Ячейка появилась в игре.
 //[Reference] '^c:F2E200;stealpetals ^c:FFFFFF;amount (optional)remove(true/false)'
-commands.stealPetals.description=^c:F2E200;stealpetals ^c:FFFFFF;количество (optional)удалить(true/false)
+commands.stealPetals.description=^c:F2E200;stealpetals ^c:FFFFFF;количество (опционально)remove(true/false)
 //[Reference] 'Reset must be true or false.'
 commands.stealPetals.invalidReset=Значение должно быть true или false.
 //[Reference] '{0-player} stole {1-amount} petals'
-commands.stealPetals.success={0-player} крадет лепестки: {1-amount}
+commands.stealPetals.success={0-player} украл {1-amount} лепестков
 //[Reference] '{0-player} is no longer a thief.'
 commands.stealPetals.success.reset={0-player} больше не является вором.
 //[Reference] '{0-player} stole {1-amount} petals. Thief!'
-commands.stealPetals.success.thief={0-player} крадет лепестки: {1-amount}. Воришка!
+commands.stealPetals.success.thief={0-player} украл {1-amount} лепестков. Воришка!
 //[Reference] '^c:F2E200;stopTime ^c:FFFFFF;Stops time'
 commands.stopTime.description=^c:F2E200;stopTime ^c:FFFFFF;Останавливает время
 //[Reference] 'Time Stopped'
 commands.stopTime.stop=Время остановлено
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] ?
 commands.sun.description=
 //[Reference] 'Made it a sunny day.'
-commands.sun.success=Смена погоды на солнечную.
+commands.sun.success=Погода изменена на солнечную.
 //[Reference] '^c:F2E200;teleport ^c:FFFFFF;(optional)playerName location({0,0,0})'
-commands.teleport.description=^c:F2E200;teleport ^c:FFFFFF;(optional)имя игрока место({0,0,0})
+commands.teleport.description=^c:F2E200;teleport ^c:FFFFFF;(опционально)ИмяИгрока координаты({0,0,0})
 //[Reference] '{0-position} is too far to teleport'
 commands.teleport.distance={0-position} — слишком далеко для телепортации
 //[Reference] 'Failed to parse position {0-position}'
@@ -362,14 +374,18 @@ commands.teleport.fail=Ошибка анализа местоположения:
 commands.teleport.success=Телепортация выполнена.
 //[Reference] '^c:F2E200;tp ^c:FFFFFF;movingPlayerName destinationPlayerName'
 commands.teleportPlayer.description=^c:F2E200;tp ^c:FFFFFF;movingPlayerName destinationPlayerName
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] ?
 commands.textToSpeech.description=
 //[Reference] 'Saying text.'
 commands.textToSpeech.success=Произносит речь.
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] ?
 commands.thunder.description=
 //[Reference] 'success'
-commands.thunder.success=успешно
+commands.thunder.success=Погода изменена на грозу.
 //[Reference] '^c:F2E200;tileAt ^c:FFFFFF;(optional)location({0,0,0})'
-commands.tileAt.description=^c:F2E200;tileAt ^c:FFFFFF;(optional)место({0,0,0})
+commands.tileAt.description=^c:F2E200;tileAt ^c:FFFFFF;(опционально)координаты({0,0,0})
 //[Reference] 'Failed to parse position {0-position}'
 commands.tileAt.failParse=Ошибка анализа местоположения: {0-position}
 //[Reference] 'Tile not found'
@@ -384,43 +400,49 @@ commands.toggleTimePassing.description=^c:F2E200;toggleTimePassing ^c:FFFFFF;В�
 commands.toggleTimePassing.resume=Время пошло
 //[Reference] 'Time Stopped'
 commands.toggleTimePassing.stop=Время остановлено
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] ?
 commands.traceStart.description=
 //[Reference] 'Started tracing.'
 commands.traceStart.success=Построение началось.
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] ?
 commands.traceStop.description=
 //[Reference] 'Stopped tracing.'
 commands.traceStop.success=Построение прекратилось.
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] ?
 commands.tripod.description=
 //[Reference] '^c:F2E200;unban ^c:FFFFFF;playerName'
-commands.unban.description=^c:F2E200;unban ^c:FFFFFF;имя игрока
+commands.unban.description=^c:F2E200;unban ^c:FFFFFF;ИмяИгрока
 //[Reference] 'Unable to unban {0-player}: player was not banned.'
-commands.unban.failure=Ошибка разблокировки игрока {0-player}: игрок не был заблокирован.
+commands.unban.failure=Ошибка разблокировки игрока {0-player}: игрок не был забанен.
 //[Reference] '{0-player} has been unbanned from the server.'
-commands.unban.success=Игрок {0-player} был разблокирован на сервере.
+commands.unban.success=Игрок {0-player} был разбанен на сервере.
 //[Reference] 'Unknown command :'{0-command}''
 commands.unknown=Неизвестная команда: «{0-command}»
 //[Reference] 'Unknown error.'
 commands.unknownError=Неизвестная ошибка.
 //[Reference] '^c:F2E200;unmute ^c:FFFFFF;playerName'
-commands.unmute.description=^c:F2E200;unmute ^c:FFFFFF;имя игрока
+commands.unmute.description=^c:F2E200;unmute ^c:FFFFFF;ИмяИгрока
 //[Reference] 'Unable to unmute {0-player}: player is not muted.'
-commands.unmute.failure=Невозможно включить звук игроку {0-player}: звук у игрока не был выключен.
+commands.unmute.failure=Невозможно снять молчание игроку {0-player}: игроку не было включено молчание.
 //[Reference] '{0-player} has regained the ability to speak.'
 commands.unmute.success={0-player} снова может разговаривать.
 //[Reference] 'Unrecognised command :'{0-command}''
 commands.unrecognised=Неизвестная команда: «{0-command}»
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;updateReputation ^c:FFFFFF;villagerName/Code amount'
-commands.updateReputation.description=^c:F2E200;unmute ^c:FFFFFF;имяжителя/число кода
+commands.updateReputation.description=^c:F2E200;updateReputation ^c:FFFFFF;ИмяЖителя/Код величина
 //[Reference] 'Reputation updated to {0-newAmount} for villager {1-villagerCode}'
 commands.updateReputation.success=Изменение репутации до {0-newAmount} для персонажа: {1-villagerCode}
 //[Reference] 'Villager Entity not found'
-commands.villagerEntityNotFound=Житель деревни не найден
-//TODO Translate [Reference] 'Villager not found'
-commands.villagerNotFound=
+commands.villagerEntityNotFound=Указанный житель городка не найден
+//[Reference] 'Villager not found'
+commands.villagerNotFound=Житель не найден
 //[Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
-commands.weather.description=^c:F2E200;weather ^c:FFFFFF;тип (Sun, Rain, Snow, Storm or weather code.)
+commands.weather.description=^c:F2E200;weather ^c:FFFFFF;Тип погоды (Sun, Rain, Snow, Storm или Код типа погоды)
 //[Reference] 'Unable to set weather: {0-weather}. Does not exist.'
-commands.weather.noweather=Невозможно установить погоду: {0-weather}. Не существует.
+commands.weather.noweather=Невозможно установить погоду: {0-weather}. Такого типа не существует.
 //[Reference] 'Set weather to: {0-weather}.'
 commands.weather.success=Погода установлена на: {0-weather}.
