@@ -65,7 +65,7 @@ commands.changeMood.animalNotFound=Нет фокуса на животном
 commands.changeMood.description=^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false) (Настроение увеличить/уменьшить(есть/отсутствует)
 //[Reference] 'Mood altered successfully'
 commands.changeMood.success=Настроение изменено успешно
-//[Reference] '^c:F2E200;changeNickname ^c:FFFFFF;НовыйНик'
+//TODO Translate [Reference] '^c:F2E200;changeNickname ^c:FFFFFF;nickname'
 commands.changeNickname.description=
 //[Reference] 'Nickname changed to {0-newNickname}'
 commands.changeNickname.success=Ник изменен на {0-newNickname}
@@ -318,7 +318,7 @@ commands.snow.success=Погода изменена на снежную.
 //[Reference] '^c:F2E200;spawncoins ^c:FFFFFF;(optional)playerName petalAmount'
 commands.spawnCoins.description=^c:F2E200;spawncoins ^c:FFFFFF;(опционально)ИмяИгрока КоличествоЛепестков
 //[Reference] 'Spawned {0-amount} petals in coins for {1-player}'
-commands.spawnCoins.success={1-player} получил {0-amount} лепестков 
+commands.spawnCoins.success={1-player} получил {0-amount} лепестков
 //[Reference] '^c:F2E200;spawnitem ^c:FFFFFF;(optional)playerName item(kind/specification{})'
 commands.spawnItem.description=^c:F2E200;spawnitem ^c:FFFFFF;(опционально)ИмяИгрока предмет(тип/спецификации{})
 //[Reference] 'Item not found.'
