@@ -8,8 +8,8 @@ achievements.achievementUnlocked=Achievement sbloccato:{0-achievement}
 Alua=
 //TODO Translate [Reference] 'Box Builder Settings'
 BoxPlacerSettings.title=
-//TODO Translate [Reference] 'Save'
-BuildToolSettings.accept=
+//[Reference] 'Save'
+BuildToolSettings.accept=Salva
 //[Reference] 'Buy:'
 catalogue.buy=Compra:
 //[Reference] 'Clear'
@@ -33,16 +33,16 @@ commands.mail.description=
 //[Reference] 'success'
 commands.mail.success=successo
 commands.mailcode.description=
-//TODO Translate [Reference] 'resume'
-commands.stopTime.resume=
-//TODO Translate [Reference] 'success'
-commands.success=
+//[Reference] 'resume'
+commands.stopTime.resume=continua
+//[Reference] 'success'
+commands.success=successo
 commands.togglefreezevillagerposition.description=
 commands.tpvillagerhere.description=
 //[Reference] 'success'
 commands.tripod.success=successo
-//TODO Translate [Reference] '<?>'
-controlHint.class.Missing=
+//[Reference] '<?>'
+controlHint.class.Missing=<?>
 //[Reference] 'Break'
 controlHint.verb.Break=Rompi
 //[Reference] 'Buy'
@@ -79,8 +79,8 @@ controlHint.verb.default.Interact=Interagisci
 controlHint.verb.default.ManualRestart=Ricomincia
 //[Reference] 'Memorise'
 controlHint.verb.default.Memorise=Memorizza
-//TODO Translate [Reference] 'Open'
-controlHint.verb.default.Open=
+//[Reference] 'Open'
+controlHint.verb.default.Open=Apri
 //[Reference] 'Replace'
 controlHint.verb.default.reDock=Ripiazza
 //[Reference] 'Rotate'
@@ -97,10 +97,10 @@ controlHint.verb.default.Use=Usa
 controlHint.verb.Dig=Scava
 //[Reference] 'Fill'
 controlHint.verb.Fill=Riempi
-//TODO Translate [Reference] 'Finish'
-controlHint.verb.Finish=
-//TODO Translate [Reference] 'Give'
-controlHint.verb.Give=
+//[Reference] 'Finish'
+controlHint.verb.Finish=Finisci
+//[Reference] 'Give'
+controlHint.verb.Give=Dai
 //[Reference] 'Inspect'
 controlHint.verb.Inspect=Controlla
 //[Reference] 'Launch'
@@ -117,16 +117,16 @@ controlHint.verb.Play=Gioca
 controlHint.verb.Pull=Tira
 //[Reference] 'Reap'
 controlHint.verb.Reap=Mieti
-//TODO Translate [Reference] 'Refill'
-controlHint.verb.Refill=
+//[Reference] 'Refill'
+controlHint.verb.Refill=Ricarica
 //[Reference] 'Rename'
 controlHint.verb.Rename=Rinomina
 //[Reference] 'Reset'
 controlHint.verb.Reset=Resetta
 //[Reference] 'Resize'
 controlHint.verb.Resize=Ridimensiona
-//TODO Translate [Reference] 'Return'
-controlHint.verb.Return=
+//[Reference] 'Return'
+controlHint.verb.Return=Indietro
 //[Reference] 'Sell'
 controlHint.verb.Sell=Vendi
 //[Reference] 'Sell Back'
@@ -141,8 +141,8 @@ controlHint.verb.Sleep=Dormi
 controlHint.verb.Sweep=Spazzare
 //[Reference] 'Chat'
 controlHint.verb.Talk=Parla
-//TODO Translate [Reference] 'Teleport'
-controlHint.verb.Teleport=
+//[Reference] 'Teleport'
+controlHint.verb.Teleport=Teletrasporto
 //[Reference] 'Till'
 controlHint.verb.Till=Ara
 //[Reference] 'Water'
@@ -157,8 +157,8 @@ controllerHints.materialPick=Raccolta veloce del materiale
 controllerHints.movement=Movimento
 //[Reference] 'Place and Rotate'
 controllerHints.placeAndRotate=Piazza e Ruota
-//TODO Translate [Reference] '{0-recipeKeyword} ({1-number}x)'
-crafting.action.active.multiple=
+//[Reference] '{0-recipeKeyword} ({1-number}x)'
+crafting.action.active.multiple={0-recipeKeyword} ({1-number}x)
 //[Reference] 'Assemble'
 crafting.action.keyword.assemble=Assembla
 //[Reference] 'Bake'
@@ -177,8 +177,8 @@ crafting.action.keyword.construct=Costruisci
 crafting.action.keyword.cut=Taglia
 //[Reference] 'Fry'
 crafting.action.keyword.fry=Friggi
-//TODO Translate [Reference] 'Conjure'
-crafting.action.keyword.magic=
+//[Reference] 'Conjure'
+crafting.action.keyword.magic=Evoca
 //[Reference] 'Mix'
 crafting.action.keyword.mix=Mixa
 //[Reference] 'Polish'
@@ -191,8 +191,8 @@ crafting.action.keyword.saw=Sega
 crafting.action.keyword.tile=Piastrella
 //[Reference] '{0-itemOne}, {1-itemTwo}'
 crafting.action.task.listedItems={0-itemOne}, {1-itemTwo}
-//TODO Translate [Reference] '({1-number}x) {0-recipeTask}'
-crafting.action.task.makeMultiple=
+//[Reference] '({1-number}x) {0-recipeTask}'
+crafting.action.task.makeMultiple=({1-number}x) {0-recipeTask}
 //[Reference] '{0-keyword} {1-listedItems} and {2-lastListedItem}'
 crafting.action.task.multiItem={0-keyword} {1-listedItems} e {2-lastListedItem}
 //[Reference] '{0-count}x {1-item}'
@@ -205,15 +205,14 @@ crafting.notifications.failedCraft=Questa non era una ricetta, Oops!
 crafting.notifications.notACraft=Non puoi fare nulla con questi oggetti...
 //[Reference] 'You don't have enough reagents anymore.'
 crafting.notifications.NotEnough=Non hai più abbastanza reagenti.
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'The recipe for {0-item} was just completed!'
 crafting.recipeComplete=Hai completato la ricetta per {0-item}!
 //[Reference] 'Helped out with the Staxel interface.'
 credits.13lueWolf.description=Aiutato con l'interfaccia Staxel
 //[Reference] 'He helped out a bunch with the programming of the game.'
 credits.amos.description=Ha aiutato un sacco con la programmazione del gioco.
-//TODO Translate [Reference] 'Resident bug fixer and environment designer, works on everything from UI to sponges and mining caverns.'
-credits.arcadiax.description=
+//[Reference] 'Resident bug fixer and environment designer, works on everything from UI to sponges and mining caverns.'
+credits.arcadiax.description=Residenza risolutore di bug progettista di ambienti, lavora su tutto, dall'UI alle spugne e alle caverne minerarie.
 //[Reference] 'Back to main menu'
 credits.back=Torna al menù
 //[Reference] 'Is Staxel's sound designer. He's oblivious to the luxury of listening to music while he works.'
@@ -242,10 +241,10 @@ credits.sledra.description=Aiutato a mantenere la squadra in pista e impegnata.
 credits.solatrus.description=Ha contribuito con alcune splendide colonne sonore per Staxel.
 //[Reference] 'Special Thanks'
 credits.specialThanks=Ringraziamenti speciali
-//TODO Translate [Reference] '13lueWolf, Alan-FGR, AlexRol, Androkai, Anguaji, ChelseaSaunders, DarkTomGames, Darkosto, DeamonHunter, Demanrisu, Elske, FasterThanLime, GeorgeV, Hevedy, Hogemaru, HumbleBundle, Imke, JassonMcMorris, JonOlick'
-credits.specialThanks.1.description=
-//TODO Translate [Reference] 'Leth, Lewis, MightyBorlaug, Notch, NoxyWoxy, Paniq, ProfMobius, Rho, RobTheSwan, RyanClark, Searge, Sledra, Sola3555, Solatrus, Spidersouris, TommasoChecchi, TynanSylvester, VirtualVel, W92Baj, Wout, Y2bcrazy'
-credits.specialThanks.2.description=
+//[Reference] '13lueWolf, Alan-FGR, AlexRol, Androkai, Anguaji, ChelseaSaunders, DarkTomGames, Darkosto, DeamonHunter, Demanrisu, Elske, FasterThanLime, GeorgeV, Hevedy, Hogemaru, HumbleBundle, Imke, JassonMcMorris, JonOlick'
+credits.specialThanks.1.description=13lueWolf, Alan-FGR, AlexRol, Androkai, Anguaji, ChelseaSaunders, DarkTomGames, Darkosto, DeamonHunter, Demanrisu, Elske, FasterThanLime, GeorgeV, Hevedy, Hogemaru, HumbleBundle, Imke, JassonMcMorris, JonOlick
+//[Reference] 'Leth, Lewis, MightyBorlaug, Notch, NoxyWoxy, Paniq, ProfMobius, Rho, RobTheSwan, RyanClark, Searge, Sledra, Sola3555, Solatrus, Spidersouris, TommasoChecchi, TynanSylvester, VirtualVel, W92Baj, Wout, Y2bcrazy'
+credits.specialThanks.2.description=Leth, Lewis, MightyBorlaug, Notch, NoxyWoxy, Paniq, ProfMobius, Rho, RobTheSwan, RyanClark, Searge, Sledra, Sola3555, Solatrus, Spidersouris, TommasoChecchi, TynanSylvester, VirtualVel, W92Baj, Wout, Y2bcrazy
 //[Reference] 'He is the artist. He has worked hard to produce all the in game models, and make the game as visually appealing as possible.'
 credits.steampunkstein.description=Lui è l'artista. Ha lavorato duramente per produrre tutti i modelli di gioco e rendere il gioco il più accattivante possibile.
 //[Reference] 'He is the assistant producer, involved with the game design and generally has a finger in every pie.'
@@ -264,56 +263,56 @@ debug.MissingNotification=Notifica mancante:{0-notificationCode}
 error.back=Indietro
 //[Reference] 'Bad Version'
 error.badVersion=Versione sbagliata
-//TODO Translate [Reference] 'Failed to connect to server. Address: {0-address} ErrorMessage: {1-message}'
-error.failedToConnect=
+//[Reference] 'Failed to connect to server. Address: {0-address} ErrorMessage: {1-message}'
+error.failedToConnect=Impossibile connettersi al server. Indirizzo: {0-address} Errore: {1-message}
 //[Reference] 'Server Full'
 error.serverFull=Server pieno
 //[Reference] 'The Staxel.net server appears to be offline. Please try again later.'
 error.serverOffline=I server Staxel.net sembrano offline. Perfavore prova più tardi.
 //[Reference] 'SORRY!'
 error.sorry=SCUSA!
-//TODO Translate [Reference] 'You have been banned from this server.'
-error.startGame.banned=
-//TODO Translate [Reference] 'Connection Closed'
-error.startGame.connectionClosed=
-//TODO Translate [Reference] 'Cannot start a local private server for single player mode.{0-newLine}Is another copy of the game still running?{1-newLine}'
-error.startGame.gameRunning=
-//TODO Translate [Reference] 'Invalid credentials.'
-error.startGame.invalidCredential=
-//TODO Translate [Reference] 'Unable to open a file needed for the server. Is another copy of this world still running?'
-error.startGame.ioexception=
-//TODO Translate [Reference] 'Local game closed unexpectedly.'
-error.startGame.localGameUnexpected=
-//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.'
-error.startGame.localTcp=
-//TODO Translate [Reference] 'Connection closed because a new connection was made by the same player.'
-error.startGame.muliLogin=
-//TODO Translate [Reference] 'Not logged in.'
-error.startGame.notLoggedIn=
-//TODO Translate [Reference] 'A premium account is required to play on this server.'
-error.startGame.premiumAccount=
-//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed quickly before client could connect.'
-error.startGame.quickNoConnect=
-//TODO Translate [Reference] 'Server is set to allow only accounts with special attributes.'
-error.startGame.specialAttributes=
-//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Timeout on trying to connect with local server.'
-error.startGame.timeout=
-//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed very quickly before client could connect.'
-error.startGame.veryQuickNoConnect=
-//TODO Translate [Reference] 'Weak credentials not allowed by server.'
-error.startGame.weakCredential=
+//[Reference] 'You have been banned from this server.'
+error.startGame.banned=Sei stato bannato da questo server.
+//[Reference] 'Connection Closed'
+error.startGame.connectionClosed=Connessione Persa
+//[Reference] 'Cannot start a local private server for single player mode.{0-newLine}Is another copy of the game still running?{1-newLine}'
+error.startGame.gameRunning=Impossibile avviare un server privato locale per la modalità single player.{0-newLine}È in esecuzione un'altra copia del gioco?{1-newLine}
+//[Reference] 'Invalid credentials.'
+error.startGame.invalidCredential=Credenziali non valide.
+//[Reference] 'Unable to open a file needed for the server. Is another copy of this world still running?'
+error.startGame.ioexception=Impossibile aprire un file necessario per il server. È in esecuzione un'altra copia del gioco?
+//[Reference] 'Local game closed unexpectedly.'
+error.startGame.localGameUnexpected=Il gioco locale si è chiuso inaspettatamente.
+//[Reference] 'Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.'
+error.startGame.localTcp=Il gioco non è riuscito ad avviare un server privato locale per la modalità giocatore singolo. Il server è stato chiuso prima che il client potesse stabilire una connessione tcp locale.
+//[Reference] 'Connection closed because a new connection was made by the same player.'
+error.startGame.muliLogin=Connessione chiusa perché è stata effettuata una nuova connessione dallo stesso giocatore.
+//[Reference] 'Not logged in.'
+error.startGame.notLoggedIn=Accesso non effettuato.
+//[Reference] 'A premium account is required to play on this server.'
+error.startGame.premiumAccount=Per giocare su questo server è necessario un account premium.
+//[Reference] 'Game failed to start a local private server for single player mode. Server closed quickly before client could connect.'
+error.startGame.quickNoConnect=Il gioco non è riuscito ad avviare un server privato locale per la modalità giocatore singolo. Il server si è chiuso rapidamente prima che il client potesse connettersi.
+//[Reference] 'Server is set to allow only accounts with special attributes.'
+error.startGame.specialAttributes=Il server è impostato per consentire l'accesso solo ad account con attributi speciali.
+//[Reference] 'Game failed to start a local private server for single player mode. Timeout on trying to connect with local server.'
+error.startGame.timeout=Il gioco non è riuscito ad avviare un server privato locale per la modalità giocatore singolo. Il tentativo di connessione con il server locale ha impiegato troppo tempo.
+//[Reference] 'Game failed to start a local private server for single player mode. Server closed very quickly before client could connect.'
+error.startGame.veryQuickNoConnect=Il gioco non è riuscito ad avviare un server privato locale per la modalità giocatore singolo. Il server si è chiuso molto rapidamente prima che il client potesse connettersi.
+//[Reference] 'Weak credentials not allowed by server.'
+error.startGame.weakCredential=Credenziali deboli non consentite dal server.
 //[Reference] 'Cancel'
 escapemenu.cancel=Annulla
 //[Reference] 'Are you sure you want to exit to desktop? Progress is saved automatically.'
 escapemenu.confirmExit=Sei sicuro di tornare al desktop? I progressi sono salvati automaticamente
 //[Reference] 'Are you sure you want to exit to desktop?'
 escapemenu.confirmExitMultiplayer=Sei sicuro di tornare al desktop?
-//TODO Translate [Reference] 'Are you sure you want to return home? It will cost 5% of your petals.'
-escapemenu.confirmTeleport=
+//[Reference] 'Are you sure you want to return home? It will cost 5% of your petals.'
+escapemenu.confirmTeleport=Sei sicuro di voler tornare a casa? Costerà il 5% dei tuoi petali.
 //[Reference] 'Exit'
 escapemenu.exit=Esci
-//TODO Translate [Reference] 'Return Home'
-escapemenu.teleport=
+//[Reference] 'Return Home'
+escapemenu.teleport=Torna a casa
 //[Reference] 'Back to Game'
 escapeMenu.back=Continua
 //[Reference] 'Character Designer'
@@ -336,12 +335,12 @@ FaceExtruderSettings.title=
 fishing.gotAway=È scappato!
 //[Reference] 'Something is on the hook!'
 fishing.hooked=Qualcosa è all'amo
-//TODO Translate [Reference] 'Hold {0-button} {1-description} to keep reeling...'
-fishing.message.Reel=
-//TODO Translate [Reference] 'button'
-fishing.message.Reel.Mouse=
-//TODO Translate [Reference] 'Careful! You might snap the fishing line!'
-fishing.message.Release=
+//[Reference] 'Hold {0-button} {1-description} to keep reeling...'
+fishing.message.Reel=Tieni premuto {0-button} {1-description} per continuare ad avvolgere...
+//[Reference] 'button'
+fishing.message.Reel.Mouse=pulsante
+//[Reference] 'Careful! You might snap the fishing line!'
+fishing.message.Release=Attento! Potresti spezzare la lenza!
 //[Reference] 'There are no fish here'
 fishing.noFish=Non ci sono pesci qui
 //[Reference] 'GOT IT!'
@@ -384,8 +383,8 @@ hintText.inspectedEntity={0-name}
 hintText.inventoryFull=Inventario Pieno
 //[Reference] 'Need at least {0-count} slots in inventory'
 hintText.inventorySpaceNeeded=Hai bisogno di almeno {0-count} nell'inventario
-//TODO Translate [Reference] 'Your journal has been updated!'
-hintText.journalUpdate=
+//[Reference] 'Your journal has been updated!'
+hintText.journalUpdate=Il tuo diario è stato aggiornato!
 //[Reference] 'Kind: {0-itemCode}'
 hintText.kind=Kind: {0-itemCode}
 //[Reference] 'The light will turn on after a few seconds'
@@ -414,8 +413,8 @@ hintText.thiefSteal=Hai rubato {0-amount} Petals! {1-theft}
 hintText.thiefThief=Ladro! Verrai dimenticato nel tempo
 //[Reference] 'Stealing has consequences.'
 hintText.thiefWarning=Rubare ha conseguenze
-//TODO Translate [Reference] 'The {0-tool} cannot catch that bug!'
-hintText.wrongBugTool=
+//[Reference] 'The {0-tool} cannot catch that bug!'
+hintText.wrongBugTool=L'utensile, {0-tool}, non può catturare un insetto
 //[Reference] 'true'
 language.validated=Vero
 //TODO Translate [Reference] 'Line Builder Settings'
@@ -438,7 +437,6 @@ multiplayerMenu.joinServer=Entra nel server
 multiplayerMenu.playWithFriends=Gioca con gli amici
 //TODO Translate [Reference] 'Play With Friends'
 multiplayerMenu.playWithFriendsStandalone=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Server Address:'
 multiplayerMenu.serverIP=Server IP:
 //[Reference] 'Server List'
@@ -451,10 +449,10 @@ notifications.festivalCantStart=Il festival richiede importanti struttire e non 
 notifications.festivalEnded=La sagra è finita
 //[Reference] 'It looks like something is happening in the village!'
 notifications.festivalStarted=Sembra che sta accadendo qualcosa nel villaggio
-//TODO Translate [Reference] 'The harvest festival has started!'
-notifications.harvestFestivalStarted=
-//TODO Translate [Reference] 'You can't break that during festivals.'
-notifications.unbreakableFestivalTotem=
+//[Reference] 'The harvest festival has started!'
+notifications.harvestFestivalStarted=Il festival del raccolto è iniziato!
+//[Reference] 'You can't break that during festivals.'
+notifications.unbreakableFestivalTotem=Non puoi romperlo durante i festival.
 //[Reference] 'Options'
 options=Opzioni
 //[Reference] 'Admin'
@@ -492,8 +490,8 @@ options.audio.description=Imposta le opzioni audio qui
 options.auto=Auto
 //[Reference] '(X)'
 options.backButton=(X)
-//TODO Translate [Reference] 'Destructive Mode'
-options.boxtool.destructive=
+//[Reference] 'Destructive Mode'
+options.boxtool.destructive=Modalità Distruzione
 //TODO Translate [Reference] 'Determines whether or not the tool will destroy tiles in the way when creating a box'
 options.boxtool.destructive.description=
 //TODO Translate [Reference] 'Hollow Mode'
@@ -544,16 +542,16 @@ options.gameplay.description=Imposta le opzioni di gameplay qui
 options.gameplay.input=Input
 //[Reference] 'Enable Repeating'
 options.gameplay.input.enableRepeat=Abilita ripetizione
-//TODO Translate [Reference] 'Controls'
-options.gameplay.keyBindings=
+//[Reference] 'Controls'
+options.gameplay.keyBindings=Controlli
 //[Reference] 'Keyboard'
 options.gameplay.keyboard=Tastiera
 //[Reference] 'Mouse'
 options.gameplay.mouse=Mouse
 //[Reference] 'Flip Wheel Direction'
 options.gameplay.mouse.flipWheelDirection=Inverti direzione rotella
-//TODO Translate [Reference] 'Flip X Axis'
-options.gameplay.mouse.flipX=
+//[Reference] 'Flip X Axis'
+options.gameplay.mouse.flipX=Inverti asse X
 //[Reference] 'Flip Y Axis'
 options.gameplay.mouse.flipY=Inverni asse Y
 //[Reference] 'Mouse Velocity:'
@@ -564,14 +562,14 @@ options.gameplay.mouse.smoothingFactor=
 options.gameplay.other=Altro
 //[Reference] 'Active Achievement Tracker'
 options.gameplay.other.activeAchievement=Attiva tracciamento Achivement
-//TODO Translate [Reference] 'Auto Pickup Items'
-options.gameplay.other.autoPickupItems=
+//[Reference] 'Auto Pickup Items'
+options.gameplay.other.autoPickupItems=Raccolta automatica degli oggetti
 //[Reference] 'Text Speed:'
 options.gameplay.other.ChatSpeed=Velocita scrittura:
 //[Reference] 'Chat Timestamps'
 options.gameplay.other.chatTimestamps=Chat Timestamp
-//TODO Translate [Reference] 'Fishing Timeout'
-options.gameplay.other.FishingTimeout=
+//[Reference] 'Fishing Timeout'
+options.gameplay.other.FishingTimeout=Tempo per la pesca scaduto
 //[Reference] 'Left Handed Mode'
 options.gameplay.other.leftHandedMode=Modalità mancino
 //[Reference] 'Scale UI with resolution'
@@ -588,15 +586,14 @@ options.gameplay.other.showWrongToolNotifications=
 options.gameplay.other.StepWiseUIScale=Non allungare UI
 //[Reference] 'Prevent NPC Staring'
 options.gameplay.other.StopNPCStaring=Prevenire l'NPC Staring
-//TODO Translate [Reference] 'Player Speed'
-options.gameplay.other.WalkingSpeedMultiplier=
-//TODO Translate [Reference] 'StaxelNet'
-options.gameplay.StaxelNet=
+//[Reference] 'Player Speed'
+options.gameplay.other.WalkingSpeedMultiplier=Velocità giocatore
+//[Reference] 'StaxelNet'
+options.gameplay.StaxelNet=StaxelNet
 //TODO Translate [Reference] 'Relay'
 options.gameplay.StaxelNet.Relay=
 //[Reference] 'UI'
 options.gameplay.ui=UI
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Resolution:'
 options.gameplay.ui.FullScreenResolution=Risoluzione:
 //[Reference] 'UI Scale:'
@@ -623,18 +620,18 @@ options.general.graphics.autoDetect=Auto rileva impostazioni grafiche
 options.general.graphics.bloom=Sfocatura
 //[Reference] 'Borderless Window'
 options.general.graphics.borderless=Finestra senza bordi
-//TODO Translate [Reference] 'Brightness'
-options.general.graphics.brightness=
+//[Reference] 'Brightness'
+options.general.graphics.brightness=Luminosità
 //[Reference] 'Camera Distance:'
 options.general.graphics.cameraDistance=Distanza camera:
-//TODO Translate [Reference] 'Contrast'
-options.general.graphics.contrast=
+//[Reference] 'Contrast'
+options.general.graphics.contrast=Contrasto
 //[Reference] 'Field Of View:'
 options.general.graphics.fieldOfView=FOV:
 //[Reference] 'Fullscreen'
 options.general.graphics.fullscreen=Risoluzione
-//TODO Translate [Reference] 'Gamma'
-options.general.graphics.gamma=
+//[Reference] 'Gamma'
+options.general.graphics.gamma=Gamma
 //[Reference] 'Half Resolution'
 options.general.graphics.halfResolution=Metà risoluzione
 //[Reference] 'High'
@@ -663,8 +660,8 @@ options.general.graphics.MultiSampling=Multi Sampling
 options.general.graphics.reducedViewRange=Riduci distanza visiva
 //TODO Translate [Reference] 'Reset Sliders'
 options.general.graphics.resetSliders=
-//TODO Translate [Reference] 'Saturation'
-options.general.graphics.saturation=
+//[Reference] 'Saturation'
+options.general.graphics.saturation=Saturazione
 //[Reference] 'Shadows'
 options.general.graphics.shadows=Ombre
 //TODO Translate [Reference] 'shoulder Height'
