@@ -1,0 +1,127 @@
+language.code=en-GB
+language=English
+
+staxel.totemRequirement.Category=Any of category
+staxel.totemRequirement.Building=Building
+staxel.totemRequirement.Tile=Tile/Object
+staxel.totemEntry.Roof=Has Roof
+staxel.totemEntry.AwayFromTownCount={0-tiles} Tiles away
+staxel.totem.outsideWorld=Inside of the Island
+
+staxel.wardrobe.Wearing=Wearing
+staxel.wardrobe.NoEmptyInventorySlots=Could not remove accessory as your inventory is full
+
+staxel.menu.PressButtonToStart=Press {0-button} to start
+staxel.menu.GettingProfile=Getting profile...
+staxel.menu.ChangeLanguage=^b:MenuExtra1; Change Language //Todo: Change Button
+staxel.menu.ChangeUser=^b:MenuExtra2; Change User //Todo: Change Button
+staxel.menu.ChangeLanguageNoButton=Change Language
+
+staxel.menu.controller.Disconnected=Controller Disconnected
+staxel.menu.controller.RequestReconnect=Please reconnect your controller to continue
+staxel.menu.controller.Reconnected=Controller Reconnected
+staxel.menu.controller.ReconnectedContinue=Press ^b:MenuMain; to continue
+
+staxel.menu.autosaveHint.Title=Autosave
+staxel.menu.autosaveHint.Description=This game uses an autosave feature. Please don’t exit the game or turn off the system while this icon is shown.
+staxel.menu.autosaveHint.Accept=Accept
+staxel.menu.userChanged.Title=User Changed
+staxel.menu.userChanged.Description=The player user has been changed without properly exiting the game. \n \n Change back to the original user to ensure no progress is lost.
+staxel.menu.userChanged.ChangeUser=Change user
+staxel.menu.userChanged.LeaveWithoutSaving=Leave without saving
+
+staxel.menu.playerList.Title=Player List
+staxel.menu.playerList.banned.Title=Banned Players
+staxel.menu.playerList.Back=Back
+staxel.menu.playerList.options.Title=Player Options
+staxel.menu.playerList.options.KickConfirm=Are you sure you want to kick this player?
+staxel.menu.playerList.options.BanConfirm=Are you sure you want to ban this player?
+staxel.menu.playerList.options.UnbanConfirm=Are you sure you want to unban this player?
+staxel.menu.playerList.banned.Unban=Unban
+
+staxel.menu.mail.AcceptError=Ok
+staxel.menu.mail.error.BadPetalInput=Couldn't create mail. You entered an invalid petal number.
+staxel.menu.mail.error.NotEnoughPetals=Couldn't create mail. You don't have enough petals.
+staxel.menu.mail.error.NoSubject=Couldn't create mail. You need to enter a subject.
+staxel.menu.mail.error.NoRecipient=Couldn't create mail. You need to select a recipient.
+
+recipeBook.grouping.NoGrouping=Any Group
+
+//Errors
+staxel.connection.VersionMismatch=Version Mismatch. Your version of this game does not match that of the server's. Please ensure you are running the same version of the game.
+staxel.connection.ConnectionFailure=Connection Failure. The connection to the server has been closed.
+staxel.connection.ProtocolError=Protocol Failure. An error occured while trying to communicate with server.
+staxel.connection.InvalidPassword=Entry to server was denied. The entered password was wrong.
+staxel.connection.EntryDenied=Entry to server was denied.
+
+//Control Hints
+controlHint.verb.default.Close=Close
+
+//Commands
+staxel.commands.spawnStarBits.InvalidCount=Parameter should be a number
+staxel.commands.spawnStarBits.Success=Successfully spawned {0-count} starbits
+
+staxel.commands.setGlobal.Success=Successfully set the global '{0-globalName}' to {1-globalValue}.
+
+staxel.commands.sendMail.NoMailCode=No mail definition found with code: '{0-mailCode}'
+staxel.commands.sendMail.NoPlayer=No player found: '{0-player}'
+staxel.commands.sendMail.Success=Mail sent successfully!
+staxel.commands.sendMail.Invalid=Invalid arguments. Can be: \n [recipient (optional)] [mail code] \n [recipient (optional)] [subject] [body] [petals]
+
+staxel.commands.createMail.Success=Mail created successfully!
+staxel.commands.createMail.NoUser=Couldn't find a mail recipient with that name.
+staxel.commands.createMail.Invalid=Invalid arguments. Must be: \n [recipient] [subject] [body] [petals]
+
+//Notifications
+staxel.notification.LeaveDock=Press {0-button} to leave
+
+staxel.notification.TotemRegionInUse=You can't break that. The region is being used.
+staxel.totem.UnbreakableTotem=Totem is protected, protection must be disable in order to break it.
+
+staxel.transformation.CantTransform=Not prepared to transform yet!
+staxel.transformation.NotTransformed=You are not transformed!
+
+staxel.notification.mail.Sent=Your letter has been sent.
+
+staxel.notifications.WeakTool=This tool isn't strong enough.
+
+//Other
+staxel.merchant.RequiresGlobal=You need to get permission to buy this!
+staxel.docks.SellboxNameTag={0-money}
+staxel.priceTag.Common={0-price}: {1-item}
+
+//Tooltips
+staxel.overlay.ConsoleScreen.input.title=Console
+staxel.overlay.ConsoleScreen.input.tooltip=Enter a console command
+
+staxel.overlay.GameScreen.chat.input.title=Chat
+staxel.overlay.GameScreen.chat.input.tooltip=Send a message in chat
+
+nexel.ui.mainMenu.Multiplayer.hostAddress.title=Host Address
+nexel.ui.mainMenu.Multiplayer.hostAddress.tooltip=Address of the host game
+nexel.ui.mainMenu.Multiplayer.password.title=Password
+nexel.ui.mainMenu.Multiplayer.password.tooltip=Password of the host game
+
+staxel.item.tool.Renamer.name=Renamer
+staxel.item.tool.Renamer.tooltip=Enter a new name
+
+staxel.overlay.catalogue.ShopPage.searchAndFilters.title=Catalogue Search
+staxel.overlay.catalogue.ShopPage.searchAndFilters.tooltip=Enter a search term
+
+characterDesigner.name.title=Character Name
+characterDesigner.name.tooltip=Set your character name
+
+staxel.overlay.CreativeMenu.creativeSearch.title=Creative Search
+staxel.overlay.CreativeMenu.creativeSearch.tooltip=Enter a search term
+
+staxel.overlay.inventory.Recipes.recipeSearch.title=Recipe Search
+staxel.overlay.inventory.Recipes.recipeSearch.tooltip=Enter a search term
+
+staxel.overlay.inventory.MailCounter.Subject.title=Mail Subject
+staxel.overlay.inventory.MailCounter.Subject.tooltip=Enter a subject for the mail
+
+staxel.overlay.inventory.MailCounter.Body.title=Mail Body
+staxel.overlay.inventory.MailCounter.Body.tooltip=Enter your mail message
+
+staxel.overlay.inventory.MailCounter.Petals.title=Petals
+staxel.overlay.inventory.MailCounter.Petals.tooltip=How many petals you wish to send
