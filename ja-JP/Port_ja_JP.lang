@@ -1,179 +1,178 @@
 ﻿language.code=ja-JP
 language=日本語
 //TODO Translate [Reference] 'Character Name'
-characterDesigner.name.title=
+characterDesigner.name.title=キャラクター名
 //TODO Translate [Reference] 'Set your character name'
-characterDesigner.name.tooltip=
+characterDesigner.name.tooltip=キャラクター名を指定
 //TODO Translate [Reference] 'Close'
-controlHint.verb.default.Close=
+controlHint.verb.default.Close=閉じる
 //TODO Translate [Reference] 'Host Address'
-nexel.ui.mainMenu.Multiplayer.hostAddress.title=
+nexel.ui.mainMenu.Multiplayer.hostAddress.title=ホストアドレス
 //TODO Translate [Reference] 'Address of the host game'
-nexel.ui.mainMenu.Multiplayer.hostAddress.tooltip=
+nexel.ui.mainMenu.Multiplayer.hostAddress.tooltip=ホストゲームのアドレス
 //TODO Translate [Reference] 'Password'
-nexel.ui.mainMenu.Multiplayer.password.title=
+nexel.ui.mainMenu.Multiplayer.password.title=パスワード
 //TODO Translate [Reference] 'Password of the host game'
-nexel.ui.mainMenu.Multiplayer.password.tooltip=
+nexel.ui.mainMenu.Multiplayer.password.tooltip=ホストゲームのパスワード
 //TODO Translate [Reference] 'Any Group'
-recipeBook.grouping.NoGrouping=
+recipeBook.grouping.NoGrouping=すべてのグループ
 //TODO Translate [Reference] 'Invalid arguments. Must be: \n [recipient] [subject] [body] [petals]'
-staxel.commands.createMail.Invalid=
+staxel.commands.createMail.Invalid=無効な引数です。以下のようにする必要があります：\n [受信者] [件名] [本文] [ペタル]
 //TODO Translate [Reference] 'Couldn't find a mail recipient with that name.'
-staxel.commands.createMail.NoUser=
+staxel.commands.createMail.NoUser=この名前のメールの受信者が見つかりませんでした。
 //TODO Translate [Reference] 'Mail created successfully!'
-staxel.commands.createMail.Success=
+staxel.commands.createMail.Success=メールが作成されました！
 //TODO Translate [Reference] 'Invalid arguments. Can be: \n [recipient (optional)] [mail code] \n [recipient (optional)] [subject] [body] [petals]'
-staxel.commands.sendMail.Invalid=
+staxel.commands.sendMail.Invalid=無効な引数です。以下の形式にする必要があります：\n [recipient (optional)] [mail code] \n [recipient (optional)] [subject] [body] [petals]
 //TODO Translate [Reference] 'No mail definition found with code: '{0-mailCode}''
-staxel.commands.sendMail.NoMailCode=
+staxel.commands.sendMail.NoMailCode=コード「{0-mailCode}」でメールの定義が見つかりませんでした。
 //TODO Translate [Reference] 'No player found: '{0-player}''
-staxel.commands.sendMail.NoPlayer=
+staxel.commands.sendMail.NoPlayer=プレイヤー「{0-player}」が見つかりません。
 //TODO Translate [Reference] 'Mail sent successfully!'
-staxel.commands.sendMail.Success=
+staxel.commands.sendMail.Success=メール送信成功！
 //TODO Translate [Reference] 'Successfully set the global '{0-globalName}' to {1-globalValue}.'
-staxel.commands.setGlobal.Success=
+staxel.commands.setGlobal.Success=グローバル「{0-globalName}」を「{1-globalValue}」に設定しました。
 //TODO Translate [Reference] 'Parameter should be a number'
-staxel.commands.spawnStarBits.InvalidCount=
+staxel.commands.spawnStarBits.InvalidCount=パラメータは数値である必要があります。
 //TODO Translate [Reference] 'Successfully spawned {0-count} starbits'
-staxel.commands.spawnStarBits.Success=
+staxel.commands.spawnStarBits.Success=スタービットを{0-count}個スポーンしました。
 //TODO Translate [Reference] 'Connection Failure. The connection to the server has been closed.'
-staxel.connection.ConnectionFailure=
+staxel.connection.ConnectionFailure=接続に失敗しました。サーバーへの接続が切断されました。
 //TODO Translate [Reference] 'Entry to server was denied.'
-staxel.connection.EntryDenied=
+staxel.connection.EntryDenied=サーバーへの入室が拒否されました。
 //TODO Translate [Reference] 'Entry to server was denied. The entered password was wrong.'
-staxel.connection.InvalidPassword=
+staxel.connection.InvalidPassword=サーバーへの入室が拒否されました。入力されたパスワードが違います。
 //TODO Translate [Reference] 'Protocol Failure. An error occured while trying to communicate with server.'
-staxel.connection.ProtocolError=
+staxel.connection.ProtocolError=プロトコルに失敗しました。サーバーとの通信中にエラーが発生しました。
 //TODO Translate [Reference] 'Version Mismatch. Your version of this game does not match that of the server's. Please ensure you are running the same version of the game.'
-staxel.connection.VersionMismatch=
+staxel.connection.VersionMismatch=バージョン不一致。このゲームのバージョンがサーバーのバージョンと一致していません。同じバージョンのゲームを実行していることを確認してください。
 //TODO Translate [Reference] '{0-money}'
-staxel.docks.SellboxNameTag=
-//[Validate] Delete this comment if or when the translation is accurate.
+staxel.docks.SellboxNameTag={0-money}
 //[Reference] 'Renamer'
-staxel.item.tool.Renamer.name=動物命名フォーム
+staxel.item.tool.Renamer.name=リネーマー
 //TODO Translate [Reference] 'Enter a new name'
-staxel.item.tool.Renamer.tooltip=
+staxel.item.tool.Renamer.tooltip=新しい名前を入力
 //TODO Translate [Reference] 'Accept'
-staxel.menu.autosaveHint.Accept=
+staxel.menu.autosaveHint.Accept=確定
 //TODO Translate [Reference] 'This game uses an autosave feature. Please don’t exit the game or turn off the system while this icon is shown.'
-staxel.menu.autosaveHint.Description=
+staxel.menu.autosaveHint.Description=このゲームは自動保存機能を使用しています。このアイコンが表示されている間は、ゲームを終了したり、システムの電源を切らないでください。
 //TODO Translate [Reference] 'Autosave'
-staxel.menu.autosaveHint.Title=
+staxel.menu.autosaveHint.Title=自動保存
 //TODO Translate [Reference] '^b:MenuExtra1; Change Language //Todo: Change Button'
-staxel.menu.ChangeLanguage=
+staxel.menu.ChangeLanguage=^b:MenuExtra1; 言語の変更  //Todo: ボタン変更
 //TODO Translate [Reference] 'Change Language'
-staxel.menu.ChangeLanguageNoButton=
+staxel.menu.ChangeLanguageNoButton=言語の変更
 //TODO Translate [Reference] '^b:MenuExtra2; Change User //Todo: Change Button'
-staxel.menu.ChangeUser=
+staxel.menu.ChangeUser=^b:MenuExtra2; ユーザーの変更 //Todo: ボタン変更
 //TODO Translate [Reference] 'Controller Disconnected'
-staxel.menu.controller.Disconnected=
+staxel.menu.controller.Disconnected=コントローラーが切断されました
 //TODO Translate [Reference] 'Controller Reconnected'
-staxel.menu.controller.Reconnected=
+staxel.menu.controller.Reconnected=コントローラーが再接続されました
 //TODO Translate [Reference] 'Press ^b:MenuMain; to continue'
-staxel.menu.controller.ReconnectedContinue=
+staxel.menu.controller.ReconnectedContinue=^b:MenuMain; を押して続行
 //TODO Translate [Reference] 'Please reconnect your controller to continue'
-staxel.menu.controller.RequestReconnect=
+staxel.menu.controller.RequestReconnect=コントローラーを再接続して続行してください
 //TODO Translate [Reference] 'Getting profile...'
-staxel.menu.GettingProfile=
+staxel.menu.GettingProfile=プロフィールの取得中...
 //TODO Translate [Reference] 'Ok'
-staxel.menu.mail.AcceptError=
+staxel.menu.mail.AcceptError=OK
 //TODO Translate [Reference] 'Couldn't create mail. You entered an invalid petal number.'
-staxel.menu.mail.error.BadPetalInput=
+staxel.menu.mail.error.BadPetalInput=メールを作成できませんでした。無効なペタル数を入力しました。
 //TODO Translate [Reference] 'Couldn't create mail. You need to select a recipient.'
-staxel.menu.mail.error.NoRecipient=
+staxel.menu.mail.error.NoRecipient=メールを作成できませんでした。受信者を選択する必要があります。
 //TODO Translate [Reference] 'Couldn't create mail. You need to enter a subject.'
-staxel.menu.mail.error.NoSubject=
+staxel.menu.mail.error.NoSubject=メールを作成できませんでした。件名を入力する必要があります。
 //TODO Translate [Reference] 'Couldn't create mail. You don't have enough petals.'
-staxel.menu.mail.error.NotEnoughPetals=
+staxel.menu.mail.error.NotEnoughPetals=メールを作成できませんでした。ペタルが足りません
 //TODO Translate [Reference] 'Back'
-staxel.menu.playerList.Back=
+staxel.menu.playerList.Back=戻る
 //TODO Translate [Reference] 'Banned Players'
-staxel.menu.playerList.banned.Title=
+staxel.menu.playerList.banned.Title=BANされているプレイヤー
 //TODO Translate [Reference] 'Unban'
-staxel.menu.playerList.banned.Unban=
+staxel.menu.playerList.banned.Unban=解禁
 //TODO Translate [Reference] 'Are you sure you want to ban this player?'
-staxel.menu.playerList.options.BanConfirm=
+staxel.menu.playerList.options.BanConfirm=このプレイヤーをBANしてもよろしですか？
 //TODO Translate [Reference] 'Are you sure you want to kick this player?'
-staxel.menu.playerList.options.KickConfirm=
+staxel.menu.playerList.options.KickConfirm=このプレイヤーを追放してもよろしですか？
 //TODO Translate [Reference] 'Player Options'
-staxel.menu.playerList.options.Title=
+staxel.menu.playerList.options.Title=プレイヤー設定
 //TODO Translate [Reference] 'Are you sure you want to unban this player?'
-staxel.menu.playerList.options.UnbanConfirm=
+staxel.menu.playerList.options.UnbanConfirm=このプレイヤーのBANの解除してもよろしですか？
 //TODO Translate [Reference] 'Player List'
-staxel.menu.playerList.Title=
+staxel.menu.playerList.Title=プレイヤーリスト
 //TODO Translate [Reference] 'Press {0-button} to start'
-staxel.menu.PressButtonToStart=
+staxel.menu.PressButtonToStart={0-button}を押して開始
 //TODO Translate [Reference] 'Change user'
-staxel.menu.userChanged.ChangeUser=
+staxel.menu.userChanged.ChangeUser=ユーザー変更
 //TODO Translate [Reference] 'The player user has been changed without properly exiting the game. \n \n Change back to the original user to ensure no progress is lost.'
-staxel.menu.userChanged.Description=
+staxel.menu.userChanged.Description=正しくゲームを終了せずにプレイヤーユーザーが変更されました。\n \n 元のユーザーに変更して、進捗状況が失われないようにしてください。
 //TODO Translate [Reference] 'Leave without saving'
-staxel.menu.userChanged.LeaveWithoutSaving=
+staxel.menu.userChanged.LeaveWithoutSaving=保存せずに終了する
 //TODO Translate [Reference] 'User Changed'
-staxel.menu.userChanged.Title=
+staxel.menu.userChanged.Title=ユーザーが変更されました
 //TODO Translate [Reference] 'You need to get permission to buy this!'
-staxel.merchant.RequiresGlobal=
+staxel.merchant.RequiresGlobal=これを購入するにはアクセス権限が必要です！
 //TODO Translate [Reference] 'Press {0-button} to leave'
-staxel.notification.LeaveDock=
+staxel.notification.LeaveDock={0-button}を押して終了する
 //TODO Translate [Reference] 'Your letter has been sent.'
-staxel.notification.mail.Sent=
+staxel.notification.mail.Sent=手紙が送信されました。
 //TODO Translate [Reference] 'You can't break that. The region is being used.'
-staxel.notification.TotemRegionInUse=
+staxel.notification.TotemRegionInUse=壊せません。リージョンは使用中です。
 //TODO Translate [Reference] 'This tool isn't strong enough.'
-staxel.notifications.WeakTool=
+staxel.notifications.WeakTool=この道具には強度が足りません。
 //TODO Translate [Reference] 'Catalogue Search'
-staxel.overlay.catalogue.ShopPage.searchAndFilters.title=
+staxel.overlay.catalogue.ShopPage.searchAndFilters.title=カタログ検索
 //TODO Translate [Reference] 'Enter a search term'
-staxel.overlay.catalogue.ShopPage.searchAndFilters.tooltip=
+staxel.overlay.catalogue.ShopPage.searchAndFilters.tooltip=検索語を入力
 //TODO Translate [Reference] 'Console'
-staxel.overlay.ConsoleScreen.input.title=
+staxel.overlay.ConsoleScreen.input.title=コンソール
 //TODO Translate [Reference] 'Enter a console command'
-staxel.overlay.ConsoleScreen.input.tooltip=
+staxel.overlay.ConsoleScreen.input.tooltip=コンソールコマンドを入力してください
 //TODO Translate [Reference] 'Creative Search'
-staxel.overlay.CreativeMenu.creativeSearch.title=
+staxel.overlay.CreativeMenu.creativeSearch.title=クリエイティブ検索
 //TODO Translate [Reference] 'Enter a search term'
-staxel.overlay.CreativeMenu.creativeSearch.tooltip=
+staxel.overlay.CreativeMenu.creativeSearch.tooltip=検索語を入力
 //TODO Translate [Reference] 'Chat'
-staxel.overlay.GameScreen.chat.input.title=
+staxel.overlay.GameScreen.chat.input.title=チャット
 //TODO Translate [Reference] 'Send a message in chat'
-staxel.overlay.GameScreen.chat.input.tooltip=
+staxel.overlay.GameScreen.chat.input.tooltip=チャットでメッセージを送る
 //TODO Translate [Reference] 'Mail Body'
-staxel.overlay.inventory.MailCounter.Body.title=
+staxel.overlay.inventory.MailCounter.Body.title=メール本文
 //TODO Translate [Reference] 'Enter your mail message'
-staxel.overlay.inventory.MailCounter.Body.tooltip=
+staxel.overlay.inventory.MailCounter.Body.tooltip=メールメッセージを入力
 //TODO Translate [Reference] 'Petals'
-staxel.overlay.inventory.MailCounter.Petals.title=
+staxel.overlay.inventory.MailCounter.Petals.title=ペタル
 //TODO Translate [Reference] 'How many petals you wish to send'
-staxel.overlay.inventory.MailCounter.Petals.tooltip=
+staxel.overlay.inventory.MailCounter.Petals.tooltip=送りたいペタルの枚数
 //TODO Translate [Reference] 'Mail Subject'
-staxel.overlay.inventory.MailCounter.Subject.title=
+staxel.overlay.inventory.MailCounter.Subject.title=メール件名
 //TODO Translate [Reference] 'Enter a subject for the mail'
-staxel.overlay.inventory.MailCounter.Subject.tooltip=
+staxel.overlay.inventory.MailCounter.Subject.tooltip=メール件名を入力
 //TODO Translate [Reference] 'Recipe Search'
-staxel.overlay.inventory.Recipes.recipeSearch.title=
+staxel.overlay.inventory.Recipes.recipeSearch.title=レシピ検索
 //TODO Translate [Reference] 'Enter a search term'
-staxel.overlay.inventory.Recipes.recipeSearch.tooltip=
+staxel.overlay.inventory.Recipes.recipeSearch.tooltip=検索語を入力
 //TODO Translate [Reference] '{0-price}: {1-item}'
-staxel.priceTag.Common=
+staxel.priceTag.Common={0-price}: {1-item}
 //TODO Translate [Reference] 'Inside of the Island'
-staxel.totem.outsideWorld=
+staxel.totem.outsideWorld=島の中
 //TODO Translate [Reference] 'Totem is protected, protection must be disable in order to break it.'
-staxel.totem.UnbreakableTotem=
+staxel.totem.UnbreakableTotem=トーテムは保護されています。壊すには保護を無効にする必要があります。
 //TODO Translate [Reference] '{0-tiles} Tiles away'
-staxel.totemEntry.AwayFromTownCount=
+staxel.totemEntry.AwayFromTownCount={0-tiles} タイル先
 //TODO Translate [Reference] 'Has Roof'
-staxel.totemEntry.Roof=
+staxel.totemEntry.Roof=屋根あり
 //TODO Translate [Reference] 'Building'
-staxel.totemRequirement.Building=
+staxel.totemRequirement.Building=建物
 //TODO Translate [Reference] 'Any of category'
-staxel.totemRequirement.Category=
+staxel.totemRequirement.Category=すべてのカテゴリー
 //TODO Translate [Reference] 'Tile/Object'
-staxel.totemRequirement.Tile=
+staxel.totemRequirement.Tile=タイル/オブジェクト
 //TODO Translate [Reference] 'Not prepared to transform yet!'
-staxel.transformation.CantTransform=
+staxel.transformation.CantTransform=まだ変身の準備ができていません！
 //TODO Translate [Reference] 'You are not transformed!'
-staxel.transformation.NotTransformed=
+staxel.transformation.NotTransformed=変身していません！
 //TODO Translate [Reference] 'Could not remove accessory as your inventory is full'
-staxel.wardrobe.NoEmptyInventorySlots=
+staxel.wardrobe.NoEmptyInventorySlots=インベントリがいっぱいのため、アクセサリーを外せませんでした。
 //TODO Translate [Reference] 'Wearing'
-staxel.wardrobe.Wearing=
+staxel.wardrobe.Wearing=着用中
