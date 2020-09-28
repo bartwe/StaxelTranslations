@@ -158,11 +158,11 @@ commands.giveRecipeItems.description=^c:F2E200;giveRecipeItems ^c:FFFFFF;recipeC
 //[Reference] 'Give recipe items successful'
 commands.giveRecipeItems.success=Objets de la recette donnés
 //TODO Translate [Reference] '^c:F2E200;hasCheated'
-commands.hasCheated.description=
+commands.hasCheated.description=^c:F2E200; a utilisé une astuce.
 //TODO Translate [Reference] 'This world has not have any cheats activated. Outside achievement are enabled, if applicable.'
-commands.hasCheated.false=
+commands.hasCheated.false=Ce monde n'a aucune astuce activée. Les succès extérieurs sont activés, si applicables.
 //TODO Translate [Reference] 'This world has had cheats turned on or activated. Outside achievements are disabled.'
-commands.hasCheated.true=
+commands.hasCheated.true=Les astuces ont été autorisées ou activées dans ce monde. Les succès extérieurs sont désactivés.
 //[Reference] '^c:F2E200;? ^c:FFFFFF;(optional)commandName'
 commands.help.altDescription=? (facultatif)commandName
 //[Reference] 'Command not found: '{0-command}''
@@ -197,7 +197,7 @@ commands.magicTeleport.description=^c:F2E200;magicTeleport ^c:FFFFFF;festivalCod
 //[Reference] 'No such offmap template: {0-template}'
 commands.magicTeleport.template=Ce modèle hors carte est introuvable : {0-template}
 //TODO Translate [Reference] '^c:F2E200;magicTeleportReturn^c:FFFFFF;'
-commands.magicTeleportReturn.description=
+commands.magicTeleportReturn.description=^c:F2E200;magicTeleportReturn^c:FFFFFF;
 //[Reference] '^c:F2E200;model ^c:FFFFFF;(optional)playerName (optional)modelFileName'
 commands.model.description=model (facultatif)nomDuJoueur (facultatif)nomFichierModèle
 //[Reference] 'Could not switch to character model '{0-model}' not found in assets.'
@@ -245,7 +245,7 @@ commands.plantGrowth.noPlant=Ce n'est pas une plante.
 //[Reference] 'Plant {0-plant} at stage {1-stage}'
 commands.plantGrowth.success=Plante {0-plant} à l'étape {1-stage}
 //TODO Translate [Reference] 'Switched plant withering to {0-creative}'
-commands.plantWithering.success=
+commands.plantWithering.success=Dépérissement des plantes fixé à {0-creative}.
 //[Reference] 'Player {0-player} currently cannot be teleported.'
 commands.playerCantBeTeleported=Le joueur {0-player} ne peut pas se téléporter actuellement.
 //[Reference] 'Player Entity not found'
