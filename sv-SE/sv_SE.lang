@@ -1,7 +1,6 @@
 ﻿language.code=sv-SE
 language=Svenska
 language.official=false
-=
 
 //[Reference] 'Achievement unlocked: {0-achievement}!'
 achievements.achievementUnlocked={0-achievement} unlocked!
@@ -344,7 +343,8 @@ escapemenu.teleport=
 escapeMenu.back=Tillbaka till Spelet
 //[Reference] 'Character Designer'
 escapeMenu.characterDesigner=Karaktärsdesigner
-//[Reference] 'Control Hints'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Controls Guide'
 escapeMenu.controlHints=Kontroller Tips
 //[Reference] 'Exit to Desktop'
 escapeMenu.desktopExit=Avsluta till Skrivbordet
@@ -430,7 +430,7 @@ hintText.notEnoughSpaceToPlant=
 hintText.oneSlotNeeded=Behöver åtminstonde en plats i lagret.
 //TODO Translate [Reference] 'You already know this recipe'
 hintText.recipeKnown=
-//TODO Translate [Reference] 'You successfully learnt the recipe for {0-recipe}!'
+//TODO Translate [Reference] 'You successfully learnt the recipe for a {0-recipe}!'
 hintText.recipeLearnt=
 //TODO Translate [Reference] 'There's nothing left to steal... for today.'
 hintText.thiefLimit=
@@ -553,9 +553,10 @@ options.gameplay.controller.enableController=Starta Kontroll Inmatning
 options.gameplay.controller.flipLeftX=
 //TODO Translate [Reference] 'Flip Left Y Axis'
 options.gameplay.controller.flipLeftY=
-//TODO Translate [Reference] 'Flip Right X Axis'
+//TODO Translate [Reference] 'Invert Horizontal Look Axis'
 options.gameplay.controller.flipRightX=
-//[Reference] 'Flip Right Y Axis'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Invert Vertical Look Axis'
 options.gameplay.controller.flipRightY=Vänd Y-Axel
 //[Reference] 'Left Thumb Curve:'
 options.gameplay.controller.leftThumbCurve=Vänster Tum-pinne Kurva:
@@ -625,21 +626,25 @@ options.gameplay.StaxelNet=
 options.gameplay.StaxelNet.Relay=
 //TODO Translate [Reference] 'UI'
 options.gameplay.ui=
-//TODO Translate [Reference] 'Resolution:'
+//TODO Translate [Reference] 'Resolution'
 options.gameplay.ui.FullScreenResolution=
-//TODO Translate [Reference] 'UI Scale:'
+//TODO Translate [Reference] 'UI Scale'
 options.gameplay.ui.ManualUIScale=
 //[Reference] 'General'
 options.general=Allmänt
 //[Reference] 'Audio'
 options.general.audio=Ljud
-//[Reference] 'Ambience:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Ambience'
 options.general.audio.ambience=Miljö:
-//[Reference] 'Master:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Master'
 options.general.audio.master=Huvud:
-//[Reference] 'Music:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Music'
 options.general.audio.music=Musik:
-//[Reference] 'Sound:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Sound'
 options.general.audio.sound=Ljud:
 //[Reference] 'Graphics'
 options.general.graphics=Grafik
@@ -4153,7 +4158,7 @@ staxel.item.Transformations.TomtiNoHat.description=
 staxel.item.Transformations.TomtiNoHat.name=
 //TODO Translate [Reference] 'Claim Petals'
 staxel.mail.claimPetals=
-//TODO Translate [Reference] '^c:1486b0;$playername;^c:pop;!\n\nI couldn't help overhearing your conversation with ^c:1486b0;Rosemary^c:pop; yesterday (sorry, I wasn't listening on purpose, I swear). See, I was around these parts back then and I swear something wasn't quite right about the whole thing...\n\nMaybe it would be worth having a little wander around the village and seeing if anyone else can remember anything?\n\n^c:1486b0;Farm Fan^c:pop;'
+//TODO Translate [Reference] '^c:1486b0;{0-playername}^c:pop;!\n\nI couldn't help overhearing your conversation with ^c:1486b0;Rosemary^c:pop; yesterday (sorry, I wasn't listening on purpose, I swear). See, I was around these parts back then and I swear something wasn't quite right about the whole thing...\n\nMaybe it would be worth having a little wander around the village and seeing if anyone else can remember anything?\n\n^c:1486b0;Farm Fan^c:pop;'
 staxel.mail.FarmFanEavesdrop.body=
 //TODO Translate [Reference] 'Rosemary'
 staxel.mail.FarmFanEavesdrop.subject=
@@ -4621,7 +4626,7 @@ staxel.plant.quest.RainbowButterfly.tile.description=
 //TODO Translate [Reference] 'tile'
 staxel.plant.quest.RainbowButterfly.tile.name=
 staxel.plant.tree.BasicNaturalTree.description=
-//TODO Translate [Reference] 'Basic Natural Tree'
+//TODO Translate [Reference] 'Tree Sapling'
 staxel.plant.tree.BasicNaturalTree.name=
 //TODO Translate [Reference] 'Free in Creative'
 staxel.priceTag.freeInCreative=
@@ -7324,7 +7329,7 @@ staxel.tree.BananaTree.description=
 //TODO Translate [Reference] 'Banana Tree Seed'
 staxel.tree.BananaTree.name=
 staxel.tree.BasicNaturalTree.description=
-//TODO Translate [Reference] 'Basic Natural Tree'
+//TODO Translate [Reference] 'Tree Sapling'
 staxel.tree.BasicNaturalTree.name=
 //TODO Translate [Reference] 'This tree grows sweet sweet cherries. Fruits in Autumn.'
 staxel.tree.CherryTree.description=

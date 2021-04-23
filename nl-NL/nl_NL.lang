@@ -1,7 +1,6 @@
 ﻿language.code=nl-NL
 language=Nederlands
 language.official=true
-=
 
 //[Reference] 'Achievement unlocked: {0-achievement}!'
 achievements.achievementUnlocked={0-achievement} behaald!
@@ -346,7 +345,8 @@ escapemenu.teleport=Naar huis terugkeren
 escapeMenu.back=Terug naar het spel
 //[Reference] 'Character Designer'
 escapeMenu.characterDesigner=Karakter-ontwerper
-//[Reference] 'Control Hints'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Controls Guide'
 escapeMenu.controlHints=Besturing Hints
 //[Reference] 'Exit to Desktop'
 escapeMenu.desktopExit=Spel afsluiten
@@ -432,7 +432,8 @@ hintText.notEnoughSpaceToPlant=Deze plant heeft meer ruimte nodig om te groeien
 hintText.oneSlotNeeded=Je hebt minstens 1 plek in je inventaris nodig
 //[Reference] 'You already know this recipe'
 hintText.recipeKnown=Je kent dit recept al
-//[Reference] 'You successfully learnt the recipe for {0-recipe}!'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'You successfully learnt the recipe for a {0-recipe}!'
 hintText.recipeLearnt=Je hebt het recept voor {0-recept} geleerd!
 //[Reference] 'There's nothing left to steal... for today.'
 hintText.thiefLimit=Er is niets meer om te stelen... vandaag.
@@ -555,9 +556,11 @@ options.gameplay.controller.enableController=Controller Inschakelen
 options.gameplay.controller.flipLeftX=Kantel links X-as
 //[Reference] 'Flip Left Y Axis'
 options.gameplay.controller.flipLeftY=Spiegel Linker Y-as
-//[Reference] 'Flip Right X Axis'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Invert Horizontal Look Axis'
 options.gameplay.controller.flipRightX=Kantel rechts X-as
-//[Reference] 'Flip Right Y Axis'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Invert Vertical Look Axis'
 options.gameplay.controller.flipRightY=Spiegel Rechter Y-as
 //[Reference] 'Left Thumb Curve:'
 options.gameplay.controller.leftThumbCurve=Curve Linkerduim:
@@ -628,21 +631,27 @@ options.gameplay.StaxelNet=StaxelNet
 options.gameplay.StaxelNet.Relay=Estafette
 //[Reference] 'UI'
 options.gameplay.ui=UI
-//[Reference] 'Resolution:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Resolution'
 options.gameplay.ui.FullScreenResolution=Volledige Schermresolutie
-//[Reference] 'UI Scale:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'UI Scale'
 options.gameplay.ui.ManualUIScale=UI Opschaling
 //[Reference] 'General'
 options.general=Algemeen
 //[Reference] 'Audio'
 options.general.audio=Audio
-//[Reference] 'Ambience:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Ambience'
 options.general.audio.ambience=Atmosfeer:
-//[Reference] 'Master:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Master'
 options.general.audio.master=Hoofdvolume:
-//[Reference] 'Music:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Music'
 options.general.audio.music=Muziek:
-//[Reference] 'Sound:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Sound'
 options.general.audio.sound=Geluid:
 //[Reference] 'Graphics'
 options.general.graphics=Grafische Instellingen
@@ -4173,7 +4182,8 @@ staxel.item.Transformations.TomtiNoHat.description=
 staxel.item.Transformations.TomtiNoHat.name=Tomti zonder Hoed
 //[Reference] 'Claim Petals'
 staxel.mail.claimPetals=Eis bloemblaadjes op
-//[Reference] '^c:1486b0;$playername;^c:pop;!\n\nI couldn't help overhearing your conversation with ^c:1486b0;Rosemary^c:pop; yesterday (sorry, I wasn't listening on purpose, I swear). See, I was around these parts back then and I swear something wasn't quite right about the whole thing...\n\nMaybe it would be worth having a little wander around the village and seeing if anyone else can remember anything?\n\n^c:1486b0;Farm Fan^c:pop;'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:1486b0;{0-playername}^c:pop;!\n\nI couldn't help overhearing your conversation with ^c:1486b0;Rosemary^c:pop; yesterday (sorry, I wasn't listening on purpose, I swear). See, I was around these parts back then and I swear something wasn't quite right about the whole thing...\n\nMaybe it would be worth having a little wander around the village and seeing if anyone else can remember anything?\n\n^c:1486b0;Farm Fan^c:pop;'
 staxel.mail.FarmFanEavesdrop.body=^c:1486b0;$playername;^c:pop;!\n\nIk hoorde per ongeluk je gesprek met ^c:1486b0;Rosemary^c:pop; gisteren (sorry, ik zweer dat ik niet opzettelijk aan het luistervinken was). Nou, ik was toen hier in de buurt en er leek me iets niet helemaal pluis...\n\nMisschien levert het iets op als we even door het dorp wandelen en vragen of iemand anders zich nog iets kan herinneren?\n\n^c:1486b0;Farm Fan^c:pop;
 //[Reference] 'Rosemary'
 staxel.mail.FarmFanEavesdrop.subject=Rosemary
@@ -4643,7 +4653,8 @@ staxel.plant.quest.RainbowButterfly.tile.description=
 //[Reference] 'tile'
 staxel.plant.quest.RainbowButterfly.tile.name=tegel
 staxel.plant.tree.BasicNaturalTree.description=
-//[Reference] 'Basic Natural Tree'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Tree Sapling'
 staxel.plant.tree.BasicNaturalTree.name=Basis Natuurlijke Bomen
 //[Reference] 'Free in Creative'
 staxel.priceTag.freeInCreative=Gratis in Creatief
@@ -7347,7 +7358,8 @@ staxel.tree.BananaTree.description=Aan deze boom groeien heerlijke bananen. Draa
 //[Reference] 'Banana Tree Seed'
 staxel.tree.BananaTree.name=Bananenboom Zaad
 staxel.tree.BasicNaturalTree.description=
-//[Reference] 'Basic Natural Tree'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Tree Sapling'
 staxel.tree.BasicNaturalTree.name=Normale Natuurlijke Boom
 //[Reference] 'This tree grows sweet sweet cherries. Fruits in Autumn.'
 staxel.tree.CherryTree.description=Aan deze boom groeien zoete zoete kersen. Draagt in de herfst.

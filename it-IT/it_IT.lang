@@ -1,7 +1,6 @@
 ﻿language.code=it-IT
 language=Italiano
 language.official=false
-=
 //[Reference] 'Achievement unlocked: {0-achievement}!'
 achievements.achievementUnlocked=Achievement sbloccato:{0-achievement}
 //TODO Translate [Reference] 'Alua'
@@ -340,7 +339,8 @@ escapemenu.teleport=Torna a casa
 escapeMenu.back=Continua
 //[Reference] 'Character Designer'
 escapeMenu.characterDesigner=Design del personaggio
-//[Reference] 'Control Hints'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Controls Guide'
 escapeMenu.controlHints=Controlli
 //[Reference] 'Exit to Desktop'
 escapeMenu.desktopExit=Esci al Desktop
@@ -424,7 +424,8 @@ hintText.notEnoughSpaceToPlant=Questa pianta ha bisogno di più spazio per cresc
 hintText.oneSlotNeeded=Hai bisogno di almeno 1 slot nell'inventario
 //[Reference] 'You already know this recipe'
 hintText.recipeKnown=Conosci già questa ricetta
-//[Reference] 'You successfully learnt the recipe for {0-recipe}!'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'You successfully learnt the recipe for a {0-recipe}!'
 hintText.recipeLearnt=Hai imparato la ricetta per {0-recipe}!
 //[Reference] 'There's nothing left to steal... for today.'
 hintText.thiefLimit=Non è rimasto nulla da rubare... per oggi.
@@ -545,9 +546,10 @@ options.gameplay.controller.enableController=Abilita Controller
 options.gameplay.controller.flipLeftX=
 //[Reference] 'Flip Left Y Axis'
 options.gameplay.controller.flipLeftY=Flip Left Y Axis
-//TODO Translate [Reference] 'Flip Right X Axis'
+//TODO Translate [Reference] 'Invert Horizontal Look Axis'
 options.gameplay.controller.flipRightX=
-//[Reference] 'Flip Right Y Axis'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Invert Vertical Look Axis'
 options.gameplay.controller.flipRightY=Flip Right Y Axis
 //[Reference] 'Left Thumb Curve:'
 options.gameplay.controller.leftThumbCurve=Left Thumb Curve:
@@ -617,21 +619,27 @@ options.gameplay.StaxelNet=StaxelNet
 options.gameplay.StaxelNet.Relay=
 //[Reference] 'UI'
 options.gameplay.ui=UI
-//[Reference] 'Resolution:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Resolution'
 options.gameplay.ui.FullScreenResolution=Risoluzione:
-//[Reference] 'UI Scale:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'UI Scale'
 options.gameplay.ui.ManualUIScale=Scala UI:
 //[Reference] 'General'
 options.general=Generale
 //[Reference] 'Audio'
 options.general.audio=Audio
-//[Reference] 'Ambience:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Ambience'
 options.general.audio.ambience=Ambiente
-//[Reference] 'Master:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Master'
 options.general.audio.master=Master:
-//[Reference] 'Music:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Music'
 options.general.audio.music=Musica:
-//[Reference] 'Sound:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Sound'
 options.general.audio.sound=Suoni:
 //[Reference] 'Graphics'
 options.general.graphics=Grafica
@@ -4217,7 +4225,7 @@ staxel.item.Transformations.TomtiNoHat.description=
 staxel.item.Transformations.TomtiNoHat.name=
 //TODO Translate [Reference] 'Claim Petals'
 staxel.mail.claimPetals=
-//TODO Translate [Reference] '^c:1486b0;$playername;^c:pop;!\n\nI couldn't help overhearing your conversation with ^c:1486b0;Rosemary^c:pop; yesterday (sorry, I wasn't listening on purpose, I swear). See, I was around these parts back then and I swear something wasn't quite right about the whole thing...\n\nMaybe it would be worth having a little wander around the village and seeing if anyone else can remember anything?\n\n^c:1486b0;Farm Fan^c:pop;'
+//TODO Translate [Reference] '^c:1486b0;{0-playername}^c:pop;!\n\nI couldn't help overhearing your conversation with ^c:1486b0;Rosemary^c:pop; yesterday (sorry, I wasn't listening on purpose, I swear). See, I was around these parts back then and I swear something wasn't quite right about the whole thing...\n\nMaybe it would be worth having a little wander around the village and seeing if anyone else can remember anything?\n\n^c:1486b0;Farm Fan^c:pop;'
 staxel.mail.FarmFanEavesdrop.body=
 //TODO Translate [Reference] 'Rosemary'
 staxel.mail.FarmFanEavesdrop.subject=
@@ -4700,7 +4708,7 @@ staxel.plant.quest.RainbowButterfly.tile.description=
 //TODO Translate [Reference] 'tile'
 staxel.plant.quest.RainbowButterfly.tile.name=
 staxel.plant.tree.BasicNaturalTree.description=
-//TODO Translate [Reference] 'Basic Natural Tree'
+//TODO Translate [Reference] 'Tree Sapling'
 staxel.plant.tree.BasicNaturalTree.name=
 //[Reference] 'Free in Creative'
 staxel.priceTag.freeInCreative=Libero in creativa
@@ -7444,7 +7452,7 @@ staxel.tree.BananaTree.description=Su questo albero crescono banane deliziose. F
 //[Reference] 'Banana Tree Seed'
 staxel.tree.BananaTree.name=Seme di albero di banane
 staxel.tree.BasicNaturalTree.description=
-//TODO Translate [Reference] 'Basic Natural Tree'
+//TODO Translate [Reference] 'Tree Sapling'
 staxel.tree.BasicNaturalTree.name=
 //[Reference] 'This tree grows sweet sweet cherries. Fruits in Autumn.'
 staxel.tree.CherryTree.description=Su questo albero crescono dolce ciliegie dolci. Frutta in autunno

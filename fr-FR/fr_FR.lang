@@ -1,7 +1,6 @@
 ﻿language.code=fr-FR
 language=Français
 language.official=true
-=
 
 //[Reference] 'Achievement unlocked: {0-achievement}!'
 achievements.achievementUnlocked={0-achievement} débloqué !
@@ -342,7 +341,8 @@ escapemenu.teleport=Retourner à la maison
 escapeMenu.back=Retour au jeu
 //[Reference] 'Character Designer'
 escapeMenu.characterDesigner=Créer un personnage
-//[Reference] 'Control Hints'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Controls Guide'
 escapeMenu.controlHints=Liste des commandes
 //[Reference] 'Exit to Desktop'
 escapeMenu.desktopExit=Retour au bureau
@@ -428,7 +428,8 @@ hintText.notEnoughSpaceToPlant=Cette récolte a besoin de plus d'espace pour gra
 hintText.oneSlotNeeded=1 emplacement d'inventaire requis
 //[Reference] 'You already know this recipe'
 hintText.recipeKnown=Vous connaissez déjà cette recette
-//[Reference] 'You successfully learnt the recipe for {0-recipe}!'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'You successfully learnt the recipe for a {0-recipe}!'
 hintText.recipeLearnt=Vous avez appris une nouvelle recette, pour {0-recipe} !
 //[Reference] 'There's nothing left to steal... for today.'
 hintText.thiefLimit=Il ne reste plus rien à voler... pour aujourd'hui.
@@ -551,9 +552,11 @@ options.gameplay.controller.enableController=Activer la manette
 options.gameplay.controller.flipLeftX=Inverser l'axe X gauche
 //[Reference] 'Flip Left Y Axis'
 options.gameplay.controller.flipLeftY=Inverse l'axe Y gauche
-//[Reference] 'Flip Right X Axis'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Invert Horizontal Look Axis'
 options.gameplay.controller.flipRightX=Inverser l'axe X droit
-//[Reference] 'Flip Right Y Axis'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Invert Vertical Look Axis'
 options.gameplay.controller.flipRightY=Inverser l'axe Y droit
 //[Reference] 'Left Thumb Curve:'
 options.gameplay.controller.leftThumbCurve=Courbe de réponse de la gâchette gauche :
@@ -624,21 +627,27 @@ options.gameplay.StaxelNet=StaxelNet
 options.gameplay.StaxelNet.Relay=Relais
 //[Reference] 'UI'
 options.gameplay.ui=UI
-//[Reference] 'Resolution:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Resolution'
 options.gameplay.ui.FullScreenResolution=Résolution :
-//[Reference] 'UI Scale:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'UI Scale'
 options.gameplay.ui.ManualUIScale=Réglage UI
 //[Reference] 'General'
 options.general=Général
 //[Reference] 'Audio'
 options.general.audio=Audio
-//[Reference] 'Ambience:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Ambience'
 options.general.audio.ambience=Ambiance sonore :
-//[Reference] 'Master:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Master'
 options.general.audio.master=Volume principal :
-//[Reference] 'Music:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Music'
 options.general.audio.music=Musique :
-//[Reference] 'Sound:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Sound'
 options.general.audio.sound=Son :
 //[Reference] 'Graphics'
 options.general.graphics=Graphismes
@@ -4156,7 +4165,8 @@ staxel.item.Transformations.TomtiNoHat.description=
 staxel.item.Transformations.TomtiNoHat.name=Tomti sans chapeau
 //[Reference] 'Claim Petals'
 staxel.mail.claimPetals=Récupérer des pétales
-//[Reference] '^c:1486b0;$playername;^c:pop;!\n\nI couldn't help overhearing your conversation with ^c:1486b0;Rosemary^c:pop; yesterday (sorry, I wasn't listening on purpose, I swear). See, I was around these parts back then and I swear something wasn't quite right about the whole thing...\n\nMaybe it would be worth having a little wander around the village and seeing if anyone else can remember anything?\n\n^c:1486b0;Farm Fan^c:pop;'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:1486b0;{0-playername}^c:pop;!\n\nI couldn't help overhearing your conversation with ^c:1486b0;Rosemary^c:pop; yesterday (sorry, I wasn't listening on purpose, I swear). See, I was around these parts back then and I swear something wasn't quite right about the whole thing...\n\nMaybe it would be worth having a little wander around the village and seeing if anyone else can remember anything?\n\n^c:1486b0;Farm Fan^c:pop;'
 staxel.mail.FarmFanEavesdrop.body=^c:1486b0;$playername;^c:pop; !\n\nJe n'ai pas pu m'empêcher d'entendre ta conversation d'hier avec ^c:1486b0;Rosemary^c:pop; (désolée, je promets que je ne l'ai pas fait exprès). Tu vois, j'étais dans le coin à ce moment-là, et je te jure qu'il y avait quelque chose d'étrange...\n\nPeut-être que tu devrais aller faire un tour au village et voir si quelqu'un d'autre se souvient de quelque chose ?\n\n^c:1486b0;Farm Fan^c:pop;
 //[Reference] 'Rosemary'
 staxel.mail.FarmFanEavesdrop.subject=Rosemary
@@ -4625,7 +4635,8 @@ staxel.plant.quest.RainbowButterfly.tile.description=
 //[Reference] 'tile'
 staxel.plant.quest.RainbowButterfly.tile.name=carreau
 staxel.plant.tree.BasicNaturalTree.description=
-//[Reference] 'Basic Natural Tree'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Tree Sapling'
 staxel.plant.tree.BasicNaturalTree.name=Arbre naturel basique
 //[Reference] 'Free in Creative'
 staxel.priceTag.freeInCreative=Libre en mode créatif
@@ -7331,7 +7342,8 @@ staxel.tree.BananaTree.description=Cet arbre produit de délicieuses bananes. M�
 //[Reference] 'Banana Tree Seed'
 staxel.tree.BananaTree.name=Graine de bananier
 staxel.tree.BasicNaturalTree.description=
-//[Reference] 'Basic Natural Tree'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Tree Sapling'
 staxel.tree.BasicNaturalTree.name=Arbre naturel basique
 //[Reference] 'This tree grows sweet sweet cherries. Fruits in Autumn.'
 staxel.tree.CherryTree.description=Cet arbre produit de très bonnes cerises. Mûrit en automne.

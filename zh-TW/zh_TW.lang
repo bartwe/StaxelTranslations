@@ -3,7 +3,6 @@ language.code=zh-TW
 //[Reference] 'English'
 language=繁體中文
 language.official=false
-=
 //font=Staxel/fonts/
 
 //[Reference] 'Achievement unlocked: {0-achievement}!'
@@ -356,7 +355,8 @@ escapemenu.teleport=
 escapeMenu.back=返回遊戲
 //[Reference] 'Character Designer'
 escapeMenu.characterDesigner=人物設計
-//[Reference] 'Control Hints'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Controls Guide'
 escapeMenu.controlHints=控制提示
 //[Reference] 'Exit to Desktop'
 escapeMenu.desktopExit=退出到桌面
@@ -443,7 +443,8 @@ hintText.notEnoughSpaceToPlant=這種植物需要更多空間來生長
 hintText.oneSlotNeeded=物品欄中至少需要一個空位
 //[Reference] 'You already know this recipe'
 hintText.recipeKnown=你已經掌握這個配方了
-//[Reference] 'You successfully learnt the recipe for {0-recipe}!'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'You successfully learnt the recipe for a {0-recipe}!'
 hintText.recipeLearnt=你成功學會了配方：{0-recipe}！
 //[Reference] 'There's nothing left to steal... for today.'
 hintText.thiefLimit=已經沒有什麼東西可以偷了……至少今天如此。
@@ -570,9 +571,10 @@ options.gameplay.controller.enableController=開啟控制器
 options.gameplay.controller.flipLeftX=
 //[Reference] 'Flip Left Y Axis'
 options.gameplay.controller.flipLeftY=左搖桿Y軸反轉
-//TODO Translate [Reference] 'Flip Right X Axis'
+//TODO Translate [Reference] 'Invert Horizontal Look Axis'
 options.gameplay.controller.flipRightX=
-//[Reference] 'Flip Right Y Axis'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Invert Vertical Look Axis'
 options.gameplay.controller.flipRightY=右搖桿Y軸反轉
 //[Reference] 'Left Thumb Curve:'
 options.gameplay.controller.leftThumbCurve=左搖桿曲線：
@@ -644,21 +646,26 @@ options.gameplay.StaxelNet.Relay=
 //[Reference] 'UI'
 options.gameplay.ui=界面
 //[Validate] Delete this comment if or when the translation is accurate.
-//[Reference] 'Resolution:'
+//[Reference] 'Resolution'
 options.gameplay.ui.FullScreenResolution=全螢幕解析度
-//[Reference] 'UI Scale:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'UI Scale'
 options.gameplay.ui.ManualUIScale=界面拉伸
 //[Reference] 'General'
 options.general=一般
 //[Reference] 'Audio'
 options.general.audio=音訊
-//[Reference] 'Ambience:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Ambience'
 options.general.audio.ambience=環境音：
-//[Reference] 'Master:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Master'
 options.general.audio.master=主音量：
-//[Reference] 'Music:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Music'
 options.general.audio.music=音樂：
-//[Reference] 'Sound:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Sound'
 options.general.audio.sound=音效：
 //[Reference] 'Graphics'
 options.general.graphics=圖形
@@ -4328,7 +4335,7 @@ staxel.item.Transformations.TomtiNoHat.description=
 staxel.item.Transformations.TomtiNoHat.name=
 //TODO Translate [Reference] 'Claim Petals'
 staxel.mail.claimPetals=
-//TODO Translate [Reference] '^c:1486b0;$playername;^c:pop;!\n\nI couldn't help overhearing your conversation with ^c:1486b0;Rosemary^c:pop; yesterday (sorry, I wasn't listening on purpose, I swear). See, I was around these parts back then and I swear something wasn't quite right about the whole thing...\n\nMaybe it would be worth having a little wander around the village and seeing if anyone else can remember anything?\n\n^c:1486b0;Farm Fan^c:pop;'
+//TODO Translate [Reference] '^c:1486b0;{0-playername}^c:pop;!\n\nI couldn't help overhearing your conversation with ^c:1486b0;Rosemary^c:pop; yesterday (sorry, I wasn't listening on purpose, I swear). See, I was around these parts back then and I swear something wasn't quite right about the whole thing...\n\nMaybe it would be worth having a little wander around the village and seeing if anyone else can remember anything?\n\n^c:1486b0;Farm Fan^c:pop;'
 staxel.mail.FarmFanEavesdrop.body=
 //TODO Translate [Reference] 'Rosemary'
 staxel.mail.FarmFanEavesdrop.subject=
@@ -4824,7 +4831,7 @@ staxel.plant.quest.RainbowButterfly.tile.description=
 //TODO Translate [Reference] 'tile'
 staxel.plant.quest.RainbowButterfly.tile.name=
 staxel.plant.tree.BasicNaturalTree.description=
-//TODO Translate [Reference] 'Basic Natural Tree'
+//TODO Translate [Reference] 'Tree Sapling'
 staxel.plant.tree.BasicNaturalTree.name=
 
 //[Reference] 'Free in Creative'
@@ -7624,7 +7631,7 @@ staxel.tree.BananaTree.description=這棵樹可以長出美味的香蕉。夏季
 //[Reference] 'Banana Tree Seed'
 staxel.tree.BananaTree.name=香蕉樹種子
 staxel.tree.BasicNaturalTree.description=
-//TODO Translate [Reference] 'Basic Natural Tree'
+//TODO Translate [Reference] 'Tree Sapling'
 staxel.tree.BasicNaturalTree.name=
 //[Reference] 'This tree grows sweet sweet cherries. Fruits in Autumn.'
 staxel.tree.CherryTree.description=這棵樹可以長出超級甜的櫻桃。秋季水果。

@@ -2,7 +2,6 @@
 language=Русский
 language.official=false
 font=staxel/fonts/BebasNeueBook.otf
-=
 
 //[Reference] 'Achievement unlocked: {0-achievement}!'
 achievements.achievementUnlocked=Получено достижение: {0-achievement}!
@@ -342,7 +341,8 @@ escapemenu.teleport=
 escapeMenu.back=Продолжить игру
 //[Reference] 'Character Designer'
 escapeMenu.characterDesigner=Внешность персонажа
-//[Reference] 'Control Hints'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Controls Guide'
 escapeMenu.controlHints=Управление
 //[Reference] 'Exit to Desktop'
 escapeMenu.desktopExit=На рабочий стол
@@ -426,7 +426,8 @@ hintText.notEnoughSpaceToPlant=Этому растению для роста н�
 hintText.oneSlotNeeded=Необходима хотя бы 1 ячейка в инвентаре
 //[Reference] 'You already know this recipe'
 hintText.recipeKnown=Этот рецепт уже известен
-//[Reference] 'You successfully learnt the recipe for {0-recipe}!'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'You successfully learnt the recipe for a {0-recipe}!'
 hintText.recipeLearnt=Изучен новый рецепт: {0-recipe}!
 //[Reference] 'There's nothing left to steal... for today.'
 hintText.thiefLimit=Сегодня здесь уже ничего не удастся украсть...
@@ -548,9 +549,10 @@ options.gameplay.controller.enableController=Разрешить управлен
 options.gameplay.controller.flipLeftX=
 //[Reference] 'Flip Left Y Axis'
 options.gameplay.controller.flipLeftY=Инвертировать ось Y (левый)
-//TODO Translate [Reference] 'Flip Right X Axis'
+//TODO Translate [Reference] 'Invert Horizontal Look Axis'
 options.gameplay.controller.flipRightX=
-//[Reference] 'Flip Right Y Axis'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Invert Vertical Look Axis'
 options.gameplay.controller.flipRightY=Инвертировать ось Y (правый)
 //[Reference] 'Left Thumb Curve:'
 options.gameplay.controller.leftThumbCurve=Угол поворота левого мини-джойстика:
@@ -621,21 +623,26 @@ options.gameplay.StaxelNet.Relay=
 //[Reference] 'UI'
 options.gameplay.ui=Интерфейс
 //[Validate] Delete this comment if or when the translation is accurate.
-//[Reference] 'Resolution:'
+//[Reference] 'Resolution'
 options.gameplay.ui.FullScreenResolution=Полноэкранный режим:
-//[Reference] 'UI Scale:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'UI Scale'
 options.gameplay.ui.ManualUIScale=Масштаб интерфейса:
 //[Reference] 'General'
 options.general=Общие
 //[Reference] 'Audio'
 options.general.audio=Звук
-//[Reference] 'Ambience:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Ambience'
 options.general.audio.ambience=Окружающий мир:
-//[Reference] 'Master:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Master'
 options.general.audio.master=Общая громкость:
-//[Reference] 'Music:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Music'
 options.general.audio.music=Музыка:
-//[Reference] 'Sound:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Sound'
 options.general.audio.sound=Звуки:
 //[Reference] 'Graphics'
 options.general.graphics=Графика
@@ -4215,7 +4222,8 @@ staxel.item.Transformations.TomtiNoHat.description=
 staxel.item.Transformations.TomtiNoHat.name=
 //TODO Translate [Reference] 'Claim Petals'
 staxel.mail.claimPetals=
-//[Reference] '^c:1486b0;$playername;^c:pop;!\n\nI couldn't help overhearing your conversation with ^c:1486b0;Rosemary^c:pop; yesterday (sorry, I wasn't listening on purpose, I swear). See, I was around these parts back then and I swear something wasn't quite right about the whole thing...\n\nMaybe it would be worth having a little wander around the village and seeing if anyone else can remember anything?\n\n^c:1486b0;Farm Fan^c:pop;'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:1486b0;{0-playername}^c:pop;!\n\nI couldn't help overhearing your conversation with ^c:1486b0;Rosemary^c:pop; yesterday (sorry, I wasn't listening on purpose, I swear). See, I was around these parts back then and I swear something wasn't quite right about the whole thing...\n\nMaybe it would be worth having a little wander around the village and seeing if anyone else can remember anything?\n\n^c:1486b0;Farm Fan^c:pop;'
 staxel.mail.FarmFanEavesdrop.body=^c:1486b0;$playername;^c:pop;!\n\nВчера я стала свидетельницей твоего разговора с ^c:1486b0;Розмари^c:pop; (это вышло случайно, честное слово). Я жила уже здесь, когда все это случилось, и что-то странное было во всей той истории...\n\nСоветую походить по деревне и поспрашивать у местных жителей. Возможно, кто-то вспомнит подробности.\n\n^c:1486b0;Мила Фармер^c:pop;
 //[Reference] 'Rosemary'
 staxel.mail.FarmFanEavesdrop.subject=Розмари
@@ -4700,7 +4708,8 @@ staxel.plant.quest.RainbowButterfly.tile.description=
 //[Reference] 'tile'
 staxel.plant.quest.RainbowButterfly.tile.name=плитка
 staxel.plant.tree.BasicNaturalTree.description=
-//[Reference] 'Basic Natural Tree'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Tree Sapling'
 staxel.plant.tree.BasicNaturalTree.name=Обычное живое дерево
 //[Reference] 'Free in Creative'
 staxel.priceTag.freeInCreative=Бесплатно в творческом режиме
@@ -7444,7 +7453,8 @@ staxel.tree.BananaTree.description=На этой пальме растут сл�
 //[Reference] 'Banana Tree Seed'
 staxel.tree.BananaTree.name=Семена банановой пальмы
 staxel.tree.BasicNaturalTree.description=
-//[Reference] 'Basic Natural Tree'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Tree Sapling'
 staxel.tree.BasicNaturalTree.name=Обычное живое дерево
 //[Reference] 'This tree grows sweet sweet cherries. Fruits in Autumn.'
 staxel.tree.CherryTree.description=На этом дереве растут сладкие-пресладкие вишни. Плодоносит осенью.

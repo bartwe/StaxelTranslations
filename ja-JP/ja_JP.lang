@@ -2,7 +2,6 @@
 language=日本語
 language.official=true
 font=staxel/fonts/Mamelon.otf
-=
 
 //[Reference] 'Achievement unlocked: {0-achievement}!'
 achievements.achievementUnlocked=アチーブメントがアンロックされました：{0-achievement}！
@@ -348,7 +347,8 @@ escapemenu.teleport=家に戻る
 escapeMenu.back=ゲームに戻る
 //[Reference] 'Character Designer'
 escapeMenu.characterDesigner=キャラクター作成
-//[Reference] 'Control Hints'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Controls Guide'
 escapeMenu.controlHints=操作のヒント
 //[Reference] 'Exit to Desktop'
 escapeMenu.desktopExit=終了
@@ -434,7 +434,8 @@ hintText.notEnoughSpaceToPlant=この植物が成長するにはより大きな�
 hintText.oneSlotNeeded=インベントリに1スロット以上必要です
 //[Reference] 'You already know this recipe'
 hintText.recipeKnown=あなたはこのレシピをすでに知っています
-//[Reference] 'You successfully learnt the recipe for {0-recipe}!'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'You successfully learnt the recipe for a {0-recipe}!'
 hintText.recipeLearnt={0-recipe}のレシピを習得しました！
 //[Reference] 'There's nothing left to steal... for today.'
 hintText.thiefLimit=盗むものはありません…今日のところは。
@@ -560,9 +561,11 @@ options.gameplay.controller.enableController=コントローラーからの入�
 options.gameplay.controller.flipLeftX=左のX軸を反転
 //[Reference] 'Flip Left Y Axis'
 options.gameplay.controller.flipLeftY=左のY軸を反転
-//[Reference] 'Flip Right X Axis'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Invert Horizontal Look Axis'
 options.gameplay.controller.flipRightX=右のX軸を反転
-//[Reference] 'Flip Right Y Axis'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Invert Vertical Look Axis'
 options.gameplay.controller.flipRightY=右のY軸を反転
 //[Reference] 'Left Thumb Curve:'
 options.gameplay.controller.leftThumbCurve=左親指のカーブ：
@@ -634,21 +637,27 @@ options.gameplay.StaxelNet=StaxelNet
 options.gameplay.StaxelNet.Relay=リレー
 //[Reference] 'UI'
 options.gameplay.ui=UI
-//[Reference] 'Resolution:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Resolution'
 options.gameplay.ui.FullScreenResolution=解像度：
-//[Reference] 'UI Scale:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'UI Scale'
 options.gameplay.ui.ManualUIScale=UIの倍率：
 //[Reference] 'General'
 options.general=全般
 //[Reference] 'Audio'
 options.general.audio=オーディオ
-//[Reference] 'Ambience:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Ambience'
 options.general.audio.ambience=環境音：
-//[Reference] 'Master:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Master'
 options.general.audio.master=主音量：
-//[Reference] 'Music:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Music'
 options.general.audio.music=BGM：
-//[Reference] 'Sound:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Sound'
 options.general.audio.sound=効果音：
 //[Reference] 'Graphics'
 options.general.graphics=グラフィックス
@@ -4199,7 +4208,8 @@ staxel.item.Transformations.TomtiNoHat.description=
 staxel.item.Transformations.TomtiNoHat.name=トムティ（帽子なし）
 //[Reference] 'Claim Petals'
 staxel.mail.claimPetals=ペタルを受け取る
-//[Reference] '^c:1486b0;$playername;^c:pop;!\n\nI couldn't help overhearing your conversation with ^c:1486b0;Rosemary^c:pop; yesterday (sorry, I wasn't listening on purpose, I swear). See, I was around these parts back then and I swear something wasn't quite right about the whole thing...\n\nMaybe it would be worth having a little wander around the village and seeing if anyone else can remember anything?\n\n^c:1486b0;Farm Fan^c:pop;'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:1486b0;{0-playername}^c:pop;!\n\nI couldn't help overhearing your conversation with ^c:1486b0;Rosemary^c:pop; yesterday (sorry, I wasn't listening on purpose, I swear). See, I was around these parts back then and I swear something wasn't quite right about the whole thing...\n\nMaybe it would be worth having a little wander around the village and seeing if anyone else can remember anything?\n\n^c:1486b0;Farm Fan^c:pop;'
 staxel.mail.FarmFanEavesdrop.body=^c:1486b0;$playername;^c:pop;！\n\n昨日あなたと^c:1486b0;ローズマリー^c:pop;の会話が偶然耳に入っちゃったの（ごめんね、わざとじゃないの、本当に）。今思い返せば、何か怪しかったのよね…\n\nちょっと村を回って、誰か何か覚えてないか聞いてみたらどうかな？\n\n^c:1486b0;ファームファン^c:pop;より
 //[Reference] 'Rosemary'
 staxel.mail.FarmFanEavesdrop.subject=ローズマリー
@@ -4674,7 +4684,8 @@ staxel.plant.quest.RainbowButterfly.tile.description=
 //[Reference] 'tile'
 staxel.plant.quest.RainbowButterfly.tile.name=タイル
 staxel.plant.tree.BasicNaturalTree.description=
-//[Reference] 'Basic Natural Tree'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Tree Sapling'
 staxel.plant.tree.BasicNaturalTree.name=普通の自然の木
 
 //[Reference] 'Free in Creative'
@@ -7396,7 +7407,8 @@ staxel.tree.BananaTree.description=この木にはおいしいバナナが実る
 //[Reference] 'Banana Tree Seed'
 staxel.tree.BananaTree.name=バナナの木の種
 staxel.tree.BasicNaturalTree.description=
-//[Reference] 'Basic Natural Tree'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Tree Sapling'
 staxel.tree.BasicNaturalTree.name=普通の苗木
 //[Reference] 'This tree grows sweet sweet cherries. Fruits in Autumn.'
 staxel.tree.CherryTree.description=この木にはとっても甘いサクランボが実る。秋に収穫できる。

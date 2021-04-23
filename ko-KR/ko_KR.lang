@@ -1,7 +1,6 @@
 ﻿language.code=ko-KR
 language=한국어
 language.official=false
-=
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Achievement unlocked: {0-achievement}!'
 achievements.achievementUnlocked={0-achievement} 도전과제를 달성했어요!
@@ -355,7 +354,8 @@ escapemenu.teleport=
 escapeMenu.back=게임 마저하기
 //[Reference] 'Character Designer'
 escapeMenu.characterDesigner=캐릭터 만들기
-//[Reference] 'Control Hints'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Controls Guide'
 escapeMenu.controlHints=조작 설명
 //[Reference] 'Exit to Desktop'
 escapeMenu.desktopExit=게임 종료
@@ -441,7 +441,8 @@ hintText.notEnoughSpaceToPlant=This plant needs more space to grow
 hintText.oneSlotNeeded=Need at least 1 slot in inventory
 //[Reference] 'You already know this recipe'
 hintText.recipeKnown=You already know this recipe
-//[Reference] 'You successfully learnt the recipe for {0-recipe}!'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'You successfully learnt the recipe for a {0-recipe}!'
 hintText.recipeLearnt=You successfully learnt the recipe for {0-recipe}!
 //[Reference] 'There's nothing left to steal... for today.'
 hintText.thiefLimit=There's nothing left to steal... for today.
@@ -571,9 +572,10 @@ options.gameplay.controller.enableController=컨트롤러 사용
 options.gameplay.controller.flipLeftX=
 //[Reference] 'Flip Left Y Axis'
 options.gameplay.controller.flipLeftY=왼쪽 아날로그 스틱의 위아래 반전
-//TODO Translate [Reference] 'Flip Right X Axis'
+//TODO Translate [Reference] 'Invert Horizontal Look Axis'
 options.gameplay.controller.flipRightX=
-//[Reference] 'Flip Right Y Axis'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Invert Vertical Look Axis'
 options.gameplay.controller.flipRightY=오른쪽 아날로그 스틱의 위아래 반전
 //[Reference] 'Left Thumb Curve:'
 options.gameplay.controller.leftThumbCurve=Left Thumb Curve:
@@ -648,22 +650,26 @@ options.gameplay.StaxelNet.Relay=
 options.gameplay.ui=UI
 
 //[Validate] Delete this comment if or when the translation is accurate.
-//[Reference] 'Resolution:'
+//[Reference] 'Resolution'
 options.gameplay.ui.FullScreenResolution=전체화면 해상도:
 //[Validate] Delete this comment if or when the translation is accurate.
-//[Reference] 'UI Scale:'
+//[Reference] 'UI Scale'
 options.gameplay.ui.ManualUIScale=UI 크기:
 //[Reference] 'General'
 options.general=전체
 //[Reference] 'Audio'
 options.general.audio=소리
-//[Reference] 'Ambience:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Ambience'
 options.general.audio.ambience=환경 소리:
-//[Reference] 'Master:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Master'
 options.general.audio.master=전체 소리:
-//[Reference] 'Music:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Music'
 options.general.audio.music=배경음악:
-//[Reference] 'Sound:'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Sound'
 options.general.audio.sound=말소리:
 //[Reference] 'Graphics'
 options.general.graphics=그래픽
@@ -4289,7 +4295,7 @@ staxel.item.Transformations.TomtiNoHat.description=
 staxel.item.Transformations.TomtiNoHat.name=
 //TODO Translate [Reference] 'Claim Petals'
 staxel.mail.claimPetals=
-//TODO Translate [Reference] '^c:1486b0;$playername;^c:pop;!\n\nI couldn't help overhearing your conversation with ^c:1486b0;Rosemary^c:pop; yesterday (sorry, I wasn't listening on purpose, I swear). See, I was around these parts back then and I swear something wasn't quite right about the whole thing...\n\nMaybe it would be worth having a little wander around the village and seeing if anyone else can remember anything?\n\n^c:1486b0;Farm Fan^c:pop;'
+//TODO Translate [Reference] '^c:1486b0;{0-playername}^c:pop;!\n\nI couldn't help overhearing your conversation with ^c:1486b0;Rosemary^c:pop; yesterday (sorry, I wasn't listening on purpose, I swear). See, I was around these parts back then and I swear something wasn't quite right about the whole thing...\n\nMaybe it would be worth having a little wander around the village and seeing if anyone else can remember anything?\n\n^c:1486b0;Farm Fan^c:pop;'
 staxel.mail.FarmFanEavesdrop.body=
 //TODO Translate [Reference] 'Rosemary'
 staxel.mail.FarmFanEavesdrop.subject=
@@ -4777,7 +4783,7 @@ staxel.plant.quest.RainbowButterfly.tile.description=
 //TODO Translate [Reference] 'tile'
 staxel.plant.quest.RainbowButterfly.tile.name=
 staxel.plant.tree.BasicNaturalTree.description=
-//TODO Translate [Reference] 'Basic Natural Tree'
+//TODO Translate [Reference] 'Tree Sapling'
 staxel.plant.tree.BasicNaturalTree.name=
 
 //[Reference] 'Free in Creative'
@@ -7543,7 +7549,7 @@ staxel.tree.BananaTree.description=This tree grows yummy bananas. Fruits in Summ
 //[Reference] 'Banana Tree Seed'
 staxel.tree.BananaTree.name=Banana Tree Seed
 staxel.tree.BasicNaturalTree.description=
-//TODO Translate [Reference] 'Basic Natural Tree'
+//TODO Translate [Reference] 'Tree Sapling'
 staxel.tree.BasicNaturalTree.name=
 //[Reference] 'This tree grows sweet sweet cherries. Fruits in Autumn.'
 staxel.tree.CherryTree.description=This tree grows sweet sweet cherries. Fruits in Autumn.
