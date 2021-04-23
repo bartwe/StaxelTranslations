@@ -1,7 +1,6 @@
-﻿language.code=en-GB
+language.code=en-GB
 language=English
 language.official=true
-=
 
 achievements.achievementUnlocked=Achievement unlocked: {0-achievement}!
 Alua=Alua
@@ -190,7 +189,7 @@ escapemenu.teleport=Return Home
 
 escapeMenu.back=Back to Game
 escapeMenu.characterDesigner=Character Designer
-escapeMenu.controlHints=Control Hints
+escapeMenu.controlHints=Controls Guide
 escapeMenu.desktopExit=Exit to Desktop
 escapeMenu.mainMenu=Go to Main Menu
 escapeMenu.options=Options
@@ -235,7 +234,7 @@ hintText.needTilledTile=Try planting on tilled soil
 hintText.notEnoughSpaceToPlant=This plant needs more space to grow
 hintText.oneSlotNeeded=Need at least 1 slot in inventory
 hintText.recipeKnown=You already know this recipe
-hintText.recipeLearnt=You successfully learnt the recipe for {0-recipe}!
+hintText.recipeLearnt=You successfully learnt the recipe for a {0-recipe}!
 hintText.thiefLimit=There's nothing left to steal... for today.
 hintText.thiefReset=You are no longer a thief
 hintText.thiefSteal=You stole {0-amount} Petals! {1-theft}
@@ -306,8 +305,8 @@ options.gameplay.controller=Controller
 options.gameplay.controller.enableController=Enable Controller Input
 options.gameplay.controller.flipLeftX=Flip Left X Axis
 options.gameplay.controller.flipLeftY=Flip Left Y Axis
-options.gameplay.controller.flipRightX=Flip Right X Axis
-options.gameplay.controller.flipRightY=Flip Right Y Axis
+options.gameplay.controller.flipRightX=Invert Horizontal Look Axis
+options.gameplay.controller.flipRightY=Invert Vertical Look Axis
 options.gameplay.controller.leftThumbCurve=Left Thumb Curve:
 options.gameplay.controller.leftThumbDeadzone=Left Thumb Deadzone:
 options.gameplay.controller.rightThumbCurve=Right Thumb Curve:
@@ -346,14 +345,14 @@ options.gameplay.StaxelNet=StaxelNet
 options.gameplay.StaxelNet.Relay=Relay
 options.gameplay.ui=UI
 
-options.gameplay.ui.FullScreenResolution=Resolution:
-options.gameplay.ui.ManualUIScale=UI Scale:
+options.gameplay.ui.FullScreenResolution=Resolution
+options.gameplay.ui.ManualUIScale=UI Scale
 options.general=General
 options.general.audio=Audio
-options.general.audio.ambience=Ambience:
-options.general.audio.master=Master:
-options.general.audio.music=Music:
-options.general.audio.sound=Sound:
+options.general.audio.ambience=Ambience
+options.general.audio.master=Master
+options.general.audio.music=Music
+options.general.audio.sound=Sound
 options.general.graphics=Graphics
 options.general.graphics.advanced=Advanced
 
@@ -2494,7 +2493,7 @@ staxel.item.Transformations.TomtiNoHat.description=
 staxel.item.Transformations.TomtiNoHat.name=Tomti No Hat
 
 staxel.mail.claimPetals=Claim Petals
-staxel.mail.FarmFanEavesdrop.body=^c:1486b0;$playername;^c:pop;!\n\nI couldn't help overhearing your conversation with ^c:1486b0;Rosemary^c:pop; yesterday (sorry, I wasn't listening on purpose, I swear). See, I was around these parts back then and I swear something wasn't quite right about the whole thing...\n\nMaybe it would be worth having a little wander around the village and seeing if anyone else can remember anything?\n\n^c:1486b0;Farm Fan^c:pop;
+staxel.mail.FarmFanEavesdrop.body=^c:1486b0;{0-playername}^c:pop;!\n\nI couldn't help overhearing your conversation with ^c:1486b0;Rosemary^c:pop; yesterday (sorry, I wasn't listening on purpose, I swear). See, I was around these parts back then and I swear something wasn't quite right about the whole thing...\n\nMaybe it would be worth having a little wander around the village and seeing if anyone else can remember anything?\n\n^c:1486b0;Farm Fan^c:pop;
 staxel.mail.FarmFanEavesdrop.subject=Rosemary
 staxel.mailCounter.accept=Save Mail
 staxel.mailCounter.body=Message
@@ -2755,7 +2754,7 @@ staxel.plant.quest.RainbowButterfly.name=Rainbow Butterfly
 staxel.plant.quest.RainbowButterfly.tile.description=
 staxel.plant.quest.RainbowButterfly.tile.name=tile
 staxel.plant.tree.BasicNaturalTree.description=
-staxel.plant.tree.BasicNaturalTree.name=Basic Natural Tree
+staxel.plant.tree.BasicNaturalTree.name=Tree Sapling
 
 staxel.priceTag.freeInCreative=Free in Creative
 
@@ -4530,7 +4529,7 @@ staxel.tree.AppleTree.name=Apple Tree Seed
 staxel.tree.BananaTree.description=This tree grows yummy bananas. Fruits in Summer.
 staxel.tree.BananaTree.name=Banana Tree Seed
 staxel.tree.BasicNaturalTree.description=
-staxel.tree.BasicNaturalTree.name=Basic Natural Tree
+staxel.tree.BasicNaturalTree.name=Tree Sapling
 staxel.tree.CherryTree.description=This tree grows sweet sweet cherries. Fruits in Autumn.
 staxel.tree.CherryTree.name=Cherry Tree Seed
 staxel.tree.CocoaTree.description=Chocolate does grow on trees! Fruits in Summer.
