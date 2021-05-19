@@ -5,12 +5,12 @@ language.official=false
 
 //[Reference] 'Achievement unlocked: {0-achievement}!'
 achievements.achievementUnlocked=Conquista desbloqueada: {0-achievement}!
-//TODO Translate [Reference] 'Alua'
-Alua=
+//[Reference] 'Alua'
+Alua=Alua
 //TODO Translate [Reference] 'Box Builder Settings'
 BoxPlacerSettings.title=
-//TODO Translate [Reference] 'Save'
-BuildToolSettings.accept=
+//[Reference] 'Save'
+BuildToolSettings.accept=Salvar
 //[Reference] 'Buy:'
 catalogue.buy=Comprar:
 //[Reference] 'Clear'
@@ -40,8 +40,8 @@ commands.mail.success=concluído
 commands.mailcode.description=
 //[Reference] 'resume'
 commands.stopTime.resume=retomar
-//TODO Translate [Reference] 'success'
-commands.success=
+//[Reference] 'success'
+commands.success=Sucesso
 commands.togglefreezevillagerposition.description=
 commands.tpvillagerhere.description=
 //[Reference] 'success'
@@ -212,7 +212,7 @@ crafting.notifications.notACraft=Não dá para fazer nada com estes itens...
 //[Reference] 'You don't have enough reagents anymore.'
 crafting.notifications.NotEnough=Reagentes insuficientes.
 
-//[Validate] Delete this comment if or when the translation is accurate.
+
 //[Reference] 'The recipe for {0-item} was just completed!'
 crafting.recipeComplete=Você concluiu a receita de {0-item}!
 
@@ -238,28 +238,28 @@ credits.curtis.description=É um músico talentoso responsável pela criação d
 credits.deamonhunter.description=Outro programador. Em geral, seu trabalho é explicar às pessoas como criar mods. Se você avistar um zumbi por perto, é provável que seja ele.
 //[Reference] 'Helped out with writing all sorts.'
 credits.demanRisu.description=Ajudou a escrever várias partes do jogo.
-//TODO Translate [Reference] 'Partners'
-credits.developmentPartners=
-//TODO Translate [Reference] 'Level Design'
-credits.developmentPartners.SitchHeads.dennis.description=
-//TODO Translate [Reference] 'They produced the Hideaway Hollow update!'
-credits.developmentPartners.SitchHeads.description=
-//TODO Translate [Reference] 'Art Direction / Rigging / Animation'
-credits.developmentPartners.SitchHeads.geerard.description=
-//TODO Translate [Reference] 'Programming / Design'
-credits.developmentPartners.SitchHeads.jos.description=
-//TODO Translate [Reference] 'Audio / Music'
-credits.developmentPartners.SitchHeads.joshua.description=
-//TODO Translate [Reference] 'Art'
-credits.developmentPartners.SitchHeads.kim.description=
-//TODO Translate [Reference] 'Additional Art'
-credits.developmentPartners.SitchHeads.laura.description=
-//TODO Translate [Reference] 'Production / Design'
-credits.developmentPartners.SitchHeads.tim.description=
+//[Reference] 'Partners'
+credits.developmentPartners=Parceiros
+//[Reference] 'Level Design'
+credits.developmentPartners.SitchHeads.dennis.description=Designer de Level
+//[Reference] 'They produced the Hideaway Hollow update!'
+credits.developmentPartners.SitchHeads.description=Eles produziram a atualização do Refúgio Oco
+//[Reference] 'Art Direction / Rigging / Animation'
+credits.developmentPartners.SitchHeads.geerard.description=Direção de Arte / Aparelhamento / Animação
+//[Reference] 'Programming / Design'
+credits.developmentPartners.SitchHeads.jos.description=Programação / Design
+//[Reference] 'Audio / Music'
+credits.developmentPartners.SitchHeads.joshua.description=Áudio / Música
+//[Reference] 'Art'
+credits.developmentPartners.SitchHeads.kim.description=Arte
+//[Reference] 'Additional Art'
+credits.developmentPartners.SitchHeads.laura.description=Arte Adicional
+//[Reference] 'Production / Design'
+credits.developmentPartners.SitchHeads.tim.description=Produção / Design
 //[Reference] 'is another member of the programmer team who works on the more tedious stuff.'
 credits.h1n1.description=é outro membro da equipe de programação que trabalha com coisas mais chatas.
-//TODO Translate [Reference] 'Brand Management, Spends all of her time taking screenshots in game instead of playing the game. Will strike up a conversation if provoked.'
-credits.maryAnn.description=
+//[Reference] 'Brand Management, Spends all of her time taking screenshots in game instead of playing the game. Will strike up a conversation if provoked.'
+credits.maryAnn.description=Gestor de Marca, Gasta todo seu tempo tirando screenshots do jogo ao invés de jogar. Vai começar um debate se provocado.
 //[Reference] 'A faceless entity between realms; only exists when you’re not looking. In its spare time, programs.'
 credits.moocowtg.description=Uma entidade sem rosto que vaga entre os mundos. Só existe quando você não está olhando. Programa nas horas vagas.
 //[Reference] 'He is Staxel's content lead, programmer and writer. His cat writes approximately half of his code.'
@@ -299,56 +299,56 @@ error.back=Voltar
 
 //[Reference] 'Bad Version'
 error.badVersion=Versão inválida
-//TODO Translate [Reference] 'Failed to connect to server. Address: {0-address} ErrorMessage: {1-message}'
-error.failedToConnect=
+//[Reference] 'Failed to connect to server. Address: {0-address} ErrorMessage: {1-message}'
+error.failedToConnect=Falha ao conectar com o servidor. Endereço: {0-address} Mensagem de Erro: {1-message}
 //[Reference] 'Server Full'
 error.serverFull=Servidor cheio
 //[Reference] 'The Staxel.net server appears to be offline. Please try again later.'
 error.serverOffline=O servidor Staxel.net está offline. Tente de novo mais tarde.
 //[Reference] 'SORRY!'
 error.sorry=DESCULPE!
-//TODO Translate [Reference] 'You have been banned from this server.'
-error.startGame.banned=
-//TODO Translate [Reference] 'Connection Closed'
-error.startGame.connectionClosed=
-//TODO Translate [Reference] 'Cannot start a local private server for single player mode.{0-newLine}Is another copy of the game still running?{1-newLine}'
-error.startGame.gameRunning=
-//TODO Translate [Reference] 'Invalid credentials.'
-error.startGame.invalidCredential=
-//TODO Translate [Reference] 'Unable to open a file needed for the server. Is another copy of this world still running?'
-error.startGame.ioexception=
-//TODO Translate [Reference] 'Local game closed unexpectedly.'
-error.startGame.localGameUnexpected=
-//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.'
-error.startGame.localTcp=
-//TODO Translate [Reference] 'Connection closed because a new connection was made by the same player.'
-error.startGame.muliLogin=
-//TODO Translate [Reference] 'Not logged in.'
-error.startGame.notLoggedIn=
-//TODO Translate [Reference] 'A premium account is required to play on this server.'
-error.startGame.premiumAccount=
-//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed quickly before client could connect.'
-error.startGame.quickNoConnect=
-//TODO Translate [Reference] 'Server is set to allow only accounts with special attributes.'
-error.startGame.specialAttributes=
-//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Timeout on trying to connect with local server.'
-error.startGame.timeout=
-//TODO Translate [Reference] 'Game failed to start a local private server for single player mode. Server closed very quickly before client could connect.'
-error.startGame.veryQuickNoConnect=
-//TODO Translate [Reference] 'Weak credentials not allowed by server.'
-error.startGame.weakCredential=
+//[Reference] 'You have been banned from this server.'
+error.startGame.banned=Você foi banido deste servidor.
+//[Reference] 'Connection Closed'
+error.startGame.connectionClosed=Conexão Fechada
+//[Reference] 'Cannot start a local private server for single player mode.{0-newLine}Is another copy of the game still running?{1-newLine}'
+error.startGame.gameRunning=Não foi possivel criar um servidor local privado para o modo Um Jogador.{0-newLine}Tem outra copia do jogo aberta?{1-newLine}
+//[Reference] 'Invalid credentials.'
+error.startGame.invalidCredential=Credenciais Inválidas
+//[Reference] 'Unable to open a file needed for the server. Is another copy of this world still running?'
+error.startGame.ioexception=Incapaz de abrir o arquivo necessario para o servidor. Tem outra copia desse mundo aberta?
+//[Reference] 'Local game closed unexpectedly.'
+error.startGame.localGameUnexpected=Jogo local fechado inesperadamente.
+//[Reference] 'Game failed to start a local private server for single player mode. Server closed before client could make local tcp connection.'
+error.startGame.localTcp=O jogo falhou em criar um servidor local para o modo Um Jogador. O servidor fechou antes do client conseguir fazer a conexão local tcp.
+//[Reference] 'Connection closed because a new connection was made by the same player.'
+error.startGame.muliLogin=Conexão fechada devida a uma nova conexão feita pelo mesmo jogador.
+//[Reference] 'Not logged in.'
+error.startGame.notLoggedIn=Não está logado.
+//[Reference] 'A premium account is required to play on this server.'
+error.startGame.premiumAccount=Uma conta premium é necessária para jogar nesse servidor.
+//[Reference] 'Game failed to start a local private server for single player mode. Server closed quickly before client could connect.'
+error.startGame.quickNoConnect=O jogo falhou em criar um servidor local privado para o modo Um Jogador. O Servidor fechou rapidamente antes que o client conseguisse conectar.
+//[Reference] 'Server is set to allow only accounts with special attributes.'
+error.startGame.specialAttributes=O Servidor está configurado para permitir apenas contas com atributos especiais.
+//[Reference] 'Game failed to start a local private server for single player mode. Timeout on trying to connect with local server.'
+error.startGame.timeout=O jogo falhou em iniciar um servidor local privado para o modo Um Jogador. Tempo esgotado tentando conectar com o servidor local.
+//[Reference] 'Game failed to start a local private server for single player mode. Server closed very quickly before client could connect.'
+error.startGame.veryQuickNoConnect=O jogo falhou em criar um servidor local privado para o modo Um Jogador. O servidor fechou rapidamente antes que o client conseguisse conectar.
+//[Reference] 'Weak credentials not allowed by server.'
+error.startGame.weakCredential=Credenciais Fracas não permitidas pelo servidor
 //[Reference] 'Cancel'
 escapemenu.cancel=Cancelar
 //[Reference] 'Are you sure you want to exit to desktop? Progress is saved automatically.'
 escapemenu.confirmExit=Deseja mesmo sair para a área de trabalho? O progresso é salvo automaticamente.
 //[Reference] 'Are you sure you want to exit to desktop?'
 escapemenu.confirmExitMultiplayer=Deseja mesmo sair para a área de trabalho?
-//TODO Translate [Reference] 'Are you sure you want to return home? It will cost 5% of your petals.'
-escapemenu.confirmTeleport=
+//[Reference] 'Are you sure you want to return home? It will cost 5% of your petals.'
+escapemenu.confirmTeleport=Você tem certeza que quer voltar para casa? Vai custar 5% de suas pétalas.
 //[Reference] 'Exit'
 escapemenu.exit=Sair
-//TODO Translate [Reference] 'Return Home'
-escapemenu.teleport=
+//[Reference] 'Return Home'
+escapemenu.teleport=Voltar para casa
 
 
 //[Reference] 'Back to Game'
@@ -365,8 +365,8 @@ escapeMenu.mainMenu=Ir para o menu principal
 escapeMenu.options=Opções
 //[Reference] 'Teleport Home'
 escapeMenu.returnHome=Teleportar para casa
-//TODO Translate [Reference] 'Staxel Net Address'
-escapeMenu.StaxelNet.Address=
+//[Reference] 'Staxel Net Address'
+escapeMenu.StaxelNet.Address=Endereço Staxel Net
 //TODO Translate [Reference] 'Face Extruder Settings'
 FaceExtruderSettings.title=
 
@@ -375,12 +375,12 @@ FaceExtruderSettings.title=
 fishing.gotAway=Ele escapou!
 //[Reference] 'Something is on the hook!'
 fishing.hooked=Você fisgou alguma coisa!
-//TODO Translate [Reference] 'Hold {0-button} {1-description} to keep reeling...'
-fishing.message.Reel=
-//TODO Translate [Reference] 'button'
-fishing.message.Reel.Mouse=
-//TODO Translate [Reference] 'Careful! You might snap the fishing line!'
-fishing.message.Release=
+//[Reference] 'Hold {0-button} {1-description} to keep reeling...'
+fishing.message.Reel=Segure {0-button} {1-description} para continuar puxando...
+//[Reference] 'button'
+fishing.message.Reel.Mouse=botão
+//[Reference] 'Careful! You might snap the fishing line!'
+fishing.message.Release=Cuidado! Você pode arrebentar a linha de pesca!
 //[Reference] 'There are no fish here'
 fishing.noFish=Não há peixes aqui
 //[Reference] 'GOT IT!'
@@ -455,8 +455,8 @@ hintText.thiefSteal=Você roubou {0-amount} pétalas! {1-theft}
 hintText.thiefThief=Ladrão! Seus crimes poderão ser perdoados com o passar do tempo.
 //[Reference] 'Stealing has consequences.'
 hintText.thiefWarning=Roubar traz consequências.
-//TODO Translate [Reference] 'The {0-tool} cannot catch that bug!'
-hintText.wrongBugTool=
+//[Reference] 'The {0-tool} cannot catch that bug!'
+hintText.wrongBugTool=A/O {0-tool} não pode capturar esse inseto!
 //[Reference] 'true'
 language.validated=true
 //TODO Translate [Reference] 'Line Builder Settings'
@@ -471,8 +471,8 @@ loading.skip=Pular
 looting.loot=Pilhar de
 //[Reference] 'Steal from'
 looting.stealFrom=Roubar de
-//TODO Translate [Reference] 'Morel'
-Morel=
+//Translate [Reference] 'Morel'
+Morel=Morel
 
 
 //[Reference] 'Back to main menu'
@@ -482,9 +482,8 @@ multiplayerMenu.joinServer=Entrar no servidor
 
 //[Reference] 'Play With Friends'
 multiplayerMenu.playWithFriends=Jogar com amigos
-//TODO Translate [Reference] 'Play With Friends'
-multiplayerMenu.playWithFriendsStandalone=
-//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Play With Friends'
+multiplayerMenu.playWithFriendsStandalone=Jogar com amigos
 //[Reference] 'Server Address:'
 multiplayerMenu.serverIP=IP do servidor:
 //[Reference] 'Server List'
@@ -517,9 +516,9 @@ options.admin.debug.creativeMode=Modo Criativo
 //[Reference] 'Enable Debug Keys'
 options.admin.debug.EnableDebugKeys=Habilitar teclas de depuração
 //[Reference] 'Fly Mode'
-options.admin.debug.flyMode=Modo Voo
+options.admin.debug.flyMode=Modo de Voo
 
-//[Validate] Delete this comment if or when the translation is accurate.
+
 //[Reference] 'Increased View Range (Experimental)'
 options.admin.debug.IncreasedViewRange=Alcance de visão aumentado
 //[Reference] 'Make a crashlog'
@@ -543,26 +542,26 @@ options.audio.description=Defina as opções de áudio aqui
 options.auto=Automático
 //[Reference] '(X)'
 options.backButton=(X)
-//TODO Translate [Reference] 'Destructive Mode'
-options.boxtool.destructive=
-//TODO Translate [Reference] 'Determines whether or not the tool will destroy tiles in the way when creating a box'
-options.boxtool.destructive.description=
-//TODO Translate [Reference] 'Hollow Mode'
-options.boxtool.hollow=
-//TODO Translate [Reference] 'When On, the created box will be hollow inside'
-options.boxtool.hollow.description=
-//TODO Translate [Reference] 'Randomise Tiles'
-options.buildTool.random=
-//TODO Translate [Reference] 'Determines if each block placed will randomise their look. Otherwise copy the first tile exactly.'
-options.buildTool.random.description=
-//TODO Translate [Reference] 'Allow Gaps'
-options.faceextruder.allowgaps=
-//TODO Translate [Reference] 'Will extrude tiles even if there is a one tile gap from the main face'
-options.faceextruder.allowgaps.description=
-//TODO Translate [Reference] 'Destructive Mode'
-options.faceextruder.destructive=
-//TODO Translate [Reference] 'Determines whether or not the tool will destroy tiles in the way when extruding a face'
-options.faceextruder.destructive.description=
+//[Reference] 'Destructive Mode'
+options.boxtool.destructive=Modo Destrutivo
+//[Reference] 'Determines whether or not the tool will destroy tiles in the way when creating a box'
+options.boxtool.destructive.description=Determina quando ou não a ferramenta irá destruir ladrilhos no caminho quando construindo uma caixa.
+//[Reference] 'Hollow Mode'
+options.boxtool.hollow=Modo oco
+//[Reference] 'When On, the created box will be hollow inside'
+options.boxtool.hollow.description=Quando ativado, a caixa criada estará oca por dentro.
+//[Reference] 'Randomise Tiles'
+options.buildTool.random=Randomizar ladrilhos
+//[Reference] 'Determines if each block placed will randomise their look. Otherwise copy the first tile exactly.'
+options.buildTool.random.description=Determina se cada bloco colocado terá sua aparecnia randomizada. Caso contrário a copia será igual a do primeiro.
+//[Reference] 'Allow Gaps'
+options.faceextruder.allowgaps=Permitir espaços
+//[Reference] 'Will extrude tiles even if there is a one tile gap from the main face'
+options.faceextruder.allowgaps.description=Irá pressionar ladrilhos mesmo se tiver um ladrilho de distancia da face principal.
+//[Reference] 'Destructive Mode'
+options.faceextruder.destructive=Modo Destrutivo
+//[Reference] 'Determines whether or not the tool will destroy tiles in the way when extruding a face'
+options.faceextruder.destructive.description=Determina quando ou não a ferramenta irá destruir ladrilhos no caminho quando pressionada a uma face.
 //[Reference] 'Gameplay'
 options.gameplay=Jogabilidade
 //[Reference] 'Mute Error Sounds'
@@ -571,14 +570,14 @@ options.gameplay.audio.muteErrorSounds=Desativar sons de erro
 options.gameplay.controller=Controle
 //[Reference] 'Enable Controller Input'
 options.gameplay.controller.enableController=Habilitar uso de controle
-//TODO Translate [Reference] 'Flip Left X Axis'
-options.gameplay.controller.flipLeftX=
+//[Reference] 'Flip Left X Axis'
+options.gameplay.controller.flipLeftX=Inverter Eixo X da Esquerda
 //[Reference] 'Flip Left Y Axis'
-options.gameplay.controller.flipLeftY=Inverter eixo Y do controle esquerdo
-//TODO Translate [Reference] 'Flip Right X Axis'
-options.gameplay.controller.flipRightX=
+options.gameplay.controller.flipLeftY=Inverter Eixo Y da Esquerda
+//[Reference] 'Flip Right X Axis'
+options.gameplay.controller.flipRightX=Inverter Eixo X da Direita
 //[Reference] 'Flip Right Y Axis'
-options.gameplay.controller.flipRightY=Inverter eixo Y do controle direito
+options.gameplay.controller.flipRightY=Inverter eixo Y da Direita
 //[Reference] 'Left Thumb Curve:'
 options.gameplay.controller.leftThumbCurve=Curva do LS:
 //[Reference] 'Left Thumb Deadzone:'
@@ -603,10 +602,10 @@ options.gameplay.keyboard=Teclado
 options.gameplay.mouse=Mouse
 //[Reference] 'Flip Wheel Direction'
 options.gameplay.mouse.flipWheelDirection=Inverter direção do botão de rolagem
-//TODO Translate [Reference] 'Flip X Axis'
-options.gameplay.mouse.flipX=
+//[Reference] 'Flip X Axis'
+options.gameplay.mouse.flipX=Inverter Eixo X
 //[Reference] 'Flip Y Axis'
-options.gameplay.mouse.flipY=Inverter eixo Y
+options.gameplay.mouse.flipY=Inverter Eixo Y
 //[Reference] 'Mouse Velocity:'
 options.gameplay.mouse.mouseVelocity=Velocidade do mouse:
 //[Reference] 'Smoothing'
@@ -615,14 +614,14 @@ options.gameplay.mouse.smoothingFactor=Suavização
 options.gameplay.other=Outro
 //[Reference] 'Active Achievement Tracker'
 options.gameplay.other.activeAchievement=Acompanhamento ativo de conquistas
-//TODO Translate [Reference] 'Auto Pickup Items'
-options.gameplay.other.autoPickupItems=
+//[Reference] 'Auto Pickup Items'
+options.gameplay.other.autoPickupItems=Coleta de itens automática.
 //[Reference] 'Text Speed:'
 options.gameplay.other.ChatSpeed=Velocidade do texto:
 //[Reference] 'Chat Timestamps'
 options.gameplay.other.chatTimestamps=Registro de horário no bate-papo
-//TODO Translate [Reference] 'Fishing Timeout'
-options.gameplay.other.FishingTimeout=
+//[Reference] 'Fishing Timeout'
+options.gameplay.other.FishingTimeout=Tempo limite de pesca
 //[Reference] 'Left Handed Mode'
 options.gameplay.other.leftHandedMode=Modo canhoto
 //[Reference] 'Scale UI with resolution'
@@ -634,18 +633,18 @@ options.gameplay.other.showClock=Mostrar relógio
 options.gameplay.other.ShowConsole=Mostrar console
 //[Reference] 'Crafting Keyword Tags'
 options.gameplay.other.showCraftingKeywordTags=Mostrar palavras-chave de criações
-//TODO Translate [Reference] 'Show Wrong Tool Notifications'
-options.gameplay.other.showWrongToolNotifications=
+//[Reference] 'Show Wrong Tool Notifications'
+options.gameplay.other.showWrongToolNotifications=Mostrar Notificações de Ferramentas Erradas
 //[Reference] 'Don't stretch UI'
 options.gameplay.other.StepWiseUIScale=Não esticar interface
 //[Reference] 'Prevent NPC Staring'
 options.gameplay.other.StopNPCStaring=Impedir olhar fixo de NPCs
-//TODO Translate [Reference] 'Player Speed'
-options.gameplay.other.WalkingSpeedMultiplier=
-//TODO Translate [Reference] 'StaxelNet'
-options.gameplay.StaxelNet=
-//TODO Translate [Reference] 'Relay'
-options.gameplay.StaxelNet.Relay=
+//[Reference] 'Player Speed'
+options.gameplay.other.WalkingSpeedMultiplier=Velocidade do Jogador
+//[Reference] 'StaxelNet'
+options.gameplay.StaxelNet=StaxelNet
+//[Reference] 'Relay'
+options.gameplay.StaxelNet.Relay=Retransmissão
 //[Reference] 'UI'
 options.gameplay.ui=Interface
 
@@ -747,12 +746,12 @@ options.general.graphics.ultra=Ultra
 options.general.graphics.WeatherParticles=Impedir condições climáticas em áreas internas
 //[Reference] 'Language'
 options.general.language=Idioma
-//TODO Translate [Reference] 'The {0-binding} control is not available for {1-logicalType} bindings.'
-options.keyBindings.bindingLocked=
+//[Reference] 'The {0-binding} control is not available for {1-logicalType} bindings.'
+options.keyBindings.bindingLocked=O {0-binding} botão não está disponivel para {1-logicalType} binds.
 //[Reference] 'Controller'
 options.keyBindings.controller=Controle
-//TODO Translate [Reference] 'Control Scheme'
-options.keyBindings.controlScheme=
+//[Reference] 'Control Scheme'
+options.keyBindings.controlScheme=Esquema de Controle
 //[Reference] 'Gameplay'
 options.keyBindings.gameplay=Jogabilidade
 //[Reference] 'Interface'
