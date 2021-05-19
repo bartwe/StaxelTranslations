@@ -85,8 +85,8 @@ controlHint.verb.default.Interact=Interagir
 controlHint.verb.default.ManualRestart=Reiniciar
 //[Reference] 'Memorise'
 controlHint.verb.default.Memorise=Memorizar
-//TODO Translate [Reference] 'Open'
-controlHint.verb.default.Open=
+//[Reference] 'Open'
+controlHint.verb.default.Open= Abrir
 //[Reference] 'Replace'
 controlHint.verb.default.reDock=Trocar
 //[Reference] 'Rotate'
@@ -103,8 +103,8 @@ controlHint.verb.default.Use=Usar
 controlHint.verb.Dig=Cavar
 //[Reference] 'Fill'
 controlHint.verb.Fill=Encher
-//TODO Translate [Reference] 'Finish'
-controlHint.verb.Finish=
+//[Reference] 'Finish'
+controlHint.verb.Finish= Acabar
 //[Reference] 'Give'
 controlHint.verb.Give=Dar
 //[Reference] 'Inspect'
@@ -123,16 +123,16 @@ controlHint.verb.Play=Jogar
 controlHint.verb.Pull=Puxar
 //[Reference] 'Reap'
 controlHint.verb.Reap=Colher
-//TODO Translate [Reference] 'Refill'
-controlHint.verb.Refill=
+//[Reference] 'Refill'
+controlHint.verb.Refill= Encher novamente
 //[Reference] 'Rename'
 controlHint.verb.Rename=Renomear
 //[Reference] 'Reset'
 controlHint.verb.Reset=Redefinir
 //[Reference] 'Resize'
 controlHint.verb.Resize=Redimensionar
-//TODO Translate [Reference] 'Return'
-controlHint.verb.Return=
+//[Reference] 'Return'
+controlHint.verb.Return= Voltar
 //[Reference] 'Sell'
 controlHint.verb.Sell=Vender
 //[Reference] 'Sell Back'
@@ -147,8 +147,8 @@ controlHint.verb.Sleep=Dormir
 controlHint.verb.Sweep=Varrer
 //[Reference] 'Chat'
 controlHint.verb.Talk=Conversar
-//TODO Translate [Reference] 'Teleport'
-controlHint.verb.Teleport=
+//[Reference] 'Teleport'
+controlHint.verb.Teleport= Teleportar
 //[Reference] 'Till'
 controlHint.verb.Till=Capinar
 //[Reference] 'Water'
@@ -183,8 +183,8 @@ crafting.action.keyword.construct=Construir
 crafting.action.keyword.cut=Cortar
 //[Reference] 'Fry'
 crafting.action.keyword.fry=Fritar
-//TODO Translate [Reference] 'Conjure'
-crafting.action.keyword.magic=
+//[Reference] 'Conjure'
+crafting.action.keyword.magic= Conjurar
 //[Reference] 'Mix'
 crafting.action.keyword.mix=Misturar
 //[Reference] 'Polish'
@@ -821,14 +821,14 @@ recipeBook.grouping.desserts=Sobremesas
 recipeBook.grouping.fencing=Cercas
 //[Reference] 'Flooring'
 recipeBook.grouping.flooring=Pisos
-//TODO Translate [Reference] 'Magic'
-recipeBook.grouping.magic=
+//[Reference] 'Magic'
+recipeBook.grouping.magic= Mágico
 //[Reference] 'Main Courses'
 recipeBook.grouping.mainCourses=Pratos principais
-//TODO Translate [Reference] 'Metal'
-recipeBook.grouping.metal=
-//TODO Translate [Reference] 'Miscellaneous'
-recipeBook.grouping.misc=
+//[Reference] 'Metal'
+recipeBook.grouping.metal= Metal
+//[Reference] 'Miscellaneous'
+recipeBook.grouping.misc= Diversos
 //[Reference] 'Roofing'
 recipeBook.grouping.roofing=Telhados
 //[Reference] 'Starters'
@@ -858,7 +858,7 @@ server.playerJoin={0-player} entrou no servidor
 //[Reference] '{0-player} has left the server'
 server.playerLeave={0-player} saiu do servidor
 //[Reference] 'You are currently muted and your messages will not be received by other players.'
-server.youAreMuted=Você foi silenciado. Suas mensagens não serão recebidas por outros jogadores.
+server.youAreMuted=Você está silenciado. Suas mensagens não serão recebidas por outros jogadores.
 //[Reference] 'You have been unmuted.'
 server.youAreUnmuted=Você não está mais silenciado.
 
@@ -925,21 +925,21 @@ singleplayer.launch=Lançar
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'A world with this name already exists.'
 singleplayer.nameAlreadyExists=Já existe um armazenamento com este nome
-//TODO Translate [Reference] 'World name is invalid. Must not contain invalid characters (e.g. ?, : or %).'
-singleplayer.nameIsInvalid=
-//TODO Translate [Reference] 'World name is too long. Must be under 16 characters.'
-singleplayer.nameTooLong=
+//[Reference] 'World name is invalid. Must not contain invalid characters (e.g. ?, : or %).'
+singleplayer.nameIsInvalid= O nome do mundo é inválido. Ele não pode conter caracteres invalidos (e.g. ?, : ou %).
+//[Reference] 'World name is too long. Must be under 16 characters.'
+singleplayer.nameTooLong= O nome do mundo está muito grande. Deve ter menos de 16 caracteres.
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'World name is too short. Must be have 3 or more characters.'
-singleplayer.nameTooShort=Nome curto demais (mín. 3 caracteres)
+singleplayer.nameTooShort=Nome do mundo está curto demais (mín. 3 caracteres)
 //[Reference] 'New World'
 singleplayer.newWorld=Novo mundo
 //[Reference] 'Play With Friends'
 singleplayer.playWithFriends=Jogar com amigos
-//TODO Translate [Reference] 'Rename'
-singleplayer.rename=
-//TODO Translate [Reference] 'Error while renaming world.'
-singleplayer.renameError=
+//Reference] 'Rename'
+singleplayer.rename= Renomear
+//[Reference] 'Error while renaming world.'
+singleplayer.renameError= Erro enquanto renomeava o mundo.
 //[Reference] 'Name'
 singleplayer.serverName=Nome
 //[Reference] 'Seed'
@@ -947,17 +947,17 @@ singleplayer.serverSeed=Semente
 
 //[Reference] 'Single Player'
 singleplayer.singleplayer=Solo
-//TODO Translate [Reference] 'Use StaxelNet'
-singleplayer.StaxelNet=
-//TODO Translate [Reference] 'Play With Friends (StaxelNet)'
-singleplayer.StaxelNetStandalone=
-//TODO Translate [Reference] 'Not authenticated'
-singleplayer.staxelNetStandaloneWeakAuth=
-//TODO Translate [Reference] 'World has not yet been created.'
-singleplayer.storageDoesNotExist=
+//[Reference] 'Use StaxelNet'
+singleplayer.StaxelNet= Usar StaxelNet
+//[Reference] 'Play With Friends (StaxelNet)'
+singleplayer.StaxelNetStandalone= Jogar com Amigos (StaxelNet)
+//[Reference] 'Not authenticated'
+singleplayer.staxelNetStandaloneWeakAuth= Não autenticado
+//[Reference] 'World has not yet been created.'
+singleplayer.storageDoesNotExist= O mundo ainda não foi criado
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'World is currently opened. Can't change settings.'
-singleplayer.storageLockFile=Armazenamento em uso, lockfile detectado.
+singleplayer.storageLockFile=Mundo atualmente aberto. Não dá pra mudar as configurações.
 //[Reference] 'Village'
 singleplayer.village=Vilarejo
 //[Reference] 'World Size'
@@ -1043,8 +1043,8 @@ staxel.accessories.characters.accessories.halloween.pumpkinhat.PumpkinHat.descri
 //[Reference] 'Pumpkin Hat'
 staxel.accessories.characters.accessories.halloween.pumpkinhat.PumpkinHat.name=Chapéu de abóbora
 staxel.accessories.characters.accessories.hats.BackwardsCap.description=
-//TODO Translate [Reference] 'Backwards Cap'
-staxel.accessories.characters.accessories.hats.BackwardsCap.name=
+//[Reference] 'Backwards Cap'
+staxel.accessories.characters.accessories.hats.BackwardsCap.name= Boné para trás
 staxel.accessories.characters.accessories.hats.christmas.ReindeerAntlers.description=
 //[Reference] 'Reindeer Antlers'
 staxel.accessories.characters.accessories.hats.christmas.ReindeerAntlers.name=Chifres de Rena
@@ -1052,23 +1052,23 @@ staxel.accessories.characters.accessories.hats.christmas.SantaHat.description=
 //[Reference] 'Santa Hat'
 staxel.accessories.characters.accessories.hats.christmas.SantaHat.name=Gorro de Papai Noel
 staxel.accessories.characters.accessories.hats.Halloween.ChickenBoxHead.description=
-//TODO Translate [Reference] 'Chicken Box Head'
-staxel.accessories.characters.accessories.hats.Halloween.ChickenBoxHead.name=
+//[Reference] 'Chicken Box Head'
+staxel.accessories.characters.accessories.hats.Halloween.ChickenBoxHead.name= Cabeça de caixa de Galinha
 staxel.accessories.characters.accessories.hats.Halloween.FrankensteinBoxHead.description=
-//TODO Translate [Reference] 'Frankenstein Box Head'
-staxel.accessories.characters.accessories.hats.Halloween.FrankensteinBoxHead.name=
+//[Reference] 'Frankenstein Box Head'
+staxel.accessories.characters.accessories.hats.Halloween.FrankensteinBoxHead.name= Cabeça de caixa de Frankestein
 staxel.accessories.characters.accessories.hats.Halloween.MurmurBoxHead.description=
-//TODO Translate [Reference] 'Murmur Box Head'
-staxel.accessories.characters.accessories.hats.Halloween.MurmurBoxHead.name=
+//[Reference] 'Murmur Box Head'
+staxel.accessories.characters.accessories.hats.Halloween.MurmurBoxHead.name= Cabeça de caixa de Murmúrio
 staxel.accessories.characters.accessories.hats.Halloween.SkeletonBoxHead.description=
-//TODO Translate [Reference] 'Skeleton Box Head'
-staxel.accessories.characters.accessories.hats.Halloween.SkeletonBoxHead.name=
+//[Reference] 'Skeleton Box Head'
+staxel.accessories.characters.accessories.hats.Halloween.SkeletonBoxHead.name= Cabeça de Caixa de Esqueleto
 staxel.accessories.characters.accessories.hats.Halloween.VampireBoxHead.description=
-//TODO Translate [Reference] 'Vampire Box Head'
-staxel.accessories.characters.accessories.hats.Halloween.VampireBoxHead.name=
+//[Reference] 'Vampire Box Head'
+staxel.accessories.characters.accessories.hats.Halloween.VampireBoxHead.name= Cabeça de caixa de Vampiro
 staxel.accessories.characters.accessories.hats.Halloween.WerewolfBoxHead.description=
-//TODO Translate [Reference] 'Werewolf Box Head'
-staxel.accessories.characters.accessories.hats.Halloween.WerewolfBoxHead.name=
+//[Reference] 'Werewolf Box Head'
+staxel.accessories.characters.accessories.hats.Halloween.WerewolfBoxHead.name= Cabeça de caixa de Lobisomem
 staxel.accessories.characters.accessories.hats.pirate.Bandana.description=
 
 //[Reference] 'Bandana'
@@ -1101,23 +1101,23 @@ staxel.accessories.fullBodyOutfits.MagicBoxMerchant.description=
 //TODO Translate [Reference] 'Magic Box Merchant'
 staxel.accessories.fullBodyOutfits.MagicBoxMerchant.name=
 staxel.accessories.fullBodyOutfits.transformation.Mushroom.description=
-//TODO Translate [Reference] 'Mushroom'
-staxel.accessories.fullBodyOutfits.transformation.Mushroom.name=
+//[Reference] 'Mushroom'
+staxel.accessories.fullBodyOutfits.transformation.Mushroom.name= Cogumelo
 staxel.accessories.fullBodyOutfits.TransformationMerchant.description=
-//TODO Translate [Reference] 'Transformation Merchant'
-staxel.accessories.fullBodyOutfits.TransformationMerchant.name=
+//[Reference] 'Transformation Merchant'
+staxel.accessories.fullBodyOutfits.TransformationMerchant.name= Mercador de Transformação
 staxel.accessories.fullBodyOutfits.villager.Aliza.description=
 //[Reference] 'Aliza'
 staxel.accessories.fullBodyOutfits.villager.Aliza.name=Aliza
 staxel.accessories.fullBodyOutfits.villager.Alua.description=
-//TODO Translate [Reference] 'Alua'
-staxel.accessories.fullBodyOutfits.villager.Alua.name=
+//[Reference] 'Alua'
+staxel.accessories.fullBodyOutfits.villager.Alua.name= Alua
 staxel.accessories.fullBodyOutfits.villager.AndroidVillager.description=
-//TODO Translate [Reference] 'Android Villager'
-staxel.accessories.fullBodyOutfits.villager.AndroidVillager.name=
+//[Reference] 'Android Villager'
+staxel.accessories.fullBodyOutfits.villager.AndroidVillager.name= Aldeão Androide
 staxel.accessories.fullBodyOutfits.villager.BoisterousTourist.description=
-//TODO Translate [Reference] 'Boisterous Tourist'
-staxel.accessories.fullBodyOutfits.villager.BoisterousTourist.name=
+//[Reference] 'Boisterous Tourist'
+staxel.accessories.fullBodyOutfits.villager.BoisterousTourist.name= Turista barulhento
 staxel.accessories.fullBodyOutfits.villager.Cecile.description=
 //[Reference] 'Cecile'
 staxel.accessories.fullBodyOutfits.villager.Cecile.name=Cecile
@@ -1152,8 +1152,8 @@ staxel.accessories.fullBodyOutfits.villager.festival.NotRiah.description=
 //[Reference] 'Not Riah'
 staxel.accessories.fullBodyOutfits.villager.festival.NotRiah.name=Não é a Riah
 staxel.accessories.fullBodyOutfits.villager.GynoidVillager.description=
-//TODO Translate [Reference] 'Gynoid Villager'
-staxel.accessories.fullBodyOutfits.villager.GynoidVillager.name=
+//[Reference] 'Gynoid Villager'
+staxel.accessories.fullBodyOutfits.villager.GynoidVillager.name= Aldeão Ginóide
 staxel.accessories.fullBodyOutfits.villager.Jamie.description=
 //[Reference] 'Jamie'
 staxel.accessories.fullBodyOutfits.villager.Jamie.name=Jamie
@@ -1161,32 +1161,32 @@ staxel.accessories.fullBodyOutfits.villager.JamieExec.description=
 //TODO Translate [Reference] 'Jamie Exec'
 staxel.accessories.fullBodyOutfits.villager.JamieExec.name=
 staxel.accessories.fullBodyOutfits.villager.JamieHero.description=
-//TODO Translate [Reference] 'Jamie Hero'
-staxel.accessories.fullBodyOutfits.villager.JamieHero.name=
+//[Reference] 'Jamie Hero'
+staxel.accessories.fullBodyOutfits.villager.JamieHero.name= Jamie Heroí
 staxel.accessories.fullBodyOutfits.villager.JamieRival.description=
-//TODO Translate [Reference] 'Jamie Rival'
-staxel.accessories.fullBodyOutfits.villager.JamieRival.name=
+//[Reference] 'Jamie Rival'
+staxel.accessories.fullBodyOutfits.villager.JamieRival.name= Jamie Rival
 staxel.accessories.fullBodyOutfits.villager.JamieRivalGame.description=
-//TODO Translate [Reference] 'Jamie Rival Game'
-staxel.accessories.fullBodyOutfits.villager.JamieRivalGame.name=
+//[Reference] 'Jamie Rival Game'
+staxel.accessories.fullBodyOutfits.villager.JamieRivalGame.name= Jamie Jogo Rival
 staxel.accessories.fullBodyOutfits.villager.Leif.description=
 //[Reference] 'Leif'
 staxel.accessories.fullBodyOutfits.villager.Leif.name=Leif
 staxel.accessories.fullBodyOutfits.villager.Lily.description=
-//TODO Translate [Reference] 'Lily'
-staxel.accessories.fullBodyOutfits.villager.Lily.name=
+//[Reference] 'Lily'
+staxel.accessories.fullBodyOutfits.villager.Lily.name= Lily
 staxel.accessories.fullBodyOutfits.villager.MayorMax.description=
 //[Reference] 'Mayor Max'
 staxel.accessories.fullBodyOutfits.villager.MayorMax.name=Prefeito Max
 staxel.accessories.fullBodyOutfits.villager.Morel.description=
-//TODO Translate [Reference] 'Morel'
-staxel.accessories.fullBodyOutfits.villager.Morel.name=
+//[Reference] 'Morel'
+staxel.accessories.fullBodyOutfits.villager.Morel.name=Morel
 staxel.accessories.fullBodyOutfits.villager.MorelMushroom.description=
-//TODO Translate [Reference] 'Morel Mushroom'
-staxel.accessories.fullBodyOutfits.villager.MorelMushroom.name=
+//[Reference] 'Morel Mushroom'
+staxel.accessories.fullBodyOutfits.villager.MorelMushroom.name= Cogumelo Morel
 staxel.accessories.fullBodyOutfits.villager.Prim.description=
-//TODO Translate [Reference] 'Prim'
-staxel.accessories.fullBodyOutfits.villager.Prim.name=
+//[Reference] 'Prim'
+staxel.accessories.fullBodyOutfits.villager.Prim.name=Prim
 staxel.accessories.fullBodyOutfits.villager.Prince.description=
 //[Reference] 'Prince'
 staxel.accessories.fullBodyOutfits.villager.Prince.name=Príncipe
@@ -1194,20 +1194,20 @@ staxel.accessories.fullBodyOutfits.villager.Princess.description=
 //[Reference] 'Princess'
 staxel.accessories.fullBodyOutfits.villager.Princess.name=Princesa
 staxel.accessories.fullBodyOutfits.villager.RainbowButterfly.description=
-//TODO Translate [Reference] 'Rainbow Butterfly'
-staxel.accessories.fullBodyOutfits.villager.RainbowButterfly.name=
+//[Reference] 'Rainbow Butterfly'
+staxel.accessories.fullBodyOutfits.villager.RainbowButterfly.name= Borboleta arco-íris
 staxel.accessories.fullBodyOutfits.villager.Rem.description=
-//TODO Translate [Reference] 'Rem'
-staxel.accessories.fullBodyOutfits.villager.Rem.name=
+//[Reference] 'Rem'
+staxel.accessories.fullBodyOutfits.villager.Rem.name=Rem
 staxel.accessories.fullBodyOutfits.villager.Ren.description=
-//TODO Translate [Reference] 'Ren'
-staxel.accessories.fullBodyOutfits.villager.Ren.name=
+//[Reference] 'Ren'
+staxel.accessories.fullBodyOutfits.villager.Ren.name=Ren
 staxel.accessories.fullBodyOutfits.villager.Riah.description=
 //[Reference] 'Riah'
 staxel.accessories.fullBodyOutfits.villager.Riah.name=Riah
 staxel.accessories.fullBodyOutfits.villager.Robin.description=
-//TODO Translate [Reference] 'Robin'
-staxel.accessories.fullBodyOutfits.villager.Robin.name=
+//[Reference] 'Robin'
+staxel.accessories.fullBodyOutfits.villager.Robin.name=Robin
 staxel.accessories.fullBodyOutfits.villager.Rosemary.description=
 //[Reference] 'Rosemary'
 staxel.accessories.fullBodyOutfits.villager.Rosemary.name=Rosemary
@@ -1215,23 +1215,23 @@ staxel.accessories.fullBodyOutfits.villager.Rowan.description=
 //[Reference] 'Rowan'
 staxel.accessories.fullBodyOutfits.villager.Rowan.name=Rowan
 staxel.accessories.fullBodyOutfits.villager.ShyTourist.description=
-//TODO Translate [Reference] 'Shy Tourist'
-staxel.accessories.fullBodyOutfits.villager.ShyTourist.name=
+//[Reference] 'Shy Tourist'
+staxel.accessories.fullBodyOutfits.villager.ShyTourist.name=Turista Tímido
 staxel.accessories.fullBodyOutfits.villager.SmartTourist.description=
-//TODO Translate [Reference] 'Smart Tourist'
-staxel.accessories.fullBodyOutfits.villager.SmartTourist.name=
+//[Reference] 'Smart Tourist'
+staxel.accessories.fullBodyOutfits.villager.SmartTourist.name=Turista Inteligente
 staxel.accessories.fullBodyOutfits.villager.TalkativeAndroid.description=
-//TODO Translate [Reference] 'Talkative Android'
-staxel.accessories.fullBodyOutfits.villager.TalkativeAndroid.name=
+//[Reference] 'Talkative Android'
+staxel.accessories.fullBodyOutfits.villager.TalkativeAndroid.name= Andoíde Falador
 staxel.accessories.fullBodyOutfits.villager.TrashFairy.description=
-//TODO Translate [Reference] 'Trash Fairy'
-staxel.accessories.fullBodyOutfits.villager.TrashFairy.name=
+//[Reference] 'Trash Fairy'
+staxel.accessories.fullBodyOutfits.villager.TrashFairy.name=Fada do Lixo
 staxel.accessories.fullBodyOutfits.villager.Vorlen.description=
 //[Reference] 'Vorlen'
 staxel.accessories.fullBodyOutfits.villager.Vorlen.name=Vorlen
 staxel.accessories.fullBodyOutfits.villager.Wren.description=
-//TODO Translate [Reference] 'Wren'
-staxel.accessories.fullBodyOutfits.villager.Wren.name=
+//[Reference] 'Wren'
+staxel.accessories.fullBodyOutfits.villager.Wren.name= Wren
 staxel.accessories.generic.cooking.BakingJacket.description=
 //[Reference] 'Baking Jacket'
 staxel.accessories.generic.cooking.BakingJacket.name=Jaqueta de confeiteiro
@@ -1255,26 +1255,26 @@ staxel.accessories.helmets.mecha.Mecha_XYellow.description=
 //[Reference] 'Mecha_XYellow'
 staxel.accessories.helmets.mecha.Mecha_XYellow.name=Mecha_XYellow
 staxel.accessories.pants.jeans.description=
-//TODO Translate [Reference] 'jeans'
-staxel.accessories.pants.jeans.name=
+//[Reference] 'jeans'
+staxel.accessories.pants.jeans.name= Calça Jeans
 staxel.accessories.pants.supershort.description=
 //TODO Translate [Reference] 'supershort'
 staxel.accessories.pants.supershort.name=
 staxel.accessories.pants.tracksuit.description=
-//TODO Translate [Reference] 'tracksuit'
-staxel.accessories.pants.tracksuit.name=
+//[Reference] 'tracksuit'
+staxel.accessories.pants.tracksuit.name= Roupa de Treino
 staxel.accessories.princessdresses.CrystalTiara.description=
-//TODO Translate [Reference] 'Crystal Tiara'
-staxel.accessories.princessdresses.CrystalTiara.name=
+//[Reference] 'Crystal Tiara'
+staxel.accessories.princessdresses.CrystalTiara.name=Tiara de Cristal
 staxel.accessories.princessdresses.LayeredPrincessDress.description=
 //TODO Translate [Reference] 'Layered Princess Dress'
 staxel.accessories.princessdresses.LayeredPrincessDress.name=
 staxel.accessories.princessdresses.PrincessDress.description=
-//TODO Translate [Reference] 'Princess Dress'
-staxel.accessories.princessdresses.PrincessDress.name=
+//[Reference] 'Princess Dress'
+staxel.accessories.princessdresses.PrincessDress.name=Vestido de Princesa
 staxel.accessories.princessdresses.PrincessHeels.description=
-//TODO Translate [Reference] 'Princess Heels'
-staxel.accessories.princessdresses.PrincessHeels.name=
+//[Reference] 'Princess Heels'
+staxel.accessories.princessdresses.PrincessHeels.name=Salto de Princesa
 staxel.accessories.shirts.colouredhoodie.ColouredHoodie.description=
 
 //[Reference] 'Coloured Hoodie'
