@@ -14,7 +14,7 @@ commands.advanceTime.enterFloat=Insira um número para avançar no tempo. 1.0 é
 commands.advanceTime.mustBeNumber=falha: arg(1) deve ser um número. Números OK
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Advancing time by {0-time} ({1-dayphase1} -> {2-dayphase2})...'
-commands.advanceTime.success=Avançando o tempo em: {0-time}...
+commands.advanceTime.success=Avançando o tempo em: {0-time}. ({1-dayphase1} -> {2-dayphase2})...
 //[Reference] '^c:F2E200;ban ^c:FFFFFF;playerName (optional)reason'
 commands.ban.description=^c:F2E200;ban ^c:FFFFFF;nome do jogador (opcional) motivo
 //[Reference] 'Unable to ban {0-player}: player is an admin or already banned.'
@@ -67,8 +67,8 @@ commands.changeMood.description=^c:F2E200;changeMood ^c:FFFFFF;aumentar/reduzir(
 commands.changeMood.success=Humor alterado com êxito
 //TODO Translate [Reference] '^c:F2E200;changeNickname ^c:FFFFFF;nickname'
 commands.changeNickname.description=
-//TODO Translate [Reference] 'Nickname changed to {0-newNickname}'
-commands.changeNickname.success=
+//[Reference] 'Nickname changed to {0-newNickname}'
+commands.changeNickname.success=Apelido mudado para {0-newNickname}
 //[Reference] '^c:F2E200;checkMail'
 commands.checkMail.description=^c:F2E200;checkMail
 //[Reference] '^c:F2E200;completeQuest ^c:FFFFFF;questCode villagerName/Code'
