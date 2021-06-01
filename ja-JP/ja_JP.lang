@@ -435,7 +435,7 @@ hintText.oneSlotNeeded=インベントリに1スロット以上必要です
 //[Reference] 'You already know this recipe'
 hintText.recipeKnown=あなたはこのレシピをすでに知っています
 //[Validate] Delete this comment if or when the translation is accurate.
-//[Reference] 'You successfully learnt the recipe for a {0-recipe}!'
+//[Reference] 'You successfully learnt the recipe for {0-recipe}!'
 hintText.recipeLearnt={0-recipe}のレシピを習得しました！
 //[Reference] 'There's nothing left to steal... for today.'
 hintText.thiefLimit=盗むものはありません…今日のところは。
@@ -638,26 +638,26 @@ options.gameplay.StaxelNet.Relay=リレー
 //[Reference] 'UI'
 options.gameplay.ui=UI
 //[Validate] Delete this comment if or when the translation is accurate.
-//[Reference] 'Resolution'
+//[Reference] 'Resolution:'
 options.gameplay.ui.FullScreenResolution=解像度：
 //[Validate] Delete this comment if or when the translation is accurate.
-//[Reference] 'UI Scale'
+//[Reference] 'UI Scale:'
 options.gameplay.ui.ManualUIScale=UIの倍率：
 //[Reference] 'General'
 options.general=全般
 //[Reference] 'Audio'
 options.general.audio=オーディオ
 //[Validate] Delete this comment if or when the translation is accurate.
-//[Reference] 'Ambience'
+//[Reference] 'Ambience:'
 options.general.audio.ambience=環境音：
 //[Validate] Delete this comment if or when the translation is accurate.
-//[Reference] 'Master'
+//[Reference] 'Master:'
 options.general.audio.master=主音量：
 //[Validate] Delete this comment if or when the translation is accurate.
-//[Reference] 'Music'
+//[Reference] 'Music:'
 options.general.audio.music=BGM：
 //[Validate] Delete this comment if or when the translation is accurate.
-//[Reference] 'Sound'
+//[Reference] 'Sound:'
 options.general.audio.sound=効果音：
 //[Reference] 'Graphics'
 options.general.graphics=グラフィックス
@@ -4497,9 +4497,11 @@ staxel.notifications.shears.NotLookingAtShearableAnimal=毛刈りできる動物
 staxel.notifications.status.Exhausted=体が疲れています。睡眠をとりましょう。
 //[Reference] 'You're too tired to sprint. You should get some sleep.'
 staxel.notifications.status.ExhaustedRun=体が疲れて走れません。睡眠をとりましょう。
-//[Reference] 'You've collapsed. You lost {0-petal} petals on your way home.'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'You've collapsed. You've lost {0-petal} petals on your way home.'
 staxel.notifications.status.ReturnedHome=力尽きました。帰り道で{0-petal}ペタルなくしました。
-//[Reference] 'You've collapsed. Though noone could take you home, so you still feel tired.'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'You've collapsed, though noone was around to take you home, so you still feel tired.'
 staxel.notifications.status.ReturnedHomeFailed=力尽きました。ヌーンが家に送ることもできますが、あなたはまだ疲れています。
 //[Reference] 'You're feeling kinda sleepy...'
 staxel.notifications.status.Sleepy=なんだか眠いなぁ...
@@ -7424,7 +7426,8 @@ staxel.tree.CocoaTree.name=カカオの木の種
 staxel.tree.CoconutTree.description=このヤシの木にはココナッツが実る。頭上に気をつけて！春、夏、秋に収穫できる。
 //[Reference] 'Coconut Tree Seed'
 staxel.tree.CoconutTree.name=ヤシの木の種
-//[Reference] 'This tree grows the strange, alien looking dragonfruit. Fruits in Autumn.'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'This tree grows the strange, alien looking dragon fruit. Fruits in Autumn.'
 staxel.tree.DragonFruitTree.description=この木には不気味な、エイリアンのような見た目のドラゴンフルーツが実る。秋に収穫できる。
 //[Reference] 'Dragon Fruit Tree Seed'
 staxel.tree.DragonFruitTree.name=ドラゴンフルーツの木の種

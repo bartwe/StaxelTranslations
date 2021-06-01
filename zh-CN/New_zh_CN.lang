@@ -21,10 +21,14 @@ controlHint.verb.Deactivate=
 controlHint.verb.default.Close=关闭
 //TODO Translate [Reference] 'Pick Up'
 controlHint.verb.default.PickUp=
+//TODO Translate [Reference] 'Grow'
+controlHint.verb.Grow=
 //TODO Translate [Reference] 'Pet'
 controlHint.verb.Pet=
 //TODO Translate [Reference] 'Trash Item'
 controlHint.verb.Trash=
+//TODO Translate [Reference] 'Wave At'
+controlHint.verb.Wave=
 //TODO Translate [Reference] 'Community Testers'
 credits.communityTesters=
 //TODO Translate [Reference] 'Nexel has encountered a critical error and needs to quit.\n\nDETAILS'
@@ -43,6 +47,8 @@ nexel.commands.teleportToIsland.NotEnoughParameters=
 nexel.commands.teleportToIsland.NotReady=
 //TODO Translate [Reference] 'Teleported player to '{0-island}'.'
 nexel.commands.teleportToIsland.Success=
+//TODO Translate [Reference] 'Can't break this tile. It is indestructible to normal means.'
+nexel.item.tool.break.Unbreakable=
 //TODO Translate [Reference] 'Close'
 nexel.translation.tile.Close=
 //TODO Translate [Reference] 'Locked'
@@ -411,10 +417,48 @@ staxel.collector.pets.Penguin=
 staxel.collector.pets.Tortoise=
 //TODO Translate [Reference] 'Unicorn Kitty'
 staxel.collector.pets.UnicornKitty=
+//TODO Translate [Reference] 'Galaxy Island'
+staxel.collector.structure.island.GalaxyIsland.offmap=
+//TODO Translate [Reference] 'Caves nearby Galaxy Island'
+staxel.collector.structure.island.TomtiCave.offmap=
+//TODO Translate [Reference] 'Cave Maze under Galaxy Island'
+staxel.collector.structure.island.TomtiCaveIsland_CollectionRoom.offmap=
+//TODO Translate [Reference] 'Game Room under Galaxy Island'
+staxel.collector.structure.island.TomtiCaveIsland_GameRoom.offmap=
+//TODO Translate [Reference] 'Game world'
+staxel.collector.structure.island.TomtiCaveIsland_GameWorld.offmap=
+//TODO Translate [Reference] 'Deeper Caves under Galaxy Island'
+staxel.collector.structure.island.TomtiCaveIsland_House.offmap=
+//TODO Translate [Reference] 'Caves under Galaxy Island'
+staxel.collector.structure.island.TomtiCaveIsland_IntroPuzzle.offmap=
 //TODO Translate [Reference] 'Not enough parameters. Needs parameter: 'statusEffect'.'
 staxel.commands.addStatusEffect.NotEnoughParameters=
 //TODO Translate [Reference] 'Successfully added the status effect '{0-effect}''
 staxel.commands.addStatusEffect.Success=
+//TODO Translate [Reference] 'Successfully created a new node: Position: {0-position}, Heading: {1-heading}, Time: {2-time}, Tween: {3-tween}'
+staxel.commands.camera.Add.Success=
+//TODO Translate [Reference] 'Successfully created a camera path. The starting node is: Position: {0-position}, Heading: {1-heading}, Time: {2-time}, Tween: {3-tween}'
+staxel.commands.camera.Create.Success=
+//TODO Translate [Reference] 'No file with name {0-file}. Looked in directory: (1-directory}'
+staxel.commands.camera.Load.FileMissing=
+//TODO Translate [Reference] 'Not enough parameters, needs parameters: 'loadFromWorld', 'saveName'.'
+staxel.commands.camera.Load.NotEnoughParameters=
+//TODO Translate [Reference] 'Successfully loaded {0-fileName}.'
+staxel.commands.camera.Load.Success=
+//TODO Translate [Reference] 'There is no active camera path avaliable.'
+staxel.commands.camera.NoCameraPath=
+//TODO Translate [Reference] 'Can't save to a folder as this isn't a desktop. Please use world mode.'
+staxel.commands.camera.NotDesktop=
+//TODO Translate [Reference] 'Successfully stopped the camera.'
+staxel.commands.camera.Play.SuccessOff=
+//TODO Translate [Reference] 'Successfully playing the camera. Length multiplier is: {0-multiplier}'
+staxel.commands.camera.Play.SuccessOn=
+//TODO Translate [Reference] 'Not enough parameters, needs parameters: 'saveToWorld'. Optionally includes: 'saveName'.'
+staxel.commands.camera.Save.NotEnoughParameters=
+//TODO Translate [Reference] 'Successfully saved to {0-fileName}. Full Path: {1-saveLocation}.'
+staxel.commands.camera.Save.Success=
+//TODO Translate [Reference] 'Can't save to a folder as this isn't a desktop. Please use world mode.'
+staxel.commands.camera.SavingToWorld=
 //TODO Translate [Reference] 'Not enough parameters. Needs parameter: 'itemCode'.'
 staxel.commands.checkCollected.NotEnoughParameters=
 //TODO Translate [Reference] 'Item {0-itemCode} collection status is: '{1-status}'.'
@@ -589,9 +633,9 @@ staxel.commands.swapOverlay.Success=
 staxel.commands.tileAt.Fail=
 //TODO Translate [Reference] 'Not looking at a tile.'
 staxel.commands.tileAt.NotLookingAtTile=
-//TODO Translate [Reference] 'Tile at position {0-position} is {1-tile}. Alt is {2-alt}. Meta is {3-meta}'
+//TODO Translate [Reference] 'Tile at position {0-position} is {1-tile}. Alt is {2-alt}. Meta is {3-meta}. Rotation is {4-rotation}.'
 staxel.commands.tileAt.Success=
-//TODO Translate [Reference] 'Tile at position {0-position} with metadata {1-meta} is a compound tile. The core is at: {2-corePosition}, which is a '{3-tile}'. Its Alt is {4-alt}. The meta is {5-meta}.'
+//TODO Translate [Reference] 'Tile at position {0-position} with metadata {1-meta} is a compound tile. The core is at: {2-corePosition}, which is a '{3-tile}'. Its Alt is {4-alt}. The meta is {5-meta}. Rotation is {6-rotation}.'
 staxel.commands.tileAt.SuccessCompound=
 //TODO Translate [Reference] 'Failed to find command with key: '{0-input}'. Did you mean: '{1-suggestion}'?'
 staxel.commands.UnableToFindCommand=
@@ -603,25 +647,33 @@ staxel.commands.uncompleteAchievement.Success=
 staxel.communicationMode.Local=
 //TODO Translate [Reference] 'Online Communication'
 staxel.communicationMode.Online=
-//TODO Translate [Reference] 'Could not connect to player.\n\nYou are already connected to the server.'
+//TODO Translate [Reference] 'Could not connect to player.\n\nYou are already connected to the server. Please ensure you are not using the same account as another player.'
 staxel.connection.AlreadyConnected=
 //TODO Translate [Reference] 'Disconnected from player.\n\nConnection was lost to the server. Please ensure you are connected to the internet before trying again.'
 staxel.connection.ConnectionLost=
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Could not connect to player.\n\nEntry to server was denied.'
 staxel.connection.EntryDenied=无法加入服务器。
-//TODO Translate [Reference] 'Failed to connect to player.\n\nPlease ensure you are connected to the internet before trying again.'
+//TODO Translate [Reference] 'Could not connect.'
 staxel.connection.FailedToConnect=
-//TODO Translate [Reference] 'Failed to connect to player.\n\nMake sure you have entered the right address and that you are connected to the internet before trying again.'
+//TODO Translate [Reference] 'Could not connect.\n\nEnsure that you are within range of the host.'
+staxel.connection.FailedToConnectNoInternet=
+//TODO Translate [Reference] 'Could not connect.\n\nEnsure the server address is correct.'
 staxel.connection.FailedToConnectPC=
 //[Validate] Delete this comment if or when the translation is accurate.
-//[Reference] 'Could not connect to player.\n\nAccess was denied as the entered password was wrong.'
+//[Reference] 'Could not connect.\n\nThe password entered was incorrect.'
 staxel.connection.InvalidPassword=无法加入服务器。密码输入错误。
+//TODO Translate [Reference] 'Lost connection.\n\nYou were kicked from the game.'
+staxel.connection.Kicked=
 //[Validate] Delete this comment if or when the translation is accurate.
-//[Reference] 'Could not connect to player.\n\nAn error occured while trying to communicate with server. If problems persist, please restart the game.'
+//[Reference] 'Could not connect.\n\nThere was an error communicating with the host.'
 staxel.connection.ProtocolError=协议失败。尝试与服务器通信时出现错误。
+//TODO Translate [Reference] 'Lost connection.\n\nThe host shut down the game.'
+staxel.connection.ServerShutdown=
+//TODO Translate [Reference] 'Could not connect.\n\nThe game you tried to join is already full.'
+staxel.connection.TooManyPlayers=
 //[Validate] Delete this comment if or when the translation is accurate.
-//[Reference] 'Could not connect to player.\n\nThere was a version Mismatch. Your version of this game does not match that of the server's. Please exit and update your game.'
+//[Reference] 'Could not connect.\n\nYour game version is not the same as the host.'
 staxel.connection.VersionMismatch=版本不匹配。你的游戏版本与服务器的游戏版本不匹配。请确保运行相同版本的游戏。
 //TODO Translate [Reference] 'Catalogue'
 staxel.contextButton.catalogue.Catalogue=
@@ -709,12 +761,18 @@ staxel.description.MaxPetsReached=
 staxel.description.PlantGrowth=
 //[Reference] '{0-money}'
 staxel.docks.SellboxNameTag={0-money}
+//TODO Translate [Reference] 'Connection not found'
+staxel.error.ConnectionNotFound=
 //TODO Translate [Reference] 'One or more save files were corrupted.'
 staxel.error.storage.CorruptedFile=
 //TODO Translate [Reference] 'One or more save files are being used by another program.'
 staxel.error.storage.FileInUse=
 //TODO Translate [Reference] 'One or more save files were too large.'
 staxel.error.storage.FileTooLarge=
+//TODO Translate [Reference] 'One or more worlds were too large to read. This should not have happened and likely points to corrupted save data.'
+staxel.error.storage.FileTooLargeRead=
+//TODO Translate [Reference] 'The world you were playing in became too large to save. In order to avoid creating a corrupt save file, the current session was ended.'
+staxel.error.storage.FileTooLargeSave=
 //TODO Translate [Reference] 'One or more save files could not be saved as there is no space left.'
 staxel.error.storage.NoSpace=
 //TODO Translate [Reference] 'Unknown save error.'
@@ -741,6 +799,8 @@ staxel.gameButton.DockRotateRight=
 staxel.gameButton.DockTake=
 //TODO Translate [Reference] 'Drop Item'
 staxel.gameButton.DropHeldItem=
+//TODO Translate [Reference] 'Drop All'
+staxel.gameButton.FlyDown=
 //TODO Translate [Reference] 'Interact'
 staxel.gameButton.Interact=
 //TODO Translate [Reference] 'Drop Held Stack'
@@ -791,10 +851,14 @@ staxel.gameButton.MenuNavLeft=
 staxel.gameButton.MenuNavRight=
 //TODO Translate [Reference] 'Navigate Up'
 staxel.gameButton.MenuNavUp=
+//TODO Translate [Reference] 'Next Page/Section'
+staxel.gameButton.MenuNextMainAndSubSection=
 //TODO Translate [Reference] 'Next Section'
 staxel.gameButton.MenuNextSection=
 //TODO Translate [Reference] 'Next Sub-Section'
 staxel.gameButton.MenuNextSubSection=
+//TODO Translate [Reference] 'Previous Page/Section'
+staxel.gameButton.MenuPrevMainAndSubSection=
 //TODO Translate [Reference] 'Previous Section'
 staxel.gameButton.MenuPrevSection=
 //TODO Translate [Reference] 'Previous Sub-Section'
@@ -839,6 +903,8 @@ staxel.generic.NotLookingAtAnimal=
 staxel.generic.NotLookingAtOwnedAnimal=
 //TODO Translate [Reference] 'Not looking at a tile.'
 staxel.generic.NotLookingAtTile=
+//TODO Translate [Reference] 'Home'
+staxel.island.main.MainIsland=
 //TODO Translate [Reference] 'Can't capture this animal with a crate.'
 staxel.item.captureCrate.CantCaptureAnimal=
 staxel.item.crafting.CakeBatter.description=
@@ -867,8 +933,16 @@ staxel.item.weedKiller.IsPlant=
 staxel.mail.FailedToRead=
 //TODO Translate [Reference] 'Cannot edit this item. It is not a letter!'
 staxel.mail.ItemNotMail=
+//TODO Translate [Reference] 'These items couldn't be left on the ground. The island is too cluttered with items!'
+staxel.mail.limitReachedItemMail=
+//TODO Translate [Reference] 'Murmur Consortium'
+staxel.mail.limitReachedItemMail.sender=
+//TODO Translate [Reference] 'Your Items'
+staxel.mail.limitReachedItemMail.subject=
 //TODO Translate [Reference] 'Mail: "{0-mailSubject}"'
 staxel.mail.NameTranslation=
+//TODO Translate [Reference] 'Version: {0-version}'
+staxel.mainMenu.ConsoleVersion=
 //TODO Translate [Reference] 'Are you sure you want to delete the world '{0-worldName}'?\nDeleting a world is permanent.'
 staxel.mainMenu.deleteWorld.Body=
 //TODO Translate [Reference] 'Delete World'
@@ -877,11 +951,11 @@ staxel.mainMenu.deleteWorld.Title=
 staxel.mainMenu.deletingWorld.Body=
 //TODO Translate [Reference] 'Delete World'
 staxel.mainMenu.deletingWorld.Title=
-//TODO Translate [Reference] 'Please wait while the connection to the server closes...'
+//TODO Translate [Reference] 'Please wait while the connection to the host closes...'
 staxel.mainMenu.disconnecting.Body=
 //TODO Translate [Reference] 'Disconnecting'
 staxel.mainMenu.disconnecting.Title=
-//TODO Translate [Reference] 'Failed to find a server at the address '{0-address}'.\nPlease ensure it is entered correctly, and that you are connected to the internet.'
+//TODO Translate [Reference] 'Could not connect.\n\n. The address you entered could not be found.'
 staxel.mainMenu.FailedToParseIP=
 //TODO Translate [Reference] 'Host Game'
 staxel.mainMenu.multiPlayer.Host=
@@ -891,12 +965,18 @@ staxel.mainMenu.multiPlayer.Join=
 staxel.mainMenu.multiPlayer.LocalConnect=
 //TODO Translate [Reference] 'Connecting to Online Services...'
 staxel.mainMenu.multiPlayer.OnlineConnect=
+//TODO Translate [Reference] 'Refresh'
+staxel.mainMenu.multiPlayer.Refresh=
+//TODO Translate [Reference] 'Working...'
+staxel.mainMenu.multiPlayer.Working=
 //TODO Translate [Reference] 'A world with that name already exists.'
 staxel.mainMenu.RenameAlreadyExists=
 //TODO Translate [Reference] 'Please wait while the game is being saved...'
 staxel.mainMenu.saving.Body=
 //TODO Translate [Reference] 'Saving The Game'
 staxel.mainMenu.saving.Title=
+//TODO Translate [Reference] 'Cannot create new world. You have reached the world limit.'
+staxel.mainMenu.worldLimit=
 //TODO Translate [Reference] 'Delete'
 staxel.mainMenu.worldOptions.Delete=
 //TODO Translate [Reference] 'Play'
@@ -977,12 +1057,28 @@ staxel.merchant.NoItemsToSell=
 staxel.merchant.RequiresGlobal=需要获得权限才能购买！
 //TODO Translate [Reference] 'Your wallet is too full. Try buying some stuff.'
 staxel.merchant.TooMuchMoney=
+//TODO Translate [Reference] '[Missing]'
+staxel.multiplayer.MissingWorldName=
+//TODO Translate [Reference] 'Cannot join game, it is already full'
+staxel.multiPlayer.error.TooManyPlayers=
+//TODO Translate [Reference] 'This island is too cluttered with items to drop any more!'
+staxel.notification.itemLimitReached=
 //[Reference] 'Press {0-button} to leave'
 staxel.notification.LeaveDock=按{0-button}离开
+//TODO Translate [Reference] 'There doesn't seem to be any games installed'
+staxel.notification.magicTeleport.ArcadeMachineFailed=
+//TODO Translate [Reference] 'You can't talk to villagers while a teleport is active.'
+staxel.notification.magicTeleport.CantTalkToVillager=
+//TODO Translate [Reference] 'Failed to find connection to currently player.'
+staxel.notification.magicTeleport.FailedToFindConnectionForPlayer=
 //TODO Translate [Reference] 'Can't teleport right now, someone is stopping you.'
 staxel.notification.magicTeleport.RequiresGlobal=
+//TODO Translate [Reference] 'You can't initiate a teleport while one is already active.'
+staxel.notification.magicTeleport.TeleportAlreadyActive=
 //[Reference] 'Your letter has been sent.'
 staxel.notification.mail.Sent=你的信件已送出。
+//TODO Translate [Reference] 'This island will reset when you leave and all changes made will be undone.'
+staxel.notification.placedOnDeleteIsland=
 //TODO Translate [Reference] 'This island resets each season and all changes made will be undone.'
 staxel.notification.placedOnResetIsland=
 //TODO Translate [Reference] 'This tile cannot be broken.'
@@ -1003,6 +1099,10 @@ staxel.notification.villager.VillagerReservedForConversation=
 staxel.notifications.sponge.NotLookingAtTile=
 //TODO Translate [Reference] 'Cannot soak sponge with this tile.'
 staxel.notifications.sponge.NotSpongeable=
+//TODO Translate [Reference] 'You've lost {0-petal} petals in fees on the way home.'
+staxel.notifications.TeleportHome=
+//TODO Translate [Reference] 'You've lost {0-petal} petals in fees on the way home.'
+staxel.notifications.TeleportHome.TeleportAlreadyActive=
 //[Reference] 'This tool isn't strong enough.'
 staxel.notifications.WeakTool=这个工具不够结实。
 //[Reference] 'Catalogue Search'
@@ -1027,6 +1127,8 @@ staxel.overlay.CreativeMenu.creativeSearch.tooltip=输入搜索词
 staxel.overlay.GameScreen.chat.input.title=聊天
 //[Reference] 'Send a message in chat'
 staxel.overlay.GameScreen.chat.input.tooltip=在聊天中发送一条消息
+//TODO Translate [Reference] 'I'm Ready'
+staxel.overlay.ImReady=
 //[Reference] 'Mail Body'
 staxel.overlay.inventory.MailCounter.Body.title=邮件正文
 //[Reference] 'Enter your mail message'
@@ -1043,10 +1145,60 @@ staxel.overlay.inventory.MailCounter.Subject.tooltip=输入邮件的主题
 staxel.overlay.inventory.Recipes.recipeSearch.title=配方搜索
 //[Reference] 'Enter a search term'
 staxel.overlay.inventory.Recipes.recipeSearch.tooltip=输入搜索词
+//TODO Translate [Reference] 'The pending teleport was cancelled.'
+staxel.overlay.teleport.cancelledPopup.Body=
+//TODO Translate [Reference] 'Teleport Cancelled'
+staxel.overlay.teleport.cancelledPopup.Title=
+//TODO Translate [Reference] 'Your teleport vote was cancelled as a quest-related teleport has taken priority.'
+staxel.overlay.teleport.cancelledVoteForForcedPopup.body=
+//TODO Translate [Reference] 'Teleport Vote Cancelled'
+staxel.overlay.teleport.cancelledVoteForForcedPopup.Title=
+//TODO Translate [Reference] 'Are you sure you want to start a teleport vote to ^c:1486b0;{0-island}^c:pop;?'
+staxel.overlay.teleport.confirmVoteStartPopup.Body=
+//TODO Translate [Reference] 'Start Teleport Vote'
+staxel.overlay.teleport.confirmVoteStartPopup.Title=
+//TODO Translate [Reference] 'You already started a teleport vote recently... Try waiting a while before starting another.'
+staxel.overlay.teleport.cooldownPopup.body=
+//TODO Translate [Reference] 'Teleport Cooldown'
+staxel.overlay.teleport.cooldownPopup.Title=
+//TODO Translate [Reference] 'Teleport Countdown'
+staxel.overlay.teleport.CountdownTitle=
+//TODO Translate [Reference] '^c:1486b0;{0-player}^c:pop; has initiated a quest-based teleport to ^c:1486b0;{1-island}^c:pop;. Ready up now or wait until the countdown finishes?'
+staxel.overlay.teleport.ForcedPopup=
+//TODO Translate [Reference] '^c:1486b0;{0-player}^c:pop; has started a teleport to ^c:1486b0;{1-island}^c:pop;.'
+staxel.overlay.teleport.ForcedWarning=
+//TODO Translate [Reference] 'Teleport'
+staxel.overlay.teleport.GenericPopupTitle=
+//TODO Translate [Reference] 'Waiting on other players... You will be teleported automatically when the timer reaches 0.'
+staxel.overlay.teleport.initiatingPlayerForced.Body=
+//TODO Translate [Reference] 'Waiting on other players...'
+staxel.overlay.teleport.initiatingPlayerVote.Body=
+//TODO Translate [Reference] 'Skip Vote'
+staxel.overlay.teleport.SkipVote=
+//TODO Translate [Reference] 'Teleporting to...'
+staxel.overlay.teleport.To=
+//TODO Translate [Reference] '^c:1486b0;{0-player}^c:pop; has started a vote to teleport to ^c:1486b0;{1-island}^c:pop;.'
+staxel.overlay.teleport.VotePopup=
+//TODO Translate [Reference] 'Teleport Vote'
+staxel.overlay.teleport.VoteTitle=
+//TODO Translate [Reference] '^c:1486b0;{0-player}^c:pop; wants to teleport everyone to ^c:1486b0;{1-island}^c:pop;. Finish creating your character to vote.'
+staxel.overlay.teleport.voteWarning.Chargen=
+//TODO Translate [Reference] '^c:1486b0;{0-player}^c:pop; wants to teleport everyone to ^c:1486b0;{1-island}^c:pop;. Finish dialogue to vote.'
+staxel.overlay.teleport.voteWarning.Dialogue=
+//TODO Translate [Reference] '^c:1486b0;{0-player}^c:pop; wants to teleport everyone to ^c:1486b0;{1-island}^c:pop;. Finish fishing to vote.'
+staxel.overlay.teleport.voteWarning.Fishing=
+//TODO Translate [Reference] 'Waiting on players...'
+staxel.overlay.teleport.WaitingOnPlayers=
 //TODO Translate [Reference] 'Edit Sign'
 staxel.overlay.tile.SignEdit.input.title=
 //TODO Translate [Reference] 'What do you want the sign to say?'
 staxel.overlay.tile.SignEdit.input.tooltip=
+//TODO Translate [Reference] 'Vote No'
+staxel.overlay.VoteNo=
+//TODO Translate [Reference] 'Vote Yes'
+staxel.overlay.VoteYes=
+//TODO Translate [Reference] 'Wait'
+staxel.overlay.Wait=
 //TODO Translate [Reference] 'Cat'
 staxel.pets.Cat=
 //TODO Translate [Reference] 'Dog'
@@ -1077,12 +1229,52 @@ staxel.priceTag.Common={0-price}: {1-item}
 staxel.returnHome.Body=
 //TODO Translate [Reference] 'Return Home'
 staxel.returnHome.Title=
+//TODO Translate [Reference] 'Arcade Challenge'
+staxel.structure.island.ArcadeChallenge.offmap=
+//TODO Translate [Reference] 'Demon King Maze'
+staxel.structure.island.DemonKingMaze.offmap=
+//TODO Translate [Reference] 'Castle Island'
+staxel.structure.island.ErisCastle.offmap=
+//TODO Translate [Reference] 'Fairy Island'
+staxel.structure.island.FairyIsland.offmap=
+//TODO Translate [Reference] 'Lumber Island'
+staxel.structure.island.LumberIsland.offmap=
+//TODO Translate [Reference] 'Mining Island'
+staxel.structure.island.MineIslandSurface.offmap=
+//TODO Translate [Reference] 'Mining Island Underground'
+staxel.structure.island.MineIslandUnderground.offmap=
+//TODO Translate [Reference] 'Mushroom Sky'
+staxel.structure.island.MushroomIsland.JumpChallenge.offmap=
+//TODO Translate [Reference] 'Mushroom Maze'
+staxel.structure.island.MushroomIsland.Maze.offmap=
+//TODO Translate [Reference] 'Mushroom Island'
+staxel.structure.island.MushroomIsland.NoBridge.offmap=
+//TODO Translate [Reference] 'Mushroom Island'
+staxel.structure.island.MushroomIsland.offmap=
+//TODO Translate [Reference] 'Silk Caves'
+staxel.structure.island.SpiderCave.offmap=
+//TODO Translate [Reference] 'Surf Cotton Island'
+staxel.structure.island.SurfCottonIsland.offmap=
+//TODO Translate [Reference] 'Treetop Village'
+staxel.structure.island.TreetopVillage.offmap=
+//TODO Translate [Reference] 'Tropical Island'
+staxel.structure.island.TropicalIsland.offmap=
+//TODO Translate [Reference] '[002]–!"#$–&'()*+,-./\n[003]0123456789:;<=>?\n[004]–ABCDEFGHIJKLMNO\n[005]PQRSTUVWXYZ[–]^_\n[006]`abcdefghijklmno\n[007]pqrstuvwxyz{|}~–\n[00a]–¡¢£¤¥¦§¨©ª«¬–®¯\n[00c]ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏ\n[00d]ÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞß\n[00e]àáâãäåæçèéêëìíîï\n[00f]ðñòóôõö÷øùúûüýþÿ\n[010]ĀāĂăĄąĆć––ĊċČčĎď\n[011]––Ēē––ĖėĘęĚě––Ğğ\n[012]ĠġĢģ––Ħħ––ĪīĬ––į\n[013]İıĲĳ––Ķķ–ĹĺĻļĽľ–\n[014]–ŁłŃńŅņŇň–––––––\n[015]ŐőŒœŔŕ––ŘřŚś––Şş\n[016]Šš––Ťť––––Ūū––Ůů'
+staxel.switch.CharacterTest=
+//TODO Translate [Reference] '[017]ŰűŲų––––ŸŹźŻżŽž–\n[019]––ƒ–––––––––––––\n[01c]–––––ǅǆ–––––––––\n[01f]––ǲǳ––––––––––––\n[021]––––––––––Țț––––\n[02c]–––––––ˇ––––––––\n[02d]––––––––˘˙–˛˜–––\n[037]––––––––––––––;–\n[038]––––΄΅Ά·ΈΉΊ–Ό–ΎΏ\n[039]ΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟ\n[03a]ΠΡ–ΣΤΥΦΧΨΩΪΫάέήί\n[03b]ΰαβγδεζηθικλμνξο\n[03c]πρςστυφχψωϊϋόύώ–\n[040]–Ё––––––––––––––\n[041]АБВГДЕЖЗИЙКЛМНОП\n[042]РСТУФХЦЧШЩЪЫЬЭЮЯ\n[043]абвгдежзийклмноп\n[044]рстуфхцчшщъыьэюя'
+staxel.switch.CharacterTest2=
+//TODO Translate [Reference] '[045]–ё––––––––––––––\n[201]––––—–––‘’‚‛“”„–\n[202]†‡•–––…–––––––––\n[203]‰–′″–––––‹›※––––\n[20a]––––––––––––€–––\n[211]––––––№–––––––––\n[212]––™–––––––––––––\n[219]←↑→↓––––––––––––\n[21d]––⇒–⇔–––––––––––\n[220]∀–∂–––––––––––––\n[221]––––––––––√–––∞–\n[223]––––∴∵––––––––––\n[228]––⊂⊃––––––––––––\n[231]––⌒–––––––––––––\n[25a]■□––––––––––––––\n[25b]––▲△––––––––▼▽––\n[25c]––––––◆◇–––○––◎●\n[264]♀–♂–––––––––––––'
+staxel.switch.CharacterTest3=
+//TODO Translate [Reference] '[266]––––––––––♪––♭––\n[300]–、。〃–々〆–––––「」『』\n[301]【】〒–––––––––––––\n[304]–ぁあぃいぅうぇえぉおかがきぎく\n[305]ぐけげこごさざしじすずせぜそぞた\n[306]だちぢっつづてでとどなにぬねのは\n[307]ばぱひびぴふぶぷへべぺほぼぽまみ\n[308]むめもゃやゅゆょよらりるれろゎわ\n[309]––をん–––––––––ゝゞ–\n[30A]–ァアィイゥウェエォオカガキギク\n[30b]グケゲコゴサザシジスズセゼソゾタ\n[30c]ダチヂッツヅテデトドナニヌネノハ\n[30d]バパヒビピフブプヘベペホボポマミ\n[30e]ムメモャヤュユョヨラリルレロヮワ\n[30f]––ヲンヴヵヶ––––・ー–––\n[4ed]–––––––––––––仝––\n[ff0]–！––––––––––––––\n[ff1]–––––––––––––––？\n[ff5]––––––––––––––～–'
+staxel.switch.CharacterTest4=
 //TODO Translate [Reference] 'Goals: {0-goalCount}'
 staxel.tile.goals.Nametag=
 //TODO Translate [Reference] '{0-player}: {1-petalCount}'
 staxel.tile.shippingDock.Nametag=
 //[Reference] 'Inside of the Island'
 staxel.totem.outsideWorld=岛屿内部
+//TODO Translate [Reference] 'Area Empty'
+staxel.totem.regionNotEmpty=
 //[Reference] 'Totem is protected, protection must be disable in order to break it.'
 staxel.totem.UnbreakableTotem=图腾受到保护，必须关闭保护才能破坏它。
 //[Reference] '{0-tiles} Tiles away'
