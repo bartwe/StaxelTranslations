@@ -674,6 +674,10 @@ staxel.connection.TooManyPlayers=
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Could not connect.\n\nYour game version is not the same as the host.'
 staxel.connection.VersionMismatch=Version Mismatch. De versie van je spel is niet gelijk aan de versie van de server. Zorg dat je dezelfde versie van de game draait als de server.
+//TODO Translate [Reference] 'Next Accessories'
+staxel.contextButton.accessoryPage.Next=
+//TODO Translate [Reference] 'Previous Accessories'
+staxel.contextButton.accessoryPage.Prev=
 //TODO Translate [Reference] 'Catalogue'
 staxel.contextButton.catalogue.Catalogue=
 //TODO Translate [Reference] 'Orders'
@@ -706,6 +710,14 @@ staxel.contextButton.inventory.Put=
 staxel.contextButton.inventory.PutOne=
 //TODO Translate [Reference] 'Swap Stack'
 staxel.contextButton.inventory.Swap=
+//TODO Translate [Reference] 'Next Inventory Page'
+staxel.contextButton.invPage.Next=
+//TODO Translate [Reference] 'Previous Inventory Page'
+staxel.contextButton.invPage.Prev=
+//TODO Translate [Reference] 'Next List Page'
+staxel.contextButton.listPage.Next=
+//TODO Translate [Reference] 'Previous List Page'
+staxel.contextButton.listPage.Prev=
 //TODO Translate [Reference] 'Next Page'
 staxel.contextButton.page.Next=
 //TODO Translate [Reference] 'Previous Page'
@@ -716,6 +728,14 @@ staxel.contextButton.recipe.Pin=
 staxel.contextButton.recipe.PreviousRecipe=
 //TODO Translate [Reference] 'Unpin Recipe'
 staxel.contextButton.recipe.Unpin=
+//TODO Translate [Reference] 'Next Tier'
+staxel.contextButton.tier.Next=
+//TODO Translate [Reference] 'Previous Tier'
+staxel.contextButton.tier.Prev=
+//TODO Translate [Reference] 'Next Tier Page'
+staxel.contextButton.tierPage.Next=
+//TODO Translate [Reference] 'Previous Tier Page'
+staxel.contextButton.tierPage.Prev=
 //TODO Translate [Reference] 'Start Automation'
 staxel.controlHint.StartAutomation=
 //TODO Translate [Reference] 'Stop Automation'
@@ -1076,6 +1096,8 @@ staxel.notification.magicTeleport.RequiresGlobal=
 staxel.notification.magicTeleport.TeleportAlreadyActive=
 //[Reference] 'Your letter has been sent.'
 staxel.notification.mail.Sent=Je brief is verstuurd.
+//TODO Translate [Reference] '{0-petName} doesn't want to follow. You have too many pets following you already.'
+staxel.notification.pet.TooManyFollowing=
 //TODO Translate [Reference] 'This island will reset when you leave and all changes made will be undone.'
 staxel.notification.placedOnDeleteIsland=
 //TODO Translate [Reference] 'This island resets each season and all changes made will be undone.'
@@ -1092,6 +1114,8 @@ staxel.notification.totem.TierDecrease=
 staxel.notification.totem.TierIncrease=
 //[Reference] 'You can't break that. The region is being used.'
 staxel.notification.TotemRegionInUse=Je kunt dit niet kapotmaken. Dit gebied is in gebruik.
+//TODO Translate [Reference] 'Must be standing up in order to talk to villagers.'
+staxel.notification.villager.NotStanding=
 //TODO Translate [Reference] 'Villager is busy with another villager.'
 staxel.notification.villager.VillagerReservedForConversation=
 //TODO Translate [Reference] 'Not looking at a water tile.'
@@ -1216,12 +1240,22 @@ staxel.popup.BadWord.title=
 staxel.popup.Cancel=
 //TODO Translate [Reference] 'Confirm'
 staxel.popup.Confirm=
+//TODO Translate [Reference] 'Attempting to connect to server.'
+staxel.popup.ConnectingToServer=
+//TODO Translate [Reference] 'Connection Time Out.'
+staxel.popup.ConnectionTimedOut=
 //TODO Translate [Reference] 'Error'
 staxel.popup.Error=
 //TODO Translate [Reference] 'Info'
 staxel.popup.Info=
 //TODO Translate [Reference] 'Please Wait'
 staxel.popup.PleaseWait=
+//TODO Translate [Reference] 'Restarting game. Please wait.'
+staxel.popup.RestartingGame=
+//TODO Translate [Reference] 'Waiting For Keyboard Input.'
+staxel.popup.waitingForKeyboardInput.Body=
+//TODO Translate [Reference] 'Input'
+staxel.popup.waitingForKeyboardInput.Title=
 //[Reference] '{0-price}: {1-item}'
 staxel.priceTag.Common={0-price}: {1-item}
 //TODO Translate [Reference] 'Are you sure you want to return home? It will cost you {0-petals} petals.'
@@ -1268,8 +1302,17 @@ staxel.switch.CharacterTest3=
 staxel.switch.CharacterTest4=
 //TODO Translate [Reference] 'Goals: {0-goalCount}'
 staxel.tile.goals.Nametag=
+staxel.tile.ocean.OceanTileUnbreakable.description=
+//TODO Translate [Reference] 'Ocean Tile (Unbreakable)'
+staxel.tile.ocean.OceanTileUnbreakable.name=
 //TODO Translate [Reference] '{0-player}: {1-petalCount}'
 staxel.tile.shippingDock.Nametag=
+staxel.tileObject.quest.Eris.environment.ErisCastleReturn.description=
+//TODO Translate [Reference] 'Eris Castle Return'
+staxel.tileObject.quest.Eris.environment.ErisCastleReturn.name=
+staxel.tileObject.quest.Leif.TreetopReturn.description=
+//TODO Translate [Reference] 'Treetop Village Return'
+staxel.tileObject.quest.Leif.TreetopReturn.name=
 //[Reference] 'Inside of the Island'
 staxel.totem.outsideWorld=Binnenin het Eiland
 //TODO Translate [Reference] 'Area Empty'
