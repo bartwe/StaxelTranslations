@@ -477,6 +477,10 @@ staxel.commands.describeItem.Success=
 staxel.commands.doNotification.NotEnoughParameters=
 //TODO Translate [Reference] 'Showing notification '{0-code}'.'
 staxel.commands.doNotification.Success=
+//TODO Translate [Reference] 'Not enough parameters. Needs parameter: 'title', optionally 'body'.'
+staxel.commands.doPopup.NotEnoughParameters=
+//TODO Translate [Reference] 'Showing popup '{0-code}'.'
+staxel.commands.doPopup.Success=
 //TODO Translate [Reference] 'Set Cheats to {0-bool}.'
 staxel.commands.enableCheats.Success=
 //TODO Translate [Reference] 'Requesting connection does not have an entity that has EntityPlayer'
@@ -501,6 +505,8 @@ staxel.commands.generic.FailedToFindItem=
 staxel.commands.generic.FailedToFindModifier=
 //TODO Translate [Reference] 'Failed to find an villager with the code: '{0-input}'. Did you mean: '{1-suggestion}.''
 staxel.commands.generic.FailedToFindVillager=
+//TODO Translate [Reference] 'Failed to find an villager with the code: '{0-input}'.'
+staxel.commands.generic.FailedToFindVillagerNoSuggestion=
 //TODO Translate [Reference] 'Not enough parameters.'
 staxel.commands.generic.NotEnoughParameters=
 //TODO Translate [Reference] 'Success.'
@@ -627,6 +633,10 @@ staxel.commands.stampStructure.InvalidStructure=
 staxel.commands.swapOverlay.NotEnoughParameters=
 //TODO Translate [Reference] 'Showing overlay '{0-code}'.'
 staxel.commands.swapOverlay.Success=
+//TODO Translate [Reference] 'Not enough parameters. Needs parameter: 'villagerCode'. Optionally includes: 'x', 'y', 'z''
+staxel.commands.teleportVillager.NotEnoughParameters=
+//TODO Translate [Reference] 'Teleported the villager to '{0-villagerCode}''
+staxel.commands.teleportVillager.Success=
 //TODO Translate [Reference] 'Failed to read tile at position {0-position}.'
 staxel.commands.tileAt.Fail=
 //TODO Translate [Reference] 'Not looking at a tile.'
@@ -813,7 +823,7 @@ staxel.gameButton.DockRotateRight=
 staxel.gameButton.DockTake=
 //TODO Translate [Reference] 'Drop Item'
 staxel.gameButton.DropHeldItem=
-//TODO Translate [Reference] 'Drop All'
+//TODO Translate [Reference] 'Drop All (+ ^b:DropHeldItem;)'
 staxel.gameButton.FlyDown=
 //TODO Translate [Reference] 'Interact'
 staxel.gameButton.Interact=
