@@ -438,8 +438,8 @@ staxel.commands.addStatusEffect.Success=ステータスエフェクト '{0-effec
 staxel.commands.camera.Add.Success=新しいノードの作成に成功しました。ポジション: {0-position}、方向: {1-heading}、時間: {2-time}、Tween: {3-tween}
 //[Reference] 'Successfully created a camera path. The starting node is: Position: {0-position}, Heading: {1-heading}, Time: {2-time}, Tween: {3-tween}'
 staxel.commands.camera.Create.Success=カメラパスの作成に成功しました。開始ノード: ポジション: {0-position}、方向: {1-heading}、時間: {2-time}、Tween: {3-tween}
-//[Reference] 'No file with name {0-file}. Looked in directory: (1-directory}'
-staxel.commands.camera.Load.FileMissing=名前 {0-file} に該当するファイルがありません。検索したディレクトリ: (1-directory}
+//[Reference] 'No file with name {0-file}. Looked in directory: {1-directory}'
+staxel.commands.camera.Load.FileMissing=名前 {0-file} に該当するファイルがありません。検索したディレクトリ: {1-directory}
 //[Reference] 'Not enough parameters, needs parameters: 'loadFromWorld', 'saveName'.'
 staxel.commands.camera.Load.NotEnoughParameters=パラメータが足りません。パラメータ 'loadFromWorld', 'saveName' が必要です。
 //[Reference] 'Successfully loaded {0-fileName}.'
