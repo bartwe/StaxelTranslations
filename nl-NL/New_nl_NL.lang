@@ -30,7 +30,8 @@ controlHint.verb.Trash=Item weggooien
 controlHint.verb.Wave=Zwaaien naar
 //[Reference] 'Community Testers'
 credits.communityTesters=Community-testers
-//[Reference] 'Nexel has encountered a critical error and needs to quit.\n\nDETAILS'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Staxel has encountered a critical error and needs to be restarted.\n\nDetails...'
 error.preamble=Nexel is op een kritieke fout gestuit en moet worden afgesloten.\n\nMEER INFORMATIE
 //[Reference] 'You have moved too far away from where you started fishing.'
 fishing.movedTooFar=Je bent te ver afgedwaald van de plek waar je begon met vissen.
@@ -42,7 +43,8 @@ nexel.commands.noClip.Success=NoClip instellen op {0-bool}.
 nexel.commands.teleportToIsland.FailedToFind=Kan eiland met code '{0-input}' niet vinden
 //[Reference] 'Not enough parameters, needs parameter: 'island'. Optionally includes: 'x', 'y', 'z'.'
 nexel.commands.teleportToIsland.NotEnoughParameters=Niet genoeg parameters, parameter 'island' nodig. Bevat optioneel: 'x', 'y', 'z'.
-//[Reference] 'Client must finish loading island before teleporting again.'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'You must finish loading into an island before you can teleport again.'
 nexel.commands.teleportToIsland.NotReady=Client moet eiland eerst helemaal laden voordat je weer kunt teleporteren.
 //[Reference] 'Teleported player to '{0-island}'.'
 nexel.commands.teleportToIsland.Success=Speler geteleporteerd naar '{0-island}'.
@@ -457,6 +459,10 @@ staxel.commands.camera.Save.NotEnoughParameters=Niet genoeg parameters, paramete
 staxel.commands.camera.Save.Success=Opgeslagen in {0-fileName}. Volledig pad: {1-saveLocation}.
 //[Reference] 'Can't save to a folder as this isn't a desktop. Please use world mode.'
 staxel.commands.camera.SavingToWorld=Kan niet opslaan in een map omdat dit geen desktop is. Gebruik de wereldmodus.
+//TODO Translate [Reference] 'There were {0-translationCount} lines with bad words. See log for more details.'
+staxel.commands.checkBadWords.Failure=
+//TODO Translate [Reference] 'There are no lines that have bad words.'
+staxel.commands.checkBadWords.Success=
 //[Reference] 'Not enough parameters. Needs parameter: 'itemCode'.'
 staxel.commands.checkCollected.NotEnoughParameters=Niet genoeg parameters, parameter 'itemCode' nodig.
 //[Reference] 'Item {0-itemCode} collection status is: '{1-status}'.'
@@ -477,6 +483,10 @@ staxel.commands.describeItem.Success=Speler heeft '{0-itemCode}' vast. De modifi
 staxel.commands.doNotification.NotEnoughParameters=Niet genoeg parameters, parameter 'itemCode' nodig.
 //[Reference] 'Showing notification '{0-code}'.'
 staxel.commands.doNotification.Success=Melding '{0-code}' wordt getoond.
+//TODO Translate [Reference] 'Not enough parameters. Needs parameter: 'title', optionally 'body'.'
+staxel.commands.doPopup.NotEnoughParameters=
+//TODO Translate [Reference] 'Showing popup '{0-code}'.'
+staxel.commands.doPopup.Success=
 //[Reference] 'Set Cheats to {0-bool}.'
 staxel.commands.enableCheats.Success=Valsspelen instellen op {0-bool}.
 //[Reference] 'Requesting connection does not have an entity that has EntityPlayer'
@@ -501,6 +511,8 @@ staxel.commands.generic.FailedToFindItem=Kon item met code '{0-input}' niet vind
 staxel.commands.generic.FailedToFindModifier=Kon modifier met code '{0-input}' niet vinden. Bedoelde je '{1-suggestion}'?
 //[Reference] 'Failed to find an villager with the code: '{0-input}'. Did you mean: '{1-suggestion}.''
 staxel.commands.generic.FailedToFindVillager=Kon dorpeling met code '{0-input}' niet vinden. Bedoelde je '{1-suggestion}'?
+//TODO Translate [Reference] 'Failed to find an villager with the code: '{0-input}'.'
+staxel.commands.generic.FailedToFindVillagerNoSuggestion=
 //[Reference] 'Not enough parameters.'
 staxel.commands.generic.NotEnoughParameters=Niet voldoende parameters.
 //[Reference] 'Success.'
@@ -537,7 +549,8 @@ staxel.commands.learnRecipe.Success=Recept geleerd: {0-recipeCode}
 staxel.commands.ping.Success=Pong. (Server)
 //[Reference] 'Pong. (Client)'
 staxel.commands.pingClient.Success=Pong. (Client)
-//[Reference] 'Change the number of sales on {0-stack} from {1-before} to {2-after}.'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Changed the number of registered sales for {0-stack} from {1-before} to {2-after}.'
 staxel.commands.registerSale.Success=Aantal verkopen van {0-stack} gewijzigd van {1-before} in {2-after}.
 //[Reference] 'Unknown dialogue command '{0-code}'.'
 staxel.commands.runDialogue.CommandDoesNotExist=Onbekend dialoogcommando '{0-code}'.
@@ -593,7 +606,8 @@ staxel.commands.setConstant.Success=Constante '{0-constantName}' ingesteld op '{
 staxel.commands.setDialogue.NotEnoughParameters=Niet genoeg parameters, parameter 'globalDialogueName', 'value', of 'villagerVariableName', 'villagerCode', 'value' nodig.
 //[Reference] 'Not enough parameters for changing villager parameter. Needs parameter: 'villagerVariableName', 'villagerCode', 'value'.'
 staxel.commands.setDialogue.NotEnoughParametersVillager=Niet genoeg parameters om parameter dorpeling te veranderen. Parameter 'villagerVariableName', 'villagerCode', 'value' nodig.
-//[Reference] 'Successfully change the value '{0-input}' from '{1-prevValue}' to '{2-newValue}''
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Successfully changed the value '{0-input}' from '{1-prevValue}' to '{2-newValue}''
 staxel.commands.setDialogue.Success=Waarde '{0-input}' gewijzigd van '{1-prevValue}' naar '{2-newValue}'
 //[Reference] 'The first parameter must be a dialogue variable (i.e. starts with $). Was: '{0-input}''
 staxel.commands.setDialogue.ValueNotVariable=De eerste parameter moet een dialoogvariabele zijn (d.w.z. begint met $). Dit was: '{0-input}'
@@ -619,7 +633,8 @@ staxel.commands.spawnStarBits.Success=Succesvolle creatie van {0-count} sterrens
 staxel.commands.spawnVillager.NotEnoughParameters=Niet genoeg parameters, parameter 'villagerCode' nodig. Bevat optioneel: 'bypassRestrictions'
 //[Reference] 'Spawned the villager '{0-villagerCode}''
 staxel.commands.spawnVillager.Success=Dorpeling '{0-villagerCode}' gespawnd
-//[Reference] 'Requested villager already exists on this island.''
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Requested villager already exists on this island.'
 staxel.commands.spawnVillager.VillagerAlreadyExists=Verzochte dorpeling bestaat al op dit eiland.
 //[Reference] 'Invalid structure code.'
 staxel.commands.stampStructure.InvalidStructure=Ongeldige structuurcode.
@@ -627,6 +642,10 @@ staxel.commands.stampStructure.InvalidStructure=Ongeldige structuurcode.
 staxel.commands.swapOverlay.NotEnoughParameters=Niet genoeg parameters, parameter 'overlayCode' nodig. Bevat optioneel: 'state'
 //[Reference] 'Showing overlay '{0-code}'.'
 staxel.commands.swapOverlay.Success=Overlay '{0-code}' wordt getoond.
+//TODO Translate [Reference] 'Not enough parameters. Needs parameter: 'villagerCode'. Optionally includes: 'x', 'y', 'z''
+staxel.commands.teleportVillager.NotEnoughParameters=
+//TODO Translate [Reference] 'Teleported the villager to '{0-villagerCode}''
+staxel.commands.teleportVillager.Success=
 //[Reference] 'Failed to read tile at position {0-position}.'
 staxel.commands.tileAt.Fail=Kon tegel op positie {0-position} niet lezen.
 //[Reference] 'Not looking at a tile.'
@@ -665,6 +684,8 @@ staxel.connection.Kicked=Verbinding verloren.\n\nJe bent uit het spel gezet.
 staxel.connection.ProtocolError=Kon geen verbinding maken.\n\nEr is een fout opgetreden in de communicatie met de host.
 //[Reference] 'Lost connection.\n\nThe host shut down the game.'
 staxel.connection.ServerShutdown=Verbinding verloren.\n\nDe host heeft het spel afgesloten.
+//TODO Translate [Reference] 'Lost connection.\n\nThe game encountered an error and had to stop.'
+staxel.connection.ServerShutdownError=
 //[Reference] 'Could not connect.\n\nThe game you tried to join is already full.'
 staxel.connection.TooManyPlayers=Kon geen verbinding maken.\n\nHet spel waar je aan deel wilde nemen is al vol.
 //[Reference] 'Could not connect.\n\nYour game version is not the same as the host.'
@@ -713,6 +734,10 @@ staxel.contextButton.invPage.Prev=Vorige inventarispagina
 staxel.contextButton.listPage.Next=Volgende lijstpagina
 //[Reference] 'Previous List Page'
 staxel.contextButton.listPage.Prev=Vorige lijstpagina
+//TODO Translate [Reference] 'Next Tip'
+staxel.contextButton.nightTransition.NextTip=
+//TODO Translate [Reference] 'Previous Tip'
+staxel.contextButton.nightTransition.PrevTip=
 //[Reference] 'Next Page'
 staxel.contextButton.page.Next=Volgende pagina
 //[Reference] 'Previous Page'
@@ -813,7 +838,8 @@ staxel.gameButton.DockRotateRight=Item rechtsom draaien
 staxel.gameButton.DockTake=Item oppakken
 //[Reference] 'Drop Item'
 staxel.gameButton.DropHeldItem=Item laten vallen
-//[Reference] 'Drop All'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Drop All (+ ^b:DropHeldItem;)'
 staxel.gameButton.FlyDown=Alles laten vallen
 //[Reference] 'Interact'
 staxel.gameButton.Interact=Interactie
@@ -933,7 +959,8 @@ staxel.item.magicWater.FullyGrown=Tegel is al volgroeid.
 staxel.item.magicWater.NotAPlant=Tegel is geen plant.
 //[Reference] 'Plant is too healthy. Manure is not needed.'
 staxel.item.magicWater.NotWilted=Plant is te gezond. Mest is niet nodig.
-//[Reference] 'Not looking at an apirary.'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Not looking at an apiary.'
 staxel.item.smoker.NotApiary=Kijkt niet naar een imkerij.
 //[Reference] 'Renamer'
 staxel.item.tool.Renamer.name=Hernoemer
@@ -1067,6 +1094,28 @@ staxel.merchant.NoItemsToSell=Er zijn geen items om te verkopen.
 staxel.merchant.RequiresGlobal=Je hebt toestemming nodig om dit te kopen!
 //[Reference] 'Your wallet is too full. Try buying some stuff.'
 staxel.merchant.TooMuchMoney=Je portemonnee zit te vol. Probeer wat te kopen.
+//TODO Translate [Reference] '^c:1486b0;{0-playername} has started a teleport to {1-islandName}.^c:pop;'
+staxel.message.InitiatedTeleport=
+//TODO Translate [Reference] '^c:1486b0;{0-playername} has started a vote to teleport to {1-islandName}.^c:pop;'
+staxel.message.InitiatedVote=
+//TODO Translate [Reference] '^c:1486b0;{0-username} has changed their name from {1-nameBefore} to {2-nameAfter}.^c:pop;'
+staxel.message.NameChange=
+//TODO Translate [Reference] '^c:1486b0;{0-username} has joined for the first time. Say hi!^c:pop;'
+staxel.message.NewPlayerConnected=
+//TODO Translate [Reference] '^c:1486b0;{0-username} has joined as {1-characterName}. Say hi!^c:pop;'
+staxel.message.PlayerConnected=
+//TODO Translate [Reference] '^c:1486b0;{0-username} has joined. Say hi!^c:pop;'
+staxel.message.PlayerConnectedNoNickname=
+//TODO Translate [Reference] '^c:1486b0;{0-username} has left.^c:pop;'
+staxel.message.PlayerDisconnected=
+//TODO Translate [Reference] '^c:1486b0;{0-playername} has gone to sleep.^c:pop;'
+staxel.message.Sleep=
+//TODO Translate [Reference] '^c:1486b0;{0-playername} has voted to not go.^c:pop;'
+staxel.message.VotedAgainst=
+//TODO Translate [Reference] '^c:1486b0;{0-playername} has voted to go.^c:pop;'
+staxel.message.VotedFor=
+//TODO Translate [Reference] '^c:1486b0;{0-playername} is ready to go.^c:pop;'
+staxel.message.VotedReady=
 //[Reference] '[Missing]'
 staxel.multiplayer.MissingWorldName=[Ontbreekt]
 //[Reference] 'Cannot join game, it is already full'
@@ -1079,7 +1128,8 @@ staxel.notification.LeaveDock=Kies {0-button} om weg te gaan
 staxel.notification.magicTeleport.ArcadeMachineFailed=Er lijken geen spellen geïnstalleerd te zijn
 //[Reference] 'You can't talk to villagers while a teleport is active.'
 staxel.notification.magicTeleport.CantTalkToVillager=Je kunt niet met dorpelingen praten zolang er een teleportatie actief is.
-//[Reference] 'Failed to find connection to currently player.'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] 'Given entity does not have a connected player attached to them. Are we sure we are teleporting a player?'
 staxel.notification.magicTeleport.FailedToFindConnectionForPlayer=Kan geen verbinding vinden met huidige speler.
 //[Reference] 'Can't teleport right now, someone is stopping you.'
 staxel.notification.magicTeleport.RequiresGlobal=Je kunt nu niet teleporteren, iemand houdt je tegen.
@@ -1283,7 +1333,8 @@ staxel.structure.island.SurfCottonIsland.offmap=Surfkatoeneiland
 staxel.structure.island.TreetopVillage.offmap=Boomtoppendorp
 //[Reference] 'Tropical Island'
 staxel.structure.island.TropicalIsland.offmap=Tropisch eiland
-//[Reference] '[002]–!"#$–&'()*+,-./\n[003]0123456789:;<=>?\n[004]–ABCDEFGHIJKLMNO\n[005]PQRSTUVWXYZ[–]^_\n[006]`abcdefghijklmno\n[007]pqrstuvwxyz{|}~–\n[00a]–¡¢£¤¥¦§¨©ª«¬–®¯\n[00c]ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏ\n[00d]ÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞß\n[00e]àáâãäåæçèéêëìíîï\n[00f]ðñòóôõö÷øùúûüýþÿ\n[010]ĀāĂăĄąĆć––ĊċČčĎď\n[011]––Ēē––ĖėĘęĚě––Ğğ\n[012]ĠġĢģ––Ħħ––ĪīĬ––į\n[013]İıĲĳ––Ķķ–ĹĺĻļĽľ–\n[014]–ŁłŃńŅņŇň–––––––\n[015]ŐőŒœŔŕ––ŘřŚś––Şş\n[016]Šš––Ťť––––Ūū––Ůů'
+//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '[002]–!"#$–&'()*+,-./\n[003]0123456789:;<'
 staxel.switch.CharacterTest=[002]–!"#$–&'()*+,-./\n[003]0123456789:;<=>?\n[004]–ABCDEFGHIJKLMNO\n[005]PQRSTUVWXYZ[–]^_\n[006]`abcdefghijklmno\n[007]pqrstuvwxyz{|}~–\n[00a]–¡¢£¤¥¦§¨©ª«¬–®¯\n[00c]ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏ\n[00d]ÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞß\n[00e]àáâãäåæçèéêëìíîï\n[00f]ðñòóôõö÷øùúûüýþÿ\n[010]ĀāĂăĄąĆć––ĊċČčĎď\n[011]––Ēē––ĖėĘęĚě––Ğğ\n[012]ĠġĢģ––Ħħ––ĪīĬ––į\n[013]İıĲĳ––Ķķ–ĹĺĻļĽľ–\n[014]–ŁłŃńŅņŇň–––––––\n[015]ŐőŒœŔŕ––ŘřŚś––Şş\n[016]Šš––Ťť––––Ūū––Ůů
 //[Reference] '[017]ŰűŲų––––ŸŹźŻżŽž–\n[019]––ƒ–––––––––––––\n[01c]–––––ǅǆ–––––––––\n[01f]––ǲǳ––––––––––––\n[021]––––––––––Țț––––\n[02c]–––––––ˇ––––––––\n[02d]––––––––˘˙–˛˜–––\n[037]––––––––––––––;–\n[038]––––΄΅Ά·ΈΉΊ–Ό–ΎΏ\n[039]ΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟ\n[03a]ΠΡ–ΣΤΥΦΧΨΩΪΫάέήί\n[03b]ΰαβγδεζηθικλμνξο\n[03c]πρςστυφχψωϊϋόύώ–\n[040]–Ё––––––––––––––\n[041]АБВГДЕЖЗИЙКЛМНОП\n[042]РСТУФХЦЧШЩЪЫЬЭЮЯ\n[043]абвгдежзийклмноп\n[044]рстуфхцчшщъыьэюя'
 staxel.switch.CharacterTest2=[017]ŰűŲų––––ŸŹźŻżŽž–\n[019]––ƒ–––––––––––––\n[01c]–––––ǅǆ–––––––––\n[01f]––ǲǳ––––––––––––\n[021]––––––––––Țț––––\n[02c]–––––––ˇ––––––––\n[02d]––––––––˘˙–˛˜–––\n[037]––––––––––––––;–\n[038]––––΄΅Ά·ΈΉΊ–Ό–ΎΏ\n[039]ΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟ\n[03a]ΠΡ–ΣΤΥΦΧΨΩΪΫάέήί\n[03b]ΰαβγδεζηθικλμνξο\n[03c]πρςστυφχψωϊϋόύώ–\n[040]–Ё––––––––––––––\n[041]АБВГДЕЖЗИЙКЛМНОП\n[042]РСТУФХЦЧШЩЪЫЬЭЮЯ\n[043]абвгдежзийклмноп\n[044]рстуфхцчшщъыьэюя
