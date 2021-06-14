@@ -30,7 +30,7 @@ controlHint.verb.Trash=
 controlHint.verb.Wave=
 //TODO Translate [Reference] 'Community Testers'
 credits.communityTesters=
-//TODO Translate [Reference] 'Nexel has encountered a critical error and needs to quit.\n\nDETAILS'
+//TODO Translate [Reference] 'Staxel has encountered a critical error and needs to be restarted.\n\nDetails...'
 error.preamble=
 //TODO Translate [Reference] 'You have moved too far away from where you started fishing.'
 fishing.movedTooFar=
@@ -38,11 +38,11 @@ fishing.movedTooFar=
 hintText.checkPlantGrowth.wiltedSeason=
 //TODO Translate [Reference] 'Set NoClip to {0-bool}.'
 nexel.commands.noClip.Success=
-//TODO Translate [Reference] 'Failed to find island with code: '{0-input}'.'
+//TODO Translate [Reference] 'Failed to find island with code: '{0-input}'
 nexel.commands.teleportToIsland.FailedToFind=
 //TODO Translate [Reference] 'Not enough parameters, needs parameter: 'island'. Optionally includes: 'x', 'y', 'z'.'
 nexel.commands.teleportToIsland.NotEnoughParameters=
-//TODO Translate [Reference] 'Client must finish loading island before teleporting again.'
+//TODO Translate [Reference] 'You must finish loading into an island before you can teleport again.'
 nexel.commands.teleportToIsland.NotReady=
 //TODO Translate [Reference] 'Teleported player to '{0-island}'.'
 nexel.commands.teleportToIsland.Success=
@@ -118,9 +118,9 @@ nexel.ui.mainMenu.Options=
 nexel.ui.mainMenu.Singleplayer=
 //TODO Translate [Reference] 'Nothing to see here.'
 nexel.ui.NothingToSee=
-//TODO Translate [Reference] 'Controller Look Speed'
+//TODO Translate [Reference] 'Look Speed'
 nexel.ui.option.base.ControllerLookSpeed=
-//TODO Translate [Reference] 'Changes the look sensitivity of the right controller stick in game.'
+//TODO Translate [Reference] 'Changes the look sensitivity of the Right Stick in-game.'
 nexel.ui.option.base.ControllerLookSpeedToolTip=
 //TODO Translate [Reference] 'Fullscreen'
 nexel.ui.option.base.Fullscreen=
@@ -232,7 +232,7 @@ options.gameplay.ui.NameTagScale=
 options.gameplay.ui.SafetyMargin=
 //TODO Translate [Reference] 'Menus'
 options.general.audio.ui=
-//TODO Translate [Reference] 'Controller Vibration Strength'
+//TODO Translate [Reference] 'Rumble Strength'
 options.general.RumbleStrength=
 //TODO Translate [Reference] 'Any Group'
 recipeBook.grouping.NoGrouping=
@@ -436,7 +436,7 @@ staxel.commands.addStatusEffect.Success=
 staxel.commands.camera.Add.Success=
 //TODO Translate [Reference] 'Successfully created a camera path. The starting node is: Position: {0-position}, Heading: {1-heading}, Time: {2-time}, Tween: {3-tween}'
 staxel.commands.camera.Create.Success=
-//TODO Translate [Reference] 'No file with name {0-file}. Looked in directory: (1-directory}'
+//TODO Translate [Reference] 'No file with name {0-file}. Looked in directory: {1-directory}'
 staxel.commands.camera.Load.FileMissing=
 //TODO Translate [Reference] 'Not enough parameters, needs parameters: 'loadFromWorld', 'saveName'.'
 staxel.commands.camera.Load.NotEnoughParameters=
@@ -456,6 +456,10 @@ staxel.commands.camera.Save.NotEnoughParameters=
 staxel.commands.camera.Save.Success=
 //TODO Translate [Reference] 'Can't save to a folder as this isn't a desktop. Please use world mode.'
 staxel.commands.camera.SavingToWorld=
+//TODO Translate [Reference] 'There were {0-translationCount} lines with bad words. See log for more details.'
+staxel.commands.checkBadWords.Failure=
+//TODO Translate [Reference] 'There are no lines that have bad words.'
+staxel.commands.checkBadWords.Success=
 //TODO Translate [Reference] 'Not enough parameters. Needs parameter: 'itemCode'.'
 staxel.commands.checkCollected.NotEnoughParameters=
 //TODO Translate [Reference] 'Item {0-itemCode} collection status is: '{1-status}'.'
@@ -542,7 +546,7 @@ staxel.commands.learnRecipe.Success=
 staxel.commands.ping.Success=
 //TODO Translate [Reference] 'Pong. (Client)'
 staxel.commands.pingClient.Success=
-//TODO Translate [Reference] 'Change the number of sales on {0-stack} from {1-before} to {2-after}.'
+//TODO Translate [Reference] 'Changed the number of registered sales for {0-stack} from {1-before} to {2-after}.'
 staxel.commands.registerSale.Success=
 //TODO Translate [Reference] 'Unknown dialogue command '{0-code}'.'
 staxel.commands.runDialogue.CommandDoesNotExist=
@@ -598,7 +602,7 @@ staxel.commands.setConstant.Success=
 staxel.commands.setDialogue.NotEnoughParameters=
 //TODO Translate [Reference] 'Not enough parameters for changing villager parameter. Needs parameter: 'villagerVariableName', 'villagerCode', 'value'.'
 staxel.commands.setDialogue.NotEnoughParametersVillager=
-//TODO Translate [Reference] 'Successfully change the value '{0-input}' from '{1-prevValue}' to '{2-newValue}''
+//TODO Translate [Reference] 'Successfully changed the value '{0-input}' from '{1-prevValue}' to '{2-newValue}''
 staxel.commands.setDialogue.Success=
 //TODO Translate [Reference] 'The first parameter must be a dialogue variable (i.e. starts with $). Was: '{0-input}''
 staxel.commands.setDialogue.ValueNotVariable=
@@ -624,7 +628,7 @@ staxel.commands.spawnStarBits.Success=
 staxel.commands.spawnVillager.NotEnoughParameters=
 //TODO Translate [Reference] 'Spawned the villager '{0-villagerCode}''
 staxel.commands.spawnVillager.Success=
-//TODO Translate [Reference] 'Requested villager already exists on this island.''
+//TODO Translate [Reference] 'Requested villager already exists on this island.'
 staxel.commands.spawnVillager.VillagerAlreadyExists=
 //TODO Translate [Reference] 'Invalid structure code.'
 staxel.commands.stampStructure.InvalidStructure=
@@ -674,6 +678,8 @@ staxel.connection.Kicked=
 staxel.connection.ProtocolError=
 //TODO Translate [Reference] 'Lost connection.\n\nThe host shut down the game.'
 staxel.connection.ServerShutdown=
+//TODO Translate [Reference] 'Lost connection.\n\nThe game encountered an error and had to stop.'
+staxel.connection.ServerShutdownError=
 //TODO Translate [Reference] 'Could not connect.\n\nThe game you tried to join is already full.'
 staxel.connection.TooManyPlayers=
 //TODO Translate [Reference] 'Could not connect.\n\nYour game version is not the same as the host.'
@@ -722,6 +728,10 @@ staxel.contextButton.invPage.Prev=
 staxel.contextButton.listPage.Next=
 //TODO Translate [Reference] 'Previous List Page'
 staxel.contextButton.listPage.Prev=
+//TODO Translate [Reference] 'Next Tip'
+staxel.contextButton.nightTransition.NextTip=
+//TODO Translate [Reference] 'Previous Tip'
+staxel.contextButton.nightTransition.PrevTip=
 //TODO Translate [Reference] 'Next Page'
 staxel.contextButton.page.Next=
 //TODO Translate [Reference] 'Previous Page'
@@ -802,6 +812,18 @@ staxel.error.storage.NoSpace=
 staxel.error.storage.Unknown=
 //TODO Translate [Reference] 'Rooster'
 staxel.farmAnimal.Rooster=
+//TODO Translate [Reference] 'Font: Fira Sans'
+staxel.font.FiraSans=
+//TODO Translate [Reference] 'Copyright (c) 2012-2013, The Mozilla Corporation and Telefonica S.A.\nLicensed under SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007\nSee http://scripts.sil.org/OFL for more information.'
+staxel.font.FiraSans.description=
+//TODO Translate [Reference] 'Font: Mamelon (マメロン Hi-Regular)'
+staxel.font.Mamelon=
+//TODO Translate [Reference] 'Copyright by Moji-Waku.\n\nSee https://moji-waku.com/mj_work_license/ for more information.'
+staxel.font.Mamelon.description=
+//TODO Translate [Reference] 'Font: My First Crush'
+staxel.font.MyFirstCrush=
+//TODO Translate [Reference] 'Copyrighted by Vanessa Bay.\n\nSee http://bythebutterfly.com/faq.php for more information.'
+staxel.font.MyFirstCrush.description=
 //TODO Translate [Reference] 'Camera Mode'
 staxel.gameButton.CameraMode=
 //TODO Translate [Reference] 'Hide Player Model'
@@ -944,7 +966,7 @@ staxel.item.magicWater.FullyGrown=
 staxel.item.magicWater.NotAPlant=
 //TODO Translate [Reference] 'Plant is too healthy. Manure is not needed.'
 staxel.item.magicWater.NotWilted=
-//TODO Translate [Reference] 'Not looking at an apirary.'
+//TODO Translate [Reference] 'Not looking at an apiary.'
 staxel.item.smoker.NotApiary=
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Renamer'
@@ -1037,6 +1059,8 @@ staxel.menu.controller.ReconnectedContinue=
 staxel.menu.controller.RequestReconnect=
 //TODO Translate [Reference] 'Getting profile...'
 staxel.menu.GettingProfile=
+//TODO Translate [Reference] 'Legal Information'
+staxel.menu.LegalInformation=
 //TODO Translate [Reference] 'Ok'
 staxel.menu.mail.AcceptError=
 //TODO Translate [Reference] 'Couldn't create mail. You entered an invalid petal number.'
@@ -1079,6 +1103,28 @@ staxel.merchant.NoItemsToSell=
 staxel.merchant.RequiresGlobal=
 //TODO Translate [Reference] 'Your wallet is too full. Try buying some stuff.'
 staxel.merchant.TooMuchMoney=
+//TODO Translate [Reference] '^c:1486b0;{0-playername} has started a teleport to {1-islandName}.^c:pop;'
+staxel.message.InitiatedTeleport=
+//TODO Translate [Reference] '^c:1486b0;{0-playername} has started a vote to teleport to {1-islandName}.^c:pop;'
+staxel.message.InitiatedVote=
+//TODO Translate [Reference] '^c:1486b0;{0-username} has changed their name from {1-nameBefore} to {2-nameAfter}.^c:pop;'
+staxel.message.NameChange=
+//TODO Translate [Reference] '^c:1486b0;{0-username} has joined for the first time. Say hi!^c:pop;'
+staxel.message.NewPlayerConnected=
+//TODO Translate [Reference] '^c:1486b0;{0-username} has joined as {1-characterName}. Say hi!^c:pop;'
+staxel.message.PlayerConnected=
+//TODO Translate [Reference] '^c:1486b0;{0-username} has joined. Say hi!^c:pop;'
+staxel.message.PlayerConnectedNoNickname=
+//TODO Translate [Reference] '^c:1486b0;{0-username} has left.^c:pop;'
+staxel.message.PlayerDisconnected=
+//TODO Translate [Reference] '^c:1486b0;{0-playername} has gone to sleep.^c:pop;'
+staxel.message.Sleep=
+//TODO Translate [Reference] '^c:1486b0;{0-playername} has voted to not go.^c:pop;'
+staxel.message.VotedAgainst=
+//TODO Translate [Reference] '^c:1486b0;{0-playername} has voted to go.^c:pop;'
+staxel.message.VotedFor=
+//TODO Translate [Reference] '^c:1486b0;{0-playername} is ready to go.^c:pop;'
+staxel.message.VotedReady=
 //TODO Translate [Reference] '[Missing]'
 staxel.multiplayer.MissingWorldName=
 //TODO Translate [Reference] 'Cannot join game, it is already full'
@@ -1091,7 +1137,7 @@ staxel.notification.LeaveDock=
 staxel.notification.magicTeleport.ArcadeMachineFailed=
 //TODO Translate [Reference] 'You can't talk to villagers while a teleport is active.'
 staxel.notification.magicTeleport.CantTalkToVillager=
-//TODO Translate [Reference] 'Failed to find connection to currently player.'
+//TODO Translate [Reference] 'Given entity does not have a connected player attached to them. Are we sure we are teleporting a player?'
 staxel.notification.magicTeleport.FailedToFindConnectionForPlayer=
 //TODO Translate [Reference] 'Can't teleport right now, someone is stopping you.'
 staxel.notification.magicTeleport.RequiresGlobal=
@@ -1295,7 +1341,7 @@ staxel.structure.island.SurfCottonIsland.offmap=
 staxel.structure.island.TreetopVillage.offmap=
 //TODO Translate [Reference] 'Tropical Island'
 staxel.structure.island.TropicalIsland.offmap=
-//TODO Translate [Reference] '[002]–!"#$–&'()*+,-./\n[003]0123456789:;<=>?\n[004]–ABCDEFGHIJKLMNO\n[005]PQRSTUVWXYZ[–]^_\n[006]`abcdefghijklmno\n[007]pqrstuvwxyz{|}~–\n[00a]–¡¢£¤¥¦§¨©ª«¬–®¯\n[00c]ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏ\n[00d]ÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞß\n[00e]àáâãäåæçèéêëìíîï\n[00f]ðñòóôõö÷øùúûüýþÿ\n[010]ĀāĂăĄąĆć––ĊċČčĎď\n[011]––Ēē––ĖėĘęĚě––Ğğ\n[012]ĠġĢģ––Ħħ––ĪīĬ––į\n[013]İıĲĳ––Ķķ–ĹĺĻļĽľ–\n[014]–ŁłŃńŅņŇň–––––––\n[015]ŐőŒœŔŕ––ŘřŚś––Şş\n[016]Šš––Ťť––––Ūū––Ůů'
+//TODO Translate [Reference] '[002]–!"#$–&'()*+,-./\n[003]0123456789:;<'
 staxel.switch.CharacterTest=
 //TODO Translate [Reference] '[017]ŰűŲų––––ŸŹźŻżŽž–\n[019]––ƒ–––––––––––––\n[01c]–––––ǅǆ–––––––––\n[01f]––ǲǳ––––––––––––\n[021]––––––––––Țț––––\n[02c]–––––––ˇ––––––––\n[02d]––––––––˘˙–˛˜–––\n[037]––––––––––––––;–\n[038]––––΄΅Ά·ΈΉΊ–Ό–ΎΏ\n[039]ΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟ\n[03a]ΠΡ–ΣΤΥΦΧΨΩΪΫάέήί\n[03b]ΰαβγδεζηθικλμνξο\n[03c]πρςστυφχψωϊϋόύώ–\n[040]–Ё––––––––––––––\n[041]АБВГДЕЖЗИЙКЛМНОП\n[042]РСТУФХЦЧШЩЪЫЬЭЮЯ\n[043]абвгдежзийклмноп\n[044]рстуфхцчшщъыьэюя'
 staxel.switch.CharacterTest2=

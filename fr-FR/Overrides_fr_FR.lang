@@ -1,68 +1,86 @@
 ﻿language.code=fr-FR
 language=Français
-//TODO Translate [Reference] 'You successfully learnt the recipe for a {0-recipe}!'
-switch.hintText.recipeLearnt=
-//TODO Translate [Reference] 'Resolution'
-switch.options.gameplay.ui.FullScreenResolution=
-//TODO Translate [Reference] 'UI Scale'
-switch.options.gameplay.ui.ManualUIScale=
-//TODO Translate [Reference] 'Ambience'
-switch.options.general.audio.ambience=
-//TODO Translate [Reference] 'Master'
-switch.options.general.audio.master=
-//TODO Translate [Reference] 'Music'
-switch.options.general.audio.music=
-//TODO Translate [Reference] 'Sound'
-switch.options.general.audio.sound=
-//TODO Translate [Reference] 'Use ^b:Interact; to talk to her.'
-switch.staxel.achievement.TalkFarmFan.description=
-//TODO Translate [Reference] 'Use ^b:Interact; to talk to her'
-switch.staxel.achievements.talkFarmFanOverlay=
-//TODO Translate [Reference] 'Items on shelves can be bought for the price hovering above them, just press ^b:DockTake; to buy one.'
-switch.staxel.onScreenGuide.BuyingAndSelling.1=
-//TODO Translate [Reference] '^c:1486b0;Sell boxes^c:pop; can be found around ^c:1486b0;merchants^c:pop;. Simply put an item in one to get a sell price, then press ^b:Interact; on the box to sell it for that price.'
-switch.staxel.onScreenGuide.BuyingAndSelling.2=
-//TODO Translate [Reference] 'Simply press ^b:Interact; on the catalogue to open the ordering UI.'
-switch.staxel.onScreenGuide.Catalogue.2=
-//TODO Translate [Reference] 'To sell items, simply slot them into the empty spaces in the shipping station with ^b:DockPut;. Your petals will be delivered in the big crate the next day.'
-switch.staxel.onScreenGuide.Catalogue.4=
-//TODO Translate [Reference] 'To catch a bug, simply swing your ^c:1486b0;net^c:pop; with ^b:Use; while aiming at one.'
-switch.staxel.onScreenGuide.CatchingBugs.2=
-//TODO Translate [Reference] 'To begin a ^c:1486b0;recipe^c:pop;, put the required number of items in the slots on the station with ^b:DockPut;.'
-switch.staxel.onScreenGuide.Cooking.3=
-//TODO Translate [Reference] 'The station will show you the outcome of the items you’ve placed before you craft it. Simply use ^b:Interact; to start the process.'
-switch.staxel.onScreenGuide.Cooking.4=
-//TODO Translate [Reference] 'When it’s finished, the result will be placed on the station, use ^b:DockTake; to pick it up.'
-switch.staxel.onScreenGuide.Cooking.5=
-//TODO Translate [Reference] 'Use the pin icon or ^b:MenuExtraAction1; on an entry to pin a step-by-step guide to cooking it on your screen.'
-switch.staxel.onScreenGuide.Cooking.7=
-//TODO Translate [Reference] 'Be sure to pet and feed them every day though, keep their ^c:1486b0;trough^c:pop; filled and they’ll eat from it. You can pet or feed them directly with ^b:Interact;.'
-switch.staxel.onScreenGuide.CowCare.2=
-//TODO Translate [Reference] 'If you get a ^c:1486b0;Milker^c:pop;, your cows will give you milk every day so long as they’re healthy. Simply press ^b:Use; with the Milker in hand to get ^c:1486b0;milk^c:pop;.'
-switch.staxel.onScreenGuide.CowCare.3=
-//TODO Translate [Reference] 'To begin a ^c:1486b0;blueprint^c:pop;, put the required number of items in the slots on the station using ^b:DockPut;.'
-switch.staxel.onScreenGuide.Crafting.3=
-//TODO Translate [Reference] 'The station will show you the outcome of the items you’ve placed before you craft it. Press ^b:Interact; to start the process.'
-switch.staxel.onScreenGuide.Crafting.4=
-//TODO Translate [Reference] 'When it’s finished, the result will be placed on the station, press ^b:DockTake; to pick it up.'
-switch.staxel.onScreenGuide.Crafting.5=
-//TODO Translate [Reference] 'Use the pin icon or ^b:MenuExtraAction1; on an entry to pin a step-by-step guide to crafting it on your screen.'
-switch.staxel.onScreenGuide.Crafting.7=
-//TODO Translate [Reference] '^c:1486b0;Creative mode^c:pop; offers a lot more freedom to play how you want, without needing to worry about gathering resources or earning Petals.'
-switch.staxel.onScreenGuide.Creative.1=
-//TODO Translate [Reference] 'To fly in creative mode, simply tap ^b:Jump; twice quickly, and do the same to stop flying. To move up and down while flying, use ^b:Jump; and ^b:FlyDown;.'
-switch.staxel.onScreenGuide.Creative.2=
-//TODO Translate [Reference] 'You can also pick a copy of any tile from the world while in creative, without breaking it. Simply aim at the tile and press ^b:CreativePick;.'
-switch.staxel.onScreenGuide.Creative.5=
-//TODO Translate [Reference] 'Press ^b:ToggleMap; to enter and exit map mode.'
-switch.staxel.onScreenGuide.GettingStarted.1=
-//TODO Translate [Reference] 'You can toggle sprint by pressing ^b:Sprint; or double tapping forward quickly.'
-switch.staxel.onScreenGuide.GettingStarted.2=
-//TODO Translate [Reference] 'When villagers talk to you during ^c:1486b0;Quests^c:pop;, it's logged in your journal. Press ^b:ShowJournal; to show the Journal.'
-switch.staxel.onScreenGuide.GettingStarted.3=
-//TODO Translate [Reference] 'When a plant is ready to harvest, it will have a green outline when looked at. Press ^b:Interact;, or use a ^c:1486b0;Scythe^c:pop; on it, to harvest.'
-switch.staxel.onScreenGuide.GrowingCrops.4=
-//TODO Translate [Reference] 'To edit structures like these, you'll need to press ^b:Interact; on their ^c:1486b0;Marker^c:pop; and check the ^c:1486b0;Disable Area Protection^c:pop; option.'
-switch.staxel.onScreenGuide.MarkerProtection.4=
-//TODO Translate [Reference] 'Markers will have certain requirements that need to be met in order to be considered “complete”. You can check them by pressing ^b:Interact; on it.'
-switch.staxel.onScreenGuide.Markers.3=
+//[Reference] 'You successfully learnt the recipe for a {0-recipe}!'
+switch.hintText.recipeLearnt=Vous avez appris une nouvelle recette : {0-recipe} !
+//[Reference] 'Resolution'
+switch.options.gameplay.ui.FullScreenResolution=Résolution
+//[Reference] 'UI Scale'
+switch.options.gameplay.ui.ManualUIScale=Taille de l'IU
+//[Reference] 'Ambience'
+switch.options.general.audio.ambience=Ambiance sonore
+//[Reference] 'Master'
+switch.options.general.audio.master=Volume principal
+//[Reference] 'Music'
+switch.options.general.audio.music=Musique
+//[Reference] 'Sound'
+switch.options.general.audio.sound=Son
+//TODO Translate [Reference] 'Mushrooms are a great way to make money. Use ^b:Interact; on them to pick them up.'
+switch.staxel.achievement.Gather10Mushrooms.description=
+//TODO Translate [Reference] 'Shells are a great way to make money. Use ^b:Interact; on them to pick them up.'
+switch.staxel.achievement.Gather10Shells.description=
+//TODO Translate [Reference] 'Mushrooms are a great way to make money. Use ^b:Interact; on them to pick them up.'
+switch.staxel.achievement.Gather100Mushrooms.description=
+//TODO Translate [Reference] 'Shells are a great way to make money. Use ^b:Interact; on them to pick them up.'
+switch.staxel.achievement.Gather100Shells.description=
+//[Reference] 'Use ^b:Interact; to talk to her.'
+switch.staxel.achievement.TalkFarmFan.description=Utilise ^b:Interact; pour lui parler.
+//TODO Translate [Reference] 'Select the pin icon in the recipe menu to track your progress.'
+switch.staxel.achievement.UseRecipeOverlay.description=
+//[Reference] 'Use ^b:Interact; to talk to her'
+switch.staxel.achievements.talkFarmFanOverlay=Utiliser ^b:Interact; pour lui parler
+//TODO Translate [Reference] 'Tip: Hold ^b:DockModifier; to modify the amount of items you place in or take from docks'
+switch.staxel.nightTransition.Line2=
+//TODO Translate [Reference] 'Tip: Use ^b:PlaceRotateLeft; and ^b:PlaceRotateRight; to rotate items or tiles before you release the button to place them.'
+switch.staxel.nightTransition.Line7=
+//TODO Translate [Reference] 'Tip: A table saw will run automatically until it runs out of materials, or you interrupt it.'
+switch.staxel.nightTransition.Line13=
+//[Reference] 'Items on shelves can be bought for the price hovering above them, just press ^b:DockTake; to buy one.'
+switch.staxel.onScreenGuide.BuyingAndSelling.1=Les objets sur les étagères peuvent être achetés en payant le prix affiché. Appuie sur ^b:DockTake; pour acheter un objet.
+//[Reference] '^c:1486b0;Sell boxes^c:pop; can be found around ^c:1486b0;merchants^c:pop;. Simply put an item in one to get a sell price, then press ^b:Interact; on the box to sell it for that price.'
+switch.staxel.onScreenGuide.BuyingAndSelling.2=Des ^c:1486b0;boîtes de vente^c:pop; se trouvent près des ^c:1486b0;marchands^c:pop;. Place un objet dedans pour obtenir un prix de vente, puis appuie sur ^b:Interact; pour vendre l'objet à ce prix.
+//[Reference] 'Simply press ^b:Interact; on the catalogue to open the ordering UI.'
+switch.staxel.onScreenGuide.Catalogue.2=Appuie sur ^b:Interact; dans le catalogue pour ouvrir l'interface de commande.
+//[Reference] 'To sell items, simply slot them into the empty spaces in the shipping station with ^b:DockPut;. Your petals will be delivered in the big crate the next day.'
+switch.staxel.onScreenGuide.Catalogue.4=Pour vendre des objets, place-les dans un emplacement vide du poste de livraison en appuyant sur ^b:DockPut;. Tes pétales seront livrés dans la grande caisse le jour suivant.
+//[Reference] 'To catch a bug, simply swing your ^c:1486b0;net^c:pop; with ^b:Use; while aiming at one.'
+switch.staxel.onScreenGuide.CatchingBugs.2=Pour attraper un insecte, essaye d'en viser un et appuie sur ^b:Use; pour utiliser ton ^c:1486b0;filet à papillon^c:pop;.
+//[Reference] 'To begin a ^c:1486b0;recipe^c:pop;, put the required number of items in the slots on the station with ^b:DockPut;.'
+switch.staxel.onScreenGuide.Cooking.3=Pour commencer une ^c:1486b0;recette^c:pop;, appuie sur ^b:DockPut; pour placer le nombre d'objets requis dans les emplacements du poste.
+//[Reference] 'The station will show you the outcome of the items you’ve placed before you craft it. Simply use ^b:Interact; to start the process.'
+switch.staxel.onScreenGuide.Cooking.4=Le poste te montrera un aperçu du résultat. Appuie sur ^b:Interact; pour lancer le processus.
+//[Reference] 'When it’s finished, the result will be placed on the station, use ^b:DockTake; to pick it up.'
+switch.staxel.onScreenGuide.Cooking.5=Lorsque c'est terminé, le résultat sera placé sur le poste. Appuie sur ^b:DockTake; pour le prendre.
+//[Reference] 'Use the pin icon or ^b:MenuExtraAction1; on an entry to pin a step-by-step guide to cooking it on your screen.'
+switch.staxel.onScreenGuide.Cooking.7=Sers-toi de l'icône en forme d'épingle ou appuie sur ^b:MenuExtraAction1; sur un élément afin d'épingler sur l'écran un guide pas-à-pas pour le cuisiner.
+//[Reference] 'Be sure to pet and feed them every day though, keep their ^c:1486b0;trough^c:pop; filled and they’ll eat from it. You can pet or feed them directly with ^b:Interact;.'
+switch.staxel.onScreenGuide.CowCare.2=N'oublie pas de les caresser et de les nourrir tous les jours et remplis bien leur ^c:1486b0;mangeoire^c:pop; pour qu'elles n'aient pas faim. Appuie sur ^b:Interact; pour les caresser ou les nourrir.
+//[Reference] 'If you get a ^c:1486b0;Milker^c:pop;, your cows will give you milk every day so long as they’re healthy. Simply press ^b:Use; with the Milker in hand to get ^c:1486b0;milk^c:pop;.'
+switch.staxel.onScreenGuide.CowCare.3=Si tu obtiens une ^c:1486b0;trayeuse^c:pop;, tes vaches te donneront du lait tous les jours tant qu'elles sont en bonne santé. Appuie sur ^b:Use; avec la trayeuse en main pour obtenir du ^c:1486b0;lait^c:pop;.
+//[Reference] 'To begin a ^c:1486b0;blueprint^c:pop;, put the required number of items in the slots on the station using ^b:DockPut;.'
+switch.staxel.onScreenGuide.Crafting.3=Pour commencer un ^c:1486b0;plan^c:pop;, appuie sur ^b:DockPut; pour placer le nombre d'objets requis dans les emplacements du poste.
+//[Reference] 'The station will show you the outcome of the items you’ve placed before you craft it. Press ^b:Interact; to start the process.'
+switch.staxel.onScreenGuide.Crafting.4=Le poste te montrera un aperçu du résultat. Appuie sur ^b:Interact; pour lancer le processus.
+//[Reference] 'When it’s finished, the result will be placed on the station, press ^b:DockTake; to pick it up.'
+switch.staxel.onScreenGuide.Crafting.5=Lorsque c'est terminé, le résultat sera placé sur le poste. Appuie sur ^b:DockTake; pour le prendre.
+//[Reference] 'Use the pin icon or ^b:MenuExtraAction1; on an entry to pin a step-by-step guide to crafting it on your screen.'
+switch.staxel.onScreenGuide.Crafting.7=Sers-toi de l'icône en forme d'épingle ou appuie sur ^b:MenuExtraAction1; sur un élément afin d'épingler sur l'écran un guide pas-à-pas pour le fabriquer.
+//[Reference] '^c:1486b0;Creative mode^c:pop; offers a lot more freedom to play how you want, without needing to worry about gathering resources or earning Petals.'
+switch.staxel.onScreenGuide.Creative.1=Le ^c:1486b0;mode Créatif^c:pop; t'offre une grande liberté pour jouer comme tu l'entends sans avoir à te soucier de récolter des ressources ou de gagner des pétales.
+//[Reference] 'To fly in creative mode, simply tap ^b:Jump; twice quickly, and do the same to stop flying. To move up and down while flying, use ^b:Jump; and ^b:FlyDown;.'
+switch.staxel.onScreenGuide.Creative.2=En mode Créatif, appuie deux fois sur ^b:Jump; pour voler et répète l'action pour arrêter de voler. Pour augmenter ou baisser ton altitude en vol, utilise ^b:Jump; et ^b:FlyDown;.
+//[Reference] 'You can also pick a copy of any tile from the world while in creative, without breaking it. Simply aim at the tile and press ^b:CreativePick;.'
+switch.staxel.onScreenGuide.Creative.5=En mode Créatif, tu peux aussi obtenir une copie de n'importe quel carreau du décor sans avoir à le casser. Vise simplement le carreau qui t'intéresse et appuie sur ^b:CreativePick;.
+//[Reference] 'Press ^b:ToggleMap; to enter and exit map mode.'
+switch.staxel.onScreenGuide.GettingStarted.1=Appuie sur ^b:ToggleMap; pour ouvrir et quitter le mode Carte.
+//[Reference] 'You can toggle sprint by pressing ^b:Sprint; or double tapping forward quickly.'
+switch.staxel.onScreenGuide.GettingStarted.2=Tu peux activer ou désactiver la course en appuyant sur ^b:Sprint; ou en appuyant deux fois sur la commande pour avancer.
+//[Reference] 'When villagers talk to you during ^c:1486b0;Quests^c:pop;, it's logged in your journal. Press ^b:ShowJournal; to show the Journal.'
+switch.staxel.onScreenGuide.GettingStarted.3=Quand les villageois te parlent durant les ^c:1486b0;quêtes^c:pop;, leur dialogue est noté dans ton journal. Appuie sur ^b:ShowJournal; pour l'ouvrir.
+//[Reference] 'When a plant is ready to harvest, it will have a green outline when looked at. Press ^b:Interact;, or use a ^c:1486b0;Scythe^c:pop; on it, to harvest.'
+switch.staxel.onScreenGuide.GrowingCrops.4=Quand une plante est prête à être récoltée, elle est entourée d'un contour vert quand tu l'inspectes. Appuie sur ^b:Interact; ou utilise une ^c:1486b0;faux^c:pop; pour la récolter.
+//[Reference] 'To edit structures like these, you'll need to press ^b:Interact; on their ^c:1486b0;Marker^c:pop; and check the ^c:1486b0;Disable Area Protection^c:pop; option.'
+switch.staxel.onScreenGuide.MarkerProtection.4=Pour pouvoir modifier ces structures, appuie sur ^b:Interact; sur leur ^c:1486b0;repère^c:pop; et active l'option ^c:1486b0;Désactiver la protection de zone^c:pop;.
+//[Reference] 'Markers will have certain requirements that need to be met in order to be considered “complete”. You can check them by pressing ^b:Interact; on it.'
+switch.staxel.onScreenGuide.Markers.3=Certaines conditions doivent être remplies pour qu'un repère soit considéré comme « terminé ». Tu peux les consulter en appuyant sur ^b:Interact;.
+//TODO Translate [Reference] 'You just need to place the item on the sell spot and press ^b:Interact; on it.'
+switch.staxel.village.dialogue.Tutorial.line:10003530=
