@@ -55,7 +55,7 @@ nexel.translation.tile.Close=Fermer
 //[Reference] 'Locked'
 nexel.translation.tile.Locked=Verrouillé
 //[Reference] 'Open'
-nexel.translation.tile.Open=Ouvert
+nexel.translation.tile.Open=Ouvrir
 //[Reference] 'Pick Up'
 nexel.translation.tile.Pick=Ramasser
 //[Reference] 'Use'
@@ -238,7 +238,7 @@ options.gameplay.ui.SafetyMargin=Marge extérieure de l'IU
 options.general.audio.ui=Menus
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Rumble Strength'
-options.general.RumbleStrength=Intensité des vibrations de la manette
+options.general.RumbleStrength=Intensité des vibrations
 //[Reference] 'Any Group'
 recipeBook.grouping.NoGrouping=Tous les groupes
 //[Reference] 'Accessory'
@@ -356,7 +356,7 @@ staxel.category.robot=Robot
 //[Reference] 'Sandals'
 staxel.category.sandals=Sandales
 //[Reference] 'Sapper'
-staxel.category.sapper=Sapeur
+staxel.category.sapper=Zapeur
 //[Reference] 'Screen'
 staxel.category.screen=Écran
 // Shipping can also be named "échange" lique for the plateform shipping who's have to be translate as "plateforme d'échange"
@@ -442,6 +442,7 @@ staxel.commands.addStatusEffect.Success=Ajout de l'altération '{0-effect}' réu
 staxel.commands.camera.Add.Success=Création d'un nouveau nœud réussie : Position : {0-position}, Titre : {1-heading}, Temps : {2-time}, Interpolation : {3-tween}
 //[Reference] 'Successfully created a camera path. The starting node is: Position: {0-position}, Heading: {1-heading}, Time: {2-time}, Tween: {3-tween}'
 staxel.commands.camera.Create.Success=Création d'un chemin de caméra réussie. Le nœud de départ est : Position : {0-position}, Titre : {1-heading}, Temps : {2-time}, Interpolation : {3-tween}
+//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'No file with name {0-file}. Looked in directory: {1-directory}'
 staxel.commands.camera.Load.FileMissing=Aucun fichier {0-file} trouvé. Recherche effectuée dans le répertoire : {1-directory}.
 //[Reference] 'Not enough parameters, needs parameters: 'loadFromWorld', 'saveName'.'
@@ -834,7 +835,7 @@ staxel.font.MyFirstCrush=
 //TODO Translate [Reference] 'Copyrighted by Vanessa Bay.\n\nSee http://bythebutterfly.com/faq.php for more information.'
 staxel.font.MyFirstCrush.description=
 //[Reference] 'Camera Mode'
-staxel.gameButton.CameraMode=Mode de la caméra
+staxel.gameButton.CameraMode=Mode caméra
 //[Reference] 'Hide Player Model'
 staxel.gameButton.CameraModePlayerOnly=Masquer le modèle de joueur
 //[Reference] 'Pick Block'
@@ -1147,7 +1148,7 @@ staxel.notification.magicTeleport.ArcadeMachineFailed=Aucun jeu ne semble être 
 staxel.notification.magicTeleport.CantTalkToVillager=Tu ne peux pas parler aux villageois durant une téléportation.
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Given entity does not have a connected player attached to them. Are we sure we are teleporting a player?'
-staxel.notification.magicTeleport.FailedToFindConnectionForPlayer=Connexion au joueur actuel introuvable.
+staxel.notification.magicTeleport.FailedToFindConnectionForPlayer=L'entité désignée n'a pas de joueur connecté qui lui est associée. Vérifie qu'il s'agit bien d'un joueur.
 //[Reference] 'Can't teleport right now, someone is stopping you.'
 staxel.notification.magicTeleport.RequiresGlobal=Impossible de te téléporter maintenant, quelqu'un t'en empêche.
 //[Reference] 'You can't initiate a teleport while one is already active.'

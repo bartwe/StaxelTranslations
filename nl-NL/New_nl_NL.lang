@@ -125,7 +125,7 @@ nexel.ui.NothingToSee=Hier is niets te zien.
 nexel.ui.option.base.ControllerLookSpeed=Kijksnelheid controller
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Changes the look sensitivity of the Right Stick in-game.'
-nexel.ui.option.base.ControllerLookSpeedToolTip=Past de kijkgevoeligheid in het spel aan van de stick van de rechtercontroller.
+nexel.ui.option.base.ControllerLookSpeedToolTip=Past de kijkgevoeligheid in het spel aan van de R-stick.
 //[Reference] 'Fullscreen'
 nexel.ui.option.base.Fullscreen=Volledig scherm
 //[Reference] 'Toggles Fullscreen'
@@ -357,7 +357,7 @@ staxel.category.robot=Robot
 //[Reference] 'Sandals'
 staxel.category.sandals=Sandalen
 //[Reference] 'Sapper'
-staxel.category.sapper=Sapmachine
+staxel.category.sapper=Zapper
 //[Reference] 'Screen'
 staxel.category.screen=Scherm
 //[Reference] 'Shirt'
@@ -442,6 +442,7 @@ staxel.commands.addStatusEffect.Success=Statuseffect '{0-effect}' toegevoegd
 staxel.commands.camera.Add.Success=Nieuwe node gemaakt: positie: {0-position}, richting: {1-heading}, tijd: {2-time}, tussen: {3-tween}
 //[Reference] 'Successfully created a camera path. The starting node is: Position: {0-position}, Heading: {1-heading}, Time: {2-time}, Tween: {3-tween}'
 staxel.commands.camera.Create.Success=Camerapad gemaakt. De beginnode is: positie: {0-position}, richting: {1-heading}, tijd: {2-time}, tussen: {3-tween}
+//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'No file with name {0-file}. Looked in directory: {1-directory}'
 staxel.commands.camera.Load.FileMissing=Geen bestand met de naam {0-file}. Gezocht in map: {1-directory}
 //[Reference] 'Not enough parameters, needs parameters: 'loadFromWorld', 'saveName'.'
@@ -772,7 +773,7 @@ staxel.controlHints.section.Inventory=Inventaris
 //[Reference] 'Menus'
 staxel.controlHints.section.Menus=Menu's
 //[Reference] 'in {0-growTime} days during Doesn't grow in any seasons. Please report this as a bug.'
-staxel.description.GrowTimeDays.0=gedurende {0-growTime} dagen tijdens Groeit niet in een seizoen. Rapporteer dit als bug.
+staxel.description.GrowTimeDays.0=Groeit niet in een seizoen. Rapporteer dit als bug.
 //[Reference] 'in {0-growTime} days during {1-season}'
 staxel.description.GrowTimeDays.1=gedurende {0-growTime} in de {1-season}
 //[Reference] 'in {0-growTime} days during {1-season} and {2-season}'
@@ -784,7 +785,7 @@ staxel.description.GrowTimeDays.4=gedurende {0-growTime} in alle seizoenen
 //[Reference] 'in {0-growTimeMin} to {1-growTimeMax} days'
 staxel.description.GrowTimeDaysRange=gedurende {0-growTimeMin} tot {1-growTimeMax} dagen
 //[Reference] 'in {0-growTimeMin} to {1-growTimeMax} days during Doesn't grow in any seasons. Please report this as a bug.'
-staxel.description.GrowTimeDaysRange.0=gedurende {0-growTimeMin} tot {1-growTimeMax} dagen tijdens Groeit niet in een seizoen. Rapporteer dit als bug.
+staxel.description.GrowTimeDaysRange.0=Groeit niet in een seizoen. Rapporteer dit als bug.
 //[Reference] 'in {0-growTimeMin} to {1-growTimeMax} days during {2-season}'
 staxel.description.GrowTimeDaysRange.1=gedurende {0-growTimeMin} tot {1-growTimeMax} dagen in de {2-season}
 //[Reference] 'in {0-growTimeMin} to {1-growTimeMax} days during {2-season} and {3-season}'
@@ -1147,7 +1148,7 @@ staxel.notification.magicTeleport.ArcadeMachineFailed=Er lijken geen spellen ge√
 staxel.notification.magicTeleport.CantTalkToVillager=Je kunt niet met dorpelingen praten zolang er een teleportatie actief is.
 //[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Given entity does not have a connected player attached to them. Are we sure we are teleporting a player?'
-staxel.notification.magicTeleport.FailedToFindConnectionForPlayer=Kan geen verbinding vinden met huidige speler.
+staxel.notification.magicTeleport.FailedToFindConnectionForPlayer=Er is geen speler gekoppeld aan deze entiteit. Weten we zeker dat we een speler aan het teleporteren zijn?
 //[Reference] 'Can't teleport right now, someone is stopping you.'
 staxel.notification.magicTeleport.RequiresGlobal=Je kunt nu niet teleporteren, iemand houdt je tegen.
 //[Reference] 'You can't initiate a teleport while one is already active.'
@@ -1393,7 +1394,7 @@ staxel.transformation.CantTransform=Nog niet klaar om te transformeren!!
 //[Reference] 'You are not transformed!'
 staxel.transformation.NotTransformed=Je bent niet getransformeerd!
 //[Reference] 'Hold ^b:Use; or ^b:Interact; to keep reeling...'
-staxel.ui.fishing.message.Reel=Houd ^b:Use; of ^b:Interact; ingedrukt om binnen te halen...
+staxel.ui.fishing.message.Reel=Hou ^b:Use; of ^b:Interact; ingedrukt om binnen te halen...
 //[Reference] 'Closing the game is taking some time. Please wait.'
 staxel.ui.Shutdown=Het kost wat tijd om het spel te sluiten. Even geduld.
 //[Reference] '{0-name} has left the island.'
