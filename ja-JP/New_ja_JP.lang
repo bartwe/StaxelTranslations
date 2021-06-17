@@ -30,9 +30,8 @@ controlHint.verb.Trash=アイテムを捨てる
 controlHint.verb.Wave=手を振る：
 //[Reference] 'Community Testers'
 credits.communityTesters=コミュニティテスター
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Staxel has encountered a critical error and needs to be restarted.\n\nDetails...'
-error.preamble=Nexel に致命的なエラーが発生したため、シャットダウンします。\n\n詳細
+error.preamble=Staxel に致命的なエラーが発生したため、シャットダウンします。\n\n詳細…
 //[Reference] 'You have moved too far away from where you started fishing.'
 fishing.movedTooFar=魚釣りを始めた場所から遠ざかりすぎてしまいました。
 //[Reference] 'It's not looking healthy. It can't grow during {0-season}.'
@@ -43,7 +42,6 @@ nexel.commands.noClip.Success=NoClip を {0-bool} に設定。
 nexel.commands.teleportToIsland.FailedToFind=コード「{0-input}」の島が見つかりませんでした
 //[Reference] 'Not enough parameters, needs parameter: 'island'. Optionally includes: 'x', 'y', 'z'.'
 nexel.commands.teleportToIsland.NotEnoughParameters=パラメータが足りません。パラメータ 'island' が必要です。オプションとして 'x', 'y', 'z' を含めることもできます。
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'You must finish loading into an island before you can teleport again.'
 nexel.commands.teleportToIsland.NotReady=テレポートを再試行する前に、クライアントが島を読み込む必要があります。
 //[Reference] 'Teleported player to '{0-island}'.'
@@ -120,10 +118,8 @@ nexel.ui.mainMenu.Options=設定
 nexel.ui.mainMenu.Singleplayer=シングルプレイヤー
 //[Reference] 'Nothing to see here.'
 nexel.ui.NothingToSee=ここには何もありません。
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Look Speed'
-nexel.ui.option.base.ControllerLookSpeed=視点移動感度
-//[Validate] Delete this comment if or when the translation is accurate.
+nexel.ui.option.base.ControllerLookSpeed=視点移動速度
 //[Reference] 'Changes the look sensitivity of the Right Stick in-game.'
 nexel.ui.option.base.ControllerLookSpeedToolTip=ゲーム内におけるRスティックの感度を調整します。
 //[Reference] 'Fullscreen'
@@ -236,7 +232,6 @@ options.gameplay.ui.NameTagScale=ネームタグ倍率
 options.gameplay.ui.SafetyMargin=UI外縁
 //[Reference] 'Menus'
 options.general.audio.ui=メニュー
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Rumble Strength'
 options.general.RumbleStrength=振動強度
 //[Reference] 'Any Group'
@@ -464,9 +459,9 @@ staxel.commands.camera.Save.Success={0-fileName} への保存が完了しまし�
 //[Reference] 'Can't save to a folder as this isn't a desktop. Please use world mode.'
 staxel.commands.camera.SavingToWorld=PC版ではないため、フォルダに保存できません。ワールドモードをご使用ください。
 //TODO Translate [Reference] 'There were {0-translationCount} lines with bad words. See log for more details.'
-staxel.commands.checkBadWords.Failure=
+staxel.commands.checkBadWords.Failure=禁止用語を含む行が {0-translationCount} 行ありました。詳しくはログをご確認ください。
 //TODO Translate [Reference] 'There are no lines that have bad words.'
-staxel.commands.checkBadWords.Success=
+staxel.commands.checkBadWords.Success=禁止用語を含む行はありません。
 //[Reference] 'Not enough parameters. Needs parameter: 'itemCode'.'
 staxel.commands.checkCollected.NotEnoughParameters=パラメータが足りません。パラメータ 'itemCode' が必要です。
 //[Reference] 'Item {0-itemCode} collection status is: '{1-status}'.'
@@ -488,9 +483,9 @@ staxel.commands.doNotification.NotEnoughParameters=パラメータが足りま�
 //[Reference] 'Showing notification '{0-code}'.'
 staxel.commands.doNotification.Success=通知 '{0-code}' を表示中。
 //TODO Translate [Reference] 'Not enough parameters. Needs parameter: 'title', optionally 'body'.'
-staxel.commands.doPopup.NotEnoughParameters=
+staxel.commands.doPopup.NotEnoughParameters=パラメータが足りません。パラメータ 'title' が必要です。オプションとして 'body' を含めることもできます。
 //TODO Translate [Reference] 'Showing popup '{0-code}'.'
-staxel.commands.doPopup.Success=
+staxel.commands.doPopup.Success=ポップアップ '{0-code}' を表示中。
 //[Reference] 'Set Cheats to {0-bool}.'
 staxel.commands.enableCheats.Success=チートを {0-bool} に設定。
 //[Reference] 'Requesting connection does not have an entity that has EntityPlayer'
@@ -516,7 +511,7 @@ staxel.commands.generic.FailedToFindModifier=コード '{0-input}' に該当す�
 //[Reference] 'Failed to find an villager with the code: '{0-input}'. Did you mean: '{1-suggestion}.''
 staxel.commands.generic.FailedToFindVillager=コード '{0-input}' に該当する村人が見つかりませんでした。もしかして: '{1-suggestion}'
 //TODO Translate [Reference] 'Failed to find an villager with the code: '{0-input}'.'
-staxel.commands.generic.FailedToFindVillagerNoSuggestion=
+staxel.commands.generic.FailedToFindVillagerNoSuggestion=コード '{0-input}' に該当する村人が見つかりませんでした。
 //[Reference] 'Not enough parameters.'
 staxel.commands.generic.NotEnoughParameters=パラメータが足りません。
 //[Reference] 'Success.'
@@ -553,7 +548,6 @@ staxel.commands.learnRecipe.Success=レシピを習得しました: {0-recipeCod
 staxel.commands.ping.Success=Pong（サーバー）
 //[Reference] 'Pong. (Client)'
 staxel.commands.pingClient.Success=Pong（クライアント）
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Changed the number of registered sales for {0-stack} from {1-before} to {2-after}.'
 staxel.commands.registerSale.Success={0-stack} の販売数の記録を {1-before} から {2-after} へ変更しました。
 //[Reference] 'Unknown dialogue command '{0-code}'.'
@@ -610,7 +604,6 @@ staxel.commands.setConstant.Success=定数 '{0-constantName}' を '{1-input}' �
 staxel.commands.setDialogue.NotEnoughParameters=パラメータが足りません。パラメータ 'globalDialogueName', 'value' または 'villagerVariableName', 'villagerCode', 'value' が必要です。
 //[Reference] 'Not enough parameters for changing villager parameter. Needs parameter: 'villagerVariableName', 'villagerCode', 'value'.'
 staxel.commands.setDialogue.NotEnoughParametersVillager=パラメータが足りないため、村人のパラメータを変更できません。パラメータ 'villagerVariableName', 'villagerCode', 'value' が必要です。
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Successfully changed the value '{0-input}' from '{1-prevValue}' to '{2-newValue}''
 staxel.commands.setDialogue.Success=値 '{0-input}' を '{1-prevValue}' から '{2-newValue}' へ正常に変更しました。
 //[Reference] 'The first parameter must be a dialogue variable (i.e. starts with $). Was: '{0-input}''
@@ -637,7 +630,6 @@ staxel.commands.spawnStarBits.Success=スタービットを{0-count}個スポー
 staxel.commands.spawnVillager.NotEnoughParameters=パラメータが足りません。パラメータ 'villagerCode' が必要です。オプションとして 'bypassRestrictions' を含めることもできます。
 //[Reference] 'Spawned the villager '{0-villagerCode}''
 staxel.commands.spawnVillager.Success=村人 '{0-villagerCode}' をスポーンしました。
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Requested villager already exists on this island.'
 staxel.commands.spawnVillager.VillagerAlreadyExists=リクエストされた村人は既にこの島にいます。
 //[Reference] 'Invalid structure code.'
@@ -647,9 +639,9 @@ staxel.commands.swapOverlay.NotEnoughParameters=パラメータが足りませ�
 //[Reference] 'Showing overlay '{0-code}'.'
 staxel.commands.swapOverlay.Success=オーバーレイ '{0-code}' を表示中。
 //TODO Translate [Reference] 'Not enough parameters. Needs parameter: 'villagerCode'. Optionally includes: 'x', 'y', 'z''
-staxel.commands.teleportVillager.NotEnoughParameters=
+staxel.commands.teleportVillager.NotEnoughParameters=パラメータが足りません。パラメータ 'villagerCode' が必要です。オプションとして 'x', 'y', 'z' を含めることもできます。
 //TODO Translate [Reference] 'Teleported the villager to '{0-villagerCode}''
-staxel.commands.teleportVillager.Success=
+staxel.commands.teleportVillager.Success=村人を '{0-villagerCode}' にテレポートしました
 //[Reference] 'Failed to read tile at position {0-position}.'
 staxel.commands.tileAt.Fail=位置 {0-position} のタイルを読み取れませんでした。
 //[Reference] 'Not looking at a tile.'
@@ -689,7 +681,7 @@ staxel.connection.ProtocolError=接続できませんでした。\n\nホスト�
 //[Reference] 'Lost connection.\n\nThe host shut down the game.'
 staxel.connection.ServerShutdown=接続が切断されました。\n\nホストがゲームをシャットダウンしました。
 //TODO Translate [Reference] 'Lost connection.\n\nThe game encountered an error and had to stop.'
-staxel.connection.ServerShutdownError=
+staxel.connection.ServerShutdownError=接続が失われました。\n\nゲームにエラーが発生したため、強制終了しました。
 //[Reference] 'Could not connect.\n\nThe game you tried to join is already full.'
 staxel.connection.TooManyPlayers=接続できませんでした。\n\n参加しようとしたゲームは満員です。
 //[Reference] 'Could not connect.\n\nYour game version is not the same as the host.'
@@ -739,9 +731,9 @@ staxel.contextButton.listPage.Next=次のリストページ
 //[Reference] 'Previous List Page'
 staxel.contextButton.listPage.Prev=前のリストページ
 //TODO Translate [Reference] 'Next Tip'
-staxel.contextButton.nightTransition.NextTip=
+staxel.contextButton.nightTransition.NextTip=次のヒント
 //TODO Translate [Reference] 'Previous Tip'
-staxel.contextButton.nightTransition.PrevTip=
+staxel.contextButton.nightTransition.PrevTip=前のヒント
 //[Reference] 'Next Page'
 staxel.contextButton.page.Next=次のページ
 //[Reference] 'Previous Page'
@@ -823,17 +815,17 @@ staxel.error.storage.Unknown=不明なセーブエラーです。
 //[Reference] 'Rooster'
 staxel.farmAnimal.Rooster=オンドリ
 //TODO Translate [Reference] 'Font: Fira Sans'
-staxel.font.FiraSans=
+staxel.font.FiraSans=フォント：Fira Sans
 //TODO Translate [Reference] 'Copyright (c) 2012-2013, The Mozilla Corporation and Telefonica S.A.\nLicensed under SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007\nSee http://scripts.sil.org/OFL for more information.'
-staxel.font.FiraSans.description=
+staxel.font.FiraSans.description=Copyright (c) 2012-2013, The Mozilla Corporation & Telefonica S.A.\nSIL オープンフォントライセンス（SIL OPEN FONT LICENSE）Ver. 1.1（2007 年 2 月 26 日）下でライセンス付与されています。\n詳細：http://scripts.sil.org/OFL
 //TODO Translate [Reference] 'Font: Mamelon (マメロン Hi-Regular)'
-staxel.font.Mamelon=
+staxel.font.Mamelon=フォント：マメロン Hi-Regular
 //TODO Translate [Reference] 'Copyright by Moji-Waku.\n\nSee https://moji-waku.com/mj_work_license/ for more information.'
-staxel.font.Mamelon.description=
+staxel.font.Mamelon.description=Copyright: Moji-Waku.\n\n詳細：https://moji-waku.com/mj_work_license/
 //TODO Translate [Reference] 'Font: My First Crush'
-staxel.font.MyFirstCrush=
+staxel.font.MyFirstCrush=フォント：My First Crush
 //TODO Translate [Reference] 'Copyrighted by Vanessa Bay.\n\nSee http://bythebutterfly.com/faq.php for more information.'
-staxel.font.MyFirstCrush.description=
+staxel.font.MyFirstCrush.description=Copyright: Vanessa Bay.\n\n詳細：http://bythebutterfly.com/faq.php
 //[Reference] 'Camera Mode'
 staxel.gameButton.CameraMode=カメラモード
 //[Reference] 'Hide Player Model'
@@ -854,9 +846,8 @@ staxel.gameButton.DockRotateRight=アイテムを右に回転
 staxel.gameButton.DockTake=アイテムを取る
 //[Reference] 'Drop Item'
 staxel.gameButton.DropHeldItem=アイテムをドロップ
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Drop All (+ ^b:DropHeldItem;)'
-staxel.gameButton.FlyDown=全てドロップ
+staxel.gameButton.FlyDown=全てドロップ（+ ^b:DropHeldItem;）
 //[Reference] 'Interact'
 staxel.gameButton.Interact=インタラクト
 //[Reference] 'Drop Held Stack'
@@ -975,7 +966,6 @@ staxel.item.magicWater.FullyGrown=このタイルは既に育ちきっていま�
 staxel.item.magicWater.NotAPlant=このタイルは植物ではありません。
 //[Reference] 'Plant is too healthy. Manure is not needed.'
 staxel.item.magicWater.NotWilted=植物はとても元気です。肥料は必要ありません。
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Not looking at an apiary.'
 staxel.item.smoker.NotApiary=養蜂場を見ていません。
 //[Reference] 'Renamer'
@@ -1069,7 +1059,7 @@ staxel.menu.controller.RequestReconnect=コントローラーを再接続して�
 //[Reference] 'Getting profile...'
 staxel.menu.GettingProfile=プロフィールの取得中...
 //TODO Translate [Reference] 'Legal Information'
-staxel.menu.LegalInformation=
+staxel.menu.LegalInformation=法的情報
 //[Reference] 'Ok'
 staxel.menu.mail.AcceptError=OK
 //[Reference] 'Couldn't create mail. You entered an invalid petal number.'
@@ -1113,27 +1103,27 @@ staxel.merchant.RequiresGlobal=これを購入するにはアクセス権限が�
 //[Reference] 'Your wallet is too full. Try buying some stuff.'
 staxel.merchant.TooMuchMoney=財布がいっぱいです。何か購入してみましょう。
 //TODO Translate [Reference] '^c:1486b0;{0-playername} has started a teleport to {1-islandName}.^c:pop;'
-staxel.message.InitiatedTeleport=
+staxel.message.InitiatedTeleport=^c:1486b0;{0-playername}が{1-islandName}へのテレポートを開始しました。^c:pop;
 //TODO Translate [Reference] '^c:1486b0;{0-playername} has started a vote to teleport to {1-islandName}.^c:pop;'
-staxel.message.InitiatedVote=
+staxel.message.InitiatedVote=^c:1486b0;{0-playername}が{1-islandName}へのテレポート投票を開始しました。^c:pop;
 //TODO Translate [Reference] '^c:1486b0;{0-username} has changed their name from {1-nameBefore} to {2-nameAfter}.^c:pop;'
-staxel.message.NameChange=
+staxel.message.NameChange=^c:1486b0;{0-username}が名前を{1-nameBefore}から{2-nameAfter}へ変更しました。^c:pop;
 //TODO Translate [Reference] '^c:1486b0;{0-username} has joined for the first time. Say hi!^c:pop;'
-staxel.message.NewPlayerConnected=
+staxel.message.NewPlayerConnected=^c:1486b0;{0-username}が初めて参加しました。あいさつしましょう！^c:pop;
 //TODO Translate [Reference] '^c:1486b0;{0-username} has joined as {1-characterName}. Say hi!^c:pop;'
-staxel.message.PlayerConnected=
+staxel.message.PlayerConnected=^c:1486b0;{0-username}が{1-characterName}として参加しました。あいさつしましょう！^c:pop;
 //TODO Translate [Reference] '^c:1486b0;{0-username} has joined. Say hi!^c:pop;'
-staxel.message.PlayerConnectedNoNickname=
+staxel.message.PlayerConnectedNoNickname=^c:1486b0;{0-username}が参加しました。あいさつしましょう！^c:pop;
 //TODO Translate [Reference] '^c:1486b0;{0-username} has left.^c:pop;'
-staxel.message.PlayerDisconnected=
+staxel.message.PlayerDisconnected=^c:1486b0;{0-username}が立ち去りました。^c:pop;
 //TODO Translate [Reference] '^c:1486b0;{0-playername} has gone to sleep.^c:pop;'
-staxel.message.Sleep=
+staxel.message.Sleep=^c:1486b0;{0-playername}が寝に行きました。^c:pop;
 //TODO Translate [Reference] '^c:1486b0;{0-playername} has voted to not go.^c:pop;'
-staxel.message.VotedAgainst=
+staxel.message.VotedAgainst=^c:1486b0;{0-playername}が「行かない」に投票しました。^c:pop;
 //TODO Translate [Reference] '^c:1486b0;{0-playername} has voted to go.^c:pop;'
-staxel.message.VotedFor=
+staxel.message.VotedFor=^c:1486b0;{0-playername}が「行く」に投票しました。^c:pop;
 //TODO Translate [Reference] '^c:1486b0;{0-playername} is ready to go.^c:pop;'
-staxel.message.VotedReady=
+staxel.message.VotedReady=^c:1486b0;{0-playername}は出発準備ができています。^c:pop;
 //[Reference] '[Missing]'
 staxel.multiplayer.MissingWorldName=[見つかりません]
 //[Reference] 'Cannot join game, it is already full'
@@ -1146,9 +1136,8 @@ staxel.notification.LeaveDock={0-button}を押して終了する
 staxel.notification.magicTeleport.ArcadeMachineFailed=インストールされているゲームがないようです
 //[Reference] 'You can't talk to villagers while a teleport is active.'
 staxel.notification.magicTeleport.CantTalkToVillager=テレポート稼働中は村人に話しかけられません。
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Given entity does not have a connected player attached to them. Are we sure we are teleporting a player?'
-staxel.notification.magicTeleport.FailedToFindConnectionForPlayer=指定されたエンティティには、プレイヤーが接続されていません。プレイヤーがテレポートされたかどうかを確認してください。
+staxel.notification.magicTeleport.FailedToFindConnectionForPlayer=指定されたエンティティには、プレイヤーが接続されていません。テレポート対象がプレイヤーかどうかを確認してください。
 //[Reference] 'Can't teleport right now, someone is stopping you.'
 staxel.notification.magicTeleport.RequiresGlobal=テレポートできません。誰かに止められています。
 //[Reference] 'You can't initiate a teleport while one is already active.'
@@ -1351,7 +1340,6 @@ staxel.structure.island.SurfCottonIsland.offmap=サーフコットン島
 staxel.structure.island.TreetopVillage.offmap=ツリートップ村
 //[Reference] 'Tropical Island'
 staxel.structure.island.TropicalIsland.offmap=南国島
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '[002]–!"#$–&'()*+,-./\n[003]0123456789:;<'
 staxel.switch.CharacterTest=[002]–!"#$–&'()*+,-./\n[003]0123456789:;<=>?\n[004]–ABCDEFGHIJKLMNO\n[005]PQRSTUVWXYZ[–]^_\n[006]`abcdefghijklmno\n[007]pqrstuvwxyz{|}~–\n[00a]–¡¢£¤¥¦§¨©ª«¬–®¯\n[00c]ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏ\n[00d]ÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞß\n[00e]àáâãäåæçèéêëìíîï\n[00f]ðñòóôõö÷øùúûüýþÿ\n[010]ĀāĂăĄąĆć––ĊċČčĎď\n[011]––Ēē––ĖėĘęĚě––Ğğ\n[012]ĠġĢģ––Ħħ––ĪīĬ––į\n[013]İıĲĳ––Ķķ–ĹĺĻļĽľ–\n[014]–ŁłŃńŅņŇň–––––––\n[015]ŐőŒœŔŕ––ŘřŚś––Şş\n[016]Šš––Ťť––––Ūū––Ůů
 //[Reference] '[017]ŰűŲų––––ŸŹźŻżŽž–\n[019]––ƒ–––––––––––––\n[01c]–––––ǅǆ–––––––––\n[01f]––ǲǳ––––––––––––\n[021]––––––––––Țț––––\n[02c]–––––––ˇ––––––––\n[02d]––––––––˘˙–˛˜–––\n[037]––––––––––––––;–\n[038]––––΄΅Ά·ΈΉΊ–Ό–ΎΏ\n[039]ΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟ\n[03a]ΠΡ–ΣΤΥΦΧΨΩΪΫάέήί\n[03b]ΰαβγδεζηθικλμνξο\n[03c]πρςστυφχψωϊϋόύώ–\n[040]–Ё––––––––––––––\n[041]АБВГДЕЖЗИЙКЛМНОП\n[042]РСТУФХЦЧШЩЪЫЬЭЮЯ\n[043]абвгдежзийклмноп\n[044]рстуфхцчшщъыьэюя'
