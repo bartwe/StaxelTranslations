@@ -458,9 +458,9 @@ staxel.commands.camera.Save.NotEnoughParameters=パラメータが足りませ�
 staxel.commands.camera.Save.Success={0-fileName} への保存が完了しました。完全なパス: {1-saveLocation}。
 //[Reference] 'Can't save to a folder as this isn't a desktop. Please use world mode.'
 staxel.commands.camera.SavingToWorld=PC版ではないため、フォルダに保存できません。ワールドモードをご使用ください。
-//TODO Translate [Reference] 'There were {0-translationCount} lines with bad words. See log for more details.'
+//[Reference] 'There were {0-translationCount} lines with bad words. See log for more details.'
 staxel.commands.checkBadWords.Failure=禁止用語を含む行が {0-translationCount} 行ありました。詳しくはログをご確認ください。
-//TODO Translate [Reference] 'There are no lines that have bad words.'
+//[Reference] 'There are no lines that have bad words.'
 staxel.commands.checkBadWords.Success=禁止用語を含む行はありません。
 //[Reference] 'Not enough parameters. Needs parameter: 'itemCode'.'
 staxel.commands.checkCollected.NotEnoughParameters=パラメータが足りません。パラメータ 'itemCode' が必要です。
@@ -482,9 +482,9 @@ staxel.commands.describeItem.Success=プレイヤーが '{0-itemCode}' を持っ
 staxel.commands.doNotification.NotEnoughParameters=パラメータが足りません。パラメータ 'itemCode' が必要です。
 //[Reference] 'Showing notification '{0-code}'.'
 staxel.commands.doNotification.Success=通知 '{0-code}' を表示中。
-//TODO Translate [Reference] 'Not enough parameters. Needs parameter: 'title', optionally 'body'.'
+//[Reference] 'Not enough parameters. Needs parameter: 'title', optionally 'body'.'
 staxel.commands.doPopup.NotEnoughParameters=パラメータが足りません。パラメータ 'title' が必要です。オプションとして 'body' を含めることもできます。
-//TODO Translate [Reference] 'Showing popup '{0-code}'.'
+//[Reference] 'Showing popup '{0-code}'.'
 staxel.commands.doPopup.Success=ポップアップ '{0-code}' を表示中。
 //[Reference] 'Set Cheats to {0-bool}.'
 staxel.commands.enableCheats.Success=チートを {0-bool} に設定。
@@ -510,7 +510,7 @@ staxel.commands.generic.FailedToFindItem=コード '{0-input}' に該当する�
 staxel.commands.generic.FailedToFindModifier=コード '{0-input}' に該当する修飾子が見つかりませんでした。もしかして: '{1-suggestion}'
 //[Reference] 'Failed to find an villager with the code: '{0-input}'. Did you mean: '{1-suggestion}.''
 staxel.commands.generic.FailedToFindVillager=コード '{0-input}' に該当する村人が見つかりませんでした。もしかして: '{1-suggestion}'
-//TODO Translate [Reference] 'Failed to find an villager with the code: '{0-input}'.'
+//[Reference] 'Failed to find an villager with the code: '{0-input}'.'
 staxel.commands.generic.FailedToFindVillagerNoSuggestion=コード '{0-input}' に該当する村人が見つかりませんでした。
 //[Reference] 'Not enough parameters.'
 staxel.commands.generic.NotEnoughParameters=パラメータが足りません。
@@ -638,9 +638,9 @@ staxel.commands.stampStructure.InvalidStructure=建造物コードが無効で�
 staxel.commands.swapOverlay.NotEnoughParameters=パラメータが足りません。パラメータ 'overlayCode' が必要です。オプションとして 'state' を含めることもできます。
 //[Reference] 'Showing overlay '{0-code}'.'
 staxel.commands.swapOverlay.Success=オーバーレイ '{0-code}' を表示中。
-//TODO Translate [Reference] 'Not enough parameters. Needs parameter: 'villagerCode'. Optionally includes: 'x', 'y', 'z''
+//[Reference] 'Not enough parameters. Needs parameter: 'villagerCode'. Optionally includes: 'x', 'y', 'z''
 staxel.commands.teleportVillager.NotEnoughParameters=パラメータが足りません。パラメータ 'villagerCode' が必要です。オプションとして 'x', 'y', 'z' を含めることもできます。
-//TODO Translate [Reference] 'Teleported the villager to '{0-villagerCode}''
+//[Reference] 'Teleported the villager to '{0-villagerCode}''
 staxel.commands.teleportVillager.Success=村人を '{0-villagerCode}' にテレポートしました
 //[Reference] 'Failed to read tile at position {0-position}.'
 staxel.commands.tileAt.Fail=位置 {0-position} のタイルを読み取れませんでした。
@@ -680,7 +680,7 @@ staxel.connection.Kicked=接続が切断されました。\n\nあなたはゲー
 staxel.connection.ProtocolError=接続できませんでした。\n\nホストとの通信中にエラーが発生しました。
 //[Reference] 'Lost connection.\n\nThe host shut down the game.'
 staxel.connection.ServerShutdown=接続が切断されました。\n\nホストがゲームをシャットダウンしました。
-//TODO Translate [Reference] 'Lost connection.\n\nThe game encountered an error and had to stop.'
+//[Reference] 'Lost connection.\n\nThe game encountered an error and had to stop.'
 staxel.connection.ServerShutdownError=接続が失われました。\n\nゲームにエラーが発生したため、強制終了しました。
 //[Reference] 'Could not connect.\n\nThe game you tried to join is already full.'
 staxel.connection.TooManyPlayers=接続できませんでした。\n\n参加しようとしたゲームは満員です。
@@ -730,9 +730,9 @@ staxel.contextButton.invPage.Prev=前のインベントリページ
 staxel.contextButton.listPage.Next=次のリストページ
 //[Reference] 'Previous List Page'
 staxel.contextButton.listPage.Prev=前のリストページ
-//TODO Translate [Reference] 'Next Tip'
+//[Reference] 'Next Tip'
 staxel.contextButton.nightTransition.NextTip=次のヒント
-//TODO Translate [Reference] 'Previous Tip'
+//[Reference] 'Previous Tip'
 staxel.contextButton.nightTransition.PrevTip=前のヒント
 //[Reference] 'Next Page'
 staxel.contextButton.page.Next=次のページ
@@ -814,17 +814,17 @@ staxel.error.storage.NoSpace=空き容量不足のため、1 つ以上のセー�
 staxel.error.storage.Unknown=不明なセーブエラーです。
 //[Reference] 'Rooster'
 staxel.farmAnimal.Rooster=オンドリ
-//TODO Translate [Reference] 'Font: Fira Sans'
+//[Reference] 'Font: Fira Sans'
 staxel.font.FiraSans=フォント：Fira Sans
-//TODO Translate [Reference] 'Copyright (c) 2012-2013, The Mozilla Corporation and Telefonica S.A.\nLicensed under SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007\nSee http://scripts.sil.org/OFL for more information.'
+//[Reference] 'Copyright (c) 2012-2013, The Mozilla Corporation and Telefonica S.A.\nLicensed under SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007\nSee http://scripts.sil.org/OFL for more information.'
 staxel.font.FiraSans.description=Copyright (c) 2012-2013, The Mozilla Corporation & Telefonica S.A.\nSIL オープンフォントライセンス（SIL OPEN FONT LICENSE）Ver. 1.1（2007 年 2 月 26 日）下でライセンス付与されています。\n詳細：http://scripts.sil.org/OFL
-//TODO Translate [Reference] 'Font: Mamelon (マメロン Hi-Regular)'
+//[Reference] 'Font: Mamelon (マメロン Hi-Regular)'
 staxel.font.Mamelon=フォント：マメロン Hi-Regular
-//TODO Translate [Reference] 'Copyright by Moji-Waku.\n\nSee https://moji-waku.com/mj_work_license/ for more information.'
+//[Reference] 'Copyright by Moji-Waku.\n\nSee https://moji-waku.com/mj_work_license/ for more information.'
 staxel.font.Mamelon.description=Copyright: Moji-Waku.\n\n詳細：https://moji-waku.com/mj_work_license/
-//TODO Translate [Reference] 'Font: My First Crush'
+//[Reference] 'Font: My First Crush'
 staxel.font.MyFirstCrush=フォント：My First Crush
-//TODO Translate [Reference] 'Copyrighted by Vanessa Bay.\n\nSee http://bythebutterfly.com/faq.php for more information.'
+//[Reference] 'Copyrighted by Vanessa Bay.\n\nSee http://bythebutterfly.com/faq.php for more information.'
 staxel.font.MyFirstCrush.description=Copyright: Vanessa Bay.\n\n詳細：http://bythebutterfly.com/faq.php
 //[Reference] 'Camera Mode'
 staxel.gameButton.CameraMode=カメラモード
@@ -1058,7 +1058,7 @@ staxel.menu.controller.ReconnectedContinue=^b:MenuMain; を押して続行
 staxel.menu.controller.RequestReconnect=コントローラーを再接続して続行してください
 //[Reference] 'Getting profile...'
 staxel.menu.GettingProfile=プロフィールの取得中...
-//TODO Translate [Reference] 'Legal Information'
+//[Reference] 'Legal Information'
 staxel.menu.LegalInformation=法的情報
 //[Reference] 'Ok'
 staxel.menu.mail.AcceptError=OK
@@ -1102,27 +1102,27 @@ staxel.merchant.NoItemsToSell=販売できるアイテムがありません。
 staxel.merchant.RequiresGlobal=これを購入するにはアクセス権限が必要です！
 //[Reference] 'Your wallet is too full. Try buying some stuff.'
 staxel.merchant.TooMuchMoney=財布がいっぱいです。何か購入してみましょう。
-//TODO Translate [Reference] '^c:1486b0;{0-playername} has started a teleport to {1-islandName}.^c:pop;'
+//[Reference] '^c:1486b0;{0-playername} has started a teleport to {1-islandName}.^c:pop;'
 staxel.message.InitiatedTeleport=^c:1486b0;{0-playername}が{1-islandName}へのテレポートを開始しました。^c:pop;
-//TODO Translate [Reference] '^c:1486b0;{0-playername} has started a vote to teleport to {1-islandName}.^c:pop;'
+//[Reference] '^c:1486b0;{0-playername} has started a vote to teleport to {1-islandName}.^c:pop;'
 staxel.message.InitiatedVote=^c:1486b0;{0-playername}が{1-islandName}へのテレポート投票を開始しました。^c:pop;
-//TODO Translate [Reference] '^c:1486b0;{0-username} has changed their name from {1-nameBefore} to {2-nameAfter}.^c:pop;'
+//[Reference] '^c:1486b0;{0-username} has changed their name from {1-nameBefore} to {2-nameAfter}.^c:pop;'
 staxel.message.NameChange=^c:1486b0;{0-username}が名前を{1-nameBefore}から{2-nameAfter}へ変更しました。^c:pop;
-//TODO Translate [Reference] '^c:1486b0;{0-username} has joined for the first time. Say hi!^c:pop;'
+//[Reference] '^c:1486b0;{0-username} has joined for the first time. Say hi!^c:pop;'
 staxel.message.NewPlayerConnected=^c:1486b0;{0-username}が初めて参加しました。あいさつしましょう！^c:pop;
-//TODO Translate [Reference] '^c:1486b0;{0-username} has joined as {1-characterName}. Say hi!^c:pop;'
+//[Reference] '^c:1486b0;{0-username} has joined as {1-characterName}. Say hi!^c:pop;'
 staxel.message.PlayerConnected=^c:1486b0;{0-username}が{1-characterName}として参加しました。あいさつしましょう！^c:pop;
-//TODO Translate [Reference] '^c:1486b0;{0-username} has joined. Say hi!^c:pop;'
+//[Reference] '^c:1486b0;{0-username} has joined. Say hi!^c:pop;'
 staxel.message.PlayerConnectedNoNickname=^c:1486b0;{0-username}が参加しました。あいさつしましょう！^c:pop;
-//TODO Translate [Reference] '^c:1486b0;{0-username} has left.^c:pop;'
+//[Reference] '^c:1486b0;{0-username} has left.^c:pop;'
 staxel.message.PlayerDisconnected=^c:1486b0;{0-username}が立ち去りました。^c:pop;
-//TODO Translate [Reference] '^c:1486b0;{0-playername} has gone to sleep.^c:pop;'
+//[Reference] '^c:1486b0;{0-playername} has gone to sleep.^c:pop;'
 staxel.message.Sleep=^c:1486b0;{0-playername}が寝に行きました。^c:pop;
-//TODO Translate [Reference] '^c:1486b0;{0-playername} has voted to not go.^c:pop;'
+//[Reference] '^c:1486b0;{0-playername} has voted to not go.^c:pop;'
 staxel.message.VotedAgainst=^c:1486b0;{0-playername}が「行かない」に投票しました。^c:pop;
-//TODO Translate [Reference] '^c:1486b0;{0-playername} has voted to go.^c:pop;'
+//[Reference] '^c:1486b0;{0-playername} has voted to go.^c:pop;'
 staxel.message.VotedFor=^c:1486b0;{0-playername}が「行く」に投票しました。^c:pop;
-//TODO Translate [Reference] '^c:1486b0;{0-playername} is ready to go.^c:pop;'
+//[Reference] '^c:1486b0;{0-playername} is ready to go.^c:pop;'
 staxel.message.VotedReady=^c:1486b0;{0-playername}は出発準備ができています。^c:pop;
 //[Reference] '[Missing]'
 staxel.multiplayer.MissingWorldName=[見つかりません]
