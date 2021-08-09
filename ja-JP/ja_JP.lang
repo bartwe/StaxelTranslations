@@ -20,7 +20,7 @@ catalogue.clear=クリア
 //[Reference] 'Not enough money!'
 catalogue.notEnoughMoney=お金が足りません！
 //[Reference] 'This item cannot be sold!'
-catalogue.notSellable=このアイテムは購入できません！
+catalogue.notSellable=このアイテムは売れません！
 //[Reference] 'Sell'
 catalogue.performSale=売る
 //[Reference] 'Sell:'
@@ -164,7 +164,7 @@ controllerHints.placeAndRotate=設置と回転
 //[Reference] '{0-recipeKeyword} ({1-number}x)'
 crafting.action.active.multiple={0-recipeKeyword}（{1-number}倍）
 //[Reference] 'Assemble'
-crafting.action.keyword.assemble=組み合わせる
+crafting.action.keyword.assemble=組み立てる
 //[Reference] 'Bake'
 crafting.action.keyword.bake=焼く
 //[Reference] 'Boil'
@@ -176,7 +176,7 @@ crafting.action.keyword.carvedesigninto=デザインを彫る
 //[Reference] 'Combine'
 crafting.action.keyword.combine=合わせる
 //[Reference] 'Construct'
-crafting.action.keyword.construct=建設する
+crafting.action.keyword.construct=建造する
 //[Reference] 'Cut'
 crafting.action.keyword.cut=切る
 //[Reference] 'Fry'
@@ -337,7 +337,7 @@ escapemenu.confirmExit=デスクトップに退出してもよろしいですか
 //[Reference] 'Are you sure you want to exit to desktop?'
 escapemenu.confirmExitMultiplayer=デスクトップに退出してもよろしいですか？
 //[Reference] 'Are you sure you want to return home? It will cost 5% of your petals.'
-escapemenu.confirmTeleport=本当に家に戻りますか？ペタルの5%を要します。
+escapemenu.confirmTeleport=本当に家に戻りますか？所持ペタルの5%を消費します。
 //[Reference] 'Exit'
 escapemenu.exit=出る
 //[Reference] 'Return Home'
@@ -367,7 +367,7 @@ fishing.gotAway=逃げられた！
 //[Reference] 'Something is on the hook!'
 fishing.hooked=針に何かかかった！
 //[Reference] 'Hold {0-button} {1-description} to keep reeling...'
-fishing.message.Reel={0-button}{1-description}を長押ししている間、リールを巻きます...
+fishing.message.Reel={0-button}{1-description}を長押ししている間、リールを巻きます…
 //[Reference] 'button'
 fishing.message.Reel.Mouse=ボタン
 //[Reference] 'Careful! You might snap the fishing line!'
@@ -446,7 +446,7 @@ hintText.thiefThief=泥棒！そのうち許されるかもしれないけど。
 //[Reference] 'Stealing has consequences.'
 hintText.thiefWarning=盗みを働いた者には報いが待ち受けています。
 //[Reference] 'The {0-tool} cannot catch that bug!'
-hintText.wrongBugTool=その虫は{0-tool}では採れません！
+hintText.wrongBugTool=その虫は{0-tool}では取れません！
 
 //[Reference] 'true'
 language.validated=true
@@ -458,7 +458,7 @@ loading.bundles=アセットのバンドルをダウンロード中
 //[Reference] 'Skip'
 loading.skip=スキップ
 //[Reference] 'Loot from'
-looting.loot=くすねる
+looting.loot=とる
 //[Reference] 'Steal from'
 looting.stealFrom=盗む
 //[Reference] 'Morel'
@@ -1364,19 +1364,19 @@ staxel.apiary.state.rallying=女王バチがハチを呼び寄せています：
 //[Reference] 'Honey is available but the bees are grumpy'
 staxel.apiary.state.waiting=ハチミツは収穫可能ですが、ハチが不機嫌です
 //[Reference] 'A bush that grows delicious blackberries. Survives out of season.'
-staxel.bush.BlackberryBush.description=おいしいブラックベリーが育つ低木。どの季節でも育つ。
+staxel.bush.BlackberryBush.description=おいしいブラックベリーが育つ低木。季節が変わっても枯れません。
 //[Reference] 'Blackberry Bush Seed'
 staxel.bush.BlackberryBush.name=ブラックベリーの低木の種
 //[Reference] 'A bush that grows delicious blueberries. Survives out of season.'
-staxel.bush.BlueberryBush.description=おいしいブルーベリーが育つ低木。どの季節でも育つ。
+staxel.bush.BlueberryBush.description=おいしいブルーベリーが育つ低木。季節が変わっても枯れません。
 //[Reference] 'Blueberry Bush Seed'
 staxel.bush.BlueberryBush.name=ブルーベリーの低木の種
 //[Reference] 'A bush that grows delicious goldenberries. Survives out of season.'
-staxel.bush.GoldenberryBush.description=おいしいゴールデンベリーが育つ低木。どの季節でも育つ。
+staxel.bush.GoldenberryBush.description=おいしいゴールデンベリーが育つ低木。季節が変わっても枯れません。
 //[Reference] 'Goldenberry Bush Seed'
 staxel.bush.GoldenberryBush.name=ゴールデンベリーの低木の種
 //[Reference] 'A bush that grows delicious raspberries. Survives out of season.'
-staxel.bush.RaspberryBush.description=おいしいラズベリーが育つ低木。どの季節でも育つ。
+staxel.bush.RaspberryBush.description=おいしいラズベリーが育つ低木。季節が変わっても枯れません。
 //[Reference] 'Raspberry Bush Seed'
 staxel.bush.RaspberryBush.name=ラズベリーの低木の種
 //[Reference] 'Events'
@@ -1400,9 +1400,9 @@ staxel.category.ApplePieStand=アップルパイスタンド
 //[Reference] 'Arcade'
 staxel.category.arcade=ゲームセンター
 //[Reference] 'Arcade Cabinet'
-staxel.category.arcadeCabinet=ゲームセンターのブース
+staxel.category.arcadeCabinet=ゲームセンターの筐体
 //[Reference] 'assemble'
-staxel.category.assemble=組み合わせる
+staxel.category.assemble=組み立てる
 //[Reference] 'assembly'
 staxel.category.assembly=組み立て品
 //[Reference] 'Awning'
@@ -1565,7 +1565,7 @@ staxel.category.filling=充填
 staxel.category.fin=ひれ
 
 //[Reference] 'fine'
-staxel.category.fine=ファイン
+staxel.category.fine=良質
 //[Reference] 'fish Display'
 staxel.category.fishDisplay=魚のディスプレイ
 //[Reference] 'Fisher'
@@ -1975,7 +1975,7 @@ staxel.collector.gatherable.catchable.MilkywayOwlfly.description=
 staxel.collector.gatherable.catchable.MilkywayOwlfly.name=天の川ツノトンボ
 staxel.collector.gatherable.catchable.MoonBeamBug.description=
 //[Reference] 'Moon Beam Bug'
-staxel.collector.gatherable.catchable.MoonBeamBug.name=月の光虫
+staxel.collector.gatherable.catchable.MoonBeamBug.name=月光虫
 staxel.collector.gatherable.catchable.MoonButterfly.description=
 //[Reference] 'Moon Butterfly'
 staxel.collector.gatherable.catchable.MoonButterfly.name=月の蝶
@@ -1987,7 +1987,7 @@ staxel.collector.gatherable.catchable.PointedSnail.description=
 staxel.collector.gatherable.catchable.PointedSnail.name=尖りカタツムリ
 staxel.collector.gatherable.catchable.PulsarFly.description=
 //[Reference] 'Pulsar Fly'
-staxel.collector.gatherable.catchable.PulsarFly.name=パルサーハエ
+staxel.collector.gatherable.catchable.PulsarFly.name=パルサーバエ
 staxel.collector.gatherable.catchable.StarlightBat.description=
 //[Reference] 'Starlight Bat'
 staxel.collector.gatherable.catchable.StarlightBat.name=スターライトコウモリ
@@ -1999,7 +1999,7 @@ staxel.collector.gatherable.catchable.SunButterfly.description=
 staxel.collector.gatherable.catchable.SunButterfly.name=太陽の蝶
 staxel.collector.gatherable.catchable.SunSnail.description=
 //[Reference] 'Sun Snail'
-staxel.collector.gatherable.catchable.SunSnail.name=カタツムリ
+staxel.collector.gatherable.catchable.SunSnail.name=太陽のカタツムリ
 staxel.collector.gatherable.catchable.Woodlouse.description=
 //[Reference] 'Woodlouse'
 staxel.collector.gatherable.catchable.Woodlouse.name=ワラジムシ
@@ -2053,7 +2053,7 @@ staxel.collector.tileObject.GalaxyPortal.GameWorldBack.description=
 staxel.collector.tileObject.GalaxyPortal.GameWorldBack.name=ゲームワールドに戻る
 staxel.collector.tileObject.GalaxyPortal.MuseumExit.description=
 //[Reference] 'Museum Exit'
-staxel.collector.tileObject.GalaxyPortal.MuseumExit.name=博物館出口
+staxel.collector.tileObject.GalaxyPortal.MuseumExit.name=博物館の出口
 staxel.collector.tileObject.patisserie.RhubarbPieStand.description=
 //[Reference] 'Rhubarb Pie Stand'
 staxel.collector.tileObject.patisserie.RhubarbPieStand.name=ルバーブパイスタンド
@@ -2069,7 +2069,7 @@ staxel.collector.tileObject.villagers.TomtiFoxSpawner.name=トムティのキツ
 //[Reference] 'Alt Controller'
 staxel.controlScheme.altController=Altコントローラー
 //[Reference] 'Swapped A&B and X&Y controller scheme.'
-staxel.controlScheme.altController.description=AとB、ならびにXとYの操作を入れ替えます。
+staxel.controlScheme.altController.description=AとB、そしてXとYの操作を入れ替えます。
 //[Reference] 'Custom'
 staxel.controlScheme.custom=カスタム
 //[Reference] 'Your custom scheme.'
@@ -2096,7 +2096,7 @@ staxel.crafting.learned=[習得済み]
 staxel.crafting.recipes.AirshipParts.name=飛行船の部品
 staxel.crafting.recipes.Apiary.description=
 //[Reference] 'Apiary'
-staxel.crafting.recipes.Apiary.name=養蜂
+staxel.crafting.recipes.Apiary.name=養蜂箱
 staxel.crafting.recipes.AppleBananaSmoothie.description=
 //[Reference] 'Apple & Banana Smoothie'
 staxel.crafting.recipes.AppleBananaSmoothie.name=アップルバナナスムージー
@@ -2168,7 +2168,7 @@ staxel.crafting.recipes.CandyCorn.description=
 staxel.crafting.recipes.CandyCorn.name=キャンディーコーン
 staxel.crafting.recipes.CaptureCrate.description=
 //[Reference] 'Capture Crate'
-staxel.crafting.recipes.CaptureCrate.name=キャプチャー木箱
+staxel.crafting.recipes.CaptureCrate.name=キャプチャークレート
 //[Reference] 'Cauldron'
 staxel.crafting.recipes.Cauldron.name=大釜
 staxel.crafting.recipes.ChickenCoop.description=
@@ -2232,7 +2232,7 @@ staxel.crafting.recipes.EmptyTrough.description=
 staxel.crafting.recipes.EmptyTrough.name=空の飼い葉桶
 staxel.crafting.recipes.FineLumber.description=
 //[Reference] 'FineLumber'
-staxel.crafting.recipes.FineLumber.name=細い木材
+staxel.crafting.recipes.FineLumber.name=良質な木材
 staxel.crafting.recipes.FishRack.description=
 //[Reference] 'Fish Rack'
 staxel.crafting.recipes.FishRack.name=フィッシュラック
@@ -2495,9 +2495,9 @@ staxel.crafting.type.desc.Magic={0-name}を作るための巻物
 staxel.crafting.type.Magic={1-learnt}{0-name}の巻物
 
 //[Reference] 'A brightly coloured beet.'
-staxel.crop.Beet.description=鮮やかな色のビート。
+staxel.crop.Beet.description=鮮やかな色のビーツ。
 //[Reference] 'Beetroot Seed'
-staxel.crop.Beet.name=テーブルビートの種
+staxel.crop.Beet.name=ビーツの種
 //[Reference] 'A delicious green leafy vegetable.'
 staxel.crop.Cabbage.description=緑の葉がおいしい野菜。
 //[Reference] 'Cabbage Seed'
@@ -2528,9 +2528,9 @@ staxel.crop.GiantMushroom.description=
 //[Reference] 'Giant Mushroom'
 staxel.crop.GiantMushroom.name=巨大なキノコ
 //[Reference] 'How strange, this beet is solid gold!'
-staxel.crop.GoldenBeet.description=このビートは純金でできている、なんて不思議なんだろう！
+staxel.crop.GoldenBeet.description=このビーツは純金でできている、なんて不思議なんだろう！
 //[Reference] 'Golden Beet Seed'
-staxel.crop.GoldenBeet.name=黄金のビートの種
+staxel.crop.GoldenBeet.name=黄金のビーツの種
 staxel.crop.GoldenCabbage.description=
 //[Reference] 'Golden Cabbage'
 staxel.crop.GoldenCabbage.name=黄金のキャベツ
@@ -3029,16 +3029,16 @@ staxel.item.CatLetter.description=ローワンから配達を依頼された手�
 staxel.item.CatLetter.name=ファームファン宛ての手紙
 staxel.item.crafting.ApiaryFrame.description=
 //[Reference] 'Apiary Frame'
-staxel.item.crafting.ApiaryFrame.name=養蜂フレーム
+staxel.item.crafting.ApiaryFrame.name=養蜂箱の枠
 staxel.item.crafting.AppleBananaSmoothie.description=
 //[Reference] 'Apple & Banana Smoothie'
 staxel.item.crafting.AppleBananaSmoothie.name=アップルバナナスムージー
 staxel.item.crafting.ArcadeMachineBase.description=
 //[Reference] 'Arcade Machine Base'
-staxel.item.crafting.ArcadeMachineBase.name=ゲーセン機の土台
+staxel.item.crafting.ArcadeMachineBase.name=ゲーセン筐体の土台
 staxel.item.crafting.AssortedDrawers.description=
 //[Reference] 'Assorted Drawers'
-staxel.item.crafting.AssortedDrawers.name=色々な引出し
+staxel.item.crafting.AssortedDrawers.name=組み立てた引き出し
 //[Reference] 'How pigs produce this is still the village's greatest mystery.'
 staxel.item.crafting.Bacon.description=ブタがどうやってこれを作るのかは未だにこの村最大の謎だ。
 //[Reference] 'Bacon'
@@ -3054,13 +3054,13 @@ staxel.item.crafting.BaseWagon.description=
 staxel.item.crafting.BaseWagon.name=ワゴンの土台
 staxel.item.crafting.BasicFramelessDoor.description=
 //[Reference] 'Basic Frameless Door'
-staxel.item.crafting.BasicFramelessDoor.name=ベーシックなフレームなしのドア
+staxel.item.crafting.BasicFramelessDoor.name=簡素な枠無しのドア
 staxel.item.crafting.BasicSalad.description=
 //[Reference] 'Basic Salad'
 staxel.item.crafting.BasicSalad.name=普通のサラダ
 staxel.item.crafting.Batter.description=
 //[Reference] 'Batter'
-staxel.item.crafting.Batter.name=生地
+staxel.item.crafting.Batter.name=バッター液
 staxel.item.crafting.BlackPetal.description=
 //[Reference] 'Black Petal'
 staxel.item.crafting.BlackPetal.name=黒い花びら
@@ -3081,7 +3081,7 @@ staxel.item.crafting.BookCaseFrame.description=
 staxel.item.crafting.BookCaseFrame.name=本棚の枠
 staxel.item.crafting.CakeBatter.description=
 //[Reference] 'Raw Cake Batter'
-staxel.item.crafting.CakeBatter.name=生のケーキ生地
+staxel.item.crafting.CakeBatter.name=ケーキの生地
 staxel.item.crafting.CakeCheese.description=
 //[Reference] 'Cheesecake'
 staxel.item.crafting.CakeCheese.name=チーズケーキ
@@ -3257,7 +3257,7 @@ staxel.item.crafting.Popcorn.description=
 staxel.item.crafting.Popcorn.name=ポップコーン
 staxel.item.crafting.RaspberryBlackberrySmoothie.description=
 //[Reference] 'Blackberry & Raspberry Smoothie'
-staxel.item.crafting.RaspberryBlackberrySmoothie.name=ラズベリーブラックベリースムージー
+staxel.item.crafting.RaspberryBlackberrySmoothie.name=ラズベリーとブラックベリーのスムージー
 staxel.item.crafting.RawHardWood.description=
 //[Reference] 'Raw Hardwood'
 staxel.item.crafting.RawHardWood.name=堅木の原木
@@ -3311,7 +3311,7 @@ staxel.item.crafting.UnbakedPotatoWithCheese.description=
 staxel.item.crafting.UnbakedPotatoWithCheese.name=未調理のチーズ乗せベイクドポテト
 staxel.item.crafting.UncookedBaconSandwich.description=
 //[Reference] 'Uncooked Bacon Sandwich'
-staxel.item.crafting.UncookedBaconSandwich.name=焼いていないベーコンサンドイッチ
+staxel.item.crafting.UncookedBaconSandwich.name=未調理のベーコンサンドイッチ
 staxel.item.crafting.Varnish.description=
 //[Reference] 'Varnish'
 staxel.item.crafting.Varnish.name=ニス
@@ -3335,7 +3335,7 @@ staxel.item.crafting.WagonBenches.description=
 staxel.item.crafting.WagonBenches.name=ワゴンのベンチ
 staxel.item.crafting.WagonComforts.description=
 //[Reference] 'Wagon Comforts'
-staxel.item.crafting.WagonComforts.name=ワゴンのコンフォーター
+staxel.item.crafting.WagonComforts.name=ワゴンの帆布
 staxel.item.crafting.WagonComplete.description=
 //[Reference] 'Completed Wagon'
 staxel.item.crafting.WagonComplete.name=ワゴン一式
@@ -3462,13 +3462,13 @@ staxel.item.gatherable.fairy.GlowWorm.description=
 staxel.item.gatherable.fairy.GlowWorm.name=ツチボタル
 staxel.item.gatherable.fairy.HeartButterfly.description=
 //[Reference] 'Heart Butterfly'
-staxel.item.gatherable.fairy.HeartButterfly.name=ハート型のチョウチョ
+staxel.item.gatherable.fairy.HeartButterfly.name=ハート型の蝶
 staxel.item.gatherable.fairy.LunarMoth.description=
 //[Reference] 'Lunar Moth'
 staxel.item.gatherable.fairy.LunarMoth.name=オオミズアオ
 staxel.item.gatherable.fairy.PastelButterfly.description=
 //[Reference] 'Pastel Butterfly'
-staxel.item.gatherable.fairy.PastelButterfly.name=パステル色のチョウチョ
+staxel.item.gatherable.fairy.PastelButterfly.name=パステル色の蝶
 staxel.item.gatherable.fairy.RoseSnail.description=
 //[Reference] 'Rose Snail'
 staxel.item.gatherable.fairy.RoseSnail.name=バラ色のカタツムリ
@@ -3483,7 +3483,7 @@ staxel.item.gatherable.Fairy.BalloonFish.description=
 staxel.item.gatherable.Fairy.BalloonFish.name=フグ
 staxel.item.gatherable.Fairy.FairyAngler.description=
 //[Reference] 'Fairy Angler'
-staxel.item.gatherable.Fairy.FairyAngler.name=フェアリーの釣り人
+staxel.item.gatherable.Fairy.FairyAngler.name=フェアリーのアンコウ
 staxel.item.gatherable.Fairy.FairyEel.description=
 //[Reference] 'Fairy Eel'
 staxel.item.gatherable.Fairy.FairyEel.name=フェアリーのウナギ
@@ -3501,7 +3501,7 @@ staxel.item.gatherable.Fairy.GiantGoldfish.description=
 staxel.item.gatherable.Fairy.GiantGoldfish.name=巨大な金魚
 staxel.item.gatherable.Fairy.MiniatureDolphin.description=
 //[Reference] 'Miniature Dolphin'
-staxel.item.gatherable.Fairy.MiniatureDolphin.name=小型のイルカ
+staxel.item.gatherable.Fairy.MiniatureDolphin.name=ミニチュアイルカ
 staxel.item.gatherable.Fairy.Narwhal.description=
 //[Reference] 'Narwhal'
 staxel.item.gatherable.Fairy.Narwhal.name=イッカク
@@ -3538,7 +3538,7 @@ staxel.item.gatherable.garbage.AppleCore.description=
 staxel.item.gatherable.garbage.AppleCore.name=リンゴの芯
 staxel.item.gatherable.garbage.EmptyBottle.description=
 //[Reference] 'Empty Bottle'
-staxel.item.gatherable.garbage.EmptyBottle.name=カラのビン
+staxel.item.gatherable.garbage.EmptyBottle.name=カラのボトル
 staxel.item.gatherable.garbage.GarbageShell.description=
 //[Reference] 'Garbage Shell'
 staxel.item.gatherable.garbage.GarbageShell.name=貝殻ゴミ
@@ -3607,13 +3607,13 @@ staxel.item.gatherable.PurpleButterfly.description=
 staxel.item.gatherable.PurpleButterfly.name=紫色の蝶
 staxel.item.gatherable.quest.GameBug1.description=
 //[Reference] 'VR Rhino'
-staxel.item.gatherable.quest.GameBug1.name=バーチャルサイ
+staxel.item.gatherable.quest.GameBug1.name=バーチャルカブトムシ
 staxel.item.gatherable.quest.GameBug2.description=
 //[Reference] 'VR Butterfly'
-staxel.item.gatherable.quest.GameBug2.name=バーチャルバタフライ
+staxel.item.gatherable.quest.GameBug2.name=バーチャル蝶
 staxel.item.gatherable.quest.GameBug3.description=
 //[Reference] 'VR Beetle'
-staxel.item.gatherable.quest.GameBug3.name=バーチャルカブトムシ
+staxel.item.gatherable.quest.GameBug3.name=バーチャル蛍
 staxel.item.gatherable.quest.GameBug4.description=
 //[Reference] 'VR Crawly'
 staxel.item.gatherable.quest.GameBug4.name=バーチャルいも虫
@@ -3640,7 +3640,7 @@ staxel.item.gatherable.RareMushroom.description=
 staxel.item.gatherable.RareMushroom.name=珍しいキノコ
 staxel.item.gatherable.RedCricket.description=
 //[Reference] 'Red Cricket'
-staxel.item.gatherable.RedCricket.name=赤色コオロギ
+staxel.item.gatherable.RedCricket.name=赤いコオロギ
 staxel.item.gatherable.RedDragonfly.description=
 //[Reference] 'Red Dragonfly'
 staxel.item.gatherable.RedDragonfly.name=赤いトンボ
@@ -3699,19 +3699,19 @@ staxel.item.gatherable.tropical.GoldenBeetle.description=
 staxel.item.gatherable.tropical.GoldenBeetle.name=黄金のカブトムシ
 staxel.item.gatherable.tropical.RoyalGreenButterfly.description=
 //[Reference] 'Royal Green Butterfly'
-staxel.item.gatherable.tropical.RoyalGreenButterfly.name=ロイヤルグリーンのチョウチョ
+staxel.item.gatherable.tropical.RoyalGreenButterfly.name=ロイヤルグリーンの蝶
 staxel.item.gatherable.tropical.ShadowButterfly.description=
 //[Reference] 'Shadow Butterfly'
-staxel.item.gatherable.tropical.ShadowButterfly.name=影のチョウチョ
+staxel.item.gatherable.tropical.ShadowButterfly.name=影の蝶
 staxel.item.gatherable.tropical.ShieldBeetle.description=
 //[Reference] 'Shield Beetle'
 staxel.item.gatherable.tropical.ShieldBeetle.name=カメムシ
 staxel.item.gatherable.tropical.TallBeetle.description=
 //[Reference] 'Tall Beetle'
-staxel.item.gatherable.tropical.TallBeetle.name=背高のカブトムシ
+staxel.item.gatherable.tropical.TallBeetle.name=長いカブトムシ
 staxel.item.gatherable.tropical.TropicalButterfly.description=
 //[Reference] 'Tropical Butterfly'
-staxel.item.gatherable.tropical.TropicalButterfly.name=熱帯のチョウチョ
+staxel.item.gatherable.tropical.TropicalButterfly.name=熱帯の蝶
 staxel.item.gatherable.tropical.TropicalLeafBug.description=
 //[Reference] 'Tropical Leaf Bug'
 staxel.item.gatherable.tropical.TropicalLeafBug.name=熱帯のコノハムシ
@@ -3729,7 +3729,7 @@ staxel.item.gatherable.Tropical.DartFish.description=
 staxel.item.gatherable.Tropical.DartFish.name=クロユリハゼ
 staxel.item.gatherable.Tropical.GiantSquid.description=
 //[Reference] 'Giant Squid'
-staxel.item.gatherable.Tropical.GiantSquid.name=巨大なイカ
+staxel.item.gatherable.Tropical.GiantSquid.name=ダイオウイカ
 staxel.item.gatherable.Tropical.MoorishIdol.description=
 //[Reference] 'Moorish Idol'
 staxel.item.gatherable.Tropical.MoorishIdol.name=ツノダシ
@@ -3741,7 +3741,7 @@ staxel.item.gatherable.Tropical.ZebraFish.description=
 staxel.item.gatherable.Tropical.ZebraFish.name=ゼブラフィッシュ
 staxel.item.gatherable.WhiteButterfly.description=
 //[Reference] 'White Butterfly'
-staxel.item.gatherable.WhiteButterfly.name=ホワイトバタフライ
+staxel.item.gatherable.WhiteButterfly.name=白い蝶
 staxel.item.gatherable.Wildberry.description=
 //[Reference] 'Wildberry'
 staxel.item.gatherable.Wildberry.name=ワイルドベリー
@@ -3750,7 +3750,7 @@ staxel.item.gatherable.WillOTheWisp.description=
 staxel.item.gatherable.WillOTheWisp.name=ウィルオウィスプ
 staxel.item.gatherable.YellowButterfly.description=
 //[Reference] 'Yellow Butterfly'
-staxel.item.gatherable.YellowButterfly.name=イエローバタフライ
+staxel.item.gatherable.YellowButterfly.name=黄色い蝶
 staxel.item.gatherable.YellowPerch.description=
 //[Reference] 'Yellow Perch'
 staxel.item.gatherable.YellowPerch.name=イエローパーチ
@@ -3773,7 +3773,7 @@ staxel.item.LightPetalCore.description=
 //[Reference] 'Light Petal Core'
 staxel.item.LightPetalCore.name=明るい花びらのコア
 //[Reference] 'Who knows what you might find if you polish this old relic!'
-staxel.item.museum.Fossil.description=この遺物を磨いて何が見つかるかなんて誰にも分からないよ！
+staxel.item.museum.Fossil.description=これを磨いて何が出てくるかなんて誰にも分からないよ！
 //[Reference] 'Unpolished Fossil'
 staxel.item.museum.Fossil.name=磨かれていない化石
 //[Reference] 'A note addressed to Rowan. Probably best not to open it.'
@@ -3784,7 +3784,7 @@ staxel.item.PetalWandCore.description=
 //[Reference] 'Petal Wand Core'
 staxel.item.PetalWandCore.name=花びらの杖のコア
 //[Reference] 'At one point we knew what this item was... But we forgot.'
-staxel.item.Placeholder.description=たしかにこのアイテムの設定考えてたはずなんだけど... 忘れた。
+staxel.item.Placeholder.description=確かこのアイテムの設定は考えてたはずなんだけど…忘れちゃった。
 //[Reference] 'Missing Item'
 staxel.item.Placeholder.name=失くしたアイテム
 staxel.item.quest.Aliza.AirshipParts.description=
@@ -3829,7 +3829,7 @@ staxel.item.quest.Eris.GlassSlipperTaken.description=
 staxel.item.quest.Eris.GlassSlipperTaken.name=ガラスの靴
 staxel.item.quest.Eris.PrincessTowerDoorKey.description=
 //[Reference] 'Princess Tower Door Key'
-staxel.item.quest.Eris.PrincessTowerDoorKey.name=お姫様の塔の扉のかぎ
+staxel.item.quest.Eris.PrincessTowerDoorKey.name=お姫様の塔の扉のカギ
 staxel.item.quest.Eris.Silk.description=
 //[Reference] 'Silk'
 staxel.item.quest.Eris.Silk.name=シルク
@@ -3845,7 +3845,7 @@ staxel.item.quest.FriendshipBracelet.description=この腕輪はかけがえの�
 staxel.item.quest.FriendshipBracelet.name=友情のブレスレット
 staxel.item.quest.GameContract.description=
 //[Reference] 'Game Contract'
-staxel.item.quest.GameContract.name=ゲーム契約
+staxel.item.quest.GameContract.name=ゲームの契約書
 staxel.item.quest.GameDesignBook.description=
 //[Reference] 'Beginner's Game Design Book'
 staxel.item.quest.GameDesignBook.name=初心者用ゲームデザインブック
@@ -3864,7 +3864,7 @@ staxel.item.quest.InsuranceCertificate.description=
 staxel.item.quest.InsuranceCertificate.name=保険の証書
 staxel.item.quest.Jamie.DemonKing.MagicItem1.description=
 //[Reference] 'Earth'
-staxel.item.quest.Jamie.DemonKing.MagicItem1.name=大地
+staxel.item.quest.Jamie.DemonKing.MagicItem1.name=地
 staxel.item.quest.Jamie.DemonKing.MagicItem2.description=
 //[Reference] 'Wind'
 staxel.item.quest.Jamie.DemonKing.MagicItem2.name=風
@@ -3970,7 +3970,7 @@ staxel.item.quest.Riah.LetterToMax.description=リアからマックスに届け
 //[Reference] 'Letter To Max'
 staxel.item.quest.Riah.LetterToMax.name=マックス宛ての手紙
 //[Reference] 'The legendary Staxel Horror. Riah claims it ate the brooch she needs. Better get it back to her before you go crazy or something.'
-staxel.item.quest.Riah.Myah.description=伝説のStaxelの怪物。リアが探しているブローチを飲み込んだらしい。気がおかしくなる前に彼女に返そう。
+staxel.item.quest.Riah.Myah.description=伝説のStaxelの怪物。リアが探しているブローチを飲み込んだらしい。気がおかしくなる前に彼女に渡そう。
 //[Reference] 'M'yah'
 staxel.item.quest.Riah.Myah.name=ムンニャ
 //[Reference] 'Cirahna wanted you to deliver this to Riah. A master calligrapher would envy the handwriting.'
@@ -3996,7 +3996,7 @@ staxel.item.quest.SapToken.description=
 staxel.item.quest.SapToken.name=サップの引換券
 staxel.item.quest.SciencePermit.description=
 //[Reference] 'Science Permit'
-staxel.item.quest.SciencePermit.name=科学許可証
+staxel.item.quest.SciencePermit.name=科学実験の許可証
 staxel.item.quest.SecretIngredient.description=
 //[Reference] 'Secret Ingredient'
 staxel.item.quest.SecretIngredient.name=隠し味
@@ -4005,19 +4005,19 @@ staxel.item.quest.StrayCat.description=かわいそうに。ローズマリー�
 //[Reference] 'Stray Cat'
 staxel.item.quest.StrayCat.name=野良猫
 //[Reference] 'Farm Fan asked you to sell this.'
-staxel.item.quest.tutorial.Turnip.description=ファームファンに売るように頼まれました。
+staxel.item.quest.tutorial.Turnip.description=ファームファンに売るように頼まれた。
 //[Reference] 'Farm Fan's Turnip'
 staxel.item.quest.tutorial.Turnip.name=ファームファンのカブ
 staxel.item.quest.Tutorial.RedCricket.description=
 //[Reference] 'Red Cricket'
-staxel.item.quest.Tutorial.RedCricket.name=赤色コオロギ
+staxel.item.quest.Tutorial.RedCricket.name=赤いコオロギ
 //[Reference] 'It cannot be identified'
 staxel.item.quest.UnidentifiableMedicine.description=識別不能
 //[Reference] 'Unidentifiable Medicine'
 staxel.item.quest.UnidentifiableMedicine.name=識別できない薬
 staxel.item.quest.Vorlen.MundaneTransformationPotion.description=
 //[Reference] 'Mundane Transformation Potion'
-staxel.item.quest.Vorlen.MundaneTransformationPotion.name=現世の姿に変わるポーション
+staxel.item.quest.Vorlen.MundaneTransformationPotion.name=ありふれた変身ポーション
 staxel.item.quest.Vorlen.RainbowButterfly.description=
 //[Reference] 'Rainbow Butterfly'
 staxel.item.quest.Vorlen.RainbowButterfly.name=虹色の蝶
@@ -4050,31 +4050,31 @@ staxel.item.seed.LongCreepyGrassSeedPacket.description=
 staxel.item.seed.LongCreepyGrassSeedPacket.name=コワい草の種パック（ロング）
 staxel.item.seed.MyceliumSeedPacket.description=
 //[Reference] 'Mycelium Seed Packet'
-staxel.item.seed.MyceliumSeedPacket.name=菌糸体種パック
+staxel.item.seed.MyceliumSeedPacket.name=菌糸類の種パック
 staxel.item.SoakedSponge.description=
 //[Reference] 'Soaked Sponge'
 staxel.item.SoakedSponge.name=びしょ濡れのスポンジ
 //[Reference] 'Sponge'
 staxel.item.Sponge.name=スポンジ
-staxel.item.tool.Axe2.description=大きな木を切り倒すのに使う道具です。チャージするとさらに深く切れます。
+staxel.item.tool.Axe2.description=大きな木を切り倒すのに使う道具。チャージするとさらに深く切れる。
 //[Reference] 'Axe v2'
 staxel.item.tool.Axe2.name=斧v2
-staxel.item.tool.Axe3.description=大きな木を切り倒すのに使う道具です。2段階チャージができます。
+staxel.item.tool.Axe3.description=大きな木を切り倒すのに使う道具。2段階チャージができる。
 //[Reference] 'Axe v3'
 staxel.item.tool.Axe3.name=斧v3
-staxel.item.tool.Axe4.description=大きな木を切り倒すのに使う道具です。3段階チャージができます。
+staxel.item.tool.Axe4.description=大きな木を切り倒すのに使う道具。3段階チャージができる。
 //[Reference] 'Axe v4'
 staxel.item.tool.Axe4.name=斧v4
 //[Reference] 'Click a tile to start, click another to end. Removes all blocks between the corners.'
-staxel.item.tool.BoxDeleter.description=開始のタイルと終了のタイルをクリックしよう。角の間の全てのブロックが消えます。
+staxel.item.tool.BoxDeleter.description=開始のタイルと終了のタイルをクリックすると、角の間の全てのブロックを消せる。
 //[Reference] 'Box Deleter'
-staxel.item.tool.BoxDeleter.name=ボックスアイテム削除
+staxel.item.tool.BoxDeleter.name=ボックスデリーター
 //[Reference] 'Click a tile to start, click another to end. Builds a box between the corners. Alt click for settings. (uses first tile as material)'
-staxel.item.tool.BoxPlacer.description=開始と終了のタイルをクリックすると2点の間にボックスを生成します。設定は右クリック。（最初のタイルを材料に使用）
+staxel.item.tool.BoxPlacer.description=開始と終了のタイルをクリックすると2点の間にボックスを生成する。設定は右クリック。（最初のタイルを材料に使用）
 //[Reference] 'Box Builder'
 staxel.item.tool.BoxPlacer.name=ボックスビルダー
 //[Reference] 'Click a surface of connected same-type tiles to extrude the face in that direction. Alt click for settings'
-staxel.item.tool.FaceExtruder.description=同じ種類の繋がったタイルの表面をクリックすると、その方向に面を押し出します。設定は右クリック
+staxel.item.tool.FaceExtruder.description=同じ種類の繋がったタイルの表面をクリックすると、その方向に面を押し出す。設定は右クリック
 //[Reference] 'Face Extruder'
 staxel.item.tool.FaceExtruder.name=フェイスエクストルーダー
 staxel.item.tool.FlowerWatercan.description=
@@ -4085,14 +4085,14 @@ staxel.item.tool.GameNet.description=
 staxel.item.tool.GameNet.name=バーチャル虫取り網
 staxel.item.tool.GameRod.description=
 //[Reference] 'VR Fishing Rod'
-staxel.item.tool.GameRod.name=バーチャル釣りざお
-staxel.item.tool.Hammer2.description=オブジェクトの分解に使う道具です。チャージすると効果範囲が広がります。
+staxel.item.tool.GameRod.name=バーチャル釣り竿
+staxel.item.tool.Hammer2.description=家具を撤去する時に使う道具。チャージすると効果範囲が広がる。
 //[Reference] 'Hammer v2'
 staxel.item.tool.Hammer2.name=ハンマーv2
-staxel.item.tool.Hammer3.description=オブジェクトの分解に使う道具です。2段階チャージができます。
+staxel.item.tool.Hammer3.description=家具を撤去する時に使う道具。2段階チャージができる。
 //[Reference] 'Hammer v3'
 staxel.item.tool.Hammer3.name=ハンマーv3
-staxel.item.tool.Hammer4.description=オブジェクトの分解に使う道具です。3段階チャージができます。
+staxel.item.tool.Hammer4.description=家具を撤去する時に使う道具。3段階チャージができる。
 //[Reference] 'Hammer v4'
 staxel.item.tool.Hammer4.name=ハンマーv4
 //[Reference] 'Click a tile to start, click another to end. Builds a line between. Alt click for settings. (uses first tile as material)'
@@ -4103,56 +4103,56 @@ staxel.item.tool.Manure.description=
 //[Reference] 'Manure'
 staxel.item.tool.Manure.name=肥料
 //[Reference] 'Click a tile to start, click another to end. First and last tile inclusive'
-staxel.item.tool.MeasuringTape.description=開始のタイルと終了のタイルをクリックしよう。2点間のタイルの合計を調べます。
+staxel.item.tool.MeasuringTape.description=開始のタイルと終了のタイルをクリックしよう。2点間のタイルの距離を測れる。
 //[Reference] 'Measuring Tape'
-staxel.item.tool.MeasuringTape.name=巻き尺
+staxel.item.tool.MeasuringTape.name=メジャー
 staxel.item.tool.OldRod.description=
 //[Reference] 'Old Rod'
-staxel.item.tool.OldRod.name=古い釣りざお
-staxel.item.tool.Pickaxe2.description=採掘に使う道具です。チャージすると効果範囲が広がります。
+staxel.item.tool.OldRod.name=古い釣り竿
+staxel.item.tool.Pickaxe2.description=採掘に使う道具。チャージすると効果範囲が広がります。
 //[Reference] 'Pickaxe v2'
 staxel.item.tool.Pickaxe2.name=つるはしv2
-staxel.item.tool.Pickaxe3.description=採掘に使う道具です。2段階チャージができます。
+staxel.item.tool.Pickaxe3.description=採掘に使う道具。2段階チャージができる。
 //[Reference] 'Pickaxe v3'
 staxel.item.tool.Pickaxe3.name=つるはしv3
-staxel.item.tool.Pickaxe4.description=採掘に使う道具です。3段階チャージができます。
+staxel.item.tool.Pickaxe4.description=採掘に使う道具。3段階チャージができる。
 //[Reference] 'Pickaxe v4'
 staxel.item.tool.Pickaxe4.name=つるはしv4
 staxel.item.tool.PumpkingScythe.description=
 //[Reference] 'Pumpking Scythe'
 staxel.item.tool.PumpkingScythe.name=パンプキングの鎌
-staxel.item.tool.Rod2.description=魚を釣る道具です。
+staxel.item.tool.Rod2.description=魚を釣る道具。
 //[Reference] 'Rod v2'
-staxel.item.tool.Rod2.name=釣りざおv2
-staxel.item.tool.Rod3.description=魚を釣る道具です。
+staxel.item.tool.Rod2.name=釣り竿v2
+staxel.item.tool.Rod3.description=魚を釣る道具。
 //[Reference] 'Rod v3'
-staxel.item.tool.Rod3.name=釣りざおv3
-staxel.item.tool.Rod4.description=魚を釣る道具です。
+staxel.item.tool.Rod3.name=釣り竿v3
+staxel.item.tool.Rod4.description=魚を釣る道具。
 //[Reference] 'Rod v4'
-staxel.item.tool.Rod4.name=釣りざおv4
-staxel.item.tool.Shovel2.description=地面を掘る道具です。チャージするともっと掘れます。
+staxel.item.tool.Rod4.name=釣り竿v4
+staxel.item.tool.Shovel2.description=地面を掘る道具。チャージするともっと掘れる。
 //[Reference] 'Shovel v2'
 staxel.item.tool.Shovel2.name=シャベルv2
-staxel.item.tool.Shovel3.description=地面を掘る道具です。2段階チャージができます。
+staxel.item.tool.Shovel3.description=地面を掘る道具。2段階チャージができる。
 //[Reference] 'Shovel v3'
 staxel.item.tool.Shovel3.name=シャベルv3
-staxel.item.tool.Shovel4.description=地面を掘る道具です。3段階チャージができます。
+staxel.item.tool.Shovel4.description=地面を掘る道具。3段階チャージができる。
 //[Reference] 'Shovel v4'
 staxel.item.tool.Shovel4.name=シャベルv4
 //[Reference] 'Click a tile to place a sphere at it. Alt click for settings. (uses clicked tile as material)'
-staxel.item.tool.SpherePlacer.description=タイルをクリックして球を設置します。設定は右クリック。（クリックしたタイルを材料に使用）
+staxel.item.tool.SpherePlacer.description=タイルをクリックして球を設置する。設定は右クリック。（クリックしたタイルを材料に使用）
 //[Reference] 'Sphere Builder'
 staxel.item.tool.SpherePlacer.name=スフィアビルダー
 staxel.item.tool.TaikoHammer.description=
 //[Reference] 'Taiko Hammer'
 staxel.item.tool.TaikoHammer.name=太鼓のバチ
-staxel.item.tool.WateringCan2.description=作物に水やりするために使う道具。長押しすると早く水やりできる。
+staxel.item.tool.WateringCan2.description=作物へ手軽に水やりができる道具。長押しで水やり速度が上がる。
 //[Reference] 'Watering Can v2'
 staxel.item.tool.WateringCan2.name=じょうろv2
-staxel.item.tool.WateringCan3.description=作物に水やりするために使う道具。長押しすると早く水やりできる。
+staxel.item.tool.WateringCan3.description=作物へ手軽に水やりができる道具。長押しで水やり速度が上がる。
 //[Reference] 'Watering Can v3'
 staxel.item.tool.WateringCan3.name=じょうろv3
-staxel.item.tool.WateringCan4.description=作物へ手軽に水やりができる道具です。無限に水を入れられます。
+staxel.item.tool.WateringCan4.description=作物へ手軽に水やりができる道具。無限に水を入れられる。
 //[Reference] 'Watering Can v4'
 staxel.item.tool.WateringCan4.name=じょうろv4
 staxel.item.tool.WaterSquirterGreen.description=
@@ -4176,7 +4176,7 @@ staxel.item.Transformations.TomtiNoHat.name=トムティ（帽子なし）
 //[Reference] 'Claim Petals'
 staxel.mail.claimPetals=ペタルを受け取る
 //[Reference] '^c:1486b0;{0-playername}^c:pop;!\n\nI couldn't help overhearing your conversation with ^c:1486b0;Rosemary^c:pop; yesterday (sorry, I wasn't listening on purpose, I swear). See, I was around these parts back then and I swear something wasn't quite right about the whole thing...\n\nMaybe it would be worth having a little wander around the village and seeing if anyone else can remember anything?\n\n^c:1486b0;Farm Fan^c:pop;'
-staxel.mail.FarmFanEavesdrop.body=^c:1486b0;{0-playername}^c:pop;！\n\n昨日あなたと^c:1486b0;ローズマリー^c:pop;の会話が偶然耳に入っちゃったの（ごめんね、わざとじゃないの、本当に）。今思い返せば、何か怪しかったのよね…\n\nちょっと村を回って、誰か何か覚えてないか聞いてみたらどうかな？\n\n^c:1486b0;ファームファン^c:pop;より
+staxel.mail.FarmFanEavesdrop.body=^c:1486b0;$playername;^c:pop;！\n\n昨日あなたと^c:1486b0;ローズマリー^c:pop;の会話が偶然耳に入っちゃったの（ごめんね、わざとじゃないの、本当に）。今思い返せば、何か怪しかったのよね…\n\nちょっと村を回って、誰か何か覚えてないか聞いてみたらどうかな？\n\n^c:1486b0;ファームファン^c:pop;より
 //[Reference] 'Rosemary'
 staxel.mail.FarmFanEavesdrop.subject=ローズマリー
 //[Reference] 'Save Mail'
@@ -4202,7 +4202,7 @@ staxel.mainQuest.Rowan.Liked=神のネクタル
 //[Reference] 'Brick'
 staxel.merchant.Brick.name=ブリック
 //[Reference] 'Buttons'
-staxel.merchant.Buttons.name=ボタン
+staxel.merchant.Buttons.name=ボタンズ
 //[Reference] 'Holly'
 staxel.merchant.Holly.name=ホリー
 //[Reference] 'Leon'
@@ -4238,7 +4238,7 @@ staxel.merchant.SellBoxDefault=デフォルトの売却ボックス
 //[Reference] 'Paid {0-amount} Star Bits!'
 staxel.merchant.StarBitsPaid={0-amount}個のスタービットを支払いました。
 //[Reference] 'Carver'
-staxel.merchant.VIPFurniture.name=カービングナイフ
+staxel.merchant.VIPFurniture.name=カーヴァー
 //[Reference] 'Ahlua'
 staxel.merchant.VIPIslandBlocks.name=アルーア
 //[Reference] 'Morph'
@@ -4345,7 +4345,7 @@ staxel.nightTransition.Line13=ヒント：テーブルソーは自動で作動�
 //[Reference] 'Tip: Buy a renaming form from the town hall to rename your animals'
 staxel.nightTransition.Line14=ヒント：名前変更の用紙を役所からもらい、自分の動物の名前を変更しましょう。
 //[Reference] 'Tip: The village holds festivals on special days, check the calendar in your house!'
-staxel.nightTransition.Line15=ヒント：村は特別な日にお祭りを開催します。家の中のカレンダーをチェック！
+staxel.nightTransition.Line15=ヒント：村は特別な日にお祭りを開催します。君の家のカレンダーをチェックしよう！
 //[Reference] 'Tip: Buy a shipping station and catalogue to access a huge number of items!'
 staxel.nightTransition.Line16=ヒント：配送ステーションと配送カタログを購入して、膨大な数のアイテムを取り寄せましょう！
 //[Reference] 'Tip: Cooked food is always worth more than its ingredients'
@@ -4385,7 +4385,7 @@ staxel.notifications.CantPlaceMerchantSellBox=商人に売却箱を渡せませ�
 //[Reference] 'VIP Merchant couldn't land at the Airship Anchor. Area was obstructed.'
 staxel.notifications.CantPlaceVIPMerchant=VIP商人が飛行船アンカーに着地できませんでした。エリアが遮断されています。
 //[Reference] 'Magical forces are preventing setting your home here.'
-staxel.notifications.CantSetHomeAtIsland=ここには家を建てられません。魔法の力にじゃまされています。
+staxel.notifications.CantSetHomeAtIsland=ここには家を建てられません。魔法の力に邪魔されています。
 //[Reference] 'Farm Fan has set aside this day to show you around the farm, you should do that before sleeping!'
 staxel.notifications.cantSleepTutorial=ファームファンはこの日以外なら牧場を案内してくれます、寝る前にやっておきましょう！
 //[Reference] 'You can't use that right now.'
@@ -4440,7 +4440,7 @@ staxel.notifications.HoeFail=草または土の上でクワを使ってくださ
 //[Reference] '{0-tile} cannot be broken by a hoe.'
 staxel.notifications.HoeFailBreakTile={0-tile}はクワで壊せません。
 //[Reference] 'Home position can only be set on the mainland'
-staxel.notifications.HomePositionNotSet=家はメインの敷地に建ててください
+staxel.notifications.HomePositionNotSet=ホームポジションはメインランドにのみ設定できます
 //[Reference] 'Unlocked: {0-ItemName}'
 staxel.notifications.itemUnlocked=アンロック：{0-ItemName}
 //[Reference] 'Try a milkable animal'
@@ -4466,15 +4466,15 @@ staxel.notifications.status.ExhaustedRun=体が疲れて走れません。睡眠
 //[Reference] 'You've collapsed. You've lost {0-petal} petals on your way home.'
 staxel.notifications.status.ReturnedHome=力尽きました。帰り道で{0-petal}ペタルなくしました。
 //[Reference] 'You've collapsed, though noone was around to take you home, so you still feel tired.'
-staxel.notifications.status.ReturnedHomeFailed=力尽きましたが、家まで送ってくれる人が誰もいませんでした。そのため、まだ疲れています。
+staxel.notifications.status.ReturnedHomeFailed=力尽きました。でも誰も家に送ってくれなかったので、まだ疲れが残っています。
 //[Reference] 'You're feeling kinda sleepy...'
-staxel.notifications.status.Sleepy=なんだか眠いなぁ...
+staxel.notifications.status.Sleepy=なんだか眠いなぁ…
 //[Reference] 'from'
 staxel.notifications.teleport.from=から
 //[Reference] 'This item cannot remote teleport {0-fromorto} a quest area.'
-staxel.notifications.teleport.noQuestTeleport=このアイテムはクエストエリア{0-fromorto}リモートでテレポートすることができません。
+staxel.notifications.teleport.noQuestTeleport=このアイテムはクエストエリア{0-fromorto}からはテレポートできません。
 //[Reference] 'You must be on a material island to use this.'
-staxel.notifications.teleport.noTeleportAvailable=これを使うには素材の島にいる必要があります。
+staxel.notifications.teleport.noTeleportAvailable=これを使うには素材島にいないといけません。
 //[Reference] 'to'
 staxel.notifications.teleport.to=へ
 //[Reference] 'It's too early to sleep!'
@@ -4515,7 +4515,7 @@ staxel.notifications.WrongTool.Verb.Till=耕す
 //[Reference] 'your hands'
 staxel.notifications.WrongTool.YourHands=自分の手
 //[Reference] 'You need a stronger {0} to {1} this.'
-staxel.notifications.WrongToolStrength=これに対する動作「{1}」には、より強い{0}が必要です。
+staxel.notifications.WrongToolStrength=これを{1}には、より強い{0}が必要です。
 //[Reference] 'You need: {0} to {1} this.'
 staxel.notifications.WrongToolUniversal.1=これを{1}には{0}が必要です。
 //[Reference] 'You need: {0} or {1} to {2}/{3} this.'
@@ -4626,21 +4626,21 @@ staxel.plant.gatherable.Wildberry.description=
 staxel.plant.gatherable.Wildberry.name=ワイルドベリー
 staxel.plant.LongTropicalGrass.description=
 //[Reference] 'Long Tropical Grass'
-staxel.plant.LongTropicalGrass.name=南国の背高草
+staxel.plant.LongTropicalGrass.name=南国の長い草
 //[Reference] 'Seems to be quite attractive to butterflies.'
-staxel.plant.quest.ButterflyAttractor.tile.description=蝶を引きつけるみたいだね。
+staxel.plant.quest.ButterflyAttractor.tile.description=蝶を引きつけるみたい。
 //[Reference] 'Butterfly Attractor'
-staxel.plant.quest.ButterflyAttractor.tile.name=蝶アトラクター
+staxel.plant.quest.ButterflyAttractor.tile.name=蝶コイコイ
 //[Reference] 'Seems to be quite attractive to butterflies.'
-staxel.plant.quest.ButterFlyAttractor.description=蝶を引きつけるみたいだね。
+staxel.plant.quest.ButterFlyAttractor.description=蝶を引きつけるみたい。
 //[Reference] 'Butterfly Attractor'
-staxel.plant.quest.ButterFlyAttractor.name=蝶アトラクター
+staxel.plant.quest.ButterFlyAttractor.name=蝶コイコイ
 //[Reference] 'These weird seeds may turn out to become big.'
-staxel.plant.quest.GaintTurnipNoQuest.description=変な種は大きくなるかもしれないよ。
+staxel.plant.quest.GaintTurnipNoQuest.description=変わった種だけど大きく育ちそうだ。
 //[Reference] 'Giant Turnip'
 staxel.plant.quest.GaintTurnipNoQuest.name=巨大なカブ
 //[Reference] 'These weird seeds may turn out to become big.'
-staxel.plant.quest.GaintTurnipNoQuest.tile.description=変な種は大きくなるかもしれないよ。
+staxel.plant.quest.GaintTurnipNoQuest.tile.description=変わった種だけど大きく育ちそうだ。
 //[Reference] 'Giant Turnip'
 staxel.plant.quest.GaintTurnipNoQuest.tile.name=巨大なカブ
 staxel.plant.quest.RainbowButterfly.description=
@@ -4658,7 +4658,7 @@ staxel.priceTag.freeInCreative=クリエイティブモードでは無料
 //[Reference] 'Refine by Grouping'
 staxel.recipeBook.refine=グループ化して絞り込む
 //[Reference] 'Search...'
-staxel.recipeBook.search=検索...
+staxel.recipeBook.search=検索…
 //[Reference] 'StaxelNet join failed, invalid claim.'
 staxel.relay.invalidClaim=StaxelNetへの接続に失敗しました。無効なリクエストです。
 //[Reference] 'StaxelNet join failed, address not found.'
@@ -4689,65 +4689,65 @@ staxel.relays.Uk3=ロンドン3
 staxel.season.Autumn=秋
 
 //[Reference] '1st'
-staxel.season.date.1=1日
+staxel.season.date.1=1日目
 //[Reference] '2nd'
-staxel.season.date.2=2日
+staxel.season.date.2=2日目
 //[Reference] '3rd'
-staxel.season.date.3=3日
+staxel.season.date.3=3日目
 //[Reference] '4th'
-staxel.season.date.4=4日
+staxel.season.date.4=4日目
 //[Reference] '5th'
-staxel.season.date.5=5日
+staxel.season.date.5=5日目
 //[Reference] '6th'
-staxel.season.date.6=6日
+staxel.season.date.6=6日目
 //[Reference] '7th'
-staxel.season.date.7=7日
+staxel.season.date.7=7日目
 //[Reference] '8th'
-staxel.season.date.8=8日
+staxel.season.date.8=8日目
 //[Reference] '9th'
-staxel.season.date.9=9日
+staxel.season.date.9=9日目
 //[Reference] '10th'
-staxel.season.date.10=10日
+staxel.season.date.10=10日目
 //[Reference] '11th'
-staxel.season.date.11=11日
+staxel.season.date.11=11日目
 //[Reference] '12th'
-staxel.season.date.12=12日
+staxel.season.date.12=12日目
 //[Reference] '13th'
-staxel.season.date.13=13日
+staxel.season.date.13=13日目
 //[Reference] '14th'
-staxel.season.date.14=14日
+staxel.season.date.14=14日目
 //[Reference] '15th'
-staxel.season.date.15=15日
+staxel.season.date.15=15日目
 //[Reference] '16th'
-staxel.season.date.16=16日
+staxel.season.date.16=16日目
 //[Reference] '17th'
-staxel.season.date.17=17日
+staxel.season.date.17=17日目
 //[Reference] '18th'
-staxel.season.date.18=18日
+staxel.season.date.18=18日目
 //[Reference] '19th'
-staxel.season.date.19=19日
+staxel.season.date.19=19日目
 //[Reference] '20th'
-staxel.season.date.20=20日
+staxel.season.date.20=20日目
 //[Reference] '21st'
-staxel.season.date.21=21日
+staxel.season.date.21=21日目
 //[Reference] '22nd'
-staxel.season.date.22=22日
+staxel.season.date.22=22日目
 //[Reference] '23rd'
-staxel.season.date.23=23日
+staxel.season.date.23=23日目
 //[Reference] '24th'
-staxel.season.date.24=24日
+staxel.season.date.24=24日目
 //[Reference] '25th'
-staxel.season.date.25=25日
+staxel.season.date.25=25日目
 //[Reference] '26th'
-staxel.season.date.26=26日
+staxel.season.date.26=26日目
 //[Reference] '27th'
-staxel.season.date.27=27日
+staxel.season.date.27=27日目
 //[Reference] '28th'
-staxel.season.date.28=28日
+staxel.season.date.28=28日目
 //[Reference] '29th'
-staxel.season.date.29=29日
+staxel.season.date.29=29日目
 //[Reference] '30th'
-staxel.season.date.30=30日
+staxel.season.date.30=30日目
 //[Reference] 'Spring'
 staxel.season.Spring=春
 //[Reference] 'Summer'
@@ -4786,13 +4786,13 @@ staxel.signSettings.accept=保存
 //[Reference] 'Edit Sign'
 staxel.signSettings.title=看板の編集
 //[Reference] 'This world was created on a considerably dated version of Staxel. It is recommended to start a new world for the best experience.'
-staxel.singleplayer.oldWorldWarning=この世界は非常に古いバージョンのStaxelで作成されています。最高のエクスペリエンスをお楽しみいただけるよう、新しい世界を始めることをお勧めします。
+staxel.singleplayer.oldWorldWarning=この世界は非常に古いバージョンのStaxelで作成されています。最高の体験をしていただくには、新しい世界で始めることをお勧めします。
 //[Reference] 'Steal'
 staxel.stealPrompt.accept=盗む
 //[Reference] 'Cancel'
 staxel.stealPrompt.decline=キャンセル
 //[Reference] 'Are you sure you want to steal from this? There may be consequences!'
-staxel.stealPrompt.info=本当に盗みますか？ただで済むとは限りませんよ...？
+staxel.stealPrompt.info=本当に盗みますか？ただでは済みませんよ！
 //[Reference] 'Steal From'
 staxel.stealPrompt.title=盗む:
 staxel.tile.digital.Blue.description=
@@ -4929,7 +4929,7 @@ staxel.tile.leaves.Leaf.Forest.Winter.description=
 staxel.tile.leaves.Leaf.Forest.Winter.name=冬
 staxel.tile.ocean.Coral.description=
 //[Reference] 'Coral'
-staxel.tile.ocean.Coral.name=コーラルストーン
+staxel.tile.ocean.Coral.name=コーラル
 staxel.tile.quest.Eris.SurfCottonStem.description=
 //[Reference] 'Surf Cotton Stem'
 staxel.tile.quest.Eris.SurfCottonStem.name=サーフコットンの茎
@@ -4951,16 +4951,16 @@ staxel.tile.rock.Rock.5.Winter.description=
 staxel.tile.rock.Rock.5.Winter.name=冬
 staxel.tile.treetopVillage.UnbreakableWoodenWalkway.description=
 //[Reference] 'Unbreakable Wooden Walkway'
-staxel.tile.treetopVillage.UnbreakableWoodenWalkway.name=壊せない木製の歩道
+staxel.tile.treetopVillage.UnbreakableWoodenWalkway.name=壊せない木の歩道
 staxel.tile.water.FairyWater.description=
 //[Reference] 'Fairy Water'
-staxel.tile.water.FairyWater.name=フェアリーウォーター
+staxel.tile.water.FairyWater.name=妖精の水
 staxel.tile.water.IceWater.description=
 //[Reference] 'Ice Water'
 staxel.tile.water.IceWater.name=冷たい水
 staxel.tile.water.TropicalWater.description=
 //[Reference] 'Tropical Water'
-staxel.tile.water.TropicalWater.name=トロピカルウォーター
+staxel.tile.water.TropicalWater.name=南国の水
 staxel.tile.water.TropicalWaterfall.description=
 //[Reference] 'Tropical Waterfall'
 staxel.tile.water.TropicalWaterfall.name=南国の滝
@@ -5084,7 +5084,7 @@ staxel.tileObject.bobbleheads.FarmFanBobblehead.description=世界に1つだけ�
 staxel.tileObject.bobbleheads.FarmFanBobblehead.name=ファームファンのボブルヘッド
 staxel.tileObject.bobbleheads.LambdaBobbleHead.description=
 //[Reference] 'Lambda Bobble Head'
-staxel.tileObject.bobbleheads.LambdaBobbleHead.name=ランバダのボブルヘッド
+staxel.tileObject.bobbleheads.LambdaBobbleHead.name=ラムダのボブルヘッド
 staxel.tileObject.bobbleheads.MushroomGirlBobbleHead.description=
 //[Reference] 'Morel Bobble Head'
 staxel.tileObject.bobbleheads.MushroomGirlBobbleHead.name=モレルのボブルヘッド
@@ -5362,13 +5362,13 @@ staxel.tileObject.gatherable.fairy.GlowWorm.description=
 staxel.tileObject.gatherable.fairy.GlowWorm.name=ツチボタル
 staxel.tileObject.gatherable.fairy.HeartButterfly.description=
 //[Reference] 'Heart Butterfly'
-staxel.tileObject.gatherable.fairy.HeartButterfly.name=ハート型のチョウチョ
+staxel.tileObject.gatherable.fairy.HeartButterfly.name=ハート型の蝶
 staxel.tileObject.gatherable.fairy.LunarMoth.description=
 //[Reference] 'Lunar Moth'
 staxel.tileObject.gatherable.fairy.LunarMoth.name=オオミズアオ
 staxel.tileObject.gatherable.fairy.PastelButterfly.description=
 //[Reference] 'Pastel Butterfly'
-staxel.tileObject.gatherable.fairy.PastelButterfly.name=パステル色のチョウチョ
+staxel.tileObject.gatherable.fairy.PastelButterfly.name=パステル色の蝶
 staxel.tileObject.gatherable.fairy.RoseSnail.description=
 //[Reference] 'Rose Snail'
 staxel.tileObject.gatherable.fairy.RoseSnail.name=バラ色のカタツムリ
@@ -5425,7 +5425,7 @@ staxel.tileObject.gatherable.PearlShell.description=
 staxel.tileObject.gatherable.PearlShell.name=真珠の貝殻
 staxel.tileObject.gatherable.PinkButterfly.description=
 //[Reference] 'Pink Butterfly'
-staxel.tileObject.gatherable.PinkButterfly.name=ピンクバタフライ
+staxel.tileObject.gatherable.PinkButterfly.name=ピンクの蝶
 staxel.tileObject.gatherable.PurpleButterfly.description=
 //[Reference] 'Purple Butterfly'
 staxel.tileObject.gatherable.PurpleButterfly.name=紫色の蝶
@@ -5446,10 +5446,10 @@ staxel.tileObject.gatherable.RedCoral.description=
 staxel.tileObject.gatherable.RedCoral.name=赤サンゴ
 staxel.tileObject.gatherable.RedCricket.description=
 //[Reference] 'Red Cricket'
-staxel.tileObject.gatherable.RedCricket.name=赤色コオロギ
+staxel.tileObject.gatherable.RedCricket.name=赤いコオロギ
 staxel.tileObject.gatherable.RedDragonfly.description=
 //[Reference] 'Red Dragonfly'
-staxel.tileObject.gatherable.RedDragonfly.name=赤のトンボ
+staxel.tileObject.gatherable.RedDragonfly.name=赤いトンボ
 staxel.tileObject.gatherable.Scorpion.description=
 //[Reference] 'Scorpion'
 staxel.tileObject.gatherable.Scorpion.name=サソリ
@@ -5479,31 +5479,31 @@ staxel.tileObject.gatherable.tropical.GoldenBeetle.description=
 staxel.tileObject.gatherable.tropical.GoldenBeetle.name=黄金のカブトムシ
 staxel.tileObject.gatherable.tropical.RoyalGreenButterfly.description=
 //[Reference] 'Royal Green Butterfly'
-staxel.tileObject.gatherable.tropical.RoyalGreenButterfly.name=ロイヤルグリーンのチョウチョ
+staxel.tileObject.gatherable.tropical.RoyalGreenButterfly.name=ロイヤルグリーンの蝶
 staxel.tileObject.gatherable.tropical.ShadowButterfly.description=
 //[Reference] 'Shadow Butterfly'
-staxel.tileObject.gatherable.tropical.ShadowButterfly.name=影のチョウチョ
+staxel.tileObject.gatherable.tropical.ShadowButterfly.name=影の蝶
 staxel.tileObject.gatherable.tropical.ShieldBeetle.description=
 //[Reference] 'Shield Beetle'
 staxel.tileObject.gatherable.tropical.ShieldBeetle.name=カメムシ
 staxel.tileObject.gatherable.tropical.TallBeetle.description=
 //[Reference] 'Tall Beetle'
-staxel.tileObject.gatherable.tropical.TallBeetle.name=背高のカブトムシ
+staxel.tileObject.gatherable.tropical.TallBeetle.name=長いのカブトムシ
 staxel.tileObject.gatherable.tropical.TropicalButterfly.description=
 //[Reference] 'Tropical Butterfly'
-staxel.tileObject.gatherable.tropical.TropicalButterfly.name=熱帯のチョウチョ
+staxel.tileObject.gatherable.tropical.TropicalButterfly.name=熱帯の蝶
 staxel.tileObject.gatherable.tropical.TropicalLeafBug.description=
 //[Reference] 'Tropical Leaf Bug'
 staxel.tileObject.gatherable.tropical.TropicalLeafBug.name=熱帯のコノハムシ
 staxel.tileObject.gatherable.WhiteButterfly.description=
 //[Reference] 'White Butterfly'
-staxel.tileObject.gatherable.WhiteButterfly.name=ホワイトバタフライ
+staxel.tileObject.gatherable.WhiteButterfly.name=白い蝶
 staxel.tileObject.gatherable.WillOTheWisp.description=
 //[Reference] 'Will-o'-the-wisp'
 staxel.tileObject.gatherable.WillOTheWisp.name=ウィルオウィスプ
 staxel.tileObject.gatherable.YellowButterfly.description=
 //[Reference] 'Yellow Butterfly'
-staxel.tileObject.gatherable.YellowButterfly.name=イエローバタフライ
+staxel.tileObject.gatherable.YellowButterfly.name=黄色い蝶
 staxel.tileObject.gatherable.ZebraButterfly.description=
 //[Reference] 'Zebra Butterfly'
 staxel.tileObject.gatherable.ZebraButterfly.name=トラフタイマイ
@@ -5686,7 +5686,7 @@ staxel.tileObject.misc.HelpBlock.description=
 staxel.tileObject.misc.HelpBlock.name=ヘルプブロック
 staxel.tileObject.misc.Scaffolding.description=
 //[Reference] 'Scaffolding'
-staxel.tileObject.misc.Scaffolding.name=足場の材料
+staxel.tileObject.misc.Scaffolding.name=足場
 staxel.tileObject.misc.SlugCatPlush.description=
 //[Reference] 'Slug Cat Plush'
 staxel.tileObject.misc.SlugCatPlush.name=なまけネコのぬいぐるみ
@@ -5702,7 +5702,7 @@ staxel.tileObject.museum.fossils.Amber.description=注意深く見てみると�
 //[Reference] 'Fossilised Amber'
 staxel.tileObject.museum.fossils.Amber.name=化石化した琥珀
 //[Reference] 'Vorlen was not happy the last time you pretended this was a musical horn.'
-staxel.tileObject.museum.fossils.Ammonite.description=ヴォーレンは君が前回これで角笛の真似をしたのが面白くなかったみたいだよ。
+staxel.tileObject.museum.fossils.Ammonite.description=ヴォーレンは君が前回これで角笛の真似をしたのが面白くなかったみたい。
 //[Reference] 'Ammonite'
 staxel.tileObject.museum.fossils.Ammonite.name=アンモナイト
 //[Reference] 'At least it seems ancient. You never really know with these things.'
@@ -5710,7 +5710,7 @@ staxel.tileObject.museum.fossils.AncientTrinket.description=少なくとも、�
 //[Reference] 'Ancient Trinket'
 staxel.tileObject.museum.fossils.AncientTrinket.name=古代の装身具
 //[Reference] 'It's hard to tell just how old this colossal footprint might be.'
-staxel.tileObject.museum.fossils.DinoFootprintFossil.description=このバカでかい足跡がどれだけ古いかは良く分からない。
+staxel.tileObject.museum.fossils.DinoFootprintFossil.description=このバカでかい足跡がどれだけ古いのか正確には分からない。
 //[Reference] 'Mysterious Footprint'
 staxel.tileObject.museum.fossils.DinoFootprintFossil.name=謎の足跡
 //[Reference] 'This egg probably didn't come from a chicken.'
@@ -5813,7 +5813,7 @@ staxel.tileObject.museum.painting.Fruit.name=果物の入ったボウル
 //[Reference] 'I believe this is what they call 'modern art.''
 staxel.tileObject.museum.painting.Mistake.description=これが「モダンアート」と呼ばれるものなんだね。
 //[Reference] 'The Mistake'
-staxel.tileObject.museum.painting.Mistake.name=失敗
+staxel.tileObject.museum.painting.Mistake.name=錯誤
 //[Reference] 'Said to have been painted by a princess, as a gift for her forbidden love.'
 staxel.tileObject.museum.painting.Roses.description=お姫様が禁じられた愛の贈り物に描いたと言われている。
 //[Reference] 'By Any Other Name'
@@ -6046,7 +6046,7 @@ staxel.tileObject.quest.Eris.Materials.GlassSlipperTaken.description=
 staxel.tileObject.quest.Eris.Materials.GlassSlipperTaken.name=ガラスの靴
 staxel.tileObject.quest.Eris.Materials.SilkDeposit.description=
 //[Reference] 'Silk Deposit'
-staxel.tileObject.quest.Eris.Materials.SilkDeposit.name=シルクの一部
+staxel.tileObject.quest.Eris.Materials.SilkDeposit.name=シルクの塊
 staxel.tileObject.quest.Eris.PrincessTowerDoor.description=
 //[Reference] 'Princess Tower Door'
 staxel.tileObject.quest.Eris.PrincessTowerDoor.name=お姫様の塔の扉
@@ -6061,13 +6061,13 @@ staxel.tileObject.quest.FarmFan.TractorBed.description=
 staxel.tileObject.quest.FarmFan.TractorBed.name=トラクターのベッド
 staxel.tileObject.quest.Jamie.ArcadeMachineBlue.description=
 //[Reference] 'Arcade Machine Blue'
-staxel.tileObject.quest.Jamie.ArcadeMachineBlue.name=ゲーセン機（青）
+staxel.tileObject.quest.Jamie.ArcadeMachineBlue.name=ゲーセン筐体（青）
 staxel.tileObject.quest.Jamie.ArcadeMachineGreen.description=
 //[Reference] 'Arcade Machine Green'
-staxel.tileObject.quest.Jamie.ArcadeMachineGreen.name=ゲーセン機（緑）
+staxel.tileObject.quest.Jamie.ArcadeMachineGreen.name=ゲーセン筐体（緑）
 staxel.tileObject.quest.Jamie.ArcadeMachineRed.description=
 //[Reference] 'Arcade Machine Red'
-staxel.tileObject.quest.Jamie.ArcadeMachineRed.name=ゲーセン機（赤）
+staxel.tileObject.quest.Jamie.ArcadeMachineRed.name=ゲーセン筐体（赤）
 staxel.tileObject.quest.Jamie.DemonKing.DemonKingDoor.description=
 //[Reference] 'Demon King Door'
 staxel.tileObject.quest.Jamie.DemonKing.DemonKingDoor.name=デーモンキングの扉
@@ -6085,13 +6085,13 @@ staxel.tileObject.quest.Jamie.DemonKing.DemonKingDoor4_Locked.description=
 staxel.tileObject.quest.Jamie.DemonKing.DemonKingDoor4_Locked.name=水の扉（ロック中）
 staxel.tileObject.quest.Jamie.DemonKing.DemonTowerDoor.description=
 //[Reference] 'Demon Tower Door'
-staxel.tileObject.quest.Jamie.DemonKing.DemonTowerDoor.name=デーモン塔の扉
+staxel.tileObject.quest.Jamie.DemonKing.DemonTowerDoor.name=デーモンタワーの扉
 staxel.tileObject.quest.Jamie.DemonKing.DemonTowerDoor_Locked.description=
 //[Reference] 'Demon Tower Locked Door'
-staxel.tileObject.quest.Jamie.DemonKing.DemonTowerDoor_Locked.name=デーモン塔の扉（ロック中）
+staxel.tileObject.quest.Jamie.DemonKing.DemonTowerDoor_Locked.name=デーモンタワーの扉（ロック中）
 staxel.tileObject.quest.Jamie.DemonKing.MagicGatherable1.description=
 //[Reference] 'Earth Stand'
-staxel.tileObject.quest.Jamie.DemonKing.MagicGatherable1.name=大地のスタンド
+staxel.tileObject.quest.Jamie.DemonKing.MagicGatherable1.name=地のスタンド
 staxel.tileObject.quest.Jamie.DemonKing.MagicGatherable2.description=
 //[Reference] 'Wind Stand'
 staxel.tileObject.quest.Jamie.DemonKing.MagicGatherable2.name=風のスタンド
@@ -6106,10 +6106,10 @@ staxel.tileObject.quest.Jamie.DemonKing.MagicGatherableUsed.description=
 staxel.tileObject.quest.Jamie.DemonKing.MagicGatherableUsed.name=空のスタンド
 staxel.tileObject.quest.Jamie.MiniGameArcadeMachine.description=
 //[Reference] 'Mini Game Arcade Machine'
-staxel.tileObject.quest.Jamie.MiniGameArcadeMachine.name=ゲーセン機（ミニ）
+staxel.tileObject.quest.Jamie.MiniGameArcadeMachine.name=ミニゲーセン筐体
 staxel.tileObject.quest.Jamie.MiniQuestCompleter.description=
 //[Reference] 'Exit Strategy'
-staxel.tileObject.quest.Jamie.MiniQuestCompleter.name=出口戦略
+staxel.tileObject.quest.Jamie.MiniQuestCompleter.name=出口の標識
 staxel.tileObject.quest.Jamie.MiniQuestExit.description=
 //[Reference] 'Mini Quest Exit'
 staxel.tileObject.quest.Jamie.MiniQuestExit.name=ミニクエストの出口
@@ -6173,7 +6173,7 @@ staxel.tileObject.quest.Riah.ShipInABottle.description=これはいつ見ても�
 staxel.tileObject.quest.Riah.ShipInABottle.name=ボトルシップ
 staxel.tileObject.quest.tutorial.RedCricket.description=
 //[Reference] 'Red Cricket'
-staxel.tileObject.quest.tutorial.RedCricket.name=赤色コオロギ
+staxel.tileObject.quest.tutorial.RedCricket.name=赤いコオロギ
 staxel.tileObject.restaurant.CoffeeGrinder.description=
 //[Reference] 'Coffee Grinder'
 staxel.tileObject.restaurant.CoffeeGrinder.name=コーヒーミル
@@ -6551,10 +6551,10 @@ staxel.tileObject.shop.ShopWindow4.description=
 staxel.tileObject.shop.ShopWindow4.name=ショーウィンドウ4
 staxel.tileObject.sign.LargeWoodenSign.description=
 //[Reference] 'Large Wooden Sign'
-staxel.tileObject.sign.LargeWoodenSign.name=大きな木製看板
+staxel.tileObject.sign.LargeWoodenSign.name=大きな木の看板
 staxel.tileObject.sign.SmallWoodenSign.description=
 //[Reference] 'Small Wooden Sign'
-staxel.tileObject.sign.SmallWoodenSign.name=小さな木製看板
+staxel.tileObject.sign.SmallWoodenSign.name=小さな木の看板
 staxel.tileObject.tavern.PinballMachine.description=
 //[Reference] 'Pinball Machine'
 staxel.tileObject.tavern.PinballMachine.name=ピンボールマシン
@@ -6983,7 +6983,7 @@ staxel.tileObject.totems.workplace.TownSquare.description=
 staxel.tileObject.totems.workplace.TownSquare.name=町の広場の門
 staxel.tileObject.tropical.TikiTorch.description=
 //[Reference] 'Tiki Torch'
-staxel.tileObject.tropical.TikiTorch.name=ティキのたいまつ
+staxel.tileObject.tropical.TikiTorch.name=ティキトーチ
 staxel.tileObject.tropical.TropicalIslandEntrance.description=
 //[Reference] 'Tropical Island Entrance'
 staxel.tileObject.tropical.TropicalIslandEntrance.name=南国島の入口
@@ -7055,13 +7055,13 @@ staxel.tileObject.villagers.DamianSpawner.description=
 staxel.tileObject.villagers.DamianSpawner.name=ダミアンのスポナー
 staxel.tileObject.villagers.ElfVIllager1Spawner.description=
 //[Reference] 'Elf VIllager 1 Spawner'
-staxel.tileObject.villagers.ElfVIllager1Spawner.name=エルフの村人1スポーン点
+staxel.tileObject.villagers.ElfVIllager1Spawner.name=エルフの村人1のスポナー
 staxel.tileObject.villagers.ElfVIllager2Spawner.description=
 //[Reference] 'Elf VIllager 2 Spawner'
-staxel.tileObject.villagers.ElfVIllager2Spawner.name=エルフの村人2スポーン点
+staxel.tileObject.villagers.ElfVIllager2Spawner.name=エルフの村人2のスポナー
 staxel.tileObject.villagers.ElfVIllager3Spawner.description=
 //[Reference] 'Elf VIllager 3 Spawner'
-staxel.tileObject.villagers.ElfVIllager3Spawner.name=エルフの村人3スポーン点
+staxel.tileObject.villagers.ElfVIllager3Spawner.name=エルフの村人3のスポナー
 staxel.tileObject.villagers.festival.DefinitelyNotRiahSpawner.description=
 //[Reference] 'Definitely Not Riah Spawner'
 staxel.tileObject.villagers.festival.DefinitelyNotRiahSpawner.name=リア？！？のスポナー
@@ -7073,28 +7073,28 @@ staxel.tileObject.villagers.festival.NotRiahSpawner.description=
 staxel.tileObject.villagers.festival.NotRiahSpawner.name=リア？のスポナー
 staxel.tileObject.villagers.LilySpawner.description=
 //[Reference] 'Lily Spawner'
-staxel.tileObject.villagers.LilySpawner.name=リリーのスポーン点
+staxel.tileObject.villagers.LilySpawner.name=リリーのスポナー
 staxel.tileObject.villagers.MorelMushIslandSpawner.description=
 //[Reference] 'Morel Mush Island Spawner'
-staxel.tileObject.villagers.MorelMushIslandSpawner.name=モレルのキノコ島スポーン点
+staxel.tileObject.villagers.MorelMushIslandSpawner.name=モレル（キノコ島）のスポナー
 staxel.tileObject.villagers.MorelSpawner.description=
 //[Reference] 'Morel Spawner'
-staxel.tileObject.villagers.MorelSpawner.name=モレルのスポーン点
+staxel.tileObject.villagers.MorelSpawner.name=モレルのスポナー
 staxel.tileObject.villagers.PrimSpawner.description=
 //[Reference] 'Prim Spawner'
-staxel.tileObject.villagers.PrimSpawner.name=プリムのスポーン点
+staxel.tileObject.villagers.PrimSpawner.name=プリムのスポナー
 staxel.tileObject.villagers.PrinceCastleNobody1Spawner.description=
 //[Reference] 'Prince Castle Nobody1Spawner'
-staxel.tileObject.villagers.PrinceCastleNobody1Spawner.name=王子様の城のモブ1スポーン点
+staxel.tileObject.villagers.PrinceCastleNobody1Spawner.name=王子様の城のモブ1のスポナー
 staxel.tileObject.villagers.PrinceCastleNobody2Spawner.description=
 //[Reference] 'Prince Castle Nobody2Spawner'
-staxel.tileObject.villagers.PrinceCastleNobody2Spawner.name=王子様の城のモブ2スポーン点
+staxel.tileObject.villagers.PrinceCastleNobody2Spawner.name=王子様の城のモブ2のスポナー
 staxel.tileObject.villagers.PrinceCastleNobody3Spawner.description=
 //[Reference] 'Prince Castle Nobody3Spawner'
-staxel.tileObject.villagers.PrinceCastleNobody3Spawner.name=王子様の城のモブ3スポーン点
+staxel.tileObject.villagers.PrinceCastleNobody3Spawner.name=王子様の城のモブ3のスポナー
 staxel.tileObject.villagers.PrinceCastleSpawner.description=
 //[Reference] 'Prince Castle Spawner'
-staxel.tileObject.villagers.PrinceCastleSpawner.name=王子様の城のスポーン点
+staxel.tileObject.villagers.PrinceCastleSpawner.name=王子（城）のスポナー
 staxel.tileObject.villagers.PrinceSpawner.description=
 //[Reference] 'Prince Spawner'
 staxel.tileObject.villagers.PrinceSpawner.name=王子のスポナー
@@ -7106,10 +7106,10 @@ staxel.tileObject.villagers.QuietTourist.description=
 staxel.tileObject.villagers.QuietTourist.name=物静かな観光客
 staxel.tileObject.villagers.RemSpawner.description=
 //[Reference] 'Rem Spawner'
-staxel.tileObject.villagers.RemSpawner.name=レムのスポーン点
+staxel.tileObject.villagers.RemSpawner.name=レムのスポナー
 staxel.tileObject.villagers.RemVillageSpawner.description=
 //[Reference] 'Rem Village Spawner'
-staxel.tileObject.villagers.RemVillageSpawner.name=レムの村スポナー
+staxel.tileObject.villagers.RemVillageSpawner.name=レム（村）のスポナー
 staxel.tileObject.villagers.rewards.Aliza.AlizasWrench.description=
 //[Reference] 'Aliza's Wrench'
 staxel.tileObject.villagers.rewards.Aliza.AlizasWrench.name=アリザのレンチ
@@ -7160,10 +7160,10 @@ staxel.tileObject.villagers.rewards.FarmFan.CowPlushy.description=
 staxel.tileObject.villagers.rewards.FarmFan.CowPlushy.name=ファームファンの牛のぬいぐるみ
 staxel.tileObject.villagers.rewards.Jamie.GameBug.description=
 //[Reference] 'Game Bug'
-staxel.tileObject.villagers.rewards.Jamie.GameBug.name=ゲーム虫
+staxel.tileObject.villagers.rewards.Jamie.GameBug.name=ゲームの虫
 staxel.tileObject.villagers.rewards.Jamie.GameFish.description=
 //[Reference] 'Game Fish'
-staxel.tileObject.villagers.rewards.Jamie.GameFish.name=ゲームフィッシュ
+staxel.tileObject.villagers.rewards.Jamie.GameFish.name=ゲームの魚
 staxel.tileObject.villagers.rewards.Jamie.ReplicaSword.description=
 //[Reference] 'Replica Sword'
 staxel.tileObject.villagers.rewards.Jamie.ReplicaSword.name=剣のレプリカ
@@ -7193,7 +7193,7 @@ staxel.tileObject.villagers.RiahSpawner.description=
 staxel.tileObject.villagers.RiahSpawner.name=リアのスポナー
 staxel.tileObject.villagers.RobinSpawner.description=
 //[Reference] 'Robin Spawner'
-staxel.tileObject.villagers.RobinSpawner.name=ロビンのスポーン点
+staxel.tileObject.villagers.RobinSpawner.name=ロビンのスポナー
 staxel.tileObject.villagers.SmartTourist.description=
 //[Reference] 'Smart Tourist'
 staxel.tileObject.villagers.SmartTourist.name=小粋な観光客
@@ -7206,7 +7206,7 @@ staxel.tileObject.villagers.VorlenSpawner.description=この奇妙な生き物�
 staxel.tileObject.villagers.VorlenSpawner.name=不思議な蝶
 staxel.tileObject.villagers.WrenSpawner.description=
 //[Reference] 'Wren Spawner'
-staxel.tileObject.villagers.WrenSpawner.name=レンのスポーン点
+staxel.tileObject.villagers.WrenSpawner.name=レンのスポナー
 //[Reference] 'Airship Landing'
 staxel.totem.AirshipLanding=飛行船発着場
 //[Reference] 'Aliza's Home'
@@ -7268,7 +7268,7 @@ staxel.totem.festival.SnowdustShrine=スノーダスト神社
 //[Reference] 'This overlaps a festival area. These are periodically overwritten!'
 staxel.totem.FestivalOverlapped=お祭りエリアと重なっています。定期的に上書きされてしまいます！
 //[Reference] 'This sign contains a festival area. Its area will be overwritten during festivals!'
-staxel.totem.FestivalTotem=この看板はお祭りエリアを定めています。お祭り期間中、そのエリアは上書きされます！
+staxel.totem.FestivalTotem=この看板はお祭りエリアに入っています。お祭り期間中、このエリアは上書きされてしまいます！
 //[Reference] 'Furnishing requirements complete!'
 staxel.totem.FurnitureComplete=家具の要件が完了！
 //[Reference] 'Goth Mushroom'
@@ -7424,7 +7424,7 @@ staxel.tree.TangerineTree.name=タンジェリンの木
 //[Reference] 'You have unlearnt Blueprints or Recipes in your inventory. Make sure to consume them to add them to your Recipe or Blueprint list.'
 staxel.unlearntRecipesPrompt.info=インベントリに、まだ習得していない設計図またはレシピがあります。これらのアイテムは使用することでレシピや設計図のリストに追加できます。
 //[Reference] 'Unlearnt Recipes and Blueprints'
-staxel.unlearntRecipesPrompt.title=習得をリセットしたレシピと設計図
+staxel.unlearntRecipesPrompt.title=未習得のレシピと設計図
 //[Reference] 'Edit Mail'
 staxel.verb.editmail=手紙の編集
 //[Reference] 'Send Mail'
@@ -7432,7 +7432,7 @@ staxel.verb.sendmail=手紙の保存
 //[Reference] 'Write Mail'
 staxel.verb.writemail=手紙を書く
 //[Reference] 'You've given enough gifts for today, the reputation won't got any higher until tomorrow.'
-staxel.village.cantIncreaseRep=今日さしあげるプレゼントはこれくらいにしておきましょう。評判がもっと高くなることは明日までありません。
+staxel.village.cantIncreaseRep=今日の贈り物はこれくらいにしておこう。明日にならないとこれ以上友好度は上がりません。
 staxel.village.dialogue.ForestBunnyGiveItem.=
 //[Reference] '...'
 staxel.village.dialogue.ForestBunnyGiveItem.line:10000101=…
@@ -7441,7 +7441,7 @@ staxel.village.GalaxyIslandReset=銀河島がリセットされました。
 //[Reference] 'Material Islands have been reset.'
 staxel.village.materialIslandsReset=素材島がリセットされました。
 //[Reference] 'You need to complete a quest before your reputation goes any higher with this villager.'
-staxel.village.questBlocksRep=この村人によるあなたの評判がもっと高くなる前に、クエストを完了させる必要があります。
+staxel.village.questBlocksRep=この村人の友好度を上げるには、クエストを完了させる必要があります。
 //[Reference] '{0-name} has left the village.'
 staxel.village.villagerLeftTown={0-name}が村を離れました。
 //[Reference] 'Aliza'
