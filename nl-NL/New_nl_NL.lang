@@ -546,6 +546,18 @@ staxel.commands.learnRecipe.NoSuchRecipe=Geen recept gevonden met opgegeven code
 staxel.commands.learnRecipe.NotEnoughParameters=Geen opgegeven receptcode
 //[Reference] 'Learned Recipe: {0-recipeCode}'
 staxel.commands.learnRecipe.Success=Recept geleerd: {0-recipeCode}
+//TODO Translate [Reference] 'You do not have the permission to use the command {0-command}.'
+staxel.commands.permission.BaseError=
+//TODO Translate [Reference] 'Cheating is not enabled.'
+staxel.commands.permission.CheatsNotEnabled=
+//TODO Translate [Reference] 'You do not have the permission to use the command {0-command}. {1-reason}'
+staxel.commands.permission.ErrorWithReason=
+//TODO Translate [Reference] 'Only the host can use this command.'
+staxel.commands.permission.OnlyHosts=
+//TODO Translate [Reference] 'Only the host or admins can use this command.'
+staxel.commands.permission.OnlyHostsAndAdmins=
+//TODO Translate [Reference] 'This command is only avaliable when developing.'
+staxel.commands.permission.OnlyInDevelopment=
 //[Reference] 'Pong. (Server)'
 staxel.commands.ping.Success=Pong. (Server)
 //[Reference] 'Pong. (Client)'
@@ -1096,14 +1108,20 @@ staxel.menu.playerList.Back=Terug
 staxel.menu.playerList.banned.Title=Verbannen Spelers
 //[Reference] 'Unban'
 staxel.menu.playerList.banned.Unban=Unban
+//TODO Translate [Reference] 'Change Permission'
+staxel.menu.playerList.ChangePermission=
 //[Reference] 'Are you sure you want to ban this player?'
 staxel.menu.playerList.options.BanConfirm=Weet je zeker dat je deze speler wilt verbannen?
+//TODO Translate [Reference] 'Are you sure you want to the command permission to {0-permission}?'
+staxel.menu.playerList.options.ChangePermissionConfirm=
 //[Reference] 'Are you sure you want to kick this player?'
 staxel.menu.playerList.options.KickConfirm=Weet je zeker dat je deze speler wilt kicken?
 //[Reference] 'Player Options'
 staxel.menu.playerList.options.Title=Speler Opties
 //[Reference] 'Are you sure you want to unban this player?'
 staxel.menu.playerList.options.UnbanConfirm=Weet je zeker dat je deze speler wil ontbannen?
+//TODO Translate [Reference] 'Command Permissions:'
+staxel.menu.playerList.Permissions=
 //[Reference] 'Player List'
 staxel.menu.playerList.Title=Spelerlijst
 //[Reference] 'Press {0-button} to start'

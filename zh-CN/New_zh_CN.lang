@@ -547,6 +547,18 @@ staxel.commands.learnRecipe.NoSuchRecipe=
 staxel.commands.learnRecipe.NotEnoughParameters=
 //TODO Translate [Reference] 'Learned Recipe: {0-recipeCode}'
 staxel.commands.learnRecipe.Success=
+//TODO Translate [Reference] 'You do not have the permission to use the command {0-command}.'
+staxel.commands.permission.BaseError=
+//TODO Translate [Reference] 'Cheating is not enabled.'
+staxel.commands.permission.CheatsNotEnabled=
+//TODO Translate [Reference] 'You do not have the permission to use the command {0-command}. {1-reason}'
+staxel.commands.permission.ErrorWithReason=
+//TODO Translate [Reference] 'Only the host can use this command.'
+staxel.commands.permission.OnlyHosts=
+//TODO Translate [Reference] 'Only the host or admins can use this command.'
+staxel.commands.permission.OnlyHostsAndAdmins=
+//TODO Translate [Reference] 'This command is only avaliable when developing.'
+staxel.commands.permission.OnlyInDevelopment=
 //TODO Translate [Reference] 'Pong. (Server)'
 staxel.commands.ping.Success=
 //TODO Translate [Reference] 'Pong. (Client)'
@@ -1105,14 +1117,20 @@ staxel.menu.playerList.Back=返回
 staxel.menu.playerList.banned.Title=拉黑的玩家
 //[Reference] 'Unban'
 staxel.menu.playerList.banned.Unban=解除拉黑
+//TODO Translate [Reference] 'Change Permission'
+staxel.menu.playerList.ChangePermission=
 //[Reference] 'Are you sure you want to ban this player?'
 staxel.menu.playerList.options.BanConfirm=确定要拉黑这名玩家吗？
+//TODO Translate [Reference] 'Are you sure you want to the command permission to {0-permission}?'
+staxel.menu.playerList.options.ChangePermissionConfirm=
 //[Reference] 'Are you sure you want to kick this player?'
 staxel.menu.playerList.options.KickConfirm=确定要踢掉这名玩家吗？
 //[Reference] 'Player Options'
 staxel.menu.playerList.options.Title=玩家选项
 //[Reference] 'Are you sure you want to unban this player?'
 staxel.menu.playerList.options.UnbanConfirm=确定要解除拉黑这名玩家吗？
+//TODO Translate [Reference] 'Command Permissions:'
+staxel.menu.playerList.Permissions=
 //[Reference] 'Player List'
 staxel.menu.playerList.Title=玩家列表
 //[Reference] 'Press {0-button} to start'
