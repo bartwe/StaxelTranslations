@@ -30,6 +30,8 @@ controlHint.verb.Trash=Item weggooien
 controlHint.verb.Wave=Zwaaien naar
 //[Reference] 'Community Testers'
 credits.communityTesters=Community-testers
+//[Reference] 'Business Development'
+credits.joni.description=Zakelijke ontwikkeling
 //[Reference] 'Staxel has encountered a critical error and needs to be restarted.\n\nDetails...'
 error.preamble=Staxel is op een kritieke fout gestuit en moet worden afgesloten.\n\nMeer informatie...
 //[Reference] 'Staxel has encountered a critical error.\n\nDetails...'
@@ -226,8 +228,16 @@ nexel.ui.toolTip.type.Torso=Torso
 nexel.ui.toolTip.type.Usable=Bruikbaar
 //[Reference] 'Look Sensitivity'
 options.controls.LookThumbstickSensitivity=Kijkgevoeligheid
+//TODO Translate [Reference] 'Button Icons'
+options.controls.ui.buttonSets=
+//TODO Translate [Reference] 'Change Controller Buttons'
+options.controls.ui.controllerRebind=
 //[Reference] 'Control Scheme'
 options.controls.ui.controlScheme=Besturingsindeling
+//TODO Translate [Reference] 'Change Keyboard Buttons'
+options.controls.ui.keyboardRebind=
+//TODO Translate [Reference] 'Press any key/button or press {0} to remove key binding.'
+options.controls.ui.keyboardRebindCancel=
 //[Reference] 'Name Tag Scale'
 options.gameplay.ui.NameTagScale=Grootte naamlabels
 //[Reference] 'UI Outer Margin'
@@ -236,8 +246,14 @@ options.gameplay.ui.SafetyMargin=Buitenrand UI
 options.general.audio.ui=Menu's
 //[Reference] 'Rumble Strength'
 options.general.RumbleStrength=Trilkracht
+//[Reference] 'Reset to Default Key Bindings'
+options.keyBindings.resetToDefault=Terugzetten naar Standaard Toetsenbindingen
 //[Reference] 'Any Group'
 recipeBook.grouping.NoGrouping=Elke Groep
+//TODO Translate [Reference] 'Nintendo Switch'
+staxel.buttonSet.NintendoSwitch=
+//TODO Translate [Reference] 'Xbox One'
+staxel.buttonSet.XboxOne=
 
 //[Reference] 'Accessory'
 staxel.category.Accessory=Accessoire
@@ -496,6 +512,8 @@ staxel.commands.error.ConnectionNoPlayer=Aanvragende verbinding heeft geen entit
 staxel.commands.fly.Success=Vliegen instellen op {0-bool}.
 //[Reference] 'Unable to execute {0-commandName}. Got exception: {1-exceptionText}'
 staxel.commands.generic.Exception=Kan {0-commandName} niet uitvoeren. Heeft uitzondering: {1-exceptionText}
+//TODO Translate [Reference] 'Failed.'
+staxel.commands.generic.Fail=
 //[Reference] 'Failed to parse parameter {0-paramNumber} as a bool. Parameter was: {1-input}.'
 staxel.commands.generic.FailedBoolConvert=Kon parameter {0-paramNumber} niet parseren als bool. Parameter was: {1-input}.
 //[Reference] 'Failed to parse parameter {0-paramNumber} as a colour string. Parameter was: {1-input}.'
@@ -778,6 +796,10 @@ staxel.controlHints.section.Gameplay=Gameplay
 staxel.controlHints.section.Inventory=Inventaris
 //[Reference] 'Menus'
 staxel.controlHints.section.Menus=Menu's
+//TODO Translate [Reference] 'Nintendo Switch'
+staxel.controlScheme.NintendoSwitch=
+//TODO Translate [Reference] 'Xbox'
+staxel.controlScheme.Xbox=
 //[Reference] 'in {0-growTime} days during Doesn't grow in any seasons. Please report this as a bug.'
 staxel.description.GrowTimeDays.0=Groeit niet in een seizoen. Rapporteer dit als bug.
 //[Reference] 'in {0-growTime} days during {1-season}'
@@ -936,6 +958,8 @@ staxel.gameButton.MoveLeft=Naar links bewegen
 staxel.gameButton.MoveRight=Naar rechts bewegen
 //[Reference] 'Next Item'
 staxel.gameButton.NextItem=Volgende item
+//TODO Translate [Reference] 'None'
+staxel.gameButton.None=
 //[Reference] 'Pause'
 staxel.gameButton.Pause=Pauzeren
 //[Reference] 'Rotate Block Left'
@@ -946,6 +970,8 @@ staxel.gameButton.PlaceRotateRight=Blok rechtsom draaien
 staxel.gameButton.PrevItem=Vorige item
 //[Reference] 'Show Chat'
 staxel.gameButton.ShowChat=Chat weergeven
+//TODO Translate [Reference] 'Show Console'
+staxel.gameButton.ShowDevConsole=
 //[Reference] 'Show Inventory'
 staxel.gameButton.ShowInventory=Inventaris weergeven
 //[Reference] 'Show Journal'
@@ -958,6 +984,8 @@ staxel.gameButton.Sneak=Sluipen
 staxel.gameButton.Sprint=Sprinten
 //[Reference] 'Toggle Map'
 staxel.gameButton.ToggleMap=Kaart aan-/uitzetten
+//[Reference] 'Toggle Third Person'
+staxel.gameButton.ToggleThirdPerson=3e persoon in-/uitschakelen
 //[Reference] 'Use'
 staxel.gameButton.Use=Gebruiken
 //[Reference] 'Not looking at an animal.'
@@ -1038,6 +1066,8 @@ staxel.mainMenu.FailedToParseIP=Kon geen verbinding maken.\n\n Het adres dat je 
 staxel.mainMenu.multiPlayer.Host=Spel hosten
 //[Reference] 'Join Friend's Game'
 staxel.mainMenu.multiPlayer.Join=Deelnemen aan spel van vriend
+//TODO Translate [Reference] 'Join IP address'
+staxel.mainMenu.multiPlayer.JoinByIP=
 //[Reference] 'Looking for Local Games...'
 staxel.mainMenu.multiPlayer.LocalConnect=Op zoek naar lokale spelen...
 //[Reference] 'Connecting to Online Services...'
@@ -1120,7 +1150,7 @@ staxel.menu.playerList.options.KickConfirm=Weet je zeker dat je deze speler wilt
 staxel.menu.playerList.options.Title=Speler Opties
 //[Reference] 'Are you sure you want to unban this player?'
 staxel.menu.playerList.options.UnbanConfirm=Weet je zeker dat je deze speler wil ontbannen?
-//TODO Translate [Reference] 'Command Permissions:'
+//TODO Translate [Reference] 'Command Permissions'
 staxel.menu.playerList.Permissions=
 //[Reference] 'Player List'
 staxel.menu.playerList.Title=Spelerlijst
@@ -1182,12 +1212,16 @@ staxel.notification.magicTeleport.RequiresGlobal=Je kunt nu niet teleporteren, i
 staxel.notification.magicTeleport.TeleportAlreadyActive=Je kunt geen teleportatie opstarten terwijl er al een actief is.
 //[Reference] 'Your letter has been sent.'
 staxel.notification.mail.Sent=Je brief is verstuurd.
+//TODO Translate [Reference] 'The tile you are trying to sit in, can't be sat on.'
+staxel.notification.NotPlayerDock=
 //[Reference] '{0-petName} doesn't want to follow. You have too many pets following you already.'
 staxel.notification.pet.TooManyFollowing={0-petName} wil niet volgen. Je wordt al door te veel huisdieren gevolgd.
 //[Reference] 'This island will reset when you leave and all changes made will be undone.'
 staxel.notification.placedOnDeleteIsland=Dit eiland wordt gereset zodra je vertrekt en alle wijzigingen die je hebt aangebracht gaan verloren.
 //[Reference] 'This island resets each season and all changes made will be undone.'
 staxel.notification.placedOnResetIsland=Dit eiland wordt elk seizoen gereset en alle wijzigingen gaan verloren.
+//TODO Translate [Reference] 'Someone is already occupying that spot.'
+staxel.notification.PlayerDockFull=
 //[Reference] 'This tile cannot be broken.'
 staxel.notification.tile.UnbreakableTile=Deze tegel kan niet kapotgemaakt worden.
 //[Reference] 'Someone else is busy with this tile.'
@@ -1218,6 +1252,14 @@ staxel.notifications.TeleportHome=Je bent {0-petal} blaadjes verloren aan kosten
 staxel.notifications.TeleportHome.TeleportAlreadyActive=Je bent {0-petal} blaadjes verloren aan kosten voor de rit naar huis.
 //[Reference] 'This tool isn't strong enough.'
 staxel.notifications.WeakTool=Dit gereedschap is niet sterk genoeg.
+//[Reference] 'Third Person Distance'
+staxel.options.ThirdPerson.Distance=3e persoon afstand
+//[Reference] 'Flip Third Person'
+staxel.options.ThirdPerson.Flip=3e persoon omdraaien
+//[Reference] 'Third Person Height'
+staxel.options.ThirdPerson.Height=3e persoon lengte
+//[Reference] 'Third Person Offset'
+staxel.options.ThirdPerson.Offset=3e persoon horizontale afstand
 //[Reference] 'Catalogue Search'
 staxel.overlay.catalogue.ShopPage.searchAndFilters.title=Catalogus Doorzoeken
 //[Reference] 'Enter a search term'
@@ -1352,6 +1394,24 @@ staxel.priceTag.Common={0-price}: {1-item}
 staxel.returnHome.Body=Weet je zeker dat je terug naar huis wil? Dit zal {0-petals} blaadjes kosten.
 //[Reference] 'Return Home'
 staxel.returnHome.Title=Terug naar huis
+//TODO Translate [Reference] 'Allow Connections from'
+staxel.steamNetworking.ConnectionMode=
+//TODO Translate [Reference] 'Steam Friends'
+staxel.steamNetworking.Friends=
+//TODO Translate [Reference] 'Steam Friends and IP'
+staxel.steamNetworking.FriendsAndIP=
+//TODO Translate [Reference] 'IP'
+staxel.steamNetworking.IP=
+//TODO Translate [Reference] 'Failed to connect'
+staxel.steamNetworking.networkError.genericTitle=
+//TODO Translate [Reference] 'Failed to accept an invite as the player is not in the same version of Staxel. You are currently playing original Staxel and you can join by closing this game and accepting the invite again.'
+staxel.steamNetworking.networkError.wrongGameNexel=
+//TODO Translate [Reference] 'Failed to accept an invite as the player is not in the same version of Staxel. You are currently playing Staxel CE and you can join by closing this game and accepting the invite again.'
+staxel.steamNetworking.networkError.wrongGameStaxel=
+//TODO Translate [Reference] 'Failed to accept an invite as the player is not in the same version of Staxel. You are currently playing Staxel CE and cannot join them.'
+staxel.steamNetworking.networkError.wrongGameStaxelNonWindows=
+//TODO Translate [Reference] 'Please enter in a password.'
+staxel.steamNetworking.PasswordNeeded=
 //[Reference] 'Arcade Challenge'
 staxel.structure.island.ArcadeChallenge.offmap=Arcade-uitdaging
 //[Reference] 'Demon King Maze'
@@ -1428,6 +1488,8 @@ staxel.transformation.CantTransform=Nog niet klaar om te transformeren!!
 staxel.transformation.NotTransformed=Je bent niet getransformeerd!
 //[Reference] 'Hold ^b:Use; or ^b:Interact; to keep reeling...'
 staxel.ui.fishing.message.Reel=Hou ^b:Use; of ^b:Interact; ingedrukt om binnen te halen...
+//TODO Translate [Reference] 'Failed to open webpage: {0-webpageLink}'
+staxel.ui.mainMenu.FailedToOpenSocial=
 //[Reference] 'Closing the game is taking some time. Please wait.'
 staxel.ui.Shutdown=Het kost wat tijd om het spel te sluiten. Even geduld.
 //[Reference] '{0-name} has left the island.'
@@ -1436,9 +1498,3 @@ staxel.village.villagerLeftIsland={0-name} heeft het eiland verlaten.
 staxel.wardrobe.NoEmptyInventorySlots=Kon accesoire niet verwijderen omdat je voorraad vol is
 //[Reference] 'Wearing'
 staxel.wardrobe.Wearing=Aan
-credits.joni.description=Zakelijke ontwikkeling
-staxel.gameButton.ToggleThirdPerson=3e persoon in-/uitschakelen
-staxel.options.ThirdPerson.Flip=3e persoon omdraaien
-staxel.options.ThirdPerson.Height=3e persoon lengte
-staxel.options.ThirdPerson.Distance=3e persoon afstand
-staxel.options.ThirdPerson.Offset=3e persoon horizontale afstand

@@ -30,6 +30,8 @@ controlHint.verb.Trash=Item wegwerfen
 controlHint.verb.Wave=Zuwinken
 //[Reference] 'Community Testers'
 credits.communityTesters=Community-Tester
+//[Reference] 'Business Development'
+credits.joni.description=Geschäftsentwicklung
 //[Reference] 'Staxel has encountered a critical error and needs to be restarted.\n\nDetails...'
 error.preamble=Staxel hat einen kritischen Fehler festgestellt und muss neu gestartet werden.\n\nDetails …
 //[Reference] 'Staxel has encountered a critical error.\n\nDetails...'
@@ -226,8 +228,16 @@ nexel.ui.toolTip.type.Torso=Oberkörper
 nexel.ui.toolTip.type.Usable=Verwendbar
 //[Reference] 'Look Sensitivity'
 options.controls.LookThumbstickSensitivity=Blickempfindlichkeit
+//TODO Translate [Reference] 'Button Icons'
+options.controls.ui.buttonSets=
+//TODO Translate [Reference] 'Change Controller Buttons'
+options.controls.ui.controllerRebind=
 //[Reference] 'Control Scheme'
 options.controls.ui.controlScheme=Kontrollschema
+//TODO Translate [Reference] 'Change Keyboard Buttons'
+options.controls.ui.keyboardRebind=
+//TODO Translate [Reference] 'Press any key/button or press {0} to remove key binding.'
+options.controls.ui.keyboardRebindCancel=
 //[Reference] 'Name Tag Scale'
 options.gameplay.ui.NameTagScale=Namensschildskalierung
 //[Reference] 'UI Outer Margin'
@@ -236,8 +246,14 @@ options.gameplay.ui.SafetyMargin=UI-Außenumrandung
 options.general.audio.ui=Menüs
 //[Reference] 'Rumble Strength'
 options.general.RumbleStrength=Vibrationsstärke
+//[Reference] 'Reset to Default Key Bindings'
+options.keyBindings.resetToDefault=Standard-Tastenbelegung wiederherstellen
 //[Reference] 'Any Group'
 recipeBook.grouping.NoGrouping=Beliebige Gruppe
+//TODO Translate [Reference] 'Nintendo Switch'
+staxel.buttonSet.NintendoSwitch=
+//TODO Translate [Reference] 'Xbox One'
+staxel.buttonSet.XboxOne=
 
 //[Reference] 'Accessory'
 staxel.category.Accessory=Zubehör
@@ -496,6 +512,8 @@ staxel.commands.error.ConnectionNoPlayer=Beim Anfordern der Verbindung fehlt ein
 staxel.commands.fly.Success=Fliegen festlegen auf {0-bool}.
 //[Reference] 'Unable to execute {0-commandName}. Got exception: {1-exceptionText}'
 staxel.commands.generic.Exception=Ausführen von {0-commandName} nicht möglich. Ausnahme erhalten: {1-exceptionText}
+//TODO Translate [Reference] 'Failed.'
+staxel.commands.generic.Fail=
 //[Reference] 'Failed to parse parameter {0-paramNumber} as a bool. Parameter was: {1-input}.'
 staxel.commands.generic.FailedBoolConvert=Das Parsen von Parameter {0-paramNumber} als ein boolescher Wert ist fehlgeschlagen. Parameter war: {1-input}.
 //[Reference] 'Failed to parse parameter {0-paramNumber} as a colour string. Parameter was: {1-input}.'
@@ -778,6 +796,10 @@ staxel.controlHints.section.Gameplay=Spiel
 staxel.controlHints.section.Inventory=Inventar
 //[Reference] 'Menus'
 staxel.controlHints.section.Menus=Menüs
+//TODO Translate [Reference] 'Nintendo Switch'
+staxel.controlScheme.NintendoSwitch=
+//TODO Translate [Reference] 'Xbox'
+staxel.controlScheme.Xbox=
 //[Reference] 'in {0-growTime} days during Doesn't grow in any seasons. Please report this as a bug.'
 staxel.description.GrowTimeDays.0=Wächst zu keiner Jahreszeit. Bitte als Fehler melden.
 //[Reference] 'in {0-growTime} days during {1-season}'
@@ -936,6 +958,8 @@ staxel.gameButton.MoveLeft=Nach links bewegen
 staxel.gameButton.MoveRight=Nach rechts bewegen
 //[Reference] 'Next Item'
 staxel.gameButton.NextItem=Nächstes Item
+//TODO Translate [Reference] 'None'
+staxel.gameButton.None=
 //[Reference] 'Pause'
 staxel.gameButton.Pause=Pause
 //[Reference] 'Rotate Block Left'
@@ -946,6 +970,8 @@ staxel.gameButton.PlaceRotateRight=Block rechtsherum drehen
 staxel.gameButton.PrevItem=Vorheriges Item
 //[Reference] 'Show Chat'
 staxel.gameButton.ShowChat=Chat anzeigen
+//TODO Translate [Reference] 'Show Console'
+staxel.gameButton.ShowDevConsole=
 //[Reference] 'Show Inventory'
 staxel.gameButton.ShowInventory=Inventar anzeigen
 //[Reference] 'Show Journal'
@@ -958,6 +984,8 @@ staxel.gameButton.Sneak=Schleichen
 staxel.gameButton.Sprint=Sprinten
 //[Reference] 'Toggle Map'
 staxel.gameButton.ToggleMap=Karte ein-/ausschalten
+//[Reference] 'Toggle Third Person'
+staxel.gameButton.ToggleThirdPerson=Dritte Person umschalten
 //[Reference] 'Use'
 staxel.gameButton.Use=Benutzen
 //[Reference] 'Not looking at an animal.'
@@ -1038,6 +1066,8 @@ staxel.mainMenu.FailedToParseIP=Verbindung nicht möglich.\n\nDie von dir eingeg
 staxel.mainMenu.multiPlayer.Host=Spiel hosten
 //[Reference] 'Join Friend's Game'
 staxel.mainMenu.multiPlayer.Join=Spiel eines Freunds beitreten
+//TODO Translate [Reference] 'Join IP address'
+staxel.mainMenu.multiPlayer.JoinByIP=
 //[Reference] 'Looking for Local Games...'
 staxel.mainMenu.multiPlayer.LocalConnect=Suche nach lokalen Spielen läuft …
 //[Reference] 'Connecting to Online Services...'
@@ -1120,7 +1150,7 @@ staxel.menu.playerList.options.KickConfirm=Bist du sicher, dass du diesen Spiele
 staxel.menu.playerList.options.Title=Spieler-Optionen
 //[Reference] 'Are you sure you want to unban this player?'
 staxel.menu.playerList.options.UnbanConfirm=Bist du sicher, dass du diesen Spieler entbannen möchtest?
-//TODO Translate [Reference] 'Command Permissions:'
+//TODO Translate [Reference] 'Command Permissions'
 staxel.menu.playerList.Permissions=
 //[Reference] 'Player List'
 staxel.menu.playerList.Title=Spielerliste
@@ -1182,12 +1212,16 @@ staxel.notification.magicTeleport.RequiresGlobal=Teleportieren im Moment nicht m
 staxel.notification.magicTeleport.TeleportAlreadyActive=Du kannst Teleportieren nicht starten, wenn Teleportieren bereits aktiv ist.
 //[Reference] 'Your letter has been sent.'
 staxel.notification.mail.Sent=Dein Brief wurde versandt.
+//TODO Translate [Reference] 'The tile you are trying to sit in, can't be sat on.'
+staxel.notification.NotPlayerDock=
 //[Reference] '{0-petName} doesn't want to follow. You have too many pets following you already.'
 staxel.notification.pet.TooManyFollowing={0-petName} will dir nicht folgen. Du hast zu viele Haustiere, die dir bereits folgen.
 //[Reference] 'This island will reset when you leave and all changes made will be undone.'
 staxel.notification.placedOnDeleteIsland=Wenn du die Insel verlässt, wird sie sich zurücksetzen und all deine Änderungen werden rückgängig gemacht.
 //[Reference] 'This island resets each season and all changes made will be undone.'
 staxel.notification.placedOnResetIsland=Diese Insel setzt sich mit jeder Jahreszeit zurück und all deine Änderungen werden rückgängig gemacht.
+//TODO Translate [Reference] 'Someone is already occupying that spot.'
+staxel.notification.PlayerDockFull=
 //[Reference] 'This tile cannot be broken.'
 staxel.notification.tile.UnbreakableTile=Die Fliese kann nicht zerbrochen werden.
 //[Reference] 'Someone else is busy with this tile.'
@@ -1218,6 +1252,14 @@ staxel.notifications.TeleportHome=Auf dem Nachhauseweg hast du {0-petal} Blüten
 staxel.notifications.TeleportHome.TeleportAlreadyActive=Auf dem Nachhauseweg hast du {0-petal} Blütenblätter als Gebühr verloren.
 //[Reference] 'This tool isn't strong enough.'
 staxel.notifications.WeakTool=Dieses Werkzeug ist nicht stark genug.
+//[Reference] 'Third Person Distance'
+staxel.options.ThirdPerson.Distance=Distanz zur Dritte Person
+//[Reference] 'Flip Third Person'
+staxel.options.ThirdPerson.Flip=Dritte Person umdrehen
+//[Reference] 'Third Person Height'
+staxel.options.ThirdPerson.Height=Höhe der Dritte Person
+//[Reference] 'Third Person Offset'
+staxel.options.ThirdPerson.Offset=Versatz der Dritte Person
 //[Reference] 'Catalogue Search'
 staxel.overlay.catalogue.ShopPage.searchAndFilters.title=Katalogsuche
 //[Reference] 'Enter a search term'
@@ -1352,6 +1394,24 @@ staxel.priceTag.Common={0-price}: {1-item}
 staxel.returnHome.Body=Bist du sicher, dass du zurück nach Hause möchtest? Das kostet dich {0-petals} Blütenblätter.
 //[Reference] 'Return Home'
 staxel.returnHome.Title=Nach Hause zurückkehren
+//TODO Translate [Reference] 'Allow Connections from'
+staxel.steamNetworking.ConnectionMode=
+//TODO Translate [Reference] 'Steam Friends'
+staxel.steamNetworking.Friends=
+//TODO Translate [Reference] 'Steam Friends and IP'
+staxel.steamNetworking.FriendsAndIP=
+//TODO Translate [Reference] 'IP'
+staxel.steamNetworking.IP=
+//TODO Translate [Reference] 'Failed to connect'
+staxel.steamNetworking.networkError.genericTitle=
+//TODO Translate [Reference] 'Failed to accept an invite as the player is not in the same version of Staxel. You are currently playing original Staxel and you can join by closing this game and accepting the invite again.'
+staxel.steamNetworking.networkError.wrongGameNexel=
+//TODO Translate [Reference] 'Failed to accept an invite as the player is not in the same version of Staxel. You are currently playing Staxel CE and you can join by closing this game and accepting the invite again.'
+staxel.steamNetworking.networkError.wrongGameStaxel=
+//TODO Translate [Reference] 'Failed to accept an invite as the player is not in the same version of Staxel. You are currently playing Staxel CE and cannot join them.'
+staxel.steamNetworking.networkError.wrongGameStaxelNonWindows=
+//TODO Translate [Reference] 'Please enter in a password.'
+staxel.steamNetworking.PasswordNeeded=
 //[Reference] 'Arcade Challenge'
 staxel.structure.island.ArcadeChallenge.offmap=Spielhallenherausforderung
 //[Reference] 'Demon King Maze'
@@ -1428,6 +1488,8 @@ staxel.transformation.CantTransform=Noch nicht bereit, um verwandelt zu werden!
 staxel.transformation.NotTransformed=Du bist nicht verwandelt!
 //[Reference] 'Hold ^b:Use; or ^b:Interact; to keep reeling...'
 staxel.ui.fishing.message.Reel=Halte ^b:Use; oder ^b:Interact; gedrückt, um die Angel weiter einzuholen …
+//TODO Translate [Reference] 'Failed to open webpage: {0-webpageLink}'
+staxel.ui.mainMenu.FailedToOpenSocial=
 //[Reference] 'Closing the game is taking some time. Please wait.'
 staxel.ui.Shutdown=Das Beenden des Spiels dauert einen Moment. Bitte warten.
 //[Reference] '{0-name} has left the island.'
@@ -1436,9 +1498,3 @@ staxel.village.villagerLeftIsland={0-name} hat die Insel verlassen.
 staxel.wardrobe.NoEmptyInventorySlots=Zubehör konnte nicht entfernt werden, da dein Inventar voll ist.
 //[Reference] 'Wearing'
 staxel.wardrobe.Wearing=Angelegt
-credits.joni.description=Geschäftsentwicklung
-staxel.gameButton.ToggleThirdPerson=Dritte Person umschalten
-staxel.options.ThirdPerson.Flip=Dritte Person umdrehen
-staxel.options.ThirdPerson.Height=Höhe der Dritte Person
-staxel.options.ThirdPerson.Distance=Distanz zur Dritte Person
-staxel.options.ThirdPerson.Offset=Versatz der Dritte Person

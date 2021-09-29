@@ -30,6 +30,8 @@ controlHint.verb.Trash=アイテムを捨てる
 controlHint.verb.Wave=手を振る：
 //[Reference] 'Community Testers'
 credits.communityTesters=コミュニティテスター
+//[Reference] 'Business Development'
+credits.joni.description=事業開発
 //[Reference] 'Staxel has encountered a critical error and needs to be restarted.\n\nDetails...'
 error.preamble=Staxel に致命的なエラーが発生したため、シャットダウンします。\n\n詳細…
 //[Reference] 'Staxel has encountered a critical error.\n\nDetails...'
@@ -226,8 +228,16 @@ nexel.ui.toolTip.type.Torso=胴体
 nexel.ui.toolTip.type.Usable=使用可能
 //[Reference] 'Look Sensitivity'
 options.controls.LookThumbstickSensitivity=感度
+//TODO Translate [Reference] 'Button Icons'
+options.controls.ui.buttonSets=
+//TODO Translate [Reference] 'Change Controller Buttons'
+options.controls.ui.controllerRebind=
 //[Reference] 'Control Scheme'
 options.controls.ui.controlScheme=操作のしかた
+//TODO Translate [Reference] 'Change Keyboard Buttons'
+options.controls.ui.keyboardRebind=
+//TODO Translate [Reference] 'Press any key/button or press {0} to remove key binding.'
+options.controls.ui.keyboardRebindCancel=
 //[Reference] 'Name Tag Scale'
 options.gameplay.ui.NameTagScale=ネームタグ倍率
 //[Reference] 'UI Outer Margin'
@@ -236,8 +246,14 @@ options.gameplay.ui.SafetyMargin=UI外縁
 options.general.audio.ui=メニュー
 //[Reference] 'Rumble Strength'
 options.general.RumbleStrength=振動強度
+//[Reference] 'Reset to Default Key Bindings'
+options.keyBindings.resetToDefault=キー設定をデフォルトに戻す
 //[Reference] 'Any Group'
 recipeBook.grouping.NoGrouping=すべてのグループ
+//TODO Translate [Reference] 'Nintendo Switch'
+staxel.buttonSet.NintendoSwitch=
+//TODO Translate [Reference] 'Xbox One'
+staxel.buttonSet.XboxOne=
 
 //[Reference] 'Accessory'
 staxel.category.Accessory=アクセサリー
@@ -496,6 +512,8 @@ staxel.commands.error.ConnectionNoPlayer=EntityPlayer を含むエンティテ�
 staxel.commands.fly.Success=飛行を {0-bool} に設定。
 //[Reference] 'Unable to execute {0-commandName}. Got exception: {1-exceptionText}'
 staxel.commands.generic.Exception={0-commandName} を実行できませんでした。例外: {1-exceptionText}
+//TODO Translate [Reference] 'Failed.'
+staxel.commands.generic.Fail=
 //[Reference] 'Failed to parse parameter {0-paramNumber} as a bool. Parameter was: {1-input}.'
 staxel.commands.generic.FailedBoolConvert=パラメータ {0-paramNumber} を bool としてパースできませんでした。パラメータは {1-input} です。
 //[Reference] 'Failed to parse parameter {0-paramNumber} as a colour string. Parameter was: {1-input}.'
@@ -778,6 +796,10 @@ staxel.controlHints.section.Gameplay=ゲームプレイ
 staxel.controlHints.section.Inventory=インベントリ
 //[Reference] 'Menus'
 staxel.controlHints.section.Menus=メニュー
+//TODO Translate [Reference] 'Nintendo Switch'
+staxel.controlScheme.NintendoSwitch=
+//TODO Translate [Reference] 'Xbox'
+staxel.controlScheme.Xbox=
 //[Reference] 'in {0-growTime} days during Doesn't grow in any seasons. Please report this as a bug.'
 staxel.description.GrowTimeDays.0=これはどの季節でも育ちません。バグとして報告してください。
 //[Reference] 'in {0-growTime} days during {1-season}'
@@ -936,6 +958,8 @@ staxel.gameButton.MoveLeft=左へ移動
 staxel.gameButton.MoveRight=右へ移動
 //[Reference] 'Next Item'
 staxel.gameButton.NextItem=次のアイテム
+//TODO Translate [Reference] 'None'
+staxel.gameButton.None=
 //[Reference] 'Pause'
 staxel.gameButton.Pause=停止
 //[Reference] 'Rotate Block Left'
@@ -946,6 +970,8 @@ staxel.gameButton.PlaceRotateRight=ブロックを右に回転
 staxel.gameButton.PrevItem=前のアイテム
 //[Reference] 'Show Chat'
 staxel.gameButton.ShowChat=チャットを表示する
+//TODO Translate [Reference] 'Show Console'
+staxel.gameButton.ShowDevConsole=
 //[Reference] 'Show Inventory'
 staxel.gameButton.ShowInventory=インベントリを表示する
 //[Reference] 'Show Journal'
@@ -958,6 +984,8 @@ staxel.gameButton.Sneak=スニーク
 staxel.gameButton.Sprint=ダッシュ
 //[Reference] 'Toggle Map'
 staxel.gameButton.ToggleMap=地図切り替え
+//[Reference] 'Toggle Third Person'
+staxel.gameButton.ToggleThirdPerson=三人称を切り替える
 //[Reference] 'Use'
 staxel.gameButton.Use=使う
 //[Reference] 'Not looking at an animal.'
@@ -1038,6 +1066,8 @@ staxel.mainMenu.FailedToParseIP=接続できませんでした。\n\n入力し�
 staxel.mainMenu.multiPlayer.Host=ゲームをホストする
 //[Reference] 'Join Friend's Game'
 staxel.mainMenu.multiPlayer.Join=友達のゲームに参加
+//TODO Translate [Reference] 'Join IP address'
+staxel.mainMenu.multiPlayer.JoinByIP=
 //[Reference] 'Looking for Local Games...'
 staxel.mainMenu.multiPlayer.LocalConnect=ローカルでゲームを探しています…
 //[Reference] 'Connecting to Online Services...'
@@ -1120,7 +1150,7 @@ staxel.menu.playerList.options.KickConfirm=このプレイヤーを追放して�
 staxel.menu.playerList.options.Title=プレイヤー設定
 //[Reference] 'Are you sure you want to unban this player?'
 staxel.menu.playerList.options.UnbanConfirm=このプレイヤーのBANの解除してもよろしですか？
-//TODO Translate [Reference] 'Command Permissions:'
+//TODO Translate [Reference] 'Command Permissions'
 staxel.menu.playerList.Permissions=
 //[Reference] 'Player List'
 staxel.menu.playerList.Title=プレイヤーリスト
@@ -1182,12 +1212,16 @@ staxel.notification.magicTeleport.RequiresGlobal=テレポートできません�
 staxel.notification.magicTeleport.TeleportAlreadyActive=テレポートを開始できません。既に開始されているテレポートがあります。
 //[Reference] 'Your letter has been sent.'
 staxel.notification.mail.Sent=手紙が送信されました。
+//TODO Translate [Reference] 'The tile you are trying to sit in, can't be sat on.'
+staxel.notification.NotPlayerDock=
 //[Reference] '{0-petName} doesn't want to follow. You have too many pets following you already.'
 staxel.notification.pet.TooManyFollowing={0-petName}はあなたについていきたくないようです。あなたの手元に既にいるペットが多すぎます。
 //[Reference] 'This island will reset when you leave and all changes made will be undone.'
 staxel.notification.placedOnDeleteIsland=この島はあなたが立ち去るとリセットされ、あらゆる変更もリセットされます。
 //[Reference] 'This island resets each season and all changes made will be undone.'
 staxel.notification.placedOnResetIsland=この島は季節が変わるごとにリセットされ、あらゆる変更もリセットされます。
+//TODO Translate [Reference] 'Someone is already occupying that spot.'
+staxel.notification.PlayerDockFull=
 //[Reference] 'This tile cannot be broken.'
 staxel.notification.tile.UnbreakableTile=このタイルを壊すことはできません。
 //[Reference] 'Someone else is busy with this tile.'
@@ -1218,6 +1252,14 @@ staxel.notifications.TeleportHome=帰り道、運賃として {0-petal} ペタ�
 staxel.notifications.TeleportHome.TeleportAlreadyActive=帰り道、運賃として {0-petal} ペタルを失いました。
 //[Reference] 'This tool isn't strong enough.'
 staxel.notifications.WeakTool=この道具には強度が足りません。
+//[Reference] 'Third Person Distance'
+staxel.options.ThirdPerson.Distance=三人称距離
+//[Reference] 'Flip Third Person'
+staxel.options.ThirdPerson.Flip=三人称を反転
+//[Reference] 'Third Person Height'
+staxel.options.ThirdPerson.Height=三人称身長
+//[Reference] 'Third Person Offset'
+staxel.options.ThirdPerson.Offset=三人称オフセット
 //[Reference] 'Catalogue Search'
 staxel.overlay.catalogue.ShopPage.searchAndFilters.title=カタログ検索
 //[Reference] 'Enter a search term'
@@ -1352,6 +1394,24 @@ staxel.priceTag.Common={0-price}: {1-item}
 staxel.returnHome.Body=本当に家に戻りますか？ {0-petals} ペタルが必要になります。
 //[Reference] 'Return Home'
 staxel.returnHome.Title=家に戻る
+//TODO Translate [Reference] 'Allow Connections from'
+staxel.steamNetworking.ConnectionMode=
+//TODO Translate [Reference] 'Steam Friends'
+staxel.steamNetworking.Friends=
+//TODO Translate [Reference] 'Steam Friends and IP'
+staxel.steamNetworking.FriendsAndIP=
+//TODO Translate [Reference] 'IP'
+staxel.steamNetworking.IP=
+//TODO Translate [Reference] 'Failed to connect'
+staxel.steamNetworking.networkError.genericTitle=
+//TODO Translate [Reference] 'Failed to accept an invite as the player is not in the same version of Staxel. You are currently playing original Staxel and you can join by closing this game and accepting the invite again.'
+staxel.steamNetworking.networkError.wrongGameNexel=
+//TODO Translate [Reference] 'Failed to accept an invite as the player is not in the same version of Staxel. You are currently playing Staxel CE and you can join by closing this game and accepting the invite again.'
+staxel.steamNetworking.networkError.wrongGameStaxel=
+//TODO Translate [Reference] 'Failed to accept an invite as the player is not in the same version of Staxel. You are currently playing Staxel CE and cannot join them.'
+staxel.steamNetworking.networkError.wrongGameStaxelNonWindows=
+//TODO Translate [Reference] 'Please enter in a password.'
+staxel.steamNetworking.PasswordNeeded=
 //[Reference] 'Arcade Challenge'
 staxel.structure.island.ArcadeChallenge.offmap=ゲームセンター・チャレンジ
 //[Reference] 'Demon King Maze'
@@ -1428,6 +1488,8 @@ staxel.transformation.CantTransform=まだ変身の準備ができていませ�
 staxel.transformation.NotTransformed=変身していません！
 //[Reference] 'Hold ^b:Use; or ^b:Interact; to keep reeling...'
 staxel.ui.fishing.message.Reel=^b:Use; または ^b:Interact; を長押ししてリールを巻きます…
+//TODO Translate [Reference] 'Failed to open webpage: {0-webpageLink}'
+staxel.ui.mainMenu.FailedToOpenSocial=
 //[Reference] 'Closing the game is taking some time. Please wait.'
 staxel.ui.Shutdown=ゲームを閉じるのに時間がかかっています。しばらくお待ちください。
 //[Reference] '{0-name} has left the island.'
@@ -1436,9 +1498,3 @@ staxel.village.villagerLeftIsland={0-name}が島を離れました。
 staxel.wardrobe.NoEmptyInventorySlots=インベントリがいっぱいのため、アクセサリーを外せませんでした。
 //[Reference] 'Wearing'
 staxel.wardrobe.Wearing=着用中
-credits.joni.description=事業開発
-staxel.gameButton.ToggleThirdPerson=三人称を切り替える
-staxel.options.ThirdPerson.Flip=三人称を反転
-staxel.options.ThirdPerson.Height=三人称身長
-staxel.options.ThirdPerson.Distance=三人称距離
-staxel.options.ThirdPerson.Offset=三人称オフセット

@@ -30,6 +30,8 @@ controlHint.verb.Trash=
 controlHint.verb.Wave=
 //TODO Translate [Reference] 'Community Testers'
 credits.communityTesters=
+//TODO Translate [Reference] 'Business Development'
+credits.joni.description=
 //TODO Translate [Reference] 'Staxel has encountered a critical error and needs to be restarted.\n\nDetails...'
 error.preamble=
 //TODO Translate [Reference] 'Staxel has encountered a critical error.\n\nDetails...'
@@ -226,8 +228,16 @@ nexel.ui.toolTip.type.Torso=
 nexel.ui.toolTip.type.Usable=
 //TODO Translate [Reference] 'Look Sensitivity'
 options.controls.LookThumbstickSensitivity=
+//TODO Translate [Reference] 'Button Icons'
+options.controls.ui.buttonSets=
+//TODO Translate [Reference] 'Change Controller Buttons'
+options.controls.ui.controllerRebind=
 //TODO Translate [Reference] 'Control Scheme'
 options.controls.ui.controlScheme=
+//TODO Translate [Reference] 'Change Keyboard Buttons'
+options.controls.ui.keyboardRebind=
+//TODO Translate [Reference] 'Press any key/button or press {0} to remove key binding.'
+options.controls.ui.keyboardRebindCancel=
 //TODO Translate [Reference] 'Name Tag Scale'
 options.gameplay.ui.NameTagScale=
 //TODO Translate [Reference] 'UI Outer Margin'
@@ -236,8 +246,14 @@ options.gameplay.ui.SafetyMargin=
 options.general.audio.ui=
 //TODO Translate [Reference] 'Rumble Strength'
 options.general.RumbleStrength=
+//TODO Translate [Reference] 'Reset to Default Key Bindings'
+options.keyBindings.resetToDefault=
 //TODO Translate [Reference] 'Any Group'
 recipeBook.grouping.NoGrouping=
+//TODO Translate [Reference] 'Nintendo Switch'
+staxel.buttonSet.NintendoSwitch=
+//TODO Translate [Reference] 'Xbox One'
+staxel.buttonSet.XboxOne=
 //[Reference] 'Accessory'
 staxel.category.Accessory=Aksesuarlar
 //TODO Translate [Reference] 'Airship'
@@ -494,6 +510,8 @@ staxel.commands.error.ConnectionNoPlayer=
 staxel.commands.fly.Success=
 //TODO Translate [Reference] 'Unable to execute {0-commandName}. Got exception: {1-exceptionText}'
 staxel.commands.generic.Exception=
+//TODO Translate [Reference] 'Failed.'
+staxel.commands.generic.Fail=
 //TODO Translate [Reference] 'Failed to parse parameter {0-paramNumber} as a bool. Parameter was: {1-input}.'
 staxel.commands.generic.FailedBoolConvert=
 //TODO Translate [Reference] 'Failed to parse parameter {0-paramNumber} as a colour string. Parameter was: {1-input}.'
@@ -776,6 +794,10 @@ staxel.controlHints.section.Gameplay=
 staxel.controlHints.section.Inventory=
 //TODO Translate [Reference] 'Menus'
 staxel.controlHints.section.Menus=
+//TODO Translate [Reference] 'Nintendo Switch'
+staxel.controlScheme.NintendoSwitch=
+//TODO Translate [Reference] 'Xbox'
+staxel.controlScheme.Xbox=
 //TODO Translate [Reference] 'in {0-growTime} days during Doesn't grow in any seasons. Please report this as a bug.'
 staxel.description.GrowTimeDays.0=
 //TODO Translate [Reference] 'in {0-growTime} days during {1-season}'
@@ -934,6 +956,8 @@ staxel.gameButton.MoveLeft=
 staxel.gameButton.MoveRight=
 //TODO Translate [Reference] 'Next Item'
 staxel.gameButton.NextItem=
+//TODO Translate [Reference] 'None'
+staxel.gameButton.None=
 //TODO Translate [Reference] 'Pause'
 staxel.gameButton.Pause=
 //TODO Translate [Reference] 'Rotate Block Left'
@@ -944,6 +968,8 @@ staxel.gameButton.PlaceRotateRight=
 staxel.gameButton.PrevItem=
 //TODO Translate [Reference] 'Show Chat'
 staxel.gameButton.ShowChat=
+//TODO Translate [Reference] 'Show Console'
+staxel.gameButton.ShowDevConsole=
 //TODO Translate [Reference] 'Show Inventory'
 staxel.gameButton.ShowInventory=
 //TODO Translate [Reference] 'Show Journal'
@@ -956,6 +982,8 @@ staxel.gameButton.Sneak=
 staxel.gameButton.Sprint=
 //TODO Translate [Reference] 'Toggle Map'
 staxel.gameButton.ToggleMap=
+//TODO Translate [Reference] 'Toggle Third Person'
+staxel.gameButton.ToggleThirdPerson=
 //TODO Translate [Reference] 'Use'
 staxel.gameButton.Use=
 //TODO Translate [Reference] 'Not looking at an animal.'
@@ -1039,6 +1067,8 @@ staxel.mainMenu.FailedToParseIP=
 staxel.mainMenu.multiPlayer.Host=
 //TODO Translate [Reference] 'Join Friend's Game'
 staxel.mainMenu.multiPlayer.Join=
+//TODO Translate [Reference] 'Join IP address'
+staxel.mainMenu.multiPlayer.JoinByIP=
 //TODO Translate [Reference] 'Looking for Local Games...'
 staxel.mainMenu.multiPlayer.LocalConnect=
 //TODO Translate [Reference] 'Connecting to Online Services...'
@@ -1121,7 +1151,7 @@ staxel.menu.playerList.options.KickConfirm=
 staxel.menu.playerList.options.Title=
 //TODO Translate [Reference] 'Are you sure you want to unban this player?'
 staxel.menu.playerList.options.UnbanConfirm=
-//TODO Translate [Reference] 'Command Permissions:'
+//TODO Translate [Reference] 'Command Permissions'
 staxel.menu.playerList.Permissions=
 //TODO Translate [Reference] 'Player List'
 staxel.menu.playerList.Title=
@@ -1183,12 +1213,16 @@ staxel.notification.magicTeleport.RequiresGlobal=
 staxel.notification.magicTeleport.TeleportAlreadyActive=
 //TODO Translate [Reference] 'Your letter has been sent.'
 staxel.notification.mail.Sent=
+//TODO Translate [Reference] 'The tile you are trying to sit in, can't be sat on.'
+staxel.notification.NotPlayerDock=
 //TODO Translate [Reference] '{0-petName} doesn't want to follow. You have too many pets following you already.'
 staxel.notification.pet.TooManyFollowing=
 //TODO Translate [Reference] 'This island will reset when you leave and all changes made will be undone.'
 staxel.notification.placedOnDeleteIsland=
 //TODO Translate [Reference] 'This island resets each season and all changes made will be undone.'
 staxel.notification.placedOnResetIsland=
+//TODO Translate [Reference] 'Someone is already occupying that spot.'
+staxel.notification.PlayerDockFull=
 //TODO Translate [Reference] 'This tile cannot be broken.'
 staxel.notification.tile.UnbreakableTile=
 //TODO Translate [Reference] 'Someone else is busy with this tile.'
@@ -1219,6 +1253,14 @@ staxel.notifications.TeleportHome=
 staxel.notifications.TeleportHome.TeleportAlreadyActive=
 //TODO Translate [Reference] 'This tool isn't strong enough.'
 staxel.notifications.WeakTool=
+//TODO Translate [Reference] 'Third Person Distance'
+staxel.options.ThirdPerson.Distance=
+//TODO Translate [Reference] 'Flip Third Person'
+staxel.options.ThirdPerson.Flip=
+//TODO Translate [Reference] 'Third Person Height'
+staxel.options.ThirdPerson.Height=
+//TODO Translate [Reference] 'Third Person Offset'
+staxel.options.ThirdPerson.Offset=
 //TODO Translate [Reference] 'Catalogue Search'
 staxel.overlay.catalogue.ShopPage.searchAndFilters.title=
 //TODO Translate [Reference] 'Enter a search term'
@@ -1353,6 +1395,24 @@ staxel.priceTag.Common=
 staxel.returnHome.Body=
 //TODO Translate [Reference] 'Return Home'
 staxel.returnHome.Title=
+//TODO Translate [Reference] 'Allow Connections from'
+staxel.steamNetworking.ConnectionMode=
+//TODO Translate [Reference] 'Steam Friends'
+staxel.steamNetworking.Friends=
+//TODO Translate [Reference] 'Steam Friends and IP'
+staxel.steamNetworking.FriendsAndIP=
+//TODO Translate [Reference] 'IP'
+staxel.steamNetworking.IP=
+//TODO Translate [Reference] 'Failed to connect'
+staxel.steamNetworking.networkError.genericTitle=
+//TODO Translate [Reference] 'Failed to accept an invite as the player is not in the same version of Staxel. You are currently playing original Staxel and you can join by closing this game and accepting the invite again.'
+staxel.steamNetworking.networkError.wrongGameNexel=
+//TODO Translate [Reference] 'Failed to accept an invite as the player is not in the same version of Staxel. You are currently playing Staxel CE and you can join by closing this game and accepting the invite again.'
+staxel.steamNetworking.networkError.wrongGameStaxel=
+//TODO Translate [Reference] 'Failed to accept an invite as the player is not in the same version of Staxel. You are currently playing Staxel CE and cannot join them.'
+staxel.steamNetworking.networkError.wrongGameStaxelNonWindows=
+//TODO Translate [Reference] 'Please enter in a password.'
+staxel.steamNetworking.PasswordNeeded=
 //TODO Translate [Reference] 'Arcade Challenge'
 staxel.structure.island.ArcadeChallenge.offmap=
 //TODO Translate [Reference] 'Demon King Maze'
@@ -1428,6 +1488,8 @@ staxel.transformation.CantTransform=
 staxel.transformation.NotTransformed=
 //TODO Translate [Reference] 'Hold ^b:Use; or ^b:Interact; to keep reeling...'
 staxel.ui.fishing.message.Reel=
+//TODO Translate [Reference] 'Failed to open webpage: {0-webpageLink}'
+staxel.ui.mainMenu.FailedToOpenSocial=
 //TODO Translate [Reference] 'Closing the game is taking some time. Please wait.'
 staxel.ui.Shutdown=
 //TODO Translate [Reference] '{0-name} has left the island.'
