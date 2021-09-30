@@ -228,20 +228,16 @@ nexel.ui.toolTip.type.Torso=Torso
 nexel.ui.toolTip.type.Usable=Bruikbaar
 //[Reference] 'Look Sensitivity'
 options.controls.LookThumbstickSensitivity=Kijkgevoeligheid
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Button Icons'
-options.controls.ui.buttonSets=Knoppictogrammen
-//[Validate] Delete this comment if or when the translation is accurate.
+options.controls.ui.buttonSets=Knopsymbolen
 //[Reference] 'Change Controller Buttons'
-options.controls.ui.controllerRebind=Controllerknoppen wijzigen
+options.controls.ui.controllerRebind=Knoppenfuncties wijzigen
 //[Reference] 'Control Scheme'
 options.controls.ui.controlScheme=Besturingsindeling
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Change Keyboard Buttons'
-options.controls.ui.keyboardRebind=Toetsenbordknoppen wijzigen
-//[Validate] Delete this comment if or when the translation is accurate.
+options.controls.ui.keyboardRebind=Toetsenfuncties wijzigen
 //[Reference] 'Press any key/button or press {0} to remove key binding.'
-options.controls.ui.keyboardRebindCancel=Druk op een willekeurige toets/knop of druk op {0} om de toetsbinding te verwijderen.
+options.controls.ui.keyboardRebindCancel=Druk op een willekeurige toets/knop of druk op {0} om de toetsfunctie te verwijderen.
 //[Reference] 'Name Tag Scale'
 options.gameplay.ui.NameTagScale=Grootte naamlabels
 //[Reference] 'UI Outer Margin'
@@ -251,7 +247,7 @@ options.general.audio.ui=Menu's
 //[Reference] 'Rumble Strength'
 options.general.RumbleStrength=Trilkracht
 //[Reference] 'Reset to Default Key Bindings'
-options.keyBindings.resetToDefault=Terugzetten naar Standaard Toetsenbindingen
+options.keyBindings.resetToDefault=Herstel naar standaard toetsenfuncties
 //[Reference] 'Any Group'
 recipeBook.grouping.NoGrouping=Elke Groep
 //[Reference] 'Nintendo Switch'
@@ -517,7 +513,7 @@ staxel.commands.fly.Success=Vliegen instellen op {0-bool}.
 //[Reference] 'Unable to execute {0-commandName}. Got exception: {1-exceptionText}'
 staxel.commands.generic.Exception=Kan {0-commandName} niet uitvoeren. Heeft uitzondering: {1-exceptionText}
 //TODO Translate [Reference] 'Failed.'
-staxel.commands.generic.Fail=
+staxel.commands.generic.Fail=Mislukt.
 //[Reference] 'Failed to parse parameter {0-paramNumber} as a bool. Parameter was: {1-input}.'
 staxel.commands.generic.FailedBoolConvert=Kon parameter {0-paramNumber} niet parseren als bool. Parameter was: {1-input}.
 //[Reference] 'Failed to parse parameter {0-paramNumber} as a colour string. Parameter was: {1-input}.'
@@ -962,7 +958,6 @@ staxel.gameButton.MoveLeft=Naar links bewegen
 staxel.gameButton.MoveRight=Naar rechts bewegen
 //[Reference] 'Next Item'
 staxel.gameButton.NextItem=Volgende item
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'None'
 staxel.gameButton.None=Geen
 //[Reference] 'Pause'
@@ -975,7 +970,6 @@ staxel.gameButton.PlaceRotateRight=Blok rechtsom draaien
 staxel.gameButton.PrevItem=Vorige item
 //[Reference] 'Show Chat'
 staxel.gameButton.ShowChat=Chat weergeven
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Show Console'
 staxel.gameButton.ShowDevConsole=Console weergeven
 //[Reference] 'Show Inventory'
@@ -991,7 +985,7 @@ staxel.gameButton.Sprint=Sprinten
 //[Reference] 'Toggle Map'
 staxel.gameButton.ToggleMap=Kaart aan-/uitzetten
 //[Reference] 'Toggle Third Person'
-staxel.gameButton.ToggleThirdPerson=Derde Persoon in-/uitschakelen
+staxel.gameButton.ToggleThirdPerson=3e Persoon in-/uitschakelen
 //[Reference] 'Use'
 staxel.gameButton.Use=Gebruiken
 //[Reference] 'Not looking at an animal.'
@@ -1072,9 +1066,8 @@ staxel.mainMenu.FailedToParseIP=Kon geen verbinding maken.\n\n Het adres dat je 
 staxel.mainMenu.multiPlayer.Host=Spel hosten
 //[Reference] 'Join Friend's Game'
 staxel.mainMenu.multiPlayer.Join=Deelnemen aan spel van vriend
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Join IP address'
-staxel.mainMenu.multiPlayer.JoinByIP=Deelnemen aan IP-adres
+staxel.mainMenu.multiPlayer.JoinByIP=Verbinden met IP-adres
 //[Reference] 'Looking for Local Games...'
 staxel.mainMenu.multiPlayer.LocalConnect=Op zoek naar lokale spelen...
 //[Reference] 'Connecting to Online Services...'
@@ -1145,23 +1138,20 @@ staxel.menu.playerList.Back=Terug
 staxel.menu.playerList.banned.Title=Verbannen Spelers
 //[Reference] 'Unban'
 staxel.menu.playerList.banned.Unban=Unban
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Change Permission'
-staxel.menu.playerList.ChangePermission=Toestemming wijzigen
+staxel.menu.playerList.ChangePermission=Rechten wijzigen
 //[Reference] 'Are you sure you want to ban this player?'
 staxel.menu.playerList.options.BanConfirm=Weet je zeker dat je deze speler wilt verbannen?
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Are you sure you want to change the command permission to {0-permission}?'
-staxel.menu.playerList.options.ChangePermissionConfirm=Weet u zeker dat u de opdrachtmachtiging wilt wijzigen in {0-permission}?
+staxel.menu.playerList.options.ChangePermissionConfirm=Weet je zeker dat je de rechten wilt wijzigen naar {0-permission}?
 //[Reference] 'Are you sure you want to kick this player?'
 staxel.menu.playerList.options.KickConfirm=Weet je zeker dat je deze speler wilt kicken?
 //[Reference] 'Player Options'
 staxel.menu.playerList.options.Title=Speler Opties
 //[Reference] 'Are you sure you want to unban this player?'
 staxel.menu.playerList.options.UnbanConfirm=Weet je zeker dat je deze speler wil ontbannen?
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Command Permissions'
-staxel.menu.playerList.Permissions=Opdrachtmachtigingen
+staxel.menu.playerList.Permissions=Rechten
 //[Reference] 'Player List'
 staxel.menu.playerList.Title=Spelerlijst
 //[Reference] 'Press {0-button} to start'
@@ -1222,18 +1212,16 @@ staxel.notification.magicTeleport.RequiresGlobal=Je kunt nu niet teleporteren, i
 staxel.notification.magicTeleport.TeleportAlreadyActive=Je kunt geen teleportatie opstarten terwijl er al een actief is.
 //[Reference] 'Your letter has been sent.'
 staxel.notification.mail.Sent=Je brief is verstuurd.
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'The tile you are trying to sit in, can't be sat on.'
-staxel.notification.NotPlayerDock=De tegel waar je op probeert te zitten, kan niet worden gezet.
+staxel.notification.NotPlayerDock=Op deze plek kan niet worden gezeten.
 //[Reference] '{0-petName} doesn't want to follow. You have too many pets following you already.'
 staxel.notification.pet.TooManyFollowing={0-petName} wil niet volgen. Je wordt al door te veel huisdieren gevolgd.
 //[Reference] 'This island will reset when you leave and all changes made will be undone.'
 staxel.notification.placedOnDeleteIsland=Dit eiland wordt gereset zodra je vertrekt en alle wijzigingen die je hebt aangebracht gaan verloren.
 //[Reference] 'This island resets each season and all changes made will be undone.'
 staxel.notification.placedOnResetIsland=Dit eiland wordt elk seizoen gereset en alle wijzigingen gaan verloren.
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Someone is already occupying that spot.'
-staxel.notification.PlayerDockFull=Iemand bezet die plek al.
+staxel.notification.PlayerDockFull=Er is al iemand die deze plek bezet houdt
 //[Reference] 'This tile cannot be broken.'
 staxel.notification.tile.UnbreakableTile=Deze tegel kan niet kapotgemaakt worden.
 //[Reference] 'Someone else is busy with this tile.'
@@ -1267,11 +1255,11 @@ staxel.notifications.WeakTool=Dit gereedschap is niet sterk genoeg.
 //[Reference] 'Third Person Distance'
 staxel.options.ThirdPerson.Distance=Derde Persoon Afstand
 //[Reference] 'Flip Third Person'
-staxel.options.ThirdPerson.Flip=Derde Persoon Omdraaien
+staxel.options.ThirdPerson.Flip=3e Persoon Omdraaien
 //[Reference] 'Third Person Vertical Offset'
-staxel.options.ThirdPerson.Height=Derde Persoon Verticale Offset
+staxel.options.ThirdPerson.Height=3e Persoon Verticale Afstand
 //[Reference] 'Third Person Horizontal Offset'
-staxel.options.ThirdPerson.Offset=Derde Persoon Horizontale Offset
+staxel.options.ThirdPerson.Offset=3e Persoon Horizontale Afstand
 //[Reference] 'Catalogue Search'
 staxel.overlay.catalogue.ShopPage.searchAndFilters.title=Catalogus Doorzoeken
 //[Reference] 'Enter a search term'
