@@ -1,160 +1,155 @@
 ﻿language.code=ko-KR
 language=한국어
-//TODO Translate [Reference] '^c:F2E200;activateMurmur ^c:FFFFFF;murmurCode'
-commands.activateMurmur.description=
-//TODO Translate [Reference] 'Successfully activated {0-murmur}.'
-commands.activateMurmur.success=
-
-//[Validate] Delete this comment if or when the translation is accurate.
+//[Reference] '^c:F2E200;activateMurmur ^c:FFFFFF;murmurCode'
+commands.activateMurmur.description=^c:F2E200;activateMurmur  ^c:FFFFFF;murmur코드
+//[Reference] 'Successfully activated {0-murmur}.'
+commands.activateMurmur.success={0-murmur}가 성공적으로 작동되었습니다.
 //[Reference] '^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0) (optional)showCalendarTime(true/false)'
-commands.advanceTime.description=^c:F2E200;advanceTime ^c:FFFFFF;amount(0.0-1.0)
+commands.advanceTime.description=^c:F2E200;advanceTime ^c:FFFFFF;값(0.0-1.0)
 //[Reference] 'Enter a float by which to advance time. 1.0 is a full day'
-commands.advanceTime.enterFloat=Enter a float by which to advance time. 1.0 is a full day
+commands.advanceTime.enterFloat=소숫점을 입력해서 하루의 길이를 건너뛸수 있습니다. 1.0은 하루 전체입니다.
 //[Reference] 'failed: arg(1) must be a number. Floating points OK'
-commands.advanceTime.mustBeNumber=failed: arg(1) must be a number. Floating points OK
-//[Validate] Delete this comment if or when the translation is accurate.
+commands.advanceTime.mustBeNumber=실패: 첫번째 인수는 숫자 값이여야 합니다. 소수점도 괜찮습니다.
 //[Reference] 'Advancing time by {0-time} ({1-dayphase1} -> {2-dayphase2})...'
-commands.advanceTime.success=Advancing time by {0-time}...
+commands.advanceTime.success=시간을 {0-time}만큼 건너뛰는중...
 //[Reference] '^c:F2E200;ban ^c:FFFFFF;playerName (optional)reason'
-commands.ban.description=^c:F2E200;ban ^c:FFFFFF;playerName (optional)reason
+commands.ban.description=^c:F2E200;ban ^c:FFFFFF;닉네임 (필요시에만)사유
 //[Reference] 'Unable to ban {0-player}: player is an admin or already banned.'
-commands.ban.failure=Unable to ban {0-player}: player is an admin or already banned.
+commands.ban.failure=제명 실패 {0-player}: 해당 플레이어는 관리자이거나 이미 제명되었습니다.
 //[Reference] '{0-player} has been banned from the server.'
-commands.ban.success={0-player} has been banned from the server.
-//[Reference] '^c:F2E200;bla'
-commands.bla.description=^c:F2E200;bla
+commands.ban.success={0-player} 는(은) 해당 게임으로부터 제명되었습니다.
+//TODO Translate [Reference] '^c:F2E200;bla'
+commands.bla.description=
 //[Reference] 'Moved to a new location in debug region: {0-region}'
-commands.bla.success=Moved to a new location in debug region: {0-region}
-//[Reference] '^c:F2E200;cameraCapture'
-commands.cameraCapture.description=^c:F2E200;cameraCapture
+commands.bla.success=디버그 영역의 새 위치로 이동되었습니다: {0-region}
+//TODO Translate [Reference] '^c:F2E200;cameraCapture'
+commands.cameraCapture.description=
 //[Reference] 'Captured player camera'
-commands.cameraCapture.success=Captured player camera
+commands.cameraCapture.success=플레이어의 화면을 캡쳐하였습니다.
 //[Reference] '^c:F2E200;cameraCapture ^c:FFFFFF;savedCameraFilePath'
-commands.cameraLoad.description=^c:F2E200;cameraCapture ^c:FFFFFF;savedCameraFilePath
+commands.cameraLoad.description=^c:F2E200;cameraCapture ^c:FFFFFF;저장된_화면캡쳐_경로
 //[Reference] 'Loaded player camera from file: {0-filename}'
-commands.cameraLoad.success=Loaded player camera from file: {0-filename}
+commands.cameraLoad.success=플레이어의 화면을 해당 파일에서 불러왔습니다: {0-filename}
 //[Reference] '^c:F2E200;cameraPlay ^c:FFFFFF;(optional)duration(0.0-1.0) (optional)loop(true/false) (optional)savedCameraFilePath'
-commands.cameraPlay.description=^c:F2E200;cameraPlay ^c:FFFFFF;(optional)duration(0.0-1.0) (optional)loop(true/false) (optional)savedCameraFilePath
+commands.cameraPlay.description=^c:F2E200;cameraPlay ^c:FFFFFF;(필요시에만)길이(0.0-1.0) (필요시에만)반복재생(true/false) (필요시에만)저장된_화면캡쳐_경로
 //[Reference] 'Playing back player camera'
-commands.cameraPlay.success=Playing back player camera
-//[Reference] '^c:F2E200;cameraReset'
-commands.cameraReset.description=^c:F2E200;cameraReset
+commands.cameraPlay.success=플레이어의 화면을 재생합니다.
+//TODO Translate [Reference] '^c:F2E200;cameraReset'
+commands.cameraReset.description=
 //[Reference] 'Reset player camera'
-commands.cameraReset.success=Reset player camera
+commands.cameraReset.success=플레이어의 화면을 초기 상태로 되돌립니다.
 //[Reference] '^c:F2E200;cameraSave ^c:FFFFFF;cameraSaveFilePath'
-commands.cameraSave.description=^c:F2E200;cameraSave ^c:FFFFFF;cameraSaveFilePath
+commands.cameraSave.description=^c:F2E200;cameraSave ^c:FFFFFF;저장할_화면캡쳐_경로
 //[Reference] 'Saved player camera to file: {0-filename}'
-commands.cameraSave.success=Saved player camera to file: {0-filename}
-//[Reference] '^c:F2E200;cameraStop'
-commands.cameraStop.description=^c:F2E200;cameraStop
+commands.cameraSave.success=플레이어의 화면을 파일로 저장했습니다: {0-filename}
+//TODO Translate [Reference] '^c:F2E200;cameraStop'
+commands.cameraStop.description=
 //[Reference] 'Stopped camera mode'
-commands.cameraStop.success=Stopped camera mode
-//TODO Translate [Reference] '^c:F2E200;catchableDetails ^c:FFFFFF;(optional)location({0,0,0})'
-commands.catchableDetails.description=
-//TODO Translate [Reference] 'Failed to parse location {0-location}'
-commands.catchableDetails.failParse=
-//TODO Translate [Reference] 'Tile not found'
-commands.catchableDetails.notFound=
-//TODO Translate [Reference] 'Catchable entity does not exist: {0-details}'
-commands.catchableDetails.success.false=
-//TODO Translate [Reference] 'Catchable entity exists: {0-details}'
-commands.catchableDetails.success.true=
+commands.cameraStop.success=카메라 모드를 중지했습니다.
+//[Reference] '^c:F2E200;catchableDetails ^c:FFFFFF;(optional)location({0,0,0})'
+commands.catchableDetails.description=^c:F2E200;catchableDetails ^c:FFFFFF;(필요시에만)위치({0,0,0})
+//[Reference] 'Failed to parse location {0-location}'
+commands.catchableDetails.failParse={0-location} - 해당 위치를 확인할수 없었습니다
+//[Reference] 'Tile not found'
+commands.catchableDetails.notFound=블럭을 찾을 수 없었습니다.
+//[Reference] 'Catchable entity does not exist: {0-details}'
+commands.catchableDetails.success.false=잡을수 있는 엔티티를 찾을 수 없었습니다 : {0-details}
+//[Reference] 'Catchable entity exists: {0-details}'
+commands.catchableDetails.success.true=잡을수 있는 엔티티를 확인했습니다 : {0-details}
 //[Reference] 'Not looking at an animal'
-commands.changeMood.animalNotFound=Not looking at an animal
+commands.changeMood.animalNotFound=동물을 보고 있어야 합니다.
 //[Reference] '^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)'
-commands.changeMood.description=^c:F2E200;changeMood ^c:FFFFFF;increase/decrease(true/false)
+commands.changeMood.description=^c:F2E200;changeMood ^c:FFFFFF;증가/감소(true/false)
 //[Reference] 'Mood altered successfully'
-commands.changeMood.success=Mood altered successfully
+commands.changeMood.success=기분이 성공적으로 변경되었습니다.
 //TODO Translate [Reference] '^c:F2E200;changeNickname ^c:FFFFFF;nickname'
 commands.changeNickname.description=
 //TODO Translate [Reference] 'Nickname changed to {0-newNickname}'
 commands.changeNickname.success=
 //TODO Translate [Reference] '^c:F2E200;checkMail'
 commands.checkMail.description=
-//TODO Translate [Reference] '^c:F2E200;completeQuest ^c:FFFFFF;questCode villagerName/Code'
-commands.completeQuest.description=
-//TODO Translate [Reference] 'Quest does not exist'
-commands.completeQuest.noSuchQuest=
-//TODO Translate [Reference] 'Quest completed successfuly'
-commands.completeQuest.success=
+//[Reference] '^c:F2E200;completeQuest ^c:FFFFFF;questCode villagerName/Code'
+commands.completeQuest.description=^c:F2E200;completeQuest ^c:FFFFFF;퀘스트코드 주민이름/코드
+//[Reference] 'Quest does not exist'
+commands.completeQuest.noSuchQuest=퀘스트가 존재하지 않습니다.
+//[Reference] 'Quest completed successfuly'
+commands.completeQuest.success=퀘스트가 완료되었습니다.
 //[Reference] '^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)'
-commands.creative.description=^c:F2E200;creative ^c:FFFFFF;(optional)playerName (optional)startCreativeMode(true/false)
+commands.creative.description=^c:F2E200;creative ^c:FFFFFF;(필요시에만)닉네임 (필요시에만)창작모드_시작_여부(true/false)
 //[Reference] 'Temporarily switched creative mode for {0-user} to {1-creative}'
-commands.creative.success=Temporarily switched creative mode for {0-user} to {1-creative}
-//[Validate] Delete this comment if or when the translation is accurate.
+commands.creative.success={0-user} 을 {1-creative} 모드로 변경하였습니다.
 //[Reference] '^c:F2E200;currentTime (optional)showCalendarTime(true/false)'
 commands.currentTime.description=^c:F2E200;currentTime
 //[Reference] 'The day is {0-day} and phase is {1:G2-phase} ({2-time}).'
-commands.currentTime.success=The day is {0-day} and phase is {1:G2-phase} ({2-time}).
+commands.currentTime.success=지금은 {0-day}이며 {1:G2-phase}만큼 진행중입니다. ({2-time})
 //TODO Translate [Reference] '^c:F2E200;deactivateMurmur ^c:FFFFFF;'
 commands.deactivateMurmur.description=
-//TODO Translate [Reference] 'Successfully deactivated {0-murmur} if it existed.'
-commands.deactivateMurmur.success=
+//[Reference] 'Successfully deactivated {0-murmur} if it existed.'
+commands.deactivateMurmur.success={0-murmur}가 비활성화 되었습니다.
 //[Reference] '^c:F2E200;demoMode ^c:FFFFFF;(optional)on(true/false)'
-commands.demoMode.description=^c:F2E200;demoMode ^c:FFFFFF;(optional)on(true/false)
+commands.demoMode.description=^c:F2E200;demoMode ^c:FFFFFF;(필요시에만)활성화_여부(true/false)
 //[Reference] 'Switched server demo mode to {0-demoMode}'
-commands.demoMode.success=Switched server demo mode to {0-demoMode}
+commands.demoMode.success=서버의 데모모드를 {0-demoMode} 으로 변경하였습니다.
 //[Reference] '^c:F2E200;describeitem ^c:FFFFFF;(optional)playerName'
-commands.describeItem.description=^c:F2E200;describeitem ^c:FFFFFF;(optional)playerName
+commands.describeItem.description=^c:F2E200;describeitem ^c:FFFFFF;(필요시에만)닉네임
 //[Reference] 'Item description: {0-itemDesc}'
-commands.describeItem.success=Item description: {0-itemDesc}
+commands.describeItem.success=아이템 오브젝트: {0-itemDesc}
 //[Reference] '^c:F2E200;ditto ^c:FFFFFF;(optional)playerName villagernpcCode'
-commands.ditto.description=^c:F2E200;ditto ^c:FFFFFF;(optional)playerName villagernpcCode
+commands.ditto.description=^c:F2E200;ditto ^c:FFFFFF;(필요시에만)닉네임 NPC코드
 //[Reference] 'Player {0-playerName} does not have enough inventory space for all npc clothing items'
-commands.ditto.notEnoughSpace=Player {0-playerName} does not have enough inventory space for all npc clothing items
+commands.ditto.notEnoughSpace=플레이어 {0-playerName}는 NPC의 의상 아이템을 위한 인벤토리 공간이 부족합니다.
 //[Reference] 'Player {0-playerName} disguised successfully'
-commands.ditto.success=Player {0-playerName} disguised successfully
+commands.ditto.success=플레이어 {0-playerName}이 성공적으로 변장되었습니다.
 //[Reference] '^c:F2E200;doemote ^c:FFFFFF;emoteName (optional)useLookatEntity(true/false)'
-commands.doemote.description=^c:F2E200;doemote ^c:FFFFFF;emoteName (optional)useLookatEntity(true/false)
-//[Reference] '^c:F2E200;emote ^c:FFFFFF;emoteName'
-commands.emote.description=^c:F2E200;emote ^c:FFFFFF;emoteName
+commands.doemote.description=^c:F2E200;doemote ^c:FFFFFF;emoteName (필요시에만)useLookatEntity(true/false)
+//TODO Translate [Reference] '^c:F2E200;emote ^c:FFFFFF;emoteName'
+commands.emote.description=
 //[Reference] 'No such emote {0-emote}'
-commands.emote.noSuchEmote=No such emote {0-emote}
-//[Reference] '^c:F2E200;enablecheats^c:FFFFFF;'
-commands.enablecheats.description=^c:F2E200;enablecheats^c:FFFFFF;
+commands.emote.noSuchEmote={0-emote} 라는 감정표현을 찾지 못하였습니다.
+//TODO Translate [Reference] '^c:F2E200;enablecheats^c:FFFFFF;'
+commands.enablecheats.description=
 //[Reference] 'Failed to enable cheats.'
-commands.enablecheats.failure=Failed to enable cheats.
+commands.enablecheats.failure=치트 활성화에 실패하였습니다.
 //[Reference] 'Cheats have been enabled.'
-commands.enablecheats.success=Cheats have been enabled.
-//[Reference] '^c:F2E200;entityInfo ^c:FFFFFF;entityID'
-commands.entityInfo.description=^c:F2E200;entityInfo ^c:FFFFFF;entityID
+commands.enablecheats.success=치트가 활성화되었습니다.
+//TODO Translate [Reference] '^c:F2E200;entityInfo ^c:FFFFFF;entityID'
+commands.entityInfo.description=
 //[Reference] 'You need to include an EntityID!'
-commands.entityInfo.entityNumber=You need to include an EntityID!
+commands.entityInfo.entityNumber=엔티티ID 를 입력해야만 합니다!
 //[Reference] 'Invalid EntityID!'
-commands.entityInfo.mustBeNumber=Invalid EntityID!
+commands.entityInfo.mustBeNumber=존재하지 않는 엔티티ID 입니다!
 //[Reference] 'There is no such entity on the server'
-commands.entityInfo.noSuchEntity=There is no such entity on the server
+commands.entityInfo.noSuchEntity=서버에 해당 엔티티가 발견되지 않았습니다.
 //[Reference] 'Entity data: {0-data}'
-commands.entityInfo.success=Entity data: {0-data}
+commands.entityInfo.success=엔티티 정보: {0-data}
 //[Reference] 'Entity not found'
-commands.entityNotFound=Entity not found
-//[Reference] '^c:F2E200;fly ^c:FFFFFF;(optional)playerName (optional)startFlying(true/false)'
-commands.flyMode.description=^c:F2E200;fly ^c:FFFFFF;(optional)playerName (optional)startFlying(true/false)
+commands.entityNotFound=엔티티가 발견되지 않았습니다.
+//TODO Translate [Reference] '^c:F2E200;fly ^c:FFFFFF;(optional)playerName (optional)startFlying(true/false)'
+commands.flyMode.description=
 //[Reference] 'Switched flying mode to: {0-flymode}'
-commands.flyMode.success=Switched flying mode to: {0-flymode}
-//TODO Translate [Reference] '^c:F2E200;forceAchievement ^c:FFFFFF;achievementCode'
-commands.forceAchievement.description=
-//TODO Translate [Reference] 'Missing achievement code.'
-commands.forceAchievement.missingParam=
-//TODO Translate [Reference] 'Achievement not found.'
-commands.forceAchievement.noSuchAchievement=
+commands.flyMode.success=비행 모드를: {0-flymode} 로 변경하였습니다.
+//[Reference] '^c:F2E200;forceAchievement ^c:FFFFFF;achievementCode'
+commands.forceAchievement.description=^c:F2E200;forceAchievement ^c:FFFFFF;도전과제코드
+//[Reference] 'Missing achievement code.'
+commands.forceAchievement.missingParam=도전과제 코드란이 비었습니다.
+//[Reference] 'Achievement not found.'
+commands.forceAchievement.noSuchAchievement=해당 도전과제를 찾을수 없었습니다.
 //TODO Translate [Reference] '^c:F2E200;getUsername ^c:FFFFFF;nickname'
 commands.getUsername.description=
 //TODO Translate [Reference] '{0-nickname}'s username is {1-username}.'
 commands.getUsername.success=
 //TODO Translate [Reference] 'Multiple people found with the nickname: {0-nickname}. They are; {1-usernamelist}.'
 commands.getUsername.successes=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;giveallrecipes ^c:FFFFFF;(optional)playerName'
 commands.giveallrecipes.description=^c:F2E200;Give all recipes ^c:FFFFFF;(optional)playerName
 //[Reference] 'Done!'
-commands.giveallrecipes.success=Done!
-//[Reference] '^c:F2E200;givepetals ^c:FFFFFF;playerName amount'
-commands.givePetals.description=^c:F2E200;givepetals ^c:FFFFFF;playerName amount
+commands.giveallrecipes.success=성공!
+//TODO Translate [Reference] '^c:F2E200;givepetals ^c:FFFFFF;playerName amount'
+commands.givePetals.description=
 //[Reference] 'Petal amount needs to be a positive number'
-commands.givePetals.invalidNumber=Petal amount needs to be a positive number
+commands.givePetals.invalidNumber=동전의 양은 0이상이여야만 합니다.
 //[Reference] 'Gave {0-player} {1-amount} petals'
-commands.givePetals.success=Gave {0-player} {1-amount} petals
+commands.givePetals.success={0-player} 에게 {1-amount} 개의 동전을 주었습니다.
 //TODO Translate [Reference] 'viaReactions argument must be true or false'
 commands.giveRecipeItems.badArg=
 //TODO Translate [Reference] '^c:F2E200;giveRecipeItems ^c:FFFFFF;recipeCode (optional)viaReactions(true/false)'
@@ -167,272 +162,268 @@ commands.hasCheated.description=
 commands.hasCheated.false=
 //TODO Translate [Reference] 'This world has had cheats turned on or activated. Outside achievements are disabled.'
 commands.hasCheated.true=
-//[Reference] '^c:F2E200;? ^c:FFFFFF;(optional)commandName'
-commands.help.altDescription=^c:F2E200;? ^c:FFFFFF;(optional)commandName
+//TODO Translate [Reference] '^c:F2E200;? ^c:FFFFFF;(optional)commandName'
+commands.help.altDescription=
 //[Reference] 'Command not found: '{0-command}''
-commands.help.commandNotFound=Command not found: '{0-command}'
-//[Reference] '^c:F2E200;help ^c:FFFFFF;(optional)commandName'
-commands.help.description=^c:F2E200;help ^c:FFFFFF;(optional)commandName
+commands.help.commandNotFound=해당 명령어를 찾을 수 없습니다: '{0-command}'
+//TODO Translate [Reference] '^c:F2E200;help ^c:FFFFFF;(optional)commandName'
+commands.help.description=
 //[Reference] 'Command list (() brackets denote possible values):'
-commands.help.success=Command list (() brackets denote possible values):
+commands.help.success=명령어 목록 (() brackets denote possible values):
 commands.inspect.description=
 //[Reference] 'Inspection success.'
-commands.inspect.success=Inspection success.
+commands.inspect.success=검사를 성공적으로 마쳤습니다.
 //[Reference] 'invalid args'
-commands.invalidArgs=invalid args
-//[Reference] '^c:F2E200;kick ^c:FFFFFF;playerName'
-commands.kick.description=^c:F2E200;kick ^c:FFFFFF;playerName
+commands.invalidArgs=존재하지 않는 변수입니다.
+//TODO Translate [Reference] '^c:F2E200;kick ^c:FFFFFF;playerName'
+commands.kick.description=
 //[Reference] 'Unable to kick {0-player}: player is an admin or not online.'
-commands.kick.failure=Unable to kick {0-player}: player is an admin or not online.
+commands.kick.failure=처리 실패 {0-player}: 해당 플레이어는 관리자이거나 서버에 접속하지 않았습니다.
 //[Reference] '{0-player} has been ejected from the server.'
-commands.kick.success={0-player} has been ejected from the server.
+commands.kick.success={0-player} 는 해당 게임으로부터 추방되었습니다.
 commands.loadDesign.description=
 //[Reference] 'loadDesign requires a filename/design code'
-commands.loadDesign.needFileName=loadDesign requires a filename/design code
+commands.loadDesign.needFileName=불러올 디자인의 파일명/디자인 코드 가 필요합니다.
 //[Reference] 'No such design {0-design}'
-commands.loadDesign.noSuchDesign=No such design {0-design}
+commands.loadDesign.noSuchDesign=존재하지 않는 디자인입니다. {0-design}
 //[Reference] 'No such file {0-file}'
-commands.loadDesign.noSuchFile=No such file {0-file}
+commands.loadDesign.noSuchFile=파일이 존재하지 않습니다. {0-file}
 //[Reference] 'Design loaded successfully'
-commands.loadDesign.success=Design loaded successfully
+commands.loadDesign.success=디자인을 성공적으로 불러왔습니다.
 //TODO Translate [Reference] '^c:F2E200;magicTeleport ^c:FFFFFF;festivalCode'
 commands.magicTeleport.description=
 //TODO Translate [Reference] 'No such offmap template: {0-template}'
 commands.magicTeleport.template=
 //TODO Translate [Reference] '^c:F2E200;magicTeleportReturn^c:FFFFFF;'
 commands.magicTeleportReturn.description=
-//[Reference] '^c:F2E200;model ^c:FFFFFF;(optional)playerName (optional)modelFileName'
-commands.model.description=^c:F2E200;model ^c:FFFFFF;(optional)playerName (optional)modelFileName
+//TODO Translate [Reference] '^c:F2E200;model ^c:FFFFFF;(optional)playerName (optional)modelFileName'
+commands.model.description=
 //[Reference] 'Could not switch to character model '{0-model}' not found in assets.'
-commands.model.notFound=Could not switch to character model '{0-model}' not found in assets.
+commands.model.notFound=캐릭터 모델이 에셋에서 발견되지 않아 '{0-model}' 으로 변경하지 못하였습니다.
 //[Reference] 'Switched character model to: {0-model}'
-commands.model.success=Switched character model to: {0-model}
-//[Reference] '^c:F2E200;mute ^c:FFFFFF;playerName (optional[default 60])lengthInMinutes'
-commands.mute.description=^c:F2E200;mute ^c:FFFFFF;playerName (optional[default 60])lengthInMinutes
+commands.model.success=캐릭터 모델을 {0-model} 로 변경하였습니다.
+//TODO Translate [Reference] '^c:F2E200;mute ^c:FFFFFF;playerName (optional[default 60])lengthInMinutes'
+commands.mute.description=
 //[Reference] 'Unable to mute {0-player}: player is an admin.'
-commands.mute.failure=Unable to mute {0-player}: player is an admin.
+commands.mute.failure={0-player} 을 음소거시킬 수 없습니다: 해당 플레이어는 관리자입니다.
 //[Reference] 'Invalid time (should be in whole minutes)'
-commands.mute.invalidTime=Invalid time (should be in whole minutes)
+commands.mute.invalidTime=잘못된 시간 값입니다. (분 단위로 표시해주세요.)
 //[Reference] '{0-player} has been silenced.'
-commands.mute.success={0-player} has been silenced.
-//[Reference] '^c:F2E200;noclip ^c:FFFFFF;(optional)playerName (optional)startNoclip(true/false)'
-commands.noClip.description=^c:F2E200;noclip ^c:FFFFFF;(optional)playerName (optional)startNoclip(true/false)
+commands.mute.success={0-player} 가 음소거되었습니다.
+//TODO Translate [Reference] '^c:F2E200;noclip ^c:FFFFFF;(optional)playerName (optional)startNoclip(true/false)'
+commands.noClip.description=
 //[Reference] 'Switched noclip mode to: {0-noclip}'
-commands.noClip.success=Switched noclip mode to: {0-noclip}
+commands.noClip.success=지형무시 모드로 변경하였습니다: {0-noclip}
 //[Reference] '{0-user} does not have the correct rights to use this command'
-commands.noRights={0-user} does not have the correct rights to use this command
+commands.noRights={0-user}는 이 명령어를 사용할 권한이 없습니다.
 //[Reference] 'No such player '{0-player}''
-commands.noSuchPlayer=No such player '{0-player}'
+commands.noSuchPlayer='{0-player}'플레이어를 찾을 수 없었습니다.
 //TODO Translate [Reference] 'No such player with nickname '{0-player}'.'
 commands.noSuchPlayerNickname=
 //[Reference] 'Not a player entity.'
-commands.notAPlayer=Not a player entity.
+commands.notAPlayer=플레이어 엔티티가 아닙니다.
 //TODO Translate [Reference] 'To demote a player type "op <playername> demote" without quotes.'
 commands.op.demote=
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] '^c:F2E200;op ^c:FFFFFF;playerName (optional)removePromotion("demote")'
 commands.op.description=^c:F2E200;op ^c:FFFFFF;playerName
 //[Reference] 'Unable to promote {0-player}.'
-commands.op.failure=Unable to promote {0-player}.
+commands.op.failure={0-player} 에게 권한을 부여하지 못했습니다.
 //[Reference] '{0-player} has been promoted.'
-commands.op.success={0-player} has been promoted.
+commands.op.success={0-player} 에게 권한이 부여되었습니다.
 //TODO Translate [Reference] '{0-player} has been demoted.'
 commands.op.success.demoted=
 //[Reference] 'Player {0-player} not found.'
-commands.op.userNotFound=Player {0-player} not found.
-//[Reference] '^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime'
-commands.pe.description=^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime
-//[Reference] '^c:F2E200;plantgrowth'
-commands.plantGrowth.description=^c:F2E200;plantgrowth
+commands.op.userNotFound=플레이어 {0-player} 을 찾을 수 없습니다.
+//TODO Translate [Reference] '^c:F2E200;pe ^c:FFFFFF;expressionAlias (optional)displayTime'
+commands.pe.description=
+//TODO Translate [Reference] '^c:F2E200;plantgrowth'
+commands.plantGrowth.description=
 //[Reference] 'Not a plant.'
-commands.plantGrowth.noPlant=Not a plant.
+commands.plantGrowth.noPlant=식물을 바라본 채로 입력해야 합니다..
 //[Reference] 'Plant {0-plant} at stage {1-stage}'
-commands.plantGrowth.success=Plant {0-plant} at stage {1-stage}
+commands.plantGrowth.success=식물 {0-plant} 은 이제 {1-stage} 상태입니다.
 //TODO Translate [Reference] 'Switched plant withering to {0-creative}'
 commands.plantWithering.success=
 //TODO Translate [Reference] 'Player {0-player} currently cannot be teleported.'
 commands.playerCantBeTeleported=
 //[Reference] 'Player Entity not found'
-commands.playerEntityNotFound=Player Entity not found
-//[Reference] '^c:F2E200;players'
-commands.players.description=^c:F2E200;players
+commands.playerEntityNotFound=플레이어 엔티티를 찾을 수 없습니다.
+//TODO Translate [Reference] '^c:F2E200;players'
+commands.players.description=
 //[Reference] 'Players: {0-playerlist}'
-commands.players.success=Players: {0-playerlist}
-//[Reference] '^c:F2E200;playExpression ^c:FFFFFF;expressionCode (optional)displayTime'
-commands.playExpression.description=^c:F2E200;playExpression ^c:FFFFFF;expressionCode (optional)displayTime
+commands.players.success=플레이어: {0-playerlist}
+//TODO Translate [Reference] '^c:F2E200;playExpression ^c:FFFFFF;expressionCode (optional)displayTime'
+commands.playExpression.description=
 //[Reference] 'Aliases:'
-commands.playExpression.list=Aliases:
+commands.playExpression.list=별명:
 //[Reference] 'Expression not found {0-expression}'
-commands.playExpression.noExpression=Expression not found {0-expression}
+commands.playExpression.noExpression=표현 {0-expression} 을 찾을 수 없습니다.
 //[Reference] 'Expression played successfully'
-commands.playExpression.success=Expression played successfully
-//[Reference] '^c:F2E200;position ^c:FFFFFF;(optional)playerName'
-commands.position.description=^c:F2E200;position ^c:FFFFFF;(optional)playerName
+commands.playExpression.success=표현이 성공적으로 재생되었습니다.
+//TODO Translate [Reference] '^c:F2E200;position ^c:FFFFFF;(optional)playerName'
+commands.position.description=
 //[Reference] 'Failed to find player'
-commands.position.failed=Failed to find player
+commands.position.failed=플레이어를 찾을 수 없습니다.
 //[Reference] 'Position: {0-position}, Heading: {1-heading}'
-commands.position.success=Position: {0-position}, Heading: {1-heading}
-//[Reference] '^c:F2E200;qs ^c:FFFFFF;(optional)startFlying(true/false)'
-commands.quickStart.altDescription=^c:F2E200;qs ^c:FFFFFF;(optional)startFlying(true/false)
-//[Reference] '^c:F2E200;quickStart ^c:FFFFFF;(optional)startFlying(true/false)'
-commands.quickStart.description=^c:F2E200;quickStart ^c:FFFFFF;(optional)startFlying(true/false)
+commands.position.success=위치: {0-position}, 방향: {1-heading}
+//TODO Translate [Reference] '^c:F2E200;qs ^c:FFFFFF;(optional)startFlying(true/false)'
+commands.quickStart.altDescription=
+//TODO Translate [Reference] '^c:F2E200;quickStart ^c:FFFFFF;(optional)startFlying(true/false)'
+commands.quickStart.description=
 //[Reference] 'Quick start success. Switched flying mode to: {0-flymode}'
-commands.quickStart.success=Quick start success. Switched flying mode to: {0-flymode}
+commands.quickStart.success=빠른 시작 성공. 비행 모드를 변경합니다.: {0-flymode}
 commands.rain.description=
 //[Reference] 'Made it a rainy day.'
-commands.rain.success=Made it a rainy day.
-//[Reference] '^c:F2E200;reload'
-commands.reload.description=^c:F2E200;reload
+commands.rain.success=비가 오도록 변경하였습니다.
+//TODO Translate [Reference] '^c:F2E200;reload'
+commands.reload.description=
 //[Reference] 'Reload requested.'
-commands.reload.success=Reload requested.
+commands.reload.success=새로 요청되었습니다.
 //TODO Translate [Reference] '^c:F2E200;resetOffmap ^c:FFFFFF;offmapTemplateCode'
 commands.resetOffmap.description=
 //TODO Translate [Reference] 'Offmap reset complete.'
 commands.resetOffmap.success=
-//[Reference] '^c:F2E200;resetplayer'
-commands.resetPlayer.description=^c:F2E200;resetplayer
+//TODO Translate [Reference] '^c:F2E200;resetplayer'
+commands.resetPlayer.description=
 //[Reference] 'Reset successful.'
-commands.resetPlayer.success=Reset successful.
+commands.resetPlayer.success=성공적으로 초기화되었습니다.
 commands.returnhome.description=
-//[Reference] '^c:F2E200;saveDesign ^c:FFFFFF;fileName'
-commands.saveDesign.description=^c:F2E200;saveDesign ^c:FFFFFF;fileName
+//TODO Translate [Reference] '^c:F2E200;saveDesign ^c:FFFFFF;fileName'
+commands.saveDesign.description=
 //[Reference] 'A filename is required to save a design'
-commands.saveDesign.needFileName=A filename is required to save a design
+commands.saveDesign.needFileName=디자인을 저장하려면 파일명이 필요합니다.
 //[Reference] 'Character design file saved at {0-path}'
-commands.saveDesign.success=Character design file saved at {0-path}
-//[Reference] '^c:F2E200;saveOutfit ^c:FFFFFF;fileName'
-commands.saveOutfit.description=^c:F2E200;saveOutfit ^c:FFFFFF;fileName
+commands.saveDesign.success=캐릭터 디자인 파일이 {0-path} 에 저장되었습니다.
+//TODO Translate [Reference] '^c:F2E200;saveOutfit ^c:FFFFFF;fileName'
+commands.saveOutfit.description=
 //[Reference] 'Character outfit file saved at {0-path}'
-commands.saveOutfit.success=Character outfit file saved at {0-path}
-//[Reference] '^c:F2E200;seed'
-commands.seed.description=^c:F2E200;seed
-//[Validate] Delete this comment if or when the translation is accurate.
+commands.saveOutfit.success=캐릭터 복장 파일이 {0-path} 에 저장되었습니다.
+//TODO Translate [Reference] '^c:F2E200;seed'
+commands.seed.description=
 //[Reference] 'Seed: {0-seed}, World Size: {1-worldSize}x'
-commands.seed.success=Seed: {0-seed}
-//[Reference] '^c:F2E200;creativeMode ^c:FFFFFF;(optional)on(true/false)'
-commands.serverCreative.description=^c:F2E200;creativeMode ^c:FFFFFF;(optional)on(true/false)
+commands.seed.success=고유 번호: {0-seed}, 맵 크기: {1-worldSize}x
+//TODO Translate [Reference] '^c:F2E200;creativeMode ^c:FFFFFF;(optional)on(true/false)'
+commands.serverCreative.description=
 //[Reference] 'Switched server creative mode to {0-creative} (persistent)'
-commands.serverCreative.success=Switched server creative mode to {0-creative} (persistent)
+commands.serverCreative.success=서버를 {0-creative} 크리에이티브 (영구) 모드로 변경했습니다.
 commands.snow.description=
 //[Reference] 'Made it a snowy day.'
-commands.snow.success=Made it a snowy day.
-//[Reference] '^c:F2E200;spawncoins ^c:FFFFFF;(optional)playerName petalAmount'
-commands.spawnCoins.description=^c:F2E200;spawncoins ^c:FFFFFF;(optional)playerName petalAmount
+commands.snow.success=눈이 오도록 변경하였습니다.
+//TODO Translate [Reference] '^c:F2E200;spawncoins ^c:FFFFFF;(optional)playerName petalAmount'
+commands.spawnCoins.description=
 //[Reference] 'Spawned {0-amount} petals in coins for {1-player}'
-commands.spawnCoins.success=Spawned {0-amount} petals in coins for {1-player}
-//[Reference] '^c:F2E200;spawnitem ^c:FFFFFF;(optional)playerName item(kind/specification{})'
-commands.spawnItem.description=^c:F2E200;spawnitem ^c:FFFFFF;(optional)playerName item(kind/specification{})
+commands.spawnCoins.success={1-player}의 동전에 {0-amount} 닢의 동전을 주었습니다.
+//TODO Translate [Reference] '^c:F2E200;spawnitem ^c:FFFFFF;(optional)playerName item(kind/specification{})'
+commands.spawnItem.description=
 //[Reference] 'Item not found.'
-commands.spawnItem.notFound=Item not found.
+commands.spawnItem.notFound=존재하지 않는 아이템입니다.
 //[Reference] 'Spawn item successful.'
-commands.spawnItem.success=Spawn item successful.
-//[Reference] '^c:F2E200;spawnmaterial ^c:FFFFFF;(optional)playerName materialCode'
-commands.spawnMaterial.description=^c:F2E200;spawnmaterial ^c:FFFFFF;(optional)playerName materialCode
+commands.spawnItem.success=아이템이 성공적으로 소환되었습니다.
+//TODO Translate [Reference] '^c:F2E200;spawnmaterial ^c:FFFFFF;(optional)playerName materialCode'
+commands.spawnMaterial.description=
 //[Reference] 'Material kind not found.'
-commands.spawnMaterial.notFound=Material kind not found.
+commands.spawnMaterial.notFound=존재하지 않는 종류의 재료입니다.
 //[Reference] 'Spawn material successful'
-commands.spawnMaterial.success=Spawn material successful
-//TODO Translate [Reference] '^c:F2E200;spawnStars ^c:FFFFFF;(optional)amount'
-commands.spawnStars.description=
-//TODO Translate [Reference] 'Failed to spawn star bits item.'
-commands.spawnStars.failed=
-//TODO Translate [Reference] 'Star amount is not a valid positive number.'
-commands.spawnStars.invalidNumber=
-//TODO Translate [Reference] 'Spawn star success.'
-commands.spawnStars.success=
+commands.spawnMaterial.success=재료가 성공적으로 소환되었습니다.
+//[Reference] '^c:F2E200;spawnStars ^c:FFFFFF;(optional)amount'
+commands.spawnStars.description=^c:F2E200;spawnStars ^c:FFFFFF;(필요시에만)양
+//[Reference] 'Failed to spawn star bits item.'
+commands.spawnStars.failed=별 소환에 실패했습니다.
+//[Reference] 'Star amount is not a valid positive number.'
+commands.spawnStars.invalidNumber=별 소환의 양이 유효한 양수 값이 아닙니다.
+//[Reference] 'Spawn star success.'
+commands.spawnStars.success=별을 소환했습니다.
 //[Reference] '^c:F2E200;spawntile ^c:FFFFFF;(optional)playerName tileCode'
-commands.spawnTile.description=^c:F2E200;spawntile ^c:FFFFFF;(optional)playerName tileCode
+commands.spawnTile.description=^c:F2E200;spawntile ^c:FFFFFF;(추가적으로)플레이어이름 타일코드
 //[Reference] 'Tile kind not found.'
-commands.spawnTile.notFound=Tile kind not found.
+commands.spawnTile.notFound=존재하지 않는 타일 종류입니다.
 //[Reference] 'Spawn tile successful.'
-commands.spawnTile.success=Spawn tile successful.
-//[Reference] '^c:F2E200;stealpetals ^c:FFFFFF;amount (optional)remove(true/false)'
-commands.stealPetals.description=^c:F2E200;stealpetals ^c:FFFFFF;amount (optional)remove(true/false)
+commands.spawnTile.success=타일이 성공적으로 소환되었습니다.
+//TODO Translate [Reference] '^c:F2E200;stealpetals ^c:FFFFFF;amount (optional)remove(true/false)'
+commands.stealPetals.description=
 //[Reference] 'Reset must be true or false.'
-commands.stealPetals.invalidReset=Reset must be true or false.
+commands.stealPetals.invalidReset=초기화는 참(true) 또는 거짓(false)이어야만 합니다.
 //[Reference] '{0-player} stole {1-amount} petals'
-commands.stealPetals.success={0-player} stole {1-amount} petals
+commands.stealPetals.success={0-player}가 {1-amount}개의 동전을 훔쳤습니다.
 //[Reference] '{0-player} is no longer a thief.'
-commands.stealPetals.success.reset={0-player} is no longer a thief.
+commands.stealPetals.success.reset={0-player}는 더이상 도둑이 아닙니다.
 //[Reference] '{0-player} stole {1-amount} petals. Thief!'
-commands.stealPetals.success.thief={0-player} stole {1-amount} petals. Thief!
-//[Validate] Delete this comment if or when the translation is accurate.
+commands.stealPetals.success.thief={0-player}가 {1-amount}개의 동전잎을 훔쳤습니다. 도둑이야!
 //[Reference] '^c:F2E200;stopTime ^c:FFFFFF;Stops time'
 commands.stopTime.description=^c:F2E200;stopTime
-//[Validate] Delete this comment if or when the translation is accurate.
 //[Reference] 'Time Stopped'
-commands.stopTime.stop=Time stopped
+commands.stopTime.stop=시간 멈춤
 commands.sun.description=
 //[Reference] 'Made it a sunny day.'
-commands.sun.success=Made it a sunny day.
-//[Reference] '^c:F2E200;teleport ^c:FFFFFF;(optional)playerName location({0,0,0})'
-commands.teleport.description=^c:F2E200;teleport ^c:FFFFFF;(optional)playerName location({0,0,0})
+commands.sun.success=화창한 날씨로 변경하였습니다.
+//TODO Translate [Reference] '^c:F2E200;teleport ^c:FFFFFF;(optional)playerName location({0,0,0})'
+commands.teleport.description=
 //[Reference] '{0-position} is too far to teleport'
-commands.teleport.distance={0-position} is too far to teleport
+commands.teleport.distance={0-position} 은 순간이동 하기에는 너무 멉니다.
 //[Reference] 'Failed to parse position {0-position}'
-commands.teleport.fail=Failed to parse position {0-position}
+commands.teleport.fail=해당 {0-position} 위치를 해석하지 못하였습니다.
 //[Reference] 'Teleport successful.'
-commands.teleport.success=Teleport successful.
-//[Reference] '^c:F2E200;tp ^c:FFFFFF;movingPlayerName destinationPlayerName'
-commands.teleportPlayer.description=^c:F2E200;tp ^c:FFFFFF;movingPlayerName destinationPlayerName
+commands.teleport.success=순간이동이 완료되었습니다.
+//TODO Translate [Reference] '^c:F2E200;tp ^c:FFFFFF;movingPlayerName destinationPlayerName'
+commands.teleportPlayer.description=
 commands.textToSpeech.description=
 //[Reference] 'Saying text.'
-commands.textToSpeech.success=Saying text.
+commands.textToSpeech.success=말하는 중.
 commands.thunder.description=
 //[Reference] 'success'
-commands.thunder.success=success
-//[Reference] '^c:F2E200;tileAt ^c:FFFFFF;(optional)location({0,0,0})'
-commands.tileAt.description=^c:F2E200;tileAt ^c:FFFFFF;(optional)location({0,0,0})
+commands.thunder.success=성공
+//TODO Translate [Reference] '^c:F2E200;tileAt ^c:FFFFFF;(optional)location({0,0,0})'
+commands.tileAt.description=
 //[Reference] 'Failed to parse position {0-position}'
-commands.tileAt.failParse=Failed to parse position {0-position}
+commands.tileAt.failParse=해당 {0-position} 위치를 해석하지 못하였습니다.
 //[Reference] 'Tile not found'
-commands.tileAt.notFound=Tile not found
+commands.tileAt.notFound=존재하지 않는 타일입니다.
 //[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: false, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
-commands.tileAt.success.false=Tile code: {0-tilecode} at {1-position} (compoundFiller: false, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})
+commands.tileAt.success.false=블럭 코드: {0-tilecode} 위치 {1-position} (compoundFiller: false, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})
 //[Reference] 'Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})'
-commands.tileAt.success.true=Tile code: {0-tilecode} at {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})
-//TODO Translate [Reference] '^c:F2E200;toggleTimePassing ^c:FFFFFF;Toggles the passing of time'
-commands.toggleTimePassing.description=
-//TODO Translate [Reference] 'Time Resumed'
-commands.toggleTimePassing.resume=
-//TODO Translate [Reference] 'Time Stopped'
-commands.toggleTimePassing.stop=
+commands.tileAt.success.true=블럭 코드: {0-tilecode} 위치 {1-position} (compoundFiller: true, rotation: {2-rotation}, alt: {3-alt}, chunk: {4-chunk})
+//[Reference] '^c:F2E200;toggleTimePassing ^c:FFFFFF;Toggles the passing of time'
+commands.toggleTimePassing.description=^c:F2E200;toggleTimePassing ^c:FFFFFF;시간을 멈췄다 계속할수 있습니다.
+//[Reference] 'Time Resumed'
+commands.toggleTimePassing.resume=시간 계속됨
+//[Reference] 'Time Stopped'
+commands.toggleTimePassing.stop=시간 정지됨
 commands.traceStart.description=
 //[Reference] 'Started tracing.'
-commands.traceStart.success=Started tracing.
+commands.traceStart.success=추적을 시작합니다.
 commands.traceStop.description=
 //[Reference] 'Stopped tracing.'
-commands.traceStop.success=Stopped tracing.
+commands.traceStop.success=추적을 중지합니다.
 commands.tripod.description=
-//[Reference] '^c:F2E200;unban ^c:FFFFFF;playerName'
-commands.unban.description=^c:F2E200;unban ^c:FFFFFF;playerName
+//TODO Translate [Reference] '^c:F2E200;unban ^c:FFFFFF;playerName'
+commands.unban.description=
 //[Reference] 'Unable to unban {0-player}: player was not banned.'
-commands.unban.failure=Unable to unban {0-player}: player was not banned.
+commands.unban.failure={0-player}의 제명을 취소하지 못했습니다: 제명된 플레이어가 아닙니다.
 //[Reference] '{0-player} has been unbanned from the server.'
-commands.unban.success={0-player} has been unbanned from the server.
+commands.unban.success={0-player}는 해당 게임으로부터 제명 해제되었습니다.
 //[Reference] 'Unknown command :'{0-command}''
-commands.unknown=Unknown command :'{0-command}'
+commands.unknown=알 수 없는 명령어입니다 :'{0-command}'
 //[Reference] 'Unknown error.'
-commands.unknownError=Unknown error.
-//[Reference] '^c:F2E200;unmute ^c:FFFFFF;playerName'
-commands.unmute.description=^c:F2E200;unmute ^c:FFFFFF;playerName
+commands.unknownError=알 수 없는 문제가 발생했습니다.
+//TODO Translate [Reference] '^c:F2E200;unmute ^c:FFFFFF;playerName'
+commands.unmute.description=
 //[Reference] 'Unable to unmute {0-player}: player is not muted.'
-commands.unmute.failure=Unable to unmute {0-player}: player is not muted.
+commands.unmute.failure={0-player}의 음소거를 해제하지 못했습니다: 침묵된 플레이어가 아닙니다.
 //[Reference] '{0-player} has regained the ability to speak.'
-commands.unmute.success={0-player} has regained the ability to speak.
+commands.unmute.success={0-player}의 말문이 트였습니다!
 //[Reference] 'Unrecognised command :'{0-command}''
-commands.unrecognised=Unrecognised command :'{0-command}'
-//TODO Translate [Reference] '^c:F2E200;updateReputation ^c:FFFFFF;villagerName/Code amount'
-commands.updateReputation.description=
-//TODO Translate [Reference] 'Reputation updated to {0-newAmount} for villager {1-villagerCode}'
-commands.updateReputation.success=
-//TODO Translate [Reference] 'Villager Entity not found'
-commands.villagerEntityNotFound=
+commands.unrecognised=인식할 수 없는 명령어입니다 :'{0-command}'
+//[Reference] '^c:F2E200;updateReputation ^c:FFFFFF;villagerName/Code amount'
+commands.updateReputation.description=^c:F2E200;updateReputation ^c:FFFFFF;주민이름/코드
+//[Reference] 'Reputation updated to {0-newAmount} for villager {1-villagerCode}'
+commands.updateReputation.success={1-villagerCode}에 대한 {0-newAmount}만큼의 명성 업데이트됨
+//[Reference] 'Villager Entity not found'
+commands.villagerEntityNotFound=해당 주민을 찾을수 없었습니다.
 //TODO Translate [Reference] 'Villager not found'
 commands.villagerNotFound=
 //[Reference] '^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)'
-commands.weather.description=^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm or weather code.)
+commands.weather.description=^c:F2E200;weather ^c:FFFFFF;Type (Sun, Rain, Snow, Storm 이나 다른 날짜 코드)
 //[Reference] 'Unable to set weather: {0-weather}. Does not exist.'
-commands.weather.noweather=Unable to set weather: {0-weather}. Does not exist.
+commands.weather.noweather=해당 날씨로 변경할 수 없습니다: {0-weather}. 존재하지 않는 날씨입니다.
 //[Reference] 'Set weather to: {0-weather}.'
-commands.weather.success=Set weather to: {0-weather}.
+commands.weather.success=해당 날씨로 변경하였습니다: {0-weather}.
