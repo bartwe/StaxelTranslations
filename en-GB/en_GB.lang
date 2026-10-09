@@ -111,8 +111,9 @@ crafting.action.task.multiItem={0-keyword} {1-listedItems} and {2-lastListedItem
 crafting.action.task.multiples={0-count}x {1-item}
 crafting.action.task.oneItem={0-keyword} {1-item}
 crafting.notifications.failedCraft=That wasn't a recipe, Oops!
-crafting.notifications.notACraft=You can't make anything with these items...
-crafting.notifications.NotEnough=You don't have enough reagents anymore.
+crafting.notifications.notACraft=No recipe matches these items here. Check the station, ingredients and amounts.
+crafting.notifications.NotEnough=You need more ingredients in your inventory to refill this station.
+crafting.notifications.MissingRedockIngredient=To refill, you need {0-count}x {1-item} in your inventory.
 
 crafting.recipeComplete=The recipe for {0-item} was just completed!
 
